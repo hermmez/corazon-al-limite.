@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "remotion studio src/index.ts",
     "build": "remotion compositions src/index.ts",
-    "render": "remotion render src/index.ts CorazonAlLimite out/corazon-al-limite.mp4 --gl=angle"
+    "render": "remotion render src/index.ts CorazonAlLimite out/corazon-al-limite.mp4 --gl=swangle"
   },
   "dependencies": {
     "@react-three/fiber": "^8.18.0",
