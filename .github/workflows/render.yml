@@ -1,8 +1,10 @@
-
 name: Renderizar video Remotion
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - codex/cinematic-visuals
 
 permissions:
   contents: read
@@ -36,3 +38,4 @@ jobs:
           name: corazon-al-limite-video
           path: out/corazon-al-limite.mp4
           if-no-files-found: error
+
