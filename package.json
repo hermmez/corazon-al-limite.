@@ -10,7 +10,9 @@
     "validate:prueba2d": "node scripts/validar-prueba2d.mjs",
     "render:prueba2d": "remotion render src/index.ts Prueba2D out/prueba2d.mp4 --codec=h264 --pixel-format=yuv420p --crf=20",
     "validate:demo": "node scripts/validar-demo-profesional.mjs",
-    "render:demo": "remotion render src/index.ts DemoProfesional2D out/demo-profesional-2d.mp4 --codec=h264 --pixel-format=yuv420p --crf=18"
+    "render:demo": "remotion render src/index.ts DemoProfesional2D out/demo-profesional-2d.mp4 --codec=h264 --pixel-format=yuv420p --crf=18",
+    "validate:fluida": "node scripts/validar-demo-fluida.mjs",
+    "render:fluida": "remotion render src/index.ts DemoProfesional2DFluida out/demo-profesional-2d-fluida.mp4 --codec=h264 --pixel-format=yuv420p --crf=18"
   },
   "dependencies": {
     "@remotion/cli": "^4.0.0",
