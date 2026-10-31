@@ -1,0 +1,363 @@
+{
+  "version": 1,
+  "reference": "public/imagenes/referencias/personaje-maestro.png",
+  "reference_sha256": "ca6a8434707cc0eb6691715a7f05d8e4ed9f0be20a44bd423b410165261f39d9",
+  "format": "PNG RGBA",
+  "native_size": [
+    1024,
+    1536
+  ],
+  "target_count": 30,
+  "assets": [
+    {
+      "id": 1,
+      "name": "neutral",
+      "file": "01_neutral.png",
+      "status": "generated",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing front facing, relaxed separated arms, small friendly smile.",
+      "anchor": [
+        0.5,
+        0.98
+      ],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "e9d71d28f4e6dd744f9e5985c1e9632052c0cf5d842c6230bd23fb22dc7a8410",
+      "visual_review": "passed: identity, single pose, hands, full body; white-background composite inspected"
+    },
+    {
+      "id": 2,
+      "name": "explicando",
+      "file": "02_explicando.png",
+      "status": "generated",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing front facing, open speaking mouth, one forearm raised palm up explaining.",
+      "anchor": [
+        0.5,
+        0.98
+      ],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "54b2f8cff8b415464079e68ec83d01c3b21a5c466d74f014f3db8b99b79bd252",
+      "visual_review": "passed: identity, single pose, hands, full body; white-background composite inspected"
+    },
+    {
+      "id": 3,
+      "name": "senalando_derecha",
+      "file": "03_senalando_derecha.png",
+      "status": "generated",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, index finger pointing toward viewer right above shoulder, eyes follow finger.",
+      "anchor": [
+        0.5,
+        0.98
+      ],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "5a707dab13ec575a6b2b9ad3bad8dcd7959e6c4546449140b5078f0e579975a4",
+      "visual_review": "passed: identity, single pose, hands, full body; white-background composite inspected"
+    },
+    {
+      "id": 4,
+      "name": "pensando",
+      "file": "04_pensando.png",
+      "status": "generated",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, one hand on chin, other supports elbow, eyes look up thoughtfully.",
+      "anchor": [
+        0.5,
+        0.98
+      ],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "172b824532fe4e5987761226055a6ed893e66726d48b9133948b7b57b4d3b72d",
+      "visual_review": "passed: identity, single pose, hands, full body; white-background composite inspected"
+    },
+    {
+      "id": 5,
+      "name": "cansado",
+      "file": "05_cansado.png",
+      "status": "generated",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing slightly slouched, one hand rubbing an eye, sleepy expression.",
+      "anchor": [
+        0.5,
+        0.98
+      ],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "41a64f6fcfdacaded0f26293dfae2a432016b9cd6685ee8e93531b432d52aa0a",
+      "visual_review": "passed: identity, single pose, hands, full body; white-background composite inspected"
+    },
+    {
+      "id": 6,
+      "name": "saludando",
+      "file": "06_saludando.png",
+      "status": "pending",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, wave with one open hand at shoulder height, friendly smile.",
+      "anchor": [
+        0.5,
+        0.98
+      ]
+    },
+    {
+      "id": 7,
+      "name": "senalando_izquierda",
+      "file": "07_senalando_izquierda.png",
+      "status": "pending",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, index finger pointing toward viewer left, eyes follow finger.",
+      "anchor": [
+        0.5,
+        0.98
+      ]
+    },
+    {
+      "id": 8,
+      "name": "senalando_arriba",
+      "file": "08_senalando_arriba.png",
+      "status": "pending",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, one index finger pointing straight up, look up.",
+      "anchor": [
+        0.5,
+        0.98
+      ]
+    },
+    {
+      "id": 9,
+      "name": "senalando_abajo",
+      "file": "09_senalando_abajo.png",
+      "status": "pending",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, one index finger pointing down, look down.",
+      "anchor": [
+        0.5,
+        0.98
+      ]
+    },
+    {
+      "id": 10,
+      "name": "idea",
+      "file": "10_idea.png",
+      "status": "pending",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, index finger raised beside face as if having an idea, excited smile. No light bulb.",
+      "anchor": [
+        0.5,
+        0.98
+      ]
+    },
+    {
+      "id": 11,
+      "name": "sorprendido",
+      "file": "11_sorprendido.png",
+      "status": "pending",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, raised eyebrows, round open mouth, both hands slightly lifted.",
+      "anchor": [
+        0.5,
+        0.98
+      ]
+    },
+    {
+      "id": 12,
+      "name": "preocupado",
+      "file": "12_preocupado.png",
+      "status": "pending",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, worried eyebrows, hands clasped at waist.",
+      "anchor": [
+        0.5,
+        0.98
+      ]
+    },
+    {
+      "id": 13,
+      "name": "feliz",
+      "file": "13_feliz.png",
+      "status": "pending",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, wide cheerful smile, relaxed open arms.",
+      "anchor": [
+        0.5,
+        0.98
+      ]
+    },
+    {
+      "id": 14,
+      "name": "triste",
+      "file": "14_triste.png",
+      "status": "pending",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, head slightly lowered, sad eyes, arms relaxed.",
+      "anchor": [
+        0.5,
+        0.98
+      ]
+    },
+    {
+      "id": 15,
+      "name": "confundido",
+      "file": "15_confundido.png",
+      "status": "pending",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, one hand scratching side of head, puzzled brows.",
+      "anchor": [
+        0.5,
+        0.98
+      ]
+    },
+    {
+      "id": 16,
+      "name": "aprobando",
+      "file": "16_aprobando.png",
+      "status": "pending",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, one thumbs up at chest height, confident smile.",
+      "anchor": [
+        0.5,
+        0.98
+      ]
+    },
+    {
+      "id": 17,
+      "name": "negando",
+      "file": "17_negando.png",
+      "status": "pending",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, one raised index finger with a serious cautioning expression.",
+      "anchor": [
+        0.5,
+        0.98
+      ]
+    },
+    {
+      "id": 18,
+      "name": "bostezando",
+      "file": "18_bostezando.png",
+      "status": "pending",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, eyes closed, one hand covering a yawn.",
+      "anchor": [
+        0.5,
+        0.98
+      ]
+    },
+    {
+      "id": 19,
+      "name": "estirandose",
+      "file": "19_estirandose.png",
+      "status": "pending",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, both arms stretched above head, sleepy face. Keep all hands in frame.",
+      "anchor": [
+        0.5,
+        0.98
+      ]
+    },
+    {
+      "id": 20,
+      "name": "respirando",
+      "file": "20_respirando.png",
+      "status": "pending",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing upright, eyes gently closed, one hand on belly, calm breathing pose.",
+      "anchor": [
+        0.5,
+        0.98
+      ]
+    },
+    {
+      "id": 21,
+      "name": "estresado",
+      "file": "21_estresado.png",
+      "status": "pending",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, both hands on temples, tense worried expression.",
+      "anchor": [
+        0.5,
+        0.98
+      ]
+    },
+    {
+      "id": 22,
+      "name": "dolor_cabeza",
+      "file": "22_dolor_cabeza.png",
+      "status": "pending",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, one hand on forehead, eyes squinting from headache; no symbols.",
+      "anchor": [
+        0.5,
+        0.98
+      ]
+    },
+    {
+      "id": 23,
+      "name": "dolor_estomago",
+      "file": "23_dolor_estomago.png",
+      "status": "pending",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, both hands over abdomen, slightly bent forward, uncomfortable expression.",
+      "anchor": [
+        0.5,
+        0.98
+      ]
+    },
+    {
+      "id": 24,
+      "name": "mano_pecho",
+      "file": "24_mano_pecho.png",
+      "status": "pending",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, one open palm resting on chest, attentive neutral expression.",
+      "anchor": [
+        0.5,
+        0.98
+      ]
+    },
+    {
+      "id": 25,
+      "name": "bebiendo_agua",
+      "file": "25_bebiendo_agua.png",
+      "status": "pending",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, drinking from a simple transparent water glass; only one glass as prop.",
+      "anchor": [
+        0.5,
+        0.98
+      ]
+    },
+    {
+      "id": 26,
+      "name": "durmiendo_lado",
+      "file": "26_durmiendo_lado.png",
+      "status": "pending",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Same character lying horizontally on side asleep, eyes closed, hands together under cheek; no bed or pillow; whole body in frame.",
+      "anchor": [
+        0.5,
+        0.98
+      ]
+    },
+    {
+      "id": 27,
+      "name": "caminando",
+      "file": "27_caminando.png",
+      "status": "pending",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Three-quarter view walking pose mid stride, opposing arm swing, full body.",
+      "anchor": [
+        0.5,
+        0.98
+      ]
+    },
+    {
+      "id": 28,
+      "name": "corriendo",
+      "file": "28_corriendo.png",
+      "status": "pending",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Three-quarter view running pose, bent elbows, one knee lifted, energetic expression.",
+      "anchor": [
+        0.5,
+        0.98
+      ]
+    },
+    {
+      "id": 29,
+      "name": "sentado",
+      "file": "29_sentado.png",
+      "status": "pending",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Sitting with knees bent at right angle, hands on thighs, no chair drawn, full body.",
+      "anchor": [
+        0.5,
+        0.98
+      ]
+    },
+    {
+      "id": 30,
+      "name": "despedida",
+      "file": "30_despedida.png",
+      "status": "pending",
+      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, both open palms presented outward at chest height, warm closing smile.",
+      "anchor": [
+        0.5,
+        0.98
+      ]
+    }
+  ]
+}
