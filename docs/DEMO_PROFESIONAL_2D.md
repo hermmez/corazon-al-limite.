@@ -94,3 +94,15 @@ render completo, FFprobe y decodificación integral con FFmpeg.
 
 El [informe de entrega](../out/demo-profesional-2d-verificacion.json) registra
 los metadatos reales, hashes y comparación de los archivos preservados.
+
+## Descarga directa y vista previa ligera
+
+Para dispositivos que no reproducen la página del archivo en GitHub:
+
+- [Descargar vista previa de 2,4 MB](https://github.com/hermmez/corazon-al-limite./raw/refs/heads/demo-profesional-2d/out/demo-profesional-2d-vista-previa.mp4).
+- [Descargar original de 1080p](https://github.com/hermmez/corazon-al-limite./raw/refs/heads/demo-profesional-2d/out/demo-profesional-2d.mp4).
+
+La vista previa conserva los 30 segundos completos a 720 × 1280, 30 FPS,
+H.264 Main y YUV420p. Tiene el índice MP4 al principio para facilitar la
+reproducción progresiva. No reemplaza ni modifica el original. Tras descargar,
+abrir el archivo MP4 en el reproductor del teléfono o del ordenador.

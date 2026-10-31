@@ -137,5 +137,35 @@
     "src/Prueba2D/Visuals.tsx": "e7eb5591f9be9ff31e3b6153c54ea63e9e452a7336315362b3a6cde5ad880c4c",
     "src/index.ts": "c57241f29fa7453ca8da123815176cd88ce6e634d6bd403a1972c5e78e6992dc"
   },
-  "wardrobe_note": "Los PNG oficiales existentes muestran camiseta turquesa. Se preservan sin cambios."
+  "wardrobe_note": "Los PNG oficiales existentes muestran camiseta turquesa. Se preservan sin cambios.",
+  "mobile_preview": {
+    "file": "out/demo-profesional-2d-vista-previa.mp4",
+    "sha256": "1eac3225822192477e48d175b0555c4917adc686338b06108b9f548a5a843491",
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "Main",
+          "width": 720,
+          "height": 1280,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "30/1",
+          "duration": "30.000000",
+          "nb_frames": "900",
+          "side_data_list": [
+            {}
+          ]
+        }
+      ],
+      "format": {
+        "duration": "30.000000",
+        "size": "2459625"
+      }
+    },
+    "faststart": true,
+    "full_decode": "passed",
+    "original_video_unchanged": true
+  }
 }
