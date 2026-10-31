@@ -168,56 +168,81 @@
       "id": 11,
       "name": "sorprendido",
       "file": "11_sorprendido.png",
-      "status": "pending",
+      "status": "generated",
       "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Standing front facing, startled raised eyebrows, eyes wide, small round open mouth, both open hands lifted beside cheeks, palms facing viewer.",
       "anchor": [
         0.5,
         0.98
-      ]
+      ],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "ec4b86a029086ad45a10a67ba57076fef0ac992999913721ed4ba798602fb3d3",
+      "git_blob_sha": "88a04ad4dcc9d593697fc0f35acbd27bc82d60a3",
+      "visual_review": "passed: approved reference identity, distinct single pose, full figure; anatomical views are simplified schematics"
     },
     {
       "id": 12,
       "name": "preocupado",
       "file": "12_preocupado.png",
-      "status": "pending",
+      "status": "generated",
       "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Standing front facing, brows angled with concern, mouth small worried curve, both hands clasped at waist, shoulders slightly hunched.",
       "anchor": [
         0.5,
         0.98
-      ]
+      ],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "9d28eb2c6528975737065b937f9148995837823bea26a23f0a2afb179c182377",
+      "git_blob_sha": "388bbee43718cd8c4706ff1d78bfcd33a5ef7b29",
+      "visual_review": "passed: approved reference identity, distinct single pose, full figure; anatomical views are simplified schematics"
     },
     {
       "id": 13,
       "name": "feliz",
       "file": "13_feliz.png",
-      "status": "pending",
+      "status": "generated",
       "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Standing front facing, joyful laughing expression eyes curved shut, broad open smile, both arms open outward in welcoming celebration, hands relaxed.",
       "anchor": [
         0.5,
         0.98
-      ]
+      ],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "626492d5dee9d3e360002f81c3f0027a791123913cf5581d95fea79c1fd777e9",
+      "git_blob_sha": "55cb9c50ea8fdc1388b0b7a54bfc776609c64c5c",
+      "visual_review": "passed: approved reference identity, distinct single pose, full figure; anatomical views are simplified schematics"
     },
     {
       "id": 14,
       "name": "triste",
       "file": "14_triste.png",
-      "status": "pending",
+      "status": "generated",
       "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Standing front facing with head lowered, sad drooping brows, closed downturned mouth, arms hanging and shoulders slumped. No tears or extra props.",
       "anchor": [
         0.5,
         0.98
-      ]
+      ],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "824976fd5ba79449a5c2d1dd8d09f67187c5cfdeafd1a501d2333818e4a05bf2",
+      "git_blob_sha": "ddb37108747d49909cece7b5daf34374193d87df",
+      "visual_review": "passed: approved reference identity, distinct single pose, full figure; anatomical views are simplified schematics"
     },
     {
       "id": 15,
       "name": "confundido",
       "file": "15_confundido.png",
-      "status": "pending",
+      "status": "generated",
       "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Standing front facing, one hand scratching side/back of head, other hand palm up near waist, one eyebrow raised, puzzled half-smile.",
       "anchor": [
         0.5,
         0.98
-      ]
+      ],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "d70ea15fc0d47db1137b590d34e1e814001936e2a86f8e8b5c8abdada5686f63",
+      "git_blob_sha": "979a79b19f6163e33754d12cb634fef78081089f",
+      "visual_review": "passed: approved reference identity, distinct single pose, full figure; anatomical views are simplified schematics"
     },
     {
       "id": 16,
