@@ -1,0 +1,28 @@
+RECURSOS DE REFERENCIA — VIDEO “¿QUÉ PASA EN TU CUERPO CUANDO DEJAS DE DORMIR?”
+Formato objetivo: vertical 1080x1920, 30 fps, 90 segundos.
+
+IMPORTANTE:
+Este ZIP contiene LÁMINAS DE REFERENCIA / CONTACT SHEETS generadas para definir el estilo y los recursos.
+NO contiene todavía cada cerebro, neurona, ojo, órgano o efecto como PNG independiente.
+No recortes automáticamente las miniaturas de estas láminas para usarlas como assets finales: contienen rótulos, marcos y fondos, y no equivalen a archivos transparentes separados.
+
+CÓMO USARLO:
+1. Extrae el ZIP.
+2. Copia la carpeta “referencias” dentro del proyecto Remotion, por ejemplo:
+   corazon-al-limite/public/imagenes/referencias/
+3. Abre Codex en la carpeta raíz del proyecto.
+4. Pega el prompt incluido en PROMPT_PARA_CODEX.txt.
+
+OBJETIVO DEL PROMPT:
+Pedirle a Codex que audite el proyecto y use estas láminas solo como referencia artística.
+Después debe preparar un inventario de assets individuales que faltan y proponer/crear recursos separados
+(idealmente PNG con transparencia o SVG por capas), sin afirmar que los tiene si no existen.
+La animación debe usar Remotion como motor de composición y renderizado.
+
+ESTILO VISUAL:
+Negro profundo, blanco y naranja coral; visual médico/cinematográfico; tipografía editorial condensada;
+movimiento de cámara, parallax por capas, animación independiente, pulsos neuronales y transiciones diseñadas.
+
+RENDIMIENTO:
+La computadora objetivo tiene 4 GB de RAM. Mantener previews ligeros, optimizar imágenes y evitar escenas
+innecesariamente pesadas. Renderizar primero una prueba de 10 segundos.

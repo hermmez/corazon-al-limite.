@@ -1,0 +1,28 @@
+Audita el proyecto actual antes de modificarlo.
+
+En public/imagenes/referencias/ encontrarás láminas de referencia visual para el video
+“¿Qué pasa en tu cuerpo cuando dejas de dormir?”. Úsalas únicamente como referencia de estilo,
+paleta, anatomía y tipos de recursos. No las trates como si fueran archivos individuales con transparencia.
+
+REQUISITOS:
+- Remotion debe ser el motor obligatorio de composición y renderizado.
+- No sustituyas los recursos anatómicos por círculos, líneas o figuras geométricas improvisadas.
+- Primero crea un inventario de los assets individuales que hacen falta para las 8 escenas.
+- Identifica qué recursos pueden reutilizarse y cuáles necesitan generarse o separarse en capas.
+- Si un asset no existe, dilo claramente; no inventes rutas ni declares que está disponible.
+- Para ilustraciones complejas, prepara archivos individuales. Para movimiento independiente, usa capas separadas
+  o SVG con elementos identificables. No pongas todos los elementos en una sola lámina.
+- Mantén el estilo: fondo negro profundo, blanco y naranja coral, acabado médico/cinematográfico,
+  tipografía editorial condensada.
+- Diseña movimiento real: cámara, parallax, desplazamientos, rotaciones, pulsos de luz, partículas,
+  transiciones y curvas de aceleración naturales. No dependas solo de zooms o fades.
+- Optimiza para una PC con 4 GB de RAM.
+
+ENTREGA POR ETAPAS:
+1. Informe de auditoría y lista de assets faltantes.
+2. Una prueba de 10 segundos usando recursos reales disponibles.
+3. Renderiza y verifica que el MP4 exista y se pueda reproducir.
+4. No continúes al video de 90 segundos hasta que la prueba visual sea aprobada.
+
+No afirmes que generaste PNG transparentes ni capas independientes si no están realmente creadas.
+No modifiques archivos ajenos al proyecto ni reemplaces recursos originales sin autorización.
