@@ -328,56 +328,81 @@
       "id": 21,
       "name": "caminando",
       "file": "21_caminando.png",
-      "status": "pending",
+      "status": "generated",
       "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Three-quarter view facing viewer right, WALKING midstride, one foot forward grounded, rear heel raised, natural opposite arm swing, attentive smile. Whole body.",
       "anchor": [
         0.5,
         0.98
-      ]
+      ],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "4c4b9b6a9b0b15b92a5ac204d1a9a90ecbf3b88c9052a8da78c9cd0aba2d700b",
+      "git_blob_sha": "905691fc558817649047cda5302650822ddb25aa",
+      "visual_review": "passed: approved reference identity, distinct single pose, full figure; anatomical views are simplified schematics"
     },
     {
       "id": 22,
       "name": "corriendo",
       "file": "22_corriendo.png",
-      "status": "pending",
+      "status": "generated",
       "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Three-quarter view facing viewer left, energetic RUNNING action with bent elbows and one knee lifted, rear leg kicked back, focused happy face. Whole body entirely visible.",
       "anchor": [
         0.5,
         0.98
-      ]
+      ],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "8afd899db441b5a673f3bd00916549cb1c6fdea83850eacab9273da35402709d",
+      "git_blob_sha": "eb9877e768b662d52cb43ebc396e1160c5c866e3",
+      "visual_review": "passed: approved reference identity, distinct single pose, full figure; anatomical views are simplified schematics"
     },
     {
       "id": 23,
       "name": "durmiendo",
       "file": "23_durmiendo.png",
-      "status": "pending",
+      "status": "generated",
       "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Same character peacefully SLEEPING curled on his side, eyes closed, both hands together under cheek, knees gently bent. Body lies horizontally, no bed no pillow no ground. Use landscape canvas if needed for native clarity. Same clothes, face, shoes and proportions.",
       "anchor": [
         0.5,
         0.98
-      ]
+      ],
+      "width": 1536,
+      "height": 1024,
+      "sha256": "da936acb7e06363a4ff2b1d1e7d7772c9683394c65d31181c0f356a4d18b50c5",
+      "git_blob_sha": "4afee9ca4dad625bcf7acc58740d3e99d33173ce",
+      "visual_review": "passed: approved reference identity, distinct single pose, full figure; anatomical views are simplified schematics"
     },
     {
       "id": 24,
       "name": "anatomia_cerebro",
       "file": "24_anatomia_cerebro.png",
-      "status": "pending",
+      "status": "generated",
       "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Educational non-gory cutaway of the SAME character, standing front facing full body with arms relaxed. Keep same face recognizable. A neat rounded window in UPPER cranium above eyebrows shows a simplified pink brain with two hemispheres and folded surface, safely contained inside skull; preserve eyes, nose, mouth and hair silhouette around window. No brain outside head, no exposed injury, no blood. Rest of body fully clothed unchanged. Same cartoon visual style.",
       "anchor": [
         0.5,
         0.98
-      ]
+      ],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "32cfb294cf5344b5a874e6166b15b20039649eadb965f8d455d07905ecac813d",
+      "git_blob_sha": "1ebfb25ce3b34b25645bb87a115106b487bbf12a",
+      "visual_review": "passed: approved reference identity, distinct single pose, full figure; anatomical views are simplified schematics"
     },
     {
       "id": 25,
       "name": "anatomia_corazon",
       "file": "25_anatomia_corazon.png",
-      "status": "pending",
+      "status": "generated",
       "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Educational non-gory cutaway of SAME character standing front facing full body, arms slightly away from torso. A neat chest window within teal t-shirt reveals ONLY a simplified anatomical red heart, located centrally behind breastbone and slightly toward CHARACTER left (viewer right), apex toward character left, major red/blue vessels emerging at top. Heart anatomically sized, not a heart emoji. Rest of shirt, face and clothes unchanged. No blood or injury.",
       "anchor": [
         0.5,
         0.98
-      ]
+      ],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "68a9a6de4cf6df4d175b7002a219c6f0cea328538276a30462a1db2d51d2ead3",
+      "git_blob_sha": "aba2110c9193bffb7bd62da261c4748096060b01",
+      "visual_review": "passed: approved reference identity, distinct single pose, full figure; anatomical views are simplified schematics"
     },
     {
       "id": 26,
