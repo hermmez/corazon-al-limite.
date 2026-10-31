@@ -1,0 +1,272 @@
+{
+  "repository": "hermmez/corazon-al-limite.",
+  "baseline_commit": "c4bcd37f7e514961eb946157195bedea7df1583b",
+  "generation": "Built-in image_gen; one independent PNG per call; original character 01 and 25 as style references. First three anatomy PNG recovered from earlier local session.",
+  "style": "2D educational flat cartoon, dark outlines, coral peach teal cream navy, no text/collage/watermark/photorealism. Native output, no upscale.",
+  "approved_characters_git_tree": "100644 blob de23040c4cefd6560168c9b18c7933f1ae93f4bd\tpublic/imagenes/personajes/01_neutral.png\n100644 blob ee33d4a8f3c36befb3d30e9cceb42a71e38dabf5\tpublic/imagenes/personajes/02_explicando.png\n100644 blob 88adec9132043a44ad1c1dc9a23668b5b4468f02\tpublic/imagenes/personajes/03_senalando_derecha.png\n100644 blob d0cc7573d7fd0ed97e17babca994cf9202d92878\tpublic/imagenes/personajes/04_pensando.png\n100644 blob 8c266ddbf8a1288b6a9cab7f247c89f9f2de5c29\tpublic/imagenes/personajes/05_cansado.png\n100644 blob ed836d27f7c4ee8d14a8b60cff798e35a2600874\tpublic/imagenes/personajes/06_saludando.png\n100644 blob 1e99238df3970879ee7913ea9f390c357c6fd6d3\tpublic/imagenes/personajes/07_senalando_izquierda.png\n100644 blob fe3c4feeded18cdf31ec62d42264c9e783fe8463\tpublic/imagenes/personajes/08_senalando_arriba.png\n100644 blob 87609ad8571c0fbc9f4caf2b6b2c4d4fa316fe8d\tpublic/imagenes/personajes/09_senalando_abajo.png\n100644 blob 12d5aad09218614431ab20273684babb18c1b39d\tpublic/imagenes/personajes/10_idea.png\n100644 blob 88a04ad4dcc9d593697fc0f35acbd27bc82d60a3\tpublic/imagenes/personajes/11_sorprendido.png\n100644 blob 388bbee43718cd8c4706ff1d78bfcd33a5ef7b29\tpublic/imagenes/personajes/12_preocupado.png\n100644 blob 55cb9c50ea8fdc1388b0b7a54bfc776609c64c5c\tpublic/imagenes/personajes/13_feliz.png\n100644 blob ddb37108747d49909cece7b5daf34374193d87df\tpublic/imagenes/personajes/14_triste.png\n100644 blob 979a79b19f6163e33754d12cb634fef78081089f\tpublic/imagenes/personajes/15_confundido.png\n100644 blob 7556f17a6ad6c23a6689f7fa8836622e3252c4f3\tpublic/imagenes/personajes/16_aprobando.png\n100644 blob fb0f58c619eb075b7f883de41ed815e75c3e3558\tpublic/imagenes/personajes/17_negando.png\n100644 blob 6c1345efdb191d2d01968a50a3c97f89edfadfc7\tpublic/imagenes/personajes/18_bostezando.png\n100644 blob f051ecc72b8d29ec503f8a879d2a068354bf1dea\tpublic/imagenes/personajes/19_estirandose.png\n100644 blob 3bac81d87bb5e24833b80f257ea1f3a1b70b41ec\tpublic/imagenes/personajes/20_respirando.png\n100644 blob 905691fc558817649047cda5302650822ddb25aa\tpublic/imagenes/personajes/21_caminando.png\n100644 blob eb9877e768b662d52cb43ebc396e1160c5c866e3\tpublic/imagenes/personajes/22_corriendo.png\n100644 blob 4afee9ca4dad625bcf7acc58740d3e99d33173ce\tpublic/imagenes/personajes/23_durmiendo.png\n100644 blob 1ebfb25ce3b34b25645bb87a115106b487bbf12a\tpublic/imagenes/personajes/24_anatomia_cerebro.png\n100644 blob aba2110c9193bffb7bd62da261c4748096060b01\tpublic/imagenes/personajes/25_anatomia_corazon.png\n100644 blob 51f7462eaa8e17246aad2603f42ef6d50a532775\tpublic/imagenes/personajes/26_levantando_brazos.png\n100644 blob 12c4a4246b4f2739a96ad7b8807946b14f414ecd\tpublic/imagenes/personajes/27_sentado.png\n100644 blob 985b97170f3cd83538c56ef261158565de265f92\tpublic/imagenes/personajes/28_comiendo.png\n100644 blob 3f7c742902e64e701d03856572d5649a4e22a7eb\tpublic/imagenes/personajes/29_dolor_cabeza.png\n100644 blob cd668803d28488d9586d0bdb95ab75528754cfbe\tpublic/imagenes/personajes/30_sistema_digestivo.png\n100644 blob 03e792c40eb0c6f90e3734027a6ef7005f40dc23\tpublic/imagenes/personajes/manifest.json\n",
+  "assets": [
+    {
+      "path": "public/imagenes/anatomia/01_cerebro_completo.png",
+      "status": "complete",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "sha256": "4ce809052544d5f2927fc577a7e20810e079656106ef62205012f7acb23029e2",
+      "git_blob_sha": "45730035d6052a3c5950cfdbc52c2675b0976216"
+    },
+    {
+      "path": "public/imagenes/anatomia/02_cerebro_corte_transversal.png",
+      "status": "complete",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "sha256": "469bb013c6e80b47f52e0d2b60ac99e683987c3ff1327318833e94bff024a8ee",
+      "git_blob_sha": "8fabcfbea454aff47ba9ce19f9518ce683cb57c5"
+    },
+    {
+      "path": "public/imagenes/anatomia/03_corazon_humano.png",
+      "status": "complete",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "sha256": "3e151cdc33d6a45ec3d95259d40702a7fbc2ad1916c1c0f7b7179598a4ad5f7e",
+      "git_blob_sha": "a69b668404423bfebb424d81184c154e4ac3e375"
+    },
+    {
+      "path": "public/imagenes/anatomia/04_pulmones.png",
+      "status": "complete",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "sha256": "a913f068d0f23b19dc8560fc66deacb48c322773b2d60c29d85350436d772b34",
+      "git_blob_sha": "38fbd01d931d142d05c950adbdcaf7638f909e4d"
+    },
+    {
+      "path": "public/imagenes/anatomia/05_estomago.png",
+      "status": "complete",
+      "transparent": true,
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "sha256": "70ebcf9ab987d0290e71942d59132174b07babcbc8c746cb9718b845a8499b01",
+      "git_blob_sha": "19275764c98294ff04862ac7ee23fa2f7dac4d53"
+    },
+    {
+      "path": "public/imagenes/anatomia/06_intestino_delgado.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/anatomia/07_intestino_grueso.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/anatomia/08_higado.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/anatomia/09_rinones.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/anatomia/10_pancreas.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/anatomia/11_sistema_nervioso.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/anatomia/12_sistema_circulatorio.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/anatomia/13_sistema_digestivo.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/anatomia/14_sistema_respiratorio.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/anatomia/15_esqueleto.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/anatomia/16_sistema_muscular.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/anatomia/17_ojo.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/anatomia/18_oido.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/anatomia/19_piel_en_corte.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/anatomia/20_columna_vertebral.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/ciencia/01_neurona.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/ciencia/02_sinapsis.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/ciencia/03_globulo_rojo.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/ciencia/04_globulo_blanco.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/ciencia/05_plaquetas.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/ciencia/06_celula_humana.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/ciencia/07_adn.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/ciencia/08_virus.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/ciencia/09_bacteria.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/ciencia/10_glucosa.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/ciencia/11_hormonas.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/ciencia/12_oxigeno.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/ciencia/13_sistema_inmunologico.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/ciencia/14_musculo_en_corte.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/ciencia/15_vasos_sanguineos.png",
+      "status": "pending",
+      "transparent": true
+    },
+    {
+      "path": "public/imagenes/escenarios/01_dormitorio.png",
+      "status": "pending",
+      "transparent": false
+    },
+    {
+      "path": "public/imagenes/escenarios/02_cocina.png",
+      "status": "pending",
+      "transparent": false
+    },
+    {
+      "path": "public/imagenes/escenarios/03_sala.png",
+      "status": "pending",
+      "transparent": false
+    },
+    {
+      "path": "public/imagenes/escenarios/04_oficina.png",
+      "status": "pending",
+      "transparent": false
+    },
+    {
+      "path": "public/imagenes/escenarios/05_gimnasio.png",
+      "status": "pending",
+      "transparent": false
+    },
+    {
+      "path": "public/imagenes/escenarios/06_hospital.png",
+      "status": "pending",
+      "transparent": false
+    },
+    {
+      "path": "public/imagenes/escenarios/07_consultorio.png",
+      "status": "pending",
+      "transparent": false
+    },
+    {
+      "path": "public/imagenes/escenarios/08_calle.png",
+      "status": "pending",
+      "transparent": false
+    },
+    {
+      "path": "public/imagenes/escenarios/09_parque.png",
+      "status": "pending",
+      "transparent": false
+    },
+    {
+      "path": "public/imagenes/escenarios/10_laboratorio.png",
+      "status": "pending",
+      "transparent": false
+    }
+  ],
+  "completed_new_assets": 5,
+  "total_with_approved_characters": 35,
+  "next_pending": "public/imagenes/anatomia/06_intestino_delgado.png"
+}
