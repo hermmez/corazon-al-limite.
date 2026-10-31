@@ -88,63 +88,88 @@
       "id": 6,
       "name": "saludando",
       "file": "06_saludando.png",
-      "status": "pending",
-      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, wave with one open hand at shoulder height, friendly smile.",
+      "status": "generated",
+      "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Standing front facing, warm smile, RIGHT hand raised beside head with open palm in a clear friendly waving gesture, left arm relaxed.",
       "anchor": [
         0.5,
         0.98
-      ]
+      ],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "4c0f7dc9d343a4d160d5883d80a7c157f1f823a4fe3f2ccb5be2cc9cf72fa8a9",
+      "git_blob_sha": "ed836d27f7c4ee8d14a8b60cff798e35a2600874",
+      "visual_review": "passed: approved reference identity, distinct single pose, full figure; anatomical views are simplified schematics"
     },
     {
       "id": 7,
       "name": "senalando_izquierda",
       "file": "07_senalando_izquierda.png",
-      "status": "pending",
-      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, index finger pointing toward viewer left, eyes follow finger.",
+      "status": "generated",
+      "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Standing facing slightly toward viewer LEFT, extend one arm horizontally toward viewer LEFT with index finger pointing; eyes follow finger. Distinct from approved pointing right.",
       "anchor": [
         0.5,
         0.98
-      ]
+      ],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "d60f3ec6ffabd4db2fc476f89482d60e838a3959cc3e1133091bd5d24f7ee9ad",
+      "git_blob_sha": "1e99238df3970879ee7913ea9f390c357c6fd6d3",
+      "visual_review": "passed: approved reference identity, distinct single pose, full figure; anatomical views are simplified schematics"
     },
     {
       "id": 8,
       "name": "senalando_arriba",
       "file": "08_senalando_arriba.png",
-      "status": "pending",
-      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, one index finger pointing straight up, look up.",
+      "status": "generated",
+      "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Standing front facing, right elbow bent with right index finger pointing vertically UP above head, gaze upwards, left hand resting on hip.",
       "anchor": [
         0.5,
         0.98
-      ]
+      ],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "41207579280c87cab065a7a7054cce167ddb7e1249525caf0f76957a1bc4c097",
+      "git_blob_sha": "fe3c4feeded18cdf31ec62d42264c9e783fe8463",
+      "visual_review": "passed: approved reference identity, distinct single pose, full figure; anatomical views are simplified schematics"
     },
     {
       "id": 9,
       "name": "senalando_abajo",
       "file": "09_senalando_abajo.png",
-      "status": "pending",
-      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, one index finger pointing down, look down.",
+      "status": "generated",
+      "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Standing front facing, one arm reaching diagonally down with index finger pointing to the empty bottom right, head and eyes glance down, other hand on hip.",
       "anchor": [
         0.5,
         0.98
-      ]
+      ],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "39298911255fa3a200fe6d4f006157705230d4c002c03857aeb8c4a453545456",
+      "git_blob_sha": "87609ad8571c0fbc9f4caf2b6b2c4d4fa316fe8d",
+      "visual_review": "passed: approved reference identity, distinct single pose, full figure; anatomical views are simplified schematics"
     },
     {
       "id": 10,
       "name": "idea",
       "file": "10_idea.png",
-      "status": "pending",
-      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, index finger raised beside face as if having an idea, excited smile. No light bulb.",
+      "status": "generated",
+      "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Standing front facing with excited bright smile, one index finger raised beside temple in Eureka gesture, other forearm folded across belly. No light bulb, no extra symbols.",
       "anchor": [
         0.5,
         0.98
-      ]
+      ],
+      "width": 1024,
+      "height": 1536,
+      "sha256": "543bb8d0d52849ca8644a4a893c51a5844483d2286665440ff1532f9192009dc",
+      "git_blob_sha": "12d5aad09218614431ab20273684babb18c1b39d",
+      "visual_review": "passed: approved reference identity, distinct single pose, full figure; anatomical views are simplified schematics"
     },
     {
       "id": 11,
       "name": "sorprendido",
       "file": "11_sorprendido.png",
       "status": "pending",
-      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, raised eyebrows, round open mouth, both hands slightly lifted.",
+      "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Standing front facing, startled raised eyebrows, eyes wide, small round open mouth, both open hands lifted beside cheeks, palms facing viewer.",
       "anchor": [
         0.5,
         0.98
@@ -155,7 +180,7 @@
       "name": "preocupado",
       "file": "12_preocupado.png",
       "status": "pending",
-      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, worried eyebrows, hands clasped at waist.",
+      "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Standing front facing, brows angled with concern, mouth small worried curve, both hands clasped at waist, shoulders slightly hunched.",
       "anchor": [
         0.5,
         0.98
@@ -166,7 +191,7 @@
       "name": "feliz",
       "file": "13_feliz.png",
       "status": "pending",
-      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, wide cheerful smile, relaxed open arms.",
+      "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Standing front facing, joyful laughing expression eyes curved shut, broad open smile, both arms open outward in welcoming celebration, hands relaxed.",
       "anchor": [
         0.5,
         0.98
@@ -177,7 +202,7 @@
       "name": "triste",
       "file": "14_triste.png",
       "status": "pending",
-      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, head slightly lowered, sad eyes, arms relaxed.",
+      "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Standing front facing with head lowered, sad drooping brows, closed downturned mouth, arms hanging and shoulders slumped. No tears or extra props.",
       "anchor": [
         0.5,
         0.98
@@ -188,7 +213,7 @@
       "name": "confundido",
       "file": "15_confundido.png",
       "status": "pending",
-      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, one hand scratching side of head, puzzled brows.",
+      "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Standing front facing, one hand scratching side/back of head, other hand palm up near waist, one eyebrow raised, puzzled half-smile.",
       "anchor": [
         0.5,
         0.98
@@ -199,7 +224,7 @@
       "name": "aprobando",
       "file": "16_aprobando.png",
       "status": "pending",
-      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, one thumbs up at chest height, confident smile.",
+      "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Standing front facing, confident smile, one clear thumbs-up at chest height, other hand on hip.",
       "anchor": [
         0.5,
         0.98
@@ -210,7 +235,7 @@
       "name": "negando",
       "file": "17_negando.png",
       "status": "pending",
-      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, one raised index finger with a serious cautioning expression.",
+      "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Standing front facing, serious but friendly caution expression, one arm extended forward showing open palm STOP gesture, other arm relaxed. No symbols.",
       "anchor": [
         0.5,
         0.98
@@ -221,7 +246,7 @@
       "name": "bostezando",
       "file": "18_bostezando.png",
       "status": "pending",
-      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, eyes closed, one hand covering a yawn.",
+      "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Standing front facing, eyes gently closed, mouth yawning with one hand covering mouth, other hand resting on belly, sleepy posture.",
       "anchor": [
         0.5,
         0.98
@@ -232,7 +257,7 @@
       "name": "estirandose",
       "file": "19_estirandose.png",
       "status": "pending",
-      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, both arms stretched above head, sleepy face. Keep all hands in frame.",
+      "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Standing front facing, both arms stretching upward above head, fingers interlaced overhead, relaxed closed eyes and slight smile; show every finger and shoes, leave extra headroom.",
       "anchor": [
         0.5,
         0.98
@@ -243,7 +268,7 @@
       "name": "respirando",
       "file": "20_respirando.png",
       "status": "pending",
-      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing upright, eyes gently closed, one hand on belly, calm breathing pose.",
+      "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Standing upright front facing, eyes gently closed, calm small smile, one hand on upper chest and other on belly, shoulders relaxed in mindful breathing pose. No arrows.",
       "anchor": [
         0.5,
         0.98
@@ -251,10 +276,10 @@
     },
     {
       "id": 21,
-      "name": "estresado",
-      "file": "21_estresado.png",
+      "name": "caminando",
+      "file": "21_caminando.png",
       "status": "pending",
-      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, both hands on temples, tense worried expression.",
+      "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Three-quarter view facing viewer right, WALKING midstride, one foot forward grounded, rear heel raised, natural opposite arm swing, attentive smile. Whole body.",
       "anchor": [
         0.5,
         0.98
@@ -262,10 +287,10 @@
     },
     {
       "id": 22,
-      "name": "dolor_cabeza",
-      "file": "22_dolor_cabeza.png",
+      "name": "corriendo",
+      "file": "22_corriendo.png",
       "status": "pending",
-      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, one hand on forehead, eyes squinting from headache; no symbols.",
+      "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Three-quarter view facing viewer left, energetic RUNNING action with bent elbows and one knee lifted, rear leg kicked back, focused happy face. Whole body entirely visible.",
       "anchor": [
         0.5,
         0.98
@@ -273,10 +298,10 @@
     },
     {
       "id": 23,
-      "name": "dolor_estomago",
-      "file": "23_dolor_estomago.png",
+      "name": "durmiendo",
+      "file": "23_durmiendo.png",
       "status": "pending",
-      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, both hands over abdomen, slightly bent forward, uncomfortable expression.",
+      "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Same character peacefully SLEEPING curled on his side, eyes closed, both hands together under cheek, knees gently bent. Body lies horizontally, no bed no pillow no ground. Use landscape canvas if needed for native clarity. Same clothes, face, shoes and proportions.",
       "anchor": [
         0.5,
         0.98
@@ -284,10 +309,10 @@
     },
     {
       "id": 24,
-      "name": "mano_pecho",
-      "file": "24_mano_pecho.png",
+      "name": "anatomia_cerebro",
+      "file": "24_anatomia_cerebro.png",
       "status": "pending",
-      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, one open palm resting on chest, attentive neutral expression.",
+      "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Educational non-gory cutaway of the SAME character, standing front facing full body with arms relaxed. Keep same face recognizable. A neat rounded window in UPPER cranium above eyebrows shows a simplified pink brain with two hemispheres and folded surface, safely contained inside skull; preserve eyes, nose, mouth and hair silhouette around window. No brain outside head, no exposed injury, no blood. Rest of body fully clothed unchanged. Same cartoon visual style.",
       "anchor": [
         0.5,
         0.98
@@ -295,10 +320,10 @@
     },
     {
       "id": 25,
-      "name": "bebiendo_agua",
-      "file": "25_bebiendo_agua.png",
+      "name": "anatomia_corazon",
+      "file": "25_anatomia_corazon.png",
       "status": "pending",
-      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, drinking from a simple transparent water glass; only one glass as prop.",
+      "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Educational non-gory cutaway of SAME character standing front facing full body, arms slightly away from torso. A neat chest window within teal t-shirt reveals ONLY a simplified anatomical red heart, located centrally behind breastbone and slightly toward CHARACTER left (viewer right), apex toward character left, major red/blue vessels emerging at top. Heart anatomically sized, not a heart emoji. Rest of shirt, face and clothes unchanged. No blood or injury.",
       "anchor": [
         0.5,
         0.98
@@ -306,10 +331,10 @@
     },
     {
       "id": 26,
-      "name": "durmiendo_lado",
-      "file": "26_durmiendo_lado.png",
+      "name": "anatomia_pulmones",
+      "file": "26_anatomia_pulmones.png",
       "status": "pending",
-      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Same character lying horizontally on side asleep, eyes closed, hands together under cheek; no bed or pillow; whole body in frame.",
+      "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Educational non-gory cutaway SAME character front facing full body, arms relaxed. A neat chest window within teal shirt reveals ONLY simplified paired pink lungs, trachea descending neck midline and branching into two main bronchi; character left lung (viewer right) slightly smaller with a cardiac notch, right lung on viewer left. Organs remain within chest. Same face clothes style. No floating organs, no blood or labels.",
       "anchor": [
         0.5,
         0.98
@@ -317,10 +342,10 @@
     },
     {
       "id": 27,
-      "name": "caminando",
-      "file": "27_caminando.png",
+      "name": "anatomia_digestiva",
+      "file": "27_anatomia_digestiva.png",
       "status": "pending",
-      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Three-quarter view walking pose mid stride, opposing arm swing, full body.",
+      "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Educational non-gory cutaway SAME character standing front facing full body, arms slightly apart. Large neat rounded window within torso t-shirt reveals simplified digestive tract, esophagus down midline to stomach at CHARACTER LEFT (viewer right), liver upper CHARACTER RIGHT (viewer left), coiled small intestine centrally surrounded by thicker large intestine. Organs contained within torso, no blood, no injury. Preserve recognizable head, hair, clothes outside window. Same cel-shaded cartoon style.",
       "anchor": [
         0.5,
         0.98
@@ -328,10 +353,10 @@
     },
     {
       "id": 28,
-      "name": "corriendo",
-      "file": "28_corriendo.png",
+      "name": "anatomia_esqueleto",
+      "file": "28_anatomia_esqueleto.png",
       "status": "pending",
-      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Three-quarter view running pose, bent elbows, one knee lifted, energetic expression.",
+      "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Educational non-gory schematic SAME character front facing full body, recognizable face hair clothing maintained. A clean cutaway window within torso t-shirt shows ivory ribcage, sternum, central vertebral column and upper pelvis in correct general human locations; no internal organs, no skull replacement, no skeleton outside body. Arms and legs remain clothed. Same flat cartoon style, no labels or blood.",
       "anchor": [
         0.5,
         0.98
@@ -339,10 +364,10 @@
     },
     {
       "id": 29,
-      "name": "sentado",
-      "file": "29_sentado.png",
+      "name": "anatomia_musculos",
+      "file": "29_anatomia_musculos.png",
       "status": "pending",
-      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Sitting with knees bent at right angle, hands on thighs, no chair drawn, full body.",
+      "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Educational non-gory schematic SAME character front facing full body, recognizable face hair and proportions. Torso shirt has clean illustration window showing simplified red pectoralis muscles, central abdominal rectus segments and side obliques; a small matching upper arm window shows a red biceps. Keep teal collar and sleeve edges, navy pants and shoes. Diagrammatic anatomical overlays, no wounds, no blood, no bodybuilder exaggeration, same flat cartoon style.",
       "anchor": [
         0.5,
         0.98
@@ -350,14 +375,36 @@
     },
     {
       "id": 30,
-      "name": "despedida",
-      "file": "30_despedida.png",
+      "name": "anatomia_rinones",
+      "file": "30_anatomia_rinones.png",
       "status": "pending",
-      "prompt": "ONE individual full-body 2D cartoon PNG of EXACT SAME male character as the master reference. Preserve youthful face, brown eyes, swept short dark brown hair, tan skin, teal t-shirt, navy trousers, navy white sneakers, proportions, outlines and cel shading. Actual transparent RGBA background. No collage, panels, text, watermark, background or glow. Entire body and fingers visible with clear margins. Highest native resolution; do not upscale. Pose: Standing, both open palms presented outward at chest height, warm closing smile.",
+      "prompt": "Use ALL FIVE supplied images as mandatory approved identity and style references of the SAME ONE character. Preserve identical youthful male face, big brown eyes, swept short dark brown hair silhouette, warm tan skin, teal short-sleeve t-shirt, dark navy trousers, navy sneakers with white laces and soles, head/body proportions, dark clean outlines and flat cel shading. Generate ONE SINGLE individual PNG asset, no collage, no panels, no extra character, no text, no watermark. Actual transparent RGBA background, clean edges, no backdrop or halo or cast shadow. Highest available native resolution target 2048x3072, no artificial upscaling. Entire character in frame including shoes and fingers, generous empty transparent margins, consistent portrait framing. Educational non-gory schematic SAME character seen from BACK in full body, head turned slightly to show recognizable cheek profile and same swept dark hair. Clean educational cutaway window in back of teal shirt reveals two simplified bean-shaped reddish kidneys to either side of upper lumbar spine BELOW ribs, character right kidney a little lower than left, two slender ureters descending to a small bladder in pelvis. Omit other organs. Preserve clothes and proportions, no blood or wounds, no labels.",
       "anchor": [
         0.5,
         0.98
       ]
+    }
+  ],
+  "approved_references": [
+    {
+      "file": "public/imagenes/personajes/01_neutral.png",
+      "sha256": "e9d71d28f4e6dd744f9e5985c1e9632052c0cf5d842c6230bd23fb22dc7a8410"
+    },
+    {
+      "file": "public/imagenes/personajes/02_explicando.png",
+      "sha256": "54b2f8cff8b415464079e68ec83d01c3b21a5c466d74f014f3db8b99b79bd252"
+    },
+    {
+      "file": "public/imagenes/personajes/03_senalando_derecha.png",
+      "sha256": "5a707dab13ec575a6b2b9ad3bad8dcd7959e6c4546449140b5078f0e579975a4"
+    },
+    {
+      "file": "public/imagenes/personajes/04_pensando.png",
+      "sha256": "172b824532fe4e5987761226055a6ed893e66726d48b9133948b7b57b4d3b72d"
+    },
+    {
+      "file": "public/imagenes/personajes/05_cansado.png",
+      "sha256": "41a64f6fcfdacaded0f26293dfae2a432016b9cd6685ee8e93531b432d52aa0a"
     }
   ]
 }

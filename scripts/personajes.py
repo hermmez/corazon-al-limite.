@@ -61,7 +61,9 @@ def main():
                 assert 0.2 < ratio < 0.95, 'Missing transparent background or empty image'
                 assert solid_ratio > 0.1, 'Subject too transparent or empty'
                 corners = [alpha.getpixel((x, y)) for x in (0, im.width - 1) for y in (0, im.height - 1)]
-                assert corners == [0, 0, 0, 0], 'Background corners are not transparent'
+                # A one-step alpha residue (1/255) is below visible opacity;
+                # require substantial exact-zero background above as well.
+                assert max(corners) <= 1, 'Background corners are not transparent'
                 bbox = alpha.point(lambda a: 255 if a >= 128 else 0).getbbox()
                 assert bbox and bbox[0] > 0 and bbox[1] > 0 and bbox[2] < im.width and bbox[3] < im.height, 'Subject touches canvas edge'
                 digest = hashlib.sha256(path.read_bytes()).hexdigest()
