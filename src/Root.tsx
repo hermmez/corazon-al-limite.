@@ -1,5 +1,6 @@
 import React from "react";
 import { Composition, Folder } from "remotion";
+import { DemoProfesional2DFluida } from "./DemoProfesional2DFluida";
 import { DemoProfesional2D } from "./DemoProfesional2D";
 import { Prueba2D } from "./Prueba2D";
 import { Presentacion } from "./Prueba2D/Presentacion";
@@ -47,6 +48,21 @@ export const RemotionRoot: React.FC = () => {
         <Composition id="DemoProfesional2D-Cerebro" component={DemoProfesional2D} durationInFrames={240} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 7}} />
         <Composition id="DemoProfesional2D-Corazon" component={DemoProfesional2D} durationInFrames={240} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 15}} />
         <Composition id="DemoProfesional2D-Respuesta" component={DemoProfesional2D} durationInFrames={210} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 23}} />
+      </Folder>
+      <Composition
+        id="DemoProfesional2DFluida"
+        component={DemoProfesional2DFluida}
+        durationInFrames={900}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{startAtSeconds: 0}}
+      />
+      <Folder name="DemoProfesional2DFluida-Escenas">
+        <Composition id="DemoProfesional2DFluida-Miedo" component={DemoProfesional2DFluida} durationInFrames={210} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 0}} />
+        <Composition id="DemoProfesional2DFluida-Cerebro" component={DemoProfesional2DFluida} durationInFrames={240} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 7}} />
+        <Composition id="DemoProfesional2DFluida-Corazon" component={DemoProfesional2DFluida} durationInFrames={240} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 15}} />
+        <Composition id="DemoProfesional2DFluida-Respuesta" component={DemoProfesional2DFluida} durationInFrames={210} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 23}} />
       </Folder>
     </>
   );
