@@ -1,0 +1,36 @@
+PAQUETE DE 7 PNG EXTRAÍDOS DE UNA LÁMINA DE REFERENCIA
+Proyecto: ¿Qué pasa en tu cuerpo cuando dejas de dormir?
+Destino sugerido: public/imagenes/escena_01/
+
+IMPORTANTE — LIMITACIONES
+- Los siete PNG son archivos individuales con canal alfa (transparencia), extraídos automáticamente de una lámina generada.
+- Los recortes pueden contener halos o fragmentos de fondo; revisar antes del render final.
+- Las tres vistas de cerebro NO son capas anatómicas perfectamente alineadas: la imagen original mostraba vistas diferentes. Aunque comparten lienzo de 1600x1600, NO deben superponerse como piezas de un mismo modelo.
+- Las dos terminales sinápticas son aproximaciones visuales, NO un par anatómico perfectamente acoplado.
+- Este ZIP sirve para una primera prueba de integración y movimiento; NO cumple aún el requisito de Codex de ilustraciones maestras perfectamente registradas.
+- Para una animación de desmontaje anatómico profesional, hace falta crear un cerebro maestro con capas coherentes y separadas.
+
+ARCHIVOS
+- cerebro_corteza_exterior.png
+- cerebro_corte_interior.png
+- cerebro_tronco_cerebelo.png
+- neurona_principal.png
+- neurona_secundaria.png
+- sinapsis_terminal_presinaptica.png
+- sinapsis_terminal_postsinaptica.png
+
+USO EN GITHUB
+1. Extraer ZIP.
+2. Abrir repositorio en GitHub.
+3. Crear/abrir public/imagenes/escena_01/
+4. Subir SOLO los siete PNG a esa carpeta y hacer Commit.
+5. Avisar a Codex que revise los PNG y sus limitaciones antes de animar.
+
+SUGERENCIA DE PROMPT:
+«En public/imagenes/escena_01 hay siete PNG con transparencia.
+Audita su calidad y comprueba visualmente su compatibilidad. NO asumas
+que las tres imágenes de cerebro son capas registradas ni que las
+terminales encajan anatómicamente. Para la prueba, utiliza composiciones
+por planos, parallax y transiciones sin fingir un desmontaje anatómico
+perfecto. Indica qué recursos deben reemplazarse para lograr ese efecto.
+Remotion es obligatorio. Primero renderiza una prueba de 5–10 segundos».
