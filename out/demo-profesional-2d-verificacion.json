@@ -1,0 +1,141 @@
+{
+  "composition": "DemoProfesional2D",
+  "topic": "¿Qué ocurre en tu cuerpo cuando tienes miedo?",
+  "validated_at_utc": "2026-10-31T16:27:17.657082+00:00",
+  "preservation_baseline_commit": "97e4447907b89e33b1cc1a93fe25fa77a70060ce",
+  "video": "out/demo-profesional-2d.mp4",
+  "video_sha256": "d8e44bc657bc99ac9fa95e23ba4b6ed39fdccfd30bf42eb90317a3a09e71f442",
+  "metadata": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "pix_fmt": "yuvj420p",
+        "r_frame_rate": "30/1",
+        "duration": "30.000000",
+        "nb_frames": "900",
+        "side_data_list": [
+          {}
+        ]
+      }
+    ],
+    "format": {
+      "duration": "30.000000",
+      "size": "16841878"
+    }
+  },
+  "audio": "Sin pista de audio ni narración; no existen recursos de audio en public/.",
+  "timeline_seconds": [
+    {
+      "scene": "El miedo",
+      "from": 0,
+      "to": 7
+    },
+    {
+      "scene": "El cerebro",
+      "from": 7,
+      "to": 15
+    },
+    {
+      "scene": "El corazón",
+      "from": 15,
+      "to": 23
+    },
+    {
+      "scene": "La respuesta",
+      "from": 23,
+      "to": 30
+    }
+  ],
+  "checks": {
+    "typescript": "passed",
+    "approved_assets": "passed",
+    "900_frame_camera_continuity": "passed",
+    "heart_animation_values": "passed",
+    "previous_Prueba2D_validation": "passed",
+    "remotion_composition_listing": "passed",
+    "full_900_frame_render": "passed",
+    "ffmpeg_full_decode": "passed",
+    "ffprobe_metadata": "passed",
+    "visual_review_from_mp4": "passed",
+    "45_existing_png_unchanged": "passed",
+    "previous_source_videos_and_composition_registrations_unchanged": "passed"
+  },
+  "visual_review_frames": [
+    40,
+    105,
+    225,
+    300,
+    465,
+    600,
+    715,
+    740,
+    790,
+    870
+  ],
+  "original_composition_registrations_preserved": 6,
+  "png_sha256": {
+    "public/imagenes/personajes/01_neutral.png": "e9d71d28f4e6dd744f9e5985c1e9632052c0cf5d842c6230bd23fb22dc7a8410",
+    "public/imagenes/personajes/02_explicando.png": "54b2f8cff8b415464079e68ec83d01c3b21a5c466d74f014f3db8b99b79bd252",
+    "public/imagenes/personajes/03_senalando_derecha.png": "5a707dab13ec575a6b2b9ad3bad8dcd7959e6c4546449140b5078f0e579975a4",
+    "public/imagenes/personajes/04_pensando.png": "172b824532fe4e5987761226055a6ed893e66726d48b9133948b7b57b4d3b72d",
+    "public/imagenes/personajes/05_cansado.png": "41a64f6fcfdacaded0f26293dfae2a432016b9cd6685ee8e93531b432d52aa0a",
+    "public/imagenes/personajes/06_saludando.png": "4c0f7dc9d343a4d160d5883d80a7c157f1f823a4fe3f2ccb5be2cc9cf72fa8a9",
+    "public/imagenes/personajes/07_senalando_izquierda.png": "d60f3ec6ffabd4db2fc476f89482d60e838a3959cc3e1133091bd5d24f7ee9ad",
+    "public/imagenes/personajes/08_senalando_arriba.png": "41207579280c87cab065a7a7054cce167ddb7e1249525caf0f76957a1bc4c097",
+    "public/imagenes/personajes/09_senalando_abajo.png": "39298911255fa3a200fe6d4f006157705230d4c002c03857aeb8c4a453545456",
+    "public/imagenes/personajes/10_idea.png": "543bb8d0d52849ca8644a4a893c51a5844483d2286665440ff1532f9192009dc",
+    "public/imagenes/personajes/11_sorprendido.png": "ec4b86a029086ad45a10a67ba57076fef0ac992999913721ed4ba798602fb3d3",
+    "public/imagenes/personajes/12_preocupado.png": "9d28eb2c6528975737065b937f9148995837823bea26a23f0a2afb179c182377",
+    "public/imagenes/personajes/13_feliz.png": "626492d5dee9d3e360002f81c3f0027a791123913cf5581d95fea79c1fd777e9",
+    "public/imagenes/personajes/14_triste.png": "824976fd5ba79449a5c2d1dd8d09f67187c5cfdeafd1a501d2333818e4a05bf2",
+    "public/imagenes/personajes/15_confundido.png": "d70ea15fc0d47db1137b590d34e1e814001936e2a86f8e8b5c8abdada5686f63",
+    "public/imagenes/personajes/16_aprobando.png": "e2f9ee4457e40be7a607fda98b0c70056c9bd37c5c8b9847b58266251cfa7682",
+    "public/imagenes/personajes/17_negando.png": "7d53a83d7a2adc9810e22689eddf675897c1e998253220c99fc15cf5a3e9b552",
+    "public/imagenes/personajes/18_bostezando.png": "0eb21731eaeeef7a95aa8d4693ce40922f0c3557ae7554e97437faba602ee9cf",
+    "public/imagenes/personajes/19_estirandose.png": "19a4939044b29e33cb59a58b7ab3292b4aae16bf0718af8b972fc78dc0e536be",
+    "public/imagenes/personajes/20_respirando.png": "72546d94edcad45388c5c4a8dae7b4c59fff551cbe34069963f196c21f72f048",
+    "public/imagenes/personajes/21_caminando.png": "4c4b9b6a9b0b15b92a5ac204d1a9a90ecbf3b88c9052a8da78c9cd0aba2d700b",
+    "public/imagenes/personajes/22_corriendo.png": "8afd899db441b5a673f3bd00916549cb1c6fdea83850eacab9273da35402709d",
+    "public/imagenes/personajes/23_durmiendo.png": "da936acb7e06363a4ff2b1d1e7d7772c9683394c65d31181c0f356a4d18b50c5",
+    "public/imagenes/personajes/24_anatomia_cerebro.png": "32cfb294cf5344b5a874e6166b15b20039649eadb965f8d455d07905ecac813d",
+    "public/imagenes/personajes/25_anatomia_corazon.png": "68a9a6de4cf6df4d175b7002a219c6f0cea328538276a30462a1db2d51d2ead3",
+    "public/imagenes/personajes/26_levantando_brazos.png": "29407e42da275a63c7f13516e5b6fa344a4bd52938d08793b1f3abb2f16f88a1",
+    "public/imagenes/personajes/27_sentado.png": "48d2cd0950ffc8beadef319db7816d0d129ffdf39953ca92cf1edd31f3e31a3e",
+    "public/imagenes/personajes/28_comiendo.png": "c91b18b162f71ae4eb9496468aa5998dca435aee27360455233c85eec51152dd",
+    "public/imagenes/personajes/29_dolor_cabeza.png": "e976cb70771566a44adb10c1495f8127ec82978a18096493bd271d64fb0856dd",
+    "public/imagenes/personajes/30_sistema_digestivo.png": "2ee078806d6297a818efa768add0b876ad87ef2601aa7ccabd2092b57c1ebc05",
+    "public/imagenes/anatomia/01_cerebro_completo.png": "4ce809052544d5f2927fc577a7e20810e079656106ef62205012f7acb23029e2",
+    "public/imagenes/anatomia/02_cerebro_corte_transversal.png": "469bb013c6e80b47f52e0d2b60ac99e683987c3ff1327318833e94bff024a8ee",
+    "public/imagenes/anatomia/03_corazon_humano.png": "3e151cdc33d6a45ec3d95259d40702a7fbc2ad1916c1c0f7b7179598a4ad5f7e",
+    "public/imagenes/anatomia/04_pulmones.png": "a913f068d0f23b19dc8560fc66deacb48c322773b2d60c29d85350436d772b34",
+    "public/imagenes/anatomia/05_estomago.png": "70ebcf9ab987d0290e71942d59132174b07babcbc8c746cb9718b845a8499b01",
+    "public/imagenes/anatomia/06_intestino_delgado.png": "ce185fb8221ceb98efd22caedbeb94132606c63be886f1dfe5ab68fd459a06df",
+    "public/imagenes/anatomia/07_intestino_grueso.png": "ca91d213761d1bb116e20be0cb6486596e26fb9b62c01117736b4167c3e747ff",
+    "public/imagenes/anatomia/08_higado.png": "7984be6f9713ab54ee6f043f0fa2a8a0a56165025f363dd90dc57a040ca1a23e",
+    "public/imagenes/anatomia/09_rinones.png": "19058898bb56dc19408d1afbf6620a66c19600b99842059e4f02fdabbc305b84",
+    "public/imagenes/anatomia/10_pancreas.png": "dc0bd09f35670e4667e49f32c79d71971930b054a9ba10c99f7a37f3f0b1a693",
+    "public/imagenes/anatomia/11_sistema_nervioso.png": "d50accde99b7f2744b4e807d276a47446f19dfe1769be20e797c31d61e5e840f",
+    "public/imagenes/anatomia/12_sistema_circulatorio.png": "c23d59e3c933ae533c848343cf764628f85435f488bcc2196ad5a1caeceb6fee",
+    "public/imagenes/anatomia/13_sistema_digestivo.png": "2f44c482cb6931a2073cec6eb688a016b79634976b1199245e5c865236dd73f8",
+    "public/imagenes/anatomia/14_sistema_respiratorio.png": "08568ec5471941f07f0b5fa1252de92213f74bc63a8969a50bcc3c33d180cbe2",
+    "public/imagenes/anatomia/15_esqueleto_humano.png": "7040c4fd0d548c7da0882dbb887aa7ac78b0770d526d79969aef527068020651"
+  },
+  "preserved_source_and_video_sha256": {
+    "out/prueba2d-storyboard.jpg": "69754e6fc6a31ba30f94e52ac20d2baaabfc14bfdf89aefc81994b814a1cac34",
+    "out/prueba2d-verificacion.json": "8f3f92c587297a5f953cabda68f1b0543f9057ca0b18be5be02d0684aedbda9d",
+    "out/prueba2d.mp4": "8eb306e280c19e1dcc8d996b32ac5eef16fa6010edc6b395980e363e021ecc3d",
+    "src/CorazonAlLimite.tsx": "a6fd23833ed3b6121b40d30e8af00ceecfe9545e5b12644f520dc74c97ee4c66",
+    "src/Prueba2D.tsx": "ba8903a9e2313c529dd67aee28bde09358d83e4a1ba7a3d8cf5a15c77da16666",
+    "src/Prueba2D/Cansancio.tsx": "99203cc6e8c82b4ae98ca759709d71990e44b8ab981472a38b32da6d170449d2",
+    "src/Prueba2D/Cerebro.tsx": "8cf14ffa41fc2a9b703233cb62b257ca39f92574e2a55e430deaa79fdc3ae013",
+    "src/Prueba2D/Presentacion.tsx": "26ec17818e0af807a44dc6dcd5612c9512cf5d1a1ee6557876863d4fd453dadc",
+    "src/Prueba2D/Recuperacion.tsx": "f6b5428155537bf1130346114288a151aae1fca7fdd59b237c75044deed1841d",
+    "src/Prueba2D/Visuals.tsx": "e7eb5591f9be9ff31e3b6153c54ea63e9e452a7336315362b3a6cde5ad880c4c",
+    "src/index.ts": "c57241f29fa7453ca8da123815176cd88ce6e634d6bd403a1972c5e78e6992dc"
+  },
+  "wardrobe_note": "Los PNG oficiales existentes muestran camiseta turquesa. Se preservan sin cambios."
+}
