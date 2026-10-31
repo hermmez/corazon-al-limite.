@@ -1,0 +1,71 @@
+{
+  "composition": "Prueba2D",
+  "validated_at_utc": "2026-10-31T07:26:05.534727+00:00",
+  "base_commit": "c4bcd37f7e514961eb946157195bedea7df1583b",
+  "video": "out/prueba2d.mp4",
+  "sha256": "8eb306e280c19e1dcc8d996b32ac5eef16fa6010edc6b395980e363e021ecc3d",
+  "metadata": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "pix_fmt": "yuvj420p",
+        "r_frame_rate": "30/1",
+        "duration": "30.000000",
+        "nb_frames": "900",
+        "side_data_list": [
+          {}
+        ]
+      }
+    ],
+    "format": {
+      "duration": "30.000000",
+      "size": "9515332"
+    }
+  },
+  "checks": {
+    "typecheck": "passed",
+    "library_validation": "passed",
+    "remotion_compositions": "passed",
+    "render_900_frames": "passed",
+    "ffmpeg_full_decode": "passed",
+    "visual_review_eight_poses": "passed",
+    "all_30_png_unchanged": "passed",
+    "original_composition_unchanged": "passed"
+  },
+  "approved_png_sha256": {
+    "01_neutral.png": "e9d71d28f4e6dd744f9e5985c1e9632052c0cf5d842c6230bd23fb22dc7a8410",
+    "02_explicando.png": "54b2f8cff8b415464079e68ec83d01c3b21a5c466d74f014f3db8b99b79bd252",
+    "03_senalando_derecha.png": "5a707dab13ec575a6b2b9ad3bad8dcd7959e6c4546449140b5078f0e579975a4",
+    "04_pensando.png": "172b824532fe4e5987761226055a6ed893e66726d48b9133948b7b57b4d3b72d",
+    "05_cansado.png": "41a64f6fcfdacaded0f26293dfae2a432016b9cd6685ee8e93531b432d52aa0a",
+    "06_saludando.png": "4c0f7dc9d343a4d160d5883d80a7c157f1f823a4fe3f2ccb5be2cc9cf72fa8a9",
+    "07_senalando_izquierda.png": "d60f3ec6ffabd4db2fc476f89482d60e838a3959cc3e1133091bd5d24f7ee9ad",
+    "08_senalando_arriba.png": "41207579280c87cab065a7a7054cce167ddb7e1249525caf0f76957a1bc4c097",
+    "09_senalando_abajo.png": "39298911255fa3a200fe6d4f006157705230d4c002c03857aeb8c4a453545456",
+    "10_idea.png": "543bb8d0d52849ca8644a4a893c51a5844483d2286665440ff1532f9192009dc",
+    "11_sorprendido.png": "ec4b86a029086ad45a10a67ba57076fef0ac992999913721ed4ba798602fb3d3",
+    "12_preocupado.png": "9d28eb2c6528975737065b937f9148995837823bea26a23f0a2afb179c182377",
+    "13_feliz.png": "626492d5dee9d3e360002f81c3f0027a791123913cf5581d95fea79c1fd777e9",
+    "14_triste.png": "824976fd5ba79449a5c2d1dd8d09f67187c5cfdeafd1a501d2333818e4a05bf2",
+    "15_confundido.png": "d70ea15fc0d47db1137b590d34e1e814001936e2a86f8e8b5c8abdada5686f63",
+    "16_aprobando.png": "e2f9ee4457e40be7a607fda98b0c70056c9bd37c5c8b9847b58266251cfa7682",
+    "17_negando.png": "7d53a83d7a2adc9810e22689eddf675897c1e998253220c99fc15cf5a3e9b552",
+    "18_bostezando.png": "0eb21731eaeeef7a95aa8d4693ce40922f0c3557ae7554e97437faba602ee9cf",
+    "19_estirandose.png": "19a4939044b29e33cb59a58b7ab3292b4aae16bf0718af8b972fc78dc0e536be",
+    "20_respirando.png": "72546d94edcad45388c5c4a8dae7b4c59fff551cbe34069963f196c21f72f048",
+    "21_caminando.png": "4c4b9b6a9b0b15b92a5ac204d1a9a90ecbf3b88c9052a8da78c9cd0aba2d700b",
+    "22_corriendo.png": "8afd899db441b5a673f3bd00916549cb1c6fdea83850eacab9273da35402709d",
+    "23_durmiendo.png": "da936acb7e06363a4ff2b1d1e7d7772c9683394c65d31181c0f356a4d18b50c5",
+    "24_anatomia_cerebro.png": "32cfb294cf5344b5a874e6166b15b20039649eadb965f8d455d07905ecac813d",
+    "25_anatomia_corazon.png": "68a9a6de4cf6df4d175b7002a219c6f0cea328538276a30462a1db2d51d2ead3",
+    "26_levantando_brazos.png": "29407e42da275a63c7f13516e5b6fa344a4bd52938d08793b1f3abb2f16f88a1",
+    "27_sentado.png": "48d2cd0950ffc8beadef319db7816d0d129ffdf39953ca92cf1edd31f3e31a3e",
+    "28_comiendo.png": "c91b18b162f71ae4eb9496468aa5998dca435aee27360455233c85eec51152dd",
+    "29_dolor_cabeza.png": "e976cb70771566a44adb10c1495f8127ec82978a18096493bd271d64fb0856dd",
+    "30_sistema_digestivo.png": "2ee078806d6297a818efa768add0b876ad87ef2601aa7ccabd2092b57c1ebc05"
+  }
+}
