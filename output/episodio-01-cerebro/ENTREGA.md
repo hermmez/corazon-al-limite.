@@ -2,6 +2,8 @@
 
 **Video de 70 segundos con narración masculina, música, efectos y subtítulos sincronizados.**
 
+[Reproducir o descargar directamente el MP4 con voz](https://d2ol7oe51mr4n9.cloudfront.net/user_3LWCFBq7eIgrDcVAzFjRPaNtjHC/9b40cc42-e8ac-48e1-92a7-4c9f09544240.mp4).
+
 - [MP4 con voz](episodio_01_cerebro_70s.mp4).
 - [Miniatura vertical](miniatura_vertical.jpg).
 - [Subtítulos SRT](subtitulos.srt).
