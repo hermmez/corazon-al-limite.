@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "status": "pending",
+  "mode": "episodio",
+  "leadInSeconds": 0.15,
+  "tailSeconds": 0.2,
+  "clips": []
+}

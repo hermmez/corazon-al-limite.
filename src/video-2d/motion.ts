@@ -73,7 +73,7 @@ export const cameraAt = (time: number, scenes: SceneSpec[]) => {
     s = scenes[index],
     a = anchor(index);
   if (index === 0) {
-    const focus = ramp(time, 6.8, s.end - 0.95);
+    const focus = ramp(time, Math.min(s.start + (s.end - s.start) * 0.68, s.end - 1.05), s.end - 0.95);
     return {
       x: mix(a.x, a.x + 10, focus),
       y: mix(1080, 960, focus),
