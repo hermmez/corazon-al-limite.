@@ -12,10 +12,16 @@
     "validate:demo": "node scripts/validar-demo-profesional.mjs",
     "render:demo": "remotion render src/index.ts DemoProfesional2D out/demo-profesional-2d.mp4 --codec=h264 --pixel-format=yuv420p --crf=18",
     "validate:fluida": "node scripts/validar-demo-fluida.mjs",
-    "render:fluida": "remotion render src/index.ts DemoProfesional2DFluida out/demo-profesional-2d-fluida.mp4 --codec=h264 --pixel-format=yuv420p --crf=18"
+    "render:fluida": "remotion render src/index.ts DemoProfesional2DFluida out/demo-profesional-2d-fluida.mp4 --codec=h264 --pixel-format=yuv420p --crf=18",
+    "validate:sueno": "node scripts/validar-primer-video-sueno.mjs",
+    "script:sueno": "node scripts/exportar-guion-sueno.mjs",
+    "render:sueno": "remotion render src/index.ts PrimerVideoSueno out/primer-video-sueno.mp4 --codec=h264 --pixel-format=yuv420p --crf=20",
+    "captions:sueno": "node scripts/temporizar-sueno.mjs"
   },
   "dependencies": {
+    "@remotion/captions": "4.0.539",
     "@remotion/cli": "^4.0.0",
+    "@remotion/media": "4.0.539",
     "@remotion/transitions": "4.0.539",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

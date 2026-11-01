@@ -1,0 +1,1222 @@
+{
+  "title": "¿Qué le pasa a tu cuerpo cuando duermes poco?",
+  "fps": 30,
+  "durationSeconds": 90,
+  "scenes": [
+    {
+      "id": "gancho",
+      "label": "01 · UNA NOCHE",
+      "kind": "hook",
+      "start": 0,
+      "end": 10,
+      "headline": [
+        "Dormir poco",
+        "se nota mañana."
+      ],
+      "accent": "coral",
+      "theme": "light",
+      "assets": {
+        "character": "tired",
+        "alternate": "yawning",
+        "background": "bedroom",
+        "focus": "brain"
+      },
+      "narration": {
+        "text": "¿Sabías que una sola noche durmiendo poco puede afectar tu cerebro al día siguiente?",
+        "locale": "es-MX",
+        "src": null,
+        "status": "pending"
+      },
+      "captionTiming": "estimated_from_script_not_audio",
+      "captions": [
+        {
+          "text": "¿Sabías",
+          "startMs": 150,
+          "endMs": 943,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " que",
+          "startMs": 943,
+          "endMs": 1340,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " una",
+          "startMs": 1340,
+          "endMs": 1736,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " sola",
+          "startMs": 1736,
+          "endMs": 2265,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " noche",
+          "startMs": 2265,
+          "endMs": 2926,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": " durmiendo",
+          "startMs": 2926,
+          "endMs": 4116,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " poco",
+          "startMs": 4116,
+          "endMs": 4645,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " puede",
+          "startMs": 4645,
+          "endMs": 5305,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " afectar",
+          "startMs": 5305,
+          "endMs": 6231,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " tu",
+          "startMs": 6231,
+          "endMs": 6627,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": " cerebro",
+          "startMs": 6627,
+          "endMs": 7553,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " al",
+          "startMs": 7553,
+          "endMs": 7949,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " día",
+          "startMs": 7949,
+          "endMs": 8346,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " siguiente?",
+          "startMs": 8346,
+          "endMs": 9800,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ],
+      "callouts": []
+    },
+    {
+      "id": "cerebro",
+      "label": "02 · MIENTRAS DUERMES",
+      "kind": "brain",
+      "start": 10,
+      "end": 22,
+      "headline": [
+        "Tu cerebro",
+        "sigue trabajando."
+      ],
+      "accent": "gold",
+      "theme": "dark",
+      "assets": {
+        "focus": "brain",
+        "neuron": "neuron",
+        "synapse": "synapse"
+      },
+      "narration": {
+        "text": "Mientras duermes, tu cerebro realiza procesos importantes para consolidar recuerdos y regular su funcionamiento.",
+        "locale": "es-MX",
+        "src": null,
+        "status": "pending"
+      },
+      "captionTiming": "estimated_from_script_not_audio",
+      "captions": [
+        {
+          "text": "Mientras",
+          "startMs": 150,
+          "endMs": 1038,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " duermes,",
+          "startMs": 1038,
+          "endMs": 2036,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " tu",
+          "startMs": 2036,
+          "endMs": 2369,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " cerebro",
+          "startMs": 2369,
+          "endMs": 3146,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " realiza",
+          "startMs": 3146,
+          "endMs": 3922,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": " procesos",
+          "startMs": 3922,
+          "endMs": 4810,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " importantes",
+          "startMs": 4810,
+          "endMs": 6030,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " para",
+          "startMs": 6030,
+          "endMs": 6474,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " consolidar",
+          "startMs": 6474,
+          "endMs": 7584,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " recuerdos",
+          "startMs": 7584,
+          "endMs": 8582,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": " y",
+          "startMs": 8582,
+          "endMs": 8915,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " regular",
+          "startMs": 8915,
+          "endMs": 9692,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " su",
+          "startMs": 9692,
+          "endMs": 10025,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " funcionamiento.",
+          "startMs": 10025,
+          "endMs": 11800,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ],
+      "callouts": [
+        "Memoria y regulación",
+        "Conexiones activas",
+        "Señales entre neuronas"
+      ]
+    },
+    {
+      "id": "atencion",
+      "label": "03 · AL DÍA SIGUIENTE",
+      "kind": "attention",
+      "start": 22,
+      "end": 34,
+      "headline": [
+        "Menos atención.",
+        "Más errores."
+      ],
+      "accent": "coral",
+      "theme": "light",
+      "assets": {
+        "character": "confused",
+        "alternate": "thinking",
+        "reaction": "surprised",
+        "background": "livingRoom"
+      },
+      "narration": {
+        "text": "Cuando no descansas lo suficiente, tu atención disminuye y puedes cometer más errores.",
+        "locale": "es-MX",
+        "src": null,
+        "status": "pending"
+      },
+      "captionTiming": "estimated_from_script_not_audio",
+      "captions": [
+        {
+          "text": "Cuando",
+          "startMs": 150,
+          "endMs": 1013,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " no",
+          "startMs": 1013,
+          "endMs": 1444,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " descansas",
+          "startMs": 1444,
+          "endMs": 2739,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " lo",
+          "startMs": 2739,
+          "endMs": 3170,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " suficiente,",
+          "startMs": 3170,
+          "endMs": 4896,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": " tu",
+          "startMs": 4896,
+          "endMs": 5328,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " atención",
+          "startMs": 5328,
+          "endMs": 6478,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " disminuye",
+          "startMs": 6478,
+          "endMs": 7773,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " y",
+          "startMs": 7773,
+          "endMs": 8204,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " puedes",
+          "startMs": 8204,
+          "endMs": 9067,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": " cometer",
+          "startMs": 9067,
+          "endMs": 10074,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " más",
+          "startMs": 10074,
+          "endMs": 10506,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " errores.",
+          "startMs": 10506,
+          "endMs": 11800,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ],
+      "callouts": [
+        "Atención ↓"
+      ]
+    },
+    {
+      "id": "animo",
+      "label": "04 · CÓMO TE SIENTES",
+      "kind": "mood",
+      "start": 34,
+      "end": 46,
+      "headline": [
+        "Tu estado de ánimo",
+        "también cambia."
+      ],
+      "accent": "coral",
+      "theme": "light",
+      "assets": {
+        "character": "worried",
+        "alternate": "sad",
+        "reaction": "negating",
+        "resolve": "breathing",
+        "background": "livingRoom"
+      },
+      "narration": {
+        "text": "También puede cambiar tu estado de ánimo y hacer que te sientas más irritable.",
+        "locale": "es-MX",
+        "src": null,
+        "status": "pending"
+      },
+      "captionTiming": "estimated_from_script_not_audio",
+      "captions": [
+        {
+          "text": "También",
+          "startMs": 150,
+          "endMs": 1299,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " puede",
+          "startMs": 1299,
+          "endMs": 2119,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " cambiar",
+          "startMs": 2119,
+          "endMs": 3268,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " tu",
+          "startMs": 3268,
+          "endMs": 3760,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " estado",
+          "startMs": 3760,
+          "endMs": 4744,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": " de",
+          "startMs": 4744,
+          "endMs": 5237,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " ánimo",
+          "startMs": 5237,
+          "endMs": 6057,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " y",
+          "startMs": 6057,
+          "endMs": 6549,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " hacer",
+          "startMs": 6549,
+          "endMs": 7370,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " que",
+          "startMs": 7370,
+          "endMs": 7862,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": " te",
+          "startMs": 7862,
+          "endMs": 8354,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " sientas",
+          "startMs": 8354,
+          "endMs": 9503,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " más",
+          "startMs": 9503,
+          "endMs": 9995,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " irritable.",
+          "startMs": 9995,
+          "endMs": 11800,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ],
+      "callouts": [
+        "Más irritable"
+      ]
+    },
+    {
+      "id": "apetito",
+      "label": "05 · SEÑALES DE HAMBRE",
+      "kind": "appetite",
+      "start": 46,
+      "end": 58,
+      "headline": [
+        "El hambre también",
+        "recibe señales."
+      ],
+      "accent": "teal",
+      "theme": "light",
+      "assets": {
+        "focus": "hormones",
+        "character": "eating",
+        "background": "kitchen",
+        "molecule": "glucose"
+      },
+      "narration": {
+        "text": "Dormir poco también altera las señales que regulan el hambre y el apetito.",
+        "locale": "es-MX",
+        "src": null,
+        "status": "pending"
+      },
+      "captionTiming": "estimated_from_script_not_audio",
+      "captions": [
+        {
+          "text": "Dormir",
+          "startMs": 150,
+          "endMs": 1193,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " poco",
+          "startMs": 1193,
+          "endMs": 1889,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " también",
+          "startMs": 1889,
+          "endMs": 3106,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " altera",
+          "startMs": 3106,
+          "endMs": 4149,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " las",
+          "startMs": 4149,
+          "endMs": 4671,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": " señales",
+          "startMs": 4671,
+          "endMs": 5888,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " que",
+          "startMs": 5888,
+          "endMs": 6410,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " regulan",
+          "startMs": 6410,
+          "endMs": 7627,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " el",
+          "startMs": 7627,
+          "endMs": 8149,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " hambre",
+          "startMs": 8149,
+          "endMs": 9192,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": " y",
+          "startMs": 9192,
+          "endMs": 9713,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " el",
+          "startMs": 9713,
+          "endMs": 10235,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " apetito.",
+          "startMs": 10235,
+          "endMs": 11800,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ],
+      "callouts": [
+        "Señales de apetito"
+      ]
+    },
+    {
+      "id": "salud",
+      "label": "06 · SI SE REPITE",
+      "kind": "health",
+      "start": 58,
+      "end": 70,
+      "headline": [
+        "Si se vuelve",
+        "frecuente…"
+      ],
+      "accent": "coral",
+      "theme": "dark",
+      "assets": {
+        "focus": "heart",
+        "vessels": "vessels",
+        "cell": "redCell",
+        "molecule": "glucose"
+      },
+      "narration": {
+        "text": "Si esto ocurre con frecuencia, puede afectar tu salud metabólica y cardiovascular.",
+        "locale": "es-MX",
+        "src": null,
+        "status": "pending"
+      },
+      "captionTiming": "estimated_from_script_not_audio",
+      "captions": [
+        {
+          "text": "Si",
+          "startMs": 150,
+          "endMs": 604,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " esto",
+          "startMs": 604,
+          "endMs": 1209,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " ocurre",
+          "startMs": 1209,
+          "endMs": 2117,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " con",
+          "startMs": 2117,
+          "endMs": 2571,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " frecuencia,",
+          "startMs": 2571,
+          "endMs": 4386,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": " puede",
+          "startMs": 4386,
+          "endMs": 5143,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " afectar",
+          "startMs": 5143,
+          "endMs": 6202,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " tu",
+          "startMs": 6202,
+          "endMs": 6656,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " salud",
+          "startMs": 6656,
+          "endMs": 7412,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " metabólica",
+          "startMs": 7412,
+          "endMs": 8925,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": " y",
+          "startMs": 8925,
+          "endMs": 9379,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " cardiovascular.",
+          "startMs": 9379,
+          "endMs": 11800,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ],
+      "callouts": [
+        "Metabolismo y circulación"
+      ]
+    },
+    {
+      "id": "descanso",
+      "label": "07 · UNA BUENA REFERENCIA",
+      "kind": "rest",
+      "start": 70,
+      "end": 82,
+      "headline": [
+        "Para la mayoría",
+        "de los adultos"
+      ],
+      "accent": "teal",
+      "theme": "light",
+      "assets": {
+        "character": "sleeping",
+        "background": "bedroom"
+      },
+      "narration": {
+        "text": "Para la mayoría de los adultos, dormir entre siete y nueve horas por noche es una buena referencia.",
+        "locale": "es-MX",
+        "src": null,
+        "status": "pending"
+      },
+      "captionTiming": "estimated_from_script_not_audio",
+      "captions": [
+        {
+          "text": "Para",
+          "startMs": 150,
+          "endMs": 674,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " la",
+          "startMs": 674,
+          "endMs": 1066,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " mayoría",
+          "startMs": 1066,
+          "endMs": 1983,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " de",
+          "startMs": 1983,
+          "endMs": 2375,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " los",
+          "startMs": 2375,
+          "endMs": 2768,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": " adultos,",
+          "startMs": 2768,
+          "endMs": 3946,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " dormir",
+          "startMs": 3946,
+          "endMs": 4731,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " entre",
+          "startMs": 4731,
+          "endMs": 5386,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " siete",
+          "startMs": 5386,
+          "endMs": 6040,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " y",
+          "startMs": 6040,
+          "endMs": 6433,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": " nueve",
+          "startMs": 6433,
+          "endMs": 7088,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " horas",
+          "startMs": 7088,
+          "endMs": 7742,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " por",
+          "startMs": 7742,
+          "endMs": 8135,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " noche",
+          "startMs": 8135,
+          "endMs": 8789,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " es",
+          "startMs": 8789,
+          "endMs": 9182,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": " una",
+          "startMs": 9182,
+          "endMs": 9575,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " buena",
+          "startMs": 9575,
+          "endMs": 10229,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " referencia.",
+          "startMs": 10229,
+          "endMs": 11800,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ],
+      "callouts": [
+        "7–9 h",
+        "POR NOCHE"
+      ]
+    },
+    {
+      "id": "cierre",
+      "label": "08 · CORAZÓN AL LÍMITE",
+      "kind": "closing",
+      "start": 82,
+      "end": 90,
+      "headline": [
+        "Dormir bien",
+        "es cuidarte."
+      ],
+      "accent": "teal",
+      "theme": "light",
+      "assets": {
+        "character": "explaining",
+        "alternate": "happy",
+        "resolve": "approving"
+      },
+      "narration": {
+        "text": "Dormir bien no es perder el tiempo. Es darle a tu cuerpo lo que necesita para funcionar mejor. Sigue a Corazón al Límite.",
+        "locale": "es-MX",
+        "src": null,
+        "status": "pending"
+      },
+      "captionTiming": "estimated_from_script_not_audio",
+      "captions": [
+        {
+          "text": "Dormir",
+          "startMs": 150,
+          "endMs": 556,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " bien",
+          "startMs": 556,
+          "endMs": 827,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " no",
+          "startMs": 827,
+          "endMs": 1030,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " es",
+          "startMs": 1030,
+          "endMs": 1233,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " perder",
+          "startMs": 1233,
+          "endMs": 1639,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": " el",
+          "startMs": 1639,
+          "endMs": 1842,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " tiempo.",
+          "startMs": 1842,
+          "endMs": 2384,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " Es",
+          "startMs": 2384,
+          "endMs": 2587,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " darle",
+          "startMs": 2587,
+          "endMs": 2926,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " a",
+          "startMs": 2926,
+          "endMs": 3129,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": " tu",
+          "startMs": 3129,
+          "endMs": 3332,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " cuerpo",
+          "startMs": 3332,
+          "endMs": 3738,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " lo",
+          "startMs": 3738,
+          "endMs": 3941,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " que",
+          "startMs": 3941,
+          "endMs": 4144,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " necesita",
+          "startMs": 4144,
+          "endMs": 4686,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": " para",
+          "startMs": 4686,
+          "endMs": 4957,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " funcionar",
+          "startMs": 4957,
+          "endMs": 5566,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " mejor.",
+          "startMs": 5566,
+          "endMs": 6040,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " Sigue",
+          "startMs": 6040,
+          "endMs": 6378,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " a",
+          "startMs": 6378,
+          "endMs": 6581,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        },
+        {
+          "text": " Corazón",
+          "startMs": 6581,
+          "endMs": 7055,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " al",
+          "startMs": 7055,
+          "endMs": 7258,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": false
+        },
+        {
+          "text": " Límite.",
+          "startMs": 7258,
+          "endMs": 7800,
+          "timestampMs": null,
+          "confidence": null,
+          "pageBreakAfter": true
+        }
+      ],
+      "callouts": [
+        "Sigue a Corazón al Límite"
+      ]
+    }
+  ],
+  "shortTitle": "EL SUEÑO POR DENTRO"
+}

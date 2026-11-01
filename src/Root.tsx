@@ -1,5 +1,6 @@
 import React from "react";
 import { Composition, Folder } from "remotion";
+import { PrimerVideoSueno } from "./PrimerVideoSueno";
 import { DemoProfesional2DFluida } from "./DemoProfesional2DFluida";
 import { DemoProfesional2D } from "./DemoProfesional2D";
 import { Prueba2D } from "./Prueba2D";
@@ -63,6 +64,17 @@ export const RemotionRoot: React.FC = () => {
         <Composition id="DemoProfesional2DFluida-Cerebro" component={DemoProfesional2DFluida} durationInFrames={240} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 7}} />
         <Composition id="DemoProfesional2DFluida-Corazon" component={DemoProfesional2DFluida} durationInFrames={240} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 15}} />
         <Composition id="DemoProfesional2DFluida-Respuesta" component={DemoProfesional2DFluida} durationInFrames={210} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 23}} />
+      </Folder>
+      <Composition id="PrimerVideoSueno" component={PrimerVideoSueno} durationInFrames={2700} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 0}} />
+      <Folder name="PrimerVideoSueno-Escenas">
+        <Composition id="Sueno-01-Gancho" component={PrimerVideoSueno} durationInFrames={300} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 0}} />
+        <Composition id="Sueno-02-Cerebro" component={PrimerVideoSueno} durationInFrames={360} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 10}} />
+        <Composition id="Sueno-03-Atencion" component={PrimerVideoSueno} durationInFrames={360} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 22}} />
+        <Composition id="Sueno-04-Animo" component={PrimerVideoSueno} durationInFrames={360} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 34}} />
+        <Composition id="Sueno-05-Apetito" component={PrimerVideoSueno} durationInFrames={360} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 46}} />
+        <Composition id="Sueno-06-Salud" component={PrimerVideoSueno} durationInFrames={360} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 58}} />
+        <Composition id="Sueno-07-Descanso" component={PrimerVideoSueno} durationInFrames={360} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 70}} />
+        <Composition id="Sueno-08-Cierre" component={PrimerVideoSueno} durationInFrames={240} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 82}} />
       </Folder>
     </>
   );
