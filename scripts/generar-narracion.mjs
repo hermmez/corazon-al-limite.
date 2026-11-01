@@ -83,7 +83,7 @@ export const generateNarration = async ({ mode = "prueba", confirmFull = false, 
     } else {
       if (!client) {
         client = clientFromEnvironment();
-        catalog = await fetchCatalog(client);
+        catalog = await fetchCatalog(client, { selectedVoiceId: config.voiceId });
         await writeJson("out/elevenlabs-voces.json", catalog);
         const selected = catalog.voices.find((v) => v.voiceId === config.voiceId);
         if (!selected || !isMexicanMale(selected))

@@ -1,7 +1,7 @@
 import { clientFromEnvironment, fetchCatalog, readJson, reportError, safeApiDiagnostic, writeJson } from "./voz/catalogo.mjs";
 try {
   const client = clientFromEnvironment();
-  const catalog = await fetchCatalog(client);
+  const catalog = await fetchCatalog(client, { includeLibrary: true });
   await writeJson("out/elevenlabs-voces.json", catalog);
   console.log(`Catálogo guardado: ${catalog.voices.length} voces, ${catalog.candidates.length} candidatas masculinas con metadatos de México. No se generó audio.`);
   for (const v of catalog.candidates.slice(0, 15))

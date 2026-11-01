@@ -6,7 +6,7 @@ import path from "node:path";
 import ts from "typescript";
 import { createRequire } from "node:module";
 import { alignmentToCaptions, splitAlignedScenes } from "../scripts/voz/alineacion.mjs";
-import { isMexicanMale, reportError } from "../scripts/voz/catalogo.mjs";
+import { fetchCatalog, isMexicanMale, reportError } from "../scripts/voz/catalogo.mjs";
 import { generateNarration, requestFingerprint } from "../scripts/generar-narracion.mjs";
 
 const require = createRequire(import.meta.url);
@@ -92,6 +92,16 @@ test("voice selection requires male Mexican evidence; no automatic English fallb
   assert.equal(isMexicanMale({ gender: "female", locale: "es-MX" }), false);
   assert.equal(isMexicanMale({ gender: "male", accent: "american" }), false);
   assert.equal(isMexicanMale({ gender: "male", accent: "mexican", language: "en" }), false);
+});
+test("another library voice remains selectable after a Mexican voice was added to the account", async () => {
+  let libraryQueries = 0;
+  const client = { voices: {
+    search: async () => ({ voices: [{ voiceId: "accountFixture", labels: { gender: "male", language: "es", accent: "mexican" } }], hasMore: false }),
+    getShared: async () => { libraryQueries++; return { voices: [{ voiceId: "libraryFixture", name: "Library fixture", gender: "male", language: "es", locale: "es-MX" }] }; },
+  }};
+  const result = await fetchCatalog(client, { selectedVoiceId: "libraryFixture" });
+  assert.equal(libraryQueries, 1);
+  assert.ok(result.candidates.some((v) => v.voiceId === "libraryFixture"));
 });
 test("fingerprint invalidates the cache when text, voice or settings change", () => {
   const c = { voiceId: "one", modelId: "m", outputFormat: "mp3", voiceSettings: { speed: 1 } };

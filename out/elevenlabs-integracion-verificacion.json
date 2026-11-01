@@ -67,7 +67,7 @@
     },
     {
       "command": "node tests/voz.test.mjs",
-      "result": "passed_12_cases"
+      "result": "passed_13_cases"
     },
     {
       "command": "npm run test:voz",

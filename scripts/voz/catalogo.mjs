@@ -51,7 +51,7 @@ export const isMexicanMale = (v) => {
   const spanish = [v.language, ...(v.verifiedLanguages ?? []).map((l) => l.language)].some((l) => /^(es|spanish|español)$/i.test(l ?? ""));
   return male && (locales.some((l) => /^es[-_]mx$/i.test(l)) || (spanish && accents.some((a) => /mexic|méxic/i.test(a))));
 };
-export const fetchCatalog = async (client) => {
+export const fetchCatalog = async (client, { includeLibrary = false, selectedVoiceId } = {}) => {
   const voices = [];
   let token;
   for (let page = 0; page < 20; page++) {
@@ -63,7 +63,9 @@ export const fetchCatalog = async (client) => {
     token = result.nextPageToken;
     if (page === 19) throw new VoiceError("El catálogo supera 2000 voces; reduce la consulta antes de elegir.");
   }
-  if (!voices.some(isMexicanMale)) {
+  if (includeLibrary || (selectedVoiceId
+    ? !voices.some((v) => v.voiceId === selectedVoiceId)
+    : !voices.some(isMexicanMale))) {
     const shared = await client.voices.getShared({ language: "es", gender: "male", locale: "es-MX", pageSize: 100, includeCustomRates: false }, { maxRetries: 0 });
     for (const v of shared.voices) if (!voices.some((a) => a.voiceId === v.voiceId)) voices.push(plain(v, "library"));
   }

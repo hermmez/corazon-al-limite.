@@ -14,7 +14,7 @@ a extremo. Las ilustraciones, las composiciones y los videos anteriores se conse
   consultar la suscripción devuelve `401 / missing_permissions`. Por eso no se
   puede confirmar desde Codex el plan ni la cuota y no se atribuye el 402 a una
   causa más específica sin evidencia.
-- TypeScript y 12 pruebas pasan tanto localmente como en Actions. El workflow
+- TypeScript y las pruebas de sincronización pasan localmente y en Actions. El workflow
   manual se ejecuta desde la rama de revisión sin fusionarla.
 
 Para continuar, revisar en ElevenLabs el crédito disponible, los límites de la
@@ -37,8 +37,8 @@ el guion y los márgenes de lectura. La voz se elige consultando la API real:
 npm run voz:voces
 ```
 
-El catálogo queda en `out/elevenlabs-voces.json`: voces de la cuenta y, cuando
-es necesario, candidatas masculinas de la biblioteca con `locale: es-MX`.
+El catálogo queda en `out/elevenlabs-voces.json`: voces de la cuenta y hasta
+cien candidatas masculinas de la biblioteca con `locale: es-MX`.
 No sustituye una voz mexicana por una inglesa cuando no hay coincidencias.
 Se puede cambiar `voiceId` en el JSON o usar `ELEVENLABS_VOICE_ID` en la ejecución.
 La API vuelve a validar la disponibilidad y los metadatos antes de sintetizar.
@@ -161,7 +161,7 @@ No equivale a una narración completa del episodio.
 | `src/video-2d/narration.ts` | Sincronización de escenas y subtítulos con el audio |
 | `src/video-2d/Subtitles.tsx` | Pista de voz con `staticFile()` y límites de origen |
 | `public/voz/*/manifest.json` | Estado pendiente explícito hasta obtener voz real |
-| `tests/voz.test.mjs` | Doce casos de sincronización, consumo y protección de credenciales |
+| `tests/voz.test.mjs` | Casos de sincronización, selección, consumo y protección de credenciales |
 
 Se modifican también el registro de Remotion, los tipos y la cámara del episodio
 para admitir duraciones medidas. La lista exacta de archivos nuevos y modificados
