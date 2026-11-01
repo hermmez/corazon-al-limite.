@@ -1,5 +1,28 @@
 # Narración en español mexicano con ElevenLabs
 
+## Estado de la entrega
+
+**Integración preparada; generación real bloqueada por ElevenLabs (HTTP 402).**
+La ejecución manual de la prueba no recibió ningún MP3 y no renderizó un video con
+voz. No se afirma que la síntesis o la integración de audio funcionen de extremo
+a extremo. Las ilustraciones, las composiciones y los videos anteriores se conservan.
+
+- [Prueba real rechazada](https://github.com/hermmez/corazon-al-limite./actions/runs/41275244004).
+- [Reporte de archivos, validaciones y preservación](../out/elevenlabs-integracion-verificacion.json).
+- [Diagnóstico posterior sin síntesis](https://github.com/hermmez/corazon-al-limite./actions/runs/41275579362):
+  Arturo está disponible en la cuenta; la clave permite consultar voces, pero
+  consultar la suscripción devuelve `401 / missing_permissions`. Por eso no se
+  puede confirmar desde Codex el plan ni la cuota y no se atribuye el 402 a una
+  causa más específica sin evidencia.
+- TypeScript y 12 pruebas pasan tanto localmente como en Actions. El workflow
+  manual se ejecuta desde la rama de revisión sin fusionarla.
+
+Para continuar, revisar en ElevenLabs el crédito disponible, los límites de la
+clave y el acceso por API a la voz elegida. Después volver a ejecutar el modo
+`prueba`, con `render_video=true`. No hace falta compartir la clave con Codex ni
+generar el episodio completo. Los manifiestos permanecen explícitamente pendientes
+hasta recibir y validar un audio real.
+
 La clave se lee solamente de `ELEVENLABS_API_KEY` en scripts de Node y en el paso
 de síntesis de GitHub Actions. El SDK oficial `@elevenlabs/elevenlabs-js` nunca
 se importa en React ni en el reproductor. No guardes credenciales en el JSON,
@@ -123,6 +146,27 @@ Para oír la prueba desde la composición completa, usar estos props:
 
 Eso incorpora únicamente las dos frases de prueba; el resto sigue sin narración.
 No equivale a una narración completa del episodio.
+
+## Archivos de la integración
+
+| Archivo | Responsabilidad |
+| --- | --- |
+| `config/elevenlabs.json` | Voz, modelo y ajustes reutilizables, sin credenciales |
+| `scripts/listar-voces.mjs` y `scripts/voz/catalogo.mjs` | SDK oficial, catálogo y diagnósticos seguros |
+| `scripts/generar-narracion.mjs` | Prueba breve, episodio opcional, caché y manifiestos |
+| `scripts/voz/alineacion.mjs` | Alineación de caracteres a palabras y reparto entre escenas |
+| `scripts/voz/audio.mjs` y `scripts/verificar-narracion.mjs` | FFprobe, decodificación, hashes y validación real |
+| `.github/workflows/elevenlabs.yml` | Ejecución manual, secreto, caché y artefactos |
+| `src/PrimerVideoSueno/narration.ts` | Metadatos y duración dinámica de Remotion |
+| `src/video-2d/narration.ts` | Sincronización de escenas y subtítulos con el audio |
+| `src/video-2d/Subtitles.tsx` | Pista de voz con `staticFile()` y límites de origen |
+| `public/voz/*/manifest.json` | Estado pendiente explícito hasta obtener voz real |
+| `tests/voz.test.mjs` | Doce casos de sincronización, consumo y protección de credenciales |
+
+Se modifican también el registro de Remotion, los tipos y la cámara del episodio
+para admitir duraciones medidas. La lista exacta de archivos nuevos y modificados
+está en el reporte de verificación. El PR se apila sobre `primer-video-sueno`
+(PR #4), que todavía no está fusionado; no se fusiona ninguna rama automáticamente.
 
 ## Comprobaciones
 

@@ -19,6 +19,13 @@ export const generateNarration = async ({ mode = "prueba", confirmFull = false, 
     throw new VoiceError("Selecciona un voiceId real en config/elevenlabs.json después de consultar las voces.");
   if (config.locale !== "es-MX" || !config.outputFormat.startsWith("mp3_"))
     throw new VoiceError("La configuración debe usar es-MX y salida MP3.");
+  if (![config.leadInSeconds, config.tailSeconds].every((n) => Number.isFinite(n) && n >= 0 && n <= 5))
+    throw new VoiceError("Los márgenes de narración deben estar entre 0 y 5 segundos.");
+  for (const setting of ["stability", "similarityBoost", "style"])
+    if (!Number.isFinite(config.voiceSettings?.[setting]) || config.voiceSettings[setting] < 0 || config.voiceSettings[setting] > 1)
+      throw new VoiceError("Los ajustes de voz deben estar entre 0 y 1.");
+  if (!Number.isFinite(config.voiceSettings.speed) || config.voiceSettings.speed < 0.7 || config.voiceSettings.speed > 1.2)
+    throw new VoiceError("La velocidad de voz debe estar entre 0.7 y 1.2.");
   const script = await readJson(config.script);
   const testScenes = config.testSceneIds.map((id) => {
     const scene = script.scenes.find((s) => s.id === id);
@@ -51,7 +58,7 @@ export const generateNarration = async ({ mode = "prueba", confirmFull = false, 
     voiceSettings: config.voiceSettings, outputFormat: config.outputFormat,
     leadInSeconds: config.leadInSeconds, tailSeconds: config.tailSeconds,
     testFingerprint: requestFingerprint(config, testText),
-    generatedAt: new Date().toISOString(),
+    preparedAt: new Date().toISOString(),
     clips: [],
   };
   let client, catalog, resolvedVoiceId = config.voiceId, paidRequests = 0, cacheHits = 0;
@@ -89,7 +96,7 @@ export const generateNarration = async ({ mode = "prueba", confirmFull = false, 
             const added = await client.voices.share(selected.publicOwnerId, selected.voiceId, { newName: selected.name }, { maxRetries: 0 });
             resolvedVoiceId = added.voiceId;
           } catch (error) {
-            await writeJson(`out/elevenlabs-${mode}-error.json`, { status: "blocked", stage: "library_voice_access", ...safeApiDiagnostic(error), generatedAudio: false });
+            await writeJson(`out/elevenlabs-${mode}-error.json`, { status: "blocked", stage: "library_voice_access", ...safeApiDiagnostic(error), audioReceived: false });
             throw error;
           }
         }
@@ -104,7 +111,7 @@ export const generateNarration = async ({ mode = "prueba", confirmFull = false, 
         ...context,
       }, { maxRetries: 0, timeoutInSeconds: 180 }); }
       catch (error) {
-        await writeJson(`out/elevenlabs-${mode}-error.json`, { status: "blocked", stage: "text_to_speech", ...safeApiDiagnostic(error), generatedAudio: false });
+        await writeJson(`out/elevenlabs-${mode}-error.json`, { status: "blocked", stage: "text_to_speech", ...safeApiDiagnostic(error), audioReceived: false });
         throw error;
       }
       paidRequests++;

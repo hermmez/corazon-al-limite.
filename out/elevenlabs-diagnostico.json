@@ -1,0 +1,11 @@
+{
+  "generatedAudio": false,
+  "selectedVoiceId": "svrHd8NySjbCTALnWLoS",
+  "selectedVoiceInAccount": true,
+  "selectedVoiceFound": true,
+  "subscription": {
+    "queryFailed": true,
+    "httpStatus": 401,
+    "code": "missing_permissions"
+  }
+}
