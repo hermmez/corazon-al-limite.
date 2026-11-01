@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "composition": "CorazonPiloto10s",
+  "file": "output/corazon_al_limite_piloto_10s.mp4",
+  "bytes": 3730139,
+  "sha256": "381dc2a3971a60f9c75f8405c05be4d2f615a4016b4902babdb6815a1866b5ef",
+  "durationSeconds": 10,
+  "video": {
+    "codec": "h264",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 300,
+    "pixelFormat": "yuv420p",
+    "colorRange": "tv"
+  },
+  "audio": {
+    "codec": "aac",
+    "sampleRate": 48000,
+    "channels": 2,
+    "lufs": -14.09,
+    "truePeakDbtp": -1.98
+  },
+  "voice": {
+    "originalDurationSeconds": 8.75102,
+    "playbackRate": 1,
+    "offsetMs": 180,
+    "lastWordEndSeconds": 8.84
+  },
+  "captions": {
+    "engine": "faster-whisper",
+    "model": "base",
+    "alignment": "actual audio word timestamps",
+    "words": 18,
+    "wordsPerGroup": [
+      2,
+      3,
+      2,
+      3,
+      4,
+      2,
+      2
+    ]
+  },
+  "preservation": {
+    "approvedPngUnchanged": 68
+  },
+  "fullDecode": true,
+  "blackRanges": 0,
+  "distinctFrames": 300,
+  "fastStart": true,
+  "validatedAt": "2026-11-01T21:05:57.653Z"
+}

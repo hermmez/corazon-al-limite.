@@ -1,0 +1,70 @@
+{
+  "composition": "CorazonPiloto10s",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 300,
+  "durationSeconds": 10,
+  "narration": "¿Duermes poco? Si es habitual, puede elevar tu presión arterial y el riesgo cardiovascular. Tu corazón necesita descanso.",
+  "narrationLeadMs": 180,
+  "narrationPlaybackRate": 1,
+  "scenes": [
+    {
+      "id": "gancho",
+      "start": 0,
+      "end": 2
+    },
+    {
+      "id": "presion",
+      "start": 2,
+      "end": 5
+    },
+    {
+      "id": "riesgo",
+      "start": 5,
+      "end": 8
+    },
+    {
+      "id": "descanso",
+      "start": 8,
+      "end": 10
+    }
+  ],
+  "visualAssets": [
+    "imagenes/personajes/11_sorprendido.png",
+    "imagenes/personajes/05_cansado.png",
+    "imagenes/personajes/02_explicando.png",
+    "imagenes/anatomia/03_corazon_humano.png"
+  ],
+  "voice": {
+    "provider": "ElevenLabs via Higgsfield",
+    "preset": "Juan",
+    "voice_id": "6b528d43-c056-4a2f-9d82-1591a7ba13b0",
+    "voice_type": "preset",
+    "jobId": "18769408-e987-4737-b7a1-539d2aa28a06",
+    "status": "completed",
+    "costQuotedCredits": 0.45
+  },
+  "characterAnimation": {
+    "provider": "Higgsfield / Kling 3.0 Turbo",
+    "jobId": "12de04f7-a7de-42d5-a8b7-4ad9a9665208",
+    "source": "imagenes/personajes/11_sorprendido.png",
+    "status": "completed",
+    "costQuotedCredits": 6,
+    "mouth": "original PNG region held fixed; no lip sync",
+    "muted": true
+  },
+  "medicalSources": [
+    "https://www.nhlbi.nih.gov/health/sleep-deprivation/health-effects",
+    "https://www.cdc.gov/heart-disease/about/sleep.html"
+  ],
+  "captionGroupWords": [
+    2,
+    3,
+    2,
+    3,
+    4,
+    2,
+    2
+  ]
+}

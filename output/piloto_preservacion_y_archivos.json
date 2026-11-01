@@ -1,0 +1,60 @@
+{
+  "baseline": "8dee3212b11b35cd02876f92652bc0e1ac663ac3",
+  "oldFilesUnchangedExceptAuthorizedConfigAndRegistration": 181,
+  "oldCompositionRegistrationsPreserved": 26,
+  "approvedPngUnchanged": 68,
+  "binaryPreflight": {
+    "repositoryPublic": true,
+    "repositorySizeKbBefore": 187095,
+    "largestNewFileBytes": 3730139,
+    "totalNewBinaryBytes": 17962746,
+    "everyNewFileBelow50MiB": true,
+    "githubHardLimitPerFileMiB": 100,
+    "files": [
+      {
+        "path": "output/corazon_al_limite_piloto_10s.mp4",
+        "bytes": 3730139
+      },
+      {
+        "path": "output/piloto_portada.jpg",
+        "bytes": 114714
+      },
+      {
+        "path": "public/piloto10s/audio/efectos_originales.wav",
+        "bytes": 1920044
+      },
+      {
+        "path": "public/piloto10s/audio/mezcla_master.wav",
+        "bytes": 1920078
+      },
+      {
+        "path": "public/piloto10s/audio/mezcla_previa.wav",
+        "bytes": 1920044
+      },
+      {
+        "path": "public/piloto10s/audio/musica_original.wav",
+        "bytes": 1920044
+      },
+      {
+        "path": "public/piloto10s/audio/narracion.wav",
+        "bytes": 1920078
+      },
+      {
+        "path": "public/piloto10s/audio/narracion_normalizada.wav",
+        "bytes": 1674318
+      },
+      {
+        "path": "public/piloto10s/audio/narracion_original.mp3",
+        "bytes": 140477
+      },
+      {
+        "path": "public/piloto10s/fonts/Manrope[wght].ttf",
+        "bytes": 164700
+      },
+      {
+        "path": "public/piloto10s/video/personaje_higgsfield_original.mp4",
+        "bytes": 2538110
+      }
+    ]
+  }
+}

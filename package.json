@@ -22,7 +22,9 @@
     "voz:episodio": "node scripts/generar-narracion.mjs --mode episodio",
     "test:voz": "node --test tests/voz.test.mjs",
     "render:voz:prueba": "npm run voz:validar && remotion render src/index.ts PruebaVozElevenLabs out/elevenlabs-voz-prueba.mp4 --codec=h264 --pixel-format=yuv420p --crf=24 --scale=0.6666666667 --concurrency=2",
-    "voz:validar": "node scripts/verificar-narracion.mjs"
+    "voz:validar": "node scripts/verificar-narracion.mjs",
+    "render:piloto10s": "node scripts/piloto10s/render.mjs",
+    "validate:piloto10s": "node scripts/piloto10s/validar.mjs"
   },
   "dependencies": {
     "@elevenlabs/elevenlabs-js": "2.75.0",
