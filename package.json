@@ -24,7 +24,10 @@
     "render:voz:prueba": "npm run voz:validar && remotion render src/index.ts PruebaVozElevenLabs out/elevenlabs-voz-prueba.mp4 --codec=h264 --pixel-format=yuv420p --crf=24 --scale=0.6666666667 --concurrency=2",
     "voz:validar": "node scripts/verificar-narracion.mjs",
     "render:piloto10s": "node scripts/piloto10s/render.mjs",
-    "validate:piloto10s": "node scripts/piloto10s/validar.mjs"
+    "validate:piloto10s": "node scripts/piloto10s/validar.mjs",
+    "render:episodio01": "node scripts/episodio-01-cerebro/render.mjs",
+    "validate:episodio01": "node scripts/episodio-01-cerebro/validar.mjs",
+    "playback:episodio01": "node scripts/episodio-01-cerebro/comprobar_navegador.mjs"
   },
   "dependencies": {
     "@elevenlabs/elevenlabs-js": "2.75.0",

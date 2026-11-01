@@ -1,0 +1,1082 @@
+[
+  {
+    "text": "¡Tu",
+    "startMs": 120,
+    "endMs": 340,
+    "timestampMs": 230,
+    "confidence": 0.1497761309146881,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cerebro",
+    "startMs": 340,
+    "endMs": 880,
+    "timestampMs": 610,
+    "confidence": 0.9852324426174164,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " no",
+    "startMs": 880,
+    "endMs": 1140,
+    "timestampMs": 1010,
+    "confidence": 0.9890696406364441,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " puede",
+    "startMs": 1140,
+    "endMs": 1580,
+    "timestampMs": 1360,
+    "confidence": 0.9135237336158752,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " sentir",
+    "startMs": 1580,
+    "endMs": 2000,
+    "timestampMs": 1790,
+    "confidence": 0.9835180044174194,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " dolor!",
+    "startMs": 2000,
+    "endMs": 2460,
+    "timestampMs": 2230,
+    "confidence": 0.9948157668113708,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " Y",
+    "startMs": 2880,
+    "endMs": 3160,
+    "timestampMs": 3020,
+    "confidence": 0.9726215600967407,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " eso",
+    "startMs": 3160,
+    "endMs": 3400,
+    "timestampMs": 3280,
+    "confidence": 0.9799385070800781,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " es",
+    "startMs": 3400,
+    "endMs": 3540,
+    "timestampMs": 3470,
+    "confidence": 0.9962866306304932,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " mucho",
+    "startMs": 3540,
+    "endMs": 3840,
+    "timestampMs": 3690,
+    "confidence": 0.987959623336792,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " más",
+    "startMs": 3840,
+    "endMs": 4080,
+    "timestampMs": 3960,
+    "confidence": 0.9869570732116699,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " extraño",
+    "startMs": 4080,
+    "endMs": 4820,
+    "timestampMs": 4450,
+    "confidence": 0.9886706173419952,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " de",
+    "startMs": 4820,
+    "endMs": 4940,
+    "timestampMs": 4880,
+    "confidence": 0.9805143475532532,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " lo",
+    "startMs": 4940,
+    "endMs": 5040,
+    "timestampMs": 4990,
+    "confidence": 0.9981167316436768,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " que",
+    "startMs": 5040,
+    "endMs": 5180,
+    "timestampMs": 5110,
+    "confidence": 0.9934378266334534,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " parece.",
+    "startMs": 5180,
+    "endMs": 5720,
+    "timestampMs": 5450,
+    "confidence": 0.9694414734840393,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Aunque",
+    "startMs": 6050,
+    "endMs": 6350,
+    "timestampMs": 6200,
+    "confidence": 0.9823679327964783,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " controla",
+    "startMs": 6350,
+    "endMs": 6870,
+    "timestampMs": 6610,
+    "confidence": 0.8674520254135132,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " lo",
+    "startMs": 6870,
+    "endMs": 7030,
+    "timestampMs": 6950,
+    "confidence": 0.9901610612869263,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " que",
+    "startMs": 7030,
+    "endMs": 7190,
+    "timestampMs": 7110,
+    "confidence": 0.9965459704399109,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " sientes",
+    "startMs": 7190,
+    "endMs": 7530,
+    "timestampMs": 7360,
+    "confidence": 0.9554014205932617,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " en",
+    "startMs": 7530,
+    "endMs": 7810,
+    "timestampMs": 7670,
+    "confidence": 0.992175281047821,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " todo",
+    "startMs": 7810,
+    "endMs": 8010,
+    "timestampMs": 7910,
+    "confidence": 0.9497678279876709,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " tu",
+    "startMs": 8010,
+    "endMs": 8230,
+    "timestampMs": 8120,
+    "confidence": 0.9488168954849243,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cuerpo,",
+    "startMs": 8230,
+    "endMs": 8630,
+    "timestampMs": 8430,
+    "confidence": 0.9989503026008606,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " el",
+    "startMs": 9190,
+    "endMs": 9310,
+    "timestampMs": 9250,
+    "confidence": 0.9869154691696167,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " propio",
+    "startMs": 9310,
+    "endMs": 9650,
+    "timestampMs": 9480,
+    "confidence": 0.9935619831085205,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " tejido",
+    "startMs": 9650,
+    "endMs": 10130,
+    "timestampMs": 9890,
+    "confidence": 0.4190962246932748,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cerebral",
+    "startMs": 10130,
+    "endMs": 10490,
+    "timestampMs": 10310,
+    "confidence": 0.3510918617248535,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " no",
+    "startMs": 10490,
+    "endMs": 10990,
+    "timestampMs": 10740,
+    "confidence": 0.9930338859558105,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " tiene",
+    "startMs": 10990,
+    "endMs": 11350,
+    "timestampMs": 11170,
+    "confidence": 0.9949177503585815,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " receptores",
+    "startMs": 11350,
+    "endMs": 11970,
+    "timestampMs": 11660,
+    "confidence": 0.9534274339675903,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " del",
+    "startMs": 11970,
+    "endMs": 12170,
+    "timestampMs": 12070,
+    "confidence": 0.979468584060669,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " dolor.",
+    "startMs": 12170,
+    "endMs": 12530,
+    "timestampMs": 12350,
+    "confidence": 0.9981997013092041,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Pero",
+    "startMs": 13210,
+    "endMs": 13930,
+    "timestampMs": 13570,
+    "confidence": 0.7875152230262756,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " espera…",
+    "startMs": 13930,
+    "endMs": 15030,
+    "timestampMs": 14480,
+    "confidence": 0.5014248779043555,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " si",
+    "startMs": 15030,
+    "endMs": 15250,
+    "timestampMs": 15140,
+    "confidence": 0.4052089750766754,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " es",
+    "startMs": 15250,
+    "endMs": 15430,
+    "timestampMs": 15340,
+    "confidence": 0.9947988986968994,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " así,",
+    "startMs": 15430,
+    "endMs": 15790,
+    "timestampMs": 15610,
+    "confidence": 0.9740307331085205,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " ¿por",
+    "startMs": 16170,
+    "endMs": 16270,
+    "timestampMs": 16220,
+    "confidence": 0.8719263076782227,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " qué",
+    "startMs": 16270,
+    "endMs": 16490,
+    "timestampMs": 16380,
+    "confidence": 0.9231337904930115,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " una",
+    "startMs": 16490,
+    "endMs": 16670,
+    "timestampMs": 16580,
+    "confidence": 0.9838464260101318,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " migraña",
+    "startMs": 16670,
+    "endMs": 17210,
+    "timestampMs": 16940,
+    "confidence": 0.981014609336853,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " puede",
+    "startMs": 17210,
+    "endMs": 17510,
+    "timestampMs": 17360,
+    "confidence": 0.9845935702323914,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " doler",
+    "startMs": 17510,
+    "endMs": 17930,
+    "timestampMs": 17720,
+    "confidence": 0.869940996170044,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " tanto?",
+    "startMs": 17930,
+    "endMs": 18490,
+    "timestampMs": 18210,
+    "confidence": 0.9942202568054199,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Porque",
+    "startMs": 22210,
+    "endMs": 22570,
+    "timestampMs": 22390,
+    "confidence": 0.9144260287284851,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " el",
+    "startMs": 22570,
+    "endMs": 22690,
+    "timestampMs": 22630,
+    "confidence": 0.9900848865509033,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " dolor",
+    "startMs": 22690,
+    "endMs": 22990,
+    "timestampMs": 22840,
+    "confidence": 0.9984593391418457,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " puede",
+    "startMs": 22990,
+    "endMs": 23390,
+    "timestampMs": 23190,
+    "confidence": 0.9958472847938538,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " venir",
+    "startMs": 23390,
+    "endMs": 23730,
+    "timestampMs": 23560,
+    "confidence": 0.9898664951324463,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " de",
+    "startMs": 23730,
+    "endMs": 23890,
+    "timestampMs": 23810,
+    "confidence": 0.8283531665802002,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " estructuras",
+    "startMs": 23890,
+    "endMs": 24450,
+    "timestampMs": 24170,
+    "confidence": 0.9817553758621216,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " sensibles",
+    "startMs": 24450,
+    "endMs": 25070,
+    "timestampMs": 24760,
+    "confidence": 0.8741163909435272,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " alrededor",
+    "startMs": 25070,
+    "endMs": 25670,
+    "timestampMs": 25370,
+    "confidence": 0.9714673757553101,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " del",
+    "startMs": 25670,
+    "endMs": 26190,
+    "timestampMs": 25930,
+    "confidence": 0.9918609261512756,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " cerebro,",
+    "startMs": 26190,
+    "endMs": 26670,
+    "timestampMs": 26430,
+    "confidence": 0.9983089864253998,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " como",
+    "startMs": 27010,
+    "endMs": 27270,
+    "timestampMs": 27140,
+    "confidence": 0.9916794896125793,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " las",
+    "startMs": 27270,
+    "endMs": 27490,
+    "timestampMs": 27380,
+    "confidence": 0.9780893921852112,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " meninges",
+    "startMs": 27490,
+    "endMs": 28050,
+    "timestampMs": 27770,
+    "confidence": 0.7297501266002655,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " y",
+    "startMs": 28050,
+    "endMs": 28430,
+    "timestampMs": 28240,
+    "confidence": 0.9830926656723022,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " los",
+    "startMs": 28430,
+    "endMs": 28570,
+    "timestampMs": 28500,
+    "confidence": 0.9851253032684326,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " vasos",
+    "startMs": 28570,
+    "endMs": 28890,
+    "timestampMs": 28730,
+    "confidence": 0.9744938611984253,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " sanguíneos.",
+    "startMs": 28890,
+    "endMs": 29650,
+    "timestampMs": 29270,
+    "confidence": 0.801718944311142,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Esas",
+    "startMs": 33120,
+    "endMs": 34480,
+    "timestampMs": 33800,
+    "confidence": 0.6752670407295227,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " señales",
+    "startMs": 34480,
+    "endMs": 34920,
+    "timestampMs": 34700,
+    "confidence": 0.9926086962223053,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " viajan",
+    "startMs": 34920,
+    "endMs": 35300,
+    "timestampMs": 35110,
+    "confidence": 0.9609091579914093,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " por",
+    "startMs": 35300,
+    "endMs": 35520,
+    "timestampMs": 35410,
+    "confidence": 0.9950902462005615,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " nervios",
+    "startMs": 35520,
+    "endMs": 35980,
+    "timestampMs": 35750,
+    "confidence": 0.9884661138057709,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " hasta",
+    "startMs": 35980,
+    "endMs": 36380,
+    "timestampMs": 36180,
+    "confidence": 0.9670987725257874,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " el",
+    "startMs": 36380,
+    "endMs": 36500,
+    "timestampMs": 36440,
+    "confidence": 0.9945594668388367,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " sistema",
+    "startMs": 36500,
+    "endMs": 36780,
+    "timestampMs": 36640,
+    "confidence": 0.9783077239990234,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " nervioso,",
+    "startMs": 36780,
+    "endMs": 37480,
+    "timestampMs": 37130,
+    "confidence": 0.9983736872673035,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " donde",
+    "startMs": 37960,
+    "endMs": 38220,
+    "timestampMs": 38090,
+    "confidence": 0.9906994700431824,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " el",
+    "startMs": 38220,
+    "endMs": 38420,
+    "timestampMs": 38320,
+    "confidence": 0.9840149283409119,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cerebro",
+    "startMs": 38420,
+    "endMs": 38740,
+    "timestampMs": 38580,
+    "confidence": 0.9959122836589813,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " las",
+    "startMs": 38740,
+    "endMs": 38940,
+    "timestampMs": 38840,
+    "confidence": 0.7487947344779968,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " interpreta",
+    "startMs": 38940,
+    "endMs": 39560,
+    "timestampMs": 39250,
+    "confidence": 0.8636617362499237,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " como",
+    "startMs": 39560,
+    "endMs": 39800,
+    "timestampMs": 39680,
+    "confidence": 0.9826585054397583,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " dolor.",
+    "startMs": 39800,
+    "endMs": 40160,
+    "timestampMs": 39980,
+    "confidence": 0.9874901175498962,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Y",
+    "startMs": 43820,
+    "endMs": 44540,
+    "timestampMs": 44180,
+    "confidence": 0.8918901681900024,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " aquí",
+    "startMs": 44540,
+    "endMs": 44780,
+    "timestampMs": 44660,
+    "confidence": 0.9815441370010376,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " viene",
+    "startMs": 44780,
+    "endMs": 44980,
+    "timestampMs": 44880,
+    "confidence": 0.9039000272750854,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " lo",
+    "startMs": 44980,
+    "endMs": 45200,
+    "timestampMs": 45090,
+    "confidence": 0.7063988447189331,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " increíble:",
+    "startMs": 45200,
+    "endMs": 45760,
+    "timestampMs": 45480,
+    "confidence": 0.9916256070137024,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " en",
+    "startMs": 46440,
+    "endMs": 46540,
+    "timestampMs": 46490,
+    "confidence": 0.9928790926933289,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " algunas",
+    "startMs": 46540,
+    "endMs": 46920,
+    "timestampMs": 46730,
+    "confidence": 0.994175136089325,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cirugías,",
+    "startMs": 46920,
+    "endMs": 47520,
+    "timestampMs": 47220,
+    "confidence": 0.8337904612223307,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " los",
+    "startMs": 48100,
+    "endMs": 48180,
+    "timestampMs": 48140,
+    "confidence": 0.9971953630447388,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " pacientes",
+    "startMs": 48180,
+    "endMs": 48700,
+    "timestampMs": 48440,
+    "confidence": 0.9926890432834625,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " pueden",
+    "startMs": 48700,
+    "endMs": 49060,
+    "timestampMs": 48880,
+    "confidence": 0.9846075177192688,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " permanecer",
+    "startMs": 49060,
+    "endMs": 49680,
+    "timestampMs": 49370,
+    "confidence": 0.9904380639394125,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " despiertos",
+    "startMs": 49680,
+    "endMs": 50480,
+    "timestampMs": 50080,
+    "confidence": 0.929697314898173,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " mientras",
+    "startMs": 50480,
+    "endMs": 50840,
+    "timestampMs": 50660,
+    "confidence": 0.9599923491477966,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " los",
+    "startMs": 50840,
+    "endMs": 51060,
+    "timestampMs": 50950,
+    "confidence": 0.9962233304977417,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " médicos",
+    "startMs": 51060,
+    "endMs": 51500,
+    "timestampMs": 51280,
+    "confidence": 0.99611034989357,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " trabajan",
+    "startMs": 51500,
+    "endMs": 52040,
+    "timestampMs": 51770,
+    "confidence": 0.9921144843101501,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " sobre",
+    "startMs": 52040,
+    "endMs": 52280,
+    "timestampMs": 52160,
+    "confidence": 0.9978553652763367,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " el",
+    "startMs": 52280,
+    "endMs": 52400,
+    "timestampMs": 52340,
+    "confidence": 0.9963886737823486,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cerebro.",
+    "startMs": 52400,
+    "endMs": 52820,
+    "timestampMs": 52610,
+    "confidence": 0.9994116127490997,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Claro,",
+    "startMs": 53150,
+    "endMs": 54050,
+    "timestampMs": 53600,
+    "confidence": 0.8808402419090271,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " se",
+    "startMs": 54510,
+    "endMs": 54670,
+    "timestampMs": 54590,
+    "confidence": 0.20114324986934662,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " utiliza",
+    "startMs": 54670,
+    "endMs": 55110,
+    "timestampMs": 54890,
+    "confidence": 0.7150183916091919,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " anestesia",
+    "startMs": 55110,
+    "endMs": 55650,
+    "timestampMs": 55380,
+    "confidence": 0.7246204813321432,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " para",
+    "startMs": 55650,
+    "endMs": 55870,
+    "timestampMs": 55760,
+    "confidence": 0.9882956743240356,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " las",
+    "startMs": 55870,
+    "endMs": 56050,
+    "timestampMs": 55960,
+    "confidence": 0.9702295064926147,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " partes",
+    "startMs": 56050,
+    "endMs": 56370,
+    "timestampMs": 56210,
+    "confidence": 0.9991053938865662,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " que",
+    "startMs": 56370,
+    "endMs": 56650,
+    "timestampMs": 56510,
+    "confidence": 0.9919941425323486,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " sí",
+    "startMs": 56650,
+    "endMs": 56890,
+    "timestampMs": 56770,
+    "confidence": 0.8512832522392273,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " sienten",
+    "startMs": 56890,
+    "endMs": 57310,
+    "timestampMs": 57100,
+    "confidence": 0.9152057965596517,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " dolor,",
+    "startMs": 57310,
+    "endMs": 57670,
+    "timestampMs": 57490,
+    "confidence": 0.9949483871459961,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " y",
+    "startMs": 58230,
+    "endMs": 58510,
+    "timestampMs": 58370,
+    "confidence": 0.9872593283653259,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " todo",
+    "startMs": 58510,
+    "endMs": 58750,
+    "timestampMs": 58630,
+    "confidence": 0.6934396028518677,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " se",
+    "startMs": 58750,
+    "endMs": 58990,
+    "timestampMs": 58870,
+    "confidence": 0.9960298538208008,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " realiza",
+    "startMs": 58990,
+    "endMs": 59470,
+    "timestampMs": 59230,
+    "confidence": 0.9648734331130981,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " bajo",
+    "startMs": 59470,
+    "endMs": 59710,
+    "timestampMs": 59590,
+    "confidence": 0.9736086130142212,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " estricta",
+    "startMs": 59710,
+    "endMs": 60270,
+    "timestampMs": 59990,
+    "confidence": 0.9014535943667094,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " supervisión",
+    "startMs": 60270,
+    "endMs": 60910,
+    "timestampMs": 60590,
+    "confidence": 0.9390466511249542,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " médica.",
+    "startMs": 60910,
+    "endMs": 61410,
+    "timestampMs": 61160,
+    "confidence": 0.9904219210147858,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Tu",
+    "startMs": 61740,
+    "endMs": 62420,
+    "timestampMs": 62080,
+    "confidence": 0.5976324677467346,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cerebro",
+    "startMs": 62420,
+    "endMs": 62820,
+    "timestampMs": 62620,
+    "confidence": 0.9949199259281158,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " interpreta",
+    "startMs": 62820,
+    "endMs": 63480,
+    "timestampMs": 63150,
+    "confidence": 0.972677081823349,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " el",
+    "startMs": 63480,
+    "endMs": 63620,
+    "timestampMs": 63550,
+    "confidence": 0.4723087549209595,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " dolor…",
+    "startMs": 63620,
+    "endMs": 63920,
+    "timestampMs": 63770,
+    "confidence": 0.9920617341995239,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " ¡pero",
+    "startMs": 64600,
+    "endMs": 64900,
+    "timestampMs": 64750,
+    "confidence": 0.9936686158180237,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " su",
+    "startMs": 64900,
+    "endMs": 65100,
+    "timestampMs": 65000,
+    "confidence": 0.9925324320793152,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " propio",
+    "startMs": 65100,
+    "endMs": 65480,
+    "timestampMs": 65290,
+    "confidence": 0.9891602396965027,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " tejido",
+    "startMs": 65480,
+    "endMs": 66080,
+    "timestampMs": 65780,
+    "confidence": 0.953868180513382,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " no",
+    "startMs": 66080,
+    "endMs": 66420,
+    "timestampMs": 66250,
+    "confidence": 0.9903613328933716,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " lo",
+    "startMs": 66420,
+    "endMs": 66560,
+    "timestampMs": 66490,
+    "confidence": 0.9794381856918335,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " siente!",
+    "startMs": 66560,
+    "endMs": 67100,
+    "timestampMs": 66830,
+    "confidence": 0.9526321589946747,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Síguenos",
+    "startMs": 68520,
+    "endMs": 68780,
+    "timestampMs": 68650,
+    "confidence": 0.8076445609331131,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " para",
+    "startMs": 68780,
+    "endMs": 69040,
+    "timestampMs": 68910,
+    "confidence": 0.9924308657646179,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " descubrir",
+    "startMs": 69040,
+    "endMs": 69480,
+    "timestampMs": 69260,
+    "confidence": 0.9759581685066223,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " más.",
+    "startMs": 69480,
+    "endMs": 69700,
+    "timestampMs": 69590,
+    "confidence": 0.7848946452140808,
+    "pageBreakAfter": true
+  }
+]

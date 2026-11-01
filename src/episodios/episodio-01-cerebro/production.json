@@ -1,0 +1,99 @@
+{
+  "composition": "Episodio01Cerebro",
+  "title": "Tu cerebro no puede sentir dolor… ¿entonces por qué duele la cabeza?",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 2100,
+  "durationSeconds": 70,
+  "voice": {
+    "status": "real-integrated",
+    "provider": "ElevenLabs via Higgsfield",
+    "preset": "Juan",
+    "voiceId": "6b528d43-c056-4a2f-9d82-1591a7ba13b0",
+    "voiceType": "preset",
+    "quoteCredits": 2.55,
+    "playbackRate": 1,
+    "source": "public/episodios/episodio-01-cerebro/audio/narracion_original.mp3",
+    "timeline": "public/episodios/episodio-01-cerebro/audio/narracion_timeline.wav",
+    "lastWordEndMs": 69700,
+    "generationJobId": "c4eb3c79-1dc0-4104-9a75-1c99a7f06f00",
+    "creditsActual": 2.55,
+    "originalDurationSeconds": 62.850612,
+    "alignmentEngine": "faster-whisper base int8 with focused acoustic verification",
+    "sceneTiming": "natural J-cuts; only inter-sentence pauses edited",
+    "generationCount": 1
+  },
+  "intro3d": {
+    "status": "pending-approved-clip",
+    "source": null,
+    "fallback": "Approved illustrated brain with layered camera movement; no paid generation submitted",
+    "placeholderSeconds": 3
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5,
+      "text": "¡Tu cerebro no puede sentir dolor! Y eso es mucho más extraño de lo que parece."
+    },
+    {
+      "id": 2,
+      "start": 5,
+      "end": 13,
+      "text": "Aunque controla lo que sientes en todo tu cuerpo, el propio tejido cerebral no tiene receptores del dolor."
+    },
+    {
+      "id": 3,
+      "start": 13,
+      "end": 22,
+      "text": "Pero espera… si es así, ¿por qué una migraña puede doler tanto?"
+    },
+    {
+      "id": 4,
+      "start": 22,
+      "end": 33,
+      "text": "Porque el dolor puede venir de estructuras sensibles alrededor del cerebro, como las meninges y los vasos sanguíneos."
+    },
+    {
+      "id": 5,
+      "start": 33,
+      "end": 44,
+      "text": "Esas señales viajan por nervios hasta el sistema nervioso, donde el cerebro las interpreta como dolor."
+    },
+    {
+      "id": 6,
+      "start": 44,
+      "end": 55,
+      "text": "Y aquí viene lo increíble: en algunas cirugías, los pacientes pueden permanecer despiertos mientras los médicos trabajan sobre el cerebro."
+    },
+    {
+      "id": 7,
+      "start": 55,
+      "end": 64,
+      "text": "Claro, se utiliza anestesia para las partes que sí sienten dolor, y todo se realiza bajo estricta supervisión médica."
+    },
+    {
+      "id": 8,
+      "start": 64,
+      "end": 70,
+      "text": "Tu cerebro interpreta el dolor… ¡pero su propio tejido no lo siente! Síguenos para descubrir más."
+    }
+  ],
+  "narration": "¡Tu cerebro no puede sentir dolor! Y eso es mucho más extraño de lo que parece. Aunque controla lo que sientes en todo tu cuerpo, el propio tejido cerebral no tiene receptores del dolor. Pero espera… si es así, ¿por qué una migraña puede doler tanto? Porque el dolor puede venir de estructuras sensibles alrededor del cerebro, como las meninges y los vasos sanguíneos. Esas señales viajan por nervios hasta el sistema nervioso, donde el cerebro las interpreta como dolor. Y aquí viene lo increíble: en algunas cirugías, los pacientes pueden permanecer despiertos mientras los médicos trabajan sobre el cerebro. Claro, se utiliza anestesia para las partes que sí sienten dolor, y todo se realiza bajo estricta supervisión médica. Tu cerebro interpreta el dolor… ¡pero su propio tejido no lo siente! Síguenos para descubrir más.",
+  "narrationLeadMs": 120,
+  "captionAlignment": "actual audio word timestamps, silence-only timeline edits",
+  "visualAssets": [
+    "imagenes/personajes/11_sorprendido.png",
+    "imagenes/personajes/01_neutral.png",
+    "imagenes/personajes/02_explicando.png",
+    "imagenes/personajes/15_confundido.png",
+    "imagenes/personajes/29_dolor_cabeza.png",
+    "imagenes/anatomia/01_cerebro_completo.png",
+    "imagenes/anatomia/11_sistema_nervioso.png",
+    "imagenes/ciencia/01_neurona.png",
+    "imagenes/ciencia/02_sinapsis_neuronal.png",
+    "imagenes/escenarios/03_sala.png"
+  ],
+  "preservationManifest": "src/Piloto10s/approved-assets.json"
+}
