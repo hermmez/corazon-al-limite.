@@ -20,10 +20,6 @@ on:
         description: Renderizar un MP4 con la narración generada
         type: boolean
         default: true
-  # Bootstrap read-only catalog on this review branch; removed after validation.
-  push:
-    branches: [integracion-elevenlabs]
-    paths: [.github/workflows/elevenlabs.yml]
 
 permissions:
   contents: read
@@ -37,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     env:
-      MODO: ${{ github.event_name == 'push' && 'voces' || inputs.modo }}
+      MODO: ${{ inputs.modo }}
     steps:
       - uses: actions/checkout@v4
         with:

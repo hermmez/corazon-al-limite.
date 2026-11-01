@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { parseArgs } from "node:util";
-import { VoiceError, clientFromEnvironment, fetchCatalog, isMexicanMale, readJson, reportError, writeJson } from "./voz/catalogo.mjs";
+import { VoiceError, clientFromEnvironment, fetchCatalog, isMexicanMale, readJson, reportError, safeApiDiagnostic, writeJson } from "./voz/catalogo.mjs";
 import { alignmentToCaptions, splitAlignedScenes } from "./voz/alineacion.mjs";
 import { assertAudioTools, probeAudio, sha256 } from "./voz/audio.mjs";
 
@@ -84,17 +84,29 @@ export const generateNarration = async ({ mode = "prueba", confirmFull = false, 
         manifest.voiceName = selected.name;
         manifest.voiceEvidence = { gender: selected.gender, language: selected.language, locale: selected.locale, accent: selected.accent };
         if (!selected.addedToAccount) {
-          const added = await client.voices.share(selected.publicOwnerId, selected.voiceId, { newName: selected.name }, { maxRetries: 0 });
-          resolvedVoiceId = added.voiceId;
+          console.log("Preparando acceso a la voz de biblioteca; todavía no se solicita síntesis.");
+          try {
+            const added = await client.voices.share(selected.publicOwnerId, selected.voiceId, { newName: selected.name }, { maxRetries: 0 });
+            resolvedVoiceId = added.voiceId;
+          } catch (error) {
+            await writeJson(`out/elevenlabs-${mode}-error.json`, { status: "blocked", stage: "library_voice_access", ...safeApiDiagnostic(error), generatedAudio: false });
+            throw error;
+          }
         }
         manifest.resolvedVoiceId = resolvedVoiceId;
       }
-      const response = await client.textToSpeech.convertWithTimestamps(resolvedVoiceId, {
+      console.log(`Solicitando síntesis de ${text.length} caracteres; sin reintentos automáticos.`);
+      let response;
+      try { response = await client.textToSpeech.convertWithTimestamps(resolvedVoiceId, {
         text, modelId: config.modelId, outputFormat: config.outputFormat,
         voiceSettings: config.voiceSettings,
         ...(config.modelId === "eleven_multilingual_v2" ? {} : { languageCode: "es" }),
         ...context,
-      }, { maxRetries: 0, timeoutInSeconds: 180 });
+      }, { maxRetries: 0, timeoutInSeconds: 180 }); }
+      catch (error) {
+        await writeJson(`out/elevenlabs-${mode}-error.json`, { status: "blocked", stage: "text_to_speech", ...safeApiDiagnostic(error), generatedAudio: false });
+        throw error;
+      }
       paidRequests++;
       if (!response.audioBase64) throw new VoiceError("ElevenLabs no devolvió audio. No se reintenta automáticamente.");
       // Save the paid result BEFORE validating alignment, so failures never cause

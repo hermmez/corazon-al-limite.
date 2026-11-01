@@ -13,11 +13,17 @@ export const clientFromEnvironment = () => {
     throw new VoiceError("Falta ELEVENLABS_API_KEY. Configúrala como secreto de Actions o variable local; no la incluyas en archivos.");
   return new ElevenLabsClient({ apiKey: process.env.ELEVENLABS_API_KEY });
 };
+export const safeApiDiagnostic = (error) => {
+  const safeCodes = new Set(["quota_exceeded", "missing_permissions", "invalid_api_key", "voice_not_found", "paid_plan_required", "subscription_required", "payment_required", "insufficient_credits", "blocked_free_user", "too_many_concurrent_requests", "detected_unusual_activity"]);
+  const code = error?.body?.detail?.status;
+  return { httpStatus: Number.isInteger(error?.statusCode) ? error.statusCode : null, code: safeCodes.has(code) ? code : null };
+};
 export const reportError = (error) => {
   // Never log SDK objects, headers, request bodies, environment variables or stacks.
+  const diagnostic = safeApiDiagnostic(error);
   const message = error instanceof VoiceError
     ? error.message
-    : `La operación con ElevenLabs falló${Number.isInteger(error?.statusCode) ? ` (HTTP ${error.statusCode})` : ""}. Revisa permisos, cuota y acceso a la voz; no se reintenta automáticamente.`;
+    : `La operación con ElevenLabs falló${diagnostic.httpStatus ? ` (HTTP ${diagnostic.httpStatus})` : ""}${diagnostic.code ? `: ${diagnostic.code}` : ""}. Revisa permisos, cuota y acceso a la voz; no se reintenta automáticamente.`;
   console.error(message);
   process.exitCode = 1;
 };
@@ -42,7 +48,8 @@ export const isMexicanMale = (v) => {
   const male = /^(male|masculino|hombre)$/i.test(v.gender ?? "");
   const locales = [v.locale, ...(v.verifiedLanguages ?? []).map((l) => l.locale)].filter(Boolean);
   const accents = [v.accent, ...(v.verifiedLanguages ?? []).map((l) => l.accent)].filter(Boolean);
-  return male && (locales.some((l) => /^es[-_]mx$/i.test(l)) || accents.some((a) => /mexic|méxic/i.test(a)));
+  const spanish = [v.language, ...(v.verifiedLanguages ?? []).map((l) => l.language)].some((l) => /^(es|spanish|español)$/i.test(l ?? ""));
+  return male && (locales.some((l) => /^es[-_]mx$/i.test(l)) || (spanish && accents.some((a) => /mexic|méxic/i.test(a))));
 };
 export const fetchCatalog = async (client) => {
   const voices = [];

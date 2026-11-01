@@ -1,10 +1,12 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
+import os from "node:os";
+import path from "node:path";
 import ts from "typescript";
 import { createRequire } from "node:module";
 import { alignmentToCaptions, splitAlignedScenes } from "../scripts/voz/alineacion.mjs";
-import { isMexicanMale } from "../scripts/voz/catalogo.mjs";
+import { isMexicanMale, reportError } from "../scripts/voz/catalogo.mjs";
 import { generateNarration, requestFingerprint } from "../scripts/generar-narracion.mjs";
 
 const require = createRequire(import.meta.url);
@@ -89,6 +91,7 @@ test("voice selection requires male Mexican evidence; no automatic English fallb
   assert.equal(isMexicanMale({ gender: "male", locale: "es-MX" }), true);
   assert.equal(isMexicanMale({ gender: "female", locale: "es-MX" }), false);
   assert.equal(isMexicanMale({ gender: "male", accent: "american" }), false);
+  assert.equal(isMexicanMale({ gender: "male", accent: "mexican", language: "en" }), false);
 });
 test("fingerprint invalidates the cache when text, voice or settings change", () => {
   const c = { voiceId: "one", modelId: "m", outputFormat: "mp3", voiceSettings: { speed: 1 } };
@@ -98,4 +101,24 @@ test("fingerprint invalidates the cache when text, voice or settings change", ()
 });
 test("full episode is blocked before any API call unless explicitly confirmed", async () => {
   await assert.rejects(generateNarration({ mode: "episodio" }), /--confirm-full/);
+});
+test("confirmation alone cannot bypass the proof for the selected voice", async () => {
+  const directory = fs.mkdtempSync(path.join(os.tmpdir(), "corazon-voice-test-"));
+  const config = JSON.parse(fs.readFileSync("config/elevenlabs.json", "utf8"));
+  config.voiceId = "FixtureOtherVoice";
+  const file = path.join(directory, "config.json");
+  fs.writeFileSync(file, JSON.stringify(config));
+  try {
+    await assert.rejects(generateNarration({ mode: "episodio", confirmFull: true, configPath: file }), /prueba real/);
+  } finally { fs.rmSync(directory, { recursive: true }); }
+});
+test("SDK error diagnostics never log keys, headers, request bodies or stacks", () => {
+  const original = console.error, exitCode = process.exitCode;
+  const output = [];
+  console.error = (message) => output.push(message);
+  try {
+    reportError({ statusCode: 401, message: "PRIVATE_TEST_VALUE", stack: "PRIVATE_TEST_VALUE", headers: { authorization: "PRIVATE_TEST_VALUE" }, body: { detail: { status: "invalid_api_key", message: "PRIVATE_TEST_VALUE" } } });
+  } finally { console.error = original; process.exitCode = exitCode; }
+  assert.match(output[0], /HTTP 401.*invalid_api_key/);
+  assert.ok(!output.join("").includes("PRIVATE_TEST_VALUE"));
 });

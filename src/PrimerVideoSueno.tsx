@@ -131,7 +131,7 @@ export const PrimerVideoSueno: React.FC<PrimerVideoProps> = ({
       >
         <span>{resolvedScript.shortTitle}</span>
         <span>
-          {Math.min(duration, Math.floor(time)).toString().padStart(2, "0")} / {duration}
+          {Math.min(Math.ceil(duration), Math.floor(time)).toString().padStart(2, "0")} / {Math.ceil(duration)}
         </span>
       </div>
       <div
