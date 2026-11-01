@@ -254,7 +254,30 @@
     "videoDownload": "https://github.com/hermmez/corazon-al-limite./raw/refs/heads/piloto-corazon-10s/output/corazon_al_limite_piloto_10s.mp4",
     "localPlayer": "output/reproducir_piloto.html",
     "instructions": "docs/PILOTO_10S.md",
-    "mergedAutomatically": false
+    "mergedAutomatically": false,
+    "httpsVerification": {
+      "status": "passed",
+      "httpStatus": 200,
+      "contentType": "video/mp4",
+      "bytes": 3730139,
+      "sha256MatchesVerifiedLocalFile": true,
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/3730139",
+      "url": "https://cdn.jsdelivr.net/gh/hermmez/corazon-al-limite.@piloto-corazon-10s/output/corazon_al_limite_piloto_10s.mp4"
+    },
+    "inChatPlayer": {
+      "provider": "Higgsfield result widget",
+      "mediaId": "e3c17856-1e38-40f6-9977-ac24f13c479b",
+      "filename": "corazon_al_limite_piloto_10s.mp4",
+      "bytes": 3730139,
+      "confirmedOwnedVideo": true
+    }
   },
-  "createdAtUtc": "2026-11-01T21:07:40.383962+00:00"
+  "createdAtUtc": "2026-11-01T21:07:40.383962+00:00",
+  "pullRequest": {
+    "number": 6,
+    "url": "https://github.com/hermmez/corazon-al-limite./pull/6",
+    "base": "integracion-elevenlabs",
+    "merged": false
+  }
 }
