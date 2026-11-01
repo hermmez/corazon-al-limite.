@@ -1,6 +1,6 @@
 {
   "status": "implementation_ready_real_audio_generation_blocked",
-  "verifiedAtUtc": "2026-11-01T05:12:21.518642+00:00",
+  "verifiedAtUtc": "2026-11-01T05:17:02.540361+00:00",
   "repository": "hermmez/corazon-al-limite.",
   "branch": "integracion-elevenlabs",
   "reviewBaseBranch": "primer-video-sueno",
@@ -58,6 +58,23 @@
       "localUnitCasesPassedInActions": 12,
       "artifactId": 13071337400,
       "audioGenerated": false
+    },
+    {
+      "runId": 41276228071,
+      "url": "https://github.com/hermmez/corazon-al-limite./actions/runs/41276228071",
+      "event": "workflow_dispatch",
+      "mode": "voces",
+      "result": "success",
+      "sourceCommit": "d4cd12ff89b2f96ca5407cc6693540025a732a50",
+      "unitCasesPassed": 13,
+      "voicesInCatalog": 121,
+      "mexicanMaleCandidates": 100,
+      "selectedVoiceInAccount": true,
+      "audioGenerated": false,
+      "subscriptionQuery": {
+        "httpStatus": 401,
+        "code": "missing_permissions"
+      }
     }
   ],
   "checks": [
@@ -209,5 +226,12 @@
   ],
   "nextAction": "Review credit availability, API key limits and API access to the selected voice in ElevenLabs. Then manually run modo=prueba, render_video=true on integracion-elevenlabs. Do not share the API key in chat or commits.",
   "billingCause": "Not established: subscription read is denied. HTTP 402 is reported without inventing a more specific cause.",
-  "mergedAutomatically": false
+  "mergedAutomatically": false,
+  "pullRequest": {
+    "number": 5,
+    "url": "https://github.com/hermmez/corazon-al-limite./pull/5",
+    "draft": true,
+    "merged": false,
+    "base": "primer-video-sueno"
+  }
 }

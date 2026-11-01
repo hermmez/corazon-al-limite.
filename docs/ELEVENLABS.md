@@ -14,7 +14,8 @@ a extremo. Las ilustraciones, las composiciones y los videos anteriores se conse
   consultar la suscripción devuelve `401 / missing_permissions`. Por eso no se
   puede confirmar desde Codex el plan ni la cuota y no se atribuye el 402 a una
   causa más específica sin evidencia.
-- TypeScript y las pruebas de sincronización pasan localmente y en Actions. El workflow
+- TypeScript y 13 pruebas pasan localmente y en la
+  [validación final de Actions](https://github.com/hermmez/corazon-al-limite./actions/runs/41276228071). El workflow
   manual se ejecuta desde la rama de revisión sin fusionarla.
 
 Para continuar, revisar en ElevenLabs el crédito disponible, los límites de la
@@ -161,7 +162,7 @@ No equivale a una narración completa del episodio.
 | `src/video-2d/narration.ts` | Sincronización de escenas y subtítulos con el audio |
 | `src/video-2d/Subtitles.tsx` | Pista de voz con `staticFile()` y límites de origen |
 | `public/voz/*/manifest.json` | Estado pendiente explícito hasta obtener voz real |
-| `tests/voz.test.mjs` | Casos de sincronización, selección, consumo y protección de credenciales |
+| `tests/voz.test.mjs` | Trece casos de sincronización, selección, consumo y protección de credenciales |
 
 Se modifican también el registro de Remotion, los tipos y la cámara del episodio
 para admitir duraciones medidas. La lista exacta de archivos nuevos y modificados
