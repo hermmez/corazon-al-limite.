@@ -1,6 +1,6 @@
 import React from "react";
 import { Audio } from "@remotion/media";
-import { staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { Sequence, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { BasicCaptions } from "./basic-captions";
 import { ramp } from "./motion";
 import type { SceneSpec } from "./types";
@@ -39,10 +39,13 @@ export const DynamicSubtitles: React.FC<{ scene: SceneSpec }> = ({ scene }) => {
 export const NarrationTrack: React.FC<{ scene: SceneSpec }> = ({ scene }) => {
   const { fps } = useVideoConfig();
   return scene.narration.src ? (
+    <Sequence from={Math.round((scene.narration.startSeconds ?? 0) * fps)} premountFor={fps}>
     <Audio
       src={staticFile(scene.narration.src)}
-      trimBefore={(scene.narration.offsetSeconds ?? 0) * fps}
+      trimBefore={Math.round((scene.narration.offsetSeconds ?? 0) * fps)}
+      trimAfter={scene.narration.durationSeconds === undefined ? undefined : Math.round(((scene.narration.offsetSeconds ?? 0) + scene.narration.durationSeconds) * fps)}
       premountFor={fps}
     />
+    </Sequence>
   ) : null;
 };

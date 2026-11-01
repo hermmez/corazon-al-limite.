@@ -24,6 +24,8 @@ export type SceneSpec = {
     locale: string;
     src: string | null;
     offsetSeconds?: number;
+    startSeconds?: number;
+    durationSeconds?: number;
     status: string;
   };
   captionTiming: string;
@@ -37,3 +39,29 @@ export type StoryScript = {
   scenes: SceneSpec[];
 };
 export type SceneProps = { scene: SceneSpec; time: number };
+export type NarrationClip = {
+  sceneId: string;
+  text: string;
+  src: string;
+  offsetSeconds: number;
+  durationSeconds: number;
+  audioDurationSeconds: number;
+  sha256: string;
+  captionTiming: string;
+  captions: Caption[];
+};
+export type NarrationManifest = {
+  schemaVersion: number;
+  status: "pending" | "partial" | "generated";
+  mode: "prueba" | "episodio";
+  leadInSeconds: number;
+  tailSeconds: number;
+  clips: NarrationClip[];
+};
+export type PrimerVideoProps = {
+  startAtSeconds: number;
+  narrationManifest?: string | null;
+  narrationTiming?: "extend" | "audio";
+  voiceTest?: boolean;
+  resolvedScript?: StoryScript;
+};

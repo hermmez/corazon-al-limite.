@@ -16,9 +16,16 @@
     "validate:sueno": "node scripts/validar-primer-video-sueno.mjs",
     "script:sueno": "node scripts/exportar-guion-sueno.mjs",
     "render:sueno": "remotion render src/index.ts PrimerVideoSueno out/primer-video-sueno.mp4 --codec=h264 --pixel-format=yuv420p --crf=20",
-    "captions:sueno": "node scripts/temporizar-sueno.mjs"
+    "captions:sueno": "node scripts/temporizar-sueno.mjs",
+    "voz:voces": "node scripts/listar-voces.mjs",
+    "voz:prueba": "node scripts/generar-narracion.mjs --mode prueba",
+    "voz:episodio": "node scripts/generar-narracion.mjs --mode episodio",
+    "test:voz": "node --test tests/voz.test.mjs",
+    "render:voz:prueba": "npm run voz:validar && remotion render src/index.ts PruebaVozElevenLabs out/elevenlabs-voz-prueba.mp4 --codec=h264 --pixel-format=yuv420p --crf=24 --scale=0.6666666667 --concurrency=2",
+    "voz:validar": "node scripts/verificar-narracion.mjs"
   },
   "dependencies": {
+    "@elevenlabs/elevenlabs-js": "2.75.0",
     "@remotion/captions": "4.0.539",
     "@remotion/cli": "^4.0.0",
     "@remotion/media": "4.0.539",

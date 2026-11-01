@@ -1,0 +1,237 @@
+{
+  "status": "implementation_ready_real_audio_generation_blocked",
+  "verifiedAtUtc": "2026-11-01T05:17:02.540361+00:00",
+  "repository": "hermmez/corazon-al-limite.",
+  "branch": "integracion-elevenlabs",
+  "reviewBaseBranch": "primer-video-sueno",
+  "sdk": {
+    "package": "@elevenlabs/elevenlabs-js",
+    "version": "2.75.0"
+  },
+  "voice": {
+    "id": "svrHd8NySjbCTALnWLoS",
+    "name": "Arturo - Calm, Friendly, Natural",
+    "gender": "male",
+    "language": "es",
+    "locale": "es-MX",
+    "accent": "mexican",
+    "availableInAccount": true,
+    "configuration": "config/elevenlabs.json"
+  },
+  "realApiChecks": [
+    {
+      "runId": 41274573808,
+      "url": "https://github.com/hermmez/corazon-al-limite./actions/runs/41274573808",
+      "event": "push_read_only_bootstrap_removed_from_final_workflow",
+      "result": "voice_catalog_success",
+      "initialAccountVoices": 21,
+      "mexicanMaleLibraryCandidates": 100,
+      "audioGenerated": false
+    },
+    {
+      "runId": 41275244004,
+      "url": "https://github.com/hermmez/corazon-al-limite./actions/runs/41275244004",
+      "event": "workflow_dispatch",
+      "mode": "prueba",
+      "result": "failed_HTTP_402",
+      "textCharacters": 197,
+      "textWords": 28,
+      "audioFilesReceived": 0,
+      "narratedVideoRendered": false,
+      "artifactId": 13071242400,
+      "artifactInspected": true,
+      "artifactContainsMp3": false,
+      "automaticSynthesisRetries": 0
+    },
+    {
+      "runId": 41275579362,
+      "url": "https://github.com/hermmez/corazon-al-limite./actions/runs/41275579362",
+      "event": "workflow_dispatch",
+      "mode": "voces",
+      "result": "catalog_and_diagnostic_success",
+      "currentAccountVoices": 22,
+      "selectedVoiceInAccount": true,
+      "subscriptionQuery": {
+        "httpStatus": 401,
+        "code": "missing_permissions"
+      },
+      "localUnitCasesPassedInActions": 12,
+      "artifactId": 13071337400,
+      "audioGenerated": false
+    },
+    {
+      "runId": 41276228071,
+      "url": "https://github.com/hermmez/corazon-al-limite./actions/runs/41276228071",
+      "event": "workflow_dispatch",
+      "mode": "voces",
+      "result": "success",
+      "sourceCommit": "d4cd12ff89b2f96ca5407cc6693540025a732a50",
+      "unitCasesPassed": 13,
+      "voicesInCatalog": 121,
+      "mexicanMaleCandidates": 100,
+      "selectedVoiceInAccount": true,
+      "audioGenerated": false,
+      "subscriptionQuery": {
+        "httpStatus": 401,
+        "code": "missing_permissions"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "command": "npm run typecheck",
+      "result": "passed"
+    },
+    {
+      "command": "node tests/voz.test.mjs",
+      "result": "passed_13_cases"
+    },
+    {
+      "command": "npm run test:voz",
+      "result": "passed_locally_and_in_Actions"
+    },
+    {
+      "command": "npm run validate:sueno",
+      "result": "passed_2700_frames_8_scenes_25_approved_images"
+    },
+    {
+      "command": "actionlint v1.7.7 .github/workflows/elevenlabs.yml",
+      "result": "passed"
+    },
+    {
+      "command": "npx remotion compositions src/index.ts --browser-executable=/usr/bin/chromium --log=error",
+      "result": "passed_pending_manifests_compile_and_register"
+    },
+    {
+      "command": "node scripts/verificar-narracion.mjs with pending manifest",
+      "result": "correctly_rejects_missing_real_audio"
+    },
+    {
+      "command": "git diff --check",
+      "result": "passed"
+    }
+  ],
+  "preservation": {
+    "baseline": "77d7b32",
+    "approvedPngUnchanged": 68,
+    "previousCompositionIdsPreserved": [
+      "CorazonAlLimite",
+      "Prueba2D",
+      "Prueba2D-Introduccion",
+      "Prueba2D-Cansancio",
+      "Prueba2D-Cerebro",
+      "Prueba2D-Descanso",
+      "DemoProfesional2D",
+      "DemoProfesional2D-Miedo",
+      "DemoProfesional2D-Cerebro",
+      "DemoProfesional2D-Corazon",
+      "DemoProfesional2D-Respuesta",
+      "DemoProfesional2DFluida",
+      "DemoProfesional2DFluida-Miedo",
+      "DemoProfesional2DFluida-Cerebro",
+      "DemoProfesional2DFluida-Corazon",
+      "DemoProfesional2DFluida-Respuesta",
+      "PrimerVideoSueno",
+      "Sueno-01-Gancho",
+      "Sueno-02-Cerebro",
+      "Sueno-03-Atencion",
+      "Sueno-04-Animo",
+      "Sueno-05-Apetito",
+      "Sueno-06-Salud",
+      "Sueno-07-Descanso",
+      "Sueno-08-Cierre"
+    ],
+    "previousCompositionRegistrationsUnchangedExceptNarratedPrimerVideoSueno": 24,
+    "previousOutputFilesUnchanged": [
+      "out/demo-profesional-2d-fluida-verificacion.json",
+      "out/demo-profesional-2d-fluida-vista-previa.mp4",
+      "out/demo-profesional-2d-fluida.mp4",
+      "out/demo-profesional-2d-verificacion.json",
+      "out/demo-profesional-2d-vista-previa.mp4",
+      "out/demo-profesional-2d.mp4",
+      "out/primer-video-sueno-guion-es-MX.txt",
+      "out/primer-video-sueno-subtitulos.srt",
+      "out/primer-video-sueno-verificacion.json",
+      "out/primer-video-sueno-vista-previa.mp4",
+      "out/primer-video-sueno.mp4",
+      "out/prueba2d-storyboard.jpg",
+      "out/prueba2d-verificacion.json",
+      "out/prueba2d.mp4"
+    ],
+    "approvedSceneFilesUnchanged": 8,
+    "newCompositionIds": [
+      "PruebaVozElevenLabs"
+    ],
+    "audioFilesPresent": [],
+    "narratedRenderPreflight": "correctly_rejects_pending_manifest"
+  },
+  "security": {
+    "credentialSource": "GitHub Actions secrets.ELEVENLABS_API_KEY / local environment only",
+    "credentialsCommitted": false,
+    "sdkImportedInReactBundle": false,
+    "rawSdkErrorsLogged": false,
+    "workflowPermissions": {
+      "contents": "read"
+    },
+    "workflowAutomaticallyCommitsGeneratedFiles": false,
+    "workflowTriggers": [
+      "workflow_dispatch"
+    ],
+    "fullEpisodeRequiresExplicitConfirmationAndMatchingVerifiedSample": true
+  },
+  "filesCreated": [
+    ".github/workflows/elevenlabs.yml",
+    "config/elevenlabs.json",
+    "docs/ELEVENLABS.md",
+    "out/elevenlabs-diagnostico.json",
+    "out/elevenlabs-integracion-verificacion.json",
+    "out/elevenlabs-voces.json",
+    "public/voz/primer-video-sueno/manifest.json",
+    "public/voz/prueba/manifest.json",
+    "scripts/generar-narracion.mjs",
+    "scripts/listar-voces.mjs",
+    "scripts/verificar-narracion.mjs",
+    "scripts/voz/alineacion.mjs",
+    "scripts/voz/audio.mjs",
+    "scripts/voz/catalogo.mjs",
+    "src/PrimerVideoSueno/narration.ts",
+    "src/video-2d/narration.ts",
+    "tests/voz.test.mjs"
+  ],
+  "filesModified": [
+    ".gitignore",
+    "package-lock.json",
+    "package.json",
+    "src/PrimerVideoSueno.tsx",
+    "src/Root.tsx",
+    "src/video-2d/Subtitles.tsx",
+    "src/video-2d/motion.ts",
+    "src/video-2d/types.ts"
+  ],
+  "audioDelivery": {
+    "status": "pending_no_MP3_received",
+    "plannedDirectory": "public/voz/",
+    "sampleManifest": "public/voz/prueba/manifest.json",
+    "episodeManifest": "public/voz/primer-video-sueno/manifest.json",
+    "sampleComposition": "PruebaVozElevenLabs",
+    "episodeComposition": "PrimerVideoSueno",
+    "generatedAudioCount": 0,
+    "generatedNarratedVideoCount": 0,
+    "artifactsExpireAfterDays": 30
+  },
+  "remainingValidation": [
+    "Receive and decode one real ElevenLabs MP3 after the HTTP 402 restriction is resolved",
+    "Verify actual character alignment and render the narrated sample with that MP3",
+    "Listen to the sample before explicitly requesting the complete episode"
+  ],
+  "nextAction": "Review credit availability, API key limits and API access to the selected voice in ElevenLabs. Then manually run modo=prueba, render_video=true on integracion-elevenlabs. Do not share the API key in chat or commits.",
+  "billingCause": "Not established: subscription read is denied. HTTP 402 is reported without inventing a more specific cause.",
+  "mergedAutomatically": false,
+  "pullRequest": {
+    "number": 5,
+    "url": "https://github.com/hermmez/corazon-al-limite./pull/5",
+    "draft": true,
+    "merged": false,
+    "base": "primer-video-sueno"
+  }
+}

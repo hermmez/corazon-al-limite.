@@ -1,0 +1,2075 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-11-01T05:06:44.489Z",
+  "generatedAudio": false,
+  "voices": [
+    {
+      "voiceId": "svrHd8NySjbCTALnWLoS",
+      "name": "Arturo - Calm, Friendly, Natural",
+      "source": "account",
+      "category": "professional",
+      "labels": {
+        "use_case": "narrative_story",
+        "descriptive": "casual",
+        "age": "middle_aged",
+        "gender": "male",
+        "accent": "mexican",
+        "language": "es",
+        "locale": "es-MX"
+      },
+      "gender": "male",
+      "language": "es",
+      "accent": "mexican",
+      "locale": "es-MX",
+      "verifiedLanguages": [
+        {
+          "language": "es",
+          "locale": "es-MX",
+          "accent": "mexican"
+        },
+        {
+          "language": "es",
+          "locale": "es-MX",
+          "accent": "mexican"
+        },
+        {
+          "language": "es",
+          "locale": "es-MX",
+          "accent": "mexican"
+        },
+        {
+          "language": "es",
+          "locale": "es-MX",
+          "accent": "mexican"
+        },
+        {
+          "language": "ar",
+          "accent": "ar-modern-standard"
+        },
+        {
+          "language": "ar",
+          "accent": "ar-modern-standard"
+        },
+        {
+          "language": "ar",
+          "accent": "ar-modern-standard"
+        },
+        {
+          "language": "it",
+          "locale": "it-IT",
+          "accent": "it-standard"
+        },
+        {
+          "language": "it",
+          "locale": "it-IT",
+          "accent": "it-standard"
+        },
+        {
+          "language": "tr",
+          "locale": "tr-TR",
+          "accent": "tr-standard"
+        },
+        {
+          "language": "tr",
+          "locale": "tr-TR",
+          "accent": "tr-standard"
+        },
+        {
+          "language": "tr",
+          "locale": "tr-TR",
+          "accent": "tr-standard"
+        },
+        {
+          "language": "de",
+          "locale": "de-DE",
+          "accent": "de-standard"
+        },
+        {
+          "language": "de",
+          "locale": "de-DE",
+          "accent": "de-standard"
+        },
+        {
+          "language": "de",
+          "locale": "de-DE",
+          "accent": "de-standard"
+        },
+        {
+          "language": "ms",
+          "accent": "ms-standard"
+        },
+        {
+          "language": "ms",
+          "accent": "ms-standard"
+        },
+        {
+          "language": "ms",
+          "accent": "ms-standard"
+        },
+        {
+          "language": "id",
+          "locale": "id-ID",
+          "accent": "id-standard"
+        },
+        {
+          "language": "id",
+          "locale": "id-ID",
+          "accent": "id-javanese"
+        },
+        {
+          "language": "el",
+          "accent": "el-standard"
+        },
+        {
+          "language": "el",
+          "accent": "el-standard"
+        },
+        {
+          "language": "el",
+          "accent": "el-standard"
+        },
+        {
+          "language": "hr",
+          "locale": "hr-HR",
+          "accent": "hr-standard"
+        },
+        {
+          "language": "es",
+          "locale": "es-ES",
+          "accent": "es-latin-american"
+        },
+        {
+          "language": "ru",
+          "locale": "ru-RU",
+          "accent": "ru-standard"
+        },
+        {
+          "language": "ro",
+          "locale": "ro-RO",
+          "accent": "ro-standard"
+        },
+        {
+          "language": "hi",
+          "accent": "hi-standard"
+        },
+        {
+          "language": "hi",
+          "accent": "hi-standard"
+        },
+        {
+          "language": "hi",
+          "accent": "hi-standard"
+        },
+        {
+          "language": "cs",
+          "accent": "cs-standard"
+        },
+        {
+          "language": "cs",
+          "accent": "cs-standard"
+        },
+        {
+          "language": "cs",
+          "accent": "cs-standard"
+        },
+        {
+          "language": "vi",
+          "accent": "vi-southern"
+        },
+        {
+          "language": "vi",
+          "accent": "vi-southern"
+        }
+      ],
+      "description": "Mexican accent, with filler words and a natural feel.\n",
+      "previewUrl": "https://storage.googleapis.com/eleven-public-prod/database/workspace/70bc6b683b0c41ac81d7bb3a9eb60b77/voices/svrHd8NySjbCTALnWLoS/ZAHYQwyZQ4ajIaOPPFwQ.mp3",
+      "publicOwnerId": null,
+      "addedToAccount": true,
+      "freeUsersAllowed": null
+    },
+    {
+      "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+      "name": "Bella - Professional, Bright, Warm",
+      "source": "account",
+      "category": "premade",
+      "labels": {
+        "gender": "female",
+        "age": "middle_aged",
+        "descriptive": "professional",
+        "language": "en",
+        "use_case": "informative_educational",
+        "accent": "american"
+      },
+      "gender": "female",
+      "language": "en",
+      "accent": "american",
+      "locale": null,
+      "verifiedLanguages": [
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        }
+      ],
+      "description": "This voice is warm, bright, and professional, characterized by a Standard American accent and a polished, narrative quality. It features a medium-high pitch with crisp diction and a deliberate, rhythmic pace that makes it highly intelligible and engaging for long-form listening.",
+      "previewUrl": "https://storage.googleapis.com/eleven-public-prod/premade/voices/hpp4J3VqNfWAUOO0d1Us/dab0f5ba-3aa4-48a8-9fad-f138fea1126d.mp3",
+      "publicOwnerId": null,
+      "addedToAccount": true,
+      "freeUsersAllowed": null
+    },
+    {
+      "voiceId": "CwhRBWXzGAHq8TQ4Fs17",
+      "name": "Roger - Laid-Back, Casual, Resonant",
+      "source": "account",
+      "category": "premade",
+      "labels": {
+        "gender": "male",
+        "age": "middle_aged",
+        "descriptive": "classy",
+        "language": "en",
+        "use_case": "conversational",
+        "accent": "american"
+      },
+      "gender": "male",
+      "language": "en",
+      "accent": "american",
+      "locale": null,
+      "verifiedLanguages": [
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "fr",
+          "locale": "fr-FR",
+          "accent": "standard"
+        },
+        {
+          "language": "de",
+          "locale": "de-DE",
+          "accent": "standard"
+        },
+        {
+          "language": "nl",
+          "locale": "nl-NL",
+          "accent": "standard"
+        },
+        {
+          "language": "es",
+          "locale": "es-ES",
+          "accent": "standard"
+        }
+      ],
+      "description": "Easy going and perfect for casual conversations.",
+      "previewUrl": "https://storage.googleapis.com/eleven-public-prod/premade/voices/CwhRBWXzGAHq8TQ4Fs17/58ee3ff5-f6f2-4628-93b8-e38eb31806b0.mp3",
+      "publicOwnerId": null,
+      "addedToAccount": true,
+      "freeUsersAllowed": null
+    },
+    {
+      "voiceId": "EXAVITQu4vr4xnSDxMaL",
+      "name": "Sarah - Mature, Reassuring, Confident",
+      "source": "account",
+      "category": "premade",
+      "labels": {
+        "gender": "female",
+        "age": "young",
+        "descriptive": "professional",
+        "language": "en",
+        "use_case": "entertainment_tv",
+        "accent": "american"
+      },
+      "gender": "female",
+      "language": "en",
+      "accent": "american",
+      "locale": null,
+      "verifiedLanguages": [
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "fr",
+          "locale": "fr-FR",
+          "accent": "standard"
+        },
+        {
+          "language": "ar",
+          "accent": "standard"
+        },
+        {
+          "language": "zh",
+          "locale": "cmn-CN",
+          "accent": "standard"
+        },
+        {
+          "language": "es",
+          "locale": "es-ES",
+          "accent": "standard"
+        },
+        {
+          "language": "hi",
+          "locale": "hi-IN",
+          "accent": "standard"
+        }
+      ],
+      "description": "Young adult woman with a confident and warm, mature quality and a reassuring, professional tone.",
+      "previewUrl": "https://storage.googleapis.com/eleven-public-prod/premade/voices/EXAVITQu4vr4xnSDxMaL/01a3e33c-6e99-4ee7-8543-ff2216a32186.mp3",
+      "publicOwnerId": null,
+      "addedToAccount": true,
+      "freeUsersAllowed": null
+    },
+    {
+      "voiceId": "FGY2WhTYpPnrIDTdsKH5",
+      "name": "Laura - Enthusiast, Quirky Attitude",
+      "source": "account",
+      "category": "premade",
+      "labels": {
+        "gender": "female",
+        "age": "young",
+        "descriptive": "sassy",
+        "language": "en",
+        "use_case": "social_media",
+        "accent": "american"
+      },
+      "gender": "female",
+      "language": "en",
+      "accent": "american",
+      "locale": null,
+      "verifiedLanguages": [
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "fr",
+          "locale": "fr-FR",
+          "accent": "standard"
+        },
+        {
+          "language": "ar",
+          "accent": "standard"
+        },
+        {
+          "language": "zh",
+          "locale": "cmn-CN",
+          "accent": "standard"
+        },
+        {
+          "language": "de",
+          "locale": "de-DE",
+          "accent": "standard"
+        }
+      ],
+      "description": "This young adult female voice delivers sunny enthusiasm with a quirky attitude.",
+      "previewUrl": "https://api.us.elevenlabs.io/v1/voices/FGY2WhTYpPnrIDTdsKH5/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJwcmVtYWRlIiwiZmlsZW5hbWUiOiI2NzM0MTc1OS1hZDA4LTQxYTUtYmU2ZS1kZTEyZmU0NDg2MTgubXAzIiwidGltZXN0YW1wIjoxNzkzNTA5MjAwMDAwMDAwfQ%3D%3D",
+      "publicOwnerId": null,
+      "addedToAccount": true,
+      "freeUsersAllowed": null
+    },
+    {
+      "voiceId": "IKne3meq5aSn9XLyUdCD",
+      "name": "Charlie - Deep, Confident, Energetic",
+      "source": "account",
+      "category": "premade",
+      "labels": {
+        "gender": "male",
+        "age": "young",
+        "descriptive": "hyped",
+        "language": "en",
+        "use_case": "conversational",
+        "accent": "australian"
+      },
+      "gender": "male",
+      "language": "en",
+      "accent": "australian",
+      "locale": null,
+      "verifiedLanguages": [
+        {
+          "language": "en",
+          "locale": "en-AU",
+          "accent": "australian"
+        },
+        {
+          "language": "en",
+          "locale": "en-AU",
+          "accent": "australian"
+        },
+        {
+          "language": "en",
+          "locale": "en-AU",
+          "accent": "australian"
+        },
+        {
+          "language": "en",
+          "locale": "en-AU",
+          "accent": "australian"
+        },
+        {
+          "language": "en",
+          "locale": "en-AU",
+          "accent": "australian"
+        },
+        {
+          "language": "en",
+          "locale": "en-AU",
+          "accent": "australian"
+        },
+        {
+          "language": "en",
+          "locale": "en-AU",
+          "accent": "australian"
+        },
+        {
+          "language": "en",
+          "locale": "en-AU",
+          "accent": "australian"
+        },
+        {
+          "language": "zh",
+          "locale": "cmn-CN",
+          "accent": "standard"
+        },
+        {
+          "language": "pt",
+          "locale": "pt-BR",
+          "accent": "standard"
+        },
+        {
+          "language": "fil",
+          "locale": "fil-PH",
+          "accent": "standard"
+        },
+        {
+          "language": "es",
+          "locale": "es-ES",
+          "accent": "standard"
+        }
+      ],
+      "description": "A young Australian male with a confident and energetic voice.",
+      "previewUrl": "https://api.us.elevenlabs.io/v1/voices/IKne3meq5aSn9XLyUdCD/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJwcmVtYWRlIiwiZmlsZW5hbWUiOiIxMDJkZTZmMi0yMmVkLTQzZTAtYTFmMS0xMTFmYTc1YzU0ODEubXAzIiwidGltZXN0YW1wIjoxNzkzNTA5MjAwMDAwMDAwfQ%3D%3D",
+      "publicOwnerId": null,
+      "addedToAccount": true,
+      "freeUsersAllowed": null
+    },
+    {
+      "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+      "name": "George - Warm, Captivating Storyteller",
+      "source": "account",
+      "category": "premade",
+      "labels": {
+        "gender": "male",
+        "age": "middle_aged",
+        "descriptive": "mature",
+        "language": "en",
+        "use_case": "narrative_story",
+        "accent": "british"
+      },
+      "gender": "male",
+      "language": "en",
+      "accent": "british",
+      "locale": null,
+      "verifiedLanguages": [
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "fr",
+          "locale": "fr-FR",
+          "accent": "standard"
+        },
+        {
+          "language": "ar",
+          "accent": "standard"
+        },
+        {
+          "language": "ja",
+          "locale": "ja-JP",
+          "accent": "standard"
+        },
+        {
+          "language": "cs",
+          "locale": "cs-CZ",
+          "accent": "standard"
+        },
+        {
+          "language": "fil",
+          "locale": "fil-PH",
+          "accent": "standard"
+        },
+        {
+          "language": "es",
+          "locale": "es-ES",
+          "accent": "standard"
+        },
+        {
+          "language": "hi",
+          "locale": "hi-IN",
+          "accent": "standard"
+        }
+      ],
+      "description": "Warm resonance that instantly captivates listeners.",
+      "previewUrl": "https://api.us.elevenlabs.io/v1/voices/JBFqnCBsd6RMkjVDRZzb/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJwcmVtYWRlIiwiZmlsZW5hbWUiOiJlNjIwNmQxYS0wNzIxLTQ3ODctYWFmYi0wNmE2ZTcwNWNhYzUubXAzIiwidGltZXN0YW1wIjoxNzkzNTA5MjAwMDAwMDAwfQ%3D%3D",
+      "publicOwnerId": null,
+      "addedToAccount": true,
+      "freeUsersAllowed": null
+    },
+    {
+      "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+      "name": "Callum - Husky Trickster",
+      "source": "account",
+      "category": "premade",
+      "labels": {
+        "gender": "male",
+        "age": "middle_aged",
+        "language": "en",
+        "use_case": "characters_animation",
+        "accent": "american"
+      },
+      "gender": "male",
+      "language": "en",
+      "accent": "american",
+      "locale": null,
+      "verifiedLanguages": [
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "fr",
+          "locale": "fr-FR",
+          "accent": "standard"
+        },
+        {
+          "language": "hi",
+          "locale": "hi-IN",
+          "accent": "standard"
+        }
+      ],
+      "description": "Deceptively gravelly, yet unsettling edge.",
+      "previewUrl": "https://storage.googleapis.com/eleven-public-prod/premade/voices/N2lVS1w4EtoT3dr4eOWO/ac833bd8-ffda-4938-9ebc-b0f99ca25481.mp3",
+      "publicOwnerId": null,
+      "addedToAccount": true,
+      "freeUsersAllowed": null
+    },
+    {
+      "voiceId": "SAz9YHcvj6GT2YYXdXww",
+      "name": "River - Relaxed, Neutral, Informative",
+      "source": "account",
+      "category": "premade",
+      "labels": {
+        "gender": "neutral",
+        "age": "middle_aged",
+        "descriptive": "calm",
+        "language": "en",
+        "use_case": "conversational",
+        "accent": "american"
+      },
+      "gender": "neutral",
+      "language": "en",
+      "accent": "american",
+      "locale": null,
+      "verifiedLanguages": [
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "it",
+          "locale": "it-IT",
+          "accent": "standard"
+        },
+        {
+          "language": "fr",
+          "locale": "fr-FR",
+          "accent": "standard"
+        },
+        {
+          "language": "pt",
+          "locale": "pt-BR",
+          "accent": "standard"
+        },
+        {
+          "language": "zh",
+          "locale": "cmn-CN",
+          "accent": "standard"
+        }
+      ],
+      "description": "A relaxed, neutral voice ready for narrations or conversational projects.",
+      "previewUrl": "https://storage.googleapis.com/eleven-public-prod/premade/voices/SAz9YHcvj6GT2YYXdXww/e6c95f0b-2227-491a-b3d7-2249240decb7.mp3",
+      "publicOwnerId": null,
+      "addedToAccount": true,
+      "freeUsersAllowed": null
+    },
+    {
+      "voiceId": "SOYHLrjzK2X1ezoPC6cr",
+      "name": "Harry - Fierce Warrior",
+      "source": "account",
+      "category": "premade",
+      "labels": {
+        "gender": "male",
+        "age": "young",
+        "descriptive": "rough",
+        "language": "en",
+        "use_case": "characters_animation",
+        "accent": "american"
+      },
+      "gender": "male",
+      "language": "en",
+      "accent": "american",
+      "locale": null,
+      "verifiedLanguages": [
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        }
+      ],
+      "description": "An animated warrior ready to charge forward.",
+      "previewUrl": "https://storage.googleapis.com/eleven-public-prod/premade/voices/SOYHLrjzK2X1ezoPC6cr/86d178f6-f4b6-4e0e-85be-3de19f490794.mp3",
+      "publicOwnerId": null,
+      "addedToAccount": true,
+      "freeUsersAllowed": null
+    },
+    {
+      "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+      "name": "Liam - Energetic, Social Media Creator",
+      "source": "account",
+      "category": "premade",
+      "labels": {
+        "gender": "male",
+        "age": "young",
+        "descriptive": "confident",
+        "language": "en",
+        "use_case": "social_media",
+        "accent": "american"
+      },
+      "gender": "male",
+      "language": "en",
+      "accent": "american",
+      "locale": null,
+      "verifiedLanguages": [
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "de",
+          "locale": "de-DE",
+          "accent": "standard"
+        },
+        {
+          "language": "pt",
+          "locale": "pt-BR",
+          "accent": "standard"
+        },
+        {
+          "language": "cs",
+          "locale": "cs-CZ",
+          "accent": "standard"
+        },
+        {
+          "language": "pl",
+          "locale": "pl-PL",
+          "accent": "standard"
+        },
+        {
+          "language": "tr",
+          "locale": "tr-TR",
+          "accent": "standard"
+        },
+        {
+          "language": "hi",
+          "locale": "hi-IN",
+          "accent": "standard"
+        }
+      ],
+      "description": "A young adult with energy and warmth - suitable for reels and shorts.",
+      "previewUrl": "https://storage.googleapis.com/eleven-public-prod/premade/voices/TX3LPaxmHKxFdv7VOQHJ/63148076-6363-42db-aea8-31424308b92c.mp3",
+      "publicOwnerId": null,
+      "addedToAccount": true,
+      "freeUsersAllowed": null
+    },
+    {
+      "voiceId": "Xb7hH8MSUJpSbSDYk0k2",
+      "name": "Alice - Clear, Engaging Educator",
+      "source": "account",
+      "category": "premade",
+      "labels": {
+        "gender": "female",
+        "age": "middle_aged",
+        "descriptive": "professional",
+        "language": "en",
+        "use_case": "informative_educational",
+        "accent": "british"
+      },
+      "gender": "female",
+      "language": "en",
+      "accent": "british",
+      "locale": null,
+      "verifiedLanguages": [
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "it",
+          "locale": "it-IT",
+          "accent": "standard"
+        },
+        {
+          "language": "fr",
+          "locale": "fr-FR",
+          "accent": "standard"
+        },
+        {
+          "language": "ar",
+          "accent": "standard"
+        },
+        {
+          "language": "ja",
+          "locale": "ja-JP",
+          "accent": "standard"
+        },
+        {
+          "language": "pl",
+          "locale": "pl-PL",
+          "accent": "standard"
+        },
+        {
+          "language": "hi",
+          "locale": "hi-IN",
+          "accent": "standard"
+        }
+      ],
+      "description": "Clear and engaging, friendly woman with a British accent suitable for e-learning.",
+      "previewUrl": "https://storage.googleapis.com/eleven-public-prod/premade/voices/Xb7hH8MSUJpSbSDYk0k2/d10f7534-11f6-41fe-a012-2de1e482d336.mp3",
+      "publicOwnerId": null,
+      "addedToAccount": true,
+      "freeUsersAllowed": null
+    },
+    {
+      "voiceId": "XrExE9yKIg1WjnnlVkGX",
+      "name": "Matilda - Knowledgable, Professional",
+      "source": "account",
+      "category": "premade",
+      "labels": {
+        "gender": "female",
+        "age": "middle_aged",
+        "descriptive": "upbeat",
+        "language": "en",
+        "use_case": "informative_educational",
+        "accent": "american"
+      },
+      "gender": "female",
+      "language": "en",
+      "accent": "american",
+      "locale": null,
+      "verifiedLanguages": [
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "it",
+          "locale": "it-IT",
+          "accent": "standard"
+        },
+        {
+          "language": "fr",
+          "locale": "fr-FR",
+          "accent": "standard"
+        },
+        {
+          "language": "de",
+          "locale": "de-DE",
+          "accent": "standard"
+        },
+        {
+          "language": "ar",
+          "accent": "standard"
+        },
+        {
+          "language": "es",
+          "locale": "es-ES",
+          "accent": "standard"
+        }
+      ],
+      "description": "A professional woman with a pleasing alto pitch. Suitable for many use cases.",
+      "previewUrl": "https://storage.googleapis.com/eleven-public-prod/premade/voices/XrExE9yKIg1WjnnlVkGX/b930e18d-6b4d-466e-bab2-0ae97c6d8535.mp3",
+      "publicOwnerId": null,
+      "addedToAccount": true,
+      "freeUsersAllowed": null
+    },
+    {
+      "voiceId": "bIHbv24MWmeRgasZH58o",
+      "name": "Will - Relaxed Optimist",
+      "source": "account",
+      "category": "premade",
+      "labels": {
+        "gender": "male",
+        "age": "young",
+        "descriptive": "chill",
+        "language": "en",
+        "use_case": "conversational",
+        "accent": "american"
+      },
+      "gender": "male",
+      "language": "en",
+      "accent": "american",
+      "locale": null,
+      "verifiedLanguages": [
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "fr",
+          "locale": "fr-FR",
+          "accent": "standard"
+        },
+        {
+          "language": "de",
+          "locale": "de-DE",
+          "accent": "standard"
+        },
+        {
+          "language": "pt",
+          "locale": "pt-BR",
+          "accent": "standard"
+        },
+        {
+          "language": "zh",
+          "locale": "cmn-CN",
+          "accent": "standard"
+        },
+        {
+          "language": "cs",
+          "locale": "cs-CZ",
+          "accent": "standard"
+        },
+        {
+          "language": "fil",
+          "locale": "fil-PH",
+          "accent": "standard"
+        },
+        {
+          "language": "sk",
+          "locale": "sk-SK",
+          "accent": "standard"
+        },
+        {
+          "language": "es",
+          "locale": "es-ES",
+          "accent": "standard"
+        },
+        {
+          "language": "sv",
+          "locale": "sv-SE",
+          "accent": "standard"
+        }
+      ],
+      "description": "Conversational and laid back.",
+      "previewUrl": "https://storage.googleapis.com/eleven-public-prod/premade/voices/bIHbv24MWmeRgasZH58o/8caf8f3d-ad29-4980-af41-53f20c72d7a4.mp3",
+      "publicOwnerId": null,
+      "addedToAccount": true,
+      "freeUsersAllowed": null
+    },
+    {
+      "voiceId": "cgSgspJ2msm6clMCkdW9",
+      "name": "Jessica - Playful, Bright, Warm",
+      "source": "account",
+      "category": "premade",
+      "labels": {
+        "gender": "female",
+        "age": "young",
+        "descriptive": "cute",
+        "language": "en",
+        "use_case": "conversational",
+        "accent": "american"
+      },
+      "gender": "female",
+      "language": "en",
+      "accent": "american",
+      "locale": null,
+      "verifiedLanguages": [
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "fr",
+          "locale": "fr-FR",
+          "accent": "standard"
+        },
+        {
+          "language": "ar",
+          "accent": "standard"
+        },
+        {
+          "language": "ja",
+          "locale": "ja-JP",
+          "accent": "standard"
+        },
+        {
+          "language": "zh",
+          "locale": "cmn-CN",
+          "accent": "standard"
+        },
+        {
+          "language": "de",
+          "locale": "de-DE",
+          "accent": "standard"
+        },
+        {
+          "language": "cs",
+          "locale": "cs-CZ",
+          "accent": "standard"
+        },
+        {
+          "language": "hi",
+          "locale": "hi-IN",
+          "accent": "standard"
+        }
+      ],
+      "description": "Young and popular, this playful American female voice is perfect for trendy content.",
+      "previewUrl": "https://storage.googleapis.com/eleven-public-prod/premade/voices/cgSgspJ2msm6clMCkdW9/56a97bf8-b69b-448f-846c-c3a11683d45a.mp3",
+      "publicOwnerId": null,
+      "addedToAccount": true,
+      "freeUsersAllowed": null
+    },
+    {
+      "voiceId": "cjVigY5qzO86Huf0OWal",
+      "name": "Eric - Smooth, Trustworthy",
+      "source": "account",
+      "category": "premade",
+      "labels": {
+        "gender": "male",
+        "age": "middle_aged",
+        "descriptive": "classy",
+        "language": "en",
+        "use_case": "conversational",
+        "accent": "american"
+      },
+      "gender": "male",
+      "language": "en",
+      "accent": "american",
+      "locale": null,
+      "verifiedLanguages": [
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "fr",
+          "locale": "fr-FR",
+          "accent": "standard"
+        },
+        {
+          "language": "pt",
+          "locale": "pt-BR",
+          "accent": "standard"
+        },
+        {
+          "language": "de",
+          "locale": "de-DE",
+          "accent": "standard"
+        },
+        {
+          "language": "sk",
+          "locale": "sk-SK",
+          "accent": "standard"
+        },
+        {
+          "language": "es",
+          "locale": "es-ES",
+          "accent": "standard"
+        }
+      ],
+      "description": "A smooth tenor pitch from a man in his 40s - perfect for agentic use cases.",
+      "previewUrl": "https://storage.googleapis.com/eleven-public-prod/premade/voices/cjVigY5qzO86Huf0OWal/d098fda0-6456-4030-b3d8-63aa048c9070.mp3",
+      "publicOwnerId": null,
+      "addedToAccount": true,
+      "freeUsersAllowed": null
+    },
+    {
+      "voiceId": "iP95p4xoKVk53GoZ742B",
+      "name": "Chris - Charming, Down-to-Earth",
+      "source": "account",
+      "category": "premade",
+      "labels": {
+        "gender": "male",
+        "age": "middle_aged",
+        "descriptive": "casual",
+        "language": "en",
+        "use_case": "conversational",
+        "accent": "american"
+      },
+      "gender": "male",
+      "language": "en",
+      "accent": "american",
+      "locale": null,
+      "verifiedLanguages": [
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "fr",
+          "locale": "fr-FR",
+          "accent": "standard"
+        },
+        {
+          "language": "ar",
+          "accent": "standard"
+        },
+        {
+          "language": "pt",
+          "locale": "pt-BR",
+          "accent": "standard"
+        },
+        {
+          "language": "sv",
+          "locale": "sv-SE",
+          "accent": "standard"
+        },
+        {
+          "language": "hi",
+          "locale": "hi-IN",
+          "accent": "standard"
+        }
+      ],
+      "description": "Natural and real, this down-to-earth voice is great across many use-cases.",
+      "previewUrl": "https://storage.googleapis.com/eleven-public-prod/premade/voices/iP95p4xoKVk53GoZ742B/3f4bde72-cc48-40dd-829f-57fbf906f4d7.mp3",
+      "publicOwnerId": null,
+      "addedToAccount": true,
+      "freeUsersAllowed": null
+    },
+    {
+      "voiceId": "nPczCjzI2devNBz1zQrb",
+      "name": "Brian - Deep, Resonant and Comforting",
+      "source": "account",
+      "category": "premade",
+      "labels": {
+        "gender": "male",
+        "age": "middle_aged",
+        "descriptive": "classy",
+        "language": "en",
+        "use_case": "social_media",
+        "accent": "american"
+      },
+      "gender": "male",
+      "language": "en",
+      "accent": "american",
+      "locale": null,
+      "verifiedLanguages": [
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "ar",
+          "accent": "standard"
+        },
+        {
+          "language": "zh",
+          "locale": "cmn-CN",
+          "accent": "standard"
+        },
+        {
+          "language": "pt",
+          "locale": "pt-BR",
+          "accent": "standard"
+        },
+        {
+          "language": "de",
+          "locale": "de-DE",
+          "accent": "standard"
+        },
+        {
+          "language": "nl",
+          "locale": "nl-NL",
+          "accent": "standard"
+        },
+        {
+          "language": "sk",
+          "locale": "sk-SK",
+          "accent": "standard"
+        },
+        {
+          "language": "ro",
+          "locale": "ro-RO",
+          "accent": "standard"
+        },
+        {
+          "language": "hi",
+          "locale": "hi-IN",
+          "accent": "standard"
+        }
+      ],
+      "description": "Middle-aged man with a resonant and comforting tone. Great for narrations and advertisements.",
+      "previewUrl": "https://api.us.elevenlabs.io/v1/voices/nPczCjzI2devNBz1zQrb/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJwcmVtYWRlIiwiZmlsZW5hbWUiOiIyZGQzZTcyYy00ZmQzLTQyZjEtOTNlYS1hYmM1ZDRlNWFhMWQubXAzIiwidGltZXN0YW1wIjoxNzkzNTA5MjAwMDAwMDAwfQ%3D%3D",
+      "publicOwnerId": null,
+      "addedToAccount": true,
+      "freeUsersAllowed": null
+    },
+    {
+      "voiceId": "onwK4e9ZLuTAKqWW03F9",
+      "name": "Daniel - Steady Broadcaster",
+      "source": "account",
+      "category": "premade",
+      "labels": {
+        "gender": "male",
+        "age": "middle_aged",
+        "descriptive": "formal",
+        "language": "en",
+        "use_case": "informative_educational",
+        "accent": "british"
+      },
+      "gender": "male",
+      "language": "en",
+      "accent": "british",
+      "locale": null,
+      "verifiedLanguages": [
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "de",
+          "locale": "de-DE",
+          "accent": "standard"
+        },
+        {
+          "language": "tr",
+          "locale": "tr-TR",
+          "accent": "standard"
+        }
+      ],
+      "description": "A strong voice perfect for delivering a professional broadcast or news story.",
+      "previewUrl": "https://api.us.elevenlabs.io/v1/voices/onwK4e9ZLuTAKqWW03F9/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJwcmVtYWRlIiwiZmlsZW5hbWUiOiI3ZWVlMDIzNi0xYTcyLTRiODYtYjMwMy01ZGNhZGMwMDdiYTkubXAzIiwidGltZXN0YW1wIjoxNzkzNTA5MjAwMDAwMDAwfQ%3D%3D",
+      "publicOwnerId": null,
+      "addedToAccount": true,
+      "freeUsersAllowed": null
+    },
+    {
+      "voiceId": "pFZP5JQG7iQjIQuC4Bku",
+      "name": "Lily - Velvety Actress",
+      "source": "account",
+      "category": "premade",
+      "labels": {
+        "gender": "female",
+        "age": "middle_aged",
+        "descriptive": "confident",
+        "language": "en",
+        "use_case": "informative_educational",
+        "accent": "british"
+      },
+      "gender": "female",
+      "language": "en",
+      "accent": "british",
+      "locale": null,
+      "verifiedLanguages": [
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "en",
+          "locale": "en-GB",
+          "accent": "british"
+        },
+        {
+          "language": "it",
+          "locale": "it-IT",
+          "accent": "standard"
+        },
+        {
+          "language": "de",
+          "locale": "de-DE",
+          "accent": "standard"
+        },
+        {
+          "language": "zh",
+          "locale": "cmn-CN",
+          "accent": "standard"
+        },
+        {
+          "language": "cs",
+          "locale": "cs-CZ",
+          "accent": "standard"
+        },
+        {
+          "language": "nl",
+          "locale": "nl-NL",
+          "accent": "standard"
+        },
+        {
+          "language": "pl",
+          "locale": "pl-PL",
+          "accent": "standard"
+        }
+      ],
+      "description": "Velvety British female voice delivers news and narrations with warmth and clarity.",
+      "previewUrl": "https://storage.googleapis.com/eleven-public-prod/premade/voices/pFZP5JQG7iQjIQuC4Bku/89b68b35-b3dd-4348-a84a-a3c13a3c2b30.mp3",
+      "publicOwnerId": null,
+      "addedToAccount": true,
+      "freeUsersAllowed": null
+    },
+    {
+      "voiceId": "pNInz6obpgDQGcFmaJgB",
+      "name": "Adam - Dominant, Firm",
+      "source": "account",
+      "category": "premade",
+      "labels": {
+        "gender": "male",
+        "age": "middle_aged",
+        "language": "en",
+        "use_case": "social_media",
+        "accent": "american"
+      },
+      "gender": "male",
+      "language": "en",
+      "accent": "american",
+      "locale": null,
+      "verifiedLanguages": [],
+      "description": "A bright tenor pitch that immediately cuts through. The delivery is brash and openly confident, speaking with unwavering certainty and a slightly aggressive self-assurance.",
+      "previewUrl": "https://storage.googleapis.com/eleven-public-prod/premade/voices/pNInz6obpgDQGcFmaJgB/d6905d7a-dd26-4187-bfff-1bd3a5ea7cac.mp3",
+      "publicOwnerId": null,
+      "addedToAccount": true,
+      "freeUsersAllowed": null
+    },
+    {
+      "voiceId": "pqHfZKP75CvOlQylNhV4",
+      "name": "Bill - Wise, Mature, Balanced",
+      "source": "account",
+      "category": "premade",
+      "labels": {
+        "gender": "male",
+        "age": "old",
+        "descriptive": "crisp",
+        "language": "en",
+        "use_case": "advertisement",
+        "accent": "american"
+      },
+      "gender": "male",
+      "language": "en",
+      "accent": "american",
+      "locale": null,
+      "verifiedLanguages": [
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "en",
+          "locale": "en-US",
+          "accent": "american"
+        },
+        {
+          "language": "fr",
+          "locale": "fr-FR",
+          "accent": "standard"
+        },
+        {
+          "language": "ar",
+          "accent": "standard"
+        },
+        {
+          "language": "zh",
+          "locale": "cmn-CN",
+          "accent": "standard"
+        },
+        {
+          "language": "de",
+          "locale": "de-DE",
+          "accent": "standard"
+        },
+        {
+          "language": "cs",
+          "locale": "cs-CZ",
+          "accent": "standard"
+        }
+      ],
+      "description": "Friendly and comforting voice ready to narrate your stories.",
+      "previewUrl": "https://storage.googleapis.com/eleven-public-prod/premade/voices/pqHfZKP75CvOlQylNhV4/d782b3ff-84ba-4029-848c-acf01285524d.mp3",
+      "publicOwnerId": null,
+      "addedToAccount": true,
+      "freeUsersAllowed": null
+    }
+  ],
+  "candidates": [
+    {
+      "voiceId": "svrHd8NySjbCTALnWLoS",
+      "name": "Arturo - Calm, Friendly, Natural",
+      "source": "account",
+      "category": "professional",
+      "labels": {
+        "use_case": "narrative_story",
+        "descriptive": "casual",
+        "age": "middle_aged",
+        "gender": "male",
+        "accent": "mexican",
+        "language": "es",
+        "locale": "es-MX"
+      },
+      "gender": "male",
+      "language": "es",
+      "accent": "mexican",
+      "locale": "es-MX",
+      "verifiedLanguages": [
+        {
+          "language": "es",
+          "locale": "es-MX",
+          "accent": "mexican"
+        },
+        {
+          "language": "es",
+          "locale": "es-MX",
+          "accent": "mexican"
+        },
+        {
+          "language": "es",
+          "locale": "es-MX",
+          "accent": "mexican"
+        },
+        {
+          "language": "es",
+          "locale": "es-MX",
+          "accent": "mexican"
+        },
+        {
+          "language": "ar",
+          "accent": "ar-modern-standard"
+        },
+        {
+          "language": "ar",
+          "accent": "ar-modern-standard"
+        },
+        {
+          "language": "ar",
+          "accent": "ar-modern-standard"
+        },
+        {
+          "language": "it",
+          "locale": "it-IT",
+          "accent": "it-standard"
+        },
+        {
+          "language": "it",
+          "locale": "it-IT",
+          "accent": "it-standard"
+        },
+        {
+          "language": "tr",
+          "locale": "tr-TR",
+          "accent": "tr-standard"
+        },
+        {
+          "language": "tr",
+          "locale": "tr-TR",
+          "accent": "tr-standard"
+        },
+        {
+          "language": "tr",
+          "locale": "tr-TR",
+          "accent": "tr-standard"
+        },
+        {
+          "language": "de",
+          "locale": "de-DE",
+          "accent": "de-standard"
+        },
+        {
+          "language": "de",
+          "locale": "de-DE",
+          "accent": "de-standard"
+        },
+        {
+          "language": "de",
+          "locale": "de-DE",
+          "accent": "de-standard"
+        },
+        {
+          "language": "ms",
+          "accent": "ms-standard"
+        },
+        {
+          "language": "ms",
+          "accent": "ms-standard"
+        },
+        {
+          "language": "ms",
+          "accent": "ms-standard"
+        },
+        {
+          "language": "id",
+          "locale": "id-ID",
+          "accent": "id-standard"
+        },
+        {
+          "language": "id",
+          "locale": "id-ID",
+          "accent": "id-javanese"
+        },
+        {
+          "language": "el",
+          "accent": "el-standard"
+        },
+        {
+          "language": "el",
+          "accent": "el-standard"
+        },
+        {
+          "language": "el",
+          "accent": "el-standard"
+        },
+        {
+          "language": "hr",
+          "locale": "hr-HR",
+          "accent": "hr-standard"
+        },
+        {
+          "language": "es",
+          "locale": "es-ES",
+          "accent": "es-latin-american"
+        },
+        {
+          "language": "ru",
+          "locale": "ru-RU",
+          "accent": "ru-standard"
+        },
+        {
+          "language": "ro",
+          "locale": "ro-RO",
+          "accent": "ro-standard"
+        },
+        {
+          "language": "hi",
+          "accent": "hi-standard"
+        },
+        {
+          "language": "hi",
+          "accent": "hi-standard"
+        },
+        {
+          "language": "hi",
+          "accent": "hi-standard"
+        },
+        {
+          "language": "cs",
+          "accent": "cs-standard"
+        },
+        {
+          "language": "cs",
+          "accent": "cs-standard"
+        },
+        {
+          "language": "cs",
+          "accent": "cs-standard"
+        },
+        {
+          "language": "vi",
+          "accent": "vi-southern"
+        },
+        {
+          "language": "vi",
+          "accent": "vi-southern"
+        }
+      ],
+      "description": "Mexican accent, with filler words and a natural feel.\n",
+      "previewUrl": "https://storage.googleapis.com/eleven-public-prod/database/workspace/70bc6b683b0c41ac81d7bb3a9eb60b77/voices/svrHd8NySjbCTALnWLoS/ZAHYQwyZQ4ajIaOPPFwQ.mp3",
+      "publicOwnerId": null,
+      "addedToAccount": true,
+      "freeUsersAllowed": null
+    }
+  ]
+}

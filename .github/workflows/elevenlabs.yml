@@ -1,0 +1,107 @@
+name: Narración con ElevenLabs
+
+on:
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: Consulta voces, prueba breve o episodio completo
+        type: choice
+        options: [voces, prueba, episodio]
+        default: prueba
+      voice_id:
+        description: Voice ID opcional; vacío usa config/elevenlabs.json
+        type: string
+        default: ""
+      confirmar_episodio:
+        description: Autorizar consumo del guion completo tras revisar la prueba
+        type: boolean
+        default: false
+      render_video:
+        description: Renderizar un MP4 con la narración generada
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: elevenlabs-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  narrar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      MODO: ${{ inputs.modo }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm run test:voz
+      - name: Comprobar herramientas de audio
+        if: env.MODO != 'voces'
+        run: |
+          if ! command -v ffprobe >/dev/null || ! command -v ffmpeg >/dev/null; then
+            sudo apt-get update
+            sudo apt-get install -y ffmpeg
+          fi
+      - uses: actions/cache@v4
+        if: env.MODO != 'voces'
+        with:
+          path: public/voz
+          key: elevenlabs-${{ runner.os }}-${{ inputs.modo }}-${{ inputs.voice_id }}-${{ hashFiles('config/elevenlabs.json', 'src/PrimerVideoSueno/script.json', 'scripts/generar-narracion.mjs', 'scripts/voz/**') }}
+          restore-keys: |
+            elevenlabs-${{ runner.os }}-prueba-${{ inputs.voice_id }}-${{ hashFiles('config/elevenlabs.json', 'src/PrimerVideoSueno/script.json', 'scripts/generar-narracion.mjs', 'scripts/voz/**') }}
+      - name: Consultar voces o generar narración
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ inputs.voice_id }}
+          CONFIRMAR_EPISODIO: ${{ inputs.confirmar_episodio }}
+        run: |
+          case "$MODO" in
+            voces) npm run voz:voces ;;
+            prueba) npm run voz:prueba ;;
+            episodio)
+              if [ "$CONFIRMAR_EPISODIO" != "true" ]; then
+                echo "El episodio requiere confirmar_episodio=true y una prueba previa válida."
+                exit 1
+              fi
+              npm run voz:episodio -- --confirm-full
+              ;;
+            *) echo "Modo no válido"; exit 1 ;;
+          esac
+      - name: Renderizar prueba con audio real
+        if: env.MODO == 'prueba' && inputs.render_video
+        run: npm run render:voz:prueba
+      - name: Renderizar episodio con audio real
+        if: env.MODO == 'episodio' && inputs.render_video
+        run: npx remotion render src/index.ts PrimerVideoSueno out/primer-video-sueno-narrado.mp4 --codec=h264 --pixel-format=yuv420p --crf=20 --concurrency=2
+      - name: Resumen de entrega
+        if: success()
+        run: |
+          echo "## ElevenLabs · $MODO" >> "$GITHUB_STEP_SUMMARY"
+          echo "Descarga el artefacto y extráelo en la raíz del proyecto: conserva public/voz/ y out/." >> "$GITHUB_STEP_SUMMARY"
+          echo "La síntesis usa caché por voz, texto, modelo y ajustes; no reintenta peticiones de pago." >> "$GITHUB_STEP_SUMMARY"
+          if [ -f "out/elevenlabs-$MODO-resultado.json" ]; then
+            echo '```json' >> "$GITHUB_STEP_SUMMARY"
+            cat "out/elevenlabs-$MODO-resultado.json" >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: elevenlabs-${{ env.MODO }}-${{ github.run_id }}
+          path: |
+            public/voz/
+            out/elevenlabs-*.json
+            out/elevenlabs-voz-prueba.mp4
+            out/primer-video-sueno-narrado.mp4
+          retention-days: 30
+          if-no-files-found: warn
