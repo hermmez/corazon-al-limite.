@@ -1081,6 +1081,15 @@
   "delivery": {
     "mergeAutomatically": false,
     "previewDownload": "https://github.com/hermmez/corazon-al-limite./raw/refs/heads/primer-video-sueno/out/primer-video-sueno-vista-previa.mp4",
-    "fullDownload": "https://github.com/hermmez/corazon-al-limite./raw/refs/heads/primer-video-sueno/out/primer-video-sueno.mp4"
+    "fullDownload": "https://github.com/hermmez/corazon-al-limite./raw/refs/heads/primer-video-sueno/out/primer-video-sueno.mp4",
+    "browserPlayback": "https://cdn.jsdelivr.net/gh/hermmez/corazon-al-limite.@primer-video-sueno/out/primer-video-sueno-vista-previa.mp4",
+    "browserPlaybackEndpointVerification": {
+      "httpStatus": 200,
+      "contentType": "video/mp4",
+      "rangeStatus": 206,
+      "rangeRequest": "bytes=0-1023",
+      "returnedBytes": 1024,
+      "sha256MatchesOriginal": true
+    }
   }
 }

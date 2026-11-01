@@ -5,6 +5,12 @@ Composición nueva de React, TypeScript y Remotion: **1080 × 1920, 30 FPS,
 
 ## Entregables
 
+**[Reproducir los 90 segundos en el navegador](https://cdn.jsdelivr.net/gh/hermmez/corazon-al-limite.@primer-video-sueno/out/primer-video-sueno-vista-previa.mp4).**
+Este enlace sirve el mismo MP4 ligero con `Content-Type: video/mp4` y soporte
+de solicitudes parciales (`206`), para permitir reproducción y búsqueda. Los enlaces
+raw de GitHub entregan el archivo como `application/octet-stream` y pueden iniciar
+una descarga en lugar de abrir el reproductor.
+
 - [`out/primer-video-sueno.mp4`](../out/primer-video-sueno.mp4): video completo de 1080p.
 - [`out/primer-video-sueno-vista-previa.mp4`](../out/primer-video-sueno-vista-previa.mp4): los mismos 90 segundos en una versión ligera para móviles.
 - [`out/primer-video-sueno-guion-es-MX.txt`](../out/primer-video-sueno-guion-es-MX.txt): texto para la futura narración, organizado por escena.
