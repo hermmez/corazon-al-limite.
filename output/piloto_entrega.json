@@ -1,0 +1,283 @@
+{
+  "status": "completed_rendered_and_played",
+  "repository": "hermmez/corazon-al-limite.",
+  "branch": "piloto-corazon-10s",
+  "reviewBase": "integracion-elevenlabs",
+  "composition": "CorazonPiloto10s",
+  "video": {
+    "status": "passed",
+    "composition": "CorazonPiloto10s",
+    "file": "output/corazon_al_limite_piloto_10s.mp4",
+    "bytes": 3730139,
+    "sha256": "381dc2a3971a60f9c75f8405c05be4d2f615a4016b4902babdb6815a1866b5ef",
+    "durationSeconds": 10,
+    "video": {
+      "codec": "h264",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 300,
+      "pixelFormat": "yuv420p",
+      "colorRange": "tv"
+    },
+    "audio": {
+      "codec": "aac",
+      "sampleRate": 48000,
+      "channels": 2,
+      "lufs": -14.09,
+      "truePeakDbtp": -1.98
+    },
+    "voice": {
+      "originalDurationSeconds": 8.75102,
+      "playbackRate": 1,
+      "offsetMs": 180,
+      "lastWordEndSeconds": 8.84
+    },
+    "captions": {
+      "engine": "faster-whisper",
+      "model": "base",
+      "alignment": "actual audio word timestamps",
+      "words": 18,
+      "wordsPerGroup": [
+        2,
+        3,
+        2,
+        3,
+        4,
+        2,
+        2
+      ]
+    },
+    "preservation": {
+      "approvedPngUnchanged": 68
+    },
+    "fullDecode": true,
+    "blackRanges": 0,
+    "distinctFrames": 300,
+    "fastStart": true,
+    "validatedAt": "2026-11-01T21:05:57.653Z"
+  },
+  "browserPlayback": {
+    "status": "passed",
+    "engine": "Chromium HTML5 video",
+    "playbackRate": 1,
+    "autoplayMutedForTest": true,
+    "ended": true,
+    "duration": 10,
+    "currentTime": 10,
+    "width": 1080,
+    "height": 1920,
+    "totalVideoFrames": 300,
+    "droppedVideoFrames": 0,
+    "audioDecodedBytes": 240717,
+    "mediaError": null
+  },
+  "audioSync": {
+    "status": "passed",
+    "method": "waveform cross-correlation of the clean normalized narration against decoded final AAC",
+    "sampleRate": 16000,
+    "expectedOffsetMs": 180,
+    "playbackRate": 1,
+    "reference": "narracion_normalizada.wav",
+    "measuredNarrationOffsetMs": 180.0,
+    "correlation": 0.9713458332018011
+  },
+  "preservationAndBinaryPreflight": {
+    "baseline": "8dee3212b11b35cd02876f92652bc0e1ac663ac3",
+    "oldFilesUnchangedExceptAuthorizedConfigAndRegistration": 181,
+    "oldCompositionRegistrationsPreserved": 26,
+    "approvedPngUnchanged": 68,
+    "binaryPreflight": {
+      "repositoryPublic": true,
+      "repositorySizeKbBefore": 187095,
+      "largestNewFileBytes": 3730139,
+      "totalNewBinaryBytes": 17962746,
+      "everyNewFileBelow50MiB": true,
+      "githubHardLimitPerFileMiB": 100,
+      "files": [
+        {
+          "path": "output/corazon_al_limite_piloto_10s.mp4",
+          "bytes": 3730139
+        },
+        {
+          "path": "output/piloto_portada.jpg",
+          "bytes": 114714
+        },
+        {
+          "path": "public/piloto10s/audio/efectos_originales.wav",
+          "bytes": 1920044
+        },
+        {
+          "path": "public/piloto10s/audio/mezcla_master.wav",
+          "bytes": 1920078
+        },
+        {
+          "path": "public/piloto10s/audio/mezcla_previa.wav",
+          "bytes": 1920044
+        },
+        {
+          "path": "public/piloto10s/audio/musica_original.wav",
+          "bytes": 1920044
+        },
+        {
+          "path": "public/piloto10s/audio/narracion.wav",
+          "bytes": 1920078
+        },
+        {
+          "path": "public/piloto10s/audio/narracion_normalizada.wav",
+          "bytes": 1674318
+        },
+        {
+          "path": "public/piloto10s/audio/narracion_original.mp3",
+          "bytes": 140477
+        },
+        {
+          "path": "public/piloto10s/fonts/Manrope[wght].ttf",
+          "bytes": 164700
+        },
+        {
+          "path": "public/piloto10s/video/personaje_higgsfield_original.mp4",
+          "bytes": 2538110
+        }
+      ]
+    }
+  },
+  "script": "¿Duermes poco? Si es habitual, puede elevar tu presión arterial y el riesgo cardiovascular. Tu corazón necesita descanso.",
+  "narrationSource": "public/piloto10s/audio/narracion_original.mp3",
+  "narrationProvider": "ElevenLabs via Higgsfield",
+  "realGenerationJobs": {
+    "voice": "18769408-e987-4737-b7a1-539d2aa28a06",
+    "characterVideo": "12de04f7-a7de-42d5-a8b7-4ad9a9665208"
+  },
+  "audioAssetsDirectory": "public/piloto10s/audio/",
+  "musicAndSfx": "original procedural composition and synthesis; no third-party recordings or samples",
+  "captions": {
+    "srt": "output/piloto_subtitulos.srt",
+    "json": "output/piloto_subtitulos.json",
+    "rawWordAlignment": "output/piloto_transcripcion_original.json"
+  },
+  "visualReview": {
+    "result": "passed",
+    "reviewedAllFourScenes": true,
+    "reviewedEntryAndClosingTransitions": true,
+    "phoneSizedFrameInspection": true,
+    "mouthNotLipSynced": true,
+    "originalMouthRegionHeldFixed": true,
+    "illustrationAspectRatiosRetained": true,
+    "lastCorrection": "Clock panel and tired character exit together before the closing character enters; rerendered and revalidated",
+    "newFinalFrameReviewed": 244,
+    "textSafeMarginsPx": {
+      "left": 86,
+      "right": 144,
+      "captionsTop": 1476
+    },
+    "typography": "local Manrope variable font with OFL license"
+  },
+  "checks": [
+    {
+      "command": "npm run typecheck",
+      "result": "passed"
+    },
+    {
+      "command": "npm run render:piloto10s",
+      "result": "passed_300_frames"
+    },
+    {
+      "command": "npm run validate:piloto10s",
+      "result": "passed"
+    },
+    {
+      "command": "node scripts/piloto10s/comprobar_navegador.mjs",
+      "result": "passed_complete_10_second_HTML5_playback_AAC_decoded"
+    },
+    {
+      "command": "python scripts/piloto10s/verificar_sincronia.py",
+      "result": "passed_180_ms_actual_offset"
+    },
+    {
+      "command": "git diff --check",
+      "result": "passed"
+    }
+  ],
+  "filesCreated": [
+    "docs/PILOTO_10S.md",
+    "output/corazon_al_limite_piloto_10s.mp4",
+    "output/piloto_audio_produccion.json",
+    "output/piloto_entrega.json",
+    "output/piloto_portada.jpg",
+    "output/piloto_preservacion_y_archivos.json",
+    "output/piloto_reproduccion_navegador.json",
+    "output/piloto_sincronia_audio.json",
+    "output/piloto_subtitulos.json",
+    "output/piloto_subtitulos.srt",
+    "output/piloto_transcripcion_original.json",
+    "output/piloto_validacion_tecnica.json",
+    "output/reproducir_piloto.html",
+    "public/piloto10s/audio/ORIGEN_Y_DERECHOS.md",
+    "public/piloto10s/audio/efectos_originales.wav",
+    "public/piloto10s/audio/mezcla_master.wav",
+    "public/piloto10s/audio/mezcla_previa.wav",
+    "public/piloto10s/audio/musica_original.wav",
+    "public/piloto10s/audio/narracion.wav",
+    "public/piloto10s/audio/narracion_normalizada.wav",
+    "public/piloto10s/audio/narracion_original.mp3",
+    "public/piloto10s/fonts/Manrope[wght].ttf",
+    "public/piloto10s/fonts/OFL.txt",
+    "public/piloto10s/video/personaje_higgsfield_original.mp4",
+    "scripts/piloto10s/comprobar_navegador.mjs",
+    "scripts/piloto10s/crear_audio.py",
+    "scripts/piloto10s/render.mjs",
+    "scripts/piloto10s/requirements.txt",
+    "scripts/piloto10s/transcribir.py",
+    "scripts/piloto10s/validar.mjs",
+    "scripts/piloto10s/verificar_sincronia.py",
+    "src/Piloto10s/Anatomy.tsx",
+    "src/Piloto10s/Captions.tsx",
+    "src/Piloto10s/Character.tsx",
+    "src/Piloto10s/Scenes.tsx",
+    "src/Piloto10s/Soundtrack.tsx",
+    "src/Piloto10s/Stage.tsx",
+    "src/Piloto10s/Titles.tsx",
+    "src/Piloto10s/approved-assets.json",
+    "src/Piloto10s/captions.json",
+    "src/Piloto10s/index.tsx",
+    "src/Piloto10s/motion.ts",
+    "src/Piloto10s/production.json"
+  ],
+  "filesModified": [
+    ".gitignore",
+    "package.json",
+    "src/Root.tsx"
+  ],
+  "delivery": {
+    "videoPlayback": "https://cdn.jsdelivr.net/gh/hermmez/corazon-al-limite.@piloto-corazon-10s/output/corazon_al_limite_piloto_10s.mp4",
+    "videoDownload": "https://github.com/hermmez/corazon-al-limite./raw/refs/heads/piloto-corazon-10s/output/corazon_al_limite_piloto_10s.mp4",
+    "localPlayer": "output/reproducir_piloto.html",
+    "instructions": "docs/PILOTO_10S.md",
+    "mergedAutomatically": false,
+    "httpsVerification": {
+      "status": "passed",
+      "httpStatus": 200,
+      "contentType": "video/mp4",
+      "bytes": 3730139,
+      "sha256MatchesVerifiedLocalFile": true,
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/3730139",
+      "url": "https://cdn.jsdelivr.net/gh/hermmez/corazon-al-limite.@piloto-corazon-10s/output/corazon_al_limite_piloto_10s.mp4"
+    },
+    "inChatPlayer": {
+      "provider": "Higgsfield result widget",
+      "mediaId": "e3c17856-1e38-40f6-9977-ac24f13c479b",
+      "filename": "corazon_al_limite_piloto_10s.mp4",
+      "bytes": 3730139,
+      "confirmedOwnedVideo": true
+    }
+  },
+  "createdAtUtc": "2026-11-01T21:07:40.383962+00:00",
+  "pullRequest": {
+    "number": 6,
+    "url": "https://github.com/hermmez/corazon-al-limite./pull/6",
+    "base": "integracion-elevenlabs",
+    "merged": false
+  }
+}

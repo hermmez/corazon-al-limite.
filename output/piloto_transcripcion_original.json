@@ -1,0 +1,118 @@
+{
+  "engine": "faster-whisper",
+  "version": "1.2.1",
+  "model": "base",
+  "language": "es",
+  "computeType": "int8",
+  "source": "piloto10s/audio/narracion_original.mp3",
+  "words": [
+    {
+      "word": " ¿Dúermes",
+      "start": 0.0,
+      "end": 0.48,
+      "probability": 0.3967799309641123
+    },
+    {
+      "word": " poco?",
+      "start": 0.48,
+      "end": 0.82,
+      "probability": 0.9833577275276184
+    },
+    {
+      "word": " Si",
+      "start": 1.44,
+      "end": 1.66,
+      "probability": 0.9667384624481201
+    },
+    {
+      "word": " es",
+      "start": 1.66,
+      "end": 1.86,
+      "probability": 0.9878258109092712
+    },
+    {
+      "word": " habitual,",
+      "start": 1.86,
+      "end": 2.32,
+      "probability": 0.9955419898033142
+    },
+    {
+      "word": " puede",
+      "start": 2.64,
+      "end": 2.9,
+      "probability": 0.9161083102226257
+    },
+    {
+      "word": " elevar",
+      "start": 2.9,
+      "end": 3.32,
+      "probability": 0.9932475984096527
+    },
+    {
+      "word": " tu",
+      "start": 3.32,
+      "end": 3.46,
+      "probability": 0.9954848289489746
+    },
+    {
+      "word": " presión",
+      "start": 3.46,
+      "end": 3.86,
+      "probability": 0.9708882868289948
+    },
+    {
+      "word": " arterial",
+      "start": 3.86,
+      "end": 4.44,
+      "probability": 0.9834030568599701
+    },
+    {
+      "word": " y",
+      "start": 4.44,
+      "end": 4.72,
+      "probability": 0.9960840940475464
+    },
+    {
+      "word": " el",
+      "start": 4.72,
+      "end": 4.86,
+      "probability": 0.9961780309677124
+    },
+    {
+      "word": " riesgo",
+      "start": 4.86,
+      "end": 5.18,
+      "probability": 0.9908415079116821
+    },
+    {
+      "word": " cardiovascular.",
+      "start": 5.18,
+      "end": 5.94,
+      "probability": 0.8607125878334045
+    },
+    {
+      "word": " Tu",
+      "start": 6.68,
+      "end": 6.86,
+      "probability": 0.8869315981864929
+    },
+    {
+      "word": " corazón",
+      "start": 6.86,
+      "end": 7.22,
+      "probability": 0.9637640118598938
+    },
+    {
+      "word": " necesita",
+      "start": 7.22,
+      "end": 8.0,
+      "probability": 0.96412193775177
+    },
+    {
+      "word": " descanso.",
+      "start": 8.0,
+      "end": 8.66,
+      "probability": 0.9305607875188192
+    }
+  ]
+}

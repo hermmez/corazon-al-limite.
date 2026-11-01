@@ -1,0 +1,146 @@
+[
+  {
+    "text": "¿Duermes",
+    "startMs": 180,
+    "endMs": 660,
+    "timestampMs": 420,
+    "confidence": 0.3967799309641123,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " poco?",
+    "startMs": 660,
+    "endMs": 1000,
+    "timestampMs": 830,
+    "confidence": 0.9833577275276184,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Si",
+    "startMs": 1620,
+    "endMs": 1840,
+    "timestampMs": 1730,
+    "confidence": 0.9667384624481201,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " es",
+    "startMs": 1840,
+    "endMs": 2040,
+    "timestampMs": 1940,
+    "confidence": 0.9878258109092712,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " habitual,",
+    "startMs": 2040,
+    "endMs": 2500,
+    "timestampMs": 2270,
+    "confidence": 0.9955419898033142,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " puede",
+    "startMs": 2820,
+    "endMs": 3080,
+    "timestampMs": 2950,
+    "confidence": 0.9161083102226257,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " elevar",
+    "startMs": 3080,
+    "endMs": 3500,
+    "timestampMs": 3290,
+    "confidence": 0.9932475984096527,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " tu",
+    "startMs": 3500,
+    "endMs": 3640,
+    "timestampMs": 3570,
+    "confidence": 0.9954848289489746,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " presión",
+    "startMs": 3640,
+    "endMs": 4040,
+    "timestampMs": 3840,
+    "confidence": 0.9708882868289948,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " arterial",
+    "startMs": 4040,
+    "endMs": 4620,
+    "timestampMs": 4330,
+    "confidence": 0.9834030568599701,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " y",
+    "startMs": 4620,
+    "endMs": 4900,
+    "timestampMs": 4760,
+    "confidence": 0.9960840940475464,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " el",
+    "startMs": 4900,
+    "endMs": 5040,
+    "timestampMs": 4970,
+    "confidence": 0.9961780309677124,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " riesgo",
+    "startMs": 5040,
+    "endMs": 5360,
+    "timestampMs": 5200,
+    "confidence": 0.9908415079116821,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cardiovascular.",
+    "startMs": 5360,
+    "endMs": 6120,
+    "timestampMs": 5740,
+    "confidence": 0.8607125878334045,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Tu",
+    "startMs": 6860,
+    "endMs": 7040,
+    "timestampMs": 6950,
+    "confidence": 0.8869315981864929,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " corazón",
+    "startMs": 7040,
+    "endMs": 7400,
+    "timestampMs": 7220,
+    "confidence": 0.9637640118598938,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " necesita",
+    "startMs": 7400,
+    "endMs": 8180,
+    "timestampMs": 7790,
+    "confidence": 0.96412193775177,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " descanso.",
+    "startMs": 8180,
+    "endMs": 8840,
+    "timestampMs": 8510,
+    "confidence": 0.9305607875188192,
+    "pageBreakAfter": true
+  }
+]

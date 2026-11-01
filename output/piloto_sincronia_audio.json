@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "method": "waveform cross-correlation of the clean normalized narration against decoded final AAC",
+  "sampleRate": 16000,
+  "expectedOffsetMs": 180,
+  "playbackRate": 1,
+  "reference": "narracion_normalizada.wav",
+  "measuredNarrationOffsetMs": 180.0,
+  "correlation": 0.9713458332018011
+}

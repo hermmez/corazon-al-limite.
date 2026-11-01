@@ -1,0 +1,41 @@
+{
+  "durationSeconds": 10,
+  "sampleRate": 48000,
+  "channels": 2,
+  "voiceProvider": "ElevenLabs via Higgsfield",
+  "voicePreset": "Juan",
+  "voiceOriginalSeconds": 8.75102,
+  "voiceOffsetMs": 180,
+  "playbackRate": 1,
+  "voiceSource": "public/piloto10s/audio/narracion_original.mp3",
+  "originalScore": "procedural composition, 96 BPM, Cmaj7/Fmaj7/Am7/Gsus",
+  "musicSamplesUsed": [],
+  "sfx": "original synthesized air transitions and soft lub-dub heartbeat",
+  "musicDuckMinimum": 0.5,
+  "masterTargetLufs": -14,
+  "masterTargetTruePeakDbtp": -2,
+  "voiceMeasurement": {
+    "input_i": "-14.87",
+    "input_tp": "0.79",
+    "input_lra": "1.90",
+    "input_thresh": "-25.43",
+    "output_i": "-16.22",
+    "output_tp": "-2.00",
+    "output_lra": "1.80",
+    "output_thresh": "-26.70",
+    "normalization_type": "dynamic",
+    "target_offset": "0.22"
+  },
+  "masterPreNormalizationMeasurement": {
+    "input_i": "-16.63",
+    "input_tp": "-4.35",
+    "input_lra": "2.00",
+    "input_thresh": "-26.96",
+    "output_i": "-14.31",
+    "output_tp": "-2.29",
+    "output_lra": "1.70",
+    "output_thresh": "-24.57",
+    "normalization_type": "dynamic",
+    "target_offset": "0.31"
+  }
+}
