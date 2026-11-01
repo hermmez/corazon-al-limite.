@@ -1,4 +1,5 @@
 import React from "react";
+import { Episodio01Cerebro } from "./episodios/episodio-01-cerebro";
 import { Composition, Folder } from "remotion";
 import { CorazonPiloto10s } from "./Piloto10s";
 import { PrimerVideoSueno, calculateSuenoMetadata } from "./PrimerVideoSueno";
@@ -14,6 +15,7 @@ import { CorazonAlLimite } from "./CorazonAlLimite";
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition id="Episodio01Cerebro" component={Episodio01Cerebro} durationInFrames={2100} fps={30} width={1080} height={1920} />
       <Composition id="CorazonPiloto10s" component={CorazonPiloto10s} durationInFrames={300} fps={30} width={1080} height={1920} />
       <Composition
         id="CorazonAlLimite"

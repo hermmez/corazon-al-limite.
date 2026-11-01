@@ -7,3 +7,7 @@ node_modules/
 output/*_remotion.mp4
 __pycache__/
 .venv-audio/
+output/episodio-01-cerebro/*_remotion.mp4
+output/episodio-01-cerebro/*_encoding.mp4
+output/episodio-01-cerebro/encuadre-*.png
+public/episodios/episodio-01-cerebro/audio/*.wav
