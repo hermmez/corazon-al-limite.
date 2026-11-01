@@ -1,0 +1,39 @@
+name: Narración con ElevenLabs
+
+on:
+  workflow_dispatch:
+  # Bootstrap read-only catalog on this review branch; removed after validation.
+  push:
+    branches: [integracion-elevenlabs]
+    paths: [.github/workflows/elevenlabs.yml]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: elevenlabs-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  voces:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Consultar voces sin consumir créditos de síntesis
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: node scripts/listar-voces.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: elevenlabs-voces
+          path: out/elevenlabs-voces.json
+          if-no-files-found: warn

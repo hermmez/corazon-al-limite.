@@ -19,6 +19,7 @@
     "captions:sueno": "node scripts/temporizar-sueno.mjs"
   },
   "dependencies": {
+    "@elevenlabs/elevenlabs-js": "2.75.0",
     "@remotion/captions": "4.0.539",
     "@remotion/cli": "^4.0.0",
     "@remotion/media": "4.0.539",
