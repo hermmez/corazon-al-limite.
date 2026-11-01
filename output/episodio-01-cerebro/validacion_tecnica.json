@@ -1,9 +1,9 @@
 {
   "technicalStatus": "passed",
-  "publicationStatus": "voice-pending",
+  "publicationStatus": "ready-with-2d-intro",
   "file": "output/episodio-01-cerebro/episodio_01_cerebro_70s.mp4",
-  "bytes": 34772036,
-  "sha256": "94823947e3ec9127d7736646607badb26cd2f44e2b697ed15013fc8dfdce1f0d",
+  "bytes": 36212975,
+  "sha256": "2985c99c74f23883c8302fa65094da5f2bc99364bd820f10faaf8288e395a4a3",
   "durationSeconds": 70,
   "video": {
     "codec": "h264",
@@ -18,22 +18,125 @@
     "codec": "aac",
     "channels": 2,
     "sampleRate": 48000,
-    "lufs": -24.02,
-    "truePeakDbtp": -12.49
+    "lufs": -14.21,
+    "truePeakDbtp": -1.83
   },
   "narration": {
-    "status": "awaiting-authorization",
+    "status": "real-integrated",
     "provider": "ElevenLabs via Higgsfield",
     "preset": "Juan",
     "voiceId": "6b528d43-c056-4a2f-9d82-1591a7ba13b0",
     "voiceType": "preset",
     "quoteCredits": 2.55,
-    "playbackRate": 1
+    "playbackRate": 1,
+    "source": "public/episodios/episodio-01-cerebro/audio/narracion_original.mp3",
+    "timeline": "public/episodios/episodio-01-cerebro/audio/narracion_timeline.wav",
+    "lastWordEndMs": 69700,
+    "generationJobId": "c4eb3c79-1dc0-4104-9a75-1c99a7f06f00",
+    "creditsActual": 2.55,
+    "originalDurationSeconds": 62.850612,
+    "alignmentEngine": "faster-whisper base int8 with focused acoustic verification",
+    "sceneTiming": "natural J-cuts; only inter-sentence pauses edited",
+    "generationCount": 1
+  },
+  "voiceInDeliveredAudio": {
+    "status": "passed",
+    "method": "waveform correlation of real clean narration against delivered AAC, checked in every scene",
+    "reference": "public/episodios/episodio-01-cerebro/audio/narracion.flac",
+    "sampleRate": 16000,
+    "expectedOffsetMs": 0,
+    "measuredOffsetMs": 0,
+    "playbackRate": 1,
+    "lastWordEndMs": 69700,
+    "scenes": [
+      {
+        "scene": 1,
+        "start": 0.12,
+        "end": 5.88,
+        "correlation": 0.98852053127737
+      },
+      {
+        "scene": 2,
+        "start": 5.96,
+        "end": 12.69,
+        "correlation": 0.984455771913168
+      },
+      {
+        "scene": 3,
+        "start": 13.12,
+        "end": 18.65,
+        "correlation": 0.9724761197753158
+      },
+      {
+        "scene": 4,
+        "start": 22.12,
+        "end": 29.65,
+        "correlation": 0.978190599447579
+      },
+      {
+        "scene": 5,
+        "start": 33.12,
+        "end": 40.32,
+        "correlation": 0.9517174210771709
+      },
+      {
+        "scene": 6,
+        "start": 43.73,
+        "end": 52.98,
+        "correlation": 0.9672599519367494
+      },
+      {
+        "scene": 7,
+        "start": 53.06,
+        "end": 61.57,
+        "correlation": 0.956544044984385
+      },
+      {
+        "scene": 8,
+        "start": 61.65,
+        "end": 69.85,
+        "correlation": 0.9691941911583348
+      }
+    ]
   },
   "captions": {
-    "alignment": "pending-real-audio",
-    "words": 0,
-    "wordsPerGroup": []
+    "alignment": "actual audio word timestamps, silence-only timeline edits",
+    "words": 135,
+    "wordsPerGroup": [
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      4,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      4,
+      4,
+      4,
+      4
+    ]
   },
   "intro3d": {
     "status": "pending-approved-clip",
@@ -77,5 +180,5 @@
   "blackRanges": 0,
   "distinctFrames": 2100,
   "fastStart": true,
-  "validatedAt": "2026-11-01T21:48:38.208Z"
+  "validatedAt": "2026-11-01T23:27:16.237Z"
 }

@@ -70,6 +70,9 @@ if (config.voice.status === "real-integrated") {
     "output/episodio-01-cerebro/alineacion_audio_real.json",
   );
   assert.equal(alignment.words.length, captions.length);
+  assert.ok(fs.existsSync(config.voice.source), "Falta la narración original real");
+  const transcript = read("output/episodio-01-cerebro/transcripcion_verificada.json");
+  assert.equal(hash(fs.readFileSync(config.voice.source)), transcript.sha256);
   for (let i = 0; i < captions.length; i++) {
     assert.equal(captions[i].startMs, alignment.words[i].startMs);
     assert.equal(captions[i].endMs, alignment.words[i].endMs);
@@ -145,6 +148,11 @@ const levels = JSON.parse(loud.stderr.match(/\{[^{}]*\}/g).at(-1));
 assert.ok(Number(levels.input_tp) <= -1);
 const expected = config.voice.status === "real-integrated" ? -14 : -24;
 assert.ok(Math.abs(Number(levels.input_i) - expected) < 2);
+let voiceInDeliveredAudio = null;
+if (config.voice.status === "real-integrated") {
+  execFileSync("python", ["scripts/episodio-01-cerebro/verificar_sincronia.py"], {stdio: "inherit"});
+  voiceInDeliveredAudio = read("output/episodio-01-cerebro/sincronia_voz_aac.json");
+}
 const bytes = fs.readFileSync(file),
   moov = bytes.indexOf(Buffer.from("moov")),
   mdat = bytes.indexOf(Buffer.from("mdat"));
@@ -176,6 +184,7 @@ const report = {
     truePeakDbtp: Number(levels.input_tp),
   },
   narration: config.voice,
+  voiceInDeliveredAudio,
   captions: {
     alignment: config.captionAlignment,
     words: captions.length,

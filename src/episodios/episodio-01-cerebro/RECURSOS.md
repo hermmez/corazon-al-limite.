@@ -19,6 +19,6 @@ Tipografía: Manrope variable local, reutilizada del piloto, con licencia OFL en
 
 Elementos nuevos generados mediante código: órbitas, trayectorias de señal, capas esquemáticas de cráneo/meninges/vasos, partículas, fondos y monitor/entorno hospitalario. El personal y paciente conservan el personaje oficial.
 
-Audio: música y efectos originales sintetizados por `crear_audio.py`, con pistas FLAC separadas y bus maestro. La locución está pendiente de autorización; no hay archivo de narración ni subtítulos acústicos definitivos.
+Audio: música y efectos originales sintetizados por `crear_audio.py`, con pistas FLAC separadas y bus maestro. Locución masculina Juan de ElevenLabs vía Higgsfield: `narracion_original.mp3` (toma original) y `narracion.flac` (pista limpia sobre el montaje). Los subtítulos SRT y JSON contienen 135 palabras con marcas acústicas reales. Costo de la única generación: 2.55 créditos.
 
 3D: sin clip aprobado ni generación nueva. Se usa apertura 2D con un espacio reemplazable documentado.

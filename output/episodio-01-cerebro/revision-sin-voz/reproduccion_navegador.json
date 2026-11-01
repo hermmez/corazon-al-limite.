@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "engine": "Chromium HTML5 video",
+  "playbackRate": 1,
+  "autoplayMutedForTest": true,
+  "ended": true,
+  "duration": 70,
+  "currentTime": 70,
+  "width": 1080,
+  "height": 1920,
+  "totalVideoFrames": 2100,
+  "droppedVideoFrames": 0,
+  "audioDecodedBytes": 1723909,
+  "mediaError": null
+}

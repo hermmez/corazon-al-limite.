@@ -9,7 +9,7 @@ export const EPISODE = {
   introVideoSrc: null as string | null,
   audioSrc: "episodios/episodio-01-cerebro/audio/mezcla_master.flac",
   audioReady: true,
-  narrationReady: false,
+  narrationReady: true,
 } as const;
 
 export const SCENES = [

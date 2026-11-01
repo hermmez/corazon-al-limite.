@@ -1,0 +1,1060 @@
+{
+  "engine": "faster-whisper",
+  "version": "1.2.1",
+  "model": "base",
+  "language": "es",
+  "computeType": "int8",
+  "source": "public/episodios/episodio-01-cerebro/audio/narracion_original.mp3",
+  "sha256": "e9b78824bace306c4d1167ad8d97cc18d3fd667e3cfdf4b87e6302ef0fd4b7e8",
+  "words": [
+    {
+      "word": " Tu",
+      "start": 0.0,
+      "end": 0.22,
+      "probability": 0.1497761309146881
+    },
+    {
+      "word": " cerebro",
+      "start": 0.22,
+      "end": 0.76,
+      "probability": 0.9852324426174164
+    },
+    {
+      "word": " no",
+      "start": 0.76,
+      "end": 1.02,
+      "probability": 0.9890696406364441
+    },
+    {
+      "word": " puede",
+      "start": 1.02,
+      "end": 1.46,
+      "probability": 0.9135237336158752
+    },
+    {
+      "word": " sentir",
+      "start": 1.46,
+      "end": 1.88,
+      "probability": 0.9835180044174194
+    },
+    {
+      "word": " dolor,",
+      "start": 1.88,
+      "end": 2.34,
+      "probability": 0.9948157668113708
+    },
+    {
+      "word": " y",
+      "start": 2.76,
+      "end": 3.04,
+      "probability": 0.9726215600967407
+    },
+    {
+      "word": " eso",
+      "start": 3.04,
+      "end": 3.28,
+      "probability": 0.9799385070800781
+    },
+    {
+      "word": " es",
+      "start": 3.28,
+      "end": 3.42,
+      "probability": 0.9962866306304932
+    },
+    {
+      "word": " mucho",
+      "start": 3.42,
+      "end": 3.72,
+      "probability": 0.987959623336792
+    },
+    {
+      "word": " más",
+      "start": 3.72,
+      "end": 3.96,
+      "probability": 0.9869570732116699
+    },
+    {
+      "word": " extraño",
+      "start": 3.96,
+      "end": 4.7,
+      "probability": 0.9886706173419952
+    },
+    {
+      "word": " de",
+      "start": 4.7,
+      "end": 4.82,
+      "probability": 0.9805143475532532
+    },
+    {
+      "word": " lo",
+      "start": 4.82,
+      "end": 4.92,
+      "probability": 0.9981167316436768
+    },
+    {
+      "word": " que",
+      "start": 4.92,
+      "end": 5.06,
+      "probability": 0.9934378266334534
+    },
+    {
+      "word": " parece.",
+      "start": 5.06,
+      "end": 5.6,
+      "probability": 0.9694414734840393
+    },
+    {
+      "word": " Aunque",
+      "start": 6.46,
+      "end": 6.76,
+      "probability": 0.9823679327964783
+    },
+    {
+      "word": " controla",
+      "start": 6.76,
+      "end": 7.28,
+      "probability": 0.8674520254135132
+    },
+    {
+      "word": " lo",
+      "start": 7.28,
+      "end": 7.44,
+      "probability": 0.9901610612869263
+    },
+    {
+      "word": " que",
+      "start": 7.44,
+      "end": 7.6,
+      "probability": 0.9965459704399109
+    },
+    {
+      "word": " sientes",
+      "start": 7.6,
+      "end": 7.94,
+      "probability": 0.9554014205932617
+    },
+    {
+      "word": " en",
+      "start": 7.94,
+      "end": 8.22,
+      "probability": 0.992175281047821
+    },
+    {
+      "word": " todo",
+      "start": 8.22,
+      "end": 8.42,
+      "probability": 0.9497678279876709
+    },
+    {
+      "word": " tu",
+      "start": 8.42,
+      "end": 8.64,
+      "probability": 0.9488168954849243
+    },
+    {
+      "word": " cuerpo,",
+      "start": 8.64,
+      "end": 9.04,
+      "probability": 0.9989503026008606
+    },
+    {
+      "word": " el",
+      "start": 9.6,
+      "end": 9.72,
+      "probability": 0.9869154691696167
+    },
+    {
+      "word": " propio",
+      "start": 9.72,
+      "end": 10.06,
+      "probability": 0.9935619831085205
+    },
+    {
+      "word": " tejido",
+      "start": 10.06,
+      "end": 10.54,
+      "probability": 0.4190962246932748
+    },
+    {
+      "word": " cerebral",
+      "start": 10.54,
+      "end": 10.9,
+      "probability": 0.3510918617248535
+    },
+    {
+      "word": " no",
+      "start": 10.9,
+      "end": 11.4,
+      "probability": 0.9930338859558105
+    },
+    {
+      "word": " tiene",
+      "start": 11.4,
+      "end": 11.76,
+      "probability": 0.9949177503585815
+    },
+    {
+      "word": " receptores",
+      "start": 11.76,
+      "end": 12.38,
+      "probability": 0.9534274339675903
+    },
+    {
+      "word": " del",
+      "start": 12.38,
+      "end": 12.58,
+      "probability": 0.979468584060669
+    },
+    {
+      "word": " dolor.",
+      "start": 12.58,
+      "end": 12.94,
+      "probability": 0.9981997013092041
+    },
+    {
+      "word": " Pero",
+      "start": 13.74,
+      "end": 14.46,
+      "probability": 0.7875152230262756
+    },
+    {
+      "word": " espera…",
+      "start": 14.46,
+      "end": 15.56,
+      "probability": 0.5014248779043555
+    },
+    {
+      "word": " si",
+      "start": 15.56,
+      "end": 15.78,
+      "probability": 0.4052089750766754
+    },
+    {
+      "word": " es",
+      "start": 15.78,
+      "end": 15.96,
+      "probability": 0.9947988986968994
+    },
+    {
+      "word": " así,",
+      "start": 15.96,
+      "end": 16.32,
+      "probability": 0.9740307331085205
+    },
+    {
+      "word": " ¿por",
+      "start": 16.7,
+      "end": 16.8,
+      "probability": 0.8719263076782227
+    },
+    {
+      "word": " qué",
+      "start": 16.8,
+      "end": 17.02,
+      "probability": 0.9231337904930115
+    },
+    {
+      "word": " una",
+      "start": 17.02,
+      "end": 17.2,
+      "probability": 0.9838464260101318
+    },
+    {
+      "word": " migraña",
+      "start": 17.2,
+      "end": 17.74,
+      "probability": 0.981014609336853
+    },
+    {
+      "word": " puede",
+      "start": 17.74,
+      "end": 18.04,
+      "probability": 0.9845935702323914
+    },
+    {
+      "word": " doler",
+      "start": 18.04,
+      "end": 18.46,
+      "probability": 0.869940996170044
+    },
+    {
+      "word": " tanto?",
+      "start": 18.46,
+      "end": 19.02,
+      "probability": 0.9942202568054199
+    },
+    {
+      "word": " Porque",
+      "start": 20.36,
+      "end": 20.72,
+      "probability": 0.9144260287284851
+    },
+    {
+      "word": " el",
+      "start": 20.72,
+      "end": 20.84,
+      "probability": 0.9900848865509033
+    },
+    {
+      "word": " dolor",
+      "start": 20.84,
+      "end": 21.14,
+      "probability": 0.9984593391418457
+    },
+    {
+      "word": " puede",
+      "start": 21.14,
+      "end": 21.54,
+      "probability": 0.9958472847938538
+    },
+    {
+      "word": " venir",
+      "start": 21.54,
+      "end": 21.88,
+      "probability": 0.9898664951324463
+    },
+    {
+      "word": " de",
+      "start": 21.88,
+      "end": 22.04,
+      "probability": 0.8283531665802002
+    },
+    {
+      "word": " estructuras",
+      "start": 22.04,
+      "end": 22.6,
+      "probability": 0.9817553758621216
+    },
+    {
+      "word": " sensibles",
+      "start": 22.6,
+      "end": 23.22,
+      "probability": 0.8741163909435272
+    },
+    {
+      "word": " alrededor",
+      "start": 23.22,
+      "end": 23.82,
+      "probability": 0.9714673757553101
+    },
+    {
+      "word": " del",
+      "start": 23.82,
+      "end": 24.34,
+      "probability": 0.9918609261512756
+    },
+    {
+      "word": " cerebro,",
+      "start": 24.34,
+      "end": 24.82,
+      "probability": 0.9983089864253998
+    },
+    {
+      "word": " como",
+      "start": 25.16,
+      "end": 25.42,
+      "probability": 0.9916794896125793
+    },
+    {
+      "word": " las",
+      "start": 25.42,
+      "end": 25.64,
+      "probability": 0.9780893921852112
+    },
+    {
+      "word": " meninges",
+      "start": 25.64,
+      "end": 26.2,
+      "probability": 0.7297501266002655
+    },
+    {
+      "word": " y",
+      "start": 26.2,
+      "end": 26.58,
+      "probability": 0.9830926656723022
+    },
+    {
+      "word": " los",
+      "start": 26.58,
+      "end": 26.72,
+      "probability": 0.9851253032684326
+    },
+    {
+      "word": " vasos",
+      "start": 26.72,
+      "end": 27.04,
+      "probability": 0.9744938611984253
+    },
+    {
+      "word": " sanguíneos.",
+      "start": 27.04,
+      "end": 27.8,
+      "probability": 0.801718944311142
+    },
+    {
+      "word": " Esas",
+      "start": 27.8,
+      "end": 29.16,
+      "probability": 0.6752670407295227
+    },
+    {
+      "word": " señales",
+      "start": 29.16,
+      "end": 29.6,
+      "probability": 0.9926086962223053
+    },
+    {
+      "word": " viajan",
+      "start": 29.6,
+      "end": 29.98,
+      "probability": 0.9609091579914093
+    },
+    {
+      "word": " por",
+      "start": 29.98,
+      "end": 30.2,
+      "probability": 0.9950902462005615
+    },
+    {
+      "word": " nervios",
+      "start": 30.2,
+      "end": 30.66,
+      "probability": 0.9884661138057709
+    },
+    {
+      "word": " hasta",
+      "start": 30.66,
+      "end": 31.06,
+      "probability": 0.9670987725257874
+    },
+    {
+      "word": " el",
+      "start": 31.06,
+      "end": 31.18,
+      "probability": 0.9945594668388367
+    },
+    {
+      "word": " sistema",
+      "start": 31.18,
+      "end": 31.46,
+      "probability": 0.9783077239990234
+    },
+    {
+      "word": " nervioso,",
+      "start": 31.46,
+      "end": 32.16,
+      "probability": 0.9983736872673035
+    },
+    {
+      "word": " donde",
+      "start": 32.64,
+      "end": 32.9,
+      "probability": 0.9906994700431824
+    },
+    {
+      "word": " el",
+      "start": 32.9,
+      "end": 33.1,
+      "probability": 0.9840149283409119
+    },
+    {
+      "word": " cerebro",
+      "start": 33.1,
+      "end": 33.42,
+      "probability": 0.9959122836589813
+    },
+    {
+      "word": " las",
+      "start": 33.42,
+      "end": 33.62,
+      "probability": 0.7487947344779968
+    },
+    {
+      "word": " interpreta",
+      "start": 33.62,
+      "end": 34.24,
+      "probability": 0.8636617362499237
+    },
+    {
+      "word": " como",
+      "start": 34.24,
+      "end": 34.48,
+      "probability": 0.9826585054397583
+    },
+    {
+      "word": " dolor.",
+      "start": 34.48,
+      "end": 34.84,
+      "probability": 0.9874901175498962
+    },
+    {
+      "word": " Y",
+      "start": 35.6,
+      "end": 36.32,
+      "probability": 0.8918901681900024
+    },
+    {
+      "word": " aquí",
+      "start": 36.32,
+      "end": 36.56,
+      "probability": 0.9815441370010376
+    },
+    {
+      "word": " viene",
+      "start": 36.56,
+      "end": 36.76,
+      "probability": 0.9039000272750854
+    },
+    {
+      "word": " lo",
+      "start": 36.76,
+      "end": 36.98,
+      "probability": 0.7063988447189331
+    },
+    {
+      "word": " increíble.",
+      "start": 36.98,
+      "end": 37.54,
+      "probability": 0.9916256070137024
+    },
+    {
+      "word": " En",
+      "start": 38.22,
+      "end": 38.32,
+      "probability": 0.9928790926933289
+    },
+    {
+      "word": " algunas",
+      "start": 38.32,
+      "end": 38.7,
+      "probability": 0.994175136089325
+    },
+    {
+      "word": " cirugías,",
+      "start": 38.7,
+      "end": 39.3,
+      "probability": 0.8337904612223307
+    },
+    {
+      "word": " los",
+      "start": 39.88,
+      "end": 39.96,
+      "probability": 0.9971953630447388
+    },
+    {
+      "word": " pacientes",
+      "start": 39.96,
+      "end": 40.48,
+      "probability": 0.9926890432834625
+    },
+    {
+      "word": " pueden",
+      "start": 40.48,
+      "end": 40.84,
+      "probability": 0.9846075177192688
+    },
+    {
+      "word": " permanecer",
+      "start": 40.84,
+      "end": 41.46,
+      "probability": 0.9904380639394125
+    },
+    {
+      "word": " despiertos",
+      "start": 41.46,
+      "end": 42.26,
+      "probability": 0.929697314898173
+    },
+    {
+      "word": " mientras",
+      "start": 42.26,
+      "end": 42.62,
+      "probability": 0.9599923491477966
+    },
+    {
+      "word": " los",
+      "start": 42.62,
+      "end": 42.84,
+      "probability": 0.9962233304977417
+    },
+    {
+      "word": " médicos",
+      "start": 42.84,
+      "end": 43.28,
+      "probability": 0.99611034989357
+    },
+    {
+      "word": " trabajan",
+      "start": 43.28,
+      "end": 43.82,
+      "probability": 0.9921144843101501
+    },
+    {
+      "word": " sobre",
+      "start": 43.82,
+      "end": 44.06,
+      "probability": 0.9978553652763367
+    },
+    {
+      "word": " el",
+      "start": 44.06,
+      "end": 44.18,
+      "probability": 0.9963886737823486
+    },
+    {
+      "word": " cerebro.",
+      "start": 44.18,
+      "end": 44.6,
+      "probability": 0.9994116127490997
+    },
+    {
+      "word": " Claro,",
+      "start": 45.18,
+      "end": 46.08,
+      "probability": 0.8808402419090271
+    },
+    {
+      "word": " se",
+      "start": 46.54,
+      "end": 46.7,
+      "probability": 0.20114324986934662
+    },
+    {
+      "word": " utiliza",
+      "start": 46.7,
+      "end": 47.14,
+      "probability": 0.7150183916091919
+    },
+    {
+      "word": " anestesia",
+      "start": 47.14,
+      "end": 47.68,
+      "probability": 0.7246204813321432
+    },
+    {
+      "word": " para",
+      "start": 47.68,
+      "end": 47.9,
+      "probability": 0.9882956743240356
+    },
+    {
+      "word": " las",
+      "start": 47.9,
+      "end": 48.08,
+      "probability": 0.9702295064926147
+    },
+    {
+      "word": " partes",
+      "start": 48.08,
+      "end": 48.4,
+      "probability": 0.9991053938865662
+    },
+    {
+      "word": " que",
+      "start": 48.4,
+      "end": 48.68,
+      "probability": 0.9919941425323486
+    },
+    {
+      "word": " sí",
+      "start": 48.68,
+      "end": 48.92,
+      "probability": 0.8512832522392273
+    },
+    {
+      "word": " sienten",
+      "start": 48.92,
+      "end": 49.34,
+      "probability": 0.9152057965596517
+    },
+    {
+      "word": " dolor,",
+      "start": 49.34,
+      "end": 49.7,
+      "probability": 0.9949483871459961
+    },
+    {
+      "word": " y",
+      "start": 50.26,
+      "end": 50.54,
+      "probability": 0.9872593283653259
+    },
+    {
+      "word": " todo",
+      "start": 50.54,
+      "end": 50.78,
+      "probability": 0.6934396028518677
+    },
+    {
+      "word": " se",
+      "start": 50.78,
+      "end": 51.02,
+      "probability": 0.9960298538208008
+    },
+    {
+      "word": " realiza",
+      "start": 51.02,
+      "end": 51.5,
+      "probability": 0.9648734331130981
+    },
+    {
+      "word": " bajo",
+      "start": 51.5,
+      "end": 51.74,
+      "probability": 0.9736086130142212
+    },
+    {
+      "word": " estricta",
+      "start": 51.74,
+      "end": 52.3,
+      "probability": 0.9014535943667094
+    },
+    {
+      "word": " supervisión",
+      "start": 52.3,
+      "end": 52.94,
+      "probability": 0.9390466511249542
+    },
+    {
+      "word": " médica.",
+      "start": 52.94,
+      "end": 53.44,
+      "probability": 0.9904219210147858
+    },
+    {
+      "word": " Tu",
+      "start": 54.54,
+      "end": 55.22,
+      "probability": 0.5976324677467346
+    },
+    {
+      "word": " cerebro",
+      "start": 55.22,
+      "end": 55.62,
+      "probability": 0.9949199259281158
+    },
+    {
+      "word": " interpreta",
+      "start": 55.62,
+      "end": 56.28,
+      "probability": 0.972677081823349
+    },
+    {
+      "word": " el",
+      "start": 56.28,
+      "end": 56.42,
+      "probability": 0.4723087549209595
+    },
+    {
+      "word": " dolor,",
+      "start": 56.42,
+      "end": 56.72,
+      "probability": 0.9920617341995239
+    },
+    {
+      "word": " pero",
+      "start": 57.4,
+      "end": 57.7,
+      "probability": 0.9936686158180237
+    },
+    {
+      "word": " su",
+      "start": 57.7,
+      "end": 57.9,
+      "probability": 0.9925324320793152
+    },
+    {
+      "word": " propio",
+      "start": 57.9,
+      "end": 58.28,
+      "probability": 0.9891602396965027
+    },
+    {
+      "word": " tejido",
+      "start": 58.28,
+      "end": 58.88,
+      "probability": 0.953868180513382
+    },
+    {
+      "word": " no",
+      "start": 58.88,
+      "end": 59.22,
+      "probability": 0.9903613328933716
+    },
+    {
+      "word": " lo",
+      "start": 59.22,
+      "end": 59.36,
+      "probability": 0.9794381856918335
+    },
+    {
+      "word": " siente.",
+      "start": 59.36,
+      "end": 59.9,
+      "probability": 0.9526321589946747
+    },
+    {
+      "word": " Síguenos",
+      "start": 61.32,
+      "end": 61.58,
+      "probability": 0.8076445609331131
+    },
+    {
+      "word": " para",
+      "start": 61.58,
+      "end": 61.84,
+      "probability": 0.9924308657646179
+    },
+    {
+      "word": " descubrir",
+      "start": 61.84,
+      "end": 62.28,
+      "probability": 0.9759581685066223
+    },
+    {
+      "word": " más.",
+      "start": 62.28,
+      "end": 62.5,
+      "probability": 0.7848946452140808
+    }
+  ],
+  "focusedAcousticChecks": [
+    {
+      "scene": 7,
+      "audioStart": 45.18,
+      "audioEnd": 53.58,
+      "initialWords": [
+        {
+          "word": " Claro,",
+          "start": 45.3,
+          "end": 46.08,
+          "probability": 0.9571903944015503
+        },
+        {
+          "word": " si",
+          "start": 46.58,
+          "end": 46.7,
+          "probability": 0.6200270056724548
+        },
+        {
+          "word": " utilizan",
+          "start": 46.7,
+          "end": 47.18,
+          "probability": 0.9574088752269745
+        },
+        {
+          "word": " estesia",
+          "start": 47.18,
+          "end": 47.7,
+          "probability": 0.7531318366527557
+        },
+        {
+          "word": " para",
+          "start": 47.7,
+          "end": 47.9,
+          "probability": 0.9901686906814575
+        },
+        {
+          "word": " las",
+          "start": 47.9,
+          "end": 48.08,
+          "probability": 0.9727773070335388
+        },
+        {
+          "word": " partes",
+          "start": 48.08,
+          "end": 48.4,
+          "probability": 0.9984261989593506
+        },
+        {
+          "word": " que",
+          "start": 48.4,
+          "end": 48.68,
+          "probability": 0.9913325905799866
+        },
+        {
+          "word": " sí",
+          "start": 48.68,
+          "end": 48.92,
+          "probability": 0.8217107057571411
+        },
+        {
+          "word": " sienten",
+          "start": 48.92,
+          "end": 49.34,
+          "probability": 0.9005106488863627
+        },
+        {
+          "word": " dolor",
+          "start": 49.34,
+          "end": 49.7,
+          "probability": 0.9977509379386902
+        },
+        {
+          "word": " y",
+          "start": 49.7,
+          "end": 50.52,
+          "probability": 0.5987076163291931
+        },
+        {
+          "word": " todo",
+          "start": 50.52,
+          "end": 50.78,
+          "probability": 0.5424733757972717
+        },
+        {
+          "word": " se",
+          "start": 50.78,
+          "end": 51.02,
+          "probability": 0.9918835163116455
+        },
+        {
+          "word": " realiza",
+          "start": 51.02,
+          "end": 51.48,
+          "probability": 0.9702465236186981
+        },
+        {
+          "word": " bajo",
+          "start": 51.48,
+          "end": 51.74,
+          "probability": 0.9836270809173584
+        },
+        {
+          "word": " estricta",
+          "start": 51.74,
+          "end": 52.28,
+          "probability": 0.893912653128306
+        },
+        {
+          "word": " supervisión",
+          "start": 52.28,
+          "end": 52.94,
+          "probability": 0.9150346219539642
+        },
+        {
+          "word": " médica.",
+          "start": 52.94,
+          "end": 53.46,
+          "probability": 0.9888224005699158
+        }
+      ],
+      "focusedWords": [
+        {
+          "word": " Claro,",
+          "start": 45.18,
+          "end": 46.08,
+          "probability": 0.8808402419090271
+        },
+        {
+          "word": " se",
+          "start": 46.54,
+          "end": 46.7,
+          "probability": 0.20114324986934662
+        },
+        {
+          "word": " utiliza",
+          "start": 46.7,
+          "end": 47.14,
+          "probability": 0.7150183916091919
+        },
+        {
+          "word": " anestesia",
+          "start": 47.14,
+          "end": 47.68,
+          "probability": 0.7246204813321432
+        },
+        {
+          "word": " para",
+          "start": 47.68,
+          "end": 47.9,
+          "probability": 0.9882956743240356
+        },
+        {
+          "word": " las",
+          "start": 47.9,
+          "end": 48.08,
+          "probability": 0.9702295064926147
+        },
+        {
+          "word": " partes",
+          "start": 48.08,
+          "end": 48.4,
+          "probability": 0.9991053938865662
+        },
+        {
+          "word": " que",
+          "start": 48.4,
+          "end": 48.68,
+          "probability": 0.9919941425323486
+        },
+        {
+          "word": " sí",
+          "start": 48.68,
+          "end": 48.92,
+          "probability": 0.8512832522392273
+        },
+        {
+          "word": " sienten",
+          "start": 48.92,
+          "end": 49.34,
+          "probability": 0.9152057965596517
+        },
+        {
+          "word": " dolor,",
+          "start": 49.34,
+          "end": 49.7,
+          "probability": 0.9949483871459961
+        },
+        {
+          "word": " y",
+          "start": 50.26,
+          "end": 50.54,
+          "probability": 0.9872593283653259
+        },
+        {
+          "word": " todo",
+          "start": 50.54,
+          "end": 50.78,
+          "probability": 0.6934396028518677
+        },
+        {
+          "word": " se",
+          "start": 50.78,
+          "end": 51.02,
+          "probability": 0.9960298538208008
+        },
+        {
+          "word": " realiza",
+          "start": 51.02,
+          "end": 51.5,
+          "probability": 0.9648734331130981
+        },
+        {
+          "word": " bajo",
+          "start": 51.5,
+          "end": 51.74,
+          "probability": 0.9736086130142212
+        },
+        {
+          "word": " estricta",
+          "start": 51.74,
+          "end": 52.3,
+          "probability": 0.9014535943667094
+        },
+        {
+          "word": " supervisión",
+          "start": 52.3,
+          "end": 52.94,
+          "probability": 0.9390466511249542
+        },
+        {
+          "word": " médica.",
+          "start": 52.94,
+          "end": 53.44,
+          "probability": 0.9904219210147858
+        }
+      ]
+    }
+  ]
+}

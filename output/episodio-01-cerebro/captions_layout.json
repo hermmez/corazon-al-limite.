@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "method": "Manrope variable weight 800, FreeType advance metrics at 54px, 798px content width, 12px word gap and -1.1px letter spacing",
+  "words": 135,
+  "groups": 33,
+  "wordsPerGroupMin": 3,
+  "wordsPerGroupMax": 5,
+  "maximumLines": 2,
+  "captionTopPx": 1480,
+  "captionMaximumBottomPx": 1650,
+  "safeMarginLeftPx": 86,
+  "safeMarginRightPx": 144
+}

@@ -1,0 +1,1329 @@
+{
+  "engine": "faster-whisper",
+  "model": "base",
+  "playbackRate": 1,
+  "source": "public/episodios/episodio-01-cerebro/audio/narracion_original.mp3",
+  "words": [
+    {
+      "word": "¡Tu",
+      "sourceStart": 0.0,
+      "sourceEnd": 0.22,
+      "shiftSeconds": 0.12,
+      "startMs": 120,
+      "endMs": 340,
+      "scene": 1
+    },
+    {
+      "word": "cerebro",
+      "sourceStart": 0.22,
+      "sourceEnd": 0.76,
+      "shiftSeconds": 0.12,
+      "startMs": 340,
+      "endMs": 880,
+      "scene": 1
+    },
+    {
+      "word": "no",
+      "sourceStart": 0.76,
+      "sourceEnd": 1.02,
+      "shiftSeconds": 0.12,
+      "startMs": 880,
+      "endMs": 1140,
+      "scene": 1
+    },
+    {
+      "word": "puede",
+      "sourceStart": 1.02,
+      "sourceEnd": 1.46,
+      "shiftSeconds": 0.12,
+      "startMs": 1140,
+      "endMs": 1580,
+      "scene": 1
+    },
+    {
+      "word": "sentir",
+      "sourceStart": 1.46,
+      "sourceEnd": 1.88,
+      "shiftSeconds": 0.12,
+      "startMs": 1580,
+      "endMs": 2000,
+      "scene": 1
+    },
+    {
+      "word": "dolor!",
+      "sourceStart": 1.88,
+      "sourceEnd": 2.34,
+      "shiftSeconds": 0.12,
+      "startMs": 2000,
+      "endMs": 2460,
+      "scene": 1
+    },
+    {
+      "word": "Y",
+      "sourceStart": 2.76,
+      "sourceEnd": 3.04,
+      "shiftSeconds": 0.12,
+      "startMs": 2880,
+      "endMs": 3160,
+      "scene": 1
+    },
+    {
+      "word": "eso",
+      "sourceStart": 3.04,
+      "sourceEnd": 3.28,
+      "shiftSeconds": 0.12,
+      "startMs": 3160,
+      "endMs": 3400,
+      "scene": 1
+    },
+    {
+      "word": "es",
+      "sourceStart": 3.28,
+      "sourceEnd": 3.42,
+      "shiftSeconds": 0.12,
+      "startMs": 3400,
+      "endMs": 3540,
+      "scene": 1
+    },
+    {
+      "word": "mucho",
+      "sourceStart": 3.42,
+      "sourceEnd": 3.72,
+      "shiftSeconds": 0.12,
+      "startMs": 3540,
+      "endMs": 3840,
+      "scene": 1
+    },
+    {
+      "word": "más",
+      "sourceStart": 3.72,
+      "sourceEnd": 3.96,
+      "shiftSeconds": 0.12,
+      "startMs": 3840,
+      "endMs": 4080,
+      "scene": 1
+    },
+    {
+      "word": "extraño",
+      "sourceStart": 3.96,
+      "sourceEnd": 4.7,
+      "shiftSeconds": 0.12,
+      "startMs": 4080,
+      "endMs": 4820,
+      "scene": 1
+    },
+    {
+      "word": "de",
+      "sourceStart": 4.7,
+      "sourceEnd": 4.82,
+      "shiftSeconds": 0.12,
+      "startMs": 4820,
+      "endMs": 4940,
+      "scene": 1
+    },
+    {
+      "word": "lo",
+      "sourceStart": 4.82,
+      "sourceEnd": 4.92,
+      "shiftSeconds": 0.12,
+      "startMs": 4940,
+      "endMs": 5040,
+      "scene": 1
+    },
+    {
+      "word": "que",
+      "sourceStart": 4.92,
+      "sourceEnd": 5.06,
+      "shiftSeconds": 0.12,
+      "startMs": 5040,
+      "endMs": 5180,
+      "scene": 1
+    },
+    {
+      "word": "parece.",
+      "sourceStart": 5.06,
+      "sourceEnd": 5.6,
+      "shiftSeconds": 0.12,
+      "startMs": 5180,
+      "endMs": 5720,
+      "scene": 1
+    },
+    {
+      "word": "Aunque",
+      "sourceStart": 6.46,
+      "sourceEnd": 6.76,
+      "shiftSeconds": -0.41000000000000014,
+      "startMs": 6050,
+      "endMs": 6350,
+      "scene": 2
+    },
+    {
+      "word": "controla",
+      "sourceStart": 6.76,
+      "sourceEnd": 7.28,
+      "shiftSeconds": -0.41000000000000014,
+      "startMs": 6350,
+      "endMs": 6870,
+      "scene": 2
+    },
+    {
+      "word": "lo",
+      "sourceStart": 7.28,
+      "sourceEnd": 7.44,
+      "shiftSeconds": -0.41000000000000014,
+      "startMs": 6870,
+      "endMs": 7030,
+      "scene": 2
+    },
+    {
+      "word": "que",
+      "sourceStart": 7.44,
+      "sourceEnd": 7.6,
+      "shiftSeconds": -0.41000000000000014,
+      "startMs": 7030,
+      "endMs": 7190,
+      "scene": 2
+    },
+    {
+      "word": "sientes",
+      "sourceStart": 7.6,
+      "sourceEnd": 7.94,
+      "shiftSeconds": -0.41000000000000014,
+      "startMs": 7190,
+      "endMs": 7530,
+      "scene": 2
+    },
+    {
+      "word": "en",
+      "sourceStart": 7.94,
+      "sourceEnd": 8.22,
+      "shiftSeconds": -0.41000000000000014,
+      "startMs": 7530,
+      "endMs": 7810,
+      "scene": 2
+    },
+    {
+      "word": "todo",
+      "sourceStart": 8.22,
+      "sourceEnd": 8.42,
+      "shiftSeconds": -0.41000000000000014,
+      "startMs": 7810,
+      "endMs": 8010,
+      "scene": 2
+    },
+    {
+      "word": "tu",
+      "sourceStart": 8.42,
+      "sourceEnd": 8.64,
+      "shiftSeconds": -0.41000000000000014,
+      "startMs": 8010,
+      "endMs": 8230,
+      "scene": 2
+    },
+    {
+      "word": "cuerpo,",
+      "sourceStart": 8.64,
+      "sourceEnd": 9.04,
+      "shiftSeconds": -0.41000000000000014,
+      "startMs": 8230,
+      "endMs": 8630,
+      "scene": 2
+    },
+    {
+      "word": "el",
+      "sourceStart": 9.6,
+      "sourceEnd": 9.72,
+      "shiftSeconds": -0.41000000000000014,
+      "startMs": 9190,
+      "endMs": 9310,
+      "scene": 2
+    },
+    {
+      "word": "propio",
+      "sourceStart": 9.72,
+      "sourceEnd": 10.06,
+      "shiftSeconds": -0.41000000000000014,
+      "startMs": 9310,
+      "endMs": 9650,
+      "scene": 2
+    },
+    {
+      "word": "tejido",
+      "sourceStart": 10.06,
+      "sourceEnd": 10.54,
+      "shiftSeconds": -0.41000000000000014,
+      "startMs": 9650,
+      "endMs": 10130,
+      "scene": 2
+    },
+    {
+      "word": "cerebral",
+      "sourceStart": 10.54,
+      "sourceEnd": 10.9,
+      "shiftSeconds": -0.41000000000000014,
+      "startMs": 10130,
+      "endMs": 10490,
+      "scene": 2
+    },
+    {
+      "word": "no",
+      "sourceStart": 10.9,
+      "sourceEnd": 11.4,
+      "shiftSeconds": -0.41000000000000014,
+      "startMs": 10490,
+      "endMs": 10990,
+      "scene": 2
+    },
+    {
+      "word": "tiene",
+      "sourceStart": 11.4,
+      "sourceEnd": 11.76,
+      "shiftSeconds": -0.41000000000000014,
+      "startMs": 10990,
+      "endMs": 11350,
+      "scene": 2
+    },
+    {
+      "word": "receptores",
+      "sourceStart": 11.76,
+      "sourceEnd": 12.38,
+      "shiftSeconds": -0.41000000000000014,
+      "startMs": 11350,
+      "endMs": 11970,
+      "scene": 2
+    },
+    {
+      "word": "del",
+      "sourceStart": 12.38,
+      "sourceEnd": 12.58,
+      "shiftSeconds": -0.41000000000000014,
+      "startMs": 11970,
+      "endMs": 12170,
+      "scene": 2
+    },
+    {
+      "word": "dolor.",
+      "sourceStart": 12.58,
+      "sourceEnd": 12.94,
+      "shiftSeconds": -0.41000000000000014,
+      "startMs": 12170,
+      "endMs": 12530,
+      "scene": 2
+    },
+    {
+      "word": "Pero",
+      "sourceStart": 13.74,
+      "sourceEnd": 14.46,
+      "shiftSeconds": -0.5300000000000011,
+      "startMs": 13210,
+      "endMs": 13930,
+      "scene": 3
+    },
+    {
+      "word": "espera…",
+      "sourceStart": 14.46,
+      "sourceEnd": 15.56,
+      "shiftSeconds": -0.5300000000000011,
+      "startMs": 13930,
+      "endMs": 15030,
+      "scene": 3
+    },
+    {
+      "word": "si",
+      "sourceStart": 15.56,
+      "sourceEnd": 15.78,
+      "shiftSeconds": -0.5300000000000011,
+      "startMs": 15030,
+      "endMs": 15250,
+      "scene": 3
+    },
+    {
+      "word": "es",
+      "sourceStart": 15.78,
+      "sourceEnd": 15.96,
+      "shiftSeconds": -0.5300000000000011,
+      "startMs": 15250,
+      "endMs": 15430,
+      "scene": 3
+    },
+    {
+      "word": "así,",
+      "sourceStart": 15.96,
+      "sourceEnd": 16.32,
+      "shiftSeconds": -0.5300000000000011,
+      "startMs": 15430,
+      "endMs": 15790,
+      "scene": 3
+    },
+    {
+      "word": "¿por",
+      "sourceStart": 16.7,
+      "sourceEnd": 16.8,
+      "shiftSeconds": -0.5300000000000011,
+      "startMs": 16170,
+      "endMs": 16270,
+      "scene": 3
+    },
+    {
+      "word": "qué",
+      "sourceStart": 16.8,
+      "sourceEnd": 17.02,
+      "shiftSeconds": -0.5300000000000011,
+      "startMs": 16270,
+      "endMs": 16490,
+      "scene": 3
+    },
+    {
+      "word": "una",
+      "sourceStart": 17.02,
+      "sourceEnd": 17.2,
+      "shiftSeconds": -0.5300000000000011,
+      "startMs": 16490,
+      "endMs": 16670,
+      "scene": 3
+    },
+    {
+      "word": "migraña",
+      "sourceStart": 17.2,
+      "sourceEnd": 17.74,
+      "shiftSeconds": -0.5300000000000011,
+      "startMs": 16670,
+      "endMs": 17210,
+      "scene": 3
+    },
+    {
+      "word": "puede",
+      "sourceStart": 17.74,
+      "sourceEnd": 18.04,
+      "shiftSeconds": -0.5300000000000011,
+      "startMs": 17210,
+      "endMs": 17510,
+      "scene": 3
+    },
+    {
+      "word": "doler",
+      "sourceStart": 18.04,
+      "sourceEnd": 18.46,
+      "shiftSeconds": -0.5300000000000011,
+      "startMs": 17510,
+      "endMs": 17930,
+      "scene": 3
+    },
+    {
+      "word": "tanto?",
+      "sourceStart": 18.46,
+      "sourceEnd": 19.02,
+      "shiftSeconds": -0.5300000000000011,
+      "startMs": 17930,
+      "endMs": 18490,
+      "scene": 3
+    },
+    {
+      "word": "Porque",
+      "sourceStart": 20.36,
+      "sourceEnd": 20.72,
+      "shiftSeconds": 1.8500000000000014,
+      "startMs": 22210,
+      "endMs": 22570,
+      "scene": 4
+    },
+    {
+      "word": "el",
+      "sourceStart": 20.72,
+      "sourceEnd": 20.84,
+      "shiftSeconds": 1.8500000000000014,
+      "startMs": 22570,
+      "endMs": 22690,
+      "scene": 4
+    },
+    {
+      "word": "dolor",
+      "sourceStart": 20.84,
+      "sourceEnd": 21.14,
+      "shiftSeconds": 1.8500000000000014,
+      "startMs": 22690,
+      "endMs": 22990,
+      "scene": 4
+    },
+    {
+      "word": "puede",
+      "sourceStart": 21.14,
+      "sourceEnd": 21.54,
+      "shiftSeconds": 1.8500000000000014,
+      "startMs": 22990,
+      "endMs": 23390,
+      "scene": 4
+    },
+    {
+      "word": "venir",
+      "sourceStart": 21.54,
+      "sourceEnd": 21.88,
+      "shiftSeconds": 1.8500000000000014,
+      "startMs": 23390,
+      "endMs": 23730,
+      "scene": 4
+    },
+    {
+      "word": "de",
+      "sourceStart": 21.88,
+      "sourceEnd": 22.04,
+      "shiftSeconds": 1.8500000000000014,
+      "startMs": 23730,
+      "endMs": 23890,
+      "scene": 4
+    },
+    {
+      "word": "estructuras",
+      "sourceStart": 22.04,
+      "sourceEnd": 22.6,
+      "shiftSeconds": 1.8500000000000014,
+      "startMs": 23890,
+      "endMs": 24450,
+      "scene": 4
+    },
+    {
+      "word": "sensibles",
+      "sourceStart": 22.6,
+      "sourceEnd": 23.22,
+      "shiftSeconds": 1.8500000000000014,
+      "startMs": 24450,
+      "endMs": 25070,
+      "scene": 4
+    },
+    {
+      "word": "alrededor",
+      "sourceStart": 23.22,
+      "sourceEnd": 23.82,
+      "shiftSeconds": 1.8500000000000014,
+      "startMs": 25070,
+      "endMs": 25670,
+      "scene": 4
+    },
+    {
+      "word": "del",
+      "sourceStart": 23.82,
+      "sourceEnd": 24.34,
+      "shiftSeconds": 1.8500000000000014,
+      "startMs": 25670,
+      "endMs": 26190,
+      "scene": 4
+    },
+    {
+      "word": "cerebro,",
+      "sourceStart": 24.34,
+      "sourceEnd": 24.82,
+      "shiftSeconds": 1.8500000000000014,
+      "startMs": 26190,
+      "endMs": 26670,
+      "scene": 4
+    },
+    {
+      "word": "como",
+      "sourceStart": 25.16,
+      "sourceEnd": 25.42,
+      "shiftSeconds": 1.8500000000000014,
+      "startMs": 27010,
+      "endMs": 27270,
+      "scene": 4
+    },
+    {
+      "word": "las",
+      "sourceStart": 25.42,
+      "sourceEnd": 25.64,
+      "shiftSeconds": 1.8500000000000014,
+      "startMs": 27270,
+      "endMs": 27490,
+      "scene": 4
+    },
+    {
+      "word": "meninges",
+      "sourceStart": 25.64,
+      "sourceEnd": 26.2,
+      "shiftSeconds": 1.8500000000000014,
+      "startMs": 27490,
+      "endMs": 28050,
+      "scene": 4
+    },
+    {
+      "word": "y",
+      "sourceStart": 26.2,
+      "sourceEnd": 26.58,
+      "shiftSeconds": 1.8500000000000014,
+      "startMs": 28050,
+      "endMs": 28430,
+      "scene": 4
+    },
+    {
+      "word": "los",
+      "sourceStart": 26.58,
+      "sourceEnd": 26.72,
+      "shiftSeconds": 1.8500000000000014,
+      "startMs": 28430,
+      "endMs": 28570,
+      "scene": 4
+    },
+    {
+      "word": "vasos",
+      "sourceStart": 26.72,
+      "sourceEnd": 27.04,
+      "shiftSeconds": 1.8500000000000014,
+      "startMs": 28570,
+      "endMs": 28890,
+      "scene": 4
+    },
+    {
+      "word": "sanguíneos.",
+      "sourceStart": 27.04,
+      "sourceEnd": 27.8,
+      "shiftSeconds": 1.8500000000000014,
+      "startMs": 28890,
+      "endMs": 29650,
+      "scene": 4
+    },
+    {
+      "word": "Esas",
+      "sourceStart": 27.8,
+      "sourceEnd": 29.16,
+      "shiftSeconds": 5.319999999999997,
+      "startMs": 33120,
+      "endMs": 34480,
+      "scene": 5
+    },
+    {
+      "word": "señales",
+      "sourceStart": 29.16,
+      "sourceEnd": 29.6,
+      "shiftSeconds": 5.319999999999997,
+      "startMs": 34480,
+      "endMs": 34920,
+      "scene": 5
+    },
+    {
+      "word": "viajan",
+      "sourceStart": 29.6,
+      "sourceEnd": 29.98,
+      "shiftSeconds": 5.319999999999997,
+      "startMs": 34920,
+      "endMs": 35300,
+      "scene": 5
+    },
+    {
+      "word": "por",
+      "sourceStart": 29.98,
+      "sourceEnd": 30.2,
+      "shiftSeconds": 5.319999999999997,
+      "startMs": 35300,
+      "endMs": 35520,
+      "scene": 5
+    },
+    {
+      "word": "nervios",
+      "sourceStart": 30.2,
+      "sourceEnd": 30.66,
+      "shiftSeconds": 5.319999999999997,
+      "startMs": 35520,
+      "endMs": 35980,
+      "scene": 5
+    },
+    {
+      "word": "hasta",
+      "sourceStart": 30.66,
+      "sourceEnd": 31.06,
+      "shiftSeconds": 5.319999999999997,
+      "startMs": 35980,
+      "endMs": 36380,
+      "scene": 5
+    },
+    {
+      "word": "el",
+      "sourceStart": 31.06,
+      "sourceEnd": 31.18,
+      "shiftSeconds": 5.319999999999997,
+      "startMs": 36380,
+      "endMs": 36500,
+      "scene": 5
+    },
+    {
+      "word": "sistema",
+      "sourceStart": 31.18,
+      "sourceEnd": 31.46,
+      "shiftSeconds": 5.319999999999997,
+      "startMs": 36500,
+      "endMs": 36780,
+      "scene": 5
+    },
+    {
+      "word": "nervioso,",
+      "sourceStart": 31.46,
+      "sourceEnd": 32.16,
+      "shiftSeconds": 5.319999999999997,
+      "startMs": 36780,
+      "endMs": 37480,
+      "scene": 5
+    },
+    {
+      "word": "donde",
+      "sourceStart": 32.64,
+      "sourceEnd": 32.9,
+      "shiftSeconds": 5.319999999999997,
+      "startMs": 37960,
+      "endMs": 38220,
+      "scene": 5
+    },
+    {
+      "word": "el",
+      "sourceStart": 32.9,
+      "sourceEnd": 33.1,
+      "shiftSeconds": 5.319999999999997,
+      "startMs": 38220,
+      "endMs": 38420,
+      "scene": 5
+    },
+    {
+      "word": "cerebro",
+      "sourceStart": 33.1,
+      "sourceEnd": 33.42,
+      "shiftSeconds": 5.319999999999997,
+      "startMs": 38420,
+      "endMs": 38740,
+      "scene": 5
+    },
+    {
+      "word": "las",
+      "sourceStart": 33.42,
+      "sourceEnd": 33.62,
+      "shiftSeconds": 5.319999999999997,
+      "startMs": 38740,
+      "endMs": 38940,
+      "scene": 5
+    },
+    {
+      "word": "interpreta",
+      "sourceStart": 33.62,
+      "sourceEnd": 34.24,
+      "shiftSeconds": 5.319999999999997,
+      "startMs": 38940,
+      "endMs": 39560,
+      "scene": 5
+    },
+    {
+      "word": "como",
+      "sourceStart": 34.24,
+      "sourceEnd": 34.48,
+      "shiftSeconds": 5.319999999999997,
+      "startMs": 39560,
+      "endMs": 39800,
+      "scene": 5
+    },
+    {
+      "word": "dolor.",
+      "sourceStart": 34.48,
+      "sourceEnd": 34.84,
+      "shiftSeconds": 5.319999999999997,
+      "startMs": 39800,
+      "endMs": 40160,
+      "scene": 5
+    },
+    {
+      "word": "Y",
+      "sourceStart": 35.6,
+      "sourceEnd": 36.32,
+      "shiftSeconds": 8.219999999999999,
+      "startMs": 43820,
+      "endMs": 44540,
+      "scene": 6
+    },
+    {
+      "word": "aquí",
+      "sourceStart": 36.32,
+      "sourceEnd": 36.56,
+      "shiftSeconds": 8.219999999999999,
+      "startMs": 44540,
+      "endMs": 44780,
+      "scene": 6
+    },
+    {
+      "word": "viene",
+      "sourceStart": 36.56,
+      "sourceEnd": 36.76,
+      "shiftSeconds": 8.219999999999999,
+      "startMs": 44780,
+      "endMs": 44980,
+      "scene": 6
+    },
+    {
+      "word": "lo",
+      "sourceStart": 36.76,
+      "sourceEnd": 36.98,
+      "shiftSeconds": 8.219999999999999,
+      "startMs": 44980,
+      "endMs": 45200,
+      "scene": 6
+    },
+    {
+      "word": "increíble:",
+      "sourceStart": 36.98,
+      "sourceEnd": 37.54,
+      "shiftSeconds": 8.219999999999999,
+      "startMs": 45200,
+      "endMs": 45760,
+      "scene": 6
+    },
+    {
+      "word": "en",
+      "sourceStart": 38.22,
+      "sourceEnd": 38.32,
+      "shiftSeconds": 8.219999999999999,
+      "startMs": 46440,
+      "endMs": 46540,
+      "scene": 6
+    },
+    {
+      "word": "algunas",
+      "sourceStart": 38.32,
+      "sourceEnd": 38.7,
+      "shiftSeconds": 8.219999999999999,
+      "startMs": 46540,
+      "endMs": 46920,
+      "scene": 6
+    },
+    {
+      "word": "cirugías,",
+      "sourceStart": 38.7,
+      "sourceEnd": 39.3,
+      "shiftSeconds": 8.219999999999999,
+      "startMs": 46920,
+      "endMs": 47520,
+      "scene": 6
+    },
+    {
+      "word": "los",
+      "sourceStart": 39.88,
+      "sourceEnd": 39.96,
+      "shiftSeconds": 8.219999999999999,
+      "startMs": 48100,
+      "endMs": 48180,
+      "scene": 6
+    },
+    {
+      "word": "pacientes",
+      "sourceStart": 39.96,
+      "sourceEnd": 40.48,
+      "shiftSeconds": 8.219999999999999,
+      "startMs": 48180,
+      "endMs": 48700,
+      "scene": 6
+    },
+    {
+      "word": "pueden",
+      "sourceStart": 40.48,
+      "sourceEnd": 40.84,
+      "shiftSeconds": 8.219999999999999,
+      "startMs": 48700,
+      "endMs": 49060,
+      "scene": 6
+    },
+    {
+      "word": "permanecer",
+      "sourceStart": 40.84,
+      "sourceEnd": 41.46,
+      "shiftSeconds": 8.219999999999999,
+      "startMs": 49060,
+      "endMs": 49680,
+      "scene": 6
+    },
+    {
+      "word": "despiertos",
+      "sourceStart": 41.46,
+      "sourceEnd": 42.26,
+      "shiftSeconds": 8.219999999999999,
+      "startMs": 49680,
+      "endMs": 50480,
+      "scene": 6
+    },
+    {
+      "word": "mientras",
+      "sourceStart": 42.26,
+      "sourceEnd": 42.62,
+      "shiftSeconds": 8.219999999999999,
+      "startMs": 50480,
+      "endMs": 50840,
+      "scene": 6
+    },
+    {
+      "word": "los",
+      "sourceStart": 42.62,
+      "sourceEnd": 42.84,
+      "shiftSeconds": 8.219999999999999,
+      "startMs": 50840,
+      "endMs": 51060,
+      "scene": 6
+    },
+    {
+      "word": "médicos",
+      "sourceStart": 42.84,
+      "sourceEnd": 43.28,
+      "shiftSeconds": 8.219999999999999,
+      "startMs": 51060,
+      "endMs": 51500,
+      "scene": 6
+    },
+    {
+      "word": "trabajan",
+      "sourceStart": 43.28,
+      "sourceEnd": 43.82,
+      "shiftSeconds": 8.219999999999999,
+      "startMs": 51500,
+      "endMs": 52040,
+      "scene": 6
+    },
+    {
+      "word": "sobre",
+      "sourceStart": 43.82,
+      "sourceEnd": 44.06,
+      "shiftSeconds": 8.219999999999999,
+      "startMs": 52040,
+      "endMs": 52280,
+      "scene": 6
+    },
+    {
+      "word": "el",
+      "sourceStart": 44.06,
+      "sourceEnd": 44.18,
+      "shiftSeconds": 8.219999999999999,
+      "startMs": 52280,
+      "endMs": 52400,
+      "scene": 6
+    },
+    {
+      "word": "cerebro.",
+      "sourceStart": 44.18,
+      "sourceEnd": 44.6,
+      "shiftSeconds": 8.219999999999999,
+      "startMs": 52400,
+      "endMs": 52820,
+      "scene": 6
+    },
+    {
+      "word": "Claro,",
+      "sourceStart": 45.18,
+      "sourceEnd": 46.08,
+      "shiftSeconds": 7.969999999999999,
+      "startMs": 53150,
+      "endMs": 54050,
+      "scene": 7
+    },
+    {
+      "word": "se",
+      "sourceStart": 46.54,
+      "sourceEnd": 46.7,
+      "shiftSeconds": 7.969999999999999,
+      "startMs": 54510,
+      "endMs": 54670,
+      "scene": 7
+    },
+    {
+      "word": "utiliza",
+      "sourceStart": 46.7,
+      "sourceEnd": 47.14,
+      "shiftSeconds": 7.969999999999999,
+      "startMs": 54670,
+      "endMs": 55110,
+      "scene": 7
+    },
+    {
+      "word": "anestesia",
+      "sourceStart": 47.14,
+      "sourceEnd": 47.68,
+      "shiftSeconds": 7.969999999999999,
+      "startMs": 55110,
+      "endMs": 55650,
+      "scene": 7
+    },
+    {
+      "word": "para",
+      "sourceStart": 47.68,
+      "sourceEnd": 47.9,
+      "shiftSeconds": 7.969999999999999,
+      "startMs": 55650,
+      "endMs": 55870,
+      "scene": 7
+    },
+    {
+      "word": "las",
+      "sourceStart": 47.9,
+      "sourceEnd": 48.08,
+      "shiftSeconds": 7.969999999999999,
+      "startMs": 55870,
+      "endMs": 56050,
+      "scene": 7
+    },
+    {
+      "word": "partes",
+      "sourceStart": 48.08,
+      "sourceEnd": 48.4,
+      "shiftSeconds": 7.969999999999999,
+      "startMs": 56050,
+      "endMs": 56370,
+      "scene": 7
+    },
+    {
+      "word": "que",
+      "sourceStart": 48.4,
+      "sourceEnd": 48.68,
+      "shiftSeconds": 7.969999999999999,
+      "startMs": 56370,
+      "endMs": 56650,
+      "scene": 7
+    },
+    {
+      "word": "sí",
+      "sourceStart": 48.68,
+      "sourceEnd": 48.92,
+      "shiftSeconds": 7.969999999999999,
+      "startMs": 56650,
+      "endMs": 56890,
+      "scene": 7
+    },
+    {
+      "word": "sienten",
+      "sourceStart": 48.92,
+      "sourceEnd": 49.34,
+      "shiftSeconds": 7.969999999999999,
+      "startMs": 56890,
+      "endMs": 57310,
+      "scene": 7
+    },
+    {
+      "word": "dolor,",
+      "sourceStart": 49.34,
+      "sourceEnd": 49.7,
+      "shiftSeconds": 7.969999999999999,
+      "startMs": 57310,
+      "endMs": 57670,
+      "scene": 7
+    },
+    {
+      "word": "y",
+      "sourceStart": 50.26,
+      "sourceEnd": 50.54,
+      "shiftSeconds": 7.969999999999999,
+      "startMs": 58230,
+      "endMs": 58510,
+      "scene": 7
+    },
+    {
+      "word": "todo",
+      "sourceStart": 50.54,
+      "sourceEnd": 50.78,
+      "shiftSeconds": 7.969999999999999,
+      "startMs": 58510,
+      "endMs": 58750,
+      "scene": 7
+    },
+    {
+      "word": "se",
+      "sourceStart": 50.78,
+      "sourceEnd": 51.02,
+      "shiftSeconds": 7.969999999999999,
+      "startMs": 58750,
+      "endMs": 58990,
+      "scene": 7
+    },
+    {
+      "word": "realiza",
+      "sourceStart": 51.02,
+      "sourceEnd": 51.5,
+      "shiftSeconds": 7.969999999999999,
+      "startMs": 58990,
+      "endMs": 59470,
+      "scene": 7
+    },
+    {
+      "word": "bajo",
+      "sourceStart": 51.5,
+      "sourceEnd": 51.74,
+      "shiftSeconds": 7.969999999999999,
+      "startMs": 59470,
+      "endMs": 59710,
+      "scene": 7
+    },
+    {
+      "word": "estricta",
+      "sourceStart": 51.74,
+      "sourceEnd": 52.3,
+      "shiftSeconds": 7.969999999999999,
+      "startMs": 59710,
+      "endMs": 60270,
+      "scene": 7
+    },
+    {
+      "word": "supervisión",
+      "sourceStart": 52.3,
+      "sourceEnd": 52.94,
+      "shiftSeconds": 7.969999999999999,
+      "startMs": 60270,
+      "endMs": 60910,
+      "scene": 7
+    },
+    {
+      "word": "médica.",
+      "sourceStart": 52.94,
+      "sourceEnd": 53.44,
+      "shiftSeconds": 7.969999999999999,
+      "startMs": 60910,
+      "endMs": 61410,
+      "scene": 7
+    },
+    {
+      "word": "Tu",
+      "sourceStart": 54.54,
+      "sourceEnd": 55.22,
+      "shiftSeconds": 7.199999999999996,
+      "startMs": 61740,
+      "endMs": 62420,
+      "scene": 8
+    },
+    {
+      "word": "cerebro",
+      "sourceStart": 55.22,
+      "sourceEnd": 55.62,
+      "shiftSeconds": 7.199999999999996,
+      "startMs": 62420,
+      "endMs": 62820,
+      "scene": 8
+    },
+    {
+      "word": "interpreta",
+      "sourceStart": 55.62,
+      "sourceEnd": 56.28,
+      "shiftSeconds": 7.199999999999996,
+      "startMs": 62820,
+      "endMs": 63480,
+      "scene": 8
+    },
+    {
+      "word": "el",
+      "sourceStart": 56.28,
+      "sourceEnd": 56.42,
+      "shiftSeconds": 7.199999999999996,
+      "startMs": 63480,
+      "endMs": 63620,
+      "scene": 8
+    },
+    {
+      "word": "dolor…",
+      "sourceStart": 56.42,
+      "sourceEnd": 56.72,
+      "shiftSeconds": 7.199999999999996,
+      "startMs": 63620,
+      "endMs": 63920,
+      "scene": 8
+    },
+    {
+      "word": "¡pero",
+      "sourceStart": 57.4,
+      "sourceEnd": 57.7,
+      "shiftSeconds": 7.199999999999996,
+      "startMs": 64600,
+      "endMs": 64900,
+      "scene": 8
+    },
+    {
+      "word": "su",
+      "sourceStart": 57.7,
+      "sourceEnd": 57.9,
+      "shiftSeconds": 7.199999999999996,
+      "startMs": 64900,
+      "endMs": 65100,
+      "scene": 8
+    },
+    {
+      "word": "propio",
+      "sourceStart": 57.9,
+      "sourceEnd": 58.28,
+      "shiftSeconds": 7.199999999999996,
+      "startMs": 65100,
+      "endMs": 65480,
+      "scene": 8
+    },
+    {
+      "word": "tejido",
+      "sourceStart": 58.28,
+      "sourceEnd": 58.88,
+      "shiftSeconds": 7.199999999999996,
+      "startMs": 65480,
+      "endMs": 66080,
+      "scene": 8
+    },
+    {
+      "word": "no",
+      "sourceStart": 58.88,
+      "sourceEnd": 59.22,
+      "shiftSeconds": 7.199999999999996,
+      "startMs": 66080,
+      "endMs": 66420,
+      "scene": 8
+    },
+    {
+      "word": "lo",
+      "sourceStart": 59.22,
+      "sourceEnd": 59.36,
+      "shiftSeconds": 7.199999999999996,
+      "startMs": 66420,
+      "endMs": 66560,
+      "scene": 8
+    },
+    {
+      "word": "siente!",
+      "sourceStart": 59.36,
+      "sourceEnd": 59.9,
+      "shiftSeconds": 7.199999999999996,
+      "startMs": 66560,
+      "endMs": 67100,
+      "scene": 8
+    },
+    {
+      "word": "Síguenos",
+      "sourceStart": 61.32,
+      "sourceEnd": 61.58,
+      "shiftSeconds": 7.199999999999996,
+      "startMs": 68520,
+      "endMs": 68780,
+      "scene": 8
+    },
+    {
+      "word": "para",
+      "sourceStart": 61.58,
+      "sourceEnd": 61.84,
+      "shiftSeconds": 7.199999999999996,
+      "startMs": 68780,
+      "endMs": 69040,
+      "scene": 8
+    },
+    {
+      "word": "descubrir",
+      "sourceStart": 61.84,
+      "sourceEnd": 62.28,
+      "shiftSeconds": 7.199999999999996,
+      "startMs": 69040,
+      "endMs": 69480,
+      "scene": 8
+    },
+    {
+      "word": "más.",
+      "sourceStart": 62.28,
+      "sourceEnd": 62.5,
+      "shiftSeconds": 7.199999999999996,
+      "startMs": 69480,
+      "endMs": 69700,
+      "scene": 8
+    }
+  ],
+  "sceneAudio": [
+    {
+      "scene": 1,
+      "index": 0,
+      "count": 16,
+      "a": 0,
+      "b": 276480,
+      "duration": 5.76,
+      "target": 0.12,
+      "start": 0.12,
+      "end": 5.88,
+      "sourceStart": 0.0,
+      "sourceEnd": 5.76
+    },
+    {
+      "scene": 2,
+      "index": 16,
+      "count": 18,
+      "a": 305760,
+      "b": 628800,
+      "duration": 6.73,
+      "target": 5.12,
+      "start": 5.96,
+      "end": 12.69,
+      "sourceStart": 6.37,
+      "sourceEnd": 13.1
+    },
+    {
+      "scene": 3,
+      "index": 34,
+      "count": 12,
+      "a": 655200,
+      "b": 920640,
+      "duration": 5.53,
+      "target": 13.12,
+      "start": 13.12,
+      "end": 18.65,
+      "sourceStart": 13.65,
+      "sourceEnd": 19.18
+    },
+    {
+      "scene": 4,
+      "index": 46,
+      "count": 18,
+      "a": 972960,
+      "b": 1334400,
+      "duration": 7.53,
+      "target": 22.12,
+      "start": 22.12,
+      "end": 29.65,
+      "sourceStart": 20.27,
+      "sourceEnd": 27.8
+    },
+    {
+      "scene": 5,
+      "index": 64,
+      "count": 16,
+      "a": 1334400,
+      "b": 1680000,
+      "duration": 7.2,
+      "target": 33.12,
+      "start": 33.12,
+      "end": 40.32,
+      "sourceStart": 27.8,
+      "sourceEnd": 35.0
+    },
+    {
+      "scene": 6,
+      "index": 80,
+      "count": 20,
+      "a": 1704480,
+      "b": 2148480,
+      "duration": 9.25,
+      "target": 44.12,
+      "start": 43.73,
+      "end": 52.98,
+      "sourceStart": 35.51,
+      "sourceEnd": 44.76
+    },
+    {
+      "scene": 7,
+      "index": 100,
+      "count": 19,
+      "a": 2164320,
+      "b": 2572800,
+      "duration": 8.51,
+      "target": 55.12,
+      "start": 53.06,
+      "end": 61.57,
+      "sourceStart": 45.09,
+      "sourceEnd": 53.6
+    },
+    {
+      "scene": 8,
+      "index": 119,
+      "count": 16,
+      "a": 2613600,
+      "b": 3007200,
+      "duration": 8.2,
+      "target": 64.12,
+      "start": 61.65,
+      "end": 69.85,
+      "sourceStart": 54.45,
+      "sourceEnd": 62.65
+    }
+  ]
+}

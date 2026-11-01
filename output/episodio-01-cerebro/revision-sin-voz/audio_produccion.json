@@ -1,0 +1,27 @@
+{
+  "durationSeconds": 70,
+  "sampleRate": 48000,
+  "channels": 2,
+  "voiceStatus": "pending-authorization",
+  "voiceSource": null,
+  "playbackRate": 1,
+  "originalScore": "84 BPM, Dm9/Bbmaj7/Fmaj9/Cadd9, synthesized from oscillators",
+  "samplesUsed": [],
+  "sfx": "original impact, air transitions, neural pulses and discreet monitor tones",
+  "duckMinimum": 0.45,
+  "masterTargetLufs": -24,
+  "masterTargetTruePeakDbtp": -2,
+  "voiceMeasurement": null,
+  "preMasterMeasurement": {
+    "input_i": "-26.94",
+    "input_tp": "-15.33",
+    "input_lra": "1.20",
+    "input_thresh": "-36.95",
+    "output_i": "-24.09",
+    "output_tp": "-12.49",
+    "output_lra": "1.00",
+    "output_thresh": "-34.10",
+    "normalization_type": "dynamic",
+    "target_offset": "0.09"
+  }
+}

@@ -89,6 +89,7 @@ def main():
         decoded=np.frombuffer(pcm,dtype=np.float32).reshape(-1,2)
         assert len(decoded)<=n,"Narration exceeds 70s; never cut words"
         voice[:len(decoded)]=decoded
+        subprocess.run(["ffmpeg","-v","error","-y","-i",str(DIRECTORY/"narracion_normalizada.wav"),"-c:a","flac",str(DIRECTORY/"narracion.flac")],check=True)
     energy=np.sqrt(np.maximum(0,smooth(np.mean(voice**2,axis=1),round(.08*SR))))
     duck=.45+.55*(1-np.clip(smooth(energy/.018,round(.12*SR)),0,1))
     wav(DIRECTORY/"musica_original.wav",music);wav(DIRECTORY/"efectos_originales.wav",effects)

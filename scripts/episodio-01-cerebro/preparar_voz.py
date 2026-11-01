@@ -39,6 +39,23 @@ def main():
     words=[{"word":w.word,"start":w.start,"end":w.end,"probability":w.probability}for s in segments for w in s.words]
     raw={"engine":"faster-whisper","version":"1.2.1","model":args.model,"language":"es","computeType":"int8","source":str(args.source),"sha256":hashlib.sha256(args.source.read_bytes()).hexdigest(),"words":words}
     (OUT/"transcripcion_original.json").write_text(json.dumps(raw,ensure_ascii=False,indent=2)+"\n")
+    # Connected speech can cross an ASR token boundary (e.g. utiliza/anestesia).
+    # Re-recognize only discrepant sentences from their actual audio window.
+    # Never substitute script words onto unverified acoustic timestamps.
+    recovery=[]
+    if len(words)==len(expected):
+        index=0
+        for scene in config["scenes"]:
+            count=len(scene["text"].split());part=words[index:index+count]
+            if [norm(w["word"])for w in part]!=[norm(w)for w in expected[index:index+count]]:
+                left=max(0,part[0]["start"]-.12);right=min(len(source16)/16000,part[-1]["end"]+.12)
+                focused,_=model.transcribe(source16[round(left*16000):round(right*16000)],language="es",beam_size=10,word_timestamps=True,condition_on_previous_text=False,initial_prompt=scene["text"],vad_filter=False)
+                checked=[{"word":w.word,"start":round(w.start+left,3),"end":round(w.end+left,3),"probability":w.probability}for segment in focused for w in segment.words]
+                recovery.append({"scene":scene["id"],"audioStart":left,"audioEnd":right,"initialWords":part,"focusedWords":checked})
+                if [norm(w["word"])for w in checked]==[norm(w)for w in expected[index:index+count]]:
+                    words[index:index+count]=checked
+            index+=count
+    (OUT/"transcripcion_verificada.json").write_text(json.dumps({**raw,"words":words,"focusedAcousticChecks":recovery},ensure_ascii=False,indent=2)+"\n")
     assert [norm(w["word"])for w in words]==[norm(w)for w in expected],"Transcription differs from definitive script: review real audio before exporting."
     assert all(w["end"]>w["start"] for w in words),"Zero-length acoustic timestamp; review alignment"
     source48=decode(SR,2).reshape(-1,2);slices=[];index=0

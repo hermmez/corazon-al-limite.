@@ -1,0 +1,81 @@
+{
+  "technicalStatus": "passed",
+  "publicationStatus": "voice-pending",
+  "file": "output/episodio-01-cerebro/episodio_01_cerebro_70s.mp4",
+  "bytes": 34772036,
+  "sha256": "94823947e3ec9127d7736646607badb26cd2f44e2b697ed15013fc8dfdce1f0d",
+  "durationSeconds": 70,
+  "video": {
+    "codec": "h264",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 2100,
+    "pixelFormat": "yuv420p",
+    "colorRange": "tv"
+  },
+  "audio": {
+    "codec": "aac",
+    "channels": 2,
+    "sampleRate": 48000,
+    "lufs": -24.02,
+    "truePeakDbtp": -12.49
+  },
+  "narration": {
+    "status": "awaiting-authorization",
+    "provider": "ElevenLabs via Higgsfield",
+    "preset": "Juan",
+    "voiceId": "6b528d43-c056-4a2f-9d82-1591a7ba13b0",
+    "voiceType": "preset",
+    "quoteCredits": 2.55,
+    "playbackRate": 1
+  },
+  "captions": {
+    "alignment": "pending-real-audio",
+    "words": 0,
+    "wordsPerGroup": []
+  },
+  "intro3d": {
+    "status": "pending-approved-clip",
+    "source": null,
+    "fallback": "Approved illustrated brain with layered camera movement; no paid generation submitted",
+    "placeholderSeconds": 3
+  },
+  "preservation": {
+    "unchangedApprovedPng": 68,
+    "retainedCompositions": [
+      "CorazonPiloto10s",
+      "CorazonAlLimite",
+      "Prueba2D",
+      "Prueba2D-Introduccion",
+      "Prueba2D-Cansancio",
+      "Prueba2D-Cerebro",
+      "Prueba2D-Descanso",
+      "DemoProfesional2D",
+      "DemoProfesional2D-Miedo",
+      "DemoProfesional2D-Cerebro",
+      "DemoProfesional2D-Corazon",
+      "DemoProfesional2D-Respuesta",
+      "DemoProfesional2DFluida",
+      "DemoProfesional2DFluida-Miedo",
+      "DemoProfesional2DFluida-Cerebro",
+      "DemoProfesional2DFluida-Corazon",
+      "DemoProfesional2DFluida-Respuesta",
+      "PrimerVideoSueno",
+      "PruebaVozElevenLabs",
+      "Sueno-01-Gancho",
+      "Sueno-02-Cerebro",
+      "Sueno-03-Atencion",
+      "Sueno-04-Animo",
+      "Sueno-05-Apetito",
+      "Sueno-06-Salud",
+      "Sueno-07-Descanso",
+      "Sueno-08-Cierre"
+    ]
+  },
+  "fullDecode": true,
+  "blackRanges": 0,
+  "distinctFrames": 2100,
+  "fastStart": true,
+  "validatedAt": "2026-11-01T21:48:38.208Z"
+}

@@ -10,6 +10,11 @@ const encoding = `${directory}/episodio_01_cerebro_70s_encoding.mp4`;
 const master = "public/episodios/episodio-01-cerebro/audio/mezcla_master.flac";
 if (!fs.existsSync(master))
   throw new Error("Primero genera el bus maestro con crear_audio.py");
+const audioProduction = JSON.parse(
+  fs.readFileSync(`${directory}/audio_produccion.json`, "utf8"),
+);
+if (config.voice.status === "real-integrated" && audioProduction.voiceStatus !== "real-integrated")
+  throw new Error("La composición requiere voz, pero el bus maestro contiene solo música. Regenera la mezcla con --voice.");
 fs.mkdirSync(directory, { recursive: true });
 const browser = fs.existsSync("/usr/bin/chromium")
   ? ["--browser-executable=/usr/bin/chromium"]
