@@ -5,13 +5,17 @@
   "scripts": {
     "dev": "remotion studio src/index.ts",
     "build": "remotion compositions src/index.ts",
-    "render": "remotion render src/index.ts CorazonAlLimite out/corazon-al-limite.mp4"
+    "render": "remotion render src/index.ts CorazonAlLimite out/corazon-al-limite.mp4",
+    "typecheck": "tsc --noEmit",
+    "validate:prueba2d": "node scripts/validar-prueba2d.mjs",
+    "render:prueba2d": "remotion render src/index.ts Prueba2D out/prueba2d.mp4 --codec=h264 --pixel-format=yuv420p --crf=20"
   },
   "dependencies": {
     "@remotion/cli": "^4.0.0",
-    "remotion": "^4.0.0",
+    "@remotion/transitions": "4.0.539",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "remotion": "^4.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.0",
