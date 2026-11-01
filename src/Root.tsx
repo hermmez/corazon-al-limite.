@@ -1,5 +1,13 @@
 import React from "react";
-import { Composition } from "remotion";
+import { Composition, Folder } from "remotion";
+import { PrimerVideoSueno } from "./PrimerVideoSueno";
+import { DemoProfesional2DFluida } from "./DemoProfesional2DFluida";
+import { DemoProfesional2D } from "./DemoProfesional2D";
+import { Prueba2D } from "./Prueba2D";
+import { Presentacion } from "./Prueba2D/Presentacion";
+import { Cansancio } from "./Prueba2D/Cansancio";
+import { Cerebro } from "./Prueba2D/Cerebro";
+import { Recuperacion } from "./Prueba2D/Recuperacion";
 import { CorazonAlLimite } from "./CorazonAlLimite";
 
 export const RemotionRoot: React.FC = () => {
@@ -13,6 +21,61 @@ export const RemotionRoot: React.FC = () => {
         width={1080}
         height={1920}
       />
+      <Composition
+        id="Prueba2D"
+        component={Prueba2D}
+        durationInFrames={900}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Folder name="Prueba2D-Escenas">
+        <Composition id="Prueba2D-Introduccion" component={Presentacion} durationInFrames={222} fps={30} width={1080} height={1920} />
+        <Composition id="Prueba2D-Cansancio" component={Cansancio} durationInFrames={252} fps={30} width={1080} height={1920} />
+        <Composition id="Prueba2D-Cerebro" component={Cerebro} durationInFrames={252} fps={30} width={1080} height={1920} />
+        <Composition id="Prueba2D-Descanso" component={Recuperacion} durationInFrames={210} fps={30} width={1080} height={1920} />
+      </Folder>
+      <Composition
+        id="DemoProfesional2D"
+        component={DemoProfesional2D}
+        durationInFrames={900}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{startAtSeconds: 0}}
+      />
+      <Folder name="DemoProfesional2D-Escenas">
+        <Composition id="DemoProfesional2D-Miedo" component={DemoProfesional2D} durationInFrames={210} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 0}} />
+        <Composition id="DemoProfesional2D-Cerebro" component={DemoProfesional2D} durationInFrames={240} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 7}} />
+        <Composition id="DemoProfesional2D-Corazon" component={DemoProfesional2D} durationInFrames={240} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 15}} />
+        <Composition id="DemoProfesional2D-Respuesta" component={DemoProfesional2D} durationInFrames={210} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 23}} />
+      </Folder>
+      <Composition
+        id="DemoProfesional2DFluida"
+        component={DemoProfesional2DFluida}
+        durationInFrames={900}
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{startAtSeconds: 0}}
+      />
+      <Folder name="DemoProfesional2DFluida-Escenas">
+        <Composition id="DemoProfesional2DFluida-Miedo" component={DemoProfesional2DFluida} durationInFrames={210} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 0}} />
+        <Composition id="DemoProfesional2DFluida-Cerebro" component={DemoProfesional2DFluida} durationInFrames={240} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 7}} />
+        <Composition id="DemoProfesional2DFluida-Corazon" component={DemoProfesional2DFluida} durationInFrames={240} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 15}} />
+        <Composition id="DemoProfesional2DFluida-Respuesta" component={DemoProfesional2DFluida} durationInFrames={210} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 23}} />
+      </Folder>
+      <Composition id="PrimerVideoSueno" component={PrimerVideoSueno} durationInFrames={2700} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 0}} />
+      <Folder name="PrimerVideoSueno-Escenas">
+        <Composition id="Sueno-01-Gancho" component={PrimerVideoSueno} durationInFrames={300} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 0}} />
+        <Composition id="Sueno-02-Cerebro" component={PrimerVideoSueno} durationInFrames={360} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 10}} />
+        <Composition id="Sueno-03-Atencion" component={PrimerVideoSueno} durationInFrames={360} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 22}} />
+        <Composition id="Sueno-04-Animo" component={PrimerVideoSueno} durationInFrames={360} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 34}} />
+        <Composition id="Sueno-05-Apetito" component={PrimerVideoSueno} durationInFrames={360} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 46}} />
+        <Composition id="Sueno-06-Salud" component={PrimerVideoSueno} durationInFrames={360} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 58}} />
+        <Composition id="Sueno-07-Descanso" component={PrimerVideoSueno} durationInFrames={360} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 70}} />
+        <Composition id="Sueno-08-Cierre" component={PrimerVideoSueno} durationInFrames={240} fps={30} width={1080} height={1920} defaultProps={{startAtSeconds: 82}} />
+      </Folder>
     </>
   );
 };

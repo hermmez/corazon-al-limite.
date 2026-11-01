@@ -1,0 +1,195 @@
+{
+  "composition": "DemoProfesional2DFluida",
+  "approved_composition": "DemoProfesional2D",
+  "approved_baseline_commit": "2e67d4ee2a93200792e87db79dfd3d270d875e64",
+  "validated_at_utc": "2026-10-31T17:08:07.585437+00:00",
+  "scope": "Solo animación, cámaras, revelados y transiciones en copia independiente; mismos textos, recursos, paleta, tipografía, composición estática y duración.",
+  "checks": {
+    "typescript": "passed",
+    "palette_media_and_text_parity": "passed",
+    "900_frame_camera_and_masks": "passed",
+    "signal_tracking": "passed",
+    "uniform_curve_spacing": "passed",
+    "principal_text_contrast": "passed",
+    "remotion_composition_registration": "passed",
+    "full_render_900_frames": "passed",
+    "decode_both_mp4": "passed",
+    "visual_review_of_final_mp4": "passed",
+    "approved_source_png_and_video_preservation": "passed"
+  },
+  "motion_metrics": {
+    "approved": {
+      "maxTranslationPerFrame": 20.824412956028986,
+      "maxAcceleration": 1.9830563991986538,
+      "maxZoomPerFrame": 0.034347572982686536
+    },
+    "fluid": {
+      "maxTranslationPerFrame": 9.278111897496524,
+      "maxAcceleration": 0.8469348623111101,
+      "maxZoomPerFrame": 0.016127789072123422
+    }
+  },
+  "minimum_principal_text_contrast": 3.62,
+  "final_mp4_review_frames": [
+    40,
+    205,
+    218,
+    300,
+    465,
+    490,
+    535,
+    695,
+    710,
+    725,
+    790,
+    870
+  ],
+  "outputs": {
+    "out/demo-profesional-2d-fluida.mp4": {
+      "sha256": "8138d02661405959086bf09a1cf075c585994aaf8c6ad04e4443fcb610ebb36d",
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "profile": "High",
+            "codec_type": "video",
+            "width": 1080,
+            "height": 1920,
+            "pix_fmt": "yuvj420p",
+            "r_frame_rate": "30/1",
+            "duration": "30.000000",
+            "nb_frames": "900",
+            "side_data_list": [
+              {}
+            ]
+          }
+        ],
+        "format": {
+          "duration": "30.000000",
+          "size": "16326777"
+        }
+      },
+      "full_decode": "passed"
+    },
+    "out/demo-profesional-2d-fluida-vista-previa.mp4": {
+      "sha256": "63b3a94fdfe25dde3ddb4a72e8f8f5c8f0ed49183c0647833c7fdf0cba389325",
+      "metadata": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "profile": "Main",
+            "codec_type": "video",
+            "width": 720,
+            "height": 1280,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "30/1",
+            "duration": "30.000000",
+            "nb_frames": "900",
+            "side_data_list": [
+              {}
+            ]
+          }
+        ],
+        "format": {
+          "duration": "30.000000",
+          "size": "2487190"
+        }
+      },
+      "full_decode": "passed"
+    }
+  },
+  "mobile_preview_faststart": true,
+  "previous_composition_registrations_preserved": 11,
+  "protected_file_sha256": {
+    "out/demo-profesional-2d-verificacion.json": "4e152a8c823750fcbe517d0e0da03059eff6fc024c9910af9f8b994c462ee267",
+    "out/demo-profesional-2d-vista-previa.mp4": "1eac3225822192477e48d175b0555c4917adc686338b06108b9f548a5a843491",
+    "out/demo-profesional-2d.mp4": "d8e44bc657bc99ac9fa95e23ba4b6ed39fdccfd30bf42eb90317a3a09e71f442",
+    "out/prueba2d-storyboard.jpg": "69754e6fc6a31ba30f94e52ac20d2baaabfc14bfdf89aefc81994b814a1cac34",
+    "out/prueba2d-verificacion.json": "8f3f92c587297a5f953cabda68f1b0543f9057ca0b18be5be02d0684aedbda9d",
+    "out/prueba2d.mp4": "8eb306e280c19e1dcc8d996b32ac5eef16fa6010edc6b395980e363e021ecc3d",
+    "public/imagenes/GUIA_RECURSOS_CHATGPT.md": "c38b5b9b5f51538e71e8ca36240e583ea14c4cf3d360bad9d8782c9b8bffd450",
+    "public/imagenes/anatomia/01_cerebro_completo.png": "4ce809052544d5f2927fc577a7e20810e079656106ef62205012f7acb23029e2",
+    "public/imagenes/anatomia/02_cerebro_corte_transversal.png": "469bb013c6e80b47f52e0d2b60ac99e683987c3ff1327318833e94bff024a8ee",
+    "public/imagenes/anatomia/03_corazon_humano.png": "3e151cdc33d6a45ec3d95259d40702a7fbc2ad1916c1c0f7b7179598a4ad5f7e",
+    "public/imagenes/anatomia/04_pulmones.png": "a913f068d0f23b19dc8560fc66deacb48c322773b2d60c29d85350436d772b34",
+    "public/imagenes/anatomia/05_estomago.png": "70ebcf9ab987d0290e71942d59132174b07babcbc8c746cb9718b845a8499b01",
+    "public/imagenes/anatomia/06_intestino_delgado.png": "ce185fb8221ceb98efd22caedbeb94132606c63be886f1dfe5ab68fd459a06df",
+    "public/imagenes/anatomia/07_intestino_grueso.png": "ca91d213761d1bb116e20be0cb6486596e26fb9b62c01117736b4167c3e747ff",
+    "public/imagenes/anatomia/08_higado.png": "7984be6f9713ab54ee6f043f0fa2a8a0a56165025f363dd90dc57a040ca1a23e",
+    "public/imagenes/anatomia/09_rinones.png": "19058898bb56dc19408d1afbf6620a66c19600b99842059e4f02fdabbc305b84",
+    "public/imagenes/anatomia/10_pancreas.png": "dc0bd09f35670e4667e49f32c79d71971930b054a9ba10c99f7a37f3f0b1a693",
+    "public/imagenes/anatomia/11_sistema_nervioso.png": "d50accde99b7f2744b4e807d276a47446f19dfe1769be20e797c31d61e5e840f",
+    "public/imagenes/anatomia/12_sistema_circulatorio.png": "c23d59e3c933ae533c848343cf764628f85435f488bcc2196ad5a1caeceb6fee",
+    "public/imagenes/anatomia/13_sistema_digestivo.png": "2f44c482cb6931a2073cec6eb688a016b79634976b1199245e5c865236dd73f8",
+    "public/imagenes/anatomia/14_sistema_respiratorio.png": "08568ec5471941f07f0b5fa1252de92213f74bc63a8969a50bcc3c33d180cbe2",
+    "public/imagenes/anatomia/15_esqueleto_humano.png": "7040c4fd0d548c7da0882dbb887aa7ac78b0770d526d79969aef527068020651",
+    "public/imagenes/escena_01": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "public/imagenes/pack_7_recursos_codex_prueba/LEEME_IMPORTANTE.txt": "150df5ba64909cd40f119963d2dfa27a8c45fb7af989b67d26b2d82a91c788af",
+    "public/imagenes/pack_7_recursos_codex_prueba/cerebro_corte_interior.png": "a87a4dda138f61ab14448b1d15e8396db331d99f63d6454807da9b0318a3b6ab",
+    "public/imagenes/pack_7_recursos_codex_prueba/cerebro_corteza_exterior.png": "1c277327105ba8401ebc6de02d1cefef52aca36f700c0a65b71a0162064655be",
+    "public/imagenes/pack_7_recursos_codex_prueba/cerebro_tronco_cerebelo.png": "dfe0b46f935580c4d5c676c83620b4cd27c0156c6d25e1e356a1d1675108c403",
+    "public/imagenes/pack_7_recursos_codex_prueba/neurona_principal.png": "307d3d8a7a29df2f47b0706c4c5dadd53db3a5f7bf26b52d927aed14f709c877",
+    "public/imagenes/pack_7_recursos_codex_prueba/neurona_secundaria.png": "e95f780474f3c33fc47e0980ca1e6d5c30d0580702537607f9ad0b14fa0517e5",
+    "public/imagenes/pack_7_recursos_codex_prueba/sinapsis_terminal_postsinaptica.png": "8b4d048b0cc3383fa567fcc68318842b35fac817eef19ac260efac743e62944b",
+    "public/imagenes/pack_7_recursos_codex_prueba/sinapsis_terminal_presinaptica.png": "6e267110f769eadc9f0f751a32028afe561c31632449c523b2e24afcc1f2c0c1",
+    "public/imagenes/personajes/01_neutral.png": "e9d71d28f4e6dd744f9e5985c1e9632052c0cf5d842c6230bd23fb22dc7a8410",
+    "public/imagenes/personajes/02_explicando.png": "54b2f8cff8b415464079e68ec83d01c3b21a5c466d74f014f3db8b99b79bd252",
+    "public/imagenes/personajes/03_senalando_derecha.png": "5a707dab13ec575a6b2b9ad3bad8dcd7959e6c4546449140b5078f0e579975a4",
+    "public/imagenes/personajes/04_pensando.png": "172b824532fe4e5987761226055a6ed893e66726d48b9133948b7b57b4d3b72d",
+    "public/imagenes/personajes/05_cansado.png": "41a64f6fcfdacaded0f26293dfae2a432016b9cd6685ee8e93531b432d52aa0a",
+    "public/imagenes/personajes/06_saludando.png": "4c0f7dc9d343a4d160d5883d80a7c157f1f823a4fe3f2ccb5be2cc9cf72fa8a9",
+    "public/imagenes/personajes/07_senalando_izquierda.png": "d60f3ec6ffabd4db2fc476f89482d60e838a3959cc3e1133091bd5d24f7ee9ad",
+    "public/imagenes/personajes/08_senalando_arriba.png": "41207579280c87cab065a7a7054cce167ddb7e1249525caf0f76957a1bc4c097",
+    "public/imagenes/personajes/09_senalando_abajo.png": "39298911255fa3a200fe6d4f006157705230d4c002c03857aeb8c4a453545456",
+    "public/imagenes/personajes/10_idea.png": "543bb8d0d52849ca8644a4a893c51a5844483d2286665440ff1532f9192009dc",
+    "public/imagenes/personajes/11_sorprendido.png": "ec4b86a029086ad45a10a67ba57076fef0ac992999913721ed4ba798602fb3d3",
+    "public/imagenes/personajes/12_preocupado.png": "9d28eb2c6528975737065b937f9148995837823bea26a23f0a2afb179c182377",
+    "public/imagenes/personajes/13_feliz.png": "626492d5dee9d3e360002f81c3f0027a791123913cf5581d95fea79c1fd777e9",
+    "public/imagenes/personajes/14_triste.png": "824976fd5ba79449a5c2d1dd8d09f67187c5cfdeafd1a501d2333818e4a05bf2",
+    "public/imagenes/personajes/15_confundido.png": "d70ea15fc0d47db1137b590d34e1e814001936e2a86f8e8b5c8abdada5686f63",
+    "public/imagenes/personajes/16_aprobando.png": "e2f9ee4457e40be7a607fda98b0c70056c9bd37c5c8b9847b58266251cfa7682",
+    "public/imagenes/personajes/17_negando.png": "7d53a83d7a2adc9810e22689eddf675897c1e998253220c99fc15cf5a3e9b552",
+    "public/imagenes/personajes/18_bostezando.png": "0eb21731eaeeef7a95aa8d4693ce40922f0c3557ae7554e97437faba602ee9cf",
+    "public/imagenes/personajes/19_estirandose.png": "19a4939044b29e33cb59a58b7ab3292b4aae16bf0718af8b972fc78dc0e536be",
+    "public/imagenes/personajes/20_respirando.png": "72546d94edcad45388c5c4a8dae7b4c59fff551cbe34069963f196c21f72f048",
+    "public/imagenes/personajes/21_caminando.png": "4c4b9b6a9b0b15b92a5ac204d1a9a90ecbf3b88c9052a8da78c9cd0aba2d700b",
+    "public/imagenes/personajes/22_corriendo.png": "8afd899db441b5a673f3bd00916549cb1c6fdea83850eacab9273da35402709d",
+    "public/imagenes/personajes/23_durmiendo.png": "da936acb7e06363a4ff2b1d1e7d7772c9683394c65d31181c0f356a4d18b50c5",
+    "public/imagenes/personajes/24_anatomia_cerebro.png": "32cfb294cf5344b5a874e6166b15b20039649eadb965f8d455d07905ecac813d",
+    "public/imagenes/personajes/25_anatomia_corazon.png": "68a9a6de4cf6df4d175b7002a219c6f0cea328538276a30462a1db2d51d2ead3",
+    "public/imagenes/personajes/26_levantando_brazos.png": "29407e42da275a63c7f13516e5b6fa344a4bd52938d08793b1f3abb2f16f88a1",
+    "public/imagenes/personajes/27_sentado.png": "48d2cd0950ffc8beadef319db7816d0d129ffdf39953ca92cf1edd31f3e31a3e",
+    "public/imagenes/personajes/28_comiendo.png": "c91b18b162f71ae4eb9496468aa5998dca435aee27360455233c85eec51152dd",
+    "public/imagenes/personajes/29_dolor_cabeza.png": "e976cb70771566a44adb10c1495f8127ec82978a18096493bd271d64fb0856dd",
+    "public/imagenes/personajes/30_sistema_digestivo.png": "2ee078806d6297a818efa768add0b876ad87ef2601aa7ccabd2092b57c1ebc05",
+    "public/imagenes/personajes/manifest.json": "4580722043e21538bfec1c9c65486d03664c8a73c5aa9e95a40c5e0a1cb32db0",
+    "public/imagenes/referencias/LEEME.txt": "bf3454cafc537a91bc58302e740e14bb5047e58341f93b0a9dbdfce3d552e3fb",
+    "public/imagenes/referencias/personaje-maestro.png": "ca6a8434707cc0eb6691715a7f05d8e4ed9f0be20a44bd423b410165261f39d9",
+    "public/imagenes/referencias/recursos_referencia_remotion_no_dormir (4)/LEEME.txt": "5154f8a10caa9ef76a05e3b444784d5f57fe9d5c6f38086f59c44d600699d31c",
+    "public/imagenes/referencias/recursos_referencia_remotion_no_dormir (4)/PROMPT_PARA_CODEX.txt": "6a190a506f31aa3d3ef6c5f024f38cc73f80babdb9c74ae863b9cfdf217ef7d0",
+    "public/imagenes/referencias/recursos_referencia_remotion_no_dormir (4)/referencias/01_referencia_cerebro_y_neuronas.png": "456fa65c87a6b19f388e9eba0d17ee222f16621f3f94999f459012765b98232f",
+    "public/imagenes/referencias/recursos_referencia_remotion_no_dormir (4)/referencias/02_catalogo_general_recursos.png": "8644d73f8f7453df3704435e262e844753aa7d5b01cc8f3b892b4171526863bd",
+    "public/imagenes/referencias/recursos_referencia_remotion_no_dormir (4)/referencias/03_storyboard_recursos.png": "30c8f0f39be4b6894b3bacb29aaa2596d2b5fe687863a8a9a0708dc238f2799b",
+    "public/imagenes/referencias/recursos_referencia_remotion_no_dormir (4)/referencias/04_vista_pack_visual.png": "8644d73f8f7453df3704435e262e844753aa7d5b01cc8f3b892b4171526863bd",
+    "src/CorazonAlLimite.tsx": "a6fd23833ed3b6121b40d30e8af00ceecfe9545e5b12644f520dc74c97ee4c66",
+    "src/DemoProfesional2D.tsx": "c517974cd700cae70dbcd38a389049285caef8e782e2bb7f7cf2d85fc8631738",
+    "src/DemoProfesional2D/ElCerebro.tsx": "f1acb59952371d4a0e164af5728e6db6101b7b807d266d001599d84cd055386b",
+    "src/DemoProfesional2D/ElCorazon.tsx": "b8c624ede1a7bdc2bb6c163d820b94edb1f7f24548a2889b3afff85c147bd010",
+    "src/DemoProfesional2D/ElMiedo.tsx": "7767ca50aa93e72274abe9ea12a6c31c44b8b84f7da598e71765c77f2784f59b",
+    "src/DemoProfesional2D/LaRespuesta.tsx": "a06acf668cce3453ae64f988cfcd7b28d9004dcb019b199f94038c6248935cd8",
+    "src/DemoProfesional2D/Shared.tsx": "3a3cfa5cc2b8f09f991f053ee04e08cbe58018133e0ff61ff7c8753571f6eaee",
+    "src/DemoProfesional2D/motion.ts": "94f5d43e101fabda14416787c02765b18db8bbb87220ef6521d1782fcae5b053",
+    "src/Prueba2D.tsx": "ba8903a9e2313c529dd67aee28bde09358d83e4a1ba7a3d8cf5a15c77da16666",
+    "src/Prueba2D/Cansancio.tsx": "99203cc6e8c82b4ae98ca759709d71990e44b8ab981472a38b32da6d170449d2",
+    "src/Prueba2D/Cerebro.tsx": "8cf14ffa41fc2a9b703233cb62b257ca39f92574e2a55e430deaa79fdc3ae013",
+    "src/Prueba2D/Presentacion.tsx": "26ec17818e0af807a44dc6dcd5612c9512cf5d1a1ee6557876863d4fd453dadc",
+    "src/Prueba2D/Recuperacion.tsx": "f6b5428155537bf1130346114288a151aae1fca7fdd59b237c75044deed1841d",
+    "src/Prueba2D/Visuals.tsx": "e7eb5591f9be9ff31e3b6153c54ea63e9e452a7336315362b3a6cde5ad880c4c",
+    "src/index.ts": "c57241f29fa7453ca8da123815176cd88ce6e634d6bd403a1972c5e78e6992dc"
+  },
+  "audio": "Sin cambios: no hay pista de sonido ni narración."
+}
