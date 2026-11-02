@@ -1,5 +1,15 @@
 # Episodio 01 · edición con ritmo de referencia 1.25×
 
+## Descarga directa verificada
+
+- [Descargar el MP4 final de 70 segundos](https://raw.githubusercontent.com/hermmez/corazon-al-limite./d193f7c2ceace90ac2517cc1e44625794ab73d89/output/episodio-01-cerebro-125/episodio_01_cerebro_70s_FINAL.mp4).
+- [Descargar la comparación A/B](https://raw.githubusercontent.com/hermmez/corazon-al-limite./d193f7c2ceace90ac2517cc1e44625794ab73d89/output/episodio-01-cerebro-125/comparacion_AB.mp4).
+- [Pull Request #8, abierto y sin fusionar](https://github.com/hermmez/corazon-al-limite./pull/8).
+
+La descarga del MP4 desde GitHub se comprobó completa y con el mismo SHA-256 del archivo validado. GitHub Raw puede descargarlo en vez de mostrarlo dentro del navegador: abrir el archivo descargado con el reproductor del teléfono o computadora.
+
+La revisión automática de aprobación bloqueó la subida opcional a Higgsfield porque no existe autorización explícita para compartir estos archivos con ese servicio. No se usó ese destino; la entrega permanece en el repositorio autorizado.
+
 - [Video MP4 final](episodio_01_cerebro_70s_FINAL.mp4): **70.000 s, 2100 fotogramas, 30 FPS, 1080 × 1920, H.264/AAC, BT.709, inicio rápido**.
 - [Miniatura vertical](miniatura_FINAL.jpg).
 - [Comparación A/B](comparacion_AB.mp4): cuatro conceptos emparejados; original a 1.25× y nueva edición a 1.0×.

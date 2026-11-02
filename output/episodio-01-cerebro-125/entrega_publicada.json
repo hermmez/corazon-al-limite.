@@ -1,0 +1,26 @@
+{
+  "repository": "hermmez/corazon-al-limite.",
+  "branch": "episodio-01-ritmo-125",
+  "assetCommit": "d193f7c2ceace90ac2517cc1e44625794ab73d89",
+  "pullRequest": "https://github.com/hermmez/corazon-al-limite./pull/8",
+  "pullRequestMerged": false,
+  "mp4": {
+    "url": "https://raw.githubusercontent.com/hermmez/corazon-al-limite./d193f7c2ceace90ac2517cc1e44625794ab73d89/output/episodio-01-cerebro-125/episodio_01_cerebro_70s_FINAL.mp4",
+    "bytes": 22412632,
+    "sha256": "878dfa169b11cce9a8f18698a78a5580c1603fafd958a47cab0780630a68688b",
+    "downloadVerifiedAgainstLocal": true,
+    "localPlaybackVerified": true
+  },
+  "ab": {
+    "url": "https://raw.githubusercontent.com/hermmez/corazon-al-limite./d193f7c2ceace90ac2517cc1e44625794ab73d89/output/episodio-01-cerebro-125/comparacion_AB.mp4",
+    "sha256": "e6e61c3984d0c2ac64e4f01416be36575305a8485ddff576524eafd4def8ca12"
+  },
+  "optionalExternalPlayer": {
+    "service": "Higgsfield",
+    "status": "upload-blocked-by-automatic-approval-review",
+    "reason": "No explicit authorization to share these artifacts with that external service.",
+    "used": false
+  },
+  "paidGenerations": 0,
+  "creditsSpent": 0
+}
