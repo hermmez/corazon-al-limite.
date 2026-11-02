@@ -1,0 +1,62 @@
+{
+  "engine": "faster-whisper base int8, independent transcription without supplied text",
+  "captionTimingSource": "Piper intrinsic durations, not this ASR",
+  "scenes": [
+    {
+      "scene": 0,
+      "start": 0,
+      "end": 7.583,
+      "expected": "¡Tu cerebro no puede sentir dolor! Pero si no lo siente, ¿por qué puede dolerte tanto la cabeza? La clave está alrededor.",
+      "independentASR": "Tu cerebro no puede sentir dolor, pero si no lo siente porque puede dolerte tanto la cabeza, la clave está al del otro."
+    },
+    {
+      "scene": 1,
+      "start": 7.583,
+      "end": 17.776,
+      "expected": "El tejido cerebral no tiene receptores del dolor: sensores que detectan estímulos potencialmente dañinos. Es como una central que recibe alarmas, sin esos sensores propios.",
+      "independentASR": "El tejido cerebral no tiene receptores del dolor, sensores que detectan estímulos potencialmente daninos es como una central que recibe alarmas sin esos sensores propios."
+    },
+    {
+      "scene": 2,
+      "start": 17.776,
+      "end": 25.051,
+      "expected": "En cambio, las meninges que lo recubren, ciertos vasos y otras estructuras de la cabeza sí pueden enviar señales de dolor.",
+      "independentASR": "En cambio, las meninges que lo recubren, ciertos vasos y otras estructuras de la cabeza si pueden enviar señales de dolor."
+    },
+    {
+      "scene": 3,
+      "start": 25.051,
+      "end": 33.47,
+      "expected": "También pueden doler el cuero cabelludo y los músculos. Pero una migraña no es simplemente un vaso que late: involucra mecanismos neurológicos complejos.",
+      "independentASR": "también pueden doler el cuero cabelludo y los músculos, pero una migraña no es simplemente un vaso que late, involucra a mecanismos neurológicos complejos."
+    },
+    {
+      "scene": 4,
+      "start": 33.47,
+      "end": 44.524,
+      "expected": "El nervio trigémino transmite señales desde la cara y las meninges. Esas señales viajan hacia redes del sistema nervioso, donde el cerebro las integra como parte de la experiencia del dolor.",
+      "independentASR": "El nervio, tijemino, transmite señales desde la cara y las meninques, esas señales viajan hacia redes del sistema nervioso, donde el cerebro las integra como parte de la experiencia del dolor."
+    },
+    {
+      "scene": 5,
+      "start": 44.524,
+      "end": 53.227,
+      "expected": "¿Y cómo operan a alguien despierto? En algunas cirugías, hablar o mover una mano ayuda al equipo a vigilar el lenguaje y el movimiento.",
+      "independentASR": "y cómo operan alguien despierto, en algunas cirucidas hablar o mover una mano ayuda al equipo a vigilar el lenguaje y del movimiento."
+    },
+    {
+      "scene": 6,
+      "start": 53.227,
+      "end": 62.388,
+      "expected": "No significa que operen sin anestesia: se protegen las estructuras sensibles y se mantiene vigilancia médica continua. Es una técnica para casos seleccionados.",
+      "independentASR": "no significa que operan sin anestesia, se protejen las estructuras sensibles y se mantiene vigilancia médica continua, es una técnica para casos seleccionados."
+    },
+    {
+      "scene": 7,
+      "start": 62.388,
+      "end": 70,
+      "expected": "Tu cerebro interpreta el dolor; su tejido no lo siente. Esa diferencia explica por qué sí puede dolerte la cabeza.",
+      "independentASR": "su cerebro interpreta el dolor, su tejido no lo siente, esa diferencia explica porque si y puede dolerte la cabeza."
+    }
+  ]
+}

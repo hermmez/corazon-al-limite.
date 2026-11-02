@@ -1,0 +1,86 @@
+{
+  "personajes/01_neutral.png": {
+    "sha256": "e9d71d28f4e6dd744f9e5985c1e9632052c0cf5d842c6230bd23fb22dc7a8410",
+    "size": [
+      1024,
+      1536
+    ]
+  },
+  "personajes/02_explicando.png": {
+    "sha256": "54b2f8cff8b415464079e68ec83d01c3b21a5c466d74f014f3db8b99b79bd252",
+    "size": [
+      1024,
+      1536
+    ]
+  },
+  "personajes/08_senalando_arriba.png": {
+    "sha256": "41207579280c87cab065a7a7054cce167ddb7e1249525caf0f76957a1bc4c097",
+    "size": [
+      1024,
+      1536
+    ]
+  },
+  "personajes/11_sorprendido.png": {
+    "sha256": "ec4b86a029086ad45a10a67ba57076fef0ac992999913721ed4ba798602fb3d3",
+    "size": [
+      1024,
+      1536
+    ]
+  },
+  "personajes/15_confundido.png": {
+    "sha256": "d70ea15fc0d47db1137b590d34e1e814001936e2a86f8e8b5c8abdada5686f63",
+    "size": [
+      1024,
+      1536
+    ]
+  },
+  "personajes/29_dolor_cabeza.png": {
+    "sha256": "e976cb70771566a44adb10c1495f8127ec82978a18096493bd271d64fb0856dd",
+    "size": [
+      1024,
+      1536
+    ]
+  },
+  "anatomia/01_cerebro_completo.png": {
+    "sha256": "4ce809052544d5f2927fc577a7e20810e079656106ef62205012f7acb23029e2",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  "anatomia/19_piel_corte_transversal.png": {
+    "sha256": "40bcdf7eaef023076699591530ed0a7405a24f1131ab6e7a76cefbb4e0598054",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  "anatomia/16_sistema_muscular.png": {
+    "sha256": "926e05b1140020f39b2c05ea7129875f9ab1f0c9362fd8d5668147c126f01a8f",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  "ciencia/01_neurona.png": {
+    "sha256": "83bf4de41176bc724a2212825f88e2ba6dc388cd373cc683d93ffaf798ba4a88",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  "ciencia/02_sinapsis_neuronal.png": {
+    "sha256": "616a67d278106af4b4a540a563b86134bd32d3bee739a264b39a9fd8e94157c5",
+    "size": [
+      1254,
+      1254
+    ]
+  },
+  "ciencia/15_vasos_sanguineos.png": {
+    "sha256": "7a22e36a2b55b2dfbae78e58ef073decdeb1ca93ef72ab709327b8be63b3b26f",
+    "size": [
+      1254,
+      1254
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status": "resolved-with-free-local-voice",
+  "sourceOfRestriction": "User request, section 9: No generar contenido de pago sin autorización.",
+  "provider": "ElevenLabs via Higgsfield",
+  "voicePreset": "Juan",
+  "voiceId": "6b528d43-c056-4a2f-9d82-1591a7ba13b0",
+  "voiceType": "preset",
+  "quoteCredits": 3.45,
+  "proposedWords": 178,
+  "script": "src/episodios/episodio-01-cerebro-125/GUION.md",
+  "paidJobsSubmittedThisRevision": 0,
+  "newImageOrVideoGenerations": 0,
+  "historicalQuoteOnly": true,
+  "quoteForCurrent189Words": false,
+  "productionVoice": "Piper Aldo es_MX, local synthesis",
+  "creditsSpent": 0,
+  "expandedRecordingExists": true
+}

@@ -1,0 +1,20 @@
+# Corazón al Límite — estándar de producción audiovisual
+
+Aplicar a episodios futuros y a revisiones. Respetar siempre el encargo concreto del usuario.
+
+- Inspeccionar composiciones, guion, imágenes y narración reales antes de editar. Conservar las versiones aprobadas y verificar SHA-256 de los 68 PNG. No modificar las ilustraciones ni sustituir la identidad oficial.
+- Episodios de 70 s: **1080 × 1920, 30 FPS, 2100 fotogramas exactos**. Nunca cambiar la duración para resolver ritmo o problemas de voz.
+- Referencia de ritmo: episodio aprobado reproducido a **1.25×**. La nueva versión a **1.0×** debe aplicar ese ritmo a narración, animación, cámara, transiciones, subtítulos, edición, música y efectos. No acelerar globalmente el MP4 como solución de producción.
+- Construir una evolución visual con intención narrativa cada 1–2 s: reacción, recorrido, revelación de capas, cambio de foco o construcción de un gráfico. No contar como evolución significativa los subtítulos, un parpadeo, partículas decorativas ni una oscilación repetida.
+- Gancho inmediato en los primeros 3 s, nueva pregunta o revelación cada 8–12 s y conclusión fuerte en los últimos 5 s. Si falta contenido al aumentar el ritmo, ampliar el guion con información científica útil y nuevas demostraciones; no prolongar planos ni añadir segundos vacíos.
+- Evitar personajes flotantes como recurso principal, zooms prolongados, diagramas que dejan de evolucionar y transiciones genéricas repetidas. Mantener continuidad espacial, aceleraciones naturales y texto estable durante la cámara.
+- Conectar conceptos con marcas acústicas reales: cada mención científica debe activar una respuesta visual correspondiente. Mantener guion, tiempos, eventos semánticos, subtítulos y diseño sonoro en archivos editables.
+- Subtítulos: JSON del tipo Caption, 3–5 palabras por grupo, alto contraste, máximo dos líneas y área segura. Alinear al audio real ya editado; no temporizar por longitud del texto.
+- Analizar la pista de voz aislada: silencios de más de 0.7 s son **alertas de revisión**, no fallos automáticos. Justificar pausas dramáticas concretas con su función narrativa. No ocultar problemas de voz con música.
+- Analizar también el video renderizado: excluir títulos y subtítulos al medir evolución; detectar intervalos pobres, repetición, voz que termina antes que su concepto y diferencias entre eventos y palabras reales. Reportar segundos exactos, umbral, decisión editorial y acciones pendientes.
+- Comparar A (original a 1.25×) con B (nuevo a 1.0×): energía vocal, actividad visual, transiciones, información y tiempos muertos. Conservar evidencia; los indicadores automáticos no prueban por sí solos igualdad subjetiva de calidad.
+- Voz masculina natural en español mexicano; mantener inteligibilidad y tono al ajustar ritmo. Mezclar con prioridad a la voz, música original o autorizada y efectos discretos sincronizados. No inventar narración, alineación ni archivos.
+- **No generar contenido de pago sin autorización.** Una cotización no autoriza un cargo. Preparar el guion y consultar el costo antes de pedir una autorización concreta. Continuar el trabajo independiente mientras llega la respuesta; no presentar una voz provisional como toma definitiva.
+- Si no hay autorización de gasto y existe una alternativa local adecuada, se puede producir una toma completa sin créditos. Verificar idioma, voz, licencia y audio real; informar el cambio de proveedor. Los tiempos intrínsecos de síntesis deben comprobarse contra las muestras emitidas y mapear cualquier edición posterior; no estimarlos por longitud del texto.
+- Render H.264 / AAC, sin marcas de agua en producción, YUV420p, BT.709 y MP4 de inicio rápido. Verificar ambas pistas de 70 s, 2100 fotogramas, decodificación completa, pantallas negras, legibilidad, voz audible, sincronización de forma de onda y reproducción completa.
+- Trabajar en una rama y un PR, sin fusionar automáticamente. Comprobar los límites antes de subir binarios. Entregar MP4 reproducible, miniatura, audio, subtítulos, recursos y reporte; distinguir una previsualización de una producción terminada.

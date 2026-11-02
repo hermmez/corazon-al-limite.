@@ -1,0 +1,78 @@
+{
+  "id": "Episodio01Cerebro",
+  "version": "ritmo-125",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 2100,
+  "duration": 70,
+  "referenceSpeed": 1.25,
+  "voice": {
+    "status": "real-integrated",
+    "provider": "Piper local",
+    "preset": "Aldo es_MX",
+    "voiceId": "es_MX-ald-medium",
+    "voiceType": "local-model",
+    "tempo": 1.25,
+    "source": "public/episodios/episodio-01-cerebro-125/audio/narracion_original.flac",
+    "paidGenerationCount": 0,
+    "creditsActual": 0,
+    "optionalElevenLabsQuote": {
+      "credits": 3.45,
+      "status": "not-authorized-not-used",
+      "voice": "Juan",
+      "note": "Historical quote for 178-word draft; not a quote for current 189 words. No job submitted."
+    },
+    "intrinsicAlignment": "output/episodio-01-cerebro-125/alineacion_intrinseca.json",
+    "words": 189,
+    "lastWordEndMs": 69680
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "title": "La paradoja",
+      "text": "¡Tu cerebro no puede sentir dolor! Pero si no lo siente, ¿por qué puede dolerte tanto la cabeza? La clave está alrededor."
+    },
+    {
+      "id": 2,
+      "title": "Sensores y central",
+      "text": "El tejido cerebral no tiene receptores del dolor: sensores que detectan estímulos potencialmente dañinos. Es como una central que recibe alarmas, sin esos sensores propios."
+    },
+    {
+      "id": 3,
+      "title": "Las estructuras sensibles",
+      "text": "En cambio, las meninges que lo recubren, ciertos vasos y otras estructuras de la cabeza sí pueden enviar señales de dolor."
+    },
+    {
+      "id": 4,
+      "title": "Más que vasos",
+      "text": "También pueden doler el cuero cabelludo y los músculos. Pero una migraña no es simplemente un vaso que late: involucra mecanismos neurológicos complejos."
+    },
+    {
+      "id": 5,
+      "title": "La ruta nerviosa",
+      "text": "El nervio trigémino transmite señales desde la cara y las meninges. Esas señales viajan hacia redes del sistema nervioso, donde el cerebro las integra como parte de la experiencia del dolor."
+    },
+    {
+      "id": 6,
+      "title": "Cirugía despierta",
+      "text": "¿Y cómo operan a alguien despierto? En algunas cirugías, hablar o mover una mano ayuda al equipo a vigilar el lenguaje y el movimiento."
+    },
+    {
+      "id": 7,
+      "title": "Anestesia y vigilancia",
+      "text": "No significa que operen sin anestesia: se protegen las estructuras sensibles y se mantiene vigilancia médica continua. Es una técnica para casos seleccionados."
+    },
+    {
+      "id": 8,
+      "title": "La revelación",
+      "text": "Tu cerebro interpreta el dolor; su tejido no lo siente. Esa diferencia explica por qué sí puede dolerte la cabeza."
+    }
+  ],
+  "original": {
+    "commit": "6af92a8677f4757192983adce2f6b7960ef1fb57",
+    "video": "output/episodio-01-cerebro/episodio_01_cerebro_70s.mp4",
+    "voice": "public/episodios/episodio-01-cerebro/audio/narracion.flac",
+    "alignment": "output/episodio-01-cerebro/alineacion_audio_real.json"
+  }
+}

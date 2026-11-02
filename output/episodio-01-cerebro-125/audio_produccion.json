@@ -1,0 +1,53 @@
+{
+  "mode": "production-expanded-narration",
+  "duration": 70,
+  "voiceTempo": 1.25,
+  "musicBpm": 105,
+  "oldMusicBpm": 84,
+  "samplesUsed": [],
+  "scoreEvolution": "chapter-dependent layers, harmonic changes, pulse density and timbre",
+  "voiceDuckMinimum": 0.38,
+  "sfx": [
+    {
+      "time": 33.7,
+      "event": "s4-a1",
+      "kind": "neural pulse"
+    },
+    {
+      "time": 34.731,
+      "event": "s4-a2",
+      "kind": "neural pulse"
+    },
+    {
+      "time": 36.343,
+      "event": "s4-detail-face",
+      "kind": "neural pulse"
+    },
+    {
+      "time": 36.891,
+      "event": "s4-detail-meninges",
+      "kind": "neural pulse"
+    },
+    {
+      "time": 41.954,
+      "event": "s4-a4",
+      "kind": "neural pulse"
+    },
+    {
+      "time": 55.436,
+      "event": "s6-a2",
+      "kind": "monitor tick"
+    },
+    {
+      "time": 58.0,
+      "event": "s6-a4",
+      "kind": "monitor tick"
+    },
+    {
+      "time": 58.956,
+      "event": "s6-detail-protocol",
+      "kind": "monitor tick"
+    }
+  ],
+  "master": "public/episodios/episodio-01-cerebro-125/audio/mezcla_master.flac"
+}
