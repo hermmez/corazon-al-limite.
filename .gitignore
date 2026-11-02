@@ -19,3 +19,6 @@ output/episodio-01-cerebro-125/*_PREVIEW.mp4
 output/episodio-01-cerebro-125/miniatura_PREVIEW.jpg
 output/episodio-01-cerebro-125/alineacion_error.json
 output/episodio-01-cerebro-125/alineacion_ultima_verificada.json
+output/episodio-01-cerebro-125/*_PREVIEW.json
+output/episodio-01-cerebro-125/*_PREVIEW.srt
+output/episodio-01-cerebro-125/*preview*.json

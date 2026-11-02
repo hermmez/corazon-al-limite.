@@ -4,14 +4,13 @@ The native take is measured acoustically. Synthesis length is calibrated to the
 approved narrator's articulation rate before the requested 1.25x voice pass.
 The 61MB model stays outside Git. See downloaded provider model cards.
 """
-import argparse,hashlib,importlib.util,json,subprocess,time,urllib.request,wave
+import argparse,hashlib,json,subprocess,urllib.request,wave
 from pathlib import Path
 import numpy as np
 from piper import PiperVoice,SynthesisConfig
 import onnx,onnxruntime as ort
 
 ROOT=Path("src/episodios/episodio-01-cerebro-125");OUT=Path("output/episodio-01-cerebro-125");AUDIO=Path("public/episodios/episodio-01-cerebro-125/audio")
-spec=importlib.util.spec_from_file_location("pace_voice","scripts/episodio-01-cerebro-125/preparar_voz.py");helpers=importlib.util.module_from_spec(spec);spec.loader.exec_module(helpers)
 
 def main():
     p=argparse.ArgumentParser();p.add_argument("--model-dir",default="/tmp/corazon-piper",type=Path);p.add_argument("--reuse-native",action="store_true");args=p.parse_args();args.model_dir.mkdir(parents=True,exist_ok=True)
@@ -74,12 +73,12 @@ def main():
         file.setnchannels(1);file.setsampwidth(2);file.setframerate(22050);file.writeframes(np.round(waveform*32767).astype('<i2').tobytes())
     with wave.open(str(target))as f:duration=f.getnframes()/f.getframerate()
     flac=AUDIO/"narracion_original.flac";subprocess.run(["ffmpeg","-v","error","-y","-i",str(target),"-c:a","flac",str(flac)],check=True)
-    report={"provider":"Piper local inference","voice":"Aldo, es_MX-ald-medium","language":"es_MX","phonemizer":"es-419","model":name,"modelUrl":base+name+".onnx","modelSha256":hashlib.sha256((args.model_dir/(name+".onnx")).read_bytes()).hexdigest(),"modelConfigSha256":hashlib.sha256((args.model_dir/(name+".onnx.json")).read_bytes()).hexdigest(),"datasetLicense":"Unlicense","baseDatasetLicense":"CC0","paidGenerations":0,"creditsSpent":0,"sampleRate":22050,"nativePhonemesPerSecond":native_rate,"referencePhonemesPerSecond":original_rate,"targetPhonemesPerSecondBeforePauseEditing":original_rate*1.25,"referencePhonemes":old_count,"newPhonemes":new_count,"synthesisLengthScale":length_scale,"nextPitchPreservingTempo":1.25,"originalDuration":duration,"source":str(flac),"sourceSha256":hashlib.sha256(flac.read_bytes()).hexdigest(),"wordsRequested":len(script.split()),"captionTiming":"pending actual audio alignment; phoneme counts are not used for caption timing"}
+    report={"provider":"Piper local inference","voice":"Aldo, es_MX-ald-medium","language":"es_MX","phonemizer":"es-419","model":name,"modelUrl":base+name+".onnx","modelSha256":hashlib.sha256((args.model_dir/(name+".onnx")).read_bytes()).hexdigest(),"modelConfigSha256":hashlib.sha256((args.model_dir/(name+".onnx.json")).read_bytes()).hexdigest(),"datasetLicense":"Unlicense","baseDatasetLicense":"CC0","paidGenerations":0,"creditsSpent":0,"sampleRate":22050,"nativePhonemesPerSecond":native_rate,"referencePhonemesPerSecond":original_rate,"targetPhonemesPerSecondBeforePauseEditing":original_rate*1.25,"referencePhonemes":old_count,"newPhonemes":new_count,"synthesisLengthScale":length_scale,"nextPitchPreservingTempo":1.25,"originalDuration":duration,"source":str(flac),"sourceSha256":hashlib.sha256(flac.read_bytes()).hexdigest(),"wordsRequested":len(script.split()),"captionTiming":"Intrinsic phoneme duration tensor; audio sample counts verified"}
     alignment=OUT/"alineacion_intrinseca.json"
     alignment.write_text(json.dumps({"engine":"Piper/VITS intrinsic phoneme durations","source":str(flac),"sourceSha256":report["sourceSha256"],"sampleRate":22050,"sampleCount":offset,"words":words,"sentenceSampleChecks":checks,"timingFromTextLength":False},ensure_ascii=False,indent=2)+"\n")
     report["captionTiming"]="Intrinsic phoneme duration tensor; all emitted audio sample counts verified"
     (OUT/"voz_local_produccion.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n")
-    config["voice"].update({"provider":"Piper local","preset":"Aldo es_MX","voiceId":name,"voiceType":"local-model","source":str(flac),"intrinsicAlignment":str(alignment),"paidGenerationCount":0,"creditsActual":0,"status":"local-take-generated-awaiting-alignment"});config["voice"]["optionalElevenLabsQuote"]={"credits":3.45,"status":"not-authorized-not-used","voice":"Juan"};(ROOT/"production.json").write_text(json.dumps(config,ensure_ascii=False,indent=2)+"\n")
+    config["voice"].update({"provider":"Piper local","preset":"Aldo es_MX","voiceId":name,"voiceType":"local-model","source":str(flac),"intrinsicAlignment":str(alignment),"paidGenerationCount":0,"creditsActual":0,"status":"local-take-generated-awaiting-alignment"});config["voice"]["optionalElevenLabsQuote"]={"credits":3.45,"status":"not-authorized-not-used","voice":"Juan","note":"Historical quote for 178-word draft; no job submitted. Not a current quote."};(ROOT/"production.json").write_text(json.dumps(config,ensure_ascii=False,indent=2)+"\n")
     print(json.dumps(report,ensure_ascii=False,indent=2))
 
 if __name__=="__main__":main()
