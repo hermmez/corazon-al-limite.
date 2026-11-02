@@ -1,0 +1,1809 @@
+{
+  "engine": "Piper/VITS intrinsic phoneme durations",
+  "source": "public/episodios/episodio-01-cerebro-125/audio/narracion_original.flac",
+  "sourceSha256": "9a3e4153c1d8b80056b90ea2b58a7bd0e5fd723f954b6e0c3b8c44c08d8d250d",
+  "sampleRate": 22050,
+  "sampleCount": 1874944,
+  "words": [
+    {
+      "word": "¡Tu",
+      "start": 0.023219954648526078,
+      "end": 0.08126984126984127,
+      "startSample": 512,
+      "endSample": 1792,
+      "probability": 1,
+      "phonemes": "tu"
+    },
+    {
+      "word": "cerebro",
+      "start": 0.1509297052154195,
+      "end": 0.603718820861678,
+      "startSample": 3328,
+      "endSample": 13312,
+      "probability": 1,
+      "phonemes": "seɾˈeβɾo"
+    },
+    {
+      "word": "no",
+      "start": 0.6733786848072563,
+      "end": 0.7546485260770975,
+      "startSample": 14848,
+      "endSample": 16640,
+      "probability": 1,
+      "phonemes": "nˈo"
+    },
+    {
+      "word": "puede",
+      "start": 0.8591383219954648,
+      "end": 1.0913378684807256,
+      "startSample": 18944,
+      "endSample": 24064,
+      "probability": 1,
+      "phonemes": "pwˈeðe"
+    },
+    {
+      "word": "sentir",
+      "start": 1.207437641723356,
+      "end": 1.6834467120181407,
+      "startSample": 26624,
+      "endSample": 37120,
+      "probability": 1,
+      "phonemes": "sentˈiɾ"
+    },
+    {
+      "word": "dolor!",
+      "start": 1.799546485260771,
+      "end": 2.159455782312925,
+      "startSample": 39680,
+      "endSample": 47616,
+      "probability": 1,
+      "phonemes": "ðolˈoɾ!"
+    },
+    {
+      "word": "Pero",
+      "start": 2.345215419501134,
+      "end": 2.5425850340136056,
+      "startSample": 51712,
+      "endSample": 56064,
+      "probability": 1,
+      "phonemes": "pˌeɾo"
+    },
+    {
+      "word": "si",
+      "start": 2.6006349206349206,
+      "end": 2.716734693877551,
+      "startSample": 57344,
+      "endSample": 59904,
+      "probability": 1,
+      "phonemes": "si"
+    },
+    {
+      "word": "no",
+      "start": 2.7747845804988662,
+      "end": 2.8908843537414968,
+      "startSample": 61184,
+      "endSample": 63744,
+      "probability": 1,
+      "phonemes": "nˈo"
+    },
+    {
+      "word": "lo",
+      "start": 2.9605442176870747,
+      "end": 3.0418140589569163,
+      "startSample": 65280,
+      "endSample": 67072,
+      "probability": 1,
+      "phonemes": "lo"
+    },
+    {
+      "word": "siente,",
+      "start": 3.111473922902494,
+      "end": 3.622312925170068,
+      "startSample": 68608,
+      "endSample": 79872,
+      "probability": 1,
+      "phonemes": "sjˈɛnte,"
+    },
+    {
+      "word": "¿por",
+      "start": 3.8545124716553287,
+      "end": 3.982222222222222,
+      "startSample": 84992,
+      "endSample": 87808,
+      "probability": 1,
+      "phonemes": "poɾ"
+    },
+    {
+      "word": "qué",
+      "start": 4.040272108843538,
+      "end": 4.144761904761904,
+      "startSample": 89088,
+      "endSample": 91392,
+      "probability": 1,
+      "phonemes": "kˈe"
+    },
+    {
+      "word": "puede",
+      "start": 4.249251700680272,
+      "end": 4.516281179138322,
+      "startSample": 93696,
+      "endSample": 99584,
+      "probability": 1,
+      "phonemes": "pwˈeðe"
+    },
+    {
+      "word": "dolerte",
+      "start": 4.562721088435374,
+      "end": 5.038730158730159,
+      "startSample": 100608,
+      "endSample": 111104,
+      "probability": 1,
+      "phonemes": "ðolˈeɾte"
+    },
+    {
+      "word": "tanto",
+      "start": 5.131609977324263,
+      "end": 5.50312925170068,
+      "startSample": 113152,
+      "endSample": 121344,
+      "probability": 1,
+      "phonemes": "tˈanto"
+    },
+    {
+      "word": "la",
+      "start": 5.584399092970521,
+      "end": 5.6656689342403626,
+      "startSample": 123136,
+      "endSample": 124928,
+      "probability": 1,
+      "phonemes": "la"
+    },
+    {
+      "word": "cabeza?",
+      "start": 5.77015873015873,
+      "end": 6.280997732426304,
+      "startSample": 127232,
+      "endSample": 138496,
+      "probability": 1,
+      "phonemes": "kaβˈesa?"
+    },
+    {
+      "word": "La",
+      "start": 6.919546485260771,
+      "end": 7.035646258503402,
+      "startSample": 152576,
+      "endSample": 155136,
+      "probability": 1,
+      "phonemes": "la"
+    },
+    {
+      "word": "clave",
+      "start": 7.1401360544217685,
+      "end": 7.569705215419501,
+      "startSample": 157440,
+      "endSample": 166912,
+      "probability": 1,
+      "phonemes": "klˈaβe"
+    },
+    {
+      "word": "está",
+      "start": 7.662585034013605,
+      "end": 7.987664399092971,
+      "startSample": 168960,
+      "endSample": 176128,
+      "probability": 1,
+      "phonemes": "estˈa"
+    },
+    {
+      "word": "alrededor.",
+      "start": 8.068934240362811,
+      "end": 8.730702947845804,
+      "startSample": 177920,
+      "endSample": 192512,
+      "probability": 1,
+      "phonemes": "ˌalreðeðˈoɾ."
+    },
+    {
+      "word": "El",
+      "start": 8.858412698412698,
+      "end": 9.02095238095238,
+      "startSample": 195328,
+      "endSample": 198912,
+      "probability": 1,
+      "phonemes": "el"
+    },
+    {
+      "word": "tejido",
+      "start": 9.125442176870749,
+      "end": 9.58984126984127,
+      "startSample": 201216,
+      "endSample": 211456,
+      "probability": 1,
+      "phonemes": "texˈiðo"
+    },
+    {
+      "word": "cerebral",
+      "start": 9.636281179138322,
+      "end": 10.193560090702947,
+      "startSample": 212480,
+      "endSample": 224768,
+      "probability": 1,
+      "phonemes": "sˌeɾeβɾˈal"
+    },
+    {
+      "word": "no",
+      "start": 10.27482993197279,
+      "end": 10.367709750566894,
+      "startSample": 226560,
+      "endSample": 228608,
+      "probability": 1,
+      "phonemes": "nˈo"
+    },
+    {
+      "word": "tiene",
+      "start": 10.460589569160998,
+      "end": 10.716009070294785,
+      "startSample": 230656,
+      "endSample": 236288,
+      "probability": 1,
+      "phonemes": "tjˈene"
+    },
+    {
+      "word": "receptores",
+      "start": 10.80888888888889,
+      "end": 11.6215873015873,
+      "startSample": 238336,
+      "endSample": 256256,
+      "probability": 1,
+      "phonemes": "rˌesepːtˈoɾes"
+    },
+    {
+      "word": "del",
+      "start": 11.69124716553288,
+      "end": 11.818956916099774,
+      "startSample": 257792,
+      "endSample": 260608,
+      "probability": 1,
+      "phonemes": "ðel"
+    },
+    {
+      "word": "dolor:",
+      "start": 11.888616780045352,
+      "end": 12.202086167800454,
+      "startSample": 262144,
+      "endSample": 269056,
+      "probability": 1,
+      "phonemes": "ðolˈoɾ:"
+    },
+    {
+      "word": "sensores",
+      "start": 12.57360544217687,
+      "end": 13.165714285714285,
+      "startSample": 277248,
+      "endSample": 290304,
+      "probability": 1,
+      "phonemes": "sensˈoɾes"
+    },
+    {
+      "word": "que",
+      "start": 13.212154195011339,
+      "end": 13.281814058956916,
+      "startSample": 291328,
+      "endSample": 292864,
+      "probability": 1,
+      "phonemes": "ke"
+    },
+    {
+      "word": "detectan",
+      "start": 13.351473922902494,
+      "end": 13.978412698412699,
+      "startSample": 294400,
+      "endSample": 308224,
+      "probability": 1,
+      "phonemes": "ðetˈektan"
+    },
+    {
+      "word": "estímulos",
+      "start": 14.082902494331066,
+      "end": 14.767891156462586,
+      "startSample": 310528,
+      "endSample": 325632,
+      "probability": 1,
+      "phonemes": "estˈimulos"
+    },
+    {
+      "word": "potencialmente",
+      "start": 14.883990929705215,
+      "end": 15.917278911564626,
+      "startSample": 328192,
+      "endSample": 350976,
+      "probability": 1,
+      "phonemes": "pˌotensjˈalmˈente"
+    },
+    {
+      "word": "dañinos.",
+      "start": 15.986938775510204,
+      "end": 16.486167800453515,
+      "startSample": 352512,
+      "endSample": 363520,
+      "probability": 1,
+      "phonemes": "ðaɲˈinos."
+    },
+    {
+      "word": "Es",
+      "start": 16.648707482993196,
+      "end": 16.764807256235827,
+      "startSample": 367104,
+      "endSample": 369664,
+      "probability": 1,
+      "phonemes": "ˈes"
+    },
+    {
+      "word": "como",
+      "start": 16.84607709750567,
+      "end": 17.101496598639457,
+      "startSample": 371456,
+      "endSample": 377088,
+      "probability": 1,
+      "phonemes": "kˌomo"
+    },
+    {
+      "word": "una",
+      "start": 17.159546485260773,
+      "end": 17.333696145124716,
+      "startSample": 378368,
+      "endSample": 382208,
+      "probability": 1,
+      "phonemes": "ˈuna"
+    },
+    {
+      "word": "central",
+      "start": 17.449795918367347,
+      "end": 17.902585034013605,
+      "startSample": 384768,
+      "endSample": 394752,
+      "probability": 1,
+      "phonemes": "sentɾˈal"
+    },
+    {
+      "word": "que",
+      "start": 18.007074829931973,
+      "end": 18.053514739229026,
+      "startSample": 397056,
+      "endSample": 398080,
+      "probability": 1,
+      "phonemes": "ke"
+    },
+    {
+      "word": "recibe",
+      "start": 18.169614512471654,
+      "end": 18.738503401360543,
+      "startSample": 400640,
+      "endSample": 413184,
+      "probability": 1,
+      "phonemes": "resˈiβe"
+    },
+    {
+      "word": "alarmas,",
+      "start": 18.877823129251702,
+      "end": 19.388662131519276,
+      "startSample": 416256,
+      "endSample": 427520,
+      "probability": 1,
+      "phonemes": "alˈaɾmas,"
+    },
+    {
+      "word": "sin",
+      "start": 19.60925170068027,
+      "end": 19.783401360544218,
+      "startSample": 432384,
+      "endSample": 436224,
+      "probability": 1,
+      "phonemes": "sin"
+    },
+    {
+      "word": "esos",
+      "start": 19.86467120181406,
+      "end": 20.085260770975058,
+      "startSample": 438016,
+      "endSample": 442880,
+      "probability": 1,
+      "phonemes": "ˈesos"
+    },
+    {
+      "word": "sensores",
+      "start": 20.17814058956916,
+      "end": 20.735419501133787,
+      "startSample": 444928,
+      "endSample": 457216,
+      "probability": 1,
+      "phonemes": "sensˈoɾes"
+    },
+    {
+      "word": "propios.",
+      "start": 20.874739229024943,
+      "end": 21.339138321995463,
+      "startSample": 460288,
+      "endSample": 470528,
+      "probability": 1,
+      "phonemes": "pɾˈopjos."
+    },
+    {
+      "word": "En",
+      "start": 21.443628117913832,
+      "end": 21.51328798185941,
+      "startSample": 472832,
+      "endSample": 474368,
+      "probability": 1,
+      "phonemes": "en"
+    },
+    {
+      "word": "cambio,",
+      "start": 21.59455782312925,
+      "end": 22.024126984126983,
+      "startSample": 476160,
+      "endSample": 485632,
+      "probability": 1,
+      "phonemes": "kˈambjo,"
+    },
+    {
+      "word": "las",
+      "start": 22.3027664399093,
+      "end": 22.46530612244898,
+      "startSample": 491776,
+      "endSample": 495360,
+      "probability": 1,
+      "phonemes": "las"
+    },
+    {
+      "word": "meninges",
+      "start": 22.558185941043085,
+      "end": 22.987755102040815,
+      "startSample": 497408,
+      "endSample": 506880,
+      "probability": 1,
+      "phonemes": "menˈiŋxes"
+    },
+    {
+      "word": "que",
+      "start": 23.08063492063492,
+      "end": 23.196734693877552,
+      "startSample": 508928,
+      "endSample": 511488,
+      "probability": 1,
+      "phonemes": "ke"
+    },
+    {
+      "word": "lo",
+      "start": 23.289614512471655,
+      "end": 23.34766439909297,
+      "startSample": 513536,
+      "endSample": 514816,
+      "probability": 1,
+      "phonemes": "lo"
+    },
+    {
+      "word": "recubren,",
+      "start": 23.42893424036281,
+      "end": 24.171972789115646,
+      "startSample": 516608,
+      "endSample": 532992,
+      "probability": 1,
+      "phonemes": "rekˈuβɾen,"
+    },
+    {
+      "word": "ciertos",
+      "start": 24.61315192743764,
+      "end": 25.26331065759637,
+      "startSample": 542720,
+      "endSample": 557056,
+      "probability": 1,
+      "phonemes": "sjˈeɾtos"
+    },
+    {
+      "word": "vasos",
+      "start": 25.321360544217686,
+      "end": 25.68126984126984,
+      "startSample": 558336,
+      "endSample": 566272,
+      "probability": 1,
+      "phonemes": "βˈasos"
+    },
+    {
+      "word": "y",
+      "start": 25.78575963718821,
+      "end": 25.913469387755104,
+      "startSample": 568576,
+      "endSample": 571392,
+      "probability": 1,
+      "phonemes": "iʲ"
+    },
+    {
+      "word": "otras",
+      "start": 25.994739229024944,
+      "end": 26.31981859410431,
+      "startSample": 573184,
+      "endSample": 580352,
+      "probability": 1,
+      "phonemes": "ˈotɾas"
+    },
+    {
+      "word": "estructuras",
+      "start": 26.482358276643993,
+      "end": 27.12090702947846,
+      "startSample": 583936,
+      "endSample": 598016,
+      "probability": 1,
+      "phonemes": "ˌestɾuktˈuɾas"
+    },
+    {
+      "word": "de",
+      "start": 27.213786848072562,
+      "end": 27.248616780045353,
+      "startSample": 600064,
+      "endSample": 600832,
+      "probability": 1,
+      "phonemes": "ðe"
+    },
+    {
+      "word": "la",
+      "start": 27.30666666666667,
+      "end": 27.38793650793651,
+      "startSample": 602112,
+      "endSample": 603904,
+      "probability": 1,
+      "phonemes": "la"
+    },
+    {
+      "word": "cabeza",
+      "start": 27.48081632653061,
+      "end": 27.921995464852607,
+      "startSample": 605952,
+      "endSample": 615680,
+      "probability": 1,
+      "phonemes": "kaβˈesa"
+    },
+    {
+      "word": "sí",
+      "start": 28.003265306122447,
+      "end": 28.107755102040816,
+      "startSample": 617472,
+      "endSample": 619776,
+      "probability": 1,
+      "phonemes": "sˈi"
+    },
+    {
+      "word": "pueden",
+      "start": 28.23546485260771,
+      "end": 28.514104308390024,
+      "startSample": 622592,
+      "endSample": 628736,
+      "probability": 1,
+      "phonemes": "pwˈeðen"
+    },
+    {
+      "word": "enviar",
+      "start": 28.63020408163265,
+      "end": 28.88562358276644,
+      "startSample": 631296,
+      "endSample": 636928,
+      "probability": 1,
+      "phonemes": "embjˈaɾ"
+    },
+    {
+      "word": "señales",
+      "start": 28.978503401360545,
+      "end": 29.512562358276643,
+      "startSample": 638976,
+      "endSample": 650752,
+      "probability": 1,
+      "phonemes": "seɲˈales"
+    },
+    {
+      "word": "de",
+      "start": 29.58222222222222,
+      "end": 29.675102040816327,
+      "startSample": 652288,
+      "endSample": 654336,
+      "probability": 1,
+      "phonemes": "ðe"
+    },
+    {
+      "word": "dolor.",
+      "start": 29.756371882086167,
+      "end": 30.139501133786847,
+      "startSample": 656128,
+      "endSample": 664576,
+      "probability": 1,
+      "phonemes": "ðolˈoɾ."
+    },
+    {
+      "word": "También",
+      "start": 30.243990929705216,
+      "end": 30.627120181405896,
+      "startSample": 666880,
+      "endSample": 675328,
+      "probability": 1,
+      "phonemes": "tambjˈem"
+    },
+    {
+      "word": "pueden",
+      "start": 30.68517006802721,
+      "end": 30.963809523809523,
+      "startSample": 676608,
+      "endSample": 682752,
+      "probability": 1,
+      "phonemes": "pwˈeðen"
+    },
+    {
+      "word": "doler",
+      "start": 31.010249433106576,
+      "end": 31.21922902494331,
+      "startSample": 683776,
+      "endSample": 688384,
+      "probability": 1,
+      "phonemes": "dolˈeɾ"
+    },
+    {
+      "word": "el",
+      "start": 31.265668934240363,
+      "end": 31.32371882086168,
+      "startSample": 689408,
+      "endSample": 690688,
+      "probability": 1,
+      "phonemes": "el"
+    },
+    {
+      "word": "cuero",
+      "start": 31.428208616780044,
+      "end": 31.660408163265306,
+      "startSample": 692992,
+      "endSample": 698112,
+      "probability": 1,
+      "phonemes": "kwˈeɾo"
+    },
+    {
+      "word": "cabelludo",
+      "start": 31.753287981859412,
+      "end": 32.391836734693875,
+      "startSample": 700160,
+      "endSample": 714240,
+      "probability": 1,
+      "phonemes": "kˌaβejjˈuðo"
+    },
+    {
+      "word": "y",
+      "start": 32.48471655328798,
+      "end": 32.507936507936506,
+      "startSample": 716288,
+      "endSample": 716800,
+      "probability": 1,
+      "phonemes": "i"
+    },
+    {
+      "word": "los",
+      "start": 32.60081632653061,
+      "end": 32.78657596371882,
+      "startSample": 718848,
+      "endSample": 722944,
+      "probability": 1,
+      "phonemes": "los"
+    },
+    {
+      "word": "músculos.",
+      "start": 32.8562358276644,
+      "end": 33.52961451247165,
+      "startSample": 724480,
+      "endSample": 739328,
+      "probability": 1,
+      "phonemes": "mˈuskulos."
+    },
+    {
+      "word": "Pero",
+      "start": 33.7037641723356,
+      "end": 33.85469387755102,
+      "startSample": 743168,
+      "endSample": 746496,
+      "probability": 1,
+      "phonemes": "pˌeɾo"
+    },
+    {
+      "word": "una",
+      "start": 33.924353741496596,
+      "end": 34.08689342403628,
+      "startSample": 748032,
+      "endSample": 751616,
+      "probability": 1,
+      "phonemes": "ˈuna"
+    },
+    {
+      "word": "migraña",
+      "start": 34.19138321995465,
+      "end": 34.60934240362812,
+      "startSample": 753920,
+      "endSample": 763136,
+      "probability": 1,
+      "phonemes": "miɣɾˈaɲa"
+    },
+    {
+      "word": "no",
+      "start": 34.690612244897956,
+      "end": 34.80671201814059,
+      "startSample": 764928,
+      "endSample": 767488,
+      "probability": 1,
+      "phonemes": "nˈo"
+    },
+    {
+      "word": "es",
+      "start": 34.89959183673469,
+      "end": 34.98086167800454,
+      "startSample": 769536,
+      "endSample": 771328,
+      "probability": 1,
+      "phonemes": "ˈes"
+    },
+    {
+      "word": "simplemente",
+      "start": 35.015691609977324,
+      "end": 35.65424036281179,
+      "startSample": 772096,
+      "endSample": 786176,
+      "probability": 1,
+      "phonemes": "sˈimplemˈente"
+    },
+    {
+      "word": "un",
+      "start": 35.71229024943311,
+      "end": 35.781950113378684,
+      "startSample": 787456,
+      "endSample": 788992,
+      "probability": 1,
+      "phonemes": "ˈum"
+    },
+    {
+      "word": "vaso",
+      "start": 35.851609977324266,
+      "end": 36.118639455782315,
+      "startSample": 790528,
+      "endSample": 796416,
+      "probability": 1,
+      "phonemes": "bˈaso"
+    },
+    {
+      "word": "que",
+      "start": 36.18829931972789,
+      "end": 36.281179138321995,
+      "startSample": 797952,
+      "endSample": 800000,
+      "probability": 1,
+      "phonemes": "ke"
+    },
+    {
+      "word": "late:",
+      "start": 36.33922902494331,
+      "end": 36.73396825396826,
+      "startSample": 801280,
+      "endSample": 809984,
+      "probability": 1,
+      "phonemes": "lˈate:"
+    },
+    {
+      "word": "involucra",
+      "start": 37.03582766439909,
+      "end": 37.74403628117914,
+      "startSample": 816640,
+      "endSample": 832256,
+      "probability": 1,
+      "phonemes": "ˌimbolˈukɾa"
+    },
+    {
+      "word": "mecanismos",
+      "start": 37.82530612244898,
+      "end": 38.53351473922903,
+      "startSample": 834048,
+      "endSample": 849664,
+      "probability": 1,
+      "phonemes": "mˌekanˈismos"
+    },
+    {
+      "word": "neurológicos",
+      "start": 38.568344671201814,
+      "end": 39.381043083900224,
+      "startSample": 850432,
+      "endSample": 868352,
+      "probability": 1,
+      "phonemes": "nˌeʊɾolˈoxikos"
+    },
+    {
+      "word": "complejos.",
+      "start": 39.50875283446712,
+      "end": 40.321451247165534,
+      "startSample": 871168,
+      "endSample": 889088,
+      "probability": 1,
+      "phonemes": "komplˈexos."
+    },
+    {
+      "word": "El",
+      "start": 40.4259410430839,
+      "end": 40.57687074829932,
+      "startSample": 891392,
+      "endSample": 894720,
+      "probability": 1,
+      "phonemes": "el"
+    },
+    {
+      "word": "nervio",
+      "start": 40.66975056689343,
+      "end": 41.145759637188206,
+      "startSample": 896768,
+      "endSample": 907264,
+      "probability": 1,
+      "phonemes": "nˈeɾβjo"
+    },
+    {
+      "word": "trigémino",
+      "start": 41.23863945578231,
+      "end": 41.84235827664399,
+      "startSample": 909312,
+      "endSample": 922624,
+      "probability": 1,
+      "phonemes": "tɾixˈemino"
+    },
+    {
+      "word": "transmite",
+      "start": 41.94684807256236,
+      "end": 42.6550566893424,
+      "startSample": 924928,
+      "endSample": 940544,
+      "probability": 1,
+      "phonemes": "tɾansmˈite"
+    },
+    {
+      "word": "señales",
+      "start": 42.75954648526077,
+      "end": 43.270385487528344,
+      "startSample": 942848,
+      "endSample": 954112,
+      "probability": 1,
+      "phonemes": "seɲˈales"
+    },
+    {
+      "word": "desde",
+      "start": 43.37487528344671,
+      "end": 43.68834467120181,
+      "startSample": 956416,
+      "endSample": 963328,
+      "probability": 1,
+      "phonemes": "ðˌesðe"
+    },
+    {
+      "word": "la",
+      "start": 43.75800453514739,
+      "end": 43.8508843537415,
+      "startSample": 964864,
+      "endSample": 966912,
+      "probability": 1,
+      "phonemes": "la"
+    },
+    {
+      "word": "cara",
+      "start": 43.95537414965986,
+      "end": 44.199183673469385,
+      "startSample": 969216,
+      "endSample": 974592,
+      "probability": 1,
+      "phonemes": "kˈaɾa"
+    },
+    {
+      "word": "y",
+      "start": 44.24562358276644,
+      "end": 44.268843537414966,
+      "startSample": 975616,
+      "endSample": 976128,
+      "probability": 1,
+      "phonemes": "i"
+    },
+    {
+      "word": "las",
+      "start": 44.33850340136055,
+      "end": 44.50104308390023,
+      "startSample": 977664,
+      "endSample": 981248,
+      "probability": 1,
+      "phonemes": "las"
+    },
+    {
+      "word": "meninges.",
+      "start": 44.640362811791384,
+      "end": 45.244081632653064,
+      "startSample": 984320,
+      "endSample": 997632,
+      "probability": 1,
+      "phonemes": "menˈiŋxes."
+    },
+    {
+      "word": "Esas",
+      "start": 45.406621315192744,
+      "end": 45.72009070294784,
+      "startSample": 1001216,
+      "endSample": 1008128,
+      "probability": 1,
+      "phonemes": "ˈesas"
+    },
+    {
+      "word": "señales",
+      "start": 45.81297052154195,
+      "end": 46.31219954648526,
+      "startSample": 1010176,
+      "endSample": 1021184,
+      "probability": 1,
+      "phonemes": "seɲˈales"
+    },
+    {
+      "word": "viajan",
+      "start": 46.393469387755104,
+      "end": 46.79981859410431,
+      "startSample": 1022976,
+      "endSample": 1031936,
+      "probability": 1,
+      "phonemes": "βjˈaxan"
+    },
+    {
+      "word": "hacia",
+      "start": 46.84625850340136,
+      "end": 47.18294784580499,
+      "startSample": 1032960,
+      "endSample": 1040384,
+      "probability": 1,
+      "phonemes": "ˌasja"
+    },
+    {
+      "word": "redes",
+      "start": 47.28743764172336,
+      "end": 47.705396825396825,
+      "startSample": 1042688,
+      "endSample": 1051904,
+      "probability": 1,
+      "phonemes": "rˈeðes"
+    },
+    {
+      "word": "del",
+      "start": 47.79827664399093,
+      "end": 47.96081632653061,
+      "startSample": 1053952,
+      "endSample": 1057536,
+      "probability": 1,
+      "phonemes": "ðel"
+    },
+    {
+      "word": "sistema",
+      "start": 48.03047619047619,
+      "end": 48.55292517006803,
+      "startSample": 1059072,
+      "endSample": 1070592,
+      "probability": 1,
+      "phonemes": "sistˈema"
+    },
+    {
+      "word": "nervioso,",
+      "start": 48.64580498866213,
+      "end": 49.35401360544218,
+      "startSample": 1072640,
+      "endSample": 1088256,
+      "probability": 1,
+      "phonemes": "neɾβjˈoso,"
+    },
+    {
+      "word": "donde",
+      "start": 49.52816326530612,
+      "end": 49.957732426303856,
+      "startSample": 1092096,
+      "endSample": 1101568,
+      "probability": 1,
+      "phonemes": "dˌonde"
+    },
+    {
+      "word": "el",
+      "start": 50.108662131519274,
+      "end": 50.24798185941043,
+      "startSample": 1104896,
+      "endSample": 1107968,
+      "probability": 1,
+      "phonemes": "el"
+    },
+    {
+      "word": "cerebro",
+      "start": 50.3524716553288,
+      "end": 50.712380952380954,
+      "startSample": 1110272,
+      "endSample": 1118208,
+      "probability": 1,
+      "phonemes": "seɾˈeβɾo"
+    },
+    {
+      "word": "las",
+      "start": 50.770430839002266,
+      "end": 50.89814058956916,
+      "startSample": 1119488,
+      "endSample": 1122304,
+      "probability": 1,
+      "phonemes": "las"
+    },
+    {
+      "word": "integra",
+      "start": 50.96780045351474,
+      "end": 51.49024943310658,
+      "startSample": 1123840,
+      "endSample": 1135360,
+      "probability": 1,
+      "phonemes": "intˈeɣɾa"
+    },
+    {
+      "word": "como",
+      "start": 51.60634920634921,
+      "end": 51.79210884353741,
+      "startSample": 1137920,
+      "endSample": 1142016,
+      "probability": 1,
+      "phonemes": "kˌomo"
+    },
+    {
+      "word": "parte",
+      "start": 51.88498866213152,
+      "end": 52.21006802721089,
+      "startSample": 1144064,
+      "endSample": 1151232,
+      "probability": 1,
+      "phonemes": "pˈaɾte"
+    },
+    {
+      "word": "de",
+      "start": 52.27972789115646,
+      "end": 52.360997732426306,
+      "startSample": 1152768,
+      "endSample": 1154560,
+      "probability": 1,
+      "phonemes": "ðe"
+    },
+    {
+      "word": "la",
+      "start": 52.43065759637188,
+      "end": 52.53514739229025,
+      "startSample": 1156096,
+      "endSample": 1158400,
+      "probability": 1,
+      "phonemes": "la"
+    },
+    {
+      "word": "experiencia",
+      "start": 52.60480725623583,
+      "end": 53.53360544217687,
+      "startSample": 1159936,
+      "endSample": 1180416,
+      "probability": 1,
+      "phonemes": "ˌekspeɾjˈɛnsja"
+    },
+    {
+      "word": "del",
+      "start": 53.60326530612245,
+      "end": 53.707755102040814,
+      "startSample": 1181952,
+      "endSample": 1184256,
+      "probability": 1,
+      "phonemes": "ðel"
+    },
+    {
+      "word": "dolor.",
+      "start": 53.78902494331066,
+      "end": 54.102494331065756,
+      "startSample": 1186048,
+      "endSample": 1192960,
+      "probability": 1,
+      "phonemes": "ðolˈoɾ."
+    },
+    {
+      "word": "¿Y",
+      "start": 54.21859410430839,
+      "end": 54.24181405895692,
+      "startSample": 1195520,
+      "endSample": 1196032,
+      "probability": 1,
+      "phonemes": "i"
+    },
+    {
+      "word": "cómo",
+      "start": 54.34630385487528,
+      "end": 54.590113378684805,
+      "startSample": 1198336,
+      "endSample": 1203712,
+      "probability": 1,
+      "phonemes": "kˈomo"
+    },
+    {
+      "word": "operan",
+      "start": 54.68299319727891,
+      "end": 55.05451247165533,
+      "startSample": 1205760,
+      "endSample": 1213952,
+      "probability": 1,
+      "phonemes": "opˈeɾan"
+    },
+    {
+      "word": "a",
+      "start": 55.089342403628116,
+      "end": 55.10095238095238,
+      "startSample": 1214720,
+      "endSample": 1214976,
+      "probability": 1,
+      "phonemes": "a"
+    },
+    {
+      "word": "alguien",
+      "start": 55.147392290249435,
+      "end": 55.472471655328796,
+      "startSample": 1216000,
+      "endSample": 1223168,
+      "probability": 1,
+      "phonemes": "ˈalɣjen"
+    },
+    {
+      "word": "despierto?",
+      "start": 55.55374149659864,
+      "end": 56.343219954648525,
+      "startSample": 1224960,
+      "endSample": 1242368,
+      "probability": 1,
+      "phonemes": "despjˈeɾto?"
+    },
+    {
+      "word": "En",
+      "start": 56.59863945578231,
+      "end": 56.726349206349205,
+      "startSample": 1248000,
+      "endSample": 1250816,
+      "probability": 1,
+      "phonemes": "en"
+    },
+    {
+      "word": "algunas",
+      "start": 56.830839002267574,
+      "end": 57.30684807256236,
+      "startSample": 1253120,
+      "endSample": 1263616,
+      "probability": 1,
+      "phonemes": "alɣˈunas"
+    },
+    {
+      "word": "cirugías,",
+      "start": 57.36489795918367,
+      "end": 58.258866213151926,
+      "startSample": 1264896,
+      "endSample": 1284608,
+      "probability": 1,
+      "phonemes": "sˌiɾuxˈiʲas,"
+    },
+    {
+      "word": "hablar",
+      "start": 58.61877551020408,
+      "end": 58.94385487528345,
+      "startSample": 1292544,
+      "endSample": 1299712,
+      "probability": 1,
+      "phonemes": "aβlˈaɾ"
+    },
+    {
+      "word": "o",
+      "start": 59.013514739229024,
+      "end": 59.03673469387755,
+      "startSample": 1301248,
+      "endSample": 1301760,
+      "probability": 1,
+      "phonemes": "o"
+    },
+    {
+      "word": "mover",
+      "start": 59.15283446712018,
+      "end": 59.396643990929704,
+      "startSample": 1304320,
+      "endSample": 1309696,
+      "probability": 1,
+      "phonemes": "moβˈeɾ"
+    },
+    {
+      "word": "una",
+      "start": 59.45469387755102,
+      "end": 59.71011337868481,
+      "startSample": 1310976,
+      "endSample": 1316608,
+      "probability": 1,
+      "phonemes": "ˈuna"
+    },
+    {
+      "word": "mano",
+      "start": 59.791383219954646,
+      "end": 60.12807256235828,
+      "startSample": 1318400,
+      "endSample": 1325824,
+      "probability": 1,
+      "phonemes": "mˈano"
+    },
+    {
+      "word": "ayuda",
+      "start": 60.22095238095238,
+      "end": 60.615691609977326,
+      "startSample": 1327872,
+      "endSample": 1336576,
+      "probability": 1,
+      "phonemes": "aʝˈuða"
+    },
+    {
+      "word": "al",
+      "start": 60.78984126984127,
+      "end": 60.882721088435375,
+      "startSample": 1340416,
+      "endSample": 1342464,
+      "probability": 1,
+      "phonemes": "al"
+    },
+    {
+      "word": "equipo",
+      "start": 60.98721088435374,
+      "end": 61.44,
+      "startSample": 1344768,
+      "endSample": 1354752,
+      "probability": 1,
+      "phonemes": "ekˈipo"
+    },
+    {
+      "word": "a",
+      "start": 61.55609977324263,
+      "end": 61.59092970521542,
+      "startSample": 1357312,
+      "endSample": 1358080,
+      "probability": 1,
+      "phonemes": "a"
+    },
+    {
+      "word": "vigilar",
+      "start": 61.68380952380952,
+      "end": 62.252698412698415,
+      "startSample": 1360128,
+      "endSample": 1372672,
+      "probability": 1,
+      "phonemes": "βˌixilˈaɾ"
+    },
+    {
+      "word": "el",
+      "start": 62.32235827664399,
+      "end": 62.40362811791383,
+      "startSample": 1374208,
+      "endSample": 1376000,
+      "probability": 1,
+      "phonemes": "el"
+    },
+    {
+      "word": "lenguaje",
+      "start": 62.461678004535145,
+      "end": 63.07700680272109,
+      "startSample": 1377280,
+      "endSample": 1390848,
+      "probability": 1,
+      "phonemes": "leŋɡwˈaxe"
+    },
+    {
+      "word": "y",
+      "start": 63.16988662131519,
+      "end": 63.27437641723356,
+      "startSample": 1392896,
+      "endSample": 1395200,
+      "probability": 1,
+      "phonemes": "iʲ"
+    },
+    {
+      "word": "el",
+      "start": 63.344036281179136,
+      "end": 63.448526077097505,
+      "startSample": 1396736,
+      "endSample": 1399040,
+      "probability": 1,
+      "phonemes": "el"
+    },
+    {
+      "word": "movimiento.",
+      "start": 63.5762358276644,
+      "end": 64.4237641723356,
+      "startSample": 1401856,
+      "endSample": 1420544,
+      "probability": 1,
+      "phonemes": "mˌoβimjˈɛnto."
+    },
+    {
+      "word": "No",
+      "start": 64.60952380952381,
+      "end": 64.7372335600907,
+      "startSample": 1424640,
+      "endSample": 1427456,
+      "probability": 1,
+      "phonemes": "nˈo"
+    },
+    {
+      "word": "significa",
+      "start": 64.78367346938775,
+      "end": 65.5847619047619,
+      "startSample": 1428480,
+      "endSample": 1446144,
+      "probability": 1,
+      "phonemes": "sˌiɡnifˈika"
+    },
+    {
+      "word": "que",
+      "start": 65.66603174603175,
+      "end": 65.72408163265307,
+      "startSample": 1447936,
+      "endSample": 1449216,
+      "probability": 1,
+      "phonemes": "ke"
+    },
+    {
+      "word": "operen",
+      "start": 65.78213151927437,
+      "end": 66.1536507936508,
+      "startSample": 1450496,
+      "endSample": 1458688,
+      "probability": 1,
+      "phonemes": "opˈeɾen"
+    },
+    {
+      "word": "sin",
+      "start": 66.2117006802721,
+      "end": 66.37424036281179,
+      "startSample": 1459968,
+      "endSample": 1463552,
+      "probability": 1,
+      "phonemes": "sin"
+    },
+    {
+      "word": "anestesia:",
+      "start": 66.42068027210884,
+      "end": 67.1288888888889,
+      "startSample": 1464576,
+      "endSample": 1480192,
+      "probability": 1,
+      "phonemes": "ˌanestˈesja:"
+    },
+    {
+      "word": "se",
+      "start": 67.32625850340136,
+      "end": 67.39591836734694,
+      "startSample": 1484544,
+      "endSample": 1486080,
+      "probability": 1,
+      "phonemes": "se"
+    },
+    {
+      "word": "protegen",
+      "start": 67.5004081632653,
+      "end": 67.95319727891156,
+      "startSample": 1488384,
+      "endSample": 1498368,
+      "probability": 1,
+      "phonemes": "pɾotˈexen"
+    },
+    {
+      "word": "las",
+      "start": 68.0344671201814,
+      "end": 68.1621768707483,
+      "startSample": 1500160,
+      "endSample": 1502976,
+      "probability": 1,
+      "phonemes": "las"
+    },
+    {
+      "word": "estructuras",
+      "start": 68.25505668934241,
+      "end": 68.94004535147393,
+      "startSample": 1505024,
+      "endSample": 1520128,
+      "probability": 1,
+      "phonemes": "ˌestɾuktˈuɾas"
+    },
+    {
+      "word": "sensibles",
+      "start": 68.99809523809523,
+      "end": 69.67147392290249,
+      "startSample": 1521408,
+      "endSample": 1536256,
+      "probability": 1,
+      "phonemes": "sensˈiβles"
+    },
+    {
+      "word": "y",
+      "start": 69.72952380952381,
+      "end": 69.76435374149659,
+      "startSample": 1537536,
+      "endSample": 1538304,
+      "probability": 1,
+      "phonemes": "i"
+    },
+    {
+      "word": "se",
+      "start": 69.83401360544218,
+      "end": 69.90367346938775,
+      "startSample": 1539840,
+      "endSample": 1541376,
+      "probability": 1,
+      "phonemes": "se"
+    },
+    {
+      "word": "mantiene",
+      "start": 69.9849433106576,
+      "end": 70.44934240362812,
+      "startSample": 1543168,
+      "endSample": 1553408,
+      "probability": 1,
+      "phonemes": "mantjˈene"
+    },
+    {
+      "word": "vigilancia",
+      "start": 70.53061224489795,
+      "end": 71.20399092970521,
+      "startSample": 1555200,
+      "endSample": 1570048,
+      "probability": 1,
+      "phonemes": "βˌixilˈansja"
+    },
+    {
+      "word": "médica",
+      "start": 71.27365079365079,
+      "end": 71.65678004535147,
+      "startSample": 1571584,
+      "endSample": 1580032,
+      "probability": 1,
+      "phonemes": "mˈeðika"
+    },
+    {
+      "word": "continua.",
+      "start": 71.72643990929706,
+      "end": 72.36498866213152,
+      "startSample": 1581568,
+      "endSample": 1595648,
+      "probability": 1,
+      "phonemes": "kontˈinwa."
+    },
+    {
+      "word": "Es",
+      "start": 72.49269841269842,
+      "end": 72.63201814058957,
+      "startSample": 1598464,
+      "endSample": 1601536,
+      "probability": 1,
+      "phonemes": "ˈes"
+    },
+    {
+      "word": "una",
+      "start": 72.70167800453515,
+      "end": 72.8758276643991,
+      "startSample": 1603072,
+      "endSample": 1606912,
+      "probability": 1,
+      "phonemes": "ˈuna"
+    },
+    {
+      "word": "técnica",
+      "start": 73.00353741496599,
+      "end": 73.49115646258504,
+      "startSample": 1609728,
+      "endSample": 1620480,
+      "probability": 1,
+      "phonemes": "tˈeknika"
+    },
+    {
+      "word": "para",
+      "start": 73.63047619047619,
+      "end": 73.83945578231292,
+      "startSample": 1623552,
+      "endSample": 1628160,
+      "probability": 1,
+      "phonemes": "pˌaɾa"
+    },
+    {
+      "word": "casos",
+      "start": 73.93233560090702,
+      "end": 74.3502947845805,
+      "startSample": 1630208,
+      "endSample": 1639424,
+      "probability": 1,
+      "phonemes": "kˈasos"
+    },
+    {
+      "word": "seleccionados.",
+      "start": 74.40834467120182,
+      "end": 75.45324263038549,
+      "startSample": 1640704,
+      "endSample": 1663744,
+      "probability": 1,
+      "phonemes": "sˌeleksjonˈaðos."
+    },
+    {
+      "word": "Tu",
+      "start": 75.9524716553288,
+      "end": 76.03374149659864,
+      "startSample": 1674752,
+      "endSample": 1676544,
+      "probability": 1,
+      "phonemes": "tu"
+    },
+    {
+      "word": "cerebro",
+      "start": 76.138231292517,
+      "end": 76.579410430839,
+      "startSample": 1678848,
+      "endSample": 1688576,
+      "probability": 1,
+      "phonemes": "seɾˈeβɾo"
+    },
+    {
+      "word": "interpreta",
+      "start": 76.62585034013605,
+      "end": 77.53142857142858,
+      "startSample": 1689600,
+      "endSample": 1709568,
+      "probability": 1,
+      "phonemes": "ˌinteɾpɾˈeta"
+    },
+    {
+      "word": "el",
+      "start": 77.58947845804988,
+      "end": 77.62430839002268,
+      "startSample": 1710848,
+      "endSample": 1711616,
+      "probability": 1,
+      "phonemes": "el"
+    },
+    {
+      "word": "dolor;",
+      "start": 77.67074829931973,
+      "end": 78.00743764172336,
+      "startSample": 1712640,
+      "endSample": 1720064,
+      "probability": 1,
+      "phonemes": "ðolˈoɾ;"
+    },
+    {
+      "word": "su",
+      "start": 78.44861678004536,
+      "end": 78.5879365079365,
+      "startSample": 1729792,
+      "endSample": 1732864,
+      "probability": 1,
+      "phonemes": "su"
+    },
+    {
+      "word": "tejido",
+      "start": 78.72725623582767,
+      "end": 79.20326530612245,
+      "startSample": 1735936,
+      "endSample": 1746432,
+      "probability": 1,
+      "phonemes": "texˈiðo"
+    },
+    {
+      "word": "no",
+      "start": 79.29614512471656,
+      "end": 79.38902494331066,
+      "startSample": 1748480,
+      "endSample": 1750528,
+      "probability": 1,
+      "phonemes": "nˈo"
+    },
+    {
+      "word": "lo",
+      "start": 79.44707482993198,
+      "end": 79.50512471655328,
+      "startSample": 1751808,
+      "endSample": 1753088,
+      "probability": 1,
+      "phonemes": "lo"
+    },
+    {
+      "word": "siente.",
+      "start": 79.57478458049887,
+      "end": 80.0972335600907,
+      "startSample": 1754624,
+      "endSample": 1766144,
+      "probability": 1,
+      "phonemes": "sjˈɛnte."
+    },
+    {
+      "word": "Esa",
+      "start": 80.36426303854876,
+      "end": 80.66612244897959,
+      "startSample": 1772032,
+      "endSample": 1778688,
+      "probability": 1,
+      "phonemes": "ˈesa"
+    },
+    {
+      "word": "diferencia",
+      "start": 80.73578231292517,
+      "end": 81.45560090702948,
+      "startSample": 1780224,
+      "endSample": 1796096,
+      "probability": 1,
+      "phonemes": "ðˌifeɾˈɛnsja"
+    },
+    {
+      "word": "explica",
+      "start": 81.5136507936508,
+      "end": 82.09414965986394,
+      "startSample": 1797376,
+      "endSample": 1810176,
+      "probability": 1,
+      "phonemes": "eksplˈika"
+    },
+    {
+      "word": "por",
+      "start": 82.22185941043084,
+      "end": 82.361179138322,
+      "startSample": 1812992,
+      "endSample": 1816064,
+      "probability": 1,
+      "phonemes": "poɾ"
+    },
+    {
+      "word": "qué",
+      "start": 82.4540589569161,
+      "end": 82.53532879818594,
+      "startSample": 1818112,
+      "endSample": 1819904,
+      "probability": 1,
+      "phonemes": "kˈe"
+    },
+    {
+      "word": "sí",
+      "start": 82.63981859410431,
+      "end": 82.7675283446712,
+      "startSample": 1822208,
+      "endSample": 1825024,
+      "probability": 1,
+      "phonemes": "sˈi"
+    },
+    {
+      "word": "puede",
+      "start": 82.94167800453515,
+      "end": 83.24353741496599,
+      "startSample": 1828864,
+      "endSample": 1835520,
+      "probability": 1,
+      "phonemes": "pwˈeðe"
+    },
+    {
+      "word": "dolerte",
+      "start": 83.33641723356008,
+      "end": 83.8704761904762,
+      "startSample": 1837568,
+      "endSample": 1849344,
+      "probability": 1,
+      "phonemes": "ðolˈeɾte"
+    },
+    {
+      "word": "la",
+      "start": 83.97496598639455,
+      "end": 84.06784580498866,
+      "startSample": 1851648,
+      "endSample": 1853696,
+      "probability": 1,
+      "phonemes": "la"
+    },
+    {
+      "word": "cabeza.",
+      "start": 84.19555555555556,
+      "end": 84.71800453514739,
+      "startSample": 1856512,
+      "endSample": 1868032,
+      "probability": 1,
+      "phonemes": "kaβˈesa."
+    }
+  ],
+  "sentenceSampleChecks": [
+    {
+      "samples": 50944,
+      "durationFrames": 199,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 100352,
+      "durationFrames": 392,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 42752,
+      "durationFrames": 167,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 172288,
+      "durationFrames": 673,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 105728,
+      "durationFrames": 413,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 194048,
+      "durationFrames": 758,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 76032,
+      "durationFrames": 297,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 148224,
+      "durationFrames": 579,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 109568,
+      "durationFrames": 428,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 194304,
+      "durationFrames": 759,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 53248,
+      "durationFrames": 208,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 175616,
+      "durationFrames": 686,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 174080,
+      "durationFrames": 680,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 77056,
+      "durationFrames": 301,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 96768,
+      "durationFrames": 378,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 103936,
+      "durationFrames": 406,
+      "hopSamples": 256,
+      "verified": true
+    }
+  ],
+  "timingFromTextLength": false
+}

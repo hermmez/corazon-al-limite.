@@ -11,3 +11,14 @@ output/episodio-01-cerebro/*_remotion.mp4
 output/episodio-01-cerebro/*_encoding.mp4
 output/episodio-01-cerebro/encuadre-*.png
 public/episodios/episodio-01-cerebro/audio/*.wav
+public/episodios/episodio-01-cerebro-125/audio/*.wav
+output/episodio-01-cerebro-125/*_remotion.mp4
+output/episodio-01-cerebro-125/*_encoding.mp4
+# Local inspection drafts stay on disk; only the final movie is published.
+output/episodio-01-cerebro-125/*_PREVIEW.mp4
+output/episodio-01-cerebro-125/miniatura_PREVIEW.jpg
+output/episodio-01-cerebro-125/alineacion_error.json
+output/episodio-01-cerebro-125/alineacion_ultima_verificada.json
+output/episodio-01-cerebro-125/*_PREVIEW.json
+output/episodio-01-cerebro-125/*_PREVIEW.srt
+output/episodio-01-cerebro-125/*preview*.json

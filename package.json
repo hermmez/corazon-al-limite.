@@ -27,7 +27,11 @@
     "validate:piloto10s": "node scripts/piloto10s/validar.mjs",
     "render:episodio01": "node scripts/episodio-01-cerebro/render.mjs",
     "validate:episodio01": "node scripts/episodio-01-cerebro/validar.mjs",
-    "playback:episodio01": "node scripts/episodio-01-cerebro/comprobar_navegador.mjs"
+    "playback:episodio01": "node scripts/episodio-01-cerebro/comprobar_navegador.mjs",
+    "render:episodio01:ritmo": "node scripts/episodio-01-cerebro-125/render.mjs",
+    "preview:episodio01:ritmo": "node scripts/episodio-01-cerebro-125/render.mjs --preview",
+    "validate:episodio01:ritmo": "node scripts/episodio-01-cerebro-125/validar.mjs",
+    "validate:preview:ritmo": "node scripts/episodio-01-cerebro-125/validar.mjs --preview"
   },
   "dependencies": {
     "@elevenlabs/elevenlabs-js": "2.75.0",

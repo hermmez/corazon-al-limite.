@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "method": "waveform correlation of real clean narration against delivered AAC, checked in every scene",
+  "reference": "public/episodios/episodio-01-cerebro-125/audio/narracion.flac",
+  "sampleRate": 16000,
+  "expectedOffsetMs": 0,
+  "measuredOffsetMs": 0.0,
+  "playbackRate": 1,
+  "lastWordEndMs": 69680,
+  "scenes": [
+    {
+      "scene": 0,
+      "start": 0.078583,
+      "end": 7.368292,
+      "correlation": 0.991380486028984
+    },
+    {
+      "scene": 1,
+      "start": 7.618292,
+      "end": 17.727438,
+      "correlation": 0.9924004238846705
+    },
+    {
+      "scene": 2,
+      "start": 17.811042,
+      "end": 25.002833,
+      "correlation": 0.9910276621812764
+    },
+    {
+      "scene": 3,
+      "start": 25.086417,
+      "end": 33.421354,
+      "correlation": 0.9925002085875487
+    },
+    {
+      "scene": 4,
+      "start": 33.504958,
+      "end": 44.466458,
+      "correlation": 0.9944795620181957
+    },
+    {
+      "scene": 5,
+      "start": 44.559333,
+      "end": 52.976417,
+      "correlation": 0.992986822344988
+    },
+    {
+      "scene": 6,
+      "start": 53.262417,
+      "end": 61.947833,
+      "correlation": 0.9939539104558279
+    },
+    {
+      "scene": 7,
+      "start": 62.422667,
+      "end": 69.679937,
+      "correlation": 0.9919068978553349
+    }
+  ]
+}

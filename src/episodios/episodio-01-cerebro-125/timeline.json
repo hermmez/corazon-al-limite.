@@ -1,0 +1,641 @@
+{
+  "status": "production-real-expanded-voice",
+  "audioReady": true,
+  "previewAudioReady": false,
+  "scenes": [
+    {
+      "id": 0,
+      "start": 0,
+      "end": 7.583,
+      "voiceStart": 0.078583,
+      "voiceEnd": 7.368292
+    },
+    {
+      "id": 1,
+      "start": 7.583,
+      "end": 17.776,
+      "voiceStart": 7.618292,
+      "voiceEnd": 17.727438
+    },
+    {
+      "id": 2,
+      "start": 17.776,
+      "end": 25.051,
+      "voiceStart": 17.811042,
+      "voiceEnd": 25.002833
+    },
+    {
+      "id": 3,
+      "start": 25.051,
+      "end": 33.47,
+      "voiceStart": 25.086417,
+      "voiceEnd": 33.421354
+    },
+    {
+      "id": 4,
+      "start": 33.47,
+      "end": 44.524,
+      "voiceStart": 33.504958,
+      "voiceEnd": 44.466458
+    },
+    {
+      "id": 5,
+      "start": 44.524,
+      "end": 53.227,
+      "voiceStart": 44.559333,
+      "voiceEnd": 52.976417
+    },
+    {
+      "id": 6,
+      "start": 53.227,
+      "end": 62.388,
+      "voiceStart": 53.262417,
+      "voiceEnd": 61.947833
+    },
+    {
+      "id": 7,
+      "start": 62.388,
+      "end": 70,
+      "voiceStart": 62.422667,
+      "voiceEnd": 69.679937
+    }
+  ],
+  "events": [
+    {
+      "id": "s0-a0",
+      "scene": 0,
+      "action": 0,
+      "start": 0,
+      "cue": "Tu cerebro",
+      "label": "Impacto y entrada del cerebro",
+      "kind": "semantic",
+      "audioWord": 0
+    },
+    {
+      "id": "s0-a1",
+      "scene": 0,
+      "action": 1,
+      "start": 1.026,
+      "cue": "sentir dolor",
+      "label": "Separar sensor de interpretación",
+      "kind": "semantic",
+      "audioWord": 4
+    },
+    {
+      "id": "s0-a2",
+      "scene": 0,
+      "action": 2,
+      "start": 2.075,
+      "cue": "Pero",
+      "label": "Reacción del personaje",
+      "kind": "semantic",
+      "audioWord": 6
+    },
+    {
+      "id": "s0-a3",
+      "scene": 0,
+      "action": 3,
+      "start": 2.418,
+      "cue": "no lo siente",
+      "label": "Señalar la paradoja",
+      "kind": "semantic",
+      "audioWord": 8
+    },
+    {
+      "id": "s0-a4",
+      "scene": 0,
+      "action": 4,
+      "start": 4.801,
+      "cue": "la cabeza",
+      "label": "Acercamiento a la cabeza",
+      "kind": "semantic",
+      "audioWord": 16
+    },
+    {
+      "id": "s0-a5",
+      "scene": 0,
+      "action": 5,
+      "start": 6.839,
+      "cue": "alrededor",
+      "label": "Seguir el contorno sensible",
+      "kind": "semantic",
+      "audioWord": 21
+    },
+    {
+      "id": "s1-a0",
+      "scene": 1,
+      "action": 0,
+      "start": 7.583,
+      "cue": "El tejido",
+      "label": "Localizar el tejido cerebral",
+      "kind": "semantic",
+      "audioWord": 22
+    },
+    {
+      "id": "s1-a1",
+      "scene": 1,
+      "action": 1,
+      "start": 9.184,
+      "cue": "receptores del dolor",
+      "label": "Tachar receptores propios del dolor",
+      "kind": "semantic",
+      "audioWord": 27
+    },
+    {
+      "id": "s1-a2",
+      "scene": 1,
+      "action": 2,
+      "start": 10.705,
+      "cue": "sensores",
+      "label": "Construir un sensor periférico",
+      "kind": "semantic",
+      "audioWord": 30
+    },
+    {
+      "id": "s1-a3",
+      "scene": 1,
+      "action": 3,
+      "start": 11.912,
+      "cue": "estímulos",
+      "label": "Marcar el estímulo en piel",
+      "kind": "semantic",
+      "audioWord": 33
+    },
+    {
+      "id": "s1-detail-stimulus",
+      "scene": 1,
+      "action": 3,
+      "start": 13.44,
+      "cue": "dañinos",
+      "label": "ESTÍMULO POTENCIALMENTE DAÑINO",
+      "visible": "ESTÍMULO POTENCIALMENTE DAÑINO",
+      "detail": "stimulus",
+      "kind": "semantic-detail",
+      "audioWord": 35
+    },
+    {
+      "id": "s1-a4",
+      "scene": 1,
+      "action": 4,
+      "start": 14.379,
+      "cue": "una central",
+      "label": "Comparar con una central",
+      "kind": "semantic",
+      "audioWord": 38
+    },
+    {
+      "id": "s1-a5",
+      "scene": 1,
+      "action": 5,
+      "start": 15.753,
+      "cue": "alarmas",
+      "label": "Transferir una señal al cerebro",
+      "kind": "semantic",
+      "audioWord": 42
+    },
+    {
+      "id": "s2-a0",
+      "scene": 2,
+      "action": 0,
+      "start": 17.776,
+      "cue": "En cambio",
+      "label": "Abrir las capas de la cabeza",
+      "kind": "semantic",
+      "audioWord": 47
+    },
+    {
+      "id": "s2-a1",
+      "scene": 2,
+      "action": 1,
+      "start": 18.635,
+      "cue": "las meninges",
+      "label": "Separar las meninges",
+      "kind": "semantic",
+      "audioWord": 49
+    },
+    {
+      "id": "s2-a2",
+      "scene": 2,
+      "action": 2,
+      "start": 19.425,
+      "cue": "lo recubren",
+      "label": "Recorrer la cubierta",
+      "kind": "semantic",
+      "audioWord": 52
+    },
+    {
+      "id": "s2-a3",
+      "scene": 2,
+      "action": 3,
+      "start": 20.572,
+      "cue": "ciertos vasos",
+      "label": "Dibujar vasos sensibles",
+      "kind": "semantic",
+      "audioWord": 54
+    },
+    {
+      "id": "s2-a4",
+      "scene": 2,
+      "action": 4,
+      "start": 22.067,
+      "cue": "estructuras",
+      "label": "Localizar otras estructuras",
+      "kind": "semantic",
+      "audioWord": 58
+    },
+    {
+      "id": "s2-detail-outer-head",
+      "scene": 2,
+      "action": 4,
+      "start": 22.871,
+      "cue": "cabeza",
+      "label": "OTRAS ESTRUCTURAS DE LA CABEZA",
+      "visible": "OTRAS ESTRUCTURAS DE LA CABEZA",
+      "detail": "outer-head",
+      "kind": "semantic-detail",
+      "audioWord": 61
+    },
+    {
+      "id": "s2-a5",
+      "scene": 2,
+      "action": 5,
+      "start": 24.074,
+      "cue": "señales de dolor",
+      "label": "Enviar una señal hacia fuera",
+      "kind": "semantic",
+      "audioWord": 65
+    },
+    {
+      "id": "s3-a0",
+      "scene": 3,
+      "action": 0,
+      "start": 25.051,
+      "cue": "También",
+      "label": "Ampliar a estructuras externas",
+      "kind": "semantic",
+      "audioWord": 68
+    },
+    {
+      "id": "s3-a1",
+      "scene": 3,
+      "action": 1,
+      "start": 26.034,
+      "cue": "cuero cabelludo",
+      "label": "Mostrar corte de piel",
+      "kind": "semantic",
+      "audioWord": 72
+    },
+    {
+      "id": "s3-a2",
+      "scene": 3,
+      "action": 2,
+      "start": 26.972,
+      "cue": "los músculos",
+      "label": "Revelar músculo y tensión",
+      "kind": "semantic",
+      "audioWord": 75
+    },
+    {
+      "id": "s3-a3",
+      "scene": 3,
+      "action": 3,
+      "start": 28.176,
+      "cue": "una migraña",
+      "label": "Reacción de dolor de cabeza",
+      "kind": "semantic",
+      "audioWord": 78
+    },
+    {
+      "id": "s3-a4",
+      "scene": 3,
+      "action": 4,
+      "start": 29.606,
+      "cue": "un vaso",
+      "label": "Descartar una explicación única",
+      "kind": "semantic",
+      "audioWord": 83
+    },
+    {
+      "id": "s3-a5",
+      "scene": 3,
+      "action": 5,
+      "start": 31.424,
+      "cue": "mecanismos neurológicos",
+      "label": "Construir una red neurológica",
+      "kind": "semantic",
+      "audioWord": 88
+    },
+    {
+      "id": "s4-a0",
+      "scene": 4,
+      "action": 0,
+      "start": 33.47,
+      "cue": "El nervio",
+      "label": "Localizar la vía nerviosa",
+      "kind": "semantic",
+      "audioWord": 91
+    },
+    {
+      "id": "s4-a1",
+      "scene": 4,
+      "action": 1,
+      "start": 33.7,
+      "cue": "nervio trigémino",
+      "label": "Construir las tres ramas del trigémino",
+      "kind": "semantic",
+      "audioWord": 92
+    },
+    {
+      "id": "s4-a2",
+      "scene": 4,
+      "action": 2,
+      "start": 34.731,
+      "cue": "transmite señales",
+      "label": "Seguir el impulso eléctrico",
+      "kind": "semantic",
+      "audioWord": 94
+    },
+    {
+      "id": "s4-detail-face",
+      "scene": 4,
+      "action": 2,
+      "start": 36.343,
+      "cue": "cara",
+      "label": "SEÑALES DE LA CARA",
+      "visible": "SEÑALES DE LA CARA",
+      "detail": "face",
+      "kind": "semantic-detail",
+      "audioWord": 98
+    },
+    {
+      "id": "s4-detail-meninges",
+      "scene": 4,
+      "action": 2,
+      "start": 36.891,
+      "cue": "meninges",
+      "label": "SEÑALES DE LAS MENINGES",
+      "visible": "SEÑALES DE LAS MENINGES",
+      "detail": "meninges",
+      "kind": "semantic-detail",
+      "audioWord": 101
+    },
+    {
+      "id": "s4-a3",
+      "scene": 4,
+      "action": 3,
+      "start": 39.009,
+      "cue": "redes",
+      "label": "Acercarse a una conexión neuronal",
+      "kind": "semantic",
+      "audioWord": 106
+    },
+    {
+      "id": "s4-detail-networks",
+      "scene": 4,
+      "action": 3,
+      "start": 39.604,
+      "cue": "sistema",
+      "label": "REDES DEL SISTEMA NERVIOSO",
+      "visible": "REDES DEL SISTEMA NERVIOSO",
+      "detail": "networks",
+      "kind": "semantic-detail",
+      "audioWord": 108
+    },
+    {
+      "id": "s4-detail-relay",
+      "scene": 4,
+      "action": 3,
+      "start": 41.461,
+      "cue": "cerebro",
+      "label": "EL CEREBRO RECIBE SEÑALES",
+      "visible": "EL CEREBRO RECIBE SEÑALES",
+      "detail": "relay",
+      "kind": "semantic-detail",
+      "audioWord": 112
+    },
+    {
+      "id": "s4-a4",
+      "scene": 4,
+      "action": 4,
+      "start": 41.954,
+      "cue": "integra",
+      "label": "Converger señales en el cerebro",
+      "kind": "semantic",
+      "audioWord": 114
+    },
+    {
+      "id": "s4-a5",
+      "scene": 4,
+      "action": 5,
+      "start": 43.268,
+      "cue": "experiencia del dolor",
+      "label": "Revelar la interpretación del dolor",
+      "kind": "semantic",
+      "audioWord": 119
+    },
+    {
+      "id": "s5-a0",
+      "scene": 5,
+      "action": 0,
+      "start": 44.524,
+      "cue": "cómo operan",
+      "label": "Entrar al entorno médico",
+      "kind": "semantic",
+      "audioWord": 123
+    },
+    {
+      "id": "s5-a1",
+      "scene": 5,
+      "action": 1,
+      "start": 45.632,
+      "cue": "despierto",
+      "label": "Mostrar paciente despierto",
+      "kind": "semantic",
+      "audioWord": 127
+    },
+    {
+      "id": "s5-a2",
+      "scene": 5,
+      "action": 2,
+      "start": 46.783,
+      "cue": "algunas cirugías",
+      "label": "Delimitar casos seleccionados",
+      "kind": "semantic",
+      "audioWord": 129
+    },
+    {
+      "id": "s5-a3",
+      "scene": 5,
+      "action": 3,
+      "start": 48.332,
+      "cue": "hablar",
+      "label": "Mostrar una respuesta verbal sin mover boca",
+      "kind": "semantic",
+      "audioWord": 131
+    },
+    {
+      "id": "s5-a4",
+      "scene": 5,
+      "action": 4,
+      "start": 49.001,
+      "cue": "una mano",
+      "label": "Solicitar y mostrar gesto de mano",
+      "kind": "semantic",
+      "audioWord": 134
+    },
+    {
+      "id": "s5-detail-monitor",
+      "scene": 5,
+      "action": 4,
+      "start": 50.227,
+      "cue": "equipo",
+      "label": "RESPUESTA Y VIGILANCIA",
+      "visible": "RESPUESTA Y VIGILANCIA",
+      "detail": "monitor",
+      "kind": "semantic-detail",
+      "audioWord": 138
+    },
+    {
+      "id": "s5-a5",
+      "scene": 5,
+      "action": 5,
+      "start": 51.295,
+      "cue": "el lenguaje",
+      "label": "Relacionar lenguaje y movimiento con vigilancia",
+      "kind": "semantic",
+      "audioWord": 141
+    },
+    {
+      "id": "s6-a0",
+      "scene": 6,
+      "action": 0,
+      "start": 53.227,
+      "cue": "No significa",
+      "label": "Corregir el malentendido",
+      "kind": "semantic",
+      "audioWord": 146
+    },
+    {
+      "id": "s6-a1",
+      "scene": 6,
+      "action": 1,
+      "start": 54.544,
+      "cue": "sin anestesia",
+      "label": "Localizar la anestesia en la superficie",
+      "kind": "semantic",
+      "audioWord": 150
+    },
+    {
+      "id": "s6-a2",
+      "scene": 6,
+      "action": 2,
+      "start": 55.436,
+      "cue": "se protegen",
+      "label": "Activar protección de tejidos",
+      "kind": "semantic",
+      "audioWord": 152
+    },
+    {
+      "id": "s6-a3",
+      "scene": 6,
+      "action": 3,
+      "start": 56.179,
+      "cue": "estructuras sensibles",
+      "label": "Distinguir tejido de estructuras sensibles",
+      "kind": "semantic",
+      "audioWord": 155
+    },
+    {
+      "id": "s6-a4",
+      "scene": 6,
+      "action": 4,
+      "start": 58.0,
+      "cue": "vigilancia médica",
+      "label": "Construir el monitor y sus indicadores",
+      "kind": "semantic",
+      "audioWord": 160
+    },
+    {
+      "id": "s6-detail-protocol",
+      "scene": 6,
+      "action": 4,
+      "start": 58.956,
+      "cue": "continua",
+      "label": "VIGILANCIA QUE CONTINÚA",
+      "visible": "VIGILANCIA QUE CONTINÚA",
+      "detail": "protocol",
+      "kind": "semantic-detail",
+      "audioWord": 162
+    },
+    {
+      "id": "s6-a5",
+      "scene": 6,
+      "action": 5,
+      "start": 60.731,
+      "cue": "casos seleccionados",
+      "label": "Reafirmar la selección médica",
+      "kind": "semantic",
+      "audioWord": 167
+    },
+    {
+      "id": "s7-a0",
+      "scene": 7,
+      "action": 0,
+      "start": 62.388,
+      "cue": "Tu cerebro",
+      "label": "Regresar al cerebro y al personaje",
+      "kind": "semantic",
+      "audioWord": 169
+    },
+    {
+      "id": "s7-a1",
+      "scene": 7,
+      "action": 1,
+      "start": 62.961,
+      "cue": "interpreta el dolor",
+      "label": "Recibir una alarma",
+      "kind": "semantic",
+      "audioWord": 171
+    },
+    {
+      "id": "s7-a2",
+      "scene": 7,
+      "action": 2,
+      "start": 64.518,
+      "cue": "su tejido",
+      "label": "Separar el tejido de su cubierta",
+      "kind": "semantic",
+      "audioWord": 174
+    },
+    {
+      "id": "s7-a3",
+      "scene": 7,
+      "action": 3,
+      "start": 65.2,
+      "cue": "no lo siente",
+      "label": "Contrastar procesar con sentir",
+      "kind": "semantic",
+      "audioWord": 176
+    },
+    {
+      "id": "s7-a4",
+      "scene": 7,
+      "action": 4,
+      "start": 66.177,
+      "cue": "Esa diferencia",
+      "label": "Cerrar la explicación de la paradoja",
+      "kind": "semantic",
+      "audioWord": 179
+    },
+    {
+      "id": "s7-a5",
+      "scene": 7,
+      "action": 5,
+      "start": 68.57,
+      "cue": "dolerte",
+      "label": "Conectar la conclusión con la cabeza",
+      "kind": "semantic",
+      "audioWord": 186
+    }
+  ]
+}

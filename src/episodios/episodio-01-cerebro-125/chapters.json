@@ -1,0 +1,274 @@
+[
+  {
+    "id": 0,
+    "title": "La paradoja",
+    "text": "¡Tu cerebro no puede sentir dolor! Pero si no lo siente, ¿por qué puede dolerte tanto la cabeza? La clave está alrededor.",
+    "lines": [
+      "¿TU CEREBRO",
+      "NO SIENTE DOLOR?"
+    ],
+    "sizes": [
+      105,
+      90
+    ],
+    "old": [
+      0,
+      4.7
+    ],
+    "dark": true,
+    "cues": [
+      "Tu cerebro",
+      "sentir dolor",
+      "Pero",
+      "no lo siente",
+      "la cabeza",
+      "alrededor"
+    ],
+    "actions": [
+      "Impacto y entrada del cerebro",
+      "Separar sensor de interpretación",
+      "Reacción del personaje",
+      "Señalar la paradoja",
+      "Acercamiento a la cabeza",
+      "Seguir el contorno sensible"
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Sensores y central",
+    "text": "El tejido cerebral no tiene receptores del dolor: sensores que detectan estímulos potencialmente dañinos. Es como una central que recibe alarmas, sin esos sensores propios.",
+    "lines": [
+      "RECIBE ALARMAS.",
+      "NO TIENE ESOS SENSORES."
+    ],
+    "sizes": [
+      94,
+      69
+    ],
+    "old": [
+      6,
+      12.3
+    ],
+    "dark": false,
+    "cues": [
+      "El tejido",
+      "receptores del dolor",
+      "sensores",
+      "estímulos",
+      "una central",
+      "alarmas"
+    ],
+    "actions": [
+      "Localizar el tejido cerebral",
+      "Tachar receptores propios del dolor",
+      "Construir un sensor periférico",
+      "Marcar el estímulo en piel",
+      "Comparar con una central",
+      "Transferir una señal al cerebro"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Las estructuras sensibles",
+    "text": "En cambio, las meninges que lo recubren, ciertos vasos y otras estructuras de la cabeza sí pueden enviar señales de dolor.",
+    "lines": [
+      "ALREDEDOR",
+      "SÍ HAY SENSIBILIDAD"
+    ],
+    "sizes": [
+      107,
+      76
+    ],
+    "old": [
+      22.5,
+      32.4
+    ],
+    "dark": true,
+    "cues": [
+      "En cambio",
+      "las meninges",
+      "lo recubren",
+      "ciertos vasos",
+      "estructuras",
+      "señales de dolor"
+    ],
+    "actions": [
+      "Abrir las capas de la cabeza",
+      "Separar las meninges",
+      "Recorrer la cubierta",
+      "Dibujar vasos sensibles",
+      "Localizar otras estructuras",
+      "Enviar una señal hacia fuera"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Más que vasos",
+    "text": "También pueden doler el cuero cabelludo y los músculos. Pero una migraña no es simplemente un vaso que late: involucra mecanismos neurológicos complejos.",
+    "lines": [
+      "NO ES SOLO",
+      "UN VASO QUE LATE."
+    ],
+    "sizes": [
+      112,
+      91
+    ],
+    "old": [
+      13.6,
+      21.3
+    ],
+    "dark": false,
+    "cues": [
+      "También",
+      "cuero cabelludo",
+      "los músculos",
+      "una migraña",
+      "un vaso",
+      "mecanismos neurológicos"
+    ],
+    "actions": [
+      "Ampliar a estructuras externas",
+      "Mostrar corte de piel",
+      "Revelar músculo y tensión",
+      "Reacción de dolor de cabeza",
+      "Descartar una explicación única",
+      "Construir una red neurológica"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "La ruta nerviosa",
+    "text": "El nervio trigémino transmite señales desde la cara y las meninges. Esas señales viajan hacia redes del sistema nervioso, donde el cerebro las integra como parte de la experiencia del dolor.",
+    "lines": [
+      "TRES RAMAS.",
+      "UNA RED QUE INTERPRETA."
+    ],
+    "sizes": [
+      113,
+      66
+    ],
+    "old": [
+      33.5,
+      42.6
+    ],
+    "dark": true,
+    "cues": [
+      "El nervio",
+      "nervio trigémino",
+      "transmite señales",
+      "redes",
+      "integra",
+      "experiencia del dolor"
+    ],
+    "actions": [
+      "Localizar la vía nerviosa",
+      "Construir las tres ramas del trigémino",
+      "Seguir el impulso eléctrico",
+      "Acercarse a una conexión neuronal",
+      "Converger señales en el cerebro",
+      "Revelar la interpretación del dolor"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Cirugía despierta",
+    "text": "¿Y cómo operan a alguien despierto? En algunas cirugías, hablar o mover una mano ayuda al equipo a vigilar el lenguaje y el movimiento.",
+    "lines": [
+      "¿DESPIERTO",
+      "EN UNA CIRUGÍA?"
+    ],
+    "sizes": [
+      112,
+      91
+    ],
+    "old": [
+      44.4,
+      54.7
+    ],
+    "dark": false,
+    "cues": [
+      "cómo operan",
+      "despierto",
+      "algunas cirugías",
+      "hablar",
+      "una mano",
+      "el lenguaje"
+    ],
+    "actions": [
+      "Entrar al entorno médico",
+      "Mostrar paciente despierto",
+      "Delimitar casos seleccionados",
+      "Mostrar una respuesta verbal sin mover boca",
+      "Solicitar y mostrar gesto de mano",
+      "Relacionar lenguaje y movimiento con vigilancia"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Anestesia y vigilancia",
+    "text": "No significa que operen sin anestesia: se protegen las estructuras sensibles y se mantiene vigilancia médica continua. Es una técnica para casos seleccionados.",
+    "lines": [
+      "ANESTESIA.",
+      "VIGILANCIA CONTINUA."
+    ],
+    "sizes": [
+      115,
+      74
+    ],
+    "old": [
+      55.3,
+      63.3
+    ],
+    "dark": false,
+    "cues": [
+      "No significa",
+      "sin anestesia",
+      "se protegen",
+      "estructuras sensibles",
+      "vigilancia médica",
+      "casos seleccionados"
+    ],
+    "actions": [
+      "Corregir el malentendido",
+      "Localizar la anestesia en la superficie",
+      "Activar protección de tejidos",
+      "Distinguir tejido de estructuras sensibles",
+      "Construir el monitor y sus indicadores",
+      "Reafirmar la selección médica"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "La revelación",
+    "text": "Tu cerebro interpreta el dolor; su tejido no lo siente. Esa diferencia explica por qué sí puede dolerte la cabeza.",
+    "lines": [
+      "PROCESAR DOLOR",
+      "NO ES SENTIRLO."
+    ],
+    "sizes": [
+      91,
+      105
+    ],
+    "old": [
+      64.5,
+      69.8
+    ],
+    "dark": true,
+    "cues": [
+      "Tu cerebro",
+      "interpreta el dolor",
+      "su tejido",
+      "no lo siente",
+      "Esa diferencia",
+      "dolerte"
+    ],
+    "actions": [
+      "Regresar al cerebro y al personaje",
+      "Recibir una alarma",
+      "Separar el tejido de su cubierta",
+      "Contrastar procesar con sentir",
+      "Cerrar la explicación de la paradoja",
+      "Conectar la conclusión con la cabeza"
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "method": "Inspección del contacto de 12 fotogramas del MP4 final, fotograma a 36s y comparación con el primer render.",
+  "preliminaryProblems": [
+    {
+      "start": 39.75,
+      "end": 42,
+      "problem": "Diagrama de sinapsis permanece casi igual durante 2.25s",
+      "fix": "Construcción de red en sistema/nervioso; pulso dirigido en cerebro; dos cambios de foco ligados a palabras reales. Capas SVG ancladas a inset:0."
+    }
+  ],
+  "intervals": [],
+  "compositionKept": "misma paleta, ilustraciones, tipografía y estilo del piloto",
+  "newPaidGenerations": 0,
+  "finalInspection": {
+    "contactSheet": "inspeccion_final.jpg",
+    "seconds": [
+      0.3,
+      4.8,
+      12,
+      23,
+      29,
+      36,
+      40.4,
+      42.5,
+      46,
+      50.5,
+      57,
+      67
+    ],
+    "result": "Textos principales legibles, etiquetas anatómicas ancladas correctamente, diagramas y rostro sin obstrucción por subtítulos. Se mantienen paleta, personaje e imágenes aprobadas.",
+    "correctedQuietInterval": [
+      39.75,
+      42.0
+    ],
+    "newRenderedAlerts": 0,
+    "note": "La inspección por muestras no equivale a revisión humana exhaustiva de cada fotograma."
+  }
+}
