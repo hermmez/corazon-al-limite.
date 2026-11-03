@@ -113,6 +113,24 @@
       "event": "s6-a5",
       "kind": "memory / discovery accent",
       "cue": "actividad diferente"
+    },
+    {
+      "time": 29.314,
+      "event": "s3-a2",
+      "kind": "quiet footsteps following the protagonist",
+      "cue": "trabajar"
+    },
+    {
+      "time": 30.615,
+      "event": "s3-a3",
+      "kind": "quiet footsteps following the protagonist",
+      "cue": "casa"
+    },
+    {
+      "time": 58.514,
+      "event": "s6-a3",
+      "kind": "quiet footsteps following the protagonist",
+      "cue": "cambia tu recorrido"
     }
   ],
   "master": "public/episodios/episodio-02-tiempo/audio/mezcla_master.flac"

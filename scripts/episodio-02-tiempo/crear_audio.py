@@ -65,6 +65,14 @@ def main():
             tick(event["start"],.014);kind="attention focus tick"
         else:continue
         sfx_events.append({"time":event["start"],"event":event["id"],"kind":kind,"cue":event["cue"]})
+    # Grounded everyday actions: a few quiet steps, never a continuous loop.
+    for event in timeline["events"]:
+        if (event["scene"]==3 and event["action"]in[2,3])or(event["scene"]==6 and event["action"]==3):
+            for step in [0,.22]:
+                t=np.arange(round(.085*SR))/SR
+                sound=.011*(helpers.smooth(rng.normal(0,1,len(t)),17)+.3*np.sin(2*np.pi*130*t))*np.exp(-t*44)*(1-np.exp(-t*600))
+                add(fx,sound,event["start"]+step,-.18 if step==0 else .18)
+            sfx_events.append({"time":event["start"],"event":event["id"],"kind":"quiet footsteps following the protagonist","cue":event["cue"]})
     fade=np.minimum(1,np.arange(n)/(SR*.08))*np.minimum(1,(n-1-np.arange(n))/(SR*.32))
     music*=fade[:,None];fx*=fade[:,None]
     energy=np.sqrt(np.maximum(0,helpers.smooth(np.mean(voice**2,axis=1),round(.06*SR))))

@@ -1,0 +1,130 @@
+{
+  "status": "corrections-authored-awaiting-final-analysis",
+  "firstPass": {
+    "videoSha256": "0f55bdf5a906736a675e8ca5ce3e99ba973b7f381ff424105a066aa2233384fd",
+    "lowEvolution": [
+      {
+        "start": 7.75,
+        "end": 10.75,
+        "duration": 3.0,
+        "review": "required"
+      },
+      {
+        "start": 16.75,
+        "end": 20.0,
+        "duration": 3.25,
+        "review": "required"
+      },
+      {
+        "start": 33.0,
+        "end": 35.25,
+        "duration": 2.25,
+        "review": "required"
+      },
+      {
+        "start": 46.25,
+        "end": 49.75,
+        "duration": 3.5,
+        "review": "required"
+      },
+      {
+        "start": 55.0,
+        "end": 57.25,
+        "duration": 2.25,
+        "review": "required"
+      }
+    ],
+    "possibleRepetition": [
+      {
+        "start": 8.25,
+        "end": 10.75,
+        "duration": 2.5,
+        "review": "required"
+      },
+      {
+        "start": 17.5,
+        "end": 20.0,
+        "duration": 2.5,
+        "review": "required"
+      },
+      {
+        "start": 47.0,
+        "end": 49.5,
+        "duration": 2.5,
+        "review": "required"
+      }
+    ],
+    "thresholdsUnchanged": true
+  },
+  "corrections": [
+    {
+      "scene": 1,
+      "concept": "Un día sigue teniendo24horas",
+      "changes": "Reacción en extraño, arco de24sectores día/noche desde días hasta horas y encuadre breve en horas."
+    },
+    {
+      "scene": 2,
+      "concept": "Las primeras experiencias pueden destacar",
+      "changes": "Escuela por etapas: cuerpo/techo en niño; ventanas en experiencias; puerta en nuevas; bandera y nombre en primera escuela."
+    },
+    {
+      "scene": 3,
+      "concept": "Detalles distintivos en el recuerdo de una rutina",
+      "changes": "Tarjetas pasan a primer plano en memoria, se agrupan en menos y resaltan detalles/distintivos. Se conserva no ocurre igual en todos."
+    },
+    {
+      "scene": 5,
+      "concept": "Experiencia y retrospectiva son perspectivas diferentes",
+      "changes": "Plano de espera se acerca en siempre y vuelve en Mientras; la atención cambia el foco y tamaño del reloj sin modificar su tiempo objetivo."
+    },
+    {
+      "scene": 6,
+      "concept": "Salir de la rutina",
+      "changes": "Ciclo casa/oficina/casa se construye en vida y se abre en menos/automática, antes de las nuevas acciones."
+    }
+  ],
+  "frameInspection": {
+    "method": "Contacto de5frames Remotion anclados a palabras reales",
+    "file": "inspeccion_correcciones.jpg",
+    "samples": [
+      {
+        "scene": 1,
+        "word": "horas",
+        "frame": 302,
+        "time": 10.066666666666666
+      },
+      {
+        "scene": 2,
+        "word": "nuevas",
+        "frame": 579,
+        "time": 19.3
+      },
+      {
+        "scene": 3,
+        "word": "detalles",
+        "frame": 1019,
+        "time": 33.96666666666667
+      },
+      {
+        "scene": 5,
+        "word": "siempre",
+        "frame": 1408,
+        "time": 46.93333333333333
+      },
+      {
+        "scene": 6,
+        "word": "menos",
+        "frame": 1691,
+        "time": 56.36666666666667
+      }
+    ],
+    "observations": "Títulos ajustados a850px seguros; ilustraciones y gráficos dentro del área principal; las nuevas capas explican conceptos sin depender de subtítulos."
+  },
+  "voiceClarity": {
+    "hook": "Ahora cierras los ojos sustituye Ahora parpadeas para mejorar inteligibilidad, conservando el gancho.",
+    "distinction": "Punto tras más lenta y coma tras Mientras la vives separan la frase.",
+    "finalAudit": "auditoria_frases_clave.json",
+    "testsAreNotFinalAlignment": true
+  },
+  "intervals": []
+}

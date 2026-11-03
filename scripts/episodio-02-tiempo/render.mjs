@@ -71,8 +71,10 @@ execFileSync(
     "0:v:0",
     "-map",
     "1:a:0",
+    "-map_metadata",
+    "-1",
     "-vf",
-    `scale=in_range=${range}:out_range=tv,format=yuv420p`,
+    `sidedata=delete:type=ICC_PROFILE,scale=in_range=${range}:out_range=tv,format=yuv420p`,
     "-c:v",
     "libx264",
     "-preset",
@@ -93,6 +95,10 @@ execFileSync(
     "bt709",
     "-color_trc",
     "bt709",
+    // Explicit H.264 VUI avoids inherited ICC/container data hiding primaries
+    // or transfer tags even when FFmpeg's color options were supplied.
+    "-bsf:v",
+    "h264_metadata=colour_primaries=1:transfer_characteristics=1:matrix_coefficients=1:video_full_range_flag=0",
     "-c:a",
     "aac",
     "-b:a",
@@ -113,16 +119,24 @@ execFileSync(
 );
 const delivered = probe(encoding);
 assert.equal(Number(delivered.format.duration), 70);
-assert.equal(
-  delivered.streams.find((s) => s.codec_type === "video").nb_frames,
-  "2100",
+const deliveredVideo = delivered.streams.find((s) => s.codec_type === "video");
+assert.equal(deliveredVideo.nb_frames, "2100");
+assert.equal(deliveredVideo.color_range, "tv");
+assert.equal(deliveredVideo.color_space, "bt709");
+assert.equal(deliveredVideo.color_primaries, "bt709");
+assert.equal(deliveredVideo.color_transfer, "bt709");
+assert.ok(
+  !deliveredVideo.side_data_list?.some(
+    (data) => data.side_data_type === "ICC Profile",
+  ),
+  "La entrega no debe conservar un perfil ICC heredado junto al VUI BT.709.",
 );
 // Atomic publication prevents probes or users from opening a half-written index.
 fs.renameSync(encoding, target);
 const thumbArgument = process.argv.find((a) =>
   a.startsWith("--thumbnail-time="),
 );
-const thumbTime = thumbArgument ? Number(thumbArgument.split("=")[1]) : 3.6;
+const thumbTime = thumbArgument ? Number(thumbArgument.split("=")[1]) : 2.0;
 assert.ok(Number.isFinite(thumbTime) && thumbTime >= 0 && thumbTime < 70);
 execFileSync(
   "ffmpeg",

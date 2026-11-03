@@ -9,16 +9,15 @@ import {
   cancelRender,
 } from "remotion";
 import { Audio } from "@remotion/media";
-import { SceneTitle } from "../../Piloto10s/Titles";
 import { C, p, lift, sceneAt, activeEvent, cueTime } from "./motion";
 import { StoryWorld } from "./World";
 import { CaptionsTiempo } from "./Captions";
 import timeline from "./timeline.json";
-import chapters from "./chapters.json";
-import labels from "./labels.json";
 
 const useFont = () => {
-  const [handle] = useState(() => delayRender("Manrope local · episodio02"));
+  const [handle] = useState(() =>
+    delayRender("Manrope · una historia cotidiana"),
+  );
   useEffect(() => {
     new FontFace(
       "Episode Manrope",
@@ -33,6 +32,99 @@ const useFont = () => {
       .catch(cancelRender);
   }, [handle]);
 };
+const chapterHeadings = [
+  {
+    context: "UN DÍA CUALQUIERA",
+    lines: ["¿YA ES", "DICIEMBRE?"],
+    sizes: [108, 108],
+  },
+  {
+    context: "LAS MISMAS 24 HORAS",
+    lines: ["MISMO DÍA.", "OTRA SENSACIÓN."],
+    sizes: [92, 84],
+  },
+  {
+    context: "UN RECUERDO DE INFANCIA",
+    lines: ["AQUEL PRIMER DÍA."],
+    sizes: [82],
+  },
+  {
+    context: "LUNES. MARTES. OTRA VEZ.",
+    lines: ["¿OTRA VEZ LO MISMO?"],
+    sizes: [78],
+  },
+  {
+    context: "UNA SEMANA DISTINTA",
+    lines: ["ESA SEMANA", "QUE SÍ RECUERDAS."],
+    sizes: [91, 80],
+  },
+  { context: "DOS PERSPECTIVAS", lines: ["ESPERAR ≠ RECORDAR."], sizes: [75] },
+  { context: "HOY CAMBIA ALGO", lines: ["POR OTRO CAMINO."], sizes: [86] },
+  {
+    context: "AL TERMINAR EL DÍA",
+    lines: ["UN DÍA", "QUE SE DISTINGUE."],
+    sizes: [94, 82],
+  },
+];
+const StoryHeading: React.FC<{
+  time: number;
+  scene: number;
+  question: boolean;
+}> = ({ time, scene, question }) => {
+  const { fps } = useVideoConfig(),
+    start = question ? cueTime(7, 4) : timeline.scenes[scene].start,
+    age = time - start,
+    entrance = scene === 0 && !question ? 1 : lift(age + 0.035, fps),
+    hold = scene === 0 ? 2.8 : 1.55,
+    visible = question ? 1 : 1 - p(age, hold, hold + 0.3),
+    h = chapterHeadings[scene],
+    lines = question ? ["¿SE TE VA", "VOLANDO EL AÑO?"] : h.lines,
+    sizes = question ? [106, 78] : h.sizes;
+  return (
+    <div
+      style={{
+        position: "absolute",
+        left: 86,
+        top: question ? 244 : 225,
+        width: 850,
+        color: C.cream,
+        opacity: visible,
+        translate: `0 ${(1 - entrance) * -12}px`,
+        textShadow: "0 3px 18px #07132166",
+      }}
+    >
+      <div
+        style={{
+          fontSize: 23,
+          fontWeight: 800,
+          letterSpacing: 3,
+          marginBottom: 24,
+          color: C.teal,
+          clipPath: `inset(0 ${(1 - entrance) * 100}% 0 0)`,
+        }}
+      >
+        {question ? "CORAZÓN AL LÍMITE" : h.context}
+      </div>
+      {lines.map((line, i) => (
+        <div key={line} style={{ overflow: "hidden", height: sizes[i] * 1.1 }}>
+          <div
+            style={{
+              fontSize: sizes[i],
+              lineHeight: 1.02,
+              fontWeight: 800,
+              letterSpacing: -3,
+              whiteSpace: "nowrap",
+              color: i === lines.length - 1 ? C.gold : C.cream,
+              translate: `0 ${(1 - entrance) * 110}%`,
+            }}
+          >
+            {line}
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+};
 
 export const Episodio02Tiempo: React.FC = () => {
   useFont();
@@ -40,143 +132,124 @@ export const Episodio02Tiempo: React.FC = () => {
     { fps } = useVideoConfig(),
     time = frame / fps,
     scene = Math.max(0, sceneAt(time)),
-    chapter = chapters[scene],
     s = timeline.scenes[scene],
+    age = time - s.start,
     event = activeEvent(time),
     action = Math.min(5, event.action),
-    age = time - s.start,
-    focus = lift(time - event.start, fps),
-    dark = chapter.dark;
-  // Moves link successive chapters; inner scene gestures follow spoken concepts.
-  const anchors = [
-    { x: 0, y: 0, z: 1 },
-    { x: -8, y: 0, z: 1.015 },
-    { x: 8, y: -5, z: 1.025 },
-    { x: -8, y: 0, z: 1.015 },
-    { x: 0, y: -5, z: 1.025 },
-    { x: 0, y: 0, z: 1.01 },
-    { x: 8, y: -4, z: 1.02 },
-    { x: 0, y: 0, z: 1.015 },
-  ];
-  const before = anchors[Math.max(0, scene - 1)],
-    after = anchors[scene],
-    k = p(age, 0, 0.32),
-    x = before.x + (after.x - before.x) * k,
-    y = before.y + (after.y - before.y) * k,
-    zoom = before.z + (after.z - before.z) * k;
-  const enter = p(age, 0, 0.32),
-    endQuestion = scene === 7 && action >= 4;
-  const titleStart = endQuestion ? cueTime(7, 4) : s.start;
-  const note = [
-    "La percepción cambia; el reloj no.",
-    "Atención, rutina, novedad y memoria pueden influir.",
-    "Hitos que distinguen una experiencia de otra.",
-    "Rutina no significa deterioro de la memoria.",
-    "Comparación retrospectiva, no horas diferentes.",
-    "Durante una experiencia y al recordarla después.",
-    "Novedad con intención: no una promesa de frenar el tiempo.",
-    "No hay una explicación única para todas las personas.",
+    enter = p(age, 0, 0.3),
+    question = scene === 7 && time >= cueTime(7, 4);
+  // Motivated edits: a remembered morning, a door, a change of focus and a walk.
+  const transition = [
+    "opening",
+    "match",
+    "memory",
+    "door",
+    "match",
+    "focus",
+    "travel",
+    "door",
   ][scene];
+  const incoming: React.CSSProperties =
+    transition === "door"
+      ? { clipPath: `inset(0 ${(1 - enter) * 100}% 0 0)` }
+      : transition === "travel"
+        ? { translate: `${(1 - enter) * 1080}px 0` }
+        : transition === "memory"
+          ? {
+              opacity: enter,
+              scale: 1 + 0.06 * (1 - enter),
+              transformOrigin: "50% 45%",
+            }
+          : transition === "focus"
+            ? {
+                opacity: enter,
+                scale: 1 + 0.05 * (1 - enter),
+                transformOrigin: "50% 48%",
+              }
+            : { opacity: scene === 0 ? 1 : enter };
   return (
     <AbsoluteFill
       style={{
         fontFamily: '"Episode Manrope",sans-serif',
         overflow: "hidden",
-        background: dark ? C.navy : C.cream,
+        background: C.navy,
       }}
     >
-      <svg
-        width={1080}
-        height={1920}
-        style={{
-          position: "absolute",
-          inset: 0,
-          translate: `${x * 0.25}px ${y * 0.25}px`,
-        }}
-      >
-        <defs>
-          <radialGradient id="e02-glow">
-            <stop stopColor={C.teal} stopOpacity=".18" />
-            <stop offset="1" stopColor={C.teal} stopOpacity="0" />
-          </radialGradient>
-          <pattern
-            id="e02-grid"
-            width="90"
-            height="90"
-            patternUnits="userSpaceOnUse"
-          >
-            <path
-              d="M90 0H0V90"
-              stroke={C.teal}
-              strokeWidth="1"
-              opacity=".1"
-              fill="none"
-            />
-          </pattern>
-        </defs>
-        <rect width="1080" height="1920" fill="url(#e02-grid)" />
-        <ellipse cx="550" cy="940" rx="700" ry="900" fill="url(#e02-glow)" />
-        {[...Array(12)].map((_, i) => (
-          <circle
-            key={i}
-            cx={75 + i * 83}
-            cy={580 + ((i * 157) % 700)}
-            r={i % 3 === 0 ? 3 : 2}
-            fill={C.teal}
-            opacity=".15"
-          />
-        ))}
-      </svg>
-      <AbsoluteFill
-        style={{
-          transformOrigin: "50% 48%",
-          scale: zoom,
-          translate: `${x}px ${y}px`,
-        }}
-      >
-        {scene > 0 && age < 0.34 && (
-          <AbsoluteFill
-            style={{
-              translate: `${-enter * 75}px 0`,
-              opacity: 1 - p(age, 0.1, 0.34),
-            }}
-          >
-            <StoryWorld
-              scene={scene - 1}
-              time={timeline.scenes[scene - 1].end - 0.001}
-              action={5}
-            />
-          </AbsoluteFill>
-        )}
+      {scene > 0 && age < 0.32 && (
         <AbsoluteFill
           style={{
-            clipPath:
-              scene === 0
-                ? undefined
-                : scene % 2 === 0
-                  ? `inset(0 ${(1 - enter) * 100}% 0 0 round 34px)`
-                  : `circle(${enter * 150}% at 50% 48%)`,
-            translate: `${(1 - enter) * (scene === 0 ? 0 : 55)}px 0`,
+            translate:
+              transition === "travel" ? `${-enter * 1080}px 0` : undefined,
           }}
         >
-          <StoryWorld time={time} scene={scene} action={action} />
+          <StoryWorld
+            time={timeline.scenes[scene - 1].end - 0.001}
+            scene={scene - 1}
+            action={5}
+          />
         </AbsoluteFill>
+      )}
+      <AbsoluteFill style={incoming}>
+        <StoryWorld time={time} scene={scene} action={action} />
       </AbsoluteFill>
+      {transition === "memory" && age < 0.28 && (
+        <AbsoluteFill
+          style={{
+            background: C.gold,
+            opacity: 0.28 * Math.exp(-Math.pow((age - 0.07) / 0.055, 2)),
+          }}
+        />
+      )}
+      {transition === "door" && age < 0.3 && (
+        <div
+          style={{
+            position: "absolute",
+            left: enter * 1080 - 20,
+            top: 0,
+            width: 30,
+            height: 1920,
+            background: "#26494F",
+            boxShadow: "-20px 0 50px #07132155",
+            opacity: 1 - p(age, 0.24, 0.3),
+          }}
+        />
+      )}
+      <div
+        style={{
+          position: "absolute",
+          inset: "0 0 auto 0",
+          height: 560,
+          background:
+            "linear-gradient(180deg,#071725E8 0%,#0C2035B8 36%,#0C203530 78%,#0C203500 100%)",
+          pointerEvents: "none",
+        }}
+      />
+      <div
+        style={{
+          position: "absolute",
+          inset: "auto 0 0 0",
+          height: 510,
+          background:
+            "linear-gradient(180deg,#0C203500 0%,#0C2035A0 34%,#0C2035EE 100%)",
+          pointerEvents: "none",
+        }}
+      />
       <div
         style={{
           position: "absolute",
           left: 86,
           top: 103,
-          fontSize: 25,
-          fontWeight: 800,
-          letterSpacing: 2.6,
-          color: dark ? C.cream : C.ink,
           display: "flex",
-          gap: 14,
           alignItems: "center",
+          gap: 13,
+          color: C.cream,
+          fontSize: 24,
+          fontWeight: 800,
+          letterSpacing: 2.5,
+          textShadow: "0 2px 12px #07132177",
         }}
       >
-        <svg width="35" height="34" viewBox="0 0 40 40">
+        <svg width="33" height="33" viewBox="0 0 40 40">
           <path d="M20 33C-7 15 8 1 20 12C32 1 47 15 20 33Z" fill={C.coral} />
           <path
             d="M9 21h6l3-6 4 13 3-7h6"
@@ -185,13 +258,14 @@ export const Episodio02Tiempo: React.FC = () => {
             fill="none"
           />
         </svg>
-        CORAZÓN AL LÍMITE
+        CORAZÓN AL LÍMITE{" "}
+        <span style={{ fontSize: 19, opacity: 0.65, marginLeft: 8 }}>02</span>
       </div>
       <div
         style={{
           position: "absolute",
           left: 86,
-          top: 164,
+          top: 166,
           display: "flex",
           gap: 8,
         }}
@@ -201,15 +275,15 @@ export const Episodio02Tiempo: React.FC = () => {
             key={i}
             style={{
               width: 99,
-              height: 4,
+              height: 3,
               borderRadius: 2,
-              background: dark ? "#FFF4E022" : "#102C4322",
+              background: "#FFF4E026",
               overflow: "hidden",
             }}
           >
             <div
               style={{
-                height: 4,
+                height: 3,
                 width: `${p(time, v.start, v.end) * 100}%`,
                 background: C.teal,
               }}
@@ -217,57 +291,7 @@ export const Episodio02Tiempo: React.FC = () => {
           </div>
         ))}
       </div>
-      <SceneTitle
-        key={`${scene}-${endQuestion}`}
-        time={titleStart + (time - titleStart) * 1.25 + (scene === 0 ? 0.8 : 0)}
-        start={titleStart}
-        end={titleStart + (s.end - titleStart) * 1.25 + (scene === 0 ? 0.8 : 0)}
-        label={`EP. 02 · ${chapter.title}`}
-        lines={endQuestion ? ["¿SE TE VA", "VOLANDO EL AÑO?"] : chapter.lines}
-        sizes={endQuestion ? [108, 79] : chapter.sizes}
-        accent={dark ? C.gold : "#C6524D"}
-        dark={dark}
-      />
-      <div
-        style={{
-          position: "absolute",
-          left: 86,
-          top: 1265,
-          width: 850,
-          minHeight: 170,
-          boxSizing: "border-box",
-          padding: "23px 28px",
-          borderRadius: 25,
-          background: dark ? "#16364C" : C.cream,
-          border: `2px solid ${C.teal}44`,
-          color: dark ? C.cream : C.ink,
-          boxShadow: "0 12px 30px #07132110",
-        }}
-      >
-        <div
-          style={{
-            fontSize: 34,
-            fontWeight: 800,
-            lineHeight: 1.2,
-            color: dark ? C.gold : "#08796F",
-            clipPath: `inset(0 0 ${(1 - focus) * 100}% 0)`,
-            translate: `0 ${(1 - focus) * 8}px`,
-          }}
-        >
-          {labels[scene][action]}
-        </div>
-        <div
-          style={{
-            fontSize: 23,
-            fontWeight: 650,
-            lineHeight: 1.25,
-            marginTop: 14,
-            opacity: 0.74,
-          }}
-        >
-          {note}
-        </div>
-      </div>
+      <StoryHeading time={time} scene={scene} question={question} />
       <CaptionsTiempo time={time} />
       {timeline.audioReady && (
         <Audio

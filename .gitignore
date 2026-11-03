@@ -28,3 +28,7 @@ output/episodio-02-tiempo/*_encoding.mp4
 output/episodio-02-tiempo/alineacion_error.json
 output/episodio-02-tiempo/alineacion_ultima_verificada.json
 output/episodio-02-tiempo/revision-interna/
+output/revision-interna/
+# Inspection artifacts of the first proposal remain archived in version-01.
+output/episodio-02-tiempo/correccion_color.json
+output/episodio-02-tiempo/inspeccion_correcciones.jpg

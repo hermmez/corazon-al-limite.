@@ -84,5 +84,13 @@
       "end": 70,
       "text": "No puedes detener el reloj, pero sí crear recuerdos que hagan que tus días se distingan. ¿A ti también se te va volando el año?"
     }
-  ]
+  ],
+  "creativeDirection": {
+    "revision": 2,
+    "requestedByUser": "Reinvéntalo: una historia cotidiana con el personaje como protagonista",
+    "approach": "Un día suyo: dormitorio, trayecto, recuerdo escolar, oficina, casa, espera, nueva ruta y detalles vividos. Protagonista grande; escenarios a pantalla completa; menos paneles y rótulos permanentes.",
+    "previousVisualSourceCommit": "341a8f4",
+    "narrationRetained": true,
+    "paidGenerationCount": 0
+  }
 }

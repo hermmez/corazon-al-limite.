@@ -55,6 +55,14 @@
     ],
     "bytes": 1279162
   },
+  "personajes/06_saludando.png": {
+    "sha256": "4c0f7dc9d343a4d160d5883d80a7c157f1f823a4fe3f2ccb5be2cc9cf72fa8a9",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 1341187
+  },
   "personajes/08_senalando_arriba.png": {
     "sha256": "41207579280c87cab065a7a7054cce167ddb7e1249525caf0f76957a1bc4c097",
     "size": [
@@ -62,6 +70,14 @@
       1536
     ],
     "bytes": 1330066
+  },
+  "personajes/10_idea.png": {
+    "sha256": "543bb8d0d52849ca8644a4a893c51a5844483d2286665440ff1532f9192009dc",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 1247584
   },
   "personajes/11_sorprendido.png": {
     "sha256": "ec4b86a029086ad45a10a67ba57076fef0ac992999913721ed4ba798602fb3d3",
@@ -79,6 +95,22 @@
     ],
     "bytes": 1331283
   },
+  "personajes/15_confundido.png": {
+    "sha256": "d70ea15fc0d47db1137b590d34e1e814001936e2a86f8e8b5c8abdada5686f63",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 1303871
+  },
+  "personajes/18_bostezando.png": {
+    "sha256": "0eb21731eaeeef7a95aa8d4693ce40922f0c3557ae7554e97437faba602ee9cf",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 1236185
+  },
   "personajes/21_caminando.png": {
     "sha256": "4c4b9b6a9b0b15b92a5ac204d1a9a90ecbf3b88c9052a8da78c9cd0aba2d700b",
     "size": [
@@ -86,6 +118,22 @@
       1536
     ],
     "bytes": 1366306
+  },
+  "personajes/22_corriendo.png": {
+    "sha256": "8afd899db441b5a673f3bd00916549cb1c6fdea83850eacab9273da35402709d",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 1391783
+  },
+  "personajes/26_levantando_brazos.png": {
+    "sha256": "29407e42da275a63c7f13516e5b6fa344a4bd52938d08793b1f3abb2f16f88a1",
+    "size": [
+      1024,
+      1536
+    ],
+    "bytes": 1331343
   },
   "personajes/27_sentado.png": {
     "sha256": "48d2cd0950ffc8beadef319db7816d0d129ffdf39953ca92cf1edd31f3e31a3e",

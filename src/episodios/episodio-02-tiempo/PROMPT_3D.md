@@ -1,24 +1,25 @@
-# Apertura 3D opcional · reloj · 3 segundos
+# Reloj 3D opcional · objeto del dormitorio · máximo 3 segundos
 
-**Estado:** recurso no generado. No se encontró un clip de reloj 3D aprobado compatible. La versión actual utiliza un reloj animado en Remotion con profundidad simulada; el video completo no depende de una generación externa.
+**Estado: no generado.** No existe un clip aprobado de reloj 3D compatible. La historia cotidiana actual muestra al protagonista desde el primer momento dentro de su dormitorio; el reloj es un objeto ambiental. `WallClock` dibuja el objeto mediante SVG y activa profundidad simulada durante los primeros tres segundos. Esto no se presenta como un clip hiperrealista nuevo.
 
-**No ejecutar una generación de pago sin autorización explícita.** Este documento prepara la sustitución y no constituye una solicitud de generación a Higgsfield. No se ha gastado ningún crédito.
+No sustituir la historia por un plano aislado de producto ni retirar al protagonista para introducir 3D. **No ejecutar una generación de pago sin autorización explícita.** Este documento no solicita una generación ni autoriza un gasto. No se han generado personas, escenarios fotográficos ni clips externos para esta reinvención.
 
-## Prompt propuesto
+## Prompt de una posible capa de objeto
 
-> Vertical cinematic macro shot of a premium physical analog clock, exactly 3 seconds, 9:16 composition, photorealistic 3D rendered metal rim and glass with subtle reflections. Dark midnight navy studio background, warm ivory dial, teal edge light and a restrained golden highlight, matching an illustrated educational video palette. Begin immediately on a compelling close-up; the second hand advances and accelerates visibly as a metaphor for subjective time, with natural camera easing and a brief controlled camera push. No empty introduction. Around the final half-second, a warm thin light sweep crosses the dial and the circular face resolves toward a centered rectangular ivory calendar-card silhouette, leaving the card visually simple for a 2D Remotion transition. Keep the main clock inside x=170–880 and y=600–1230 on a 1080×1920 canvas; leave the upper and lower safe areas quiet for editorial text and captions added later. One continuous camera move, strong focal hierarchy, no cuts, no strobing. End on a stable front-facing silhouette and matched screen position that can transform into the 2D calendar. No people, no logos, no watermarks, no generated words, no dates, no UI, no random numerals, no narration or music. Metallic realism only in the opening object; the following scene will be an approved flat illustrated calendar, not new generated characters.
+> Exactly three seconds, vertical 1080 by 1920 composition, a photorealistic 3D analog wall clock intended as a small composited environmental prop in an existing illustrated bedroom. Warm ivory dial, understated metal rim, subtle glass reflection, restrained teal and warm gold highlights. Match soft morning light from the left and a calm warm wall. Place the clock front-facing at screen center x=835, y=535, radius about 108 pixels on the 1080x1920 canvas; keep the surrounding plate neutral and simple for masking around the clock. Use clear tick marks without generated words, dates, logos or decorative numerals. The hands accelerate briefly as a metaphor for the protagonist's subjective sense of time, then end in a stable orientation suitable for a match back to the illustrated wall clock. Camera remains locked to the existing wall perspective: no full-frame zoom or new establishing shot. A restrained glint may guide the eye downward toward an existing illustrated calendar at approximately x=835, y=780, but do not generate the calendar or its text. No people, no faces, no character silhouettes, no generated bedroom furniture, no new room design, no photographs of memories, no watermarks, no UI, no flicker, no strobing, no audio. The final video will retain its approved illustrated protagonist and illustrated bedroom as separate Remotion layers throughout; only the clock object may be used from this plate.
 
-## Especificación para integrar después
+## Integración sin cambiar la dirección narrativa
 
-- Duración máxima de la inserción: **3.000 s / 90 fotogramas** a 30 FPS.
-- Resolución de entrega prevista: 1080 × 1920; usar una fuente con calidad suficiente y mantener su proporción.
-- El clip no aporta texto editorial ni subtítulos; se conservan las capas legibles y el área segura de la composición actual.
-- La aceleración de agujas es una metáfora del gancho. La escena siguiente mantiene **24 horas** constantes y separa reloj, vivencia y recuerdo.
-- Mantener el eje del reloj y la tarjeta final cerca del centro del área visual para que la máscara del calendario prolongue el mismo movimiento.
-- El audio del clip debe descartarse si existe. La narración, el tic-tac y las transiciones del episodio se mezclan desde sus pistas originales.
-- No cambiar la duración total: sustituir únicamente la capa inicial del reloj. El episodio sigue teniendo exactamente 2100 fotogramas / 70.000 segundos.
-- Tras recibir un clip autorizado, comprobar licencia, procedencia, duración, ausencia de marcas de agua, encuadre, continuidad de luz y reproducción antes de incorporarlo.
+- **Máximo 3.000 s / 90 fotogramas** a 30 FPS. Sustituir solo la capa del reloj de la apertura; el episodio completo sigue en 2100 fotogramas / 70.000 s.
+- La composición actual ubica el reloj cerca de **x=835, y=535, radio=108**. Comprobar estos valores contra `StoryScene0` antes de solicitar un clip, pues el encuadre puede editarse.
+- Recortar o enmascarar únicamente el objeto y su reflejo controlado; no utilizar el fondo generado para reemplazar el PNG aprobado del dormitorio. Si el resultado no permite integrarlo sin una unión visible o altera el estilo, conservar el reloj SVG.
+- Mantener al protagonista oficial, de unos 525 px de ancho en la apertura, apoyado en el suelo y con el rostro libre. La marca, el gancho breve y los subtítulos permanecen como capas de Remotion.
+- El calendario físico existente continúa la acción con sus propias hojas y meses. No pedir al modelo letras o fechas; conservar la tipografía y sincronización del proyecto.
+- Mantener la luz de mañana, el eje de pared y la posición del objeto. La transición debe devolver el movimiento al reloj ilustrado y al calendario dentro del mismo dormitorio, sin un corte a otro escenario.
+- La aceleración de agujas es una metáfora del gancho. Las escenas posteriores mantienen **24 horas** y distinguen vivir una experiencia de recordar su duración; no atribuir una aceleración física del tiempo al cerebro.
+- Descartar audio del clip si lo contiene. La voz completa, el tic-tac inicial y los pasos pertenecen a la mezcla original del episodio y no deben desincronizarse.
+- Al recibir un recurso autorizado, comprobar licencia, procedencia, duración, ausencia de marcas de agua, encuadre, color y continuidad. Renderizar y validar de nuevo la entrega completa antes de dar por integrada la sustitución.
 
-## Elementos que no deben cambiar
+## Recursos que se conservan
 
-El personaje oficial, los PNG aprobados, la paleta general, el guion, la sincronización de voz/subtítulos y el episodio anterior permanecen intactos. No generar personas, recuerdos fotográficos ni nuevos personajes para esta sustitución.
+El personaje, los PNG aprobados, la narración de 189 palabras, las marcas reales, la música y la identidad visual permanecen intactos. No generar otro protagonista, cambiar su edad mediante una ilustración nueva ni reconstruir el dormitorio con fotografías. La versión previa del episodio y los episodios anteriores se conservan en sus ubicaciones documentadas.

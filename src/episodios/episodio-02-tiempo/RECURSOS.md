@@ -1,57 +1,67 @@
-# Recursos del episodio 02
+# Recursos de la historia cotidiana · episodio 02
 
-Inventario derivado de los atributos `src` y `pose` de `World.tsx` y de su mapa `CHARACTER_ASSETS` en `VisualPrimitives.tsx`. Se verificaron existencia, dimensiones y SHA-256 contra `src/Piloto10s/approved-assets.json`. No se modificó ningún PNG.
+Inventario de la reinvención: `World.tsx` compone `StoryScenesA.tsx` y `StoryScenesB.tsx`, que utilizan `Actor`, `Environment` y objetos de `StoryPrimitives.tsx`. Este módulo amplía el mapa de poses de `VisualPrimitives.tsx`; solo se cuentan las imágenes solicitadas por las escenas actuales.
 
-## PNG realmente utilizados
+Se verificaron existencia, dimensiones y SHA-256 de cada PNG contra `src/Piloto10s/approved-assets.json`. Ningún archivo de ilustración se modificó.
 
-**12 imágenes: 9 poses, 1 ilustración anatómica y 2 escenarios.** Todas las rutas de la tabla son relativas a `public/imagenes/` y se cargan con `staticFile()`. El manifiesto [recursos.json](recursos.json) contiene el SHA-256 completo, dimensiones originales y bytes de cada archivo.
+## PNG utilizados
+
+**18 imágenes: 15 poses, 1 ilustración anatómica y 2 escenarios.** Las rutas son relativas a `public/imagenes/` y se cargan con `staticFile()`. [recursos.json](recursos.json) contiene hashes completos, dimensiones originales y bytes.
 
 | Ruta | Dimensiones originales | Uso narrativo |
 | --- | --- | --- |
-| `anatomia/01_cerebro_completo.png` | 1254 × 1254 | Separación entre vivir y recordar el día. |
-| `escenarios/01_dormitorio.png` | 1254 × 1254 | Despertar en la secuencia rutinaria. |
-| `escenarios/03_sala.png` | 941 × 1672 | Regreso a casa dentro de la rutina. |
-| `personajes/01_neutral.png` | 1024 × 1536 | Avatar del descubrimiento y comienzo de recorridos. |
-| `personajes/02_explicando.png` | 1024 × 1536 | Explicación de las 24 horas y la percepción. |
-| `personajes/04_pensando.png` | 1024 × 1536 | Pregunta del gancho, rutina y comparación de perspectivas. |
-| `personajes/05_cansado.png` | 1024 × 1536 | Despertar dentro de la rutina cotidiana. |
-| `personajes/08_senalando_arriba.png` | 1024 × 1536 | Señalar conceptos y acompañar la conclusión. |
-| `personajes/11_sorprendido.png` | 1024 × 1536 | Reacción al calendario de diciembre. |
-| `personajes/13_feliz.png` | 1024 × 1536 | Experiencias nuevas y cierre. |
-| `personajes/21_caminando.png` | 1024 × 1536 | Desplazamientos entre lugares y cambio de recorrido. |
-| `personajes/27_sentado.png` | 1024 × 1536 | Espera y atención al reloj. |
+| `anatomia/01_cerebro_completo.png` | 1254 × 1254 | Capa breve asociada a vivir y recordar durante el trayecto. |
+| `escenarios/01_dormitorio.png` | 1254 × 1254 | Mañana y despertar; reloj y calendario integrados en la habitación. |
+| `escenarios/03_sala.png` | 941 × 1672 | Regreso a casa, semana vivida, objetos y cierre al terminar el día. |
+| `personajes/01_neutral.png` | 1024 × 1536 | Inicio de la espera y continuidad del mismo protagonista. |
+| `personajes/02_explicando.png` | 1024 × 1536 | Explicar la percepción y acompañar el cierre. |
+| `personajes/04_pensando.png` | 1024 × 1536 | Pensar en el tiempo, la rutina y los recuerdos. |
+| `personajes/05_cansado.png` | 1024 × 1536 | Mañana y espera dentro de su día. |
+| `personajes/06_saludando.png` | 1024 × 1536 | Saludo durante el recuerdo escolar. |
+| `personajes/08_senalando_arriba.png` | 1024 × 1536 | Señalar el reloj, calendario y elecciones concretas. |
+| `personajes/10_idea.png` | 1024 × 1536 | Descubrimiento y decisión de hacer algo diferente. |
+| `personajes/11_sorprendido.png` | 1024 × 1536 | Sorpresa ante diciembre y experiencias nuevas. |
+| `personajes/13_feliz.png` | 1024 × 1536 | Vacaciones, viaje recordado y cierre. |
+| `personajes/15_confundido.png` | 1024 × 1536 | Pregunta sobre el tiempo y reacción a la repetición. |
+| `personajes/18_bostezando.png` | 1024 × 1536 | Gesto del gancho al cerrar los ojos. |
+| `personajes/21_caminando.png` | 1024 × 1536 | Trayecto, rutina y cambio de camino. |
+| `personajes/22_corriendo.png` | 1024 × 1536 | Desplazamiento breve del trayecto cotidiano. |
+| `personajes/26_levantando_brazos.png` | 1024 × 1536 | Reacción corporal al probar una actividad distinta. |
+| `personajes/27_sentado.png` | 1024 × 1536 | Trabajo y aprendizaje con objetos del entorno. |
 
-El componente declara 12 poses reutilizables, pero este episodio utiliza 9. `10_idea.png`, `23_durmiendo.png` y `26_levantando_brazos.png` están disponibles en el mapa y **no se incluyen como recursos usados**. Tampoco se usa `02_cocina.png`. No se debe confundir una pose declarada con una imagen solicitada por las escenas. Si se añaden llamadas nuevas a `Character` o `Art`, regenerar el inventario.
+El mapa efectivo de `StoryPrimitives.tsx` declara 16 poses: las 12 del mapa base y cuatro adicionales. Se utilizan 15; **`23_durmiendo.png` está disponible pero no se usa**. `Environment` declara cocina como variante, pero ninguna escena llama a esa variante; **`02_cocina.png` tampoco se incluye**. Una declaración disponible no equivale a un recurso cargado por la historia. Regenerar el inventario si cambian las llamadas a `Actor`, `Art` o `Environment`.
 
-El uso de máscaras, encuadres y transformaciones en Remotion no altera los archivos. Se conserva la proporción mediante `objectFit: contain`. Los fondos y objetos de apoyo dibujados por código no reemplazan la identidad del personaje oficial.
+El actor ocupa aproximadamente 500–525 px de ancho y se apoya en el suelo del escenario; no se sustituye por otro personaje. Los PNG del actor y la anatomía se ajustan sin distorsión; los fondos se reencuadran para llenar pantalla cuando corresponde. Máscaras, cambios de pose, profundidad y parallax no alteran los originales.
 
-## Gráficos originales por código
+## Escenarios y objetos por código
 
-Relojes y agujas, calendarios, tarjetas de recuerdos, escuela, conversación simbólica, oficina, montaña, playa, libro/estudio, actividad y recorridos se dibujan con SVG/CSS. No son fotografías, emojis ni nuevas imágenes generadas. Las escenas de infancia evocan escuela, amistades y lugares con el avatar oficial y objetos; no se crea un actor infantil distinto.
+La calle, la oficina, la escuela, el parque y el viaje se construyen mediante SVG/CSS. El dormitorio y la sala incorporan los PNG oficiales. Puerta, ventana, autobús, parada, escritorio, reloj de pared, calendario, libreta/libro, lápiz y botella son objetos del mismo día. Sus movimientos explican desplazamientos, atención, rutinas y recuerdos; no son tarjetas sueltas con imágenes estáticas.
 
-Las tarjetas de rutina y recuerdos son diagramas conceptuales. No representan un conteo clínico de recuerdos almacenados ni una aceleración física del tiempo. Mantener las etiquetas de experiencia y recuerdo indicadas en [CIENCIA.md](CIENCIA.md).
+No se generan fotografías, emojis ni actores alternativos. El recuerdo de infancia mantiene al protagonista oficial como representación narrativa, acompañado por la escuela y el saludo; no se crea una nueva ilustración infantil. Las variaciones de semana y recuerdo son conceptuales y no un conteo clínico de memoria. Ver [CIENCIA.md](CIENCIA.md).
 
 ## Tipografía
 
-Manrope variable local: `public/piloto10s/fonts/Manrope[wght].ttf`, reutilizada del piloto. SHA-256: `3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6`. La tipografía se carga antes de continuar el render mediante `FontFace` y `delayRender`.
+Manrope variable local: `public/piloto10s/fonts/Manrope[wght].ttf`. SHA-256: `3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6`. Se reutiliza del piloto y se carga mediante `FontFace` antes de continuar el render.
 
-## Audio
+## Audio conservado y foley añadido
 
 Directorio: `public/episodios/episodio-02-tiempo/audio/`.
 
-- `narracion_original.flac`: toma mexicana masculina Aldo/Piper antes de edición.
-- `narracion.flac`: narración editada de 70 s.
-- `musica_original.flac`: partitura original por código, 105 BPM, con cambios por capítulo.
-- `efectos_originales.flac`: tic-tac inicial breve, cambios de calendario y acentos ligados a conceptos.
-- `mezcla_master.flac`: mezcla de entrega, con prioridad a la voz.
-- `PIPER_MODEL_CARD.md`, `PIPER_DATASET_CARD.md`, `PIPER_BASE_MODEL_CARD.md`: fichas del proveedor y licencias declaradas.
+- `narracion_original.flac`: toma completa mexicana Aldo/Piper antes de edición.
+- `narracion.flac`: voz final de 70 s; **idéntica en la primera propuesta y la reinvención**, SHA-256 `4b33aed83501cabf254ebd831dfd35700f7d290d8b86c10d84a94588d3635c1c`.
+- `musica_original.flac`: síntesis original, 105 BPM y desarrollo por escena.
+- `efectos_originales.flac`: tic-tac inicial, calendario, descubrimiento y tres pares de pasos suaves asociados a desplazamientos.
+- `mezcla_master.flac`: mezcla para la nueva historia, con la voz y sus marcas intactas.
+- `PIPER_MODEL_CARD.md`, `PIPER_DATASET_CARD.md`, `PIPER_BASE_MODEL_CARD.md`: fichas y licencias declaradas por el proveedor.
 
-Voz completa de 189 palabras, cero generaciones de pago y cero créditos externos. El runtime Piper y los pesos del modelo están fuera de Git. Procedencia detallada en [ORIGEN.md](../../../public/episodios/episodio-02-tiempo/audio/ORIGEN.md); marcas intrínsecas y comprobaciones de muestras en `output/episodio-02-tiempo/alineacion_intrinseca.json` y `alineacion_audio_real.json`.
+Guion de 189 palabras; cero generaciones de pago y cero créditos externos. Los pesos y el runtime Piper están fuera de Git. [ORIGEN.md](../../../public/episodios/episodio-02-tiempo/audio/ORIGEN.md) documenta la procedencia. `alineacion_intrinseca.json` y `alineacion_audio_real.json` conservan marcas verificadas contra muestras; `remezcla_historia.json` registra que la voz no cambió.
 
-## 3D y recursos no utilizados
+## 3D opcional y versiones preservadas
 
-No hay un clip independiente aprobado de reloj 3D compatible. El clip `public/piloto10s/video/personaje_higgsfield_original.mp4` se inspeccionó: muestra al personaje y no es un reloj; no se usa para el gancho de este episodio. No se reutilizan imágenes antiguas de referencia ni el paquete adicional de siete recursos como si pertenecieran automáticamente a las 68 ilustraciones aprobadas.
+No se encontró un clip aprobado de reloj 3D compatible. `public/piloto10s/video/personaje_higgsfield_original.mp4` muestra al personaje, no un reloj, y no se incorpora como sustituto del nuevo gancho. No se usan fotografías ni paquetes de referencia ajenos al manifiesto de 68 ilustraciones aprobadas.
 
-La apertura actual es un reloj vectorial con profundidad simulada, reemplazable durante un máximo de 3 s. [PROMPT_3D.md](PROMPT_3D.md) conserva la propuesta opcional; no existe una generación hiperrealista nueva ni se ha consumido presupuesto para ella.
+El reloj ambiental del dormitorio se anima con SVG y profundidad simulada durante un máximo de tres segundos. No hay generación hiperrealista nueva. [PROMPT_3D.md](PROMPT_3D.md) prepara una sustitución opcional de ese objeto sin generar personas ni cambiar el PNG del dormitorio.
 
-El listado acredita recursos existentes y preparados; el resultado técnico del MP4 debe consultarse en los reportes reales de calidad y retención, no deducirse de este inventario.
+La primera propuesta se conserva en [version-01](../../../output/episodio-02-tiempo/version-01/); su código visual está en el commit `341a8f4`. Los recursos e informes archivados no deben confundirse con la lista y QA de esta reinvención. Los episodios anteriores se conservan.
+
+Este inventario acredita archivos existentes y coincidencia de sus hashes; la validación del nuevo MP4 se documentará en sus reportes de calidad, retención y reproducción.
