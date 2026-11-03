@@ -1,0 +1,2261 @@
+{
+  "engine": "Piper/VITS intrinsic phoneme durations",
+  "intrinsicAlignment": "output/episodio-02-tiempo/alineacion_intrinseca.json",
+  "sentenceSampleChecks": [
+    {
+      "samples": 72960,
+      "durationFrames": 285,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 72448,
+      "durationFrames": 283,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 36096,
+      "durationFrames": 141,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 87552,
+      "durationFrames": 342,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 100096,
+      "durationFrames": 391,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 55808,
+      "durationFrames": 218,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 208384,
+      "durationFrames": 814,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 35072,
+      "durationFrames": 137,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 163072,
+      "durationFrames": 637,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 77824,
+      "durationFrames": 304,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 45312,
+      "durationFrames": 177,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 178176,
+      "durationFrames": 696,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 61440,
+      "durationFrames": 240,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 75264,
+      "durationFrames": 294,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 119552,
+      "durationFrames": 467,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 58880,
+      "durationFrames": 230,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 72192,
+      "durationFrames": 282,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 148992,
+      "durationFrames": 582,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 122624,
+      "durationFrames": 479,
+      "hopSamples": 256,
+      "verified": true
+    },
+    {
+      "samples": 53248,
+      "durationFrames": 208,
+      "hopSamples": 256,
+      "verified": true
+    }
+  ],
+  "actualTempoDurationRatio": 0.8001936373572353,
+  "timingFromTextLength": false,
+  "verifiedWords": [
+    {
+      "word": "¿Recuerdas",
+      "start": 0.095,
+      "end": 0.540917,
+      "startSample": 1024,
+      "endSample": 13312,
+      "probability": 1,
+      "phonemes": "rekwˈeɾðas"
+    },
+    {
+      "word": "cuando",
+      "start": 0.633833,
+      "end": 0.801042,
+      "startSample": 15872,
+      "endSample": 20480,
+      "probability": 1,
+      "phonemes": "kwˌando"
+    },
+    {
+      "word": "las",
+      "start": 0.866083,
+      "end": 0.940396,
+      "startSample": 22272,
+      "endSample": 24320,
+      "probability": 1,
+      "phonemes": "las"
+    },
+    {
+      "word": "vacaciones",
+      "start": 1.024021,
+      "end": 1.572146,
+      "startSample": 26624,
+      "endSample": 41728,
+      "probability": 1,
+      "phonemes": "βˌakasjˈones"
+    },
+    {
+      "word": "parecían",
+      "start": 1.66925,
+      "end": 2.096604,
+      "startSample": 44288,
+      "endSample": 56064,
+      "probability": 1,
+      "phonemes": "pˌaɾesˈiʲan"
+    },
+    {
+      "word": "eternas?",
+      "start": 2.152333,
+      "end": 2.542542,
+      "startSample": 57600,
+      "endSample": 68352,
+      "probability": 1,
+      "phonemes": "etˈeɾnas?"
+    },
+    {
+      "word": "Ahora",
+      "start": 2.84575,
+      "end": 2.994396,
+      "startSample": 73472,
+      "endSample": 77568,
+      "probability": 1,
+      "phonemes": "aˈoɾa"
+    },
+    {
+      "word": "cierras",
+      "start": 3.050146,
+      "end": 3.338146,
+      "startSample": 79104,
+      "endSample": 87040,
+      "probability": 1,
+      "phonemes": "sjˈeras"
+    },
+    {
+      "word": "los",
+      "start": 3.393875,
+      "end": 3.523938,
+      "startSample": 88576,
+      "endSample": 92160,
+      "probability": 1,
+      "phonemes": "los"
+    },
+    {
+      "word": "ojos,",
+      "start": 3.588979,
+      "end": 3.942,
+      "startSample": 93952,
+      "endSample": 103680,
+      "probability": 1,
+      "phonemes": "ˈoxos,"
+    },
+    {
+      "word": "¡y",
+      "start": 4.501292,
+      "end": 4.566333,
+      "startSample": 117504,
+      "endSample": 119296,
+      "probability": 1,
+      "phonemes": "i"
+    },
+    {
+      "word": "ya",
+      "start": 4.631354,
+      "end": 4.733562,
+      "startSample": 121088,
+      "endSample": 123904,
+      "probability": 1,
+      "phonemes": "ʝˈa"
+    },
+    {
+      "word": "es",
+      "start": 4.789292,
+      "end": 4.882208,
+      "startSample": 125440,
+      "endSample": 128000,
+      "probability": 1,
+      "phonemes": "ˈes"
+    },
+    {
+      "word": "diciembre!",
+      "start": 4.937938,
+      "end": 5.421042,
+      "startSample": 129536,
+      "endSample": 142848,
+      "probability": 1,
+      "phonemes": "ðisjˈembɾe!"
+    },
+    {
+      "word": "¿Qué",
+      "start": 5.66625,
+      "end": 5.731271,
+      "startSample": 146176,
+      "endSample": 147968,
+      "probability": 1,
+      "phonemes": "kˈe"
+    },
+    {
+      "word": "le",
+      "start": 5.777729,
+      "end": 5.824167,
+      "startSample": 149248,
+      "endSample": 150528,
+      "probability": 1,
+      "phonemes": "le"
+    },
+    {
+      "word": "pasó",
+      "start": 5.949146,
+      "end": 6.199979,
+      "startSample": 153856,
+      "endSample": 160768,
+      "probability": 1,
+      "phonemes": "pasˈo"
+    },
+    {
+      "word": "al",
+      "start": 6.283583,
+      "end": 6.348625,
+      "startSample": 163072,
+      "endSample": 164864,
+      "probability": 1,
+      "phonemes": "al"
+    },
+    {
+      "word": "tiempo?",
+      "start": 6.436438,
+      "end": 6.770875,
+      "startSample": 167168,
+      "endSample": 176384,
+      "probability": 1,
+      "phonemes": "tjˈempo?"
+    },
+    {
+      "word": "Lo",
+      "start": 7.113083,
+      "end": 7.159521,
+      "startSample": 183040,
+      "endSample": 184320,
+      "probability": 1,
+      "phonemes": "lo"
+    },
+    {
+      "word": "extraño",
+      "start": 7.196688,
+      "end": 7.6705,
+      "startSample": 185344,
+      "endSample": 198400,
+      "probability": 1,
+      "phonemes": "ekstɾˈaɲo"
+    },
+    {
+      "word": "es",
+      "start": 7.735521,
+      "end": 7.800562,
+      "startSample": 200192,
+      "endSample": 201984,
+      "probability": 1,
+      "phonemes": "ˈes"
+    },
+    {
+      "word": "que",
+      "start": 7.847,
+      "end": 7.90275,
+      "startSample": 203264,
+      "endSample": 204800,
+      "probability": 1,
+      "phonemes": "ke"
+    },
+    {
+      "word": "los",
+      "start": 7.958479,
+      "end": 8.069979,
+      "startSample": 206336,
+      "endSample": 209408,
+      "probability": 1,
+      "phonemes": "los"
+    },
+    {
+      "word": "días",
+      "start": 8.107125,
+      "end": 8.302229,
+      "startSample": 210432,
+      "endSample": 215808,
+      "probability": 1,
+      "phonemes": "ðˈiʲas"
+    },
+    {
+      "word": "siguen",
+      "start": 8.348688,
+      "end": 8.627375,
+      "startSample": 217088,
+      "endSample": 224768,
+      "probability": 1,
+      "phonemes": "sˈiɣen"
+    },
+    {
+      "word": "teniendo",
+      "start": 8.729583,
+      "end": 9.082604,
+      "startSample": 227584,
+      "endSample": 237312,
+      "probability": 1,
+      "phonemes": "tenjˈɛndo"
+    },
+    {
+      "word": "veinticuatro",
+      "start": 9.129062,
+      "end": 9.760792,
+      "startSample": 238592,
+      "endSample": 256000,
+      "probability": 1,
+      "phonemes": "βˌeɪntikwˈatɾo"
+    },
+    {
+      "word": "horas.",
+      "start": 9.872271,
+      "end": 10.104521,
+      "startSample": 259072,
+      "endSample": 265472,
+      "probability": 1,
+      "phonemes": "ˈoɾas."
+    },
+    {
+      "word": "Lo",
+      "start": 10.408146,
+      "end": 10.473187,
+      "startSample": 270336,
+      "endSample": 272128,
+      "probability": 1,
+      "phonemes": "lo"
+    },
+    {
+      "word": "que",
+      "start": 10.5475,
+      "end": 10.612542,
+      "startSample": 274176,
+      "endSample": 275968,
+      "probability": 1,
+      "phonemes": "ke"
+    },
+    {
+      "word": "puede",
+      "start": 10.705438,
+      "end": 10.863375,
+      "startSample": 278528,
+      "endSample": 282880,
+      "probability": 1,
+      "phonemes": "pwˈeðe"
+    },
+    {
+      "word": "cambiar",
+      "start": 10.951187,
+      "end": 11.322792,
+      "startSample": 285184,
+      "endSample": 295424,
+      "probability": 1,
+      "phonemes": "kambjˈaɾ"
+    },
+    {
+      "word": "es",
+      "start": 11.359958,
+      "end": 11.425,
+      "startSample": 296448,
+      "endSample": 298240,
+      "probability": 1,
+      "phonemes": "ˈes"
+    },
+    {
+      "word": "cómo",
+      "start": 11.490021,
+      "end": 11.666542,
+      "startSample": 300032,
+      "endSample": 304896,
+      "probability": 1,
+      "phonemes": "kˈomo"
+    },
+    {
+      "word": "tu",
+      "start": 11.745062,
+      "end": 11.837979,
+      "startSample": 306944,
+      "endSample": 309504,
+      "probability": 1,
+      "phonemes": "tu"
+    },
+    {
+      "word": "cerebro",
+      "start": 11.921583,
+      "end": 12.256042,
+      "startSample": 311808,
+      "endSample": 321024,
+      "probability": 1,
+      "phonemes": "seɾˈeβɾo"
+    },
+    {
+      "word": "vive",
+      "start": 12.358229,
+      "end": 12.590479,
+      "startSample": 323840,
+      "endSample": 330240,
+      "probability": 1,
+      "phonemes": "βˈiβe"
+    },
+    {
+      "word": "y",
+      "start": 12.636938,
+      "end": 12.674083,
+      "startSample": 331520,
+      "endSample": 332544,
+      "probability": 1,
+      "phonemes": "i"
+    },
+    {
+      "word": "recuerda",
+      "start": 12.776292,
+      "end": 13.296542,
+      "startSample": 335360,
+      "endSample": 349696,
+      "probability": 1,
+      "phonemes": "rekwˈeɾða"
+    },
+    {
+      "word": "esos",
+      "start": 13.352271,
+      "end": 13.528792,
+      "startSample": 351232,
+      "endSample": 356096,
+      "probability": 1,
+      "phonemes": "ˈesos"
+    },
+    {
+      "word": "días.",
+      "start": 13.603125,
+      "end": 13.872542,
+      "startSample": 358144,
+      "endSample": 365568,
+      "probability": 1,
+      "phonemes": "ðˈiʲas."
+    },
+    {
+      "word": "No",
+      "start": 14.153771,
+      "end": 14.265271,
+      "startSample": 369920,
+      "endSample": 372992,
+      "probability": 1,
+      "phonemes": "nˈo"
+    },
+    {
+      "word": "hay",
+      "start": 14.321,
+      "end": 14.423187,
+      "startSample": 374528,
+      "endSample": 377344,
+      "probability": 1,
+      "phonemes": "ˈaɪ"
+    },
+    {
+      "word": "una",
+      "start": 14.488229,
+      "end": 14.655458,
+      "startSample": 379136,
+      "endSample": 383744,
+      "probability": 1,
+      "phonemes": "ˈuna"
+    },
+    {
+      "word": "sola",
+      "start": 14.692604,
+      "end": 14.980604,
+      "startSample": 384768,
+      "endSample": 392704,
+      "probability": 1,
+      "phonemes": "sˈola"
+    },
+    {
+      "word": "explicación.",
+      "start": 15.073521,
+      "end": 15.928208,
+      "startSample": 395264,
+      "endSample": 418816,
+      "probability": 1,
+      "phonemes": "ˌeksplikasjˈon."
+    },
+    {
+      "word": "Cuando",
+      "start": 16.276688,
+      "end": 16.499667,
+      "startSample": 425728,
+      "endSample": 431872,
+      "probability": 1,
+      "phonemes": "kwˌando"
+    },
+    {
+      "word": "eras",
+      "start": 16.546104,
+      "end": 16.713333,
+      "startSample": 433152,
+      "endSample": 437760,
+      "probability": 1,
+      "phonemes": "ˈeɾas"
+    },
+    {
+      "word": "niño,",
+      "start": 16.815521,
+      "end": 17.047792,
+      "startSample": 440576,
+      "endSample": 446976,
+      "probability": 1,
+      "phonemes": "nˈiɲo,"
+    },
+    {
+      "word": "muchas",
+      "start": 17.486167,
+      "end": 17.876354,
+      "startSample": 456704,
+      "endSample": 467456,
+      "probability": 1,
+      "phonemes": "mˈutʃas"
+    },
+    {
+      "word": "experiencias",
+      "start": 17.950688,
+      "end": 18.703187,
+      "startSample": 469504,
+      "endSample": 490240,
+      "probability": 1,
+      "phonemes": "ˌekspeɾjˈɛnsjas"
+    },
+    {
+      "word": "eran",
+      "start": 18.749646,
+      "end": 18.944729,
+      "startSample": 491520,
+      "endSample": 496896,
+      "probability": 1,
+      "phonemes": "ˈeɾan"
+    },
+    {
+      "word": "nuevas:",
+      "start": 19.000479,
+      "end": 19.372083,
+      "startSample": 498432,
+      "endSample": 508672,
+      "probability": 1,
+      "phonemes": "nwˈeβas:"
+    },
+    {
+      "word": "tu",
+      "start": 19.707396,
+      "end": 19.763146,
+      "startSample": 515072,
+      "endSample": 516608,
+      "probability": 1,
+      "phonemes": "tu"
+    },
+    {
+      "word": "primera",
+      "start": 19.874625,
+      "end": 20.162625,
+      "startSample": 519680,
+      "endSample": 527616,
+      "probability": 1,
+      "phonemes": "pɾimˈeɾa"
+    },
+    {
+      "word": "escuela,",
+      "start": 20.209083,
+      "end": 20.608563,
+      "startSample": 528896,
+      "endSample": 539904,
+      "probability": 1,
+      "phonemes": "eskwˈela,"
+    },
+    {
+      "word": "nuevos",
+      "start": 20.940792,
+      "end": 21.349563,
+      "startSample": 546048,
+      "endSample": 557312,
+      "probability": 1,
+      "phonemes": "nwˈeβos"
+    },
+    {
+      "word": "amigos,",
+      "start": 21.414583,
+      "end": 21.851229,
+      "startSample": 559104,
+      "endSample": 571136,
+      "probability": 1,
+      "phonemes": "amˈiɣos,"
+    },
+    {
+      "word": "lugares",
+      "start": 22.357646,
+      "end": 22.738542,
+      "startSample": 583424,
+      "endSample": 593920,
+      "probability": 1,
+      "phonemes": "luɣˈaɾes"
+    },
+    {
+      "word": "que",
+      "start": 22.812854,
+      "end": 22.896479,
+      "startSample": 595968,
+      "endSample": 598272,
+      "probability": 1,
+      "phonemes": "ke"
+    },
+    {
+      "word": "nunca",
+      "start": 22.9615,
+      "end": 23.2495,
+      "startSample": 600064,
+      "endSample": 608000,
+      "probability": 1,
+      "phonemes": "nˈunka"
+    },
+    {
+      "word": "habías",
+      "start": 23.333125,
+      "end": 23.602542,
+      "startSample": 610304,
+      "endSample": 617728,
+      "probability": 1,
+      "phonemes": "aβˈiʲas"
+    },
+    {
+      "word": "visto.",
+      "start": 23.658271,
+      "end": 23.974146,
+      "startSample": 619264,
+      "endSample": 627968,
+      "probability": 1,
+      "phonemes": "βˈisto."
+    },
+    {
+      "word": "Todo",
+      "start": 24.303292,
+      "end": 24.442646,
+      "startSample": 633856,
+      "endSample": 637696,
+      "probability": 1,
+      "phonemes": "tˈoðo"
+    },
+    {
+      "word": "era",
+      "start": 24.489104,
+      "end": 24.591292,
+      "startSample": 638976,
+      "endSample": 641792,
+      "probability": 1,
+      "phonemes": "ˈeɾa"
+    },
+    {
+      "word": "descubrimiento.",
+      "start": 24.647042,
+      "end": 25.483146,
+      "startSample": 643328,
+      "endSample": 666368,
+      "probability": 1,
+      "phonemes": "ðˌeskuβɾimjˈɛnto."
+    },
+    {
+      "word": "Pero",
+      "start": 25.576062,
+      "end": 25.696833,
+      "startSample": 668928,
+      "endSample": 672256,
+      "probability": 1,
+      "phonemes": "pˌeɾo"
+    },
+    {
+      "word": "al",
+      "start": 25.743292,
+      "end": 25.799021,
+      "startSample": 673536,
+      "endSample": 675072,
+      "probability": 1,
+      "phonemes": "al"
+    },
+    {
+      "word": "crecer,",
+      "start": 25.886833,
+      "end": 26.267729,
+      "startSample": 677376,
+      "endSample": 687872,
+      "probability": 1,
+      "phonemes": "kɾesˈeɾ,"
+    },
+    {
+      "word": "muchos",
+      "start": 26.677625,
+      "end": 27.104979,
+      "startSample": 696576,
+      "endSample": 708352,
+      "probability": 1,
+      "phonemes": "mˈutʃos"
+    },
+    {
+      "word": "días",
+      "start": 27.160729,
+      "end": 27.365104,
+      "startSample": 709888,
+      "endSample": 715520,
+      "probability": 1,
+      "phonemes": "ðˈiʲas"
+    },
+    {
+      "word": "se",
+      "start": 27.439438,
+      "end": 27.495167,
+      "startSample": 717568,
+      "endSample": 719104,
+      "probability": 1,
+      "phonemes": "se"
+    },
+    {
+      "word": "parecen:",
+      "start": 27.597375,
+      "end": 28.034,
+      "startSample": 721920,
+      "endSample": 733952,
+      "probability": 1,
+      "phonemes": "paɾˈesen:"
+    },
+    {
+      "word": "despertar,",
+      "start": 28.332271,
+      "end": 28.991875,
+      "startSample": 739072,
+      "endSample": 757248,
+      "probability": 1,
+      "phonemes": "dˌespeɾtˈaɾ,"
+    },
+    {
+      "word": "trabajar,",
+      "start": 29.313833,
+      "end": 29.722604,
+      "startSample": 763392,
+      "endSample": 774656,
+      "probability": 1,
+      "phonemes": "tɾˌaβaxˈaɾ,"
+    },
+    {
+      "word": "regresar",
+      "start": 30.062562,
+      "end": 30.471312,
+      "startSample": 781312,
+      "endSample": 792576,
+      "probability": 1,
+      "phonemes": "rˌeɣɾesˈaɾ"
+    },
+    {
+      "word": "a",
+      "start": 30.527062,
+      "end": 30.536354,
+      "startSample": 794112,
+      "endSample": 794368,
+      "probability": 1,
+      "phonemes": "a"
+    },
+    {
+      "word": "casa",
+      "start": 30.614875,
+      "end": 30.93075,
+      "startSample": 796416,
+      "endSample": 805120,
+      "probability": 1,
+      "phonemes": "kˈasa"
+    },
+    {
+      "word": "y",
+      "start": 30.995792,
+      "end": 31.014354,
+      "startSample": 806912,
+      "endSample": 807424,
+      "probability": 1,
+      "phonemes": "i"
+    },
+    {
+      "word": "repetir.",
+      "start": 31.079396,
+      "end": 31.562479,
+      "startSample": 809216,
+      "endSample": 822528,
+      "probability": 1,
+      "phonemes": "rˌepetˈiɾ."
+    },
+    {
+      "word": "Tu",
+      "start": 31.98375,
+      "end": 32.030187,
+      "startSample": 832256,
+      "endSample": 833536,
+      "probability": 1,
+      "phonemes": "tu"
+    },
+    {
+      "word": "memoria",
+      "start": 32.085938,
+      "end": 32.457542,
+      "startSample": 835072,
+      "endSample": 845312,
+      "probability": 1,
+      "phonemes": "memˈoɾja"
+    },
+    {
+      "word": "puede",
+      "start": 32.573229,
+      "end": 32.814792,
+      "startSample": 848384,
+      "endSample": 855040,
+      "probability": 1,
+      "phonemes": "pwˈeðe"
+    },
+    {
+      "word": "guardar",
+      "start": 32.907688,
+      "end": 33.260708,
+      "startSample": 857600,
+      "endSample": 867328,
+      "probability": 1,
+      "phonemes": "ɣwaɾðˈaɾ"
+    },
+    {
+      "word": "menos",
+      "start": 33.32575,
+      "end": 33.585875,
+      "startSample": 869120,
+      "endSample": 876288,
+      "probability": 1,
+      "phonemes": "mˈenos"
+    },
+    {
+      "word": "detalles",
+      "start": 33.650896,
+      "end": 34.106125,
+      "startSample": 878080,
+      "endSample": 890624,
+      "probability": 1,
+      "phonemes": "ðetˈajjes"
+    },
+    {
+      "word": "distintivos.",
+      "start": 34.134,
+      "end": 34.737854,
+      "startSample": 891392,
+      "endSample": 908032,
+      "probability": 1,
+      "phonemes": "ðˌistintˈiβos."
+    },
+    {
+      "word": "No",
+      "start": 34.821479,
+      "end": 34.905083,
+      "startSample": 910336,
+      "endSample": 912640,
+      "probability": 1,
+      "phonemes": "nˈo"
+    },
+    {
+      "word": "ocurre",
+      "start": 34.960833,
+      "end": 35.285979,
+      "startSample": 914176,
+      "endSample": 923136,
+      "probability": 1,
+      "phonemes": "okˈure"
+    },
+    {
+      "word": "igual",
+      "start": 35.369604,
+      "end": 35.676167,
+      "startSample": 925440,
+      "endSample": 933888,
+      "probability": 1,
+      "phonemes": "iɣwˈal"
+    },
+    {
+      "word": "en",
+      "start": 35.806229,
+      "end": 35.908437,
+      "startSample": 937472,
+      "endSample": 940288,
+      "probability": 1,
+      "phonemes": "en"
+    },
+    {
+      "word": "todos.",
+      "start": 35.973458,
+      "end": 36.252167,
+      "startSample": 942080,
+      "endSample": 949760,
+      "probability": 1,
+      "phonemes": "tˈoðos."
+    },
+    {
+      "word": "Y",
+      "start": 36.594042,
+      "end": 36.705521,
+      "startSample": 955904,
+      "endSample": 958976,
+      "probability": 1,
+      "phonemes": "iʲ"
+    },
+    {
+      "word": "aquí",
+      "start": 36.817,
+      "end": 37.021375,
+      "startSample": 962048,
+      "endSample": 967680,
+      "probability": 1,
+      "phonemes": "akˈi"
+    },
+    {
+      "word": "viene",
+      "start": 37.058542,
+      "end": 37.300083,
+      "startSample": 968704,
+      "endSample": 975360,
+      "probability": 1,
+      "phonemes": "βjˈene"
+    },
+    {
+      "word": "lo",
+      "start": 37.355833,
+      "end": 37.420854,
+      "startSample": 976896,
+      "endSample": 978688,
+      "probability": 1,
+      "phonemes": "lo"
+    },
+    {
+      "word": "sorprendente:",
+      "start": 37.495188,
+      "end": 38.173375,
+      "startSample": 980736,
+      "endSample": 999424,
+      "probability": 1,
+      "phonemes": "sˌoɾpɾendˈɛnte:"
+    },
+    {
+      "word": "una",
+      "start": 38.275562,
+      "end": 38.461375,
+      "startSample": 1002240,
+      "endSample": 1007360,
+      "probability": 1,
+      "phonemes": "ˈuna"
+    },
+    {
+      "word": "semana",
+      "start": 38.535688,
+      "end": 38.907292,
+      "startSample": 1009408,
+      "endSample": 1019648,
+      "probability": 1,
+      "phonemes": "semˈana"
+    },
+    {
+      "word": "llena",
+      "start": 38.944458,
+      "end": 39.148854,
+      "startSample": 1020672,
+      "endSample": 1026304,
+      "probability": 1,
+      "phonemes": "ʝˈena"
+    },
+    {
+      "word": "de",
+      "start": 39.186,
+      "end": 39.213875,
+      "startSample": 1027328,
+      "endSample": 1028096,
+      "probability": 1,
+      "phonemes": "ðe"
+    },
+    {
+      "word": "experiencias",
+      "start": 39.24175,
+      "end": 39.910646,
+      "startSample": 1028864,
+      "endSample": 1047296,
+      "probability": 1,
+      "phonemes": "ˌekspeɾjˈɛnsjas"
+    },
+    {
+      "word": "nuevas",
+      "start": 39.984958,
+      "end": 40.245083,
+      "startSample": 1049344,
+      "endSample": 1056512,
+      "probability": 1,
+      "phonemes": "nwˈeβas"
+    },
+    {
+      "word": "puede",
+      "start": 40.342188,
+      "end": 40.527979,
+      "startSample": 1059072,
+      "endSample": 1064192,
+      "probability": 1,
+      "phonemes": "pwˈeðe"
+    },
+    {
+      "word": "parecer",
+      "start": 40.652958,
+      "end": 41.006,
+      "startSample": 1067520,
+      "endSample": 1077248,
+      "probability": 1,
+      "phonemes": "pˌaɾesˈeɾ"
+    },
+    {
+      "word": "mucho",
+      "start": 41.117479,
+      "end": 41.442646,
+      "startSample": 1080320,
+      "endSample": 1089280,
+      "probability": 1,
+      "phonemes": "mˈutʃo"
+    },
+    {
+      "word": "más",
+      "start": 41.52625,
+      "end": 41.684188,
+      "startSample": 1091584,
+      "endSample": 1095936,
+      "probability": 1,
+      "phonemes": "mˈas"
+    },
+    {
+      "word": "larga",
+      "start": 41.730625,
+      "end": 41.981479,
+      "startSample": 1097216,
+      "endSample": 1104128,
+      "probability": 1,
+      "phonemes": "lˈaɾɣa"
+    },
+    {
+      "word": "cuando",
+      "start": 42.0465,
+      "end": 42.269458,
+      "startSample": 1105920,
+      "endSample": 1112064,
+      "probability": 1,
+      "phonemes": "kwˌando"
+    },
+    {
+      "word": "la",
+      "start": 42.315917,
+      "end": 42.362375,
+      "startSample": 1113344,
+      "endSample": 1114624,
+      "probability": 1,
+      "phonemes": "la"
+    },
+    {
+      "word": "recuerdas.",
+      "start": 42.455271,
+      "end": 42.984812,
+      "startSample": 1117184,
+      "endSample": 1131776,
+      "probability": 1,
+      "phonemes": "rekwˈeɾðas."
+    },
+    {
+      "word": "Hablamos",
+      "start": 43.049854,
+      "end": 43.421458,
+      "startSample": 1133568,
+      "endSample": 1143808,
+      "probability": 1,
+      "phonemes": "aβlˈamos"
+    },
+    {
+      "word": "de",
+      "start": 43.467917,
+      "end": 43.523646,
+      "startSample": 1145088,
+      "endSample": 1146624,
+      "probability": 1,
+      "phonemes": "ðe"
+    },
+    {
+      "word": "la",
+      "start": 43.570104,
+      "end": 43.635125,
+      "startSample": 1147904,
+      "endSample": 1149696,
+      "probability": 1,
+      "phonemes": "la"
+    },
+    {
+      "word": "duración",
+      "start": 43.690875,
+      "end": 44.229708,
+      "startSample": 1151232,
+      "endSample": 1166080,
+      "probability": 1,
+      "phonemes": "ðˌuɾasjˈon"
+    },
+    {
+      "word": "al",
+      "start": 44.350479,
+      "end": 44.434083,
+      "startSample": 1169408,
+      "endSample": 1171712,
+      "probability": 1,
+      "phonemes": "al"
+    },
+    {
+      "word": "mirar",
+      "start": 44.499125,
+      "end": 44.740667,
+      "startSample": 1173504,
+      "endSample": 1180160,
+      "probability": 1,
+      "phonemes": "miɾˈaɾ"
+    },
+    {
+      "word": "atrás.",
+      "start": 44.824271,
+      "end": 45.158729,
+      "startSample": 1182464,
+      "endSample": 1191680,
+      "probability": 1,
+      "phonemes": "atɾˈas."
+    },
+    {
+      "word": "Eso",
+      "start": 45.435292,
+      "end": 45.621104,
+      "startSample": 1195776,
+      "endSample": 1200896,
+      "probability": 1,
+      "phonemes": "ˈeso"
+    },
+    {
+      "word": "no",
+      "start": 45.667542,
+      "end": 45.751167,
+      "startSample": 1202176,
+      "endSample": 1204480,
+      "probability": 1,
+      "phonemes": "nˈo"
+    },
+    {
+      "word": "significa",
+      "start": 45.806896,
+      "end": 46.420063,
+      "startSample": 1206016,
+      "endSample": 1222912,
+      "probability": 1,
+      "phonemes": "sˌiɡnifˈika"
+    },
+    {
+      "word": "que",
+      "start": 46.507875,
+      "end": 46.563625,
+      "startSample": 1225216,
+      "endSample": 1226752,
+      "probability": 1,
+      "phonemes": "ke"
+    },
+    {
+      "word": "siempre",
+      "start": 46.628646,
+      "end": 46.981667,
+      "startSample": 1228544,
+      "endSample": 1238272,
+      "probability": 1,
+      "phonemes": "sjˈempɾe"
+    },
+    {
+      "word": "se",
+      "start": 47.037417,
+      "end": 47.102458,
+      "startSample": 1239808,
+      "endSample": 1241600,
+      "probability": 1,
+      "phonemes": "se"
+    },
+    {
+      "word": "sienta",
+      "start": 47.176771,
+      "end": 47.501937,
+      "startSample": 1243648,
+      "endSample": 1252608,
+      "probability": 1,
+      "phonemes": "sjˈɛnta"
+    },
+    {
+      "word": "más",
+      "start": 47.594833,
+      "end": 47.697021,
+      "startSample": 1255168,
+      "endSample": 1257984,
+      "probability": 1,
+      "phonemes": "mˈas"
+    },
+    {
+      "word": "lenta.",
+      "start": 47.771354,
+      "end": 48.040771,
+      "startSample": 1260032,
+      "endSample": 1267456,
+      "probability": 1,
+      "phonemes": "lˈɛnta."
+    },
+    {
+      "word": "Mientras",
+      "start": 48.180125,
+      "end": 48.598167,
+      "startSample": 1271296,
+      "endSample": 1282816,
+      "probability": 1,
+      "phonemes": "mjˌentɾas"
+    },
+    {
+      "word": "la",
+      "start": 48.653917,
+      "end": 48.709667,
+      "startSample": 1284352,
+      "endSample": 1285888,
+      "probability": 1,
+      "phonemes": "la"
+    },
+    {
+      "word": "vives,",
+      "start": 48.793271,
+      "end": 49.127729,
+      "startSample": 1288192,
+      "endSample": 1297408,
+      "probability": 1,
+      "phonemes": "βˈiβes,"
+    },
+    {
+      "word": "tu",
+      "start": 49.597229,
+      "end": 49.736583,
+      "startSample": 1308672,
+      "endSample": 1312512,
+      "probability": 1,
+      "phonemes": "tu"
+    },
+    {
+      "word": "atención",
+      "start": 49.792333,
+      "end": 50.210396,
+      "startSample": 1314048,
+      "endSample": 1325568,
+      "probability": 1,
+      "phonemes": "ˌatensjˈon"
+    },
+    {
+      "word": "también",
+      "start": 50.275417,
+      "end": 50.609875,
+      "startSample": 1327360,
+      "endSample": 1336576,
+      "probability": 1,
+      "phonemes": "tambjˈen"
+    },
+    {
+      "word": "cambia",
+      "start": 50.647042,
+      "end": 50.953604,
+      "startSample": 1337600,
+      "endSample": 1346048,
+      "probability": 1,
+      "phonemes": "kˈambja"
+    },
+    {
+      "word": "cómo",
+      "start": 51.06,
+      "end": 51.2365,
+      "startSample": 1348864,
+      "endSample": 1353728,
+      "probability": 1,
+      "phonemes": "kˈomo"
+    },
+    {
+      "word": "percibes",
+      "start": 51.324333,
+      "end": 51.751688,
+      "startSample": 1356032,
+      "endSample": 1367808,
+      "probability": 1,
+      "phonemes": "peɾsˈiβes"
+    },
+    {
+      "word": "cada",
+      "start": 51.8395,
+      "end": 52.016021,
+      "startSample": 1370112,
+      "endSample": 1374976,
+      "probability": 1,
+      "phonemes": "kˈaða"
+    },
+    {
+      "word": "momento.",
+      "start": 52.07175,
+      "end": 52.434083,
+      "startSample": 1376512,
+      "endSample": 1386496,
+      "probability": 1,
+      "phonemes": "momˈɛnto."
+    },
+    {
+      "word": "Son",
+      "start": 52.716521,
+      "end": 52.874458,
+      "startSample": 1390848,
+      "endSample": 1395200,
+      "probability": 1,
+      "phonemes": "sˈon"
+    },
+    {
+      "word": "dos",
+      "start": 53.004521,
+      "end": 53.134583,
+      "startSample": 1398784,
+      "endSample": 1402368,
+      "probability": 1,
+      "phonemes": "dˈos"
+    },
+    {
+      "word": "perspectivas",
+      "start": 53.259563,
+      "end": 54.039958,
+      "startSample": 1405696,
+      "endSample": 1427200,
+      "probability": 1,
+      "phonemes": "pˌeɾspektˈiβas"
+    },
+    {
+      "word": "distintas.",
+      "start": 54.123562,
+      "end": 54.699562,
+      "startSample": 1429504,
+      "endSample": 1445376,
+      "probability": 1,
+      "phonemes": "ðistˈintas."
+    },
+    {
+      "word": "¿Quieres",
+      "start": 54.829625,
+      "end": 55.08975,
+      "startSample": 1448960,
+      "endSample": 1456128,
+      "probability": 1,
+      "phonemes": "kjˈeɾes"
+    },
+    {
+      "word": "que",
+      "start": 55.154771,
+      "end": 55.219813,
+      "startSample": 1457920,
+      "endSample": 1459712,
+      "probability": 1,
+      "phonemes": "ke"
+    },
+    {
+      "word": "tu",
+      "start": 55.284833,
+      "end": 55.340583,
+      "startSample": 1461504,
+      "endSample": 1463040,
+      "probability": 1,
+      "phonemes": "tu"
+    },
+    {
+      "word": "vida",
+      "start": 55.387042,
+      "end": 55.55425,
+      "startSample": 1464320,
+      "endSample": 1468928,
+      "probability": 1,
+      "phonemes": "βˈiða"
+    },
+    {
+      "word": "se",
+      "start": 55.619292,
+      "end": 55.702896,
+      "startSample": 1470720,
+      "endSample": 1473024,
+      "probability": 1,
+      "phonemes": "se"
+    },
+    {
+      "word": "sienta",
+      "start": 55.767938,
+      "end": 56.046646,
+      "startSample": 1474816,
+      "endSample": 1482496,
+      "probability": 1,
+      "phonemes": "sjˈɛnta"
+    },
+    {
+      "word": "menos",
+      "start": 56.120958,
+      "end": 56.3625,
+      "startSample": 1484544,
+      "endSample": 1491200,
+      "probability": 1,
+      "phonemes": "mˈenos"
+    },
+    {
+      "word": "automática?",
+      "start": 56.436833,
+      "end": 57.217208,
+      "startSample": 1493248,
+      "endSample": 1514752,
+      "probability": 1,
+      "phonemes": "ˌaʊtomˈatika?"
+    },
+    {
+      "word": "Aprende",
+      "start": 57.585771,
+      "end": 57.9295,
+      "startSample": 1522176,
+      "endSample": 1531648,
+      "probability": 1,
+      "phonemes": "apɾˈɛnde"
+    },
+    {
+      "word": "algo,",
+      "start": 57.994542,
+      "end": 58.2175,
+      "startSample": 1533440,
+      "endSample": 1539584,
+      "probability": 1,
+      "phonemes": "ˈalɣo,"
+    },
+    {
+      "word": "cambia",
+      "start": 58.514063,
+      "end": 58.839208,
+      "startSample": 1544704,
+      "endSample": 1553664,
+      "probability": 1,
+      "phonemes": "kˈambja"
+    },
+    {
+      "word": "tu",
+      "start": 58.954896,
+      "end": 59.0385,
+      "startSample": 1556736,
+      "endSample": 1559040,
+      "probability": 1,
+      "phonemes": "tu"
+    },
+    {
+      "word": "recorrido,",
+      "start": 59.112812,
+      "end": 59.828167,
+      "startSample": 1561088,
+      "endSample": 1580800,
+      "probability": 1,
+      "phonemes": "rˌekorˈiðo,"
+    },
+    {
+      "word": "conoce",
+      "start": 60.202521,
+      "end": 60.629875,
+      "startSample": 1588736,
+      "endSample": 1600512,
+      "probability": 1,
+      "phonemes": "konˈose"
+    },
+    {
+      "word": "un",
+      "start": 60.685604,
+      "end": 60.732062,
+      "startSample": 1602048,
+      "endSample": 1603328,
+      "probability": 1,
+      "phonemes": "ˈun"
+    },
+    {
+      "word": "lugar",
+      "start": 60.815667,
+      "end": 61.047938,
+      "startSample": 1605632,
+      "endSample": 1612032,
+      "probability": 1,
+      "phonemes": "luɣˈaɾ"
+    },
+    {
+      "word": "o",
+      "start": 61.112958,
+      "end": 61.12225,
+      "startSample": 1613824,
+      "endSample": 1614080,
+      "probability": 1,
+      "phonemes": "o"
+    },
+    {
+      "word": "prueba",
+      "start": 61.237938,
+      "end": 61.498063,
+      "startSample": 1617152,
+      "endSample": 1624320,
+      "probability": 1,
+      "phonemes": "pɾuˈeβa"
+    },
+    {
+      "word": "una",
+      "start": 61.535229,
+      "end": 61.637417,
+      "startSample": 1625344,
+      "endSample": 1628160,
+      "probability": 1,
+      "phonemes": "ˈuna"
+    },
+    {
+      "word": "actividad",
+      "start": 61.683875,
+      "end": 62.278458,
+      "startSample": 1629440,
+      "endSample": 1645824,
+      "probability": 1,
+      "phonemes": "ˌaktiβiðˈad"
+    },
+    {
+      "word": "diferente.",
+      "start": 62.375563,
+      "end": 62.942271,
+      "startSample": 1648384,
+      "endSample": 1664000,
+      "probability": 1,
+      "phonemes": "ðˌifeɾˈɛnte."
+    },
+    {
+      "word": "No",
+      "start": 63.258854,
+      "end": 63.333188,
+      "startSample": 1669632,
+      "endSample": 1671680,
+      "probability": 1,
+      "phonemes": "nˈo"
+    },
+    {
+      "word": "puedes",
+      "start": 63.439583,
+      "end": 63.681125,
+      "startSample": 1674496,
+      "endSample": 1681152,
+      "probability": 1,
+      "phonemes": "pwˈeðes"
+    },
+    {
+      "word": "detener",
+      "start": 63.718292,
+      "end": 64.080604,
+      "startSample": 1682176,
+      "endSample": 1692160,
+      "probability": 1,
+      "phonemes": "ðˌetenˈeɾ"
+    },
+    {
+      "word": "el",
+      "start": 64.136354,
+      "end": 64.192083,
+      "startSample": 1693696,
+      "endSample": 1695232,
+      "probability": 1,
+      "phonemes": "el"
+    },
+    {
+      "word": "reloj,",
+      "start": 64.257125,
+      "end": 64.600854,
+      "startSample": 1697024,
+      "endSample": 1706496,
+      "probability": 1,
+      "phonemes": "relˈox,"
+    },
+    {
+      "word": "pero",
+      "start": 64.821562,
+      "end": 64.998063,
+      "startSample": 1709056,
+      "endSample": 1713920,
+      "probability": 1,
+      "phonemes": "pˌeɾo"
+    },
+    {
+      "word": "sí",
+      "start": 65.063104,
+      "end": 65.156,
+      "startSample": 1715712,
+      "endSample": 1718272,
+      "probability": 1,
+      "phonemes": "sˈi"
+    },
+    {
+      "word": "crear",
+      "start": 65.239625,
+      "end": 65.471875,
+      "startSample": 1720576,
+      "endSample": 1726976,
+      "probability": 1,
+      "phonemes": "kɾeˈaɾ"
+    },
+    {
+      "word": "recuerdos",
+      "start": 65.527604,
+      "end": 66.001417,
+      "startSample": 1728512,
+      "endSample": 1741568,
+      "probability": 1,
+      "phonemes": "rekwˈeɾðos"
+    },
+    {
+      "word": "que",
+      "start": 66.085021,
+      "end": 66.112896,
+      "startSample": 1743872,
+      "endSample": 1744640,
+      "probability": 1,
+      "phonemes": "ke"
+    },
+    {
+      "word": "hagan",
+      "start": 66.150063,
+      "end": 66.326562,
+      "startSample": 1745664,
+      "endSample": 1750528,
+      "probability": 1,
+      "phonemes": "ˈaɣan"
+    },
+    {
+      "word": "que",
+      "start": 66.363729,
+      "end": 66.447354,
+      "startSample": 1751552,
+      "endSample": 1753856,
+      "probability": 1,
+      "phonemes": "ke"
+    },
+    {
+      "word": "tus",
+      "start": 66.521667,
+      "end": 66.642437,
+      "startSample": 1755904,
+      "endSample": 1759232,
+      "probability": 1,
+      "phonemes": "tus"
+    },
+    {
+      "word": "días",
+      "start": 66.707479,
+      "end": 66.930437,
+      "startSample": 1761024,
+      "endSample": 1767168,
+      "probability": 1,
+      "phonemes": "ðˈiʲas"
+    },
+    {
+      "word": "se",
+      "start": 67.00475,
+      "end": 67.0605,
+      "startSample": 1769216,
+      "endSample": 1770752,
+      "probability": 1,
+      "phonemes": "se"
+    },
+    {
+      "word": "distingan.",
+      "start": 67.153396,
+      "end": 67.673646,
+      "startSample": 1773312,
+      "endSample": 1787648,
+      "probability": 1,
+      "phonemes": "ðistˈiŋɡan."
+    },
+    {
+      "word": "¿A",
+      "start": 67.984938,
+      "end": 68.022104,
+      "startSample": 1793280,
+      "endSample": 1794304,
+      "probability": 1,
+      "phonemes": "a"
+    },
+    {
+      "word": "ti",
+      "start": 68.137792,
+      "end": 68.212104,
+      "startSample": 1797376,
+      "endSample": 1799424,
+      "probability": 1,
+      "phonemes": "tˈi"
+    },
+    {
+      "word": "también",
+      "start": 68.286438,
+      "end": 68.658042,
+      "startSample": 1801472,
+      "endSample": 1811712,
+      "probability": 1,
+      "phonemes": "tambjˈen"
+    },
+    {
+      "word": "se",
+      "start": 68.685917,
+      "end": 68.778813,
+      "startSample": 1812480,
+      "endSample": 1815040,
+      "probability": 1,
+      "phonemes": "se"
+    },
+    {
+      "word": "te",
+      "start": 68.843854,
+      "end": 68.899583,
+      "startSample": 1816832,
+      "endSample": 1818368,
+      "probability": 1,
+      "phonemes": "te"
+    },
+    {
+      "word": "va",
+      "start": 68.93675,
+      "end": 69.011062,
+      "startSample": 1819392,
+      "endSample": 1821440,
+      "probability": 1,
+      "phonemes": "βˈa"
+    },
+    {
+      "word": "volando",
+      "start": 69.057521,
+      "end": 69.326937,
+      "startSample": 1822720,
+      "endSample": 1830144,
+      "probability": 1,
+      "phonemes": "βolˈando"
+    },
+    {
+      "word": "el",
+      "start": 69.373396,
+      "end": 69.419833,
+      "startSample": 1831424,
+      "endSample": 1832704,
+      "probability": 1,
+      "phonemes": "el"
+    },
+    {
+      "word": "año?",
+      "start": 69.503458,
+      "end": 69.679958,
+      "startSample": 1835008,
+      "endSample": 1839872,
+      "probability": 1,
+      "phonemes": "ˈaɲo?"
+    }
+  ],
+  "timingEdits": "Actual acoustic silence sample splices; no spoken phoneme removed",
+  "tempoMappingToleranceMs": 35,
+  "source": "public/episodios/episodio-02-tiempo/audio/narracion_original.flac",
+  "sourceSha256": "3703f97d16f366a4968695d07a3207310cc8f0d75967fc3035c582bf303b2172",
+  "tempo": 1.25,
+  "silenceEdits": [
+    {
+      "a": 73180,
+      "b": 76906,
+      "sourceSeconds": 0.07762678735951178,
+      "minimum": 0.045,
+      "maximum": 0.13262678735951178,
+      "punctuation": false,
+      "newSeconds": 0.08183333333333333
+    },
+    {
+      "a": 121590,
+      "b": 127742,
+      "sourceSeconds": 0.12817100561953687,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.24558333333333332
+    },
+    {
+      "a": 185161,
+      "b": 203822,
+      "sourceSeconds": 0.3887710000000002,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.4463958333333333
+    },
+    {
+      "a": 249704,
+      "b": 254387,
+      "sourceSeconds": 0.09755432128486241,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.222
+    },
+    {
+      "a": 262447,
+      "b": 267765,
+      "sourceSeconds": 0.11077298980158101,
+      "minimum": 0.045,
+      "maximum": 0.165772989801581,
+      "punctuation": false,
+      "newSeconds": 0.11497916666666666
+    },
+    {
+      "a": 287530,
+      "b": 290953,
+      "sourceSeconds": 0.07131218003330186,
+      "minimum": 0.045,
+      "maximum": 0.12631218003330186,
+      "punctuation": false,
+      "newSeconds": 0.07552083333333333
+    },
+    {
+      "a": 307602,
+      "b": 317264,
+      "sourceSeconds": 0.20129199999999958,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.3019375
+    },
+    {
+      "a": 464787,
+      "b": 468913,
+      "sourceSeconds": 0.08595799999999976,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.2130625
+    },
+    {
+      "a": 493177,
+      "b": 496527,
+      "sourceSeconds": 0.06979520299708675,
+      "minimum": 0.045,
+      "maximum": 0.12479520299708674,
+      "punctuation": false,
+      "newSeconds": 0.074
+    },
+    {
+      "a": 531344,
+      "b": 534431,
+      "sourceSeconds": 0.06432183987789486,
+      "minimum": 0.045,
+      "maximum": 0.11932183987789485,
+      "punctuation": false,
+      "newSeconds": 0.06852083333333334
+    },
+    {
+      "a": 638984,
+      "b": 643904,
+      "sourceSeconds": 0.10249999999999915,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.2258125
+    },
+    {
+      "a": 731052,
+      "b": 741343,
+      "sourceSeconds": 0.2144024646177325,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.31204166666666666
+    },
+    {
+      "a": 780520,
+      "b": 793379,
+      "sourceSeconds": 0.2678959999999968,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.35325
+    },
+    {
+      "a": 887818,
+      "b": 896973,
+      "sourceSeconds": 0.1907347292909698,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.2937916666666667
+    },
+    {
+      "a": 942105,
+      "b": 949960,
+      "sourceSeconds": 0.16364599999999996,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.27291666666666664
+    },
+    {
+      "a": 996633,
+      "b": 1014698,
+      "sourceSeconds": 0.3763539999999992,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.43683333333333335
+    },
+    {
+      "a": 1097325,
+      "b": 1103885,
+      "sourceSeconds": 0.13667244220896535,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.25214583333333335
+    },
+    {
+      "a": 1176160,
+      "b": 1179694,
+      "sourceSeconds": 0.07361206986263369,
+      "minimum": 0.045,
+      "maximum": 0.12861206986263368,
+      "punctuation": false,
+      "newSeconds": 0.0778125
+    },
+    {
+      "a": 1201428,
+      "b": 1212471,
+      "sourceSeconds": 0.2300620000000002,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.3241041666666667
+    },
+    {
+      "a": 1279841,
+      "b": 1287029,
+      "sourceSeconds": 0.14974999999999739,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.2622083333333333
+    },
+    {
+      "a": 1319521,
+      "b": 1329526,
+      "sourceSeconds": 0.20844481448592234,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.3074375
+    },
+    {
+      "a": 1349627,
+      "b": 1359757,
+      "sourceSeconds": 0.2110350661856515,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.3094375
+    },
+    {
+      "a": 1383964,
+      "b": 1387051,
+      "sourceSeconds": 0.06432183987789841,
+      "minimum": 0.045,
+      "maximum": 0.1193218398778984,
+      "punctuation": false,
+      "newSeconds": 0.06852083333333334
+    },
+    {
+      "a": 1433016,
+      "b": 1449460,
+      "sourceSeconds": 0.3425740590398192,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.4108125
+    },
+    {
+      "a": 1472824,
+      "b": 1477500,
+      "sourceSeconds": 0.09741700000000009,
+      "minimum": 0.045,
+      "maximum": 0.15241700000000008,
+      "punctuation": false,
+      "newSeconds": 0.101625
+    },
+    {
+      "a": 1657560,
+      "b": 1663405,
+      "sourceSeconds": 0.12177100000000252,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.24066666666666667
+    },
+    {
+      "a": 1840597,
+      "b": 1844577,
+      "sourceSeconds": 0.08290229984736186,
+      "minimum": 0.045,
+      "maximum": 0.13790229984736185,
+      "punctuation": false,
+      "newSeconds": 0.08710416666666666
+    },
+    {
+      "a": 1854248,
+      "b": 1859292,
+      "sourceSeconds": 0.1050920363535468,
+      "minimum": 0.045,
+      "maximum": 0.1600920363535468,
+      "punctuation": false,
+      "newSeconds": 0.10929166666666666
+    },
+    {
+      "a": 2077777,
+      "b": 2081734,
+      "sourceSeconds": 0.08243699999999876,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.21035416666666668
+    },
+    {
+      "a": 2130453,
+      "b": 2133986,
+      "sourceSeconds": 0.07361206986263369,
+      "minimum": 0.045,
+      "maximum": 0.12861206986263368,
+      "punctuation": false,
+      "newSeconds": 0.0778125
+    },
+    {
+      "a": 2261349,
+      "b": 2279359,
+      "sourceSeconds": 0.3752176819758617,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.43595833333333334
+    },
+    {
+      "a": 2344945,
+      "b": 2349371,
+      "sourceSeconds": 0.09219252983210424,
+      "minimum": 0.045,
+      "maximum": 0.14719252983210424,
+      "punctuation": false,
+      "newSeconds": 0.09639583333333333
+    },
+    {
+      "a": 2358323,
+      "b": 2361596,
+      "sourceSeconds": 0.06818084071041142,
+      "minimum": 0.045,
+      "maximum": 0.12318084071041141,
+      "punctuation": false,
+      "newSeconds": 0.07239583333333334
+    },
+    {
+      "a": 2382850,
+      "b": 2386383,
+      "sourceSeconds": 0.07361206986262658,
+      "minimum": 0.045,
+      "maximum": 0.12861206986262658,
+      "punctuation": false,
+      "newSeconds": 0.0778125
+    },
+    {
+      "a": 2416078,
+      "b": 2420742,
+      "sourceSeconds": 0.0971669999999989,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.2216875
+    },
+    {
+      "a": 2443050,
+      "b": 2448121,
+      "sourceSeconds": 0.10564114361037014,
+      "minimum": 0.045,
+      "maximum": 0.16064114361037013,
+      "punctuation": false,
+      "newSeconds": 0.10985416666666667
+    },
+    {
+      "a": 2638833,
+      "b": 2648808,
+      "sourceSeconds": 0.20781300000000158,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.30695833333333333
+    },
+    {
+      "a": 2682961,
+      "b": 2690508,
+      "sourceSeconds": 0.15722672790342784,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.26797916666666666
+    },
+    {
+      "a": 2706595,
+      "b": 2711374,
+      "sourceSeconds": 0.0995522226307699,
+      "minimum": 0.045,
+      "maximum": 0.1545522226307699,
+      "punctuation": false,
+      "newSeconds": 0.10375
+    },
+    {
+      "a": 2754476,
+      "b": 2767127,
+      "sourceSeconds": 0.2635620000000003,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.34991666666666665
+    },
+    {
+      "a": 2811835,
+      "b": 2816064,
+      "sourceSeconds": 0.08809994623281625,
+      "minimum": 0.045,
+      "maximum": 0.14309994623281624,
+      "punctuation": false,
+      "newSeconds": 0.0923125
+    },
+    {
+      "a": 2867131,
+      "b": 2870067,
+      "sourceSeconds": 0.06117342812542148,
+      "minimum": 0.045,
+      "maximum": 0.11617342812542147,
+      "punctuation": false,
+      "newSeconds": 0.065375
+    },
+    {
+      "a": 2900416,
+      "b": 2907660,
+      "sourceSeconds": 0.15091699999999975,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.263125
+    },
+    {
+      "a": 2912300,
+      "b": 2916595,
+      "sourceSeconds": 0.08947733016512416,
+      "minimum": 0.045,
+      "maximum": 0.14447733016512415,
+      "punctuation": false,
+      "newSeconds": 0.0936875
+    },
+    {
+      "a": 2972816,
+      "b": 2976796,
+      "sourceSeconds": 0.08290229984736186,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.21070833333333333
+    },
+    {
+      "a": 3114176,
+      "b": 3122529,
+      "sourceSeconds": 0.1740120165811021,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true,
+      "newSeconds": 0.28091666666666665
+    },
+    {
+      "a": 3125771,
+      "b": 3130642,
+      "sourceSeconds": 0.10148275981686083,
+      "minimum": 0.045,
+      "maximum": 0.15648275981686083,
+      "punctuation": false,
+      "newSeconds": 0.1056875
+    }
+  ]
+}

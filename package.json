@@ -31,7 +31,11 @@
     "render:episodio01:ritmo": "node scripts/episodio-01-cerebro-125/render.mjs",
     "preview:episodio01:ritmo": "node scripts/episodio-01-cerebro-125/render.mjs --preview",
     "validate:episodio01:ritmo": "node scripts/episodio-01-cerebro-125/validar.mjs",
-    "validate:preview:ritmo": "node scripts/episodio-01-cerebro-125/validar.mjs --preview"
+    "validate:preview:ritmo": "node scripts/episodio-01-cerebro-125/validar.mjs --preview",
+    "render:episodio02": "node scripts/episodio-02-tiempo/render.mjs",
+    "validate:episodio02": "node scripts/episodio-02-tiempo/validar.mjs",
+    "playback:episodio02": "node scripts/episodio-02-tiempo/comprobar_navegador.mjs",
+    "retention:episodio02": "python scripts/episodio-02-tiempo/analizar_retencion.py"
   },
   "dependencies": {
     "@elevenlabs/elevenlabs-js": "2.75.0",

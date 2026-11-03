@@ -1,0 +1,258 @@
+[
+  {
+    "id": 0,
+    "title": "UN AÑO EN UN PARPADEO",
+    "text": "¿Recuerdas cuando las vacaciones parecían eternas? Ahora cierras los ojos, ¡y ya es diciembre! ¿Qué le pasó al tiempo?",
+    "nominalStart": 0,
+    "nominalEnd": 7,
+    "lines": [
+      "¿YA ES",
+      "DICIEMBRE?"
+    ],
+    "sizes": [
+      108,
+      108
+    ],
+    "dark": true,
+    "cues": [
+      "Recuerdas",
+      "vacaciones",
+      "eternas",
+      "cierras",
+      "diciembre",
+      "Qué le pasó"
+    ],
+    "actions": [
+      "Recuerdo de vacaciones abre el reloj",
+      "Vacaciones se convierten en calendario",
+      "Calendario largo revela memoria infantil",
+      "Un parpadeo comprime las hojas",
+      "Diciembre entra con impacto",
+      "Pregunta dirige la cámara al cerebro"
+    ]
+  },
+  {
+    "id": 1,
+    "title": "24 HORAS. OTRA PERCEPCIÓN.",
+    "text": "Lo extraño es que los días siguen teniendo veinticuatro horas. Lo que puede cambiar es cómo tu cerebro vive y recuerda esos días. No hay una sola explicación.",
+    "nominalStart": 7,
+    "nominalEnd": 16,
+    "lines": [
+      "EL RELOJ SIGUE.",
+      "TU PERCEPCIÓN CAMBIA."
+    ],
+    "sizes": [
+      81,
+      62
+    ],
+    "dark": true,
+    "cues": [
+      "Lo extraño",
+      "veinticuatro horas",
+      "puede cambiar",
+      "vive",
+      "recuerda",
+      "No hay"
+    ],
+    "actions": [
+      "Reloj mantiene 24 horas",
+      "Se construyen 24 posiciones del dial",
+      "El cerebro toma el relevo",
+      "Dos paneles: vivir el momento",
+      "Se revelan recuerdos del día",
+      "Atención, rutina, novedad y memoria: factores múltiples"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "TODO ERA DESCUBRIMIENTO",
+    "text": "Cuando eras niño, muchas experiencias eran nuevas: tu primera escuela, nuevos amigos, lugares que nunca habías visto. Todo era descubrimiento.",
+    "nominalStart": 16,
+    "nominalEnd": 25,
+    "lines": [
+      "CUANDO TODO",
+      "ERA NUEVO."
+    ],
+    "sizes": [
+      81,
+      62
+    ],
+    "dark": false,
+    "cues": [
+      "Cuando eras niño",
+      "experiencias",
+      "primera escuela",
+      "nuevos amigos",
+      "lugares",
+      "descubrimiento"
+    ],
+    "actions": [
+      "Recuerdo escolar ilustrado",
+      "Se abre un mapa de experiencias nuevas",
+      "Se construye la escuela",
+      "Aparece red de amistad sin personajes inventados",
+      "Ruta hacia lugares distintos",
+      "Recuerdos se convierten en hitos"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "EL BUCLE DE LA RUTINA",
+    "text": "Pero al crecer, muchos días se parecen: despertar, trabajar, regresar a casa y repetir. Tu memoria puede guardar menos detalles distintivos. No ocurre igual en todos.",
+    "nominalStart": 25,
+    "nominalEnd": 34,
+    "lines": [
+      "DESPERTAR. TRABAJAR.",
+      "REPETIR."
+    ],
+    "sizes": [
+      75,
+      62
+    ],
+    "dark": false,
+    "cues": [
+      "Pero al crecer",
+      "despertar",
+      "trabajar",
+      "casa",
+      "memoria",
+      "No ocurre"
+    ],
+    "actions": [
+      "Los días se igualan visualmente",
+      "Despertar mueve reloj y entorno",
+      "Transporte conduce a trabajo",
+      "Casa cierra el recorrido",
+      "Las tarjetas similares pierden rasgos distintivos",
+      "Variabilidad: no es una regla por edad"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "AL MIRAR ATRÁS",
+    "text": "Y aquí viene lo sorprendente: una semana llena de experiencias nuevas puede parecer mucho más larga cuando la recuerdas. Hablamos de la duración al mirar atrás.",
+    "nominalStart": 34,
+    "nominalEnd": 43,
+    "lines": [
+      "MÁS EXPERIENCIAS.",
+      "OTRA SEMANA EN TU MEMORIA."
+    ],
+    "sizes": [
+      81,
+      58
+    ],
+    "dark": true,
+    "cues": [
+      "Y aquí viene",
+      "una semana",
+      "experiencias nuevas",
+      "más larga",
+      "recuerdas",
+      "mirar atrás"
+    ],
+    "actions": [
+      "Pregunta abre comparación de dos semanas",
+      "Siete casillas iguales se construyen",
+      "Casillas se llenan de actividades diferentes",
+      "La banda retrospectiva se expande",
+      "Memoria rescata hitos distintos",
+      "Se señala retrospectiva, no duración física"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "VIVIR NO ES RECORDAR",
+    "text": "Eso no significa que siempre se sienta más lenta. Mientras la vives, tu atención también cambia cómo percibes cada momento. Son dos perspectivas distintas.",
+    "nominalStart": 43,
+    "nominalEnd": 52,
+    "lines": [
+      "MIENTRAS OCURRE",
+      "≠ AL RECORDARLO"
+    ],
+    "sizes": [
+      81,
+      62
+    ],
+    "dark": true,
+    "cues": [
+      "Eso no significa",
+      "más lenta",
+      "la vives",
+      "atención",
+      "cada momento",
+      "dos perspectivas"
+    ],
+    "actions": [
+      "Paneles comparan dos perspectivas",
+      "Esperar mirando el reloj dirige atención",
+      "El tiempo durante una experiencia",
+      "Atención elige reloj o tarea",
+      "Recuerdos de viaje reconstruyen duración",
+      "Se separan explícitamente vivir y recordar"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "ROMPE EL AUTOMÁTICO",
+    "text": "¿Quieres que tu vida se sienta menos automática? Aprende algo, cambia tu recorrido, conoce un lugar o prueba una actividad diferente.",
+    "nominalStart": 52,
+    "nominalEnd": 61,
+    "lines": [
+      "CAMBIA UN DETALLE.",
+      "ABRE OTRA HISTORIA."
+    ],
+    "sizes": [
+      81,
+      62
+    ],
+    "dark": false,
+    "cues": [
+      "Quieres",
+      "automática",
+      "Aprende algo",
+      "cambia tu recorrido",
+      "conoce un lugar",
+      "actividad diferente"
+    ],
+    "actions": [
+      "Personaje sale del ciclo",
+      "Se abre una decisión",
+      "Aprender construye una habilidad",
+      "Un camino cambia de dirección",
+      "Nuevo lugar se descubre por parallax",
+      "Actividad original añade un hito"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "HAZ QUE SE DISTINGAN",
+    "text": "No puedes detener el reloj, pero sí crear recuerdos que hagan que tus días se distingan. ¿A ti también se te va volando el año?",
+    "nominalStart": 61,
+    "nominalEnd": 70,
+    "lines": [
+      "NO PARES EL RELOJ.",
+      "CREA RECUERDOS."
+    ],
+    "sizes": [
+      90,
+      68
+    ],
+    "dark": true,
+    "cues": [
+      "No puedes",
+      "reloj",
+      "crear recuerdos",
+      "tus días",
+      "A ti también",
+      "volando el año"
+    ],
+    "actions": [
+      "Reloj físico sigue avanzando",
+      "Se mantiene ritmo uniforme",
+      "Manecillas conectan tarjetas de recuerdos",
+      "Cada tarjeta gana un detalle distinto",
+      "Personaje dirige pregunta al espectador",
+      "Pregunta final con calendario en forma de recuerdos"
+    ]
+  }
+]

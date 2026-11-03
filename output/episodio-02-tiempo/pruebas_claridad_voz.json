@@ -1,0 +1,67 @@
+{
+  "testsOnly": true,
+  "externalGenerations": 0,
+  "sourceFinalUnchanged": true,
+  "variants": [
+    {
+      "variant": "punto_tras_lenta",
+      "text": "Eso no significa que siempre se sienta más lenta. Mientras la vives, tu atención también cambia cómo percibes cada momento. Son dos perspectivas distintas.",
+      "words": 24,
+      "file": "/tmp/ep02-voice-tests/punto_tras_lenta_125.wav",
+      "sha256": "e7b9ff6075f3be92360d2dd258deac49a79ececfebadf23b24816eb5ef86c1c4",
+      "tempo": 1.25,
+      "lengthScale": 1.1718145616308087,
+      "noiseScale": 0.55,
+      "noiseWScale": 0.65,
+      "duration": 9.42425,
+      "independentASR": {
+        "base": {
+          "transcript": "Eso no significa que siempre se sienta más lenta mientras la vives, tu atención también cambia como percibes cada momento, son dos perspectivas distintas.",
+          "tokenEditDistance": 0,
+          "referenceWords": 24,
+          "approxWer": 0.0,
+          "mientrasLaVivesRecognized": true,
+          "tuAtencionRecognized": true
+        },
+        "small": {
+          "transcript": "Eso no significa que siempre se sienta más lenta mientras la vives, tu atención también cambia como percibes cada momento. Son dos perspectivas distintas.",
+          "tokenEditDistance": 0,
+          "referenceWords": 24,
+          "approxWer": 0.0,
+          "mientrasLaVivesRecognized": true,
+          "tuAtencionRecognized": true
+        }
+      }
+    },
+    {
+      "variant": "dos_puntos_tras_vives",
+      "text": "Eso no significa que siempre se sienta más lenta mientras la vives: tu atención también cambia cómo percibes cada momento. Son dos perspectivas distintas.",
+      "words": 24,
+      "file": "/tmp/ep02-voice-tests/dos_puntos_tras_vives_125.wav",
+      "sha256": "569b71100e7a39e77a37c50fd247ee740b9b95f8a41beaa925813b5a651ed093",
+      "tempo": 1.25,
+      "lengthScale": 1.1718145616308087,
+      "noiseScale": 0.55,
+      "noiseWScale": 0.65,
+      "duration": 8.8119375,
+      "independentASR": {
+        "base": {
+          "transcript": "Eso no significa que siempre se sienta más lentamente tras la VVS. Tu atención también cambia como percibes cada momento, son dos perspectivas distintas.",
+          "tokenEditDistance": 3,
+          "referenceWords": 24,
+          "approxWer": 0.125,
+          "mientrasLaVivesRecognized": false,
+          "tuAtencionRecognized": true
+        },
+        "small": {
+          "transcript": "Eso no significa que siempre se sienta más lenta mientras la Vibes. Tu atención también cambia como percibes cada momento. Son dos perspectivas distintas.",
+          "tokenEditDistance": 1,
+          "referenceWords": 24,
+          "approxWer": 0.041666666666666664,
+          "mientrasLaVivesRecognized": false,
+          "tuAtencionRecognized": true
+        }
+      }
+    }
+  ]
+}

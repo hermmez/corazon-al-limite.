@@ -1,0 +1,88 @@
+{
+  "id": "Episodio02Tiempo",
+  "title": "¿Por qué el tiempo pasa más rápido cuando creces?",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationInFrames": 2100,
+  "duration": 70,
+  "original": {
+    "commit": "ae06cebb9f927616705d9ed30cfed17d0c722f08",
+    "video": "output/episodio-01-cerebro/episodio_01_cerebro_70s.mp4",
+    "voice": "public/episodios/episodio-01-cerebro/audio/narracion.flac",
+    "alignment": "output/episodio-01-cerebro/alineacion_audio_real.json",
+    "speed": 1.25,
+    "optimizedVideo": "output/episodio-01-cerebro-125/episodio_01_cerebro_70s_FINAL.mp4"
+  },
+  "narration": "¿Recuerdas cuando las vacaciones parecían eternas? Ahora cierras los ojos, ¡y ya es diciembre! ¿Qué le pasó al tiempo? Lo extraño es que los días siguen teniendo veinticuatro horas. Lo que puede cambiar es cómo tu cerebro vive y recuerda esos días. No hay una sola explicación. Cuando eras niño, muchas experiencias eran nuevas: tu primera escuela, nuevos amigos, lugares que nunca habías visto. Todo era descubrimiento. Pero al crecer, muchos días se parecen: despertar, trabajar, regresar a casa y repetir. Tu memoria puede guardar menos detalles distintivos. No ocurre igual en todos. Y aquí viene lo sorprendente: una semana llena de experiencias nuevas puede parecer mucho más larga cuando la recuerdas. Hablamos de la duración al mirar atrás. Eso no significa que siempre se sienta más lenta. Mientras la vives, tu atención también cambia cómo percibes cada momento. Son dos perspectivas distintas. ¿Quieres que tu vida se sienta menos automática? Aprende algo, cambia tu recorrido, conoce un lugar o prueba una actividad diferente. No puedes detener el reloj, pero sí crear recuerdos que hagan que tus días se distingan. ¿A ti también se te va volando el año?",
+  "voice": {
+    "status": "real-integrated",
+    "provider": "Piper local",
+    "preset": "Aldo es_MX",
+    "voiceId": "es_MX-ald-medium",
+    "voiceType": "local-model",
+    "tempo": 1.25,
+    "paidGenerationCount": 0,
+    "creditsActual": 0,
+    "source": "public/episodios/episodio-02-tiempo/audio/narracion_original.flac",
+    "intrinsicAlignment": "output/episodio-02-tiempo/alineacion_intrinseca.json",
+    "words": 189,
+    "lastWordEndMs": 69680
+  },
+  "threeD": {
+    "status": "replaceable-Remotion-clock-marker",
+    "maxDuration": 3,
+    "generated": false,
+    "paidGenerations": 0
+  },
+  "scenes": [
+    {
+      "id": 0,
+      "start": 0,
+      "end": 7,
+      "text": "¿Recuerdas cuando las vacaciones parecían eternas? Ahora cierras los ojos, ¡y ya es diciembre! ¿Qué le pasó al tiempo?"
+    },
+    {
+      "id": 1,
+      "start": 7,
+      "end": 16,
+      "text": "Lo extraño es que los días siguen teniendo veinticuatro horas. Lo que puede cambiar es cómo tu cerebro vive y recuerda esos días. No hay una sola explicación."
+    },
+    {
+      "id": 2,
+      "start": 16,
+      "end": 25,
+      "text": "Cuando eras niño, muchas experiencias eran nuevas: tu primera escuela, nuevos amigos, lugares que nunca habías visto. Todo era descubrimiento."
+    },
+    {
+      "id": 3,
+      "start": 25,
+      "end": 34,
+      "text": "Pero al crecer, muchos días se parecen: despertar, trabajar, regresar a casa y repetir. Tu memoria puede guardar menos detalles distintivos. No ocurre igual en todos."
+    },
+    {
+      "id": 4,
+      "start": 34,
+      "end": 43,
+      "text": "Y aquí viene lo sorprendente: una semana llena de experiencias nuevas puede parecer mucho más larga cuando la recuerdas. Hablamos de la duración al mirar atrás."
+    },
+    {
+      "id": 5,
+      "start": 43,
+      "end": 52,
+      "text": "Eso no significa que siempre se sienta más lenta. Mientras la vives, tu atención también cambia cómo percibes cada momento. Son dos perspectivas distintas."
+    },
+    {
+      "id": 6,
+      "start": 52,
+      "end": 61,
+      "text": "¿Quieres que tu vida se sienta menos automática? Aprende algo, cambia tu recorrido, conoce un lugar o prueba una actividad diferente."
+    },
+    {
+      "id": 7,
+      "start": 61,
+      "end": 70,
+      "text": "No puedes detener el reloj, pero sí crear recuerdos que hagan que tus días se distingan. ¿A ti también se te va volando el año?"
+    }
+  ]
+}

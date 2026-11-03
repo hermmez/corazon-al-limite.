@@ -1,0 +1,384 @@
+{
+  "fixedSpeechSeconds": 59.947624999999995,
+  "silenceBudget": 9.732374999999998,
+  "minSilence": 2.1149999999999998,
+  "maxSilence": 20.050198586859956,
+  "candidateGaps": [
+    {
+      "a": 73180,
+      "b": 76906,
+      "sourceSeconds": 0.07762678735951178,
+      "minimum": 0.045,
+      "maximum": 0.13262678735951178,
+      "punctuation": false
+    },
+    {
+      "a": 121590,
+      "b": 127742,
+      "sourceSeconds": 0.12817100561953687,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 185161,
+      "b": 203822,
+      "sourceSeconds": 0.3887710000000002,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 249704,
+      "b": 254387,
+      "sourceSeconds": 0.09755432128486241,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 262447,
+      "b": 267765,
+      "sourceSeconds": 0.11077298980158101,
+      "minimum": 0.045,
+      "maximum": 0.165772989801581,
+      "punctuation": false
+    },
+    {
+      "a": 287530,
+      "b": 290953,
+      "sourceSeconds": 0.07131218003330186,
+      "minimum": 0.045,
+      "maximum": 0.12631218003330186,
+      "punctuation": false
+    },
+    {
+      "a": 307602,
+      "b": 317264,
+      "sourceSeconds": 0.20129199999999958,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 464787,
+      "b": 468913,
+      "sourceSeconds": 0.08595799999999976,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 493177,
+      "b": 496527,
+      "sourceSeconds": 0.06979520299708675,
+      "minimum": 0.045,
+      "maximum": 0.12479520299708674,
+      "punctuation": false
+    },
+    {
+      "a": 531344,
+      "b": 534431,
+      "sourceSeconds": 0.06432183987789486,
+      "minimum": 0.045,
+      "maximum": 0.11932183987789485,
+      "punctuation": false
+    },
+    {
+      "a": 638984,
+      "b": 643904,
+      "sourceSeconds": 0.10249999999999915,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 731052,
+      "b": 741343,
+      "sourceSeconds": 0.2144024646177325,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 780520,
+      "b": 793379,
+      "sourceSeconds": 0.2678959999999968,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 887818,
+      "b": 896973,
+      "sourceSeconds": 0.1907347292909698,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 942105,
+      "b": 949960,
+      "sourceSeconds": 0.16364599999999996,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 996633,
+      "b": 1014698,
+      "sourceSeconds": 0.3763539999999992,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 1097325,
+      "b": 1103885,
+      "sourceSeconds": 0.13667244220896535,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 1176160,
+      "b": 1179694,
+      "sourceSeconds": 0.07361206986263369,
+      "minimum": 0.045,
+      "maximum": 0.12861206986263368,
+      "punctuation": false
+    },
+    {
+      "a": 1201428,
+      "b": 1212471,
+      "sourceSeconds": 0.2300620000000002,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 1279841,
+      "b": 1287029,
+      "sourceSeconds": 0.14974999999999739,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 1319521,
+      "b": 1329526,
+      "sourceSeconds": 0.20844481448592234,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 1349627,
+      "b": 1359757,
+      "sourceSeconds": 0.2110350661856515,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 1383964,
+      "b": 1387051,
+      "sourceSeconds": 0.06432183987789841,
+      "minimum": 0.045,
+      "maximum": 0.1193218398778984,
+      "punctuation": false
+    },
+    {
+      "a": 1433016,
+      "b": 1449460,
+      "sourceSeconds": 0.3425740590398192,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 1472824,
+      "b": 1477500,
+      "sourceSeconds": 0.09741700000000009,
+      "minimum": 0.045,
+      "maximum": 0.15241700000000008,
+      "punctuation": false
+    },
+    {
+      "a": 1657560,
+      "b": 1663405,
+      "sourceSeconds": 0.12177100000000252,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 1840597,
+      "b": 1844577,
+      "sourceSeconds": 0.08290229984736186,
+      "minimum": 0.045,
+      "maximum": 0.13790229984736185,
+      "punctuation": false
+    },
+    {
+      "a": 1854248,
+      "b": 1859292,
+      "sourceSeconds": 0.1050920363535468,
+      "minimum": 0.045,
+      "maximum": 0.1600920363535468,
+      "punctuation": false
+    },
+    {
+      "a": 2077777,
+      "b": 2081734,
+      "sourceSeconds": 0.08243699999999876,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 2130453,
+      "b": 2133986,
+      "sourceSeconds": 0.07361206986263369,
+      "minimum": 0.045,
+      "maximum": 0.12861206986263368,
+      "punctuation": false
+    },
+    {
+      "a": 2261349,
+      "b": 2279359,
+      "sourceSeconds": 0.3752176819758617,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 2344945,
+      "b": 2349371,
+      "sourceSeconds": 0.09219252983210424,
+      "minimum": 0.045,
+      "maximum": 0.14719252983210424,
+      "punctuation": false
+    },
+    {
+      "a": 2358323,
+      "b": 2361596,
+      "sourceSeconds": 0.06818084071041142,
+      "minimum": 0.045,
+      "maximum": 0.12318084071041141,
+      "punctuation": false
+    },
+    {
+      "a": 2382850,
+      "b": 2386383,
+      "sourceSeconds": 0.07361206986262658,
+      "minimum": 0.045,
+      "maximum": 0.12861206986262658,
+      "punctuation": false
+    },
+    {
+      "a": 2416078,
+      "b": 2420742,
+      "sourceSeconds": 0.0971669999999989,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 2443050,
+      "b": 2448121,
+      "sourceSeconds": 0.10564114361037014,
+      "minimum": 0.045,
+      "maximum": 0.16064114361037013,
+      "punctuation": false
+    },
+    {
+      "a": 2638833,
+      "b": 2648808,
+      "sourceSeconds": 0.20781300000000158,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 2682961,
+      "b": 2690508,
+      "sourceSeconds": 0.15722672790342784,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 2706595,
+      "b": 2711374,
+      "sourceSeconds": 0.0995522226307699,
+      "minimum": 0.045,
+      "maximum": 0.1545522226307699,
+      "punctuation": false
+    },
+    {
+      "a": 2754476,
+      "b": 2767127,
+      "sourceSeconds": 0.2635620000000003,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 2811835,
+      "b": 2816064,
+      "sourceSeconds": 0.08809994623281625,
+      "minimum": 0.045,
+      "maximum": 0.14309994623281624,
+      "punctuation": false
+    },
+    {
+      "a": 2867131,
+      "b": 2870067,
+      "sourceSeconds": 0.06117342812542148,
+      "minimum": 0.045,
+      "maximum": 0.11617342812542147,
+      "punctuation": false
+    },
+    {
+      "a": 2900416,
+      "b": 2907660,
+      "sourceSeconds": 0.15091699999999975,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 2912300,
+      "b": 2916595,
+      "sourceSeconds": 0.08947733016512416,
+      "minimum": 0.045,
+      "maximum": 0.14447733016512415,
+      "punctuation": false
+    },
+    {
+      "a": 2972816,
+      "b": 2976796,
+      "sourceSeconds": 0.08290229984736186,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 3114176,
+      "b": 3122529,
+      "sourceSeconds": 0.1740120165811021,
+      "minimum": 0.045,
+      "maximum": 0.64,
+      "punctuation": true
+    },
+    {
+      "a": 3125771,
+      "b": 3130642,
+      "sourceSeconds": 0.10148275981686083,
+      "minimum": 0.045,
+      "maximum": 0.15648275981686083,
+      "punctuation": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "testOnly": true,
+  "finalSourceUnchanged": true,
+  "externalGenerations": 0,
+  "variants": [
+    {
+      "variant": "punto_tras_parpadeas",
+      "expected": "¿Recuerdas cuando las vacaciones parecían eternas? Ahora parpadeas. ¡Y ya es diciembre! ¿Qué le pasó al tiempo?",
+      "words": 17,
+      "file": "/tmp/ep02-voice-tests/punto_tras_parpadeas_125.wav",
+      "sha256": "45b2e960d5d5c2fa62ffaabf55a74cfec1d0e36c46565b6539191bd8ad41996c",
+      "duration": 6.2906875,
+      "lengthScale": 1.155287604665133,
+      "tempo": 1.25,
+      "independentASR": {
+        "base": {
+          "transcript": "Recuerdas cuando las vacaciones parecían eternas ahora papadinas y ya es de siempre que le pasó al tiempo.",
+          "targetRecognized": false,
+          "diciembreRecognized": false,
+          "exactNormalizedWords": false
+        },
+        "small": {
+          "transcript": "Recuerdas cuando las vacaciones parecían eternas, ahora papadinas, y ya es diciembre que le pasó al tiempo.",
+          "targetRecognized": false,
+          "diciembreRecognized": true,
+          "exactNormalizedWords": false
+        }
+      }
+    },
+    {
+      "variant": "cierras_los_ojos",
+      "expected": "¿Recuerdas cuando las vacaciones parecían eternas? Ahora cierras los ojos, ¡y ya es diciembre! ¿Qué le pasó al tiempo?",
+      "words": 19,
+      "file": "/tmp/ep02-voice-tests/cierras_los_ojos_125.wav",
+      "sha256": "5884a5210ae9db51c0a4138e05dbf98bf1a386abd389cd4dcf58bc0d9ddb0e70",
+      "duration": 6.6033125,
+      "lengthScale": 1.155287604665133,
+      "tempo": 1.25,
+      "independentASR": {
+        "base": {
+          "transcript": "Recuerdas cuando las vacaciones parecían eternas, ahora sean los ojos, y ya es diciembre que le pasó al tiempo.",
+          "targetRecognized": false,
+          "diciembreRecognized": true,
+          "exactNormalizedWords": false
+        },
+        "small": {
+          "transcript": "Recuerdas cuando las vacaciones parecían eternas ahora cierras los ojos y ya es diciembre que le pasó al tiempo.",
+          "targetRecognized": true,
+          "diciembreRecognized": true,
+          "exactNormalizedWords": true
+        }
+      }
+    }
+  ]
+}

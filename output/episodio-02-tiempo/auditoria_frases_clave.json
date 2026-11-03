@@ -1,0 +1,100 @@
+{
+  "method": "Independent transcription of final edited clean narration, without initial_prompt or supplied expected text",
+  "language": "es",
+  "beamSize": 5,
+  "conditionOnPreviousText": false,
+  "vadFilter": false,
+  "voiceFile": "public/episodios/episodio-02-tiempo/audio/narracion.flac",
+  "voiceSha256": "4b33aed83501cabf254ebd831dfd35700f7d290d8b86c10d84a94588d3635c1c",
+  "sourceFile": "public/episodios/episodio-02-tiempo/audio/narracion_original.flac",
+  "sourceSha256": "3703f97d16f366a4968695d07a3207310cc8f0d75967fc3035c582bf303b2172",
+  "timelineSha256": "2b0439909f3433cf0a919700dfe0c8a742d9896a54e53af6c9af57d43cc59019",
+  "sampleRate": 16000,
+  "captionTimingSource": "Piper/VITS intrinsic emitted phoneme durations; this ASR is a content audit and does not assign captions",
+  "limitations": "ASR can misspell or omit words. Exact transcript matching is evidence of intelligibility for this decoder, not a human naturalness score.",
+  "engines": [
+    "faster-whisper base int8",
+    "faster-whisper small int8"
+  ],
+  "revisedPhrase": "lenta. Mientras la vives, tu atención",
+  "checks": [
+    {
+      "scene": 0,
+      "start": 0,
+      "end": 7.078,
+      "expected": "¿Recuerdas cuando las vacaciones parecían eternas? Ahora cierras los ojos, ¡y ya es diciembre! ¿Qué le pasó al tiempo?",
+      "independentASR": "Recuerdas cuando las vacaciones parecían eternas, ahora se arras los ojos, y ya es diciembre que le pasó al tiempo.",
+      "model": "base",
+      "tokenEditDistance": 2,
+      "referenceWords": 19,
+      "approxWer": 0.10526315789473684,
+      "keyPhrases": {
+        "recuerdas": true,
+        "vacaciones": true,
+        "cierras los ojos": false,
+        "ya es diciembre": true,
+        "tiempo": true
+      }
+    },
+    {
+      "scene": 5,
+      "start": 45.4,
+      "end": 54.795,
+      "expected": "Eso no significa que siempre se sienta más lenta. Mientras la vives, tu atención también cambia cómo percibes cada momento. Son dos perspectivas distintas.",
+      "independentASR": "eso no significa que siempre se sienta más lenta mientras la vives, tu atención también cambia como percibes cada momento, son tus perspectivas distintas.",
+      "model": "base",
+      "tokenEditDistance": 1,
+      "referenceWords": 24,
+      "approxWer": 0.041666666666666664,
+      "keyPhrases": {
+        "no significa": true,
+        "mas lenta": true,
+        "mientras la vives": true,
+        "tu atencion": true,
+        "dos perspectivas distintas": false
+      }
+    },
+    {
+      "scene": 0,
+      "start": 0,
+      "end": 7.078,
+      "expected": "¿Recuerdas cuando las vacaciones parecían eternas? Ahora cierras los ojos, ¡y ya es diciembre! ¿Qué le pasó al tiempo?",
+      "independentASR": "Recuerdas cuando las vacaciones parecían eternas, ahora cierras los ojos. Y ya es diciembre que le pasó al tiempo.",
+      "model": "small",
+      "tokenEditDistance": 0,
+      "referenceWords": 19,
+      "approxWer": 0.0,
+      "keyPhrases": {
+        "recuerdas": true,
+        "vacaciones": true,
+        "cierras los ojos": true,
+        "ya es diciembre": true,
+        "tiempo": true
+      }
+    },
+    {
+      "scene": 5,
+      "start": 45.4,
+      "end": 54.795,
+      "expected": "Eso no significa que siempre se sienta más lenta. Mientras la vives, tu atención también cambia cómo percibes cada momento. Son dos perspectivas distintas.",
+      "independentASR": "Eso no significa que siempre se sienta más lenta mientras la vives, tu atención también cambia como percibes cada momento. Son dos perspectivas distintas.",
+      "model": "small",
+      "tokenEditDistance": 0,
+      "referenceWords": 24,
+      "approxWer": 0.0,
+      "keyPhrases": {
+        "no significa": true,
+        "mas lenta": true,
+        "mientras la vives": true,
+        "tu atencion": true,
+        "dos perspectivas distintas": true
+      }
+    }
+  ],
+  "interpretation": {
+    "scene0": "Small recognizes the full final hook exactly. Base splits cierras as se arras but recognizes ojos and ya es diciembre. Both raw transcripts remain present.",
+    "scene5": "Both engines recognize no significa, mientras la vives and tu atención. Small recognizes the complete sentence exactly; base substitutes dos with tus.",
+    "furtherVariantsGenerated": false,
+    "notHumanNaturalnessScore": true
+  }
+}
