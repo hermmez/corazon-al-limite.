@@ -1,0 +1,59 @@
+{
+  "technicalStatus": "failed",
+  "scope": "Render2 anterior a reinvención: archivo para preservar/revisar, no producción final declarada lista. No se modificó el validador ni sus umbrales. Se ejecutaron por separado los checks no afectados tras el fallo de tags de color.",
+  "file": "output/episodio-02-tiempo/episodio_02_tiempo_70s.mp4",
+  "sha256": "a61783ccaf9fe797edc0427af485c435b4ac7c6e75b492e048618fc71a8eed72",
+  "bytes": 13265048,
+  "duration": 70.0,
+  "videoDuration": 70.0,
+  "audioDuration": 70.0,
+  "frames": 2100,
+  "fps": "30/1",
+  "width": 1080,
+  "height": 1920,
+  "codecs": [
+    "h264",
+    "aac"
+  ],
+  "pixelFormat": "yuv420p",
+  "color": {
+    "color_range": "tv",
+    "color_space": "bt709",
+    "color_primaries": null,
+    "color_transfer": null
+  },
+  "failedChecks": [
+    {
+      "field": "color_primaries",
+      "expected": "bt709",
+      "actual": null,
+      "status": "failed"
+    },
+    {
+      "field": "color_transfer",
+      "expected": "bt709",
+      "actual": null,
+      "status": "failed"
+    }
+  ],
+  "decodeExitCode": 0,
+  "decodedFrames": 2100,
+  "distinctFrames": 2098,
+  "blackRanges": [],
+  "audio": {
+    "sampleRate": 48000,
+    "channels": 2,
+    "lufs": -14.06,
+    "truePeakDbtp": -1.87
+  },
+  "fastStart": true,
+  "approvedPngUnchanged": 68,
+  "protectedMoviesUnchanged": [
+    "output/episodio-01-cerebro/episodio_01_cerebro_70s.mp4",
+    "output/episodio-01-cerebro-125/episodio_01_cerebro_70s_FINAL.mp4"
+  ],
+  "originalValidatorExitCode": 1,
+  "originalValidatorFailure": "Missing H.264 color_primaries=bt709 and color_transfer=bt709 metadata",
+  "browserPlaybackExecuted": false,
+  "ABExecuted": false
+}

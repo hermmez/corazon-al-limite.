@@ -1,0 +1,133 @@
+{
+  "method": "Manrope weight800 advance widths with -3px tracking, safe850px; verifies static title extents",
+  "lines": [
+    {
+      "scene": 0,
+      "text": "¿YA ES",
+      "requestedPx": 108,
+      "finalPx": 108,
+      "measuredWidthPx": 337.83,
+      "safeWidthPx": 850
+    },
+    {
+      "scene": 0,
+      "text": "DICIEMBRE?",
+      "requestedPx": 108,
+      "finalPx": 108,
+      "measuredWidthPx": 616.45,
+      "safeWidthPx": 850
+    },
+    {
+      "scene": 1,
+      "text": "EL RELOJ SIGUE.",
+      "requestedPx": 81,
+      "finalPx": 81,
+      "measuredWidthPx": 596.05,
+      "safeWidthPx": 850
+    },
+    {
+      "scene": 1,
+      "text": "TU PERCEPCIÓN CAMBIA.",
+      "requestedPx": 62,
+      "finalPx": 62,
+      "measuredWidthPx": 704.86,
+      "safeWidthPx": 850
+    },
+    {
+      "scene": 2,
+      "text": "CUANDO TODO",
+      "requestedPx": 81,
+      "finalPx": 81,
+      "measuredWidthPx": 565.98,
+      "safeWidthPx": 850
+    },
+    {
+      "scene": 2,
+      "text": "ERA NUEVO.",
+      "requestedPx": 62,
+      "finalPx": 62,
+      "measuredWidthPx": 335.67,
+      "safeWidthPx": 850
+    },
+    {
+      "scene": 3,
+      "text": "DESPERTAR. TRABAJAR.",
+      "requestedPx": 81,
+      "finalPx": 75,
+      "measuredWidthPx": 827.45,
+      "safeWidthPx": 850
+    },
+    {
+      "scene": 3,
+      "text": "REPETIR.",
+      "requestedPx": 62,
+      "finalPx": 62,
+      "measuredWidthPx": 251.56,
+      "safeWidthPx": 850
+    },
+    {
+      "scene": 4,
+      "text": "MÁS EXPERIENCIAS.",
+      "requestedPx": 81,
+      "finalPx": 81,
+      "measuredWidthPx": 750.0,
+      "safeWidthPx": 850
+    },
+    {
+      "scene": 4,
+      "text": "OTRA SEMANA EN TU MEMORIA.",
+      "requestedPx": 62,
+      "finalPx": 58,
+      "measuredWidthPx": 818.67,
+      "safeWidthPx": 850
+    },
+    {
+      "scene": 5,
+      "text": "MIENTRAS OCURRE",
+      "requestedPx": 81,
+      "finalPx": 81,
+      "measuredWidthPx": 723.34,
+      "safeWidthPx": 850
+    },
+    {
+      "scene": 5,
+      "text": "≠ AL RECORDARLO",
+      "requestedPx": 62,
+      "finalPx": 62,
+      "measuredWidthPx": 519.47,
+      "safeWidthPx": 850
+    },
+    {
+      "scene": 6,
+      "text": "CAMBIA UN DETALLE.",
+      "requestedPx": 81,
+      "finalPx": 81,
+      "measuredWidthPx": 783.73,
+      "safeWidthPx": 850
+    },
+    {
+      "scene": 6,
+      "text": "ABRE OTRA HISTORIA.",
+      "requestedPx": 62,
+      "finalPx": 62,
+      "measuredWidthPx": 610.64,
+      "safeWidthPx": 850
+    },
+    {
+      "scene": 7,
+      "text": "NO PARES EL RELOJ.",
+      "requestedPx": 108,
+      "finalPx": 90,
+      "measuredWidthPx": 822.33,
+      "safeWidthPx": 850
+    },
+    {
+      "scene": 7,
+      "text": "CREA RECUERDOS.",
+      "requestedPx": 68,
+      "finalPx": 68,
+      "measuredWidthPx": 589.75,
+      "safeWidthPx": 850
+    }
+  ]
+}

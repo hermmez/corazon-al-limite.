@@ -1,0 +1,545 @@
+{
+  "status": "production-real-expanded-voice",
+  "audioReady": true,
+  "previewAudioReady": false,
+  "scenes": [
+    {
+      "id": 0,
+      "start": 0,
+      "end": 7.078,
+      "voiceStart": 0.095,
+      "voiceEnd": 6.770875
+    },
+    {
+      "id": 1,
+      "start": 7.078,
+      "end": 16.242,
+      "voiceStart": 7.113083,
+      "voiceEnd": 15.928208
+    },
+    {
+      "id": 2,
+      "start": 16.242,
+      "end": 25.541,
+      "voiceStart": 16.276688,
+      "voiceEnd": 25.483146
+    },
+    {
+      "id": 3,
+      "start": 25.541,
+      "end": 36.559,
+      "voiceStart": 25.576062,
+      "voiceEnd": 36.252167
+    },
+    {
+      "id": 4,
+      "start": 36.559,
+      "end": 45.4,
+      "voiceStart": 36.594042,
+      "voiceEnd": 45.158729
+    },
+    {
+      "id": 5,
+      "start": 45.4,
+      "end": 54.795,
+      "voiceStart": 45.435292,
+      "voiceEnd": 54.699562
+    },
+    {
+      "id": 6,
+      "start": 54.795,
+      "end": 63.224,
+      "voiceStart": 54.829625,
+      "voiceEnd": 62.942271
+    },
+    {
+      "id": 7,
+      "start": 63.224,
+      "end": 70,
+      "voiceStart": 63.258854,
+      "voiceEnd": 69.679958
+    }
+  ],
+  "events": [
+    {
+      "id": "s0-a0",
+      "scene": 0,
+      "action": 0,
+      "start": 0,
+      "cue": "Recuerdas",
+      "label": "Recuerdo de vacaciones abre el reloj",
+      "kind": "semantic",
+      "audioWord": 0
+    },
+    {
+      "id": "s0-a1",
+      "scene": 0,
+      "action": 1,
+      "start": 1.024,
+      "cue": "vacaciones",
+      "label": "Vacaciones se convierten en calendario",
+      "kind": "semantic",
+      "audioWord": 3
+    },
+    {
+      "id": "s0-a2",
+      "scene": 0,
+      "action": 2,
+      "start": 2.152,
+      "cue": "eternas",
+      "label": "Calendario largo revela memoria infantil",
+      "kind": "semantic",
+      "audioWord": 5
+    },
+    {
+      "id": "s0-a3",
+      "scene": 0,
+      "action": 3,
+      "start": 3.05,
+      "cue": "cierras",
+      "label": "Un parpadeo comprime las hojas",
+      "kind": "semantic",
+      "audioWord": 7
+    },
+    {
+      "id": "s0-a4",
+      "scene": 0,
+      "action": 4,
+      "start": 4.938,
+      "cue": "diciembre",
+      "label": "Diciembre entra con impacto",
+      "kind": "semantic",
+      "audioWord": 13
+    },
+    {
+      "id": "s0-a5",
+      "scene": 0,
+      "action": 5,
+      "start": 5.666,
+      "cue": "Qué le pasó",
+      "label": "Pregunta dirige la cámara al cerebro",
+      "kind": "semantic",
+      "audioWord": 14
+    },
+    {
+      "id": "s1-a0",
+      "scene": 1,
+      "action": 0,
+      "start": 7.078,
+      "cue": "Lo extraño",
+      "label": "Reloj mantiene 24 horas",
+      "kind": "semantic",
+      "audioWord": 19
+    },
+    {
+      "id": "s1-a1",
+      "scene": 1,
+      "action": 1,
+      "start": 9.129,
+      "cue": "veinticuatro horas",
+      "label": "Se construyen 24 posiciones del dial",
+      "kind": "semantic",
+      "audioWord": 27
+    },
+    {
+      "id": "s1-a2",
+      "scene": 1,
+      "action": 2,
+      "start": 10.705,
+      "cue": "puede cambiar",
+      "label": "El cerebro toma el relevo",
+      "kind": "semantic",
+      "audioWord": 31
+    },
+    {
+      "id": "s1-a3",
+      "scene": 1,
+      "action": 3,
+      "start": 12.358,
+      "cue": "vive",
+      "label": "Dos paneles: vivir el momento",
+      "kind": "semantic",
+      "audioWord": 37
+    },
+    {
+      "id": "s1-a4",
+      "scene": 1,
+      "action": 4,
+      "start": 12.776,
+      "cue": "recuerda",
+      "label": "Se revelan recuerdos del día",
+      "kind": "semantic",
+      "audioWord": 39
+    },
+    {
+      "id": "s1-a5",
+      "scene": 1,
+      "action": 5,
+      "start": 14.154,
+      "cue": "No hay",
+      "label": "Atención, rutina, novedad y memoria: factores múltiples",
+      "kind": "semantic",
+      "audioWord": 42
+    },
+    {
+      "id": "s2-a0",
+      "scene": 2,
+      "action": 0,
+      "start": 16.242,
+      "cue": "Cuando eras niño",
+      "label": "Recuerdo escolar ilustrado",
+      "kind": "semantic",
+      "audioWord": 47
+    },
+    {
+      "id": "s2-a1",
+      "scene": 2,
+      "action": 1,
+      "start": 17.951,
+      "cue": "experiencias",
+      "label": "Se abre un mapa de experiencias nuevas",
+      "kind": "semantic",
+      "audioWord": 51
+    },
+    {
+      "id": "s2-a2",
+      "scene": 2,
+      "action": 2,
+      "start": 19.875,
+      "cue": "primera escuela",
+      "label": "Se construye la escuela",
+      "kind": "semantic",
+      "audioWord": 55
+    },
+    {
+      "id": "s2-a3",
+      "scene": 2,
+      "action": 3,
+      "start": 20.941,
+      "cue": "nuevos amigos",
+      "label": "Aparece red de amistad sin personajes inventados",
+      "kind": "semantic",
+      "audioWord": 57
+    },
+    {
+      "id": "s2-a4",
+      "scene": 2,
+      "action": 4,
+      "start": 22.358,
+      "cue": "lugares",
+      "label": "Ruta hacia lugares distintos",
+      "kind": "semantic",
+      "audioWord": 59
+    },
+    {
+      "id": "s2-a5",
+      "scene": 2,
+      "action": 5,
+      "start": 24.647,
+      "cue": "descubrimiento",
+      "label": "Recuerdos se convierten en hitos",
+      "kind": "semantic",
+      "audioWord": 66
+    },
+    {
+      "id": "s3-a0",
+      "scene": 3,
+      "action": 0,
+      "start": 25.541,
+      "cue": "Pero al crecer",
+      "label": "Los días se igualan visualmente",
+      "kind": "semantic",
+      "audioWord": 67
+    },
+    {
+      "id": "s3-a1",
+      "scene": 3,
+      "action": 1,
+      "start": 28.332,
+      "cue": "despertar",
+      "label": "Despertar mueve reloj y entorno",
+      "kind": "semantic",
+      "audioWord": 74
+    },
+    {
+      "id": "s3-a2",
+      "scene": 3,
+      "action": 2,
+      "start": 29.314,
+      "cue": "trabajar",
+      "label": "Transporte conduce a trabajo",
+      "kind": "semantic",
+      "audioWord": 75
+    },
+    {
+      "id": "s3-a3",
+      "scene": 3,
+      "action": 3,
+      "start": 30.615,
+      "cue": "casa",
+      "label": "Casa cierra el recorrido",
+      "kind": "semantic",
+      "audioWord": 78
+    },
+    {
+      "id": "s3-a4",
+      "scene": 3,
+      "action": 4,
+      "start": 32.086,
+      "cue": "memoria",
+      "label": "Las tarjetas similares pierden rasgos distintivos",
+      "kind": "semantic",
+      "audioWord": 82
+    },
+    {
+      "id": "s3-a5",
+      "scene": 3,
+      "action": 5,
+      "start": 34.821,
+      "cue": "No ocurre",
+      "label": "Variabilidad: no es una regla por edad",
+      "kind": "semantic",
+      "audioWord": 88
+    },
+    {
+      "id": "s4-a0",
+      "scene": 4,
+      "action": 0,
+      "start": 36.559,
+      "cue": "Y aquí viene",
+      "label": "Pregunta abre comparación de dos semanas",
+      "kind": "semantic",
+      "audioWord": 93
+    },
+    {
+      "id": "s4-a1",
+      "scene": 4,
+      "action": 1,
+      "start": 38.276,
+      "cue": "una semana",
+      "label": "Siete casillas iguales se construyen",
+      "kind": "semantic",
+      "audioWord": 98
+    },
+    {
+      "id": "s4-a2",
+      "scene": 4,
+      "action": 2,
+      "start": 39.242,
+      "cue": "experiencias nuevas",
+      "label": "Casillas se llenan de actividades diferentes",
+      "kind": "semantic",
+      "audioWord": 102
+    },
+    {
+      "id": "s4-a3",
+      "scene": 4,
+      "action": 3,
+      "start": 41.526,
+      "cue": "más larga",
+      "label": "La banda retrospectiva se expande",
+      "kind": "semantic",
+      "audioWord": 107
+    },
+    {
+      "id": "s4-a4",
+      "scene": 4,
+      "action": 4,
+      "start": 42.455,
+      "cue": "recuerdas",
+      "label": "Memoria rescata hitos distintos",
+      "kind": "semantic",
+      "audioWord": 111
+    },
+    {
+      "id": "s4-a5",
+      "scene": 4,
+      "action": 5,
+      "start": 44.499,
+      "cue": "mirar atrás",
+      "label": "Se señala retrospectiva, no duración física",
+      "kind": "semantic",
+      "audioWord": 117
+    },
+    {
+      "id": "s5-a0",
+      "scene": 5,
+      "action": 0,
+      "start": 45.4,
+      "cue": "Eso no significa",
+      "label": "Paneles comparan dos perspectivas",
+      "kind": "semantic",
+      "audioWord": 119
+    },
+    {
+      "id": "s5-a1",
+      "scene": 5,
+      "action": 1,
+      "start": 47.595,
+      "cue": "más lenta",
+      "label": "Esperar mirando el reloj dirige atención",
+      "kind": "semantic",
+      "audioWord": 126
+    },
+    {
+      "id": "s5-a2",
+      "scene": 5,
+      "action": 2,
+      "start": 48.654,
+      "cue": "la vives",
+      "label": "El tiempo durante una experiencia",
+      "kind": "semantic",
+      "audioWord": 129
+    },
+    {
+      "id": "s5-a3",
+      "scene": 5,
+      "action": 3,
+      "start": 49.792,
+      "cue": "atención",
+      "label": "Atención elige reloj o tarea",
+      "kind": "semantic",
+      "audioWord": 132
+    },
+    {
+      "id": "s5-a4",
+      "scene": 5,
+      "action": 4,
+      "start": 51.84,
+      "cue": "cada momento",
+      "label": "Recuerdos de viaje reconstruyen duración",
+      "kind": "semantic",
+      "audioWord": 137
+    },
+    {
+      "id": "s5-a5",
+      "scene": 5,
+      "action": 5,
+      "start": 53.005,
+      "cue": "dos perspectivas",
+      "label": "Se separan explícitamente vivir y recordar",
+      "kind": "semantic",
+      "audioWord": 140
+    },
+    {
+      "id": "s6-a0",
+      "scene": 6,
+      "action": 0,
+      "start": 54.795,
+      "cue": "Quieres",
+      "label": "Personaje sale del ciclo",
+      "kind": "semantic",
+      "audioWord": 143
+    },
+    {
+      "id": "s6-a1",
+      "scene": 6,
+      "action": 1,
+      "start": 56.437,
+      "cue": "automática",
+      "label": "Se abre una decisión",
+      "kind": "semantic",
+      "audioWord": 150
+    },
+    {
+      "id": "s6-a2",
+      "scene": 6,
+      "action": 2,
+      "start": 57.586,
+      "cue": "Aprende algo",
+      "label": "Aprender construye una habilidad",
+      "kind": "semantic",
+      "audioWord": 151
+    },
+    {
+      "id": "s6-a3",
+      "scene": 6,
+      "action": 3,
+      "start": 58.514,
+      "cue": "cambia tu recorrido",
+      "label": "Un camino cambia de dirección",
+      "kind": "semantic",
+      "audioWord": 153
+    },
+    {
+      "id": "s6-a4",
+      "scene": 6,
+      "action": 4,
+      "start": 60.203,
+      "cue": "conoce un lugar",
+      "label": "Nuevo lugar se descubre por parallax",
+      "kind": "semantic",
+      "audioWord": 156
+    },
+    {
+      "id": "s6-a5",
+      "scene": 6,
+      "action": 5,
+      "start": 61.684,
+      "cue": "actividad diferente",
+      "label": "Actividad original añade un hito",
+      "kind": "semantic",
+      "audioWord": 162
+    },
+    {
+      "id": "s7-a0",
+      "scene": 7,
+      "action": 0,
+      "start": 63.224,
+      "cue": "No puedes",
+      "label": "Reloj físico sigue avanzando",
+      "kind": "semantic",
+      "audioWord": 164
+    },
+    {
+      "id": "s7-a1",
+      "scene": 7,
+      "action": 1,
+      "start": 64.257,
+      "cue": "reloj",
+      "label": "Se mantiene ritmo uniforme",
+      "kind": "semantic",
+      "audioWord": 168
+    },
+    {
+      "id": "s7-a2",
+      "scene": 7,
+      "action": 2,
+      "start": 65.24,
+      "cue": "crear recuerdos",
+      "label": "Manecillas conectan tarjetas de recuerdos",
+      "kind": "semantic",
+      "audioWord": 171
+    },
+    {
+      "id": "s7-a3",
+      "scene": 7,
+      "action": 3,
+      "start": 66.522,
+      "cue": "tus días",
+      "label": "Cada tarjeta gana un detalle distinto",
+      "kind": "semantic",
+      "audioWord": 176
+    },
+    {
+      "id": "s7-a4",
+      "scene": 7,
+      "action": 4,
+      "start": 67.985,
+      "cue": "A ti también",
+      "label": "Personaje dirige pregunta al espectador",
+      "kind": "semantic",
+      "audioWord": 180
+    },
+    {
+      "id": "s7-a5",
+      "scene": 7,
+      "action": 5,
+      "start": 69.058,
+      "cue": "volando el año",
+      "label": "Pregunta final con calendario en forma de recuerdos",
+      "kind": "semantic",
+      "audioWord": 186
+    }
+  ]
+}

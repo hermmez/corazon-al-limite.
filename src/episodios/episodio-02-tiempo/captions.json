@@ -1,0 +1,1514 @@
+[
+  {
+    "text": "¿Recuerdas",
+    "startMs": 95,
+    "endMs": 541,
+    "timestampMs": 318,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cuando",
+    "startMs": 634,
+    "endMs": 801,
+    "timestampMs": 718,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " las",
+    "startMs": 866,
+    "endMs": 940,
+    "timestampMs": 903,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " vacaciones",
+    "startMs": 1024,
+    "endMs": 1572,
+    "timestampMs": 1298,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " parecían",
+    "startMs": 1669,
+    "endMs": 2097,
+    "timestampMs": 1883,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " eternas?",
+    "startMs": 2152,
+    "endMs": 2543,
+    "timestampMs": 2348,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " Ahora",
+    "startMs": 2846,
+    "endMs": 2994,
+    "timestampMs": 2920,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cierras",
+    "startMs": 3050,
+    "endMs": 3338,
+    "timestampMs": 3194,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " los",
+    "startMs": 3394,
+    "endMs": 3524,
+    "timestampMs": 3459,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " ojos,",
+    "startMs": 3589,
+    "endMs": 3942,
+    "timestampMs": 3766,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " ¡y",
+    "startMs": 4501,
+    "endMs": 4566,
+    "timestampMs": 4534,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " ya",
+    "startMs": 4631,
+    "endMs": 4734,
+    "timestampMs": 4682,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " es",
+    "startMs": 4789,
+    "endMs": 4882,
+    "timestampMs": 4836,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " diciembre!",
+    "startMs": 4938,
+    "endMs": 5421,
+    "timestampMs": 5180,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " ¿Qué",
+    "startMs": 5666,
+    "endMs": 5731,
+    "timestampMs": 5698,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " le",
+    "startMs": 5778,
+    "endMs": 5824,
+    "timestampMs": 5801,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " pasó",
+    "startMs": 5949,
+    "endMs": 6200,
+    "timestampMs": 6074,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " al",
+    "startMs": 6284,
+    "endMs": 6349,
+    "timestampMs": 6316,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " tiempo?",
+    "startMs": 6436,
+    "endMs": 6771,
+    "timestampMs": 6604,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Lo",
+    "startMs": 7113,
+    "endMs": 7160,
+    "timestampMs": 7136,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " extraño",
+    "startMs": 7197,
+    "endMs": 7670,
+    "timestampMs": 7434,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " es",
+    "startMs": 7736,
+    "endMs": 7801,
+    "timestampMs": 7768,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " que",
+    "startMs": 7847,
+    "endMs": 7903,
+    "timestampMs": 7875,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " los",
+    "startMs": 7958,
+    "endMs": 8070,
+    "timestampMs": 8014,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " días",
+    "startMs": 8107,
+    "endMs": 8302,
+    "timestampMs": 8204,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " siguen",
+    "startMs": 8349,
+    "endMs": 8627,
+    "timestampMs": 8488,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " teniendo",
+    "startMs": 8730,
+    "endMs": 9083,
+    "timestampMs": 8906,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " veinticuatro",
+    "startMs": 9129,
+    "endMs": 9761,
+    "timestampMs": 9445,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " horas.",
+    "startMs": 9872,
+    "endMs": 10105,
+    "timestampMs": 9988,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " Lo",
+    "startMs": 10408,
+    "endMs": 10473,
+    "timestampMs": 10440,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " que",
+    "startMs": 10548,
+    "endMs": 10613,
+    "timestampMs": 10580,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " puede",
+    "startMs": 10705,
+    "endMs": 10863,
+    "timestampMs": 10784,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cambiar",
+    "startMs": 10951,
+    "endMs": 11323,
+    "timestampMs": 11137,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " es",
+    "startMs": 11360,
+    "endMs": 11425,
+    "timestampMs": 11392,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cómo",
+    "startMs": 11490,
+    "endMs": 11667,
+    "timestampMs": 11578,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " tu",
+    "startMs": 11745,
+    "endMs": 11838,
+    "timestampMs": 11792,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cerebro",
+    "startMs": 11922,
+    "endMs": 12256,
+    "timestampMs": 12089,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " vive",
+    "startMs": 12358,
+    "endMs": 12590,
+    "timestampMs": 12474,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " y",
+    "startMs": 12637,
+    "endMs": 12674,
+    "timestampMs": 12656,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " recuerda",
+    "startMs": 12776,
+    "endMs": 13297,
+    "timestampMs": 13036,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " esos",
+    "startMs": 13352,
+    "endMs": 13529,
+    "timestampMs": 13440,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " días.",
+    "startMs": 13603,
+    "endMs": 13873,
+    "timestampMs": 13738,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " No",
+    "startMs": 14154,
+    "endMs": 14265,
+    "timestampMs": 14210,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " hay",
+    "startMs": 14321,
+    "endMs": 14423,
+    "timestampMs": 14372,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " una",
+    "startMs": 14488,
+    "endMs": 14655,
+    "timestampMs": 14572,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " sola",
+    "startMs": 14693,
+    "endMs": 14981,
+    "timestampMs": 14837,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " explicación.",
+    "startMs": 15074,
+    "endMs": 15928,
+    "timestampMs": 15501,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Cuando",
+    "startMs": 16277,
+    "endMs": 16500,
+    "timestampMs": 16388,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " eras",
+    "startMs": 16546,
+    "endMs": 16713,
+    "timestampMs": 16630,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " niño,",
+    "startMs": 16816,
+    "endMs": 17048,
+    "timestampMs": 16932,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " muchas",
+    "startMs": 17486,
+    "endMs": 17876,
+    "timestampMs": 17681,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " experiencias",
+    "startMs": 17951,
+    "endMs": 18703,
+    "timestampMs": 18327,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " eran",
+    "startMs": 18750,
+    "endMs": 18945,
+    "timestampMs": 18848,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " nuevas:",
+    "startMs": 19000,
+    "endMs": 19372,
+    "timestampMs": 19186,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " tu",
+    "startMs": 19707,
+    "endMs": 19763,
+    "timestampMs": 19735,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " primera",
+    "startMs": 19875,
+    "endMs": 20163,
+    "timestampMs": 20019,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " escuela,",
+    "startMs": 20209,
+    "endMs": 20609,
+    "timestampMs": 20409,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " nuevos",
+    "startMs": 20941,
+    "endMs": 21350,
+    "timestampMs": 21146,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " amigos,",
+    "startMs": 21415,
+    "endMs": 21851,
+    "timestampMs": 21633,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " lugares",
+    "startMs": 22358,
+    "endMs": 22739,
+    "timestampMs": 22548,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " que",
+    "startMs": 22813,
+    "endMs": 22896,
+    "timestampMs": 22854,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " nunca",
+    "startMs": 22962,
+    "endMs": 23250,
+    "timestampMs": 23106,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " habías",
+    "startMs": 23333,
+    "endMs": 23603,
+    "timestampMs": 23468,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " visto.",
+    "startMs": 23658,
+    "endMs": 23974,
+    "timestampMs": 23816,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " Todo",
+    "startMs": 24303,
+    "endMs": 24443,
+    "timestampMs": 24373,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " era",
+    "startMs": 24489,
+    "endMs": 24591,
+    "timestampMs": 24540,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " descubrimiento.",
+    "startMs": 24647,
+    "endMs": 25483,
+    "timestampMs": 25065,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Pero",
+    "startMs": 25576,
+    "endMs": 25697,
+    "timestampMs": 25636,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " al",
+    "startMs": 25743,
+    "endMs": 25799,
+    "timestampMs": 25771,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " crecer,",
+    "startMs": 25887,
+    "endMs": 26268,
+    "timestampMs": 26078,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " muchos",
+    "startMs": 26678,
+    "endMs": 27105,
+    "timestampMs": 26892,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " días",
+    "startMs": 27161,
+    "endMs": 27365,
+    "timestampMs": 27263,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " se",
+    "startMs": 27439,
+    "endMs": 27495,
+    "timestampMs": 27467,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " parecen:",
+    "startMs": 27597,
+    "endMs": 28034,
+    "timestampMs": 27816,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " despertar,",
+    "startMs": 28332,
+    "endMs": 28992,
+    "timestampMs": 28662,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " trabajar,",
+    "startMs": 29314,
+    "endMs": 29723,
+    "timestampMs": 29518,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " regresar",
+    "startMs": 30063,
+    "endMs": 30471,
+    "timestampMs": 30267,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " a",
+    "startMs": 30527,
+    "endMs": 30536,
+    "timestampMs": 30532,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " casa",
+    "startMs": 30615,
+    "endMs": 30931,
+    "timestampMs": 30773,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " y",
+    "startMs": 30996,
+    "endMs": 31014,
+    "timestampMs": 31005,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " repetir.",
+    "startMs": 31079,
+    "endMs": 31562,
+    "timestampMs": 31320,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Tu",
+    "startMs": 31984,
+    "endMs": 32030,
+    "timestampMs": 32007,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " memoria",
+    "startMs": 32086,
+    "endMs": 32458,
+    "timestampMs": 32272,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " puede",
+    "startMs": 32573,
+    "endMs": 32815,
+    "timestampMs": 32694,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " guardar",
+    "startMs": 32908,
+    "endMs": 33261,
+    "timestampMs": 33084,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " menos",
+    "startMs": 33326,
+    "endMs": 33586,
+    "timestampMs": 33456,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " detalles",
+    "startMs": 33651,
+    "endMs": 34106,
+    "timestampMs": 33878,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " distintivos.",
+    "startMs": 34134,
+    "endMs": 34738,
+    "timestampMs": 34436,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " No",
+    "startMs": 34821,
+    "endMs": 34905,
+    "timestampMs": 34863,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " ocurre",
+    "startMs": 34961,
+    "endMs": 35286,
+    "timestampMs": 35124,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " igual",
+    "startMs": 35370,
+    "endMs": 35676,
+    "timestampMs": 35523,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " en",
+    "startMs": 35806,
+    "endMs": 35908,
+    "timestampMs": 35857,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " todos.",
+    "startMs": 35973,
+    "endMs": 36252,
+    "timestampMs": 36112,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Y",
+    "startMs": 36594,
+    "endMs": 36706,
+    "timestampMs": 36650,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " aquí",
+    "startMs": 36817,
+    "endMs": 37021,
+    "timestampMs": 36919,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " viene",
+    "startMs": 37059,
+    "endMs": 37300,
+    "timestampMs": 37180,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " lo",
+    "startMs": 37356,
+    "endMs": 37421,
+    "timestampMs": 37388,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " sorprendente:",
+    "startMs": 37495,
+    "endMs": 38173,
+    "timestampMs": 37834,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " una",
+    "startMs": 38276,
+    "endMs": 38461,
+    "timestampMs": 38368,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " semana",
+    "startMs": 38536,
+    "endMs": 38907,
+    "timestampMs": 38722,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " llena",
+    "startMs": 38944,
+    "endMs": 39149,
+    "timestampMs": 39046,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " de",
+    "startMs": 39186,
+    "endMs": 39214,
+    "timestampMs": 39200,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " experiencias",
+    "startMs": 39242,
+    "endMs": 39911,
+    "timestampMs": 39576,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " nuevas",
+    "startMs": 39985,
+    "endMs": 40245,
+    "timestampMs": 40115,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " puede",
+    "startMs": 40342,
+    "endMs": 40528,
+    "timestampMs": 40435,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " parecer",
+    "startMs": 40653,
+    "endMs": 41006,
+    "timestampMs": 40830,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " mucho",
+    "startMs": 41117,
+    "endMs": 41443,
+    "timestampMs": 41280,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " más",
+    "startMs": 41526,
+    "endMs": 41684,
+    "timestampMs": 41605,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " larga",
+    "startMs": 41731,
+    "endMs": 41981,
+    "timestampMs": 41856,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cuando",
+    "startMs": 42046,
+    "endMs": 42269,
+    "timestampMs": 42158,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " la",
+    "startMs": 42316,
+    "endMs": 42362,
+    "timestampMs": 42339,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " recuerdas.",
+    "startMs": 42455,
+    "endMs": 42985,
+    "timestampMs": 42720,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " Hablamos",
+    "startMs": 43050,
+    "endMs": 43421,
+    "timestampMs": 43236,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " de",
+    "startMs": 43468,
+    "endMs": 43524,
+    "timestampMs": 43496,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " la",
+    "startMs": 43570,
+    "endMs": 43635,
+    "timestampMs": 43602,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " duración",
+    "startMs": 43691,
+    "endMs": 44230,
+    "timestampMs": 43960,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " al",
+    "startMs": 44350,
+    "endMs": 44434,
+    "timestampMs": 44392,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " mirar",
+    "startMs": 44499,
+    "endMs": 44741,
+    "timestampMs": 44620,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " atrás.",
+    "startMs": 44824,
+    "endMs": 45159,
+    "timestampMs": 44992,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Eso",
+    "startMs": 45435,
+    "endMs": 45621,
+    "timestampMs": 45528,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " no",
+    "startMs": 45668,
+    "endMs": 45751,
+    "timestampMs": 45710,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " significa",
+    "startMs": 45807,
+    "endMs": 46420,
+    "timestampMs": 46114,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " que",
+    "startMs": 46508,
+    "endMs": 46564,
+    "timestampMs": 46536,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " siempre",
+    "startMs": 46629,
+    "endMs": 46982,
+    "timestampMs": 46806,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " se",
+    "startMs": 47037,
+    "endMs": 47102,
+    "timestampMs": 47070,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " sienta",
+    "startMs": 47177,
+    "endMs": 47502,
+    "timestampMs": 47340,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " más",
+    "startMs": 47595,
+    "endMs": 47697,
+    "timestampMs": 47646,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " lenta.",
+    "startMs": 47771,
+    "endMs": 48041,
+    "timestampMs": 47906,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " Mientras",
+    "startMs": 48180,
+    "endMs": 48598,
+    "timestampMs": 48389,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " la",
+    "startMs": 48654,
+    "endMs": 48710,
+    "timestampMs": 48682,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " vives,",
+    "startMs": 48793,
+    "endMs": 49128,
+    "timestampMs": 48960,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " tu",
+    "startMs": 49597,
+    "endMs": 49737,
+    "timestampMs": 49667,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " atención",
+    "startMs": 49792,
+    "endMs": 50210,
+    "timestampMs": 50001,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " también",
+    "startMs": 50275,
+    "endMs": 50610,
+    "timestampMs": 50442,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cambia",
+    "startMs": 50647,
+    "endMs": 50954,
+    "timestampMs": 50800,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " cómo",
+    "startMs": 51060,
+    "endMs": 51236,
+    "timestampMs": 51148,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " percibes",
+    "startMs": 51324,
+    "endMs": 51752,
+    "timestampMs": 51538,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cada",
+    "startMs": 51840,
+    "endMs": 52016,
+    "timestampMs": 51928,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " momento.",
+    "startMs": 52072,
+    "endMs": 52434,
+    "timestampMs": 52253,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Son",
+    "startMs": 52717,
+    "endMs": 52874,
+    "timestampMs": 52796,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " dos",
+    "startMs": 53005,
+    "endMs": 53135,
+    "timestampMs": 53070,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " perspectivas",
+    "startMs": 53260,
+    "endMs": 54040,
+    "timestampMs": 53650,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " distintas.",
+    "startMs": 54124,
+    "endMs": 54700,
+    "timestampMs": 54412,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " ¿Quieres",
+    "startMs": 54830,
+    "endMs": 55090,
+    "timestampMs": 54960,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " que",
+    "startMs": 55155,
+    "endMs": 55220,
+    "timestampMs": 55188,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " tu",
+    "startMs": 55285,
+    "endMs": 55341,
+    "timestampMs": 55313,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " vida",
+    "startMs": 55387,
+    "endMs": 55554,
+    "timestampMs": 55470,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " se",
+    "startMs": 55619,
+    "endMs": 55703,
+    "timestampMs": 55661,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " sienta",
+    "startMs": 55768,
+    "endMs": 56047,
+    "timestampMs": 55908,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " menos",
+    "startMs": 56121,
+    "endMs": 56362,
+    "timestampMs": 56242,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " automática?",
+    "startMs": 56437,
+    "endMs": 57217,
+    "timestampMs": 56827,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " Aprende",
+    "startMs": 57586,
+    "endMs": 57930,
+    "timestampMs": 57758,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " algo,",
+    "startMs": 57995,
+    "endMs": 58218,
+    "timestampMs": 58106,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cambia",
+    "startMs": 58514,
+    "endMs": 58839,
+    "timestampMs": 58676,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " tu",
+    "startMs": 58955,
+    "endMs": 59038,
+    "timestampMs": 58996,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " recorrido,",
+    "startMs": 59113,
+    "endMs": 59828,
+    "timestampMs": 59470,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " conoce",
+    "startMs": 60203,
+    "endMs": 60630,
+    "timestampMs": 60416,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " un",
+    "startMs": 60686,
+    "endMs": 60732,
+    "timestampMs": 60709,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " lugar",
+    "startMs": 60816,
+    "endMs": 61048,
+    "timestampMs": 60932,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " o",
+    "startMs": 61113,
+    "endMs": 61122,
+    "timestampMs": 61118,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " prueba",
+    "startMs": 61238,
+    "endMs": 61498,
+    "timestampMs": 61368,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " una",
+    "startMs": 61535,
+    "endMs": 61637,
+    "timestampMs": 61586,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " actividad",
+    "startMs": 61684,
+    "endMs": 62278,
+    "timestampMs": 61981,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " diferente.",
+    "startMs": 62376,
+    "endMs": 62942,
+    "timestampMs": 62659,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " No",
+    "startMs": 63259,
+    "endMs": 63333,
+    "timestampMs": 63296,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " puedes",
+    "startMs": 63440,
+    "endMs": 63681,
+    "timestampMs": 63560,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " detener",
+    "startMs": 63718,
+    "endMs": 64081,
+    "timestampMs": 63900,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " el",
+    "startMs": 64136,
+    "endMs": 64192,
+    "timestampMs": 64164,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " reloj,",
+    "startMs": 64257,
+    "endMs": 64601,
+    "timestampMs": 64429,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " pero",
+    "startMs": 64822,
+    "endMs": 64998,
+    "timestampMs": 64910,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " sí",
+    "startMs": 65063,
+    "endMs": 65156,
+    "timestampMs": 65110,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " crear",
+    "startMs": 65240,
+    "endMs": 65472,
+    "timestampMs": 65356,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " recuerdos",
+    "startMs": 65528,
+    "endMs": 66001,
+    "timestampMs": 65764,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " que",
+    "startMs": 66085,
+    "endMs": 66113,
+    "timestampMs": 66099,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " hagan",
+    "startMs": 66150,
+    "endMs": 66327,
+    "timestampMs": 66238,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " que",
+    "startMs": 66364,
+    "endMs": 66447,
+    "timestampMs": 66406,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " tus",
+    "startMs": 66522,
+    "endMs": 66642,
+    "timestampMs": 66582,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " días",
+    "startMs": 66707,
+    "endMs": 66930,
+    "timestampMs": 66818,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " se",
+    "startMs": 67005,
+    "endMs": 67060,
+    "timestampMs": 67032,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " distingan.",
+    "startMs": 67153,
+    "endMs": 67674,
+    "timestampMs": 67414,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " ¿A",
+    "startMs": 67985,
+    "endMs": 68022,
+    "timestampMs": 68004,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " ti",
+    "startMs": 68138,
+    "endMs": 68212,
+    "timestampMs": 68175,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " también",
+    "startMs": 68286,
+    "endMs": 68658,
+    "timestampMs": 68472,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " se",
+    "startMs": 68686,
+    "endMs": 68779,
+    "timestampMs": 68732,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " te",
+    "startMs": 68844,
+    "endMs": 68900,
+    "timestampMs": 68872,
+    "confidence": null,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " va",
+    "startMs": 68937,
+    "endMs": 69011,
+    "timestampMs": 68974,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " volando",
+    "startMs": 69058,
+    "endMs": 69327,
+    "timestampMs": 69192,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " el",
+    "startMs": 69373,
+    "endMs": 69420,
+    "timestampMs": 69396,
+    "confidence": null,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " año?",
+    "startMs": 69503,
+    "endMs": 69680,
+    "timestampMs": 69592,
+    "confidence": null,
+    "pageBreakAfter": true
+  }
+]

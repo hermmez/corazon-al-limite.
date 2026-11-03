@@ -1,0 +1,145 @@
+{
+  "technicalStatus": "passed",
+  "video": "output/episodio-02-tiempo/episodio_02_tiempo_70s.mp4",
+  "sha256": "cea46e757723357d8ddd03013993f757580df2ee3caad8c1fa6f493449d2c34f",
+  "duration": 70,
+  "frames": 2100,
+  "validationEvidence": [
+    "validacion_tecnica.json",
+    "reproduccion_navegador.json",
+    "sincronia_voz_aac.json"
+  ],
+  "retentionEvidence": "output/episodio-02-tiempo/retencion.json",
+  "editorialReview": {
+    "status": "final-render-inspected",
+    "requestedByUser": "Reinvéntalo; una historia cotidiana con el personaje como protagonista",
+    "previousVersion": {
+      "file": "version-01/episodio_02_tiempo_70s.mp4",
+      "sha256": "ec5abcbd7d721ebff29c6f0206bf7b597e73f3eca3308ea1a520ca51064ce8c4",
+      "sourceCommit": "341a8f4"
+    },
+    "creativeChanges": [
+      "Escenarios a pantalla completa y protagonista de500–525px en todas las escenas.",
+      "Se retiran tarjeta inferior fija y titulares persistentes.",
+      "El día conecta dormitorio, trayecto, recuerdo escolar, trabajo, casa, espera y una ruta nueva.",
+      "Reloj, calendario, libreta y objetos actúan como utilería del relato.",
+      "Transiciones motivadas por puerta, recuerdo, desplazamiento y cambio de foco.",
+      "Rótulos de perspectiva con contraste, reloj inicial acelerado sin salto de fase."
+    ],
+    "storyBeats": [
+      {
+        "scene": 0,
+        "place": "Dormitorio",
+        "action": "Despierta y reacciona al calendario de diciembre"
+      },
+      {
+        "scene": 1,
+        "place": "Calle y autobús",
+        "action": "Vive el trayecto y recuerda parte del día"
+      },
+      {
+        "scene": 2,
+        "place": "Recuerdo escolar",
+        "action": "Entra a su primer entorno de descubrimientos"
+      },
+      {
+        "scene": 3,
+        "place": "Oficina y casa",
+        "action": "Trabaja y regresa dentro de la rutina"
+      },
+      {
+        "scene": 4,
+        "place": "Sala y libreta",
+        "action": "Elige experiencias que distinguen una semana"
+      },
+      {
+        "scene": 5,
+        "place": "Espera y viaje recordado",
+        "action": "Contrasta mientras ocurre con al recordarlo"
+      },
+      {
+        "scene": 6,
+        "place": "Ruta nueva y parque",
+        "action": "Aprende y cambia su recorrido"
+      },
+      {
+        "scene": 7,
+        "place": "Sala al final del día",
+        "action": "Vuelve con objetos que hacen distinto el día"
+      }
+    ],
+    "narrationUnchanged": true,
+    "narrationSha256": "4b33aed83501cabf254ebd831dfd35700f7d290d8b86c10d84a94588d3635c1c",
+    "preliminaryFrameInspection": {
+      "times": [
+        0,
+        5.2,
+        8.8,
+        18.2,
+        29.4,
+        38.6,
+        47.6,
+        57.8,
+        65.5,
+        68.7
+      ],
+      "result": "El protagonista y su rostro conservan área segura; los objetos finales tienen apoyo físico; la nueva dirección deja de basarse en paneles. Se corrigió el contraste de los rótulos antes del MP4 final.",
+      "finalVideoInspectionPending": true
+    },
+    "intervals": [
+      {
+        "kind": "lowEvolution",
+        "start": 43.25,
+        "end": 45.5,
+        "decision": "Revisado en el MP4 final: es un plano deliberado de recuerdo. La página gira en duración (43.69–44.19), aparece el paisaje en mirar (44.50–44.78) y el sol en atrás (44.82–45.07). La voz explica la perspectiva retrospectiva y el personaje permanece en foco. La diferencia global es baja porque el fondo de la sala ocupa gran parte del ROI; la acción significativa ocurre en la libreta. Se conserva la alerta medida y se mantienen las acciones ligadas a palabras, sin añadir movimiento aleatorio para superar el umbral."
+      }
+    ],
+    "previousStoryRender": {
+      "sha256": "1668e24bb0766d1ca69b284003009bc89283d528d77f7ce1d9bde0e7e3fa51b3",
+      "alert": {
+        "kind": "lowEvolution",
+        "start": 43.0,
+        "end": 45.5,
+        "duration": 2.5
+      },
+      "correction": "Acercamiento breve en Hablamos, giro físico de página en duración y dibujo del recuerdo anterior en mirar atrás.",
+      "voiceAndOtherScenesUnchanged": true
+    },
+    "finalVideoSha256": "cea46e757723357d8ddd03013993f757580df2ee3caad8c1fa6f493449d2c34f",
+    "finalFrameInspection": {
+      "file": "inspeccion_final.jpg",
+      "method": "Fotogramas extraídos del MP4 final, más revisión ampliada de43.35/43.95/44.80/45.12s",
+      "times": [
+        0,
+        2,
+        5.25,
+        10.5,
+        14,
+        18.5,
+        23,
+        29.4,
+        33.5,
+        39,
+        43.35,
+        43.95,
+        44.8,
+        45.12,
+        47.6,
+        57.8,
+        68.7
+      ],
+      "observations": "Protagonista y rostro dentro del área segura; contraste de rótulos corregido; libreta, botella y lápiz con apoyo físico. La narración permanece idéntica y no hay movimiento labial sincronizado.",
+      "samplingLimitation": "La inspección por fotogramas se complementa con reproducción completa y análisis; no se presenta como una revisión humana de cada fotograma."
+    }
+  },
+  "voiceProvider": "Piper local",
+  "creditsSpent": 0,
+  "paidGenerations": 0,
+  "threeD": {
+    "status": "replaceable-Remotion-clock-marker",
+    "maxDuration": 3,
+    "generated": false,
+    "paidGenerations": 0
+  },
+  "scope": "Las comprobaciones prueban metadatos, decodificación, preservación, voz integrada y reproducción. La naturalidad, ritmo percibido y calidad cinematográfica requieren valoración editorial; no son una conclusión automática de estas métricas."
+}

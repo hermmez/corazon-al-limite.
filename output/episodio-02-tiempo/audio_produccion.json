@@ -1,0 +1,137 @@
+{
+  "mode": "production-episodio02-real-narration",
+  "duration": 70,
+  "voiceTempo": 1.25,
+  "musicBpm": 105,
+  "oldMusicBpm": 84,
+  "samplesUsed": [],
+  "scoreEvolution": "105BPM, chapter-dependent layers, discovery accents, restrained attention comparison, harmonic and timbral development",
+  "voiceDuckMinimum": 0.38,
+  "sfx": [
+    {
+      "time": 0,
+      "kind": "opening clock tick",
+      "intent": "Accelerating opening clock, stops before 3 seconds"
+    },
+    {
+      "time": 0.58,
+      "kind": "opening clock tick",
+      "intent": "Accelerating opening clock, stops before 3 seconds"
+    },
+    {
+      "time": 1.06,
+      "kind": "opening clock tick",
+      "intent": "Accelerating opening clock, stops before 3 seconds"
+    },
+    {
+      "time": 1.45,
+      "kind": "opening clock tick",
+      "intent": "Accelerating opening clock, stops before 3 seconds"
+    },
+    {
+      "time": 1.77,
+      "kind": "opening clock tick",
+      "intent": "Accelerating opening clock, stops before 3 seconds"
+    },
+    {
+      "time": 2.02,
+      "kind": "opening clock tick",
+      "intent": "Accelerating opening clock, stops before 3 seconds"
+    },
+    {
+      "time": 2.23,
+      "kind": "opening clock tick",
+      "intent": "Accelerating opening clock, stops before 3 seconds"
+    },
+    {
+      "time": 2.4,
+      "kind": "opening clock tick",
+      "intent": "Accelerating opening clock, stops before 3 seconds"
+    },
+    {
+      "time": 4.938,
+      "event": "s0-a4",
+      "kind": "calendar / routine flip",
+      "cue": "diciembre"
+    },
+    {
+      "time": 28.332,
+      "event": "s3-a1",
+      "kind": "calendar / routine flip",
+      "cue": "despertar"
+    },
+    {
+      "time": 29.314,
+      "event": "s3-a2",
+      "kind": "calendar / routine flip",
+      "cue": "trabajar"
+    },
+    {
+      "time": 30.615,
+      "event": "s3-a3",
+      "kind": "calendar / routine flip",
+      "cue": "casa"
+    },
+    {
+      "time": 39.242,
+      "event": "s4-a2",
+      "kind": "memory / discovery accent",
+      "cue": "experiencias nuevas"
+    },
+    {
+      "time": 42.455,
+      "event": "s4-a4",
+      "kind": "memory / discovery accent",
+      "cue": "recuerdas"
+    },
+    {
+      "time": 49.792,
+      "event": "s5-a3",
+      "kind": "attention focus tick",
+      "cue": "atenci\u00f3n"
+    },
+    {
+      "time": 57.586,
+      "event": "s6-a2",
+      "kind": "memory / discovery accent",
+      "cue": "Aprende algo"
+    },
+    {
+      "time": 58.514,
+      "event": "s6-a3",
+      "kind": "memory / discovery accent",
+      "cue": "cambia tu recorrido"
+    },
+    {
+      "time": 60.203,
+      "event": "s6-a4",
+      "kind": "memory / discovery accent",
+      "cue": "conoce un lugar"
+    },
+    {
+      "time": 61.684,
+      "event": "s6-a5",
+      "kind": "memory / discovery accent",
+      "cue": "actividad diferente"
+    },
+    {
+      "time": 29.314,
+      "event": "s3-a2",
+      "kind": "quiet footsteps following the protagonist",
+      "cue": "trabajar"
+    },
+    {
+      "time": 30.615,
+      "event": "s3-a3",
+      "kind": "quiet footsteps following the protagonist",
+      "cue": "casa"
+    },
+    {
+      "time": 58.514,
+      "event": "s6-a3",
+      "kind": "quiet footsteps following the protagonist",
+      "cue": "cambia tu recorrido"
+    }
+  ],
+  "master": "public/episodios/episodio-02-tiempo/audio/mezcla_master.flac"
+}

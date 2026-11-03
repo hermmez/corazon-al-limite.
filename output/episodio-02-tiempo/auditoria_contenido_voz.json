@@ -1,0 +1,160 @@
+{
+  "method": "Independent transcription of final edited clean narration, without initial_prompt or supplied expected text",
+  "language": "es",
+  "beamSize": 5,
+  "conditionOnPreviousText": false,
+  "vadFilter": false,
+  "voiceFile": "public/episodios/episodio-02-tiempo/audio/narracion.flac",
+  "voiceSha256": "4b33aed83501cabf254ebd831dfd35700f7d290d8b86c10d84a94588d3635c1c",
+  "sourceFile": "public/episodios/episodio-02-tiempo/audio/narracion_original.flac",
+  "sourceSha256": "3703f97d16f366a4968695d07a3207310cc8f0d75967fc3035c582bf303b2172",
+  "timelineSha256": "2b0439909f3433cf0a919700dfe0c8a742d9896a54e53af6c9af57d43cc59019",
+  "sampleRate": 16000,
+  "captionTimingSource": "Piper/VITS intrinsic emitted phoneme durations; this ASR is a content audit and does not assign captions",
+  "limitations": "ASR can misspell or omit words. Exact transcript matching is evidence of intelligibility for this decoder, not a human naturalness score.",
+  "engine": "faster-whisper base int8, one CPU thread",
+  "scenes": [
+    {
+      "scene": 0,
+      "start": 0,
+      "end": 7.078,
+      "expected": "¿Recuerdas cuando las vacaciones parecían eternas? Ahora cierras los ojos, ¡y ya es diciembre! ¿Qué le pasó al tiempo?",
+      "independentASR": "Recuerdas cuando las vacaciones parecían eternas, ahora se arras los ojos, y ya es diciembre que le pasó al tiempo.",
+      "model": "base",
+      "tokenEditDistance": 2,
+      "referenceWords": 19,
+      "approxWer": 0.10526315789473684
+    },
+    {
+      "scene": 1,
+      "start": 7.078,
+      "end": 16.242,
+      "expected": "Lo extraño es que los días siguen teniendo veinticuatro horas. Lo que puede cambiar es cómo tu cerebro vive y recuerda esos días. No hay una sola explicación.",
+      "independentASR": "lo extraño es que los días siguen teniendo 24 horas, lo que puede cambiar es como tu cerebro vive y recuerda esos días. No hay una sola explicación.",
+      "model": "base",
+      "tokenEditDistance": 1,
+      "referenceWords": 28,
+      "approxWer": 0.03571428571428571
+    },
+    {
+      "scene": 2,
+      "start": 16.242,
+      "end": 25.541,
+      "expected": "Cuando eras niño, muchas experiencias eran nuevas: tu primera escuela, nuevos amigos, lugares que nunca habías visto. Todo era descubrimiento.",
+      "independentASR": "Cuando eras niño, muchas experiencias serán nuevas tu primera escuela, nuevos amigos, no veáis que nunca habías visto todo era descubrimiento.",
+      "model": "base",
+      "tokenEditDistance": 3,
+      "referenceWords": 20,
+      "approxWer": 0.15
+    },
+    {
+      "scene": 3,
+      "start": 25.541,
+      "end": 36.559,
+      "expected": "Pero al crecer, muchos días se parecen: despertar, trabajar, regresar a casa y repetir. Tu memoria puede guardar menos detalles distintivos. No ocurre igual en todos.",
+      "independentASR": "pero al que ser, muchos días se parecen despertar, trabajar, regresar a casa y repetir, tu memoria puede guardar menos detalles distintivos, no ocurre igual en todos.",
+      "model": "base",
+      "tokenEditDistance": 2,
+      "referenceWords": 26,
+      "approxWer": 0.07692307692307693
+    },
+    {
+      "scene": 4,
+      "start": 36.559,
+      "end": 45.4,
+      "expected": "Y aquí viene lo sorprendente: una semana llena de experiencias nuevas puede parecer mucho más larga cuando la recuerdas. Hablamos de la duración al mirar atrás.",
+      "independentASR": "Y de aquí viene lo sorprendente. Una semana llena de experiencias nuevas puede parecer mucho más larga cuando las recuerdas. Hablamos de la duración al mirar atrás.",
+      "model": "base",
+      "tokenEditDistance": 2,
+      "referenceWords": 26,
+      "approxWer": 0.07692307692307693
+    },
+    {
+      "scene": 5,
+      "start": 45.4,
+      "end": 54.795,
+      "expected": "Eso no significa que siempre se sienta más lenta. Mientras la vives, tu atención también cambia cómo percibes cada momento. Son dos perspectivas distintas.",
+      "independentASR": "eso no significa que siempre se sienta más lenta mientras la vives, tu atención también cambia como percibes cada momento, son tus perspectivas distintas.",
+      "model": "base",
+      "tokenEditDistance": 1,
+      "referenceWords": 24,
+      "approxWer": 0.041666666666666664
+    },
+    {
+      "scene": 6,
+      "start": 54.795,
+      "end": 63.224,
+      "expected": "¿Quieres que tu vida se sienta menos automática? Aprende algo, cambia tu recorrido, conoce un lugar o prueba una actividad diferente.",
+      "independentASR": "Quieres que tu vida se sienta menos automática, aprende algo, cambia tuve corrido, conoce un lugar o prueba una actividad diferente.",
+      "model": "base",
+      "tokenEditDistance": 2,
+      "referenceWords": 21,
+      "approxWer": 0.09523809523809523
+    },
+    {
+      "scene": 7,
+      "start": 63.224,
+      "end": 70,
+      "expected": "No puedes detener el reloj, pero sí crear recuerdos que hagan que tus días se distingan. ¿A ti también se te va volando el año?",
+      "independentASR": "No puedes detener el reloj, pero si creas recuerdos que hagan que tus días se distinguan, a ti también se te va volando el año.",
+      "model": "base",
+      "tokenEditDistance": 2,
+      "referenceWords": 25,
+      "approxWer": 0.08
+    }
+  ],
+  "reviewNotes": [
+    {
+      "scene": 0,
+      "observation": "Base splits cierras as se arras. Small independently recognizes the complete sentence exactly; the raw base substitution is retained."
+    },
+    {
+      "scene": 1,
+      "observation": "Base writes 24 for veinticuatro; same quantity, numeric format difference."
+    },
+    {
+      "scene": 2,
+      "observation": "Base substitutes eran with serán and lugares with no veáis. These raw differences remain visible and are not suppressed."
+    },
+    {
+      "scene": 3,
+      "observation": "Base substitutes al crecer with al que ser."
+    },
+    {
+      "scene": 4,
+      "observation": "Base adds de after Y and pluralizes la as las."
+    },
+    {
+      "scene": 5,
+      "observation": "The important mientras la vives and tu atención are correctly recognized by both engines. Base substitutes dos with tus; small recognizes all 24 words exactly."
+    },
+    {
+      "scene": 6,
+      "observation": "Base splits tu recorrido as tuve corrido."
+    },
+    {
+      "scene": 7,
+      "observation": "Base renders crear as creas and distingan as distinguan."
+    }
+  ],
+  "criticalQualifiers": {
+    "1": {
+      "puede cambiar": true,
+      "no hay una sola explicacion": true
+    },
+    "3": {
+      "puede guardar": true,
+      "no ocurre igual en todos": true
+    },
+    "4": {
+      "puede parecer": true,
+      "cuando la recuerdas": false
+    },
+    "5": {
+      "no significa": true,
+      "mientras la vives": true,
+      "tu atencion": true
+    }
+  },
+  "reviewScope": "No transcript errors were suppressed. ASR output is a content/intelligibility proxy, not a human naturalness score or caption timing source."
+}

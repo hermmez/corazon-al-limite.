@@ -1,0 +1,305 @@
+{
+  "status": "passed",
+  "engine": "Chromium HTML5 video",
+  "file": "output/episodio-02-tiempo/episodio_02_tiempo_70s.mp4",
+  "sha256": "cea46e757723357d8ddd03013993f757580df2ee3caad8c1fa6f493449d2c34f",
+  "playbackRate": 1,
+  "autoplayMutedForTest": true,
+  "note": "La prueba verifica reproducción/decodificación; la presencia y posición de la voz se verifica mediante correlación de audio separada.",
+  "ended": true,
+  "duration": 70,
+  "currentTime": 70,
+  "width": 1080,
+  "height": 1920,
+  "totalVideoFrames": 2100,
+  "droppedVideoFrames": 3,
+  "audioDecodedBytes": 1698286,
+  "mediaError": null,
+  "observedSeconds": [
+    {
+      "second": 0,
+      "currentTime": 0.027998
+    },
+    {
+      "second": 1,
+      "currentTime": 1.093057
+    },
+    {
+      "second": 2,
+      "currentTime": 2.155744
+    },
+    {
+      "second": 3,
+      "currentTime": 3.219508
+    },
+    {
+      "second": 4,
+      "currentTime": 4.016235
+    },
+    {
+      "second": 5,
+      "currentTime": 5.077516
+    },
+    {
+      "second": 6,
+      "currentTime": 6.139833
+    },
+    {
+      "second": 7,
+      "currentTime": 7.20244
+    },
+    {
+      "second": 8,
+      "currentTime": 8.264982
+    },
+    {
+      "second": 9,
+      "currentTime": 9.06187
+    },
+    {
+      "second": 10,
+      "currentTime": 10.123775
+    },
+    {
+      "second": 11,
+      "currentTime": 11.187963
+    },
+    {
+      "second": 12,
+      "currentTime": 12.249397
+    },
+    {
+      "second": 13,
+      "currentTime": 13.046271
+    },
+    {
+      "second": 14,
+      "currentTime": 14.109582
+    },
+    {
+      "second": 15,
+      "currentTime": 15.1712
+    },
+    {
+      "second": 16,
+      "currentTime": 16.065554
+    },
+    {
+      "second": 17,
+      "currentTime": 17.137183
+    },
+    {
+      "second": 18,
+      "currentTime": 18.198736
+    },
+    {
+      "second": 19,
+      "currentTime": 19.264039
+    },
+    {
+      "second": 20,
+      "currentTime": 20.058087
+    },
+    {
+      "second": 21,
+      "currentTime": 21.120684
+    },
+    {
+      "second": 22,
+      "currentTime": 22.183172
+    },
+    {
+      "second": 23,
+      "currentTime": 23.245607
+    },
+    {
+      "second": 24,
+      "currentTime": 24.042495
+    },
+    {
+      "second": 25,
+      "currentTime": 25.104973
+    },
+    {
+      "second": 26,
+      "currentTime": 26.167543
+    },
+    {
+      "second": 27,
+      "currentTime": 27.230003
+    },
+    {
+      "second": 28,
+      "currentTime": 28.028013
+    },
+    {
+      "second": 29,
+      "currentTime": 29.089369
+    },
+    {
+      "second": 30,
+      "currentTime": 30.152364
+    },
+    {
+      "second": 31,
+      "currentTime": 31.214395
+    },
+    {
+      "second": 32,
+      "currentTime": 32.010109
+    },
+    {
+      "second": 33,
+      "currentTime": 33.073738
+    },
+    {
+      "second": 34,
+      "currentTime": 34.136216
+    },
+    {
+      "second": 35,
+      "currentTime": 35.198721
+    },
+    {
+      "second": 36,
+      "currentTime": 36.261316
+    },
+    {
+      "second": 37,
+      "currentTime": 37.05809
+    },
+    {
+      "second": 38,
+      "currentTime": 38.120593
+    },
+    {
+      "second": 39,
+      "currentTime": 39.183089
+    },
+    {
+      "second": 40,
+      "currentTime": 40.245611
+    },
+    {
+      "second": 41,
+      "currentTime": 41.042504
+    },
+    {
+      "second": 42,
+      "currentTime": 42.104987
+    },
+    {
+      "second": 43,
+      "currentTime": 43.167457
+    },
+    {
+      "second": 44,
+      "currentTime": 44.229943
+    },
+    {
+      "second": 45,
+      "currentTime": 45.026848
+    },
+    {
+      "second": 46,
+      "currentTime": 46.089367
+    },
+    {
+      "second": 47,
+      "currentTime": 47.151872
+    },
+    {
+      "second": 48,
+      "currentTime": 48.214386
+    },
+    {
+      "second": 49,
+      "currentTime": 49.011201
+    },
+    {
+      "second": 50,
+      "currentTime": 50.073724
+    },
+    {
+      "second": 51,
+      "currentTime": 51.136243
+    },
+    {
+      "second": 52,
+      "currentTime": 52.19742
+    },
+    {
+      "second": 53,
+      "currentTime": 53.261308
+    },
+    {
+      "second": 54,
+      "currentTime": 54.058087
+    },
+    {
+      "second": 55,
+      "currentTime": 55.120628
+    },
+    {
+      "second": 56,
+      "currentTime": 56.183082
+    },
+    {
+      "second": 57,
+      "currentTime": 57.245588
+    },
+    {
+      "second": 58,
+      "currentTime": 58.042461
+    },
+    {
+      "second": 59,
+      "currentTime": 59.104961
+    },
+    {
+      "second": 60,
+      "currentTime": 60.166906
+    },
+    {
+      "second": 61,
+      "currentTime": 61.229962
+    },
+    {
+      "second": 62,
+      "currentTime": 62.026897
+    },
+    {
+      "second": 63,
+      "currentTime": 63.089635
+    },
+    {
+      "second": 64,
+      "currentTime": 64.15185
+    },
+    {
+      "second": 65,
+      "currentTime": 65.21434
+    },
+    {
+      "second": 66,
+      "currentTime": 66.011163
+    },
+    {
+      "second": 67,
+      "currentTime": 67.073044
+    },
+    {
+      "second": 68,
+      "currentTime": 68.136296
+    },
+    {
+      "second": 69,
+      "currentTime": 69.198802
+    },
+    {
+      "second": 70,
+      "currentTime": 70
+    }
+  ],
+  "validatedAt": "2026-11-03T20:12:19.130Z"
+}

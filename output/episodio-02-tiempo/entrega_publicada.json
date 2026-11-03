@@ -1,0 +1,22 @@
+{
+  "repository": "hermmez/corazon-al-limite.",
+  "branch": "episodio-02-tiempo",
+  "assetCommit": "73a3b40b075794b02b533568f1baafc981dcef92",
+  "pullRequest": "https://github.com/hermmez/corazon-al-limite./pull/9",
+  "pullRequestMerged": false,
+  "creativeDirection": "Una historia cotidiana con el personaje como protagonista",
+  "mp4": {
+    "url": "https://raw.githubusercontent.com/hermmez/corazon-al-limite./73a3b40b075794b02b533568f1baafc981dcef92/output/episodio-02-tiempo/episodio_02_tiempo_70s.mp4?download=1",
+    "bytes": 20176625,
+    "sha256": "cea46e757723357d8ddd03013993f757580df2ee3caad8c1fa6f493449d2c34f",
+    "downloadVerifiedAgainstLocal": true,
+    "localPlaybackCompleted": true
+  },
+  "previousVersionPreserved": {
+    "url": "https://raw.githubusercontent.com/hermmez/corazon-al-limite./73a3b40b075794b02b533568f1baafc981dcef92/output/episodio-02-tiempo/version-01/episodio_02_tiempo_70s.mp4",
+    "sha256": "ec5abcbd7d721ebff29c6f0206bf7b597e73f3eca3308ea1a520ca51064ce8c4"
+  },
+  "paidGenerations": 0,
+  "externalCreditsSpent": 0,
+  "threeD": "Remotion2.5D environmental clock marker; optional prompt only, no generated clip"
+}

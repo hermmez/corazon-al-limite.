@@ -1,0 +1,73 @@
+{
+  "artifact": "/workspace/corazon-al-limite/output/episodio-02-tiempo/comparacion_ritmo_AB.mp4",
+  "duration": 24.0,
+  "bytes": 1579854,
+  "sha256": "91b381ec0eb697399de654139c917855632620b10f2dfb9160a7319ae988a2e1",
+  "limitation": "Different topics; qualitative rhythm comparison, not a matched-concept experiment.",
+  "clips": [
+    {
+      "label": "A - EPISODIO 01 - 1.25x",
+      "source": "output/episodio-01-cerebro/episodio_01_cerebro_70s.mp4",
+      "sourceStart": 0,
+      "sourceDuration": 3.75,
+      "playbackRate": 1.25,
+      "comparisonDuration": 3
+    },
+    {
+      "label": "B - EPISODIO 02 - 1.0x",
+      "source": "output/episodio-02-tiempo/episodio_02_tiempo_70s.mp4",
+      "sourceStart": 0.095,
+      "sourceDuration": 3,
+      "playbackRate": 1,
+      "comparisonDuration": 3
+    },
+    {
+      "label": "A - EPISODIO 01 - 1.25x",
+      "source": "output/episodio-01-cerebro/episodio_01_cerebro_70s.mp4",
+      "sourceStart": 22.12,
+      "sourceDuration": 3.75,
+      "playbackRate": 1.25,
+      "comparisonDuration": 3
+    },
+    {
+      "label": "B - EPISODIO 02 - 1.0x",
+      "source": "output/episodio-02-tiempo/episodio_02_tiempo_70s.mp4",
+      "sourceStart": 16.276688,
+      "sourceDuration": 3,
+      "playbackRate": 1,
+      "comparisonDuration": 3
+    },
+    {
+      "label": "A - EPISODIO 01 - 1.25x",
+      "source": "output/episodio-01-cerebro/episodio_01_cerebro_70s.mp4",
+      "sourceStart": 33.12,
+      "sourceDuration": 3.75,
+      "playbackRate": 1.25,
+      "comparisonDuration": 3
+    },
+    {
+      "label": "B - EPISODIO 02 - 1.0x",
+      "source": "output/episodio-02-tiempo/episodio_02_tiempo_70s.mp4",
+      "sourceStart": 36.594042,
+      "sourceDuration": 3,
+      "playbackRate": 1,
+      "comparisonDuration": 3
+    },
+    {
+      "label": "A - EPISODIO 01 - 1.25x",
+      "source": "output/episodio-01-cerebro/episodio_01_cerebro_70s.mp4",
+      "sourceStart": 43.73,
+      "sourceDuration": 3.75,
+      "playbackRate": 1.25,
+      "comparisonDuration": 3
+    },
+    {
+      "label": "B - EPISODIO 02 - 1.0x",
+      "source": "output/episodio-02-tiempo/episodio_02_tiempo_70s.mp4",
+      "sourceStart": 54.829625,
+      "sourceDuration": 3,
+      "playbackRate": 1,
+      "comparisonDuration": 3
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "method": "Waveform correlation of clean real narration against delivered AAC in every scene",
+  "reference": "public/episodios/episodio-02-tiempo/audio/narracion.flac",
+  "referenceSha256": "4b33aed83501cabf254ebd831dfd35700f7d290d8b86c10d84a94588d3635c1c",
+  "video": "output/episodio-02-tiempo/episodio_02_tiempo_70s.mp4",
+  "videoSha256": "a61783ccaf9fe797edc0427af485c435b4ac7c6e75b492e048618fc71a8eed72",
+  "sampleRate": 16000,
+  "expectedOffsetMs": 0,
+  "measuredOffsetMs": 0.0,
+  "playbackRate": 1,
+  "lastWordEndMs": 69680,
+  "scenes": [
+    {
+      "scene": 0,
+      "start": 0.095,
+      "end": 6.770875,
+      "correlation": 0.9893183669192464,
+      "cleanRms": 0.1670794352788563,
+      "mixedRms": 0.2057505178381795
+    },
+    {
+      "scene": 1,
+      "start": 7.113083,
+      "end": 15.928208,
+      "correlation": 0.9941082712584474,
+      "cleanRms": 0.18646805185250337,
+      "mixedRms": 0.22768941377547672
+    },
+    {
+      "scene": 2,
+      "start": 16.276688,
+      "end": 25.483146,
+      "correlation": 0.9878043042264464,
+      "cleanRms": 0.1558816602774896,
+      "mixedRms": 0.19575722392842035
+    },
+    {
+      "scene": 3,
+      "start": 25.576062,
+      "end": 36.252167,
+      "correlation": 0.9905591316288463,
+      "cleanRms": 0.17194925836293365,
+      "mixedRms": 0.21813510271798367
+    },
+    {
+      "scene": 4,
+      "start": 36.594042,
+      "end": 45.158729,
+      "correlation": 0.9947304036307885,
+      "cleanRms": 0.18561733652259407,
+      "mixedRms": 0.23317984437927275
+    },
+    {
+      "scene": 5,
+      "start": 45.435292,
+      "end": 54.699562,
+      "correlation": 0.9906374433276907,
+      "cleanRms": 0.15745002211774045,
+      "mixedRms": 0.19900906614764427
+    },
+    {
+      "scene": 6,
+      "start": 54.829625,
+      "end": 62.942271,
+      "correlation": 0.9901982189943376,
+      "cleanRms": 0.16620575425302164,
+      "mixedRms": 0.21212429111189562
+    },
+    {
+      "scene": 7,
+      "start": 63.258854,
+      "end": 69.679958,
+      "correlation": 0.9929137013888899,
+      "cleanRms": 0.1775887762047664,
+      "mixedRms": 0.22576850237965237
+    }
+  ]
+}
