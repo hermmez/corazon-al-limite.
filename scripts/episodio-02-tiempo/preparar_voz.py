@@ -3,7 +3,7 @@
 Pitch-preserving 1.25x applies to narration only. All visual timing, music and
 effects have their own authored timeline. No MP4 is globally sped up.
 """
-import argparse,hashlib,json,re,subprocess,unicodedata,wave
+import argparse,hashlib,json,re,subprocess,sys,unicodedata,wave
 from pathlib import Path
 import numpy as np
 from faster_whisper import WhisperModel
@@ -140,7 +140,7 @@ def main():
     (ROOT/"timeline.json").write_text(json.dumps(ready_timeline,ensure_ascii=False,indent=2)+"\n")
     (ROOT/"captions.json").write_text(json.dumps(captions,ensure_ascii=False,indent=2)+"\n");(OUT/"subtitulos.srt").write_text("\n".join(srt))
     config["voice"].update({"status":"aligned-awaiting-mix","source":str(args.source),"words":len(words),"lastWordEndMs":captions[-1]["endMs"]});(ROOT/"production.json").write_text(json.dumps(config,ensure_ascii=False,indent=2)+"\n")
-    subprocess.run(["python","scripts/episodio-02-tiempo/crear_audio.py","--voice",str(AUDIO/"voz_timeline.wav")],check=True)
+    subprocess.run([sys.executable,"scripts/episodio-02-tiempo/crear_audio.py","--voice",str(AUDIO/"voz_timeline.wav")],check=True)
     ready_timeline.update({"status":"production-real-expanded-voice","audioReady":True});(ROOT/"timeline.json").write_text(json.dumps(ready_timeline,ensure_ascii=False,indent=2)+"\n")
     config["voice"]["status"]="real-integrated";(ROOT/"production.json").write_text(json.dumps(config,ensure_ascii=False,indent=2)+"\n")
 

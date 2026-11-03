@@ -1,0 +1,562 @@
+{
+  "technicalStatus": "passed",
+  "file": "output/episodio-02-tiempo/episodio_02_tiempo_70s.mp4",
+  "bytes": 20176625,
+  "sha256": "cea46e757723357d8ddd03013993f757580df2ee3caad8c1fa6f493449d2c34f",
+  "duration": 70,
+  "frames": 2100,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "codecs": [
+    "h264",
+    "aac"
+  ],
+  "pixelFormat": "yuv420p",
+  "color": {
+    "range": "tv",
+    "space": "bt709",
+    "primaries": "bt709",
+    "transfer": "bt709"
+  },
+  "audio": {
+    "sampleRate": 48000,
+    "channels": 2,
+    "lufs": -14.06,
+    "truePeakDbtp": -1.87,
+    "voiceProvider": "Piper local",
+    "voiceTempo": 1.25
+  },
+  "captions": {
+    "words": 189,
+    "groups": 46,
+    "wordsPerGroup": [
+      4,
+      4,
+      4,
+      4,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      4,
+      4,
+      4,
+      4,
+      5,
+      5,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      5,
+      4,
+      4,
+      4,
+      4,
+      5,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "source": "output/episodio-02-tiempo/alineacion_intrinseca.json"
+  },
+  "semanticEvents": [
+    {
+      "event": "s0-a0",
+      "cue": "Recuerdas",
+      "word": "¿Recuerdas",
+      "time": 0,
+      "deltaMs": -95,
+      "chapterPreroll": true,
+      "allowedPrerollMs": 120
+    },
+    {
+      "event": "s0-a1",
+      "cue": "vacaciones",
+      "word": "vacaciones",
+      "time": 1.024,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s0-a2",
+      "cue": "eternas",
+      "word": "eternas?",
+      "time": 2.152,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s0-a3",
+      "cue": "cierras",
+      "word": "cierras",
+      "time": 3.05,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s0-a4",
+      "cue": "diciembre",
+      "word": "diciembre!",
+      "time": 4.938,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s0-a5",
+      "cue": "Qué le pasó",
+      "word": "¿Qué",
+      "time": 5.666,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s1-a0",
+      "cue": "Lo extraño",
+      "word": "Lo",
+      "time": 7.078,
+      "deltaMs": -35.083,
+      "chapterPreroll": true,
+      "allowedPrerollMs": 80
+    },
+    {
+      "event": "s1-a1",
+      "cue": "veinticuatro horas",
+      "word": "veinticuatro",
+      "time": 9.129,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s1-a2",
+      "cue": "puede cambiar",
+      "word": "puede",
+      "time": 10.705,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s1-a3",
+      "cue": "vive",
+      "word": "vive",
+      "time": 12.358,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s1-a4",
+      "cue": "recuerda",
+      "word": "recuerda",
+      "time": 12.776,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s1-a5",
+      "cue": "No hay",
+      "word": "No",
+      "time": 14.154,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s2-a0",
+      "cue": "Cuando eras niño",
+      "word": "Cuando",
+      "time": 16.242,
+      "deltaMs": -34.688,
+      "chapterPreroll": true,
+      "allowedPrerollMs": 80
+    },
+    {
+      "event": "s2-a1",
+      "cue": "experiencias",
+      "word": "experiencias",
+      "time": 17.951,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s2-a2",
+      "cue": "primera escuela",
+      "word": "primera",
+      "time": 19.875,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s2-a3",
+      "cue": "nuevos amigos",
+      "word": "nuevos",
+      "time": 20.941,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s2-a4",
+      "cue": "lugares",
+      "word": "lugares",
+      "time": 22.358,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s2-a5",
+      "cue": "descubrimiento",
+      "word": "descubrimiento.",
+      "time": 24.647,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s3-a0",
+      "cue": "Pero al crecer",
+      "word": "Pero",
+      "time": 25.541,
+      "deltaMs": -35.062,
+      "chapterPreroll": true,
+      "allowedPrerollMs": 80
+    },
+    {
+      "event": "s3-a1",
+      "cue": "despertar",
+      "word": "despertar,",
+      "time": 28.332,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s3-a2",
+      "cue": "trabajar",
+      "word": "trabajar,",
+      "time": 29.314,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s3-a3",
+      "cue": "casa",
+      "word": "casa",
+      "time": 30.615,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s3-a4",
+      "cue": "memoria",
+      "word": "memoria",
+      "time": 32.086,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s3-a5",
+      "cue": "No ocurre",
+      "word": "No",
+      "time": 34.821,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s4-a0",
+      "cue": "Y aquí viene",
+      "word": "Y",
+      "time": 36.559,
+      "deltaMs": -35.042,
+      "chapterPreroll": true,
+      "allowedPrerollMs": 80
+    },
+    {
+      "event": "s4-a1",
+      "cue": "una semana",
+      "word": "una",
+      "time": 38.276,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s4-a2",
+      "cue": "experiencias nuevas",
+      "word": "experiencias",
+      "time": 39.242,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s4-a3",
+      "cue": "más larga",
+      "word": "más",
+      "time": 41.526,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s4-a4",
+      "cue": "recuerdas",
+      "word": "recuerdas.",
+      "time": 42.455,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s4-a5",
+      "cue": "mirar atrás",
+      "word": "mirar",
+      "time": 44.499,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s5-a0",
+      "cue": "Eso no significa",
+      "word": "Eso",
+      "time": 45.4,
+      "deltaMs": -35.292,
+      "chapterPreroll": true,
+      "allowedPrerollMs": 80
+    },
+    {
+      "event": "s5-a1",
+      "cue": "más lenta",
+      "word": "más",
+      "time": 47.595,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s5-a2",
+      "cue": "la vives",
+      "word": "la",
+      "time": 48.654,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s5-a3",
+      "cue": "atención",
+      "word": "atención",
+      "time": 49.792,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s5-a4",
+      "cue": "cada momento",
+      "word": "cada",
+      "time": 51.84,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s5-a5",
+      "cue": "dos perspectivas",
+      "word": "dos",
+      "time": 53.005,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s6-a0",
+      "cue": "Quieres",
+      "word": "¿Quieres",
+      "time": 54.795,
+      "deltaMs": -34.625,
+      "chapterPreroll": true,
+      "allowedPrerollMs": 80
+    },
+    {
+      "event": "s6-a1",
+      "cue": "automática",
+      "word": "automática?",
+      "time": 56.437,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s6-a2",
+      "cue": "Aprende algo",
+      "word": "Aprende",
+      "time": 57.586,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s6-a3",
+      "cue": "cambia tu recorrido",
+      "word": "cambia",
+      "time": 58.514,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s6-a4",
+      "cue": "conoce un lugar",
+      "word": "conoce",
+      "time": 60.203,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s6-a5",
+      "cue": "actividad diferente",
+      "word": "actividad",
+      "time": 61.684,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s7-a0",
+      "cue": "No puedes",
+      "word": "No",
+      "time": 63.224,
+      "deltaMs": -34.854,
+      "chapterPreroll": true,
+      "allowedPrerollMs": 80
+    },
+    {
+      "event": "s7-a1",
+      "cue": "reloj",
+      "word": "reloj,",
+      "time": 64.257,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s7-a2",
+      "cue": "crear recuerdos",
+      "word": "crear",
+      "time": 65.24,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s7-a3",
+      "cue": "tus días",
+      "word": "tus",
+      "time": 66.522,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s7-a4",
+      "cue": "A ti también",
+      "word": "¿A",
+      "time": 67.985,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    },
+    {
+      "event": "s7-a5",
+      "cue": "volando el año",
+      "word": "volando",
+      "time": 69.058,
+      "deltaMs": 0,
+      "chapterPreroll": false,
+      "allowedPrerollMs": null
+    }
+  ],
+  "approvedPngUnchanged": 68,
+  "protectedMoviesUnchanged": [
+    "output/episodio-01-cerebro/episodio_01_cerebro_70s.mp4",
+    "output/episodio-01-cerebro-125/episodio_01_cerebro_70s_FINAL.mp4"
+  ],
+  "previousCompositionIdsRetained": [
+    "Episodio01Cerebro",
+    "Episodio01Cerebro125",
+    "Episodio01CerebroAprobado",
+    "CorazonPiloto10s",
+    "CorazonAlLimite",
+    "Prueba2D",
+    "Prueba2D-Introduccion",
+    "Prueba2D-Cansancio",
+    "Prueba2D-Cerebro",
+    "Prueba2D-Descanso",
+    "DemoProfesional2D",
+    "DemoProfesional2D-Miedo",
+    "DemoProfesional2D-Cerebro",
+    "DemoProfesional2D-Corazon",
+    "DemoProfesional2D-Respuesta",
+    "DemoProfesional2DFluida",
+    "DemoProfesional2DFluida-Miedo",
+    "DemoProfesional2DFluida-Cerebro",
+    "DemoProfesional2DFluida-Corazon",
+    "DemoProfesional2DFluida-Respuesta",
+    "PrimerVideoSueno",
+    "PruebaVozElevenLabs",
+    "Sueno-01-Gancho",
+    "Sueno-02-Cerebro",
+    "Sueno-03-Atencion",
+    "Sueno-04-Animo",
+    "Sueno-05-Apetito",
+    "Sueno-06-Salud",
+    "Sueno-07-Descanso",
+    "Sueno-08-Cierre"
+  ],
+  "decodedFrames": 2100,
+  "distinctFrames": 2100,
+  "blackRanges": [],
+  "fastStart": true,
+  "paidGenerations": 0,
+  "creditsSpent": 0,
+  "scope": "Verificación técnica; no sustituye revisión editorial, visual ni de naturalidad de la voz.",
+  "validatedAt": "2026-11-03T20:05:25.849Z"
+}
