@@ -4,7 +4,7 @@ Composición independiente `Episodio04SinDormir`, registrada en `src/Root.tsx`: 
 
 ## Estado de revisión
 
-La voz `CORAZON_CINEMATIC_MX` aún figura como pendiente de audición en la configuración existente. Se incluye una muestra local específica de este guion y se conserva sin cambios el perfil oficial. La línea de voz de ElevenLabs identificada en el proyecto no tiene credencial ni saldo actual comprobado; no se usaron créditos.
+La voz `CORAZON_CINEMATIC_MX` continúa sin toma oficial aprobada. El usuario rechazó la muestra local por sonar robótica y pidió muestras en español. `VOCES_ESPANOL_MX.md` documenta dos candidatas del catálogo mexicano de ElevenLabs con identificadores reales y muestras existentes. Su interpretación con nuestro guion, acceso al proveedor y costo exacto siguen por confirmar; no se han usado créditos de generación externa.
 
 La temporización de `timeline.json` solo expresa ventanas editoriales para la animática. Está marcada explícitamente como no sincronizada. `captions.json` permanece vacío hasta que la locución se apruebe, se mida y se alinee con marcas reales. No se deben generar subtítulos cronometrados a partir de la longitud del texto.
 
@@ -21,6 +21,7 @@ La temporización de `timeline.json` solo expresa ventanas editoriales para la a
 | `index.tsx` | Escenas 2D, cámara y elementos originales en SVG |
 | `AUDITORIA_VISUAL_2D.md` | Revisión de biblioteca, sustituciones corregidas y recursos faltantes |
 | `PROMPTS_ILUSTRACIONES.md` | Prompts y referencias exactos de los cuatro recursos generados |
+| `VOCES_ESPANOL_MX.md` | Muestra local rechazada y selección corregida de voces mexicanas |
 
 ## Recursos aprobados
 

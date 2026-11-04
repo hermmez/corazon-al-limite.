@@ -1,10 +1,17 @@
 {
   "schemaVersion": 1,
   "profile": "CORAZON_CINEMATIC_MX",
-  "approvalStatus": "pending-user-audition",
+  "approvalStatus": "alejandro-selected-awaiting-priced-audition",
+  "userFeedback": "La muestra Piper C2 fue rechazada por sonar robótica. El selector posterior presentó muestras en inglés; evaluar solo voces y muestras en español mexicano.",
   "officialVoice": null,
   "preferredDirection": "C2_cinematografica_dinamica",
   "locale": "es-MX",
+  "requiredAuditionLanguage": "Spanish",
+  "selectedAuditionVoice": {"provider": "ElevenLabs", "voiceId": "YKUjKbMlejgvkOZlnnvt", "voiceName": "Alejandro Ballesteros - Warm and Joyful", "locale": "es-MX", "selectedByUser": true, "generationAuthorized": false, "performanceApprovedForProduction": false},
+  "commercialAuditionCandidates": [
+    {"provider": "ElevenLabs", "voiceId": "YKUjKbMlejgvkOZlnnvt", "voiceName": "Alejandro Ballesteros - Warm and Joyful", "catalogAccent": "Mexican", "generationAuthorized": false, "source": "https://elevenlabs.io/es/text-to-speech/mexican-accent", "note": "Primera candidata por la descripción cálida y energética del proveedor; interpretación C2 con nuestro guion no validada."},
+    {"provider": "ElevenLabs", "voiceId": "iDEmt5MnqUotdwCIVplo", "voiceName": "Enrique Mondragón - Elegant and Dynamic", "catalogAccent": "Mexican", "generationAuthorized": false, "source": "https://elevenlabs.io/es/text-to-speech/mexican-accent", "note": "Alternativa orientada a narración; no es una selección oficial."}
+  ],
   "direction": {
     "gender": "male",
     "perceivedAgeTarget": "28–38",
@@ -32,7 +39,7 @@
     "modelSha256": "019b3803293c93e34a206dd2e53a3889209a514e786fd7144f7b70196c579b63",
     "modelNativeSampleRate": 22050,
     "phonemizer": "es-419",
-    "approvalStatus": "provisional-not-official",
+    "approvalStatus": "rejected-by-user-robotic-delivery",
     "text": "Tu corazón puede seguir latiendo fuera de tu cuerpo. Y no, no es ciencia ficción. La explicación está en algo extraordinario: su propio sistema eléctrico.",
     "commonSynthesis": {"noise_scale": 0.55, "noise_w_scale": 0.65, "normalize_audio": false, "volume": 1.0},
     "sessionRandomSeed": 125,

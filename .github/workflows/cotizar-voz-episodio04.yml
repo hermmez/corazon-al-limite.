@@ -1,0 +1,27 @@
+name: Consultar costo de audición de Alejandro · sin generación
+on:
+  workflow_dispatch:
+  push:
+    branches: [codex/episodio-04-24h-sin-dormir]
+    paths:
+      - .github/workflows/cotizar-voz-episodio04.yml
+      - scripts/episodio-04-sin-dormir/cotizar_voz.py
+permissions:
+  contents: read
+jobs:
+  consultar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Consultar voz y factores de costo sin sintetizar audio
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: python3 scripts/episodio-04-sin-dormir/cotizar_voz.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cotizacion-alejandro-${{ github.run_id }}
+          path: output/episodio-04-sueno/cotizacion-alejandro.json
+          retention-days: 7

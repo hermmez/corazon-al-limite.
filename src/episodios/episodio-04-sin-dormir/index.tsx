@@ -26,15 +26,21 @@ const clamp = { extrapolateLeft: "clamp" as const, extrapolateRight: "clamp" as 
 
 const Actor: React.FC<{
   file: string;
+  poses?: string[];
   local: number;
   left?: number;
   width?: number;
   bottom?: number;
   scale?: number;
-}> = ({ file, local, left = 430, width = 630, bottom = 340, scale = 1 }) => {
+}> = ({ file, poses, local, left = 430, width = 630, bottom = 340, scale = 1 }) => {
   const { fps } = useVideoConfig();
   const enter = spring({ frame: Math.max(0, local * fps), fps, config: { damping: 18, stiffness: 100 } });
   const breathe = 1 + Math.sin(local * 2.2) * 0.003;
+  const poseIndex = poses ? Math.min(poses.length - 1, Math.floor(local / 2)) : 0;
+  const current = poses?.[poseIndex] ?? file;
+  const previous = poses?.[Math.max(0, poseIndex - 1)] ?? current;
+  const poseBlend = poseIndex === 0 ? 1 : interpolate(local - poseIndex * 2, [0, 0.14], [0, 1], clamp);
+  const settle = poses ? interpolate(local % 2, [0, 0.16, 0.4], [-1.2, 0.4, 0], clamp) : 0;
   return (
     <div
       style={{
@@ -44,11 +50,12 @@ const Actor: React.FC<{
         width,
         height: width * 1.5,
         transformOrigin: "50% 96%",
-        transform: `translateY(${(1 - enter) * 56}px) scale(${scale * breathe})`,
+        transform: `translateY(${(1 - enter) * 24}px) rotate(${settle}deg) scale(${scale * breathe})`,
         filter: "drop-shadow(0 28px 36px #0006)",
       }}
     >
-      <Img src={image(`personajes/${file}`)} style={{ width: "100%", height: "100%", objectFit: "contain" }} />
+      {poseBlend < 1 && <Img src={image(`personajes/${previous}`)} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "contain", opacity: 1 - poseBlend }} />}
+      <Img src={image(`personajes/${current}`)} style={{ width: "100%", height: "100%", objectFit: "contain", opacity: poseBlend }} />
     </div>
   );
 };
@@ -109,8 +116,8 @@ const Clock: React.FC<{ local: number; color?: string }> = ({ local, color = C.g
 
 const FocusGraph: React.FC<{ local: number }> = ({ local }) => {
   return (
-    <div style={{ position: "absolute", left: 90, top: 1140, width: 900, height: 520, background: "#0a2033ee", borderRadius: 32, overflow: "hidden" }}>
-      <Img src={image("ciencia/02_sinapsis_neuronal.png")} style={{ position: "absolute", right: 0, top: 15, width: 500, height: 500, objectFit: "contain", translate: `0px ${interpolate(local, [0, 2, 4, 6, 9], [24, 0, -10, 0, 0], clamp)}px` }} />
+    <div style={{ position: "absolute", left: 90, top: 1140, width: 900, height: 520, background: "#0a2033ee", borderRadius: 32, overflow: "hidden", opacity: interpolate(local, [0.9, 1.5], [0, 1], clamp), translate: `0px ${interpolate(local, [0.9, 1.6], [90, 0], clamp)}px` }}>
+      <div style={{ position: "absolute", right: 0, top: 15, width: 500, height: 470, overflow: "hidden" }}><Img src={image("ciencia/02_sinapsis_neuronal.png")} style={{ width: 500, height: 500, objectFit: "contain", scale: interpolate(local, [2, 3.8, 5.5, 7.4, 9], [1, 1.18, 1.18, 1, 1], clamp), transformOrigin: "50% 60%" }} /></div>
       <div style={{ position: "absolute", left: 34, top: 65, width: 330, color: C.cream, fontSize: 38, fontWeight: 800, lineHeight: 1.15 }}>{local < 3 ? "ATENCIÓN" : local < 6 ? "REACCIÓN" : "ERRORES"}</div>
       <div style={{ position: "absolute", left: 34, top: 210, width: 330, color: C.gold, fontSize: 30, lineHeight: 1.25 }}>{local < 3 ? "Concentrarse puede costar más" : local < 6 ? "Responder puede llevar más tiempo" : "El desempeño puede cambiar"}</div>
       <div style={{ position: "absolute", left: 34, bottom: 26, color: "#b4c9d0", fontSize: 21 }}>Ilustración educativa · sin datos medidos</div>
@@ -119,10 +126,10 @@ const FocusGraph: React.FC<{ local: number }> = ({ local }) => {
 };
 
 const MicrosleepVisual: React.FC<{ local: number }> = ({ local }) => {
-  const blink = [3.5, 5.7, 7.4].some((center) => Math.abs(local - center) < 0.13);
+  const blink = local >= 3.4 && local < 4.4;
   return (
     <>
-      <Actor file={blink ? "05_cansado.png" : "01_neutral.png"} local={local} left={505} width={510} bottom={255} />
+      <Actor file="01_neutral.png" poses={["01_neutral.png", "01_neutral.png", "05_cansado.png", "15_confundido.png"]} local={local} left={505} width={510} bottom={255} />
       <div style={{ position: "absolute", left: 70, top: 820, width: 495, height: 650, borderRadius: 34, background: "#081927ee", overflow: "hidden" }}>
         <Img src={image("anatomia/01_cerebro_completo.png")} style={{ width: 470, height: 470, objectFit: "contain", opacity: blink ? 0.55 : 1, translate: `0px ${interpolate(local, [0, 2, 4, 6, 9], [25, 0, -12, 0, 0], clamp)}px` }} />
         <div style={{ position: "absolute", left: 28, right: 28, bottom: 65, color: blink ? C.coral : C.gold, fontSize: 30, lineHeight: 1.15, fontWeight: 800 }}>{local < 3 ? "PARECE DESPIERTO" : local < 6 ? "PUEDE HABER UN LAPSO" : "NO HAY UNA HORA EXACTA"}</div>
@@ -157,14 +164,16 @@ const Effects: React.FC<{ local: number }> = ({ local }) => {
   const labels = ["MEMORIA", "DECISIONES", "EMOCIONES"];
   const colors = [C.teal, C.gold, C.coral];
   const current = Math.min(2, Math.floor(local / 2));
+  const poses = ["04_pensando.png", "15_confundido.png", "12_preocupado.png"];
   return (
     <>
-      <Img src={image("anatomia/01_cerebro_completo.png")} style={{ position: "absolute", width: 830, height: 830, left: 125, top: 390, objectFit: "contain", transform: `scale(${1 + Math.sin(local * 1.6) * 0.025})`, filter: "drop-shadow(0 18px 38px #0008)" }} />
+      <Img src={image("anatomia/01_cerebro_completo.png")} style={{ position: "absolute", width: 830, height: 740, left: 125, top: 385, objectFit: "contain", translate: `0px ${interpolate(local, [0, 0.8, 1.6], [50, 0, -40], clamp)}px`, filter: "drop-shadow(0 18px 38px #0008)" }} />
       <svg width="1080" height="1920" viewBox="0 0 1080 1920" style={{ position: "absolute", inset: 0 }}>
-        {[0, 1, 2].map((n) => <path key={n} d={`M${220 + n * 300} 1110 C${170 + n * 320} 1280,${300 + n * 280} 1290,${250 + n * 310} 1440`} fill="none" stroke={colors[n]} strokeWidth={current === n ? 10 : 3} opacity={current === n ? 0.95 : 0.24} strokeDasharray="12 20" />)}
+        {[0, 1, 2].map((n) => <path key={n} d={`M540 1020 Q${220 + n * 300} 1060,${235 + n * 305} 1130`} fill="none" stroke={colors[n]} strokeWidth={current === n ? 8 : 3} opacity={current === n ? 0.95 : 0.24} strokeDasharray="10 16" />)}
       </svg>
+      {poses.map((pose, n) => <Img key={pose} src={image(`personajes/${pose}`)} style={{ position: "absolute", left: 105 + n * 305, top: 1100, width: 260, height: 390, objectFit: "contain", opacity: interpolate(local, [n * 2, n * 2 + 0.35], [0, 1], clamp) * (local > 6.5 || current === n ? 1 : 0.48), translate: `0px ${interpolate(local, [n * 2, n * 2 + 0.4], [35, 0], clamp)}px` }} />)}
       <div style={{ position: "absolute", left: 70, right: 70, bottom: 340, display: "flex", justifyContent: "space-between", gap: 14 }}>
-        {labels.map((label, n) => <div key={label} style={{ flex: 1, padding: "24px 18px", textAlign: "center", borderRadius: 24, color: current === n ? C.navy : C.cream, background: current === n ? colors[n] : "#0a2033e8", border: `2px solid ${colors[n]}66`, fontSize: 21, fontWeight: 850, letterSpacing: 1.5, transform: `translateY(${current === n ? -16 : 0}px)` }}>{label}</div>)}
+        {labels.map((label, n) => <div key={label} style={{ flex: 1, padding: "24px 12px", textAlign: "center", borderRadius: 24, color: current === n ? C.navy : C.cream, background: current === n ? colors[n] : "#0a2033e8", border: `2px solid ${colors[n]}66`, fontSize: 27, fontWeight: 850, letterSpacing: 1, transform: `translateY(${current === n ? -16 : 0}px)` }}>{label}</div>)}
       </div>
     </>
   );
@@ -179,6 +188,10 @@ const Coffee: React.FC<{ local: number }> = ({ local }) => (
       <path d="M610 1110 C690 1140 805 1140 920 1080 M895 1075L925 1075L917 1105" fill="none" stroke={C.gold} strokeWidth="7" strokeLinecap="round" strokeDasharray={`${interpolate(local, [2, 4], [0, 400], clamp)} 400`} />
     </svg>
     <div style={{ position: "absolute", left: 590, top: 1200, width: 410, color: C.gold, fontSize: 34, fontWeight: 800, lineHeight: 1.15 }}>{local < 5 ? "ALERTA TEMPORAL" : "NO REEMPLAZA EL SUEÑO"}</div>
+    <div style={{ position: "absolute", left: 90, top: 1300, width: 490, height: 380, overflow: "hidden", borderRadius: 24, opacity: interpolate(local, [4.8, 5.4], [0, 1], clamp), translate: `${interpolate(local, [4.8, 5.4], [-50, 0], clamp)}px 0px` }}>
+      <Img src={image("escenarios/01_dormitorio.png")} style={{ width: 490, height: 490, objectFit: "contain", opacity: 0.6 }} />
+      <Img src={episodeImage("personaje-descansando-en-cama.png")} style={{ position: "absolute", left: 8, top: 65, width: 475, height: 317, objectFit: "contain" }} />
+    </div>
     <div style={{ position: "absolute", left: 650, top: 1420, width: 320, color: C.cream, fontSize: 28, lineHeight: 1.2 }}>Tu cuerpo sigue necesitando descansar.</div>
   </>
 );
@@ -218,7 +231,7 @@ const Closing: React.FC<{ local: number }> = ({ local }) => (
     <div style={{ position: "absolute", left: 72, top: 540, width: 480, color: C.cream, fontSize: 47, lineHeight: 1.05, fontWeight: 850, textShadow: "0 4px 24px #0009" }}>Dormir no es perder el tiempo.</div>
     <div style={{ position: "absolute", left: 72, top: 710, width: 450, color: C.teal, fontSize: 30, lineHeight: 1.2, fontWeight: 750 }}>Es una necesidad biológica.</div>
     <div style={{ position: "absolute", left: 72, top: 1510, width: 870, padding: "24px 26px", color: C.navy, background: C.gold, borderRadius: 18, fontSize: 30, lineHeight: 1.12, fontWeight: 900, opacity: interpolate(local, [2, 2.4], [0, 1], clamp) }}>SI TIENES SUEÑO, EVITA MANEJAR.</div>
-    <div style={{ position: "absolute", left: 72, top: 1680, width: 870, color: C.cream, fontSize: 37, lineHeight: 1.1, fontWeight: 850, textShadow: "0 3px 20px #000", opacity: interpolate(local, [4.5, 5], [0, 1], clamp) }}>¿Cuántas horas llevas despierto hoy?</div>
+    <div style={{ position: "absolute", left: 72, top: 1680, width: 870, color: C.cream, fontSize: 37, lineHeight: 1.1, fontWeight: 850, textShadow: "0 3px 20px #000", opacity: interpolate(local, [3, 3.5], [0, 1], clamp) }}>¿Cuántas horas llevas despierto hoy?</div>
   </>
 );
 
@@ -237,7 +250,8 @@ export const Episodio04SinDormir: React.FC = () => {
       {sceneIndex === 0 ? (
         <>
           <NightRoom time={time} darker={darkness} />
-          <Actor file={beat < 2 ? "05_cansado.png" : "18_bostezando.png"} local={local} />
+          <Actor file="05_cansado.png" poses={["05_cansado.png", "18_bostezando.png", "05_cansado.png", "11_sorprendido.png"]} local={local} />
+          <Img src={image("anatomia/01_cerebro_completo.png")} style={{ position: "absolute", left: 90, top: 825, width: 410, height: 410, objectFit: "contain", opacity: interpolate(local, [5.6, 6.2], [0, 1], clamp), translate: `${interpolate(local, [5.6, 6.3], [-100, 0], clamp)}px 0px` }} />
           <Clock local={local} />
           <ChapterTag text={chapter.kicker} local={local} />
           <Label top={302} size={55}>{chapter.titleLines[0]}<br />{chapter.titleLines[1]}</Label>

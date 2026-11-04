@@ -12,7 +12,8 @@
   "newAssetManifest": "public/episodio-04/ilustraciones/manifest.json",
   "voiceProfile": {
     "profile": "CORAZON_CINEMATIC_MX",
-    "approvalStatus": "pending-user-audition",
+    "approvalStatus": "alejandro-selected-awaiting-priced-audition",
+    "selectedAuditionVoice": {"provider": "ElevenLabs", "voiceId": "YKUjKbMlejgvkOZlnnvt", "voiceName": "Alejandro Ballesteros - Warm and Joyful", "locale": "es-MX", "generationAuthorized": false, "performanceApprovedForProduction": false},
     "officialVoice": null,
     "audition": "output/episodio-04-sueno/audicion_C2_local_provisional.wav",
     "localAudition": {
@@ -30,6 +31,9 @@
     "imagenes/escenarios/01_dormitorio.png",
     "imagenes/personajes/01_neutral.png",
     "imagenes/personajes/05_cansado.png",
+    "imagenes/personajes/04_pensando.png",
+    "imagenes/personajes/11_sorprendido.png",
+    "imagenes/personajes/12_preocupado.png",
     "imagenes/personajes/15_confundido.png",
     "imagenes/personajes/18_bostezando.png",
     "imagenes/anatomia/01_cerebro_completo.png",

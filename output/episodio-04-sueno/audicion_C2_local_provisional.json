@@ -1,5 +1,5 @@
 {
-  "status": "provisional-audition-awaiting-user-approval",
+  "status": "rejected-by-user",
   "profile": "CORAZON_CINEMATIC_MX",
   "provider": "Piper local",
   "voiceId": "es_MX-ald-medium",
@@ -21,5 +21,7 @@
   "creditsSpent": 0,
   "officialVoiceChanged": false,
   "limitations": "La muestra usa la voz local Aldo; Piper no admite actuación por intención, emoción, énfasis o timbre. No se marca como narrador oficial ni sustituye una audición comercial.",
-  "sha256": "35ea69874b4e6b99ed4aadbbdbef62d78c2d067dd43814d232d6e0c8ed6af006"
+  "sha256": "35ea69874b4e6b99ed4aadbbdbef62d78c2d067dd43814d232d6e0c8ed6af006",
+  "rejectionReason": "robotic-delivery",
+  "approvedForProduction": false
 }

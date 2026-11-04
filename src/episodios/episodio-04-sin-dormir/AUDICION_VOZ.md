@@ -1,6 +1,8 @@
 # Audición de voz · CORAZON_CINEMATIC_MX
 
-**Estado: pendiente de aprobación del usuario.** La composición no cambia la voz oficial ni contiene una generación comercial.
+**Estado: muestra local rechazada por el usuario por sonar robótica.** No usar Piper como toma definitiva. La composición no cambia la voz oficial ni contiene una generación comercial. Consultar `VOCES_ESPANOL_MX.md` para las candidatas del catálogo mexicano y sus muestras existentes.
+
+El usuario eligió Alejandro Ballesteros (`YKUjKbMlejgvkOZlnnvt`) para la nueva audición C2 en español mexicano. La selección de voz está resuelta; siguen pendientes el costo de generación y la validación de su actuación con el guion.
 
 - Muestra del episodio: `output/episodio-04-sueno/audicion_C2_local_provisional.wav` (12.76 s).
 - Proveedor local: Piper; voz Aldo, `es_MX-ald-medium`; modelo con SHA-256 `019b3803293c93e34a206dd2e53a3889209a514e786fd7144f7b70196c579b63`.

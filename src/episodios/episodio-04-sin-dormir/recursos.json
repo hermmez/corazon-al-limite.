@@ -465,7 +465,7 @@
         "width": 1024,
         "height": 1536
       },
-      "usedInEpisode": null
+      "usedInEpisode": "memoria"
     },
     {
       "path": "public/imagenes/personajes/05_cansado.png",
@@ -542,7 +542,7 @@
         "width": 1024,
         "height": 1536
       },
-      "usedInEpisode": null
+      "usedInEpisode": "revelación del gancho"
     },
     {
       "path": "public/imagenes/personajes/12_preocupado.png",
@@ -553,7 +553,7 @@
         "width": 1024,
         "height": 1536
       },
-      "usedInEpisode": null
+      "usedInEpisode": "emociones"
     },
     {
       "path": "public/imagenes/personajes/13_feliz.png",

@@ -1,0 +1,21 @@
+{
+  "status": "passed-visual-only",
+  "file": "episodio04_REVISION_VISUAL_SIN_VOZ.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": "30/1",
+  "frames": 2100,
+  "duration": 70,
+  "codec": "h264",
+  "profile": "High",
+  "pixelFormat": "yuv420p",
+  "colorSpace": "bt709",
+  "faststart": true,
+  "fullDecode": true,
+  "audioTracks": 0,
+  "voiceApproved": false,
+  "captionsAligned": false,
+  "paidGenerations": 0,
+  "pngPipeSingleEncode": true,
+  "sha256": "9d3ee433ccb516b3fafa9834f6c600f2afa0db46242365550e4823382de9ad28"
+}
