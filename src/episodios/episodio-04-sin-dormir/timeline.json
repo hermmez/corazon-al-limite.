@@ -1,0 +1,18 @@
+{
+  "status": "visual-preview-only-awaiting-approved-narration",
+  "audioReady": false,
+  "voiceApproved": false,
+  "timingSource": "editorial scene windows from the requested brief; not audio timestamps",
+  "sceneWindows": [
+    { "id": 0, "start": 0, "end": 8 },
+    { "id": 1, "start": 8, "end": 17 },
+    { "id": 2, "start": 17, "end": 26 },
+    { "id": 3, "start": 26, "end": 35 },
+    { "id": 4, "start": 35, "end": 44 },
+    { "id": 5, "start": 44, "end": 53 },
+    { "id": 6, "start": 53, "end": 62 },
+    { "id": 7, "start": 62, "end": 70 }
+  ],
+  "events": [],
+  "note": "La preparación de la voz definitiva medirá duración y marcas reales, actualizará los eventos semánticos y sincronizará captions. Estos intervalos mantienen la animática de revisión en 2100 fotogramas sin afirmar sincronía de locución."
+}

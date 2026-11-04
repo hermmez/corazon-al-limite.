@@ -1,0 +1,23 @@
+{
+  "composition": "Episodio04SinDormir",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 2100,
+  "durationSeconds": 70,
+  "stillFramesRendered": [
+    60,
+    360,
+    600,
+    940,
+    1150,
+    1450,
+    1750,
+    1990
+  ],
+  "typecheck": "passed",
+  "finalVideoExported": false,
+  "finalAudioValidated": false,
+  "captionAlignmentValidated": false,
+  "status": "visual-review-awaiting-voice"
+}

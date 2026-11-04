@@ -1,0 +1,90 @@
+[
+  {
+    "id": 0,
+    "title": "¿Qué pasa después de 24 horas sin dormir?",
+    "titleLines": ["¿24 HORAS", "SIN DORMIR?"],
+    "kicker": "UNA NOCHE EN VELA",
+    "start": 0,
+    "end": 8,
+    "text": "¿Qué pasa después de veinticuatro horas sin dormir? No hay un reloj idéntico para todos, pero la falta de sueño puede empezar a cambiar cómo funciona tu cerebro.",
+    "cues": ["veinticuatro horas", "No hay un reloj", "falta de sueño", "tu cerebro"],
+    "actions": ["La noche cae sobre el dormitorio", "El reloj suma horas sin convertirlas en un umbral universal", "El personaje intenta mantenerse despierto", "El reloj y el cerebro comparten el encuadre"]
+  },
+  {
+    "id": 1,
+    "title": "La presión por dormir",
+    "titleLines": ["LA ATENCIÓN", "SE RESIENTE"],
+    "kicker": "ATENCIÓN Y REACCIÓN",
+    "start": 8,
+    "end": 17,
+    "text": "Mientras sigues despierto, aumenta la presión por dormir. Puede costarte más concentrarte, reaccionar a tiempo y evitar errores.",
+    "cues": ["sigues despierto", "presión por dormir", "concentrarte", "reaccionar", "errores"],
+    "actions": ["El cerebro ocupa el primer plano", "La sinapsis aprobada entra en detalle", "La atención cede el foco a la reacción", "Se explica la posibilidad de errores sin datos ficticios"]
+  },
+  {
+    "id": 2,
+    "title": "Microsueños",
+    "titleLines": ["EL CEREBRO", "PIERDE UN INSTANTE"],
+    "kicker": "MICROSUEÑOS",
+    "start": 17,
+    "end": 26,
+    "text": "Y aquí viene lo peligroso: pueden aparecer microsueños. Son lapsos breves en los que el cerebro deja de responder, incluso con los ojos abiertos. No existe una hora exacta para todos.",
+    "cues": ["peligroso", "microsueños", "lapsos breves", "ojos abiertos", "hora exacta"],
+    "actions": ["El cerebro anatómico abre el detalle", "El personaje parece despierto", "Un lapso se representa de forma ilustrativa", "La variación individual queda explícita"]
+  },
+  {
+    "id": 3,
+    "title": "Con sueño, conducir es riesgoso",
+    "titleLines": ["AL VOLANTE", "NO HAY PAUSA"],
+    "kicker": "RIESGO EN LA CARRETERA",
+    "start": 26,
+    "end": 35,
+    "text": "Imagina que vas manejando. Un lapso sin responder puede hacerte perder información clave. Por eso conducir con sueño es tan arriesgado.",
+    "cues": ["manejando", "lapso", "perder información", "con sueño"],
+    "actions": ["La carretera avanza hacia el espectador", "La percepción del conductor se estrecha", "Un lapso deja un hueco en la señal", "La advertencia aparece sin mostrar un choque"]
+  },
+  {
+    "id": 4,
+    "title": "Memoria, decisiones y emociones",
+    "titleLines": ["TRES FUNCIONES", "EN JUEGO"],
+    "kicker": "EL EFECTO NO ES IGUAL EN TODOS",
+    "start": 35,
+    "end": 44,
+    "text": "La falta de sueño también puede afectar tu memoria, tus decisiones y cómo regulas tus emociones. Los efectos varían de una persona a otra.",
+    "cues": ["memoria", "decisiones", "emociones", "varían"],
+    "actions": ["El cerebro abre la escena", "Memoria se ilumina", "Decisiones toma el foco", "Emociones aparece con la nota de variabilidad"]
+  },
+  {
+    "id": 5,
+    "title": "La cafeína no reemplaza el sueño",
+    "titleLines": ["EL CAFÉ AYUDA", "POR UN RATO"],
+    "kicker": "ALERTA TEMPORAL",
+    "start": 44,
+    "end": 53,
+    "text": "El café puede ayudarte a sentir más alerta por un rato. Pero no te da el descanso ni la capacidad de decidir que aporta dormir.",
+    "cues": ["café", "más alerta", "por un rato", "no te da", "dormir"],
+    "actions": ["La taza ilustrada entra y se asienta", "El cerebro aprobado aparece en paralelo", "Una flecha complementa la alerta temporal", "La necesidad de dormir permanece"]
+  },
+  {
+    "id": 6,
+    "title": "Sentirte despierto no mide tu rendimiento",
+    "titleLines": ["¿TE SIENTES BIEN?", "MIDE TU RESPUESTA"],
+    "kicker": "PERCEPCIÓN Y DESEMPEÑO",
+    "start": 53,
+    "end": 62,
+    "text": "Y aunque creas que estás funcionando bien, tu atención puede haber cambiado. Sentirte despierto no garantiza que rindas igual.",
+    "cues": ["creas", "funcionando bien", "atención", "no garantiza", "rindas igual"],
+    "actions": ["La percepción subjetiva ocupa el lado izquierdo", "Aparece una prueba objetiva en paralelo", "El tiempo de respuesta se alarga", "La pantalla separa sensación de medición"]
+  },
+  {
+    "id": 7,
+    "title": "Dormir es una necesidad biológica",
+    "titleLines": ["DORMIR", "ES NECESARIO"],
+    "kicker": "CIERRE",
+    "start": 62,
+    "end": 70,
+    "text": "Dormir no es perder el tiempo: es una necesidad biológica. Si tienes sueño, evita manejar. ¿Cuántas horas llevas despierto hoy?",
+    "cues": ["Dormir", "necesidad biológica", "evita manejar", "cuántas horas"],
+    "actions": ["La noche vuelve al dormitorio", "El personaje descansa", "La recomendación de seguridad se presenta directa", "La pregunta final queda limpia en pantalla"]
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "approvedOriginalsVerified": 68,
+  "originalsModified": false,
+  "baselineCommit": "626e0f7c95b56ff40146da4d8ff6611bfedf9c40",
+  "newAssetsVerified": 4,
+  "externalCreditGenerationCalls": 0,
+  "visualReview": "Inspección de identidad, contornos, paleta y sombreado frente a referencias aprobadas; validación final en movimiento pendiente de audio.",
+  "assets": [
+    {
+      "path": "public/episodio-04/ilustraciones/automovil-teal-vista-trasera.png",
+      "width": 1358,
+      "height": 1159,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "transparentBackgroundRequired": true,
+      "maxRenderWidth": 590,
+      "maxRenderHeight": 504,
+      "sha256": "4d698d59f44dd89539ed9b662154fb3dece7ed6fe2b914281520e8e33c9dec3b",
+      "generator": "built-in-imagegen",
+      "styleReference": "public/imagenes/escenarios/01_dormitorio.png",
+      "promptFile": "src/episodios/episodio-04-sin-dormir/PROMPTS_ILUSTRACIONES.md"
+    },
+    {
+      "path": "public/episodio-04/ilustraciones/carretera-nocturna-sin-vehiculo.png",
+      "width": 941,
+      "height": 1672,
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "transparentBackgroundRequired": false,
+      "maxRenderWidth": 900,
+      "maxRenderHeight": 1600,
+      "sha256": "084c58c49b7eadb4e6727c93657963784d51cae5aee303c66379dfcd1bd450f0",
+      "generator": "built-in-imagegen",
+      "styleReference": "public/imagenes/escenarios/01_dormitorio.png",
+      "promptFile": "src/episodios/episodio-04-sin-dormir/PROMPTS_ILUSTRACIONES.md"
+    },
+    {
+      "path": "public/episodio-04/ilustraciones/taza-cafe-con-plato.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "transparentBackgroundRequired": true,
+      "maxRenderWidth": 560,
+      "maxRenderHeight": 560,
+      "sha256": "6f5b2eacc2180282b0f02466056457dc0a33ff700ee13a1ac0f3df2753ac2e74",
+      "generator": "built-in-imagegen",
+      "styleReference": "public/imagenes/escenarios/01_dormitorio.png",
+      "promptFile": "src/episodios/episodio-04-sin-dormir/PROMPTS_ILUSTRACIONES.md"
+    },
+    {
+      "path": "public/episodio-04/ilustraciones/personaje-descansando-en-cama.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "transparentBackgroundRequired": true,
+      "maxRenderWidth": 1000,
+      "maxRenderHeight": 667,
+      "sha256": "9e730b940ba632c38dde18b6ea5c7abef16664aba450568aef104a01c687b739",
+      "generator": "built-in-imagegen",
+      "styleReference": "public/imagenes/escenarios/01_dormitorio.png",
+      "promptFile": "src/episodios/episodio-04-sin-dormir/PROMPTS_ILUSTRACIONES.md"
+    }
+  ]
+}

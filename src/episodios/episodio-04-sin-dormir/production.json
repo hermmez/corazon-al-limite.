@@ -1,0 +1,54 @@
+{
+  "composition": "Episodio04SinDormir",
+  "title": "¿Qué le pasa a tu cuerpo después de 24 horas sin dormir?",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 2100,
+  "durationSeconds": 70,
+  "status": "visual-review-pending-voice-approval",
+  "visualStandard": "100-percent-2d-no-3d",
+  "visualAudit": "AUDITORIA_VISUAL_2D.md",
+  "newAssetManifest": "public/episodio-04/ilustraciones/manifest.json",
+  "voiceProfile": {
+    "profile": "CORAZON_CINEMATIC_MX",
+    "approvalStatus": "pending-user-audition",
+    "officialVoice": null,
+    "audition": "output/episodio-04-sueno/audicion_C2_local_provisional.wav",
+    "localAudition": {
+      "provider": "Piper local",
+      "voiceId": "es_MX-ald-medium",
+      "modelId": "es_MX-ald-medium",
+      "approvedForProduction": false,
+      "paidGenerations": 0,
+      "creditsSpent": 0
+    },
+    "commercialCandidateIsNotAuthorized": true
+  },
+  "visualTiming": "editorial-only; regenerate from actual approved narration before final export",
+  "visualAssets": [
+    "imagenes/escenarios/01_dormitorio.png",
+    "imagenes/personajes/01_neutral.png",
+    "imagenes/personajes/05_cansado.png",
+    "imagenes/personajes/15_confundido.png",
+    "imagenes/personajes/18_bostezando.png",
+    "imagenes/anatomia/01_cerebro_completo.png",
+    "imagenes/ciencia/02_sinapsis_neuronal.png",
+    "episodio-04/ilustraciones/automovil-teal-vista-trasera.png",
+    "episodio-04/ilustraciones/carretera-nocturna-sin-vehiculo.png",
+    "episodio-04/ilustraciones/taza-cafe-con-plato.png",
+    "episodio-04/ilustraciones/personaje-descansando-en-cama.png"
+  ],
+  "output": {
+    "container": "mp4",
+    "videoCodec": "h264",
+    "videoProfile": "high",
+    "crf": 18,
+    "pixelFormat": "yuv420p",
+    "audioCodec": "aac",
+    "audioSampleRate": 48000,
+    "audioBitrate": 192000,
+    "faststart": true,
+    "colorSpace": "bt709"
+  }
+}

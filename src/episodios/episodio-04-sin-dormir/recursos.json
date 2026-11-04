@@ -1,0 +1,757 @@
+{
+  "status": "passed",
+  "baselineCommit": "626e0f7c95b56ff40146da4d8ff6611bfedf9c40",
+  "verifiedPngCount": 68,
+  "verification": "SHA-1 Git blob calculated from each file's exact bytes matches the corresponding baseline tree object; SHA-256 recorded below.",
+  "originalsModified": false,
+  "assets": [
+    {
+      "path": "public/imagenes/anatomia/01_cerebro_completo.png",
+      "sha256": "4ce809052544d5f2927fc577a7e20810e079656106ef62205012f7acb23029e2",
+      "gitBlobSha1": "45730035d6052a3c5950cfdbc52c2675b0976216",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": "atención y funciones cognitivas"
+    },
+    {
+      "path": "public/imagenes/anatomia/02_cerebro_corte_transversal.png",
+      "sha256": "469bb013c6e80b47f52e0d2b60ac99e683987c3ff1327318833e94bff024a8ee",
+      "gitBlobSha1": "8fabcfbea454aff47ba9ce19f9518ce683cb57c5",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/anatomia/03_corazon_humano.png",
+      "sha256": "3e151cdc33d6a45ec3d95259d40702a7fbc2ad1916c1c0f7b7179598a4ad5f7e",
+      "gitBlobSha1": "a69b668404423bfebb424d81184c154e4ac3e375",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/anatomia/04_pulmones.png",
+      "sha256": "a913f068d0f23b19dc8560fc66deacb48c322773b2d60c29d85350436d772b34",
+      "gitBlobSha1": "38fbd01d931d142d05c950adbdcaf7638f909e4d",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/anatomia/05_estomago.png",
+      "sha256": "70ebcf9ab987d0290e71942d59132174b07babcbc8c746cb9718b845a8499b01",
+      "gitBlobSha1": "19275764c98294ff04862ac7ee23fa2f7dac4d53",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/anatomia/06_intestino_delgado.png",
+      "sha256": "ce185fb8221ceb98efd22caedbeb94132606c63be886f1dfe5ab68fd459a06df",
+      "gitBlobSha1": "69cc7b830f5baef7b9406018ac06280bcfe55cb7",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/anatomia/07_intestino_grueso.png",
+      "sha256": "ca91d213761d1bb116e20be0cb6486596e26fb9b62c01117736b4167c3e747ff",
+      "gitBlobSha1": "7c7288f31cce1e7a3d9db2d977bc577201bf5fdd",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/anatomia/08_higado.png",
+      "sha256": "7984be6f9713ab54ee6f043f0fa2a8a0a56165025f363dd90dc57a040ca1a23e",
+      "gitBlobSha1": "43ec36ad53a60d7ec9df33116f38221502bba5c9",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/anatomia/09_rinones.png",
+      "sha256": "19058898bb56dc19408d1afbf6620a66c19600b99842059e4f02fdabbc305b84",
+      "gitBlobSha1": "e39a03ffa23bd7f349fb6458748291c5d49b41fd",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/anatomia/10_pancreas.png",
+      "sha256": "dc0bd09f35670e4667e49f32c79d71971930b054a9ba10c99f7a37f3f0b1a693",
+      "gitBlobSha1": "f4dc7ae96092f4cfedab2414c99e8412aca6284e",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/anatomia/11_sistema_nervioso.png",
+      "sha256": "d50accde99b7f2744b4e807d276a47446f19dfe1769be20e797c31d61e5e840f",
+      "gitBlobSha1": "4d1bc8a6eddf3ad0f09a31813f7f7cdf469da04c",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/anatomia/12_sistema_circulatorio.png",
+      "sha256": "c23d59e3c933ae533c848343cf764628f85435f488bcc2196ad5a1caeceb6fee",
+      "gitBlobSha1": "08dbd90b6bfc81e2188261ddd31fe3e14785e258",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/anatomia/13_sistema_digestivo.png",
+      "sha256": "2f44c482cb6931a2073cec6eb688a016b79634976b1199245e5c865236dd73f8",
+      "gitBlobSha1": "9ea5d9e5cab2580072d4152a2175653791c1b8a8",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/anatomia/14_sistema_respiratorio.png",
+      "sha256": "08568ec5471941f07f0b5fa1252de92213f74bc63a8969a50bcc3c33d180cbe2",
+      "gitBlobSha1": "84407e8e9d76bfd02f5eca71296180ba8a41a364",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/anatomia/15_esqueleto_humano.png",
+      "sha256": "7040c4fd0d548c7da0882dbb887aa7ac78b0770d526d79969aef527068020651",
+      "gitBlobSha1": "a388bc5ac26bb77b645810407e12640117b87a27",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/anatomia/16_sistema_muscular.png",
+      "sha256": "926e05b1140020f39b2c05ea7129875f9ab1f0c9362fd8d5668147c126f01a8f",
+      "gitBlobSha1": "39a25f581adf0800ec5eafccdf5e25f434214d1a",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/anatomia/17_ojo_humano.png",
+      "sha256": "9992a4837a35296b1f3cb5c6eafb67cf146a06f261e7e83b2376d52a218f4f22",
+      "gitBlobSha1": "151c866fbcd1655c06eb69e6a66b3f69dc747fbf",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/anatomia/18_oido_humano.png",
+      "sha256": "938e2a1b2da5a03e8034f99f8385a501059d7d1784150854a36a00ff747b19f4",
+      "gitBlobSha1": "6e9cc56a032c92dc43e55c1d88f241ecc542dfbb",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/anatomia/19_piel_corte_transversal.png",
+      "sha256": "40bcdf7eaef023076699591530ed0a7405a24f1131ab6e7a76cefbb4e0598054",
+      "gitBlobSha1": "093df2114246f14df4df38857d28a896c5f7ae11",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/anatomia/20_columna_vertebral.png",
+      "sha256": "0fa0f668b557c817c56feecc44e69641d2bab4ec93c0684b579dff415df5f099",
+      "gitBlobSha1": "bb812e86932d584957b3ac0abe3eec172cbf5dfa",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/ciencia/01_neurona.png",
+      "sha256": "83bf4de41176bc724a2212825f88e2ba6dc388cd373cc683d93ffaf798ba4a88",
+      "gitBlobSha1": "4eab3540427d64a83658e70ea42a019c9b0af259",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/ciencia/02_sinapsis_neuronal.png",
+      "sha256": "616a67d278106af4b4a540a563b86134bd32d3bee739a264b39a9fd8e94157c5",
+      "gitBlobSha1": "350eed4b77469b3bca8445dedfecfe1d438a514e",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": "detalle educativo de atención"
+    },
+    {
+      "path": "public/imagenes/ciencia/03_globulo_rojo.png",
+      "sha256": "67abcd0fa6d419c01dc6a8a7146847e5aee8908123bd03f2b95cd1e97b39d5f7",
+      "gitBlobSha1": "51ea5753bb7d08c54319186ce4f61fc6d1cb1bac",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/ciencia/04_globulo_blanco.png",
+      "sha256": "cf5ba8647d8ec3d717f604153487b09ff0a232f7e30b8754e68728eeda75d4c4",
+      "gitBlobSha1": "084cc3d2ef432dca2b708d879b630b0199b9e735",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/ciencia/05_plaquetas.png",
+      "sha256": "5ab27329cbd33278b33d08637bb64651e6960836d8b0601e45111fa8754d85ae",
+      "gitBlobSha1": "73a6ac137b0782fc96f4a68c0f6ae5958ecd02f0",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/ciencia/06_celula_humana.png",
+      "sha256": "99372d429fef913f508c765abf003707df247d7401f87833598c4137fd0a1d17",
+      "gitBlobSha1": "88dcf3c50003087d865490d8e3e95f60a06391f5",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/ciencia/07_adn.png",
+      "sha256": "43b74313ab69d3f451707e5dfc89ac5fc675203443bb927a2f8bada8912ceb69",
+      "gitBlobSha1": "6f1ea00d2f089c5ab06f5f796292b3f5fe2d756a",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/ciencia/08_virus.png",
+      "sha256": "c81ce1ff91173481ae98337056ad2627ebfa4dc5ca660c8ffc1b4f7e31e5c19c",
+      "gitBlobSha1": "ba23cd04fa4de8ba5954744e3e9ec16ee50efc48",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/ciencia/09_bacteria.png",
+      "sha256": "c75ffe1cec1735853a87aa2dc25bca0a0694b5743f67c0936b63d80918fc17b7",
+      "gitBlobSha1": "e7f796677e43d2ce4e570969ee370ef5a6252b54",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/ciencia/10_molecula_glucosa.png",
+      "sha256": "4a20b399e2cf574e915a30f027c0522a6d3838294732da7afb653b78f39450ca",
+      "gitBlobSha1": "3ea4762087669d00b4fd42e526cbbc04b4bcdf10",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/ciencia/11_hormonas.png",
+      "sha256": "ee31b2d37ec9074bc9c4faf6c8dc46337195735f4088ca0a58440c01c67327f3",
+      "gitBlobSha1": "d0e53c7fac767eebb699289aa2ba3543434d0099",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/ciencia/12_oxigeno.png",
+      "sha256": "f59ebf0e7a3de0e36f81d1a364daa2879539fbbb71583aabc4b458a67b7a4c9c",
+      "gitBlobSha1": "874c5dd70b46155c9fb92f765f292973004bafad",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/ciencia/13_sistema_inmunologico.png",
+      "sha256": "f371110d1ae04aa6e2fb990cc4549a4d7d6e699eb57c5afe248cbfdf510edae8",
+      "gitBlobSha1": "bd99ec0f02e23027f1fbced403fe5039eb8bafd0",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/ciencia/14_musculo_corte_transversal.png",
+      "sha256": "acc718ed4baf3f3c4e39190537261ce48d84b6941beecacfd0f7a308e39aaa40",
+      "gitBlobSha1": "e93caa764307c112c0824ed27b8dbcff99c22965",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/ciencia/15_vasos_sanguineos.png",
+      "sha256": "7a22e36a2b55b2dfbae78e58ef073decdeb1ca93ef72ab709327b8be63b3b26f",
+      "gitBlobSha1": "84dfa3c8f38c15f05977d23583e01987004d163d",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/escenarios/01_dormitorio.png",
+      "sha256": "955ceca73bbd945932984c7dd1a4b087104eec6a19a1be6d64df1d7f1ca2dba6",
+      "gitBlobSha1": "f3707b2ecee9eefd180d1bce95c2ddff8a17c92d",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "usedInEpisode": "gancho y cierre"
+    },
+    {
+      "path": "public/imagenes/escenarios/02_cocina.png",
+      "sha256": "3df8f1e71a916bb682511ef6953e3f0ac4a3bbdd0b2a00b960731fed4fc97df1",
+      "gitBlobSha1": "b492adab4f4ba091e6212986b11bb6c2beaf551f",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 941,
+        "height": 1672
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/escenarios/03_sala.png",
+      "sha256": "d203b3f86034ab07a11248553e1e50531483991bb6aa15b6c6fcafa342682d9d",
+      "gitBlobSha1": "90aaebc871dca1f145f1a0980c781d607b71b269",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 941,
+        "height": 1672
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/personajes/01_neutral.png",
+      "sha256": "e9d71d28f4e6dd744f9e5985c1e9632052c0cf5d842c6230bd23fb22dc7a8410",
+      "gitBlobSha1": "de23040c4cefd6560168c9b18c7933f1ae93f4bd",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": "microsueños y percepción"
+    },
+    {
+      "path": "public/imagenes/personajes/02_explicando.png",
+      "sha256": "54b2f8cff8b415464079e68ec83d01c3b21a5c466d74f014f3db8b99b79bd252",
+      "gitBlobSha1": "ee33d4a8f3c36befb3d30e9cceb42a71e38dabf5",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/personajes/03_senalando_derecha.png",
+      "sha256": "5a707dab13ec575a6b2b9ad3bad8dcd7959e6c4546449140b5078f0e579975a4",
+      "gitBlobSha1": "88adec9132043a44ad1c1dc9a23668b5b4468f02",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/personajes/04_pensando.png",
+      "sha256": "172b824532fe4e5987761226055a6ed893e66726d48b9133948b7b57b4d3b72d",
+      "gitBlobSha1": "d0cc7573d7fd0ed97e17babca994cf9202d92878",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/personajes/05_cansado.png",
+      "sha256": "41a64f6fcfdacaded0f26293dfae2a432016b9cd6685ee8e93531b432d52aa0a",
+      "gitBlobSha1": "8c266ddbf8a1288b6a9cab7f247c89f9f2de5c29",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": "gancho y vigilia"
+    },
+    {
+      "path": "public/imagenes/personajes/06_saludando.png",
+      "sha256": "4c0f7dc9d343a4d160d5883d80a7c157f1f823a4fe3f2ccb5be2cc9cf72fa8a9",
+      "gitBlobSha1": "ed836d27f7c4ee8d14a8b60cff798e35a2600874",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/personajes/07_senalando_izquierda.png",
+      "sha256": "d60f3ec6ffabd4db2fc476f89482d60e838a3959cc3e1133091bd5d24f7ee9ad",
+      "gitBlobSha1": "1e99238df3970879ee7913ea9f390c357c6fd6d3",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/personajes/08_senalando_arriba.png",
+      "sha256": "41207579280c87cab065a7a7054cce167ddb7e1249525caf0f76957a1bc4c097",
+      "gitBlobSha1": "fe3c4feeded18cdf31ec62d42264c9e783fe8463",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/personajes/09_senalando_abajo.png",
+      "sha256": "39298911255fa3a200fe6d4f006157705230d4c002c03857aeb8c4a453545456",
+      "gitBlobSha1": "87609ad8571c0fbc9f4caf2b6b2c4d4fa316fe8d",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/personajes/10_idea.png",
+      "sha256": "543bb8d0d52849ca8644a4a893c51a5844483d2286665440ff1532f9192009dc",
+      "gitBlobSha1": "12d5aad09218614431ab20273684babb18c1b39d",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/personajes/11_sorprendido.png",
+      "sha256": "ec4b86a029086ad45a10a67ba57076fef0ac992999913721ed4ba798602fb3d3",
+      "gitBlobSha1": "88a04ad4dcc9d593697fc0f35acbd27bc82d60a3",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/personajes/12_preocupado.png",
+      "sha256": "9d28eb2c6528975737065b937f9148995837823bea26a23f0a2afb179c182377",
+      "gitBlobSha1": "388bbee43718cd8c4706ff1d78bfcd33a5ef7b29",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/personajes/13_feliz.png",
+      "sha256": "626492d5dee9d3e360002f81c3f0027a791123913cf5581d95fea79c1fd777e9",
+      "gitBlobSha1": "55cb9c50ea8fdc1388b0b7a54bfc776609c64c5c",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/personajes/14_triste.png",
+      "sha256": "824976fd5ba79449a5c2d1dd8d09f67187c5cfdeafd1a501d2333818e4a05bf2",
+      "gitBlobSha1": "ddb37108747d49909cece7b5daf34374193d87df",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/personajes/15_confundido.png",
+      "sha256": "d70ea15fc0d47db1137b590d34e1e814001936e2a86f8e8b5c8abdada5686f63",
+      "gitBlobSha1": "979a79b19f6163e33754d12cb634fef78081089f",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": "percepción"
+    },
+    {
+      "path": "public/imagenes/personajes/16_aprobando.png",
+      "sha256": "e2f9ee4457e40be7a607fda98b0c70056c9bd37c5c8b9847b58266251cfa7682",
+      "gitBlobSha1": "7556f17a6ad6c23a6689f7fa8836622e3252c4f3",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/personajes/17_negando.png",
+      "sha256": "7d53a83d7a2adc9810e22689eddf675897c1e998253220c99fc15cf5a3e9b552",
+      "gitBlobSha1": "fb0f58c619eb075b7f883de41ed815e75c3e3558",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/personajes/18_bostezando.png",
+      "sha256": "0eb21731eaeeef7a95aa8d4693ce40922f0c3557ae7554e97437faba602ee9cf",
+      "gitBlobSha1": "6c1345efdb191d2d01968a50a3c97f89edfadfc7",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": "gancho"
+    },
+    {
+      "path": "public/imagenes/personajes/19_estirandose.png",
+      "sha256": "19a4939044b29e33cb59a58b7ab3292b4aae16bf0718af8b972fc78dc0e536be",
+      "gitBlobSha1": "f051ecc72b8d29ec503f8a879d2a068354bf1dea",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/personajes/20_respirando.png",
+      "sha256": "72546d94edcad45388c5c4a8dae7b4c59fff551cbe34069963f196c21f72f048",
+      "gitBlobSha1": "3bac81d87bb5e24833b80f257ea1f3a1b70b41ec",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/personajes/21_caminando.png",
+      "sha256": "4c4b9b6a9b0b15b92a5ac204d1a9a90ecbf3b88c9052a8da78c9cd0aba2d700b",
+      "gitBlobSha1": "905691fc558817649047cda5302650822ddb25aa",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/personajes/22_corriendo.png",
+      "sha256": "8afd899db441b5a673f3bd00916549cb1c6fdea83850eacab9273da35402709d",
+      "gitBlobSha1": "eb9877e768b662d52cb43ebc396e1160c5c866e3",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/personajes/23_durmiendo.png",
+      "sha256": "da936acb7e06363a4ff2b1d1e7d7772c9683394c65d31181c0f356a4d18b50c5",
+      "gitBlobSha1": "4afee9ca4dad625bcf7acc58740d3e99d33173ce",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/personajes/24_anatomia_cerebro.png",
+      "sha256": "32cfb294cf5344b5a874e6166b15b20039649eadb965f8d455d07905ecac813d",
+      "gitBlobSha1": "1ebfb25ce3b34b25645bb87a115106b487bbf12a",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/personajes/25_anatomia_corazon.png",
+      "sha256": "68a9a6de4cf6df4d175b7002a219c6f0cea328538276a30462a1db2d51d2ead3",
+      "gitBlobSha1": "aba2110c9193bffb7bd62da261c4748096060b01",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/personajes/26_levantando_brazos.png",
+      "sha256": "29407e42da275a63c7f13516e5b6fa344a4bd52938d08793b1f3abb2f16f88a1",
+      "gitBlobSha1": "51f7462eaa8e17246aad2603f42ef6d50a532775",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/personajes/27_sentado.png",
+      "sha256": "48d2cd0950ffc8beadef319db7816d0d129ffdf39953ca92cf1edd31f3e31a3e",
+      "gitBlobSha1": "12c4a4246b4f2739a96ad7b8807946b14f414ecd",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/personajes/28_comiendo.png",
+      "sha256": "c91b18b162f71ae4eb9496468aa5998dca435aee27360455233c85eec51152dd",
+      "gitBlobSha1": "985b97170f3cd83538c56ef261158565de265f92",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/personajes/29_dolor_cabeza.png",
+      "sha256": "e976cb70771566a44adb10c1495f8127ec82978a18096493bd271d64fb0856dd",
+      "gitBlobSha1": "3f7c742902e64e701d03856572d5649a4e22a7eb",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": null
+    },
+    {
+      "path": "public/imagenes/personajes/30_sistema_digestivo.png",
+      "sha256": "2ee078806d6297a818efa768add0b876ad87ef2601aa7ccabd2092b57c1ebc05",
+      "gitBlobSha1": "cd668803d28488d9586d0bdb95ab75528754cfbe",
+      "matchesBaseCommit": true,
+      "dimensions": {
+        "width": 1024,
+        "height": 1536
+      },
+      "usedInEpisode": null
+    }
+  ]
+}

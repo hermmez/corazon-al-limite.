@@ -1,4 +1,5 @@
 import { Episodio02Tiempo } from "./episodios/episodio-02-tiempo";
+import { Episodio04SinDormir } from "./episodios/episodio-04-sin-dormir";
 import React from "react";
 import { Episodio01Cerebro as Episodio01CerebroAprobado } from "./episodios/episodio-01-cerebro";
 import { Episodio01Cerebro125 } from "./episodios/episodio-01-cerebro-125";
@@ -19,6 +20,7 @@ export const RemotionRoot: React.FC = () => {
   return (
     <>
       <Composition id="Episodio02Tiempo" component={Episodio02Tiempo} durationInFrames={2100} fps={30} width={1080} height={1920} />
+      <Composition id="Episodio04SinDormir" component={Episodio04SinDormir} durationInFrames={2100} fps={30} width={1080} height={1920} />
       <Composition id="Episodio01Cerebro" component={paceTimeline.audioReady ? Episodio01Cerebro125 : Episodio01CerebroAprobado} durationInFrames={2100} fps={30} width={1080} height={1920} />
       <Composition id="Episodio01Cerebro125" component={Episodio01Cerebro125} durationInFrames={2100} fps={30} width={1080} height={1920} />
       <Composition id="Episodio01CerebroAprobado" component={Episodio01CerebroAprobado} durationInFrames={2100} fps={30} width={1080} height={1920} />

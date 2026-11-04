@@ -2,6 +2,12 @@
 
 Aplicar a episodios futuros y a revisiones. Respetar siempre el encargo concreto del usuario.
 
+- **Estándar visual vigente: animación 100 % 2D, sin recursos 3D.** Aplicar [el estándar visual completo](docs/ESTANDAR_VISUAL_2D.md). Esta regla sustituye cualquier permiso anterior de usar 3D mínimo.
+- Las ilustraciones principales deben ser completas, reconocibles y consistentes con los personajes, paleta, proporciones, expresiones, contornos y detalle de los recursos aprobados. No reemplazar cerebro, persona, cama, automóvil, oficina o procesos biológicos por círculos, líneas, siluetas vacías o figuras genéricas. Flechas, líneas y gráficos solo complementan ilustraciones.
+- Antes de generar, auditar la biblioteca, identificar el recurso exacto que falta, inspeccionar referencias aprobadas y guardar el prompt. Generar únicamente ese recurso con una herramienta autorizada; verificar estilo, resolución y alpha real antes de integrarlo. No usar collages para entregar recursos individuales ni gastar créditos externos sin autorización.
+- Guardar recursos nuevos en una carpeta propia del episodio (episodio 04: `public/episodio-04/ilustraciones/`), con nombres descriptivos, separados de los originales. Personajes y objetos independientes: PNG con transparencia real. Separar fondos y partes móviles cuando ayude a animar; conservar referencias, prompts y hashes.
+- Construir escenas animadas con personajes expresivos, objetos con desplazamiento natural, capas, elementos de entorno, perspectiva simulada en 2D y transiciones ligadas a la explicación. Si faltan piezas móviles, preparar o solicitar esas piezas; no resolverlas con ilustraciones genéricas.
+
 - Inspeccionar composiciones, guion, imágenes y narración reales antes de editar. Conservar las versiones aprobadas y verificar SHA-256 de los 68 PNG. No modificar las ilustraciones ni sustituir la identidad oficial.
 - Episodios de 70 s: **1080 × 1920, 30 FPS, 2100 fotogramas exactos**. Nunca cambiar la duración para resolver ritmo o problemas de voz.
 - Referencia de ritmo: episodio aprobado reproducido a **1.25×**. La nueva versión a **1.0×** debe aplicar ese ritmo a narración, animación, cámara, transiciones, subtítulos, edición, música y efectos. No acelerar globalmente el MP4 como solución de producción.
