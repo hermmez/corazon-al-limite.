@@ -234,7 +234,7 @@
         "width": 1254,
         "height": 1254
       },
-      "usedInEpisode": null
+      "usedInEpisode": "entorno anatómico por capas"
     },
     {
       "path": "public/imagenes/ciencia/02_sinapsis_neuronal.png",
@@ -399,7 +399,7 @@
         "width": 1254,
         "height": 1254
       },
-      "usedInEpisode": "gancho y cierre"
+      "usedInEpisode": "referencia visual para recursos nuevos"
     },
     {
       "path": "public/imagenes/escenarios/02_cocina.png",
@@ -410,7 +410,7 @@
         "width": 941,
         "height": 1672
       },
-      "usedInEpisode": null
+      "usedInEpisode": "escenario de cafeína a cuadro completo"
     },
     {
       "path": "public/imagenes/escenarios/03_sala.png",

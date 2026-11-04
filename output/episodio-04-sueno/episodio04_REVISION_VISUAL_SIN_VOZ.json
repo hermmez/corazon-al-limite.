@@ -12,12 +12,12 @@
   "colorSpace": "bt709",
   "faststart": true,
   "fullDecode": true,
+  "frameTimestampsChecked": 2100,
+  "constantFpsVerified": true,
   "audioTracks": 0,
   "voiceApproved": false,
   "captionsAligned": false,
   "paidGenerations": 0,
   "pngPipeSingleEncode": true,
-  "sha256": "9d3ee433ccb516b3fafa9834f6c600f2afa0db46242365550e4823382de9ad28",
-  "frameTimestampsChecked": 2100,
-  "constantFpsVerified": true
+  "sha256": "7878112a411e1488ef4fb1767eae34ff9429ce078358320e2e00e92728f6f2a1"
 }

@@ -13,7 +13,14 @@
   "voiceProfile": {
     "profile": "CORAZON_CINEMATIC_MX",
     "approvalStatus": "alejandro-selected-awaiting-priced-audition",
-    "selectedAuditionVoice": {"provider": "ElevenLabs", "voiceId": "YKUjKbMlejgvkOZlnnvt", "voiceName": "Alejandro Ballesteros - Warm and Joyful", "locale": "es-MX", "generationAuthorized": false, "performanceApprovedForProduction": false},
+    "selectedAuditionVoice": {
+      "provider": "ElevenLabs",
+      "voiceId": "YKUjKbMlejgvkOZlnnvt",
+      "voiceName": "Alejandro Ballesteros - Warm and Joyful",
+      "locale": "es-MX",
+      "generationAuthorized": false,
+      "performanceApprovedForProduction": false
+    },
     "officialVoice": null,
     "audition": "output/episodio-04-sueno/audicion_C2_local_provisional.wav",
     "localAudition": {
@@ -28,7 +35,6 @@
   },
   "visualTiming": "editorial-only; regenerate from actual approved narration before final export",
   "visualAssets": [
-    "imagenes/escenarios/01_dormitorio.png",
     "imagenes/personajes/01_neutral.png",
     "imagenes/personajes/05_cansado.png",
     "imagenes/personajes/04_pensando.png",
@@ -41,7 +47,11 @@
     "episodio-04/ilustraciones/automovil-teal-vista-trasera.png",
     "episodio-04/ilustraciones/carretera-nocturna-sin-vehiculo.png",
     "episodio-04/ilustraciones/taza-cafe-con-plato.png",
-    "episodio-04/ilustraciones/personaje-descansando-en-cama.png"
+    "episodio-04/ilustraciones/personaje-descansando-en-cama.png",
+    "imagenes/escenarios/02_cocina.png",
+    "imagenes/ciencia/01_neurona.png",
+    "episodio-04/ilustraciones/dormitorio-nocturno-panoramico.png",
+    "episodio-04/ilustraciones/cama-vacia.png"
   ],
   "output": {
     "container": "mp4",
@@ -54,5 +64,12 @@
     "audioBitrate": 192000,
     "faststart": true,
     "colorSpace": "bt709"
+  },
+  "layout": {
+    "canvas": "full-bleed-1080x1920",
+    "brandHeading": false,
+    "footerLegend": false,
+    "progressBar": false,
+    "sceneSource": "scenes/"
   }
 }

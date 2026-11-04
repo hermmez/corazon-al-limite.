@@ -41,7 +41,7 @@
     "end": 35,
     "text": "Imagina que vas manejando. Un lapso sin responder puede hacerte perder información clave. Por eso conducir con sueño es tan arriesgado.",
     "cues": ["manejando", "lapso", "perder información", "con sueño"],
-    "actions": ["La carretera avanza hacia el espectador", "La percepción del conductor se estrecha", "Un lapso deja un hueco en la señal", "La advertencia aparece sin mostrar un choque"]
+    "actions": ["La carretera llena el cuadro vertical", "Las marcas de carril avanzan bajo el automóvil", "El automóvil se desvía y recupera su trayectoria", "La advertencia aparece sin mostrar un choque"]
   },
   {
     "id": 4,
@@ -52,7 +52,7 @@
     "end": 44,
     "text": "La falta de sueño también puede afectar tu memoria, tus decisiones y cómo regulas tus emociones. Los efectos varían de una persona a otra.",
     "cues": ["memoria", "decisiones", "emociones", "varían"],
-    "actions": ["El cerebro abre la escena", "Memoria se ilumina", "Decisiones toma el foco", "Emociones aparece con la nota de variabilidad"]
+    "actions": ["El cerebro aparece en un entorno neuronal completo", "Un personaje pensativo acompaña memoria", "Un personaje confundido acompaña decisiones", "Un personaje preocupado acompaña emociones y se explica la variabilidad"]
   },
   {
     "id": 5,
@@ -63,18 +63,18 @@
     "end": 53,
     "text": "El café puede ayudarte a sentir más alerta por un rato. Pero no te da el descanso ni la capacidad de decidir que aporta dormir.",
     "cues": ["café", "más alerta", "por un rato", "no te da", "dormir"],
-    "actions": ["La taza ilustrada entra y se asienta", "El cerebro aprobado aparece en paralelo", "Una flecha complementa la alerta temporal", "La necesidad de dormir permanece"]
+    "actions": ["La cocina ocupa el cuadro completo", "La taza entra y el vapor acompaña la alerta temporal", "El cerebro aparece como capa independiente", "El dormitorio y la cama reemplazan el entorno al explicar el descanso"]
   },
   {
     "id": 6,
     "title": "Sentirte despierto no mide tu rendimiento",
-    "titleLines": ["¿TE SIENTES BIEN?", "MIDE TU RESPUESTA"],
+    "titleLines": ["¿TE SIENTES BIEN?", "TU ATENCIÓN PUEDE CAMBIAR"],
     "kicker": "PERCEPCIÓN Y DESEMPEÑO",
     "start": 53,
     "end": 62,
     "text": "Y aunque creas que estás funcionando bien, tu atención puede haber cambiado. Sentirte despierto no garantiza que rindas igual.",
     "cues": ["creas", "funcionando bien", "atención", "no garantiza", "rindas igual"],
-    "actions": ["La percepción subjetiva ocupa el lado izquierdo", "Aparece una prueba objetiva en paralelo", "El tiempo de respuesta se alarga", "La pantalla separa sensación de medición"]
+    "actions": ["El personaje aparece en el dormitorio completo", "El cerebro acompaña la percepción subjetiva", "La expresión cambia de neutral a confundida y preocupada", "Se explica la posible alteración de atención sin simular una medición"]
   },
   {
     "id": 7,

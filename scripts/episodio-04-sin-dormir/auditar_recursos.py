@@ -13,13 +13,16 @@ EPISODE = ROOT / "src/episodios/episodio-04-sin-dormir"
 OUT = ROOT / "output/episodio-04-sueno"
 NEW = ROOT / "public/episodio-04/ilustraciones"
 SPECS = [
-    ("automovil-teal-vista-trasera.png", (1358, 1159), (590, 504), True),
-    ("carretera-nocturna-sin-vehiculo.png", (941, 1672), (900, 1600), False),
-    ("taza-cafe-con-plato.png", (1254, 1254), (560, 560), True),
-    ("personaje-descansando-en-cama.png", (1536, 1024), (1000, 667), True),
+    ("automovil-teal-vista-trasera.png", (1358, 1159), (820, 700), True, 1),
+    ("carretera-nocturna-sin-vehiculo.png", (941, 1672), (1080, 1920), False, 1.15),
+    ("taza-cafe-con-plato.png", (1254, 1254), (800, 800), True, 1),
+    ("personaje-descansando-en-cama.png", (1536, 1024), (1200, 800), True, 1),
+    ("dormitorio-nocturno-panoramico.png", (1054, 1492), (1080, 1920), False, 1.30),
+    ("cama-vacia.png", (1536, 1024), (1100, 734), True, 1),
 ]
 USED = [
     "imagenes/escenarios/01_dormitorio.png",
+    "imagenes/escenarios/02_cocina.png",
     "imagenes/personajes/01_neutral.png",
     "imagenes/personajes/05_cansado.png",
     "imagenes/personajes/04_pensando.png",
@@ -29,6 +32,7 @@ USED = [
     "imagenes/personajes/18_bostezando.png",
     "imagenes/anatomia/01_cerebro_completo.png",
     "imagenes/ciencia/02_sinapsis_neuronal.png",
+    "imagenes/ciencia/01_neurona.png",
 ]
 
 
@@ -39,12 +43,13 @@ def main() -> None:
         assert hashlib.sha256((ROOT / item["path"]).read_bytes()).hexdigest() == item["sha256"], item["path"]
 
     assets = []
-    for name, expected_size, render_size, transparent in SPECS:
+    for name, expected_size, render_size, transparent, max_scale in SPECS:
         path = NEW / name
         with Image.open(path) as image:
             assert image.format == "PNG", name
             assert image.size == expected_size, (name, image.size)
-            assert all(render <= native for render, native in zip(render_size, image.size)), name
+            scale = max(render / native for render, native in zip(render_size, image.size))
+            assert scale <= max_scale, (name, scale, max_scale)
             alpha = image.getchannel("A").getextrema() if "A" in image.getbands() else None
             if transparent:
                 assert image.mode == "RGBA" and alpha[0] == 0 and alpha[1] >= 254, (name, alpha)
@@ -57,10 +62,12 @@ def main() -> None:
                 "transparentBackgroundRequired": transparent,
                 "maxRenderWidth": render_size[0],
                 "maxRenderHeight": render_size[1],
+                "coverScale": round(scale, 4),
+                "maxAllowedScale": max_scale,
                 "sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
                 "generator": "built-in-imagegen",
                 "styleReference": "public/imagenes/escenarios/01_dormitorio.png",
-                "promptFile": "src/episodios/episodio-04-sin-dormir/PROMPTS_ILUSTRACIONES.md",
+                "promptFile": "src/episodios/episodio-04-sin-dormir/" + ("PROMPTS_PANORAMA.md" if name in {"dormitorio-nocturno-panoramico.png", "cama-vacia.png"} else "PROMPTS_ILUSTRACIONES.md"),
             }
             assets.append(record)
 

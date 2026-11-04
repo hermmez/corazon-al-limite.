@@ -18,12 +18,16 @@ Las ilustraciones protagonistas deben ser completas y reconocibles: cerebro anat
 6. Revisar visualmente consistencia, resolución y transparencia. Un PNG no prueba por sí solo que exista alpha: verificarlo.
 7. Copiar el resultado seleccionado a la carpeta del episodio e integrarlo mediante `staticFile()`. Registrar prompt, referencias, dimensiones, alpha y hash.
 
-Para episodio 04 usar `public/episodio-04/ilustraciones/`. Fondos, objetos, personajes y piezas móviles se guardan por separado cuando facilita la animación. Usar nombres descriptivos. Los objetos y personajes independientes requieren PNG con transparencia real, sin un fondo simulado. Mostrar cada recurso dentro de su resolución nativa; si no cubre su encuadre final, preparar uno adecuado antes de exportar.
+Para episodio 04 usar `public/episodio-04/ilustraciones/`. Fondos, objetos, personajes y piezas móviles se guardan por separado cuando facilita la animación. Usar nombres descriptivos. Los objetos y personajes independientes requieren PNG con transparencia real, sin un fondo simulado. Mantener los protagonistas dentro de su resolución nativa. Los fondos deben cubrir el cuadro completo conservando proporción y nitidez; registrar resolución, escala de cobertura y revisión en el encuadre final. No introducir márgenes vacíos para compensar un fondo insuficiente.
 
 ## Escenas y movimiento
 
 Planificar gestos y reacciones del personaje, desplazamientos naturales de objetos, elementos animados del escenario, capas, cambios de perspectiva simulados en 2D y transiciones entre entornos. Cada cambio debe acompañar una idea de la narración. La respiración, un zoom o partículas no bastan para convertir un plano estático en una escena elaborada. Solicitar piezas separadas cuando una acción requiera articulación real.
 
 ## Revisión de entrega
+
+La franja inferior debe quedar sin leyendas de pie ni barras de progreso. Indicar el estado de una previsualización en su nombre de archivo y reporte, sin sobreimprimirlo en el video.
+
+No incluir el rótulo de marca «Corazón al Límite» arriba. Usar todo el formato 1080 × 1920, con panorama y escenarios hasta los bordes, como la carretera en movimiento. Evitar tarjetas flotantes, márgenes oscuros amplios y la apariencia de una presentación. Los títulos narrativos se integran en la escena; los fondos, objetos y personajes forman capas de una producción 2D.
 
 Comprobar identidad en el encuadre final, nitidez a 1080 × 1920, alpha y bordes sobre fondos claros y oscuros, continuidad de perspectiva y contacto entre personaje y mobiliario. Revisar movimiento y legibilidad en reproducción, no solo en miniaturas. Conservar el estado pendiente de cualquier recurso o sincronización sin validar. Priorizar calidad visual y narrativa cuando la biblioteca sea insuficiente.
