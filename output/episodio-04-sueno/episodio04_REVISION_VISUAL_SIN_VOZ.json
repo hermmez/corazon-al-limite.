@@ -17,5 +17,7 @@
   "captionsAligned": false,
   "paidGenerations": 0,
   "pngPipeSingleEncode": true,
-  "sha256": "9d3ee433ccb516b3fafa9834f6c600f2afa0db46242365550e4823382de9ad28"
+  "sha256": "9d3ee433ccb516b3fafa9834f6c600f2afa0db46242365550e4823382de9ad28",
+  "frameTimestampsChecked": 2100,
+  "constantFpsVerified": true
 }

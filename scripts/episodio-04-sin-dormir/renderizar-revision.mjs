@@ -50,6 +50,9 @@ try {
   const video = probe.streams.find((s) => s.codec_type === "video");
   assert.deepEqual([video.width, video.height, video.r_frame_rate, video.nb_frames, video.pix_fmt, video.profile], [1080, 1920, "30/1", String(count), "yuv420p", "High"]);
   assert.equal(Number(probe.format.duration), count / 30);
+  const timestamps = JSON.parse(execFileSync(ffprobe, ["-v", "error", "-select_streams", "v:0", "-show_frames", "-show_entries", "frame=best_effort_timestamp_time", "-of", "json", target], {encoding: "utf8", windowsHide: true, maxBuffer: 4 * 1024 * 1024})).frames;
+  assert.equal(timestamps.length, count);
+  assert.ok(timestamps.every((f, i) => Math.abs(Number(f.best_effort_timestamp_time) - i / 30) < 0.00001), "Los tiempos de presentación deben conservar 30 FPS constantes");
   assert.equal(video.color_space, "bt709");
   assert.equal(probe.streams.filter((s) => s.codec_type === "audio").length, 0);
   execFileSync(ffmpeg, ["-v", "error", "-xerror", "-i", target, "-f", "null", "-"], {windowsHide: true});
@@ -64,7 +67,7 @@ try {
   }
   const faststart = atoms.find((a) => a.type === "moov").offset < atoms.find((a) => a.type === "mdat").offset;
   assert.ok(faststart);
-  const report = {status: "passed-visual-only", file: path.basename(target), width: video.width, height: video.height, fps: video.r_frame_rate, frames: Number(video.nb_frames), duration: Number(probe.format.duration), codec: video.codec_name, profile: video.profile, pixelFormat: video.pix_fmt, colorSpace: video.color_space, faststart, fullDecode: true, audioTracks: 0, voiceApproved: false, captionsAligned: false, paidGenerations: 0, pngPipeSingleEncode: true, sha256: createHash("sha256").update(bytes).digest("hex")};
+  const report = {status: "passed-visual-only", file: path.basename(target), width: video.width, height: video.height, fps: video.r_frame_rate, frames: Number(video.nb_frames), duration: Number(probe.format.duration), codec: video.codec_name, profile: video.profile, pixelFormat: video.pix_fmt, colorSpace: video.color_space, faststart, fullDecode: true, frameTimestampsChecked: timestamps.length, constantFpsVerified: true, audioTracks: 0, voiceApproved: false, captionsAligned: false, paidGenerations: 0, pngPipeSingleEncode: true, sha256: createHash("sha256").update(bytes).digest("hex")};
   fs.writeFileSync(target.replace(/\.mp4$/, ".json"), JSON.stringify(report, null, 2) + "\n");
   console.log(JSON.stringify(report));
 } finally {

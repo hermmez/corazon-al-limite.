@@ -24,3 +24,9 @@ Texto: «¿Veinticuatro horas sin dormir? Tu cuerpo no simplemente se cansa… t
 Dirección: hombre de 28–38 años percibidos; español mexicano natural; tono medio-grave cálido; ritmo rápido y claro; curiosidad en la pregunta y tensión en la revelación; evitar noticiero, voz engolada y pausas mecánicas. Revisar la muestra en español, sin música ni efectos que oculten defectos.
 
 Antes de pedir una generación de pago, confirmar acceso al proveedor y cotizar la configuración exacta. Después de autorizar el costo, generar una sola audición breve y aprobar su interpretación antes de producir o alinear el episodio completo. La voz Arturo que ya consta en la configuración se conserva como referencia histórica; no es la voz C2 aprobada.
+
+## Resultado de la consulta de acceso
+
+La integración del repositorio ejecutó únicamente consultas GET mediante el secreto configurado `ELEVENLABS_API_KEY`. ElevenLabs respondió HTTP 401; la cotización no pudo completarse. No hubo generación de audio ni consumo de créditos de síntesis. Evidencia: [ejecución de consulta](https://github.com/hermmez/corazon-al-limite./actions/runs/41928935538) y `output/episodio-04-sueno/cotizacion-alejandro.json`.
+
+Se necesita restablecer esa credencial en los secretos de Actions del repositorio. Con acceso válido, volver a consultar voz, modelos y factores de costo antes de pedir autorización de generación. No volver a solicitar la elección de voz: el usuario ya eligió Alejandro Ballesteros.
