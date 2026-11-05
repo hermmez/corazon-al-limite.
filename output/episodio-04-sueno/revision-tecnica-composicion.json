@@ -16,8 +16,19 @@
     1990
   ],
   "typecheck": "passed",
-  "finalVideoExported": false,
-  "finalAudioValidated": false,
-  "captionAlignmentValidated": false,
-  "status": "visual-review-awaiting-voice"
+  "finalVideoExported": true,
+  "finalAudioValidated": true,
+  "captionAlignmentValidated": true,
+  "status": "final-grady-verified",
+  "finalFile": "episodio04_FINAL_GRADY.mp4",
+  "finalInspectionFrames": [
+    60,
+    360,
+    600,
+    990,
+    1250,
+    1450,
+    1750,
+    2060
+  ]
 }

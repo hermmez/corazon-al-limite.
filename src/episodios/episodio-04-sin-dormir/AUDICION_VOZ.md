@@ -1,5 +1,7 @@
 # Audición de voz · CORAZON_CINEMATIC_MX
 
+**Historial sustituido:** la instrucción vigente aprueba Grady mediante Higgsfield / `elevenlabs_v4`, preset `e2a2d2e6-9ed2-59cd-82af-feaa27f8a678`. No utilizar la API directa de ElevenLabs para este episodio. Consultar `production.json` y `public/episodio-04/audio/narracion-grady.json`; el contenido siguiente conserva únicamente las decisiones anteriores.
+
 **Estado: muestra local rechazada por el usuario por sonar robótica.** No usar Piper como toma definitiva. La composición no cambia la voz oficial ni contiene una generación comercial. Consultar `VOCES_ESPANOL_MX.md` para las candidatas del catálogo mexicano y sus muestras existentes.
 
 El usuario eligió Alejandro Ballesteros (`YKUjKbMlejgvkOZlnnvt`) para la nueva audición C2 en español mexicano. La selección de voz está resuelta; siguen pendientes el costo de generación y la validación de su actuación con el guion.

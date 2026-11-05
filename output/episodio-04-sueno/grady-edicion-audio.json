@@ -1,0 +1,1702 @@
+{
+  "source": "public\\episodio-04\\audio\\narracion_grady_original.mp3",
+  "sourceSha256": "2283d19dd817c4c4c9fc5343864cf0ad7b7171f4834abbea57e9be947724e82d",
+  "sourceSampleCount": 3569790,
+  "sampleRate": 48000,
+  "targetSampleCount": 3360000,
+  "duration": 70,
+  "tempo": 1,
+  "pitchChanged": false,
+  "speechWordsRemoved": 0,
+  "cuts": [
+    {
+      "sourceStartSample": 130720,
+      "sourceEndSample": 142817,
+      "removedSamples": 12097,
+      "removedPeakDbfs": -80.613,
+      "retainedPauseSeconds": 0.268183
+    },
+    {
+      "sourceStartSample": 251599,
+      "sourceEndSample": 252678,
+      "removedSamples": 1079,
+      "removedPeakDbfs": -83.454,
+      "retainedPauseSeconds": 0.251625
+    },
+    {
+      "sourceStartSample": 461054,
+      "sourceEndSample": 475965,
+      "removedSamples": 14911,
+      "removedPeakDbfs": -80.309,
+      "retainedPauseSeconds": 0.272415
+    },
+    {
+      "sourceStartSample": 648382,
+      "sourceEndSample": 655752,
+      "removedSamples": 7370,
+      "removedPeakDbfs": -80.608,
+      "retainedPauseSeconds": 0.261084
+    },
+    {
+      "sourceStartSample": 881246,
+      "sourceEndSample": 890383,
+      "removedSamples": 9137,
+      "removedPeakDbfs": -80.853,
+      "retainedPauseSeconds": 0.26375
+    },
+    {
+      "sourceStartSample": 974683,
+      "sourceEndSample": 984266,
+      "removedSamples": 9583,
+      "removedPeakDbfs": -80.576,
+      "retainedPauseSeconds": 0.264413
+    },
+    {
+      "sourceStartSample": 1095292,
+      "sourceEndSample": 1101832,
+      "removedSamples": 6540,
+      "removedPeakDbfs": -80.523,
+      "retainedPauseSeconds": 0.259827
+    },
+    {
+      "sourceStartSample": 1266564,
+      "sourceEndSample": 1266904,
+      "removedSamples": 340,
+      "removedPeakDbfs": -83.226,
+      "retainedPauseSeconds": 0.250491
+    },
+    {
+      "sourceStartSample": 1366431,
+      "sourceEndSample": 1379276,
+      "removedSamples": 12845,
+      "removedPeakDbfs": -80.48,
+      "retainedPauseSeconds": 0.269312
+    },
+    {
+      "sourceStartSample": 1494146,
+      "sourceEndSample": 1500351,
+      "removedSamples": 6205,
+      "removedPeakDbfs": -82.827,
+      "retainedPauseSeconds": 0.259323
+    },
+    {
+      "sourceStartSample": 1576052,
+      "sourceEndSample": 1583658,
+      "removedSamples": 7606,
+      "removedPeakDbfs": -80.824,
+      "retainedPauseSeconds": 0.261429
+    },
+    {
+      "sourceStartSample": 1761017,
+      "sourceEndSample": 1769007,
+      "removedSamples": 7990,
+      "removedPeakDbfs": -81.085,
+      "retainedPauseSeconds": 0.262023
+    },
+    {
+      "sourceStartSample": 1911773,
+      "sourceEndSample": 1928543,
+      "removedSamples": 16770,
+      "removedPeakDbfs": -80.424,
+      "retainedPauseSeconds": 0.275205
+    },
+    {
+      "sourceStartSample": 2221320,
+      "sourceEndSample": 2228859,
+      "removedSamples": 7539,
+      "removedPeakDbfs": -80.47,
+      "retainedPauseSeconds": 0.261327
+    },
+    {
+      "sourceStartSample": 2346907,
+      "sourceEndSample": 2360440,
+      "removedSamples": 13533,
+      "removedPeakDbfs": -80.623,
+      "retainedPauseSeconds": 0.270352
+    },
+    {
+      "sourceStartSample": 2518478,
+      "sourceEndSample": 2525785,
+      "removedSamples": 7307,
+      "removedPeakDbfs": -81.079,
+      "retainedPauseSeconds": 0.260968
+    },
+    {
+      "sourceStartSample": 2735173,
+      "sourceEndSample": 2748155,
+      "removedSamples": 12982,
+      "removedPeakDbfs": -80.514,
+      "retainedPauseSeconds": 0.269519
+    },
+    {
+      "sourceStartSample": 2852248,
+      "sourceEndSample": 2852526,
+      "removedSamples": 278,
+      "removedPeakDbfs": -82.643,
+      "retainedPauseSeconds": 0.250421
+    },
+    {
+      "sourceStartSample": 2948813,
+      "sourceEndSample": 2957331,
+      "removedSamples": 8518,
+      "removedPeakDbfs": -80.943,
+      "retainedPauseSeconds": 0.262814
+    },
+    {
+      "sourceStartSample": 3110992,
+      "sourceEndSample": 3124605,
+      "removedSamples": 13613,
+      "removedPeakDbfs": -80.707,
+      "retainedPauseSeconds": 0.270478
+    },
+    {
+      "sourceStartSample": 3236017,
+      "sourceEndSample": 3239781,
+      "removedSamples": 3764,
+      "removedPeakDbfs": -81.452,
+      "retainedPauseSeconds": 0.255665
+    },
+    {
+      "sourceStartSample": 3333494,
+      "sourceEndSample": 3342234,
+      "removedSamples": 8740,
+      "removedPeakDbfs": -80.381,
+      "retainedPauseSeconds": 0.263155
+    },
+    {
+      "sourceStartSample": 3395322,
+      "sourceEndSample": 3395713,
+      "removedSamples": 391,
+      "removedPeakDbfs": -83.397,
+      "retainedPauseSeconds": 0.250584
+    },
+    {
+      "sourceStartSample": 3451358,
+      "sourceEndSample": 3471489,
+      "removedSamples": 20131,
+      "removedPeakDbfs": -80.405,
+      "retainedPauseSeconds": 0.280264
+    },
+    {
+      "sourceStartSample": 3563250,
+      "sourceEndSample": 3563771,
+      "removedSamples": 521,
+      "removedPeakDbfs": -82.294,
+      "retainedPauseSeconds": 0.250801
+    }
+  ],
+  "removedSilenceSeconds": 4.370625,
+  "minimumRetainedPauseSeconds": 0.250421,
+  "transcriptionWords": 186,
+  "wordCorrections": [
+    {
+      "word": "No",
+      "oldStart": 28.26,
+      "newStart": 28.829569,
+      "reason": "sentence-initial word spans measured silent gap"
+    }
+  ],
+  "normalization": {
+    "input_i": "-19.73",
+    "input_tp": "-2.26",
+    "input_lra": "3.30",
+    "input_thresh": "-30.14",
+    "output_i": "-16.10",
+    "output_tp": "-2.00",
+    "output_lra": "2.50",
+    "output_thresh": "-26.45",
+    "normalization_type": "dynamic",
+    "target_offset": "0.10"
+  },
+  "outputSha256": "1db1d45c2aad24c1203348f85b01e1386b5f6109e300853dc0636c608782e1c4",
+  "words": [
+    {
+      "word": "¿Qué",
+      "sourceStart": 0.0,
+      "sourceEnd": 0.16,
+      "start": 0.0,
+      "end": 0.16,
+      "probability": 0.8262800574302673
+    },
+    {
+      "word": "pasa",
+      "sourceStart": 0.16,
+      "sourceEnd": 0.4,
+      "start": 0.16,
+      "end": 0.4,
+      "probability": 0.99785977602005
+    },
+    {
+      "word": "después",
+      "sourceStart": 0.4,
+      "sourceEnd": 0.82,
+      "start": 0.4,
+      "end": 0.82,
+      "probability": 0.9967613816261292
+    },
+    {
+      "word": "de",
+      "sourceStart": 0.82,
+      "sourceEnd": 0.98,
+      "start": 0.82,
+      "end": 0.98,
+      "probability": 0.9936829805374146
+    },
+    {
+      "word": "veinticuatro",
+      "sourceStart": 0.98,
+      "sourceEnd": 1.48,
+      "start": 0.98,
+      "end": 1.48,
+      "probability": 0.9750670194625854
+    },
+    {
+      "word": "horas",
+      "sourceStart": 1.48,
+      "sourceEnd": 1.86,
+      "start": 1.48,
+      "end": 1.86,
+      "probability": 0.9919093251228333
+    },
+    {
+      "word": "sin",
+      "sourceStart": 1.86,
+      "sourceEnd": 2.12,
+      "start": 1.86,
+      "end": 2.12,
+      "probability": 0.9978098273277283
+    },
+    {
+      "word": "dormir?",
+      "sourceStart": 2.12,
+      "sourceEnd": 2.36,
+      "start": 2.12,
+      "end": 2.36,
+      "probability": 0.9987712502479553
+    },
+    {
+      "word": "No",
+      "sourceStart": 3.02,
+      "sourceEnd": 3.26,
+      "start": 2.7679791666666667,
+      "end": 3.007979166666667,
+      "probability": 0.98685222864151
+    },
+    {
+      "word": "hay",
+      "sourceStart": 3.26,
+      "sourceEnd": 3.4,
+      "start": 3.007979166666667,
+      "end": 3.1479791666666666,
+      "probability": 0.9984318614006042
+    },
+    {
+      "word": "un",
+      "sourceStart": 3.4,
+      "sourceEnd": 3.52,
+      "start": 3.1479791666666666,
+      "end": 3.2679791666666667,
+      "probability": 0.9969289898872375
+    },
+    {
+      "word": "reloj",
+      "sourceStart": 3.52,
+      "sourceEnd": 3.82,
+      "start": 3.2679791666666667,
+      "end": 3.5679791666666665,
+      "probability": 0.9656964143117269
+    },
+    {
+      "word": "idéntico",
+      "sourceStart": 3.82,
+      "sourceEnd": 4.28,
+      "start": 3.5679791666666665,
+      "end": 4.027979166666666,
+      "probability": 0.9924859801928202
+    },
+    {
+      "word": "para",
+      "sourceStart": 4.28,
+      "sourceEnd": 4.5,
+      "start": 4.027979166666666,
+      "end": 4.247979166666667,
+      "probability": 0.9933133721351624
+    },
+    {
+      "word": "todos,",
+      "sourceStart": 4.5,
+      "sourceEnd": 4.82,
+      "start": 4.247979166666667,
+      "end": 4.5679791666666665,
+      "probability": 0.9971252083778381
+    },
+    {
+      "word": "pero",
+      "sourceStart": 5.22,
+      "sourceEnd": 5.5,
+      "start": 4.967979166666667,
+      "end": 5.2255,
+      "probability": 0.994330644607544
+    },
+    {
+      "word": "la",
+      "sourceStart": 5.5,
+      "sourceEnd": 5.66,
+      "start": 5.2255,
+      "end": 5.3855,
+      "probability": 0.9965375661849976
+    },
+    {
+      "word": "falta",
+      "sourceStart": 5.66,
+      "sourceEnd": 5.94,
+      "start": 5.3855,
+      "end": 5.6655,
+      "probability": 0.9981775283813477
+    },
+    {
+      "word": "de",
+      "sourceStart": 5.94,
+      "sourceEnd": 6.14,
+      "start": 5.6655,
+      "end": 5.8655,
+      "probability": 0.9960771203041077
+    },
+    {
+      "word": "sueño",
+      "sourceStart": 6.14,
+      "sourceEnd": 6.52,
+      "start": 5.8655,
+      "end": 6.2455,
+      "probability": 0.9979380071163177
+    },
+    {
+      "word": "puede",
+      "sourceStart": 6.52,
+      "sourceEnd": 6.88,
+      "start": 6.2455,
+      "end": 6.6055,
+      "probability": 0.9792601466178894
+    },
+    {
+      "word": "empezar",
+      "sourceStart": 6.88,
+      "sourceEnd": 7.32,
+      "start": 6.6055,
+      "end": 7.0455,
+      "probability": 0.9949023723602295
+    },
+    {
+      "word": "a",
+      "sourceStart": 7.32,
+      "sourceEnd": 7.44,
+      "start": 7.0455,
+      "end": 7.1655,
+      "probability": 0.9989012479782104
+    },
+    {
+      "word": "cambiar",
+      "sourceStart": 7.44,
+      "sourceEnd": 7.74,
+      "start": 7.1655,
+      "end": 7.4655,
+      "probability": 0.9976031184196472
+    },
+    {
+      "word": "cómo",
+      "sourceStart": 7.74,
+      "sourceEnd": 8.24,
+      "start": 7.4655,
+      "end": 7.9655,
+      "probability": 0.9356611967086792
+    },
+    {
+      "word": "funciona",
+      "sourceStart": 8.24,
+      "sourceEnd": 8.82,
+      "start": 7.9655,
+      "end": 8.5455,
+      "probability": 0.9975499510765076
+    },
+    {
+      "word": "tu",
+      "sourceStart": 8.82,
+      "sourceEnd": 9.0,
+      "start": 8.5455,
+      "end": 8.7255,
+      "probability": 0.9742428660392761
+    },
+    {
+      "word": "cerebro.",
+      "sourceStart": 9.0,
+      "sourceEnd": 9.48,
+      "start": 8.7255,
+      "end": 9.2055,
+      "probability": 0.9979192316532135
+    },
+    {
+      "word": "Mientras",
+      "sourceStart": 9.86,
+      "sourceEnd": 10.34,
+      "start": 9.330791666666666,
+      "end": 9.754854166666666,
+      "probability": 0.9947249591350555
+    },
+    {
+      "word": "sigues",
+      "sourceStart": 10.34,
+      "sourceEnd": 10.68,
+      "start": 9.754854166666666,
+      "end": 10.094854166666666,
+      "probability": 0.9957360923290253
+    },
+    {
+      "word": "despierto,",
+      "sourceStart": 10.68,
+      "sourceEnd": 11.22,
+      "start": 10.094854166666666,
+      "end": 10.634854166666667,
+      "probability": 0.988321989774704
+    },
+    {
+      "word": "aumenta",
+      "sourceStart": 11.66,
+      "sourceEnd": 12.2,
+      "start": 11.074854166666666,
+      "end": 11.614854166666667,
+      "probability": 0.9948986172676086
+    },
+    {
+      "word": "la",
+      "sourceStart": 12.2,
+      "sourceEnd": 12.3,
+      "start": 11.614854166666667,
+      "end": 11.714854166666667,
+      "probability": 0.9985526204109192
+    },
+    {
+      "word": "presión",
+      "sourceStart": 12.3,
+      "sourceEnd": 12.72,
+      "start": 11.714854166666667,
+      "end": 12.134854166666667,
+      "probability": 0.9940086901187897
+    },
+    {
+      "word": "por",
+      "sourceStart": 12.72,
+      "sourceEnd": 12.92,
+      "start": 12.134854166666667,
+      "end": 12.334854166666666,
+      "probability": 0.9956839084625244
+    },
+    {
+      "word": "dormir.",
+      "sourceStart": 12.92,
+      "sourceEnd": 13.26,
+      "start": 12.334854166666666,
+      "end": 12.674854166666666,
+      "probability": 0.9991901516914368
+    },
+    {
+      "word": "Puede",
+      "sourceStart": 13.74,
+      "sourceEnd": 13.94,
+      "start": 13.0013125,
+      "end": 13.2013125,
+      "probability": 0.9849376380443573
+    },
+    {
+      "word": "costarte",
+      "sourceStart": 13.94,
+      "sourceEnd": 14.42,
+      "start": 13.2013125,
+      "end": 13.6813125,
+      "probability": 0.964241087436676
+    },
+    {
+      "word": "más",
+      "sourceStart": 14.42,
+      "sourceEnd": 14.68,
+      "start": 13.6813125,
+      "end": 13.9413125,
+      "probability": 0.9931704998016357
+    },
+    {
+      "word": "concentrarte,",
+      "sourceStart": 14.68,
+      "sourceEnd": 15.6,
+      "start": 13.9413125,
+      "end": 14.8613125,
+      "probability": 0.9887107610702515
+    },
+    {
+      "word": "reaccionar",
+      "sourceStart": 15.96,
+      "sourceEnd": 16.4,
+      "start": 15.2213125,
+      "end": 15.6613125,
+      "probability": 0.9877585172653198
+    },
+    {
+      "word": "a",
+      "sourceStart": 16.4,
+      "sourceEnd": 16.54,
+      "start": 15.6613125,
+      "end": 15.8013125,
+      "probability": 0.9972777962684631
+    },
+    {
+      "word": "tiempo",
+      "sourceStart": 16.54,
+      "sourceEnd": 16.94,
+      "start": 15.8013125,
+      "end": 16.2013125,
+      "probability": 0.9993211030960083
+    },
+    {
+      "word": "y",
+      "sourceStart": 16.94,
+      "sourceEnd": 17.3,
+      "start": 16.2013125,
+      "end": 16.5613125,
+      "probability": 0.8586269021034241
+    },
+    {
+      "word": "evitar",
+      "sourceStart": 17.3,
+      "sourceEnd": 17.6,
+      "start": 16.5613125,
+      "end": 16.8613125,
+      "probability": 0.9981176853179932
+    },
+    {
+      "word": "errores.",
+      "sourceStart": 17.6,
+      "sourceEnd": 18.12,
+      "start": 16.8613125,
+      "end": 17.3813125,
+      "probability": 0.9992953240871429
+    },
+    {
+      "word": "Y",
+      "sourceStart": 18.66,
+      "sourceEnd": 18.78,
+      "start": 17.730958333333334,
+      "end": 17.850958333333335,
+      "probability": 0.9645893573760986
+    },
+    {
+      "word": "aquí",
+      "sourceStart": 18.78,
+      "sourceEnd": 19.04,
+      "start": 17.850958333333335,
+      "end": 18.110958333333333,
+      "probability": 0.9875374436378479
+    },
+    {
+      "word": "viene",
+      "sourceStart": 19.04,
+      "sourceEnd": 19.36,
+      "start": 18.110958333333333,
+      "end": 18.430958333333333,
+      "probability": 0.9960447549819946
+    },
+    {
+      "word": "lo",
+      "sourceStart": 19.36,
+      "sourceEnd": 19.5,
+      "start": 18.430958333333333,
+      "end": 18.570958333333333,
+      "probability": 0.9967346787452698
+    },
+    {
+      "word": "peligroso:",
+      "sourceStart": 19.5,
+      "sourceEnd": 20.2,
+      "start": 18.570958333333333,
+      "end": 19.270958333333333,
+      "probability": 0.9933324853579203
+    },
+    {
+      "word": "pueden",
+      "sourceStart": 20.6,
+      "sourceEnd": 20.92,
+      "start": 19.4713125,
+      "end": 19.7913125,
+      "probability": 0.9841300845146179
+    },
+    {
+      "word": "aparecer",
+      "sourceStart": 20.92,
+      "sourceEnd": 21.38,
+      "start": 19.7913125,
+      "end": 20.2513125,
+      "probability": 0.9859472513198853
+    },
+    {
+      "word": "microsueños.",
+      "sourceStart": 21.38,
+      "sourceEnd": 22.46,
+      "start": 20.2513125,
+      "end": 21.3313125,
+      "probability": 0.8731140494346619
+    },
+    {
+      "word": "Son",
+      "sourceStart": 23.02,
+      "sourceEnd": 23.26,
+      "start": 21.7550625,
+      "end": 21.9950625,
+      "probability": 0.9922353625297546
+    },
+    {
+      "word": "lapsos",
+      "sourceStart": 23.26,
+      "sourceEnd": 23.66,
+      "start": 21.9950625,
+      "end": 22.3950625,
+      "probability": 0.963764101266861
+    },
+    {
+      "word": "breves",
+      "sourceStart": 23.66,
+      "sourceEnd": 24.06,
+      "start": 22.3950625,
+      "end": 22.7950625,
+      "probability": 0.9848980009555817
+    },
+    {
+      "word": "en",
+      "sourceStart": 24.06,
+      "sourceEnd": 24.32,
+      "start": 22.7950625,
+      "end": 23.0550625,
+      "probability": 0.9599219560623169
+    },
+    {
+      "word": "los",
+      "sourceStart": 24.32,
+      "sourceEnd": 24.44,
+      "start": 23.0550625,
+      "end": 23.1750625,
+      "probability": 0.9948462247848511
+    },
+    {
+      "word": "que",
+      "sourceStart": 24.44,
+      "sourceEnd": 24.6,
+      "start": 23.1750625,
+      "end": 23.3350625,
+      "probability": 0.998721182346344
+    },
+    {
+      "word": "el",
+      "sourceStart": 24.6,
+      "sourceEnd": 24.74,
+      "start": 23.3350625,
+      "end": 23.4750625,
+      "probability": 0.9981901049613953
+    },
+    {
+      "word": "cerebro",
+      "sourceStart": 24.74,
+      "sourceEnd": 25.08,
+      "start": 23.4750625,
+      "end": 23.8150625,
+      "probability": 0.997742623090744
+    },
+    {
+      "word": "deja",
+      "sourceStart": 25.08,
+      "sourceEnd": 25.44,
+      "start": 23.8150625,
+      "end": 24.1750625,
+      "probability": 0.989452064037323
+    },
+    {
+      "word": "de",
+      "sourceStart": 25.44,
+      "sourceEnd": 25.62,
+      "start": 24.1750625,
+      "end": 24.3550625,
+      "probability": 0.9983996748924255
+    },
+    {
+      "word": "responder,",
+      "sourceStart": 25.62,
+      "sourceEnd": 26.14,
+      "start": 24.3550625,
+      "end": 24.8750625,
+      "probability": 0.9987228512763977
+    },
+    {
+      "word": "incluso",
+      "sourceStart": 26.44,
+      "sourceEnd": 26.94,
+      "start": 25.167979166666665,
+      "end": 25.667979166666665,
+      "probability": 0.9941624999046326
+    },
+    {
+      "word": "con",
+      "sourceStart": 26.94,
+      "sourceEnd": 27.24,
+      "start": 25.667979166666665,
+      "end": 25.967979166666666,
+      "probability": 0.9977947473526001
+    },
+    {
+      "word": "los",
+      "sourceStart": 27.24,
+      "sourceEnd": 27.36,
+      "start": 25.967979166666666,
+      "end": 26.087979166666667,
+      "probability": 0.9974241256713867
+    },
+    {
+      "word": "ojos",
+      "sourceStart": 27.36,
+      "sourceEnd": 27.62,
+      "start": 26.087979166666667,
+      "end": 26.347979166666665,
+      "probability": 0.9986317753791809
+    },
+    {
+      "word": "abiertos.",
+      "sourceStart": 27.62,
+      "sourceEnd": 28.26,
+      "start": 26.347979166666665,
+      "end": 26.987979166666666,
+      "probability": 0.9977538386980692
+    },
+    {
+      "word": "No",
+      "sourceStart": 28.829569,
+      "sourceEnd": 28.98,
+      "start": 27.2899375,
+      "end": 27.440375,
+      "probability": 0.4397977292537689
+    },
+    {
+      "word": "existe",
+      "sourceStart": 28.98,
+      "sourceEnd": 29.32,
+      "start": 27.440375,
+      "end": 27.780375,
+      "probability": 0.9905678629875183
+    },
+    {
+      "word": "una",
+      "sourceStart": 29.32,
+      "sourceEnd": 29.58,
+      "start": 27.780375,
+      "end": 28.040375,
+      "probability": 0.991330623626709
+    },
+    {
+      "word": "hora",
+      "sourceStart": 29.58,
+      "sourceEnd": 29.78,
+      "start": 28.040375,
+      "end": 28.240375,
+      "probability": 0.9910043478012085
+    },
+    {
+      "word": "exacta",
+      "sourceStart": 29.78,
+      "sourceEnd": 30.28,
+      "start": 28.240375,
+      "end": 28.740375,
+      "probability": 0.992749959230423
+    },
+    {
+      "word": "para",
+      "sourceStart": 30.28,
+      "sourceEnd": 30.44,
+      "start": 28.740375,
+      "end": 28.900375,
+      "probability": 0.99735426902771
+    },
+    {
+      "word": "todos.",
+      "sourceStart": 30.44,
+      "sourceEnd": 30.72,
+      "start": 28.900375,
+      "end": 29.180375,
+      "probability": 0.9951186180114746
+    },
+    {
+      "word": "Imagina",
+      "sourceStart": 31.26,
+      "sourceEnd": 31.78,
+      "start": 29.591104166666668,
+      "end": 30.111104166666667,
+      "probability": 0.9927948117256165
+    },
+    {
+      "word": "que",
+      "sourceStart": 31.78,
+      "sourceEnd": 31.9,
+      "start": 30.111104166666667,
+      "end": 30.231104166666668,
+      "probability": 0.989382803440094
+    },
+    {
+      "word": "vas",
+      "sourceStart": 31.9,
+      "sourceEnd": 32.06,
+      "start": 30.231104166666668,
+      "end": 30.39110416666667,
+      "probability": 0.9924435019493103
+    },
+    {
+      "word": "manejando.",
+      "sourceStart": 32.06,
+      "sourceEnd": 32.64,
+      "start": 30.39110416666667,
+      "end": 30.971104166666667,
+      "probability": 0.9982283314069113
+    },
+    {
+      "word": "Un",
+      "sourceStart": 33.06,
+      "sourceEnd": 33.22,
+      "start": 31.232645833333333,
+      "end": 31.392645833333333,
+      "probability": 0.9867456555366516
+    },
+    {
+      "word": "lapso",
+      "sourceStart": 33.22,
+      "sourceEnd": 33.54,
+      "start": 31.392645833333333,
+      "end": 31.712645833333333,
+      "probability": 0.8743912577629089
+    },
+    {
+      "word": "sin",
+      "sourceStart": 33.54,
+      "sourceEnd": 33.72,
+      "start": 31.712645833333333,
+      "end": 31.892645833333333,
+      "probability": 0.9879376292228699
+    },
+    {
+      "word": "responder",
+      "sourceStart": 33.72,
+      "sourceEnd": 34.24,
+      "start": 31.892645833333333,
+      "end": 32.412645833333336,
+      "probability": 0.998076319694519
+    },
+    {
+      "word": "puede",
+      "sourceStart": 34.24,
+      "sourceEnd": 34.6,
+      "start": 32.412645833333336,
+      "end": 32.772645833333335,
+      "probability": 0.9603352546691895
+    },
+    {
+      "word": "hacerte",
+      "sourceStart": 34.6,
+      "sourceEnd": 35.0,
+      "start": 32.772645833333335,
+      "end": 33.172645833333334,
+      "probability": 0.9888647198677063
+    },
+    {
+      "word": "perder",
+      "sourceStart": 35.0,
+      "sourceEnd": 35.28,
+      "start": 33.172645833333334,
+      "end": 33.452645833333335,
+      "probability": 0.9586585164070129
+    },
+    {
+      "word": "información",
+      "sourceStart": 35.28,
+      "sourceEnd": 35.76,
+      "start": 33.452645833333335,
+      "end": 33.93264583333333,
+      "probability": 0.9983540773391724
+    },
+    {
+      "word": "clave.",
+      "sourceStart": 35.76,
+      "sourceEnd": 36.48,
+      "start": 33.93264583333333,
+      "end": 34.65264583333333,
+      "probability": 0.9933023750782013
+    },
+    {
+      "word": "Por",
+      "sourceStart": 36.9,
+      "sourceEnd": 37.1,
+      "start": 34.9061875,
+      "end": 35.1061875,
+      "probability": 0.9887999296188354
+    },
+    {
+      "word": "eso",
+      "sourceStart": 37.1,
+      "sourceEnd": 37.3,
+      "start": 35.1061875,
+      "end": 35.3061875,
+      "probability": 0.9951750040054321
+    },
+    {
+      "word": "conducir",
+      "sourceStart": 37.3,
+      "sourceEnd": 37.86,
+      "start": 35.3061875,
+      "end": 35.8661875,
+      "probability": 0.7715325057506561
+    },
+    {
+      "word": "con",
+      "sourceStart": 37.86,
+      "sourceEnd": 38.02,
+      "start": 35.8661875,
+      "end": 36.0261875,
+      "probability": 0.9958792924880981
+    },
+    {
+      "word": "sueño",
+      "sourceStart": 38.02,
+      "sourceEnd": 38.4,
+      "start": 36.0261875,
+      "end": 36.4061875,
+      "probability": 0.9947151839733124
+    },
+    {
+      "word": "es",
+      "sourceStart": 38.4,
+      "sourceEnd": 38.92,
+      "start": 36.4061875,
+      "end": 36.9261875,
+      "probability": 0.8958810567855835
+    },
+    {
+      "word": "tan",
+      "sourceStart": 38.92,
+      "sourceEnd": 39.02,
+      "start": 36.9261875,
+      "end": 37.0261875,
+      "probability": 0.9528996348381042
+    },
+    {
+      "word": "arriesgado.",
+      "sourceStart": 39.02,
+      "sourceEnd": 39.58,
+      "start": 37.0261875,
+      "end": 37.5861875,
+      "probability": 0.9862922032674154
+    },
+    {
+      "word": "La",
+      "sourceStart": 40.28,
+      "sourceEnd": 40.42,
+      "start": 37.9368125,
+      "end": 38.0768125,
+      "probability": 0.9892410635948181
+    },
+    {
+      "word": "falta",
+      "sourceStart": 40.42,
+      "sourceEnd": 40.62,
+      "start": 38.0768125,
+      "end": 38.2768125,
+      "probability": 0.9984719157218933
+    },
+    {
+      "word": "de",
+      "sourceStart": 40.62,
+      "sourceEnd": 40.82,
+      "start": 38.2768125,
+      "end": 38.4768125,
+      "probability": 0.9951985478401184
+    },
+    {
+      "word": "sueño",
+      "sourceStart": 40.82,
+      "sourceEnd": 41.18,
+      "start": 38.4768125,
+      "end": 38.8368125,
+      "probability": 0.9988215863704681
+    },
+    {
+      "word": "también",
+      "sourceStart": 41.18,
+      "sourceEnd": 41.56,
+      "start": 38.8368125,
+      "end": 39.2168125,
+      "probability": 0.9911147356033325
+    },
+    {
+      "word": "puede",
+      "sourceStart": 41.56,
+      "sourceEnd": 41.84,
+      "start": 39.2168125,
+      "end": 39.4968125,
+      "probability": 0.9977967739105225
+    },
+    {
+      "word": "afectar",
+      "sourceStart": 41.84,
+      "sourceEnd": 42.32,
+      "start": 39.4968125,
+      "end": 39.9768125,
+      "probability": 0.9976939558982849
+    },
+    {
+      "word": "tu",
+      "sourceStart": 42.32,
+      "sourceEnd": 42.5,
+      "start": 39.9768125,
+      "end": 40.1568125,
+      "probability": 0.9902701377868652
+    },
+    {
+      "word": "memoria,",
+      "sourceStart": 42.5,
+      "sourceEnd": 42.96,
+      "start": 40.1568125,
+      "end": 40.6168125,
+      "probability": 0.9984162449836731
+    },
+    {
+      "word": "tus",
+      "sourceStart": 43.32,
+      "sourceEnd": 43.42,
+      "start": 40.9768125,
+      "end": 41.0768125,
+      "probability": 0.988680362701416
+    },
+    {
+      "word": "decisiones",
+      "sourceStart": 43.42,
+      "sourceEnd": 44.22,
+      "start": 41.0768125,
+      "end": 41.8768125,
+      "probability": 0.8817667067050934
+    },
+    {
+      "word": "y",
+      "sourceStart": 44.22,
+      "sourceEnd": 44.48,
+      "start": 41.8768125,
+      "end": 42.1368125,
+      "probability": 0.8696797490119934
+    },
+    {
+      "word": "cómo",
+      "sourceStart": 44.48,
+      "sourceEnd": 44.76,
+      "start": 42.1368125,
+      "end": 42.4168125,
+      "probability": 0.9290688037872314
+    },
+    {
+      "word": "regulas",
+      "sourceStart": 44.76,
+      "sourceEnd": 45.26,
+      "start": 42.4168125,
+      "end": 42.9168125,
+      "probability": 0.9791027307510376
+    },
+    {
+      "word": "tus",
+      "sourceStart": 45.26,
+      "sourceEnd": 45.4,
+      "start": 42.9168125,
+      "end": 43.0568125,
+      "probability": 0.9833396673202515
+    },
+    {
+      "word": "emociones.",
+      "sourceStart": 45.4,
+      "sourceEnd": 45.96,
+      "start": 43.0568125,
+      "end": 43.6168125,
+      "probability": 0.997923344373703
+    },
+    {
+      "word": "Los",
+      "sourceStart": 46.54,
+      "sourceEnd": 46.66,
+      "start": 44.03975,
+      "end": 44.15975,
+      "probability": 0.9920083284378052
+    },
+    {
+      "word": "efectos",
+      "sourceStart": 46.66,
+      "sourceEnd": 47.14,
+      "start": 44.15975,
+      "end": 44.63975,
+      "probability": 0.999031126499176
+    },
+    {
+      "word": "varían",
+      "sourceStart": 47.14,
+      "sourceEnd": 47.5,
+      "start": 44.63975,
+      "end": 44.99975,
+      "probability": 0.9777874946594238
+    },
+    {
+      "word": "de",
+      "sourceStart": 47.5,
+      "sourceEnd": 47.68,
+      "start": 44.99975,
+      "end": 45.17975,
+      "probability": 0.9990118741989136
+    },
+    {
+      "word": "una",
+      "sourceStart": 47.68,
+      "sourceEnd": 47.84,
+      "start": 45.17975,
+      "end": 45.33975,
+      "probability": 0.9973123073577881
+    },
+    {
+      "word": "persona",
+      "sourceStart": 47.84,
+      "sourceEnd": 48.28,
+      "start": 45.33975,
+      "end": 45.77975,
+      "probability": 0.9952670335769653
+    },
+    {
+      "word": "a",
+      "sourceStart": 48.28,
+      "sourceEnd": 48.44,
+      "start": 45.77975,
+      "end": 45.93975,
+      "probability": 0.9969692826271057
+    },
+    {
+      "word": "otra.",
+      "sourceStart": 48.44,
+      "sourceEnd": 48.64,
+      "start": 45.93975,
+      "end": 46.13975,
+      "probability": 0.9884031414985657
+    },
+    {
+      "word": "El",
+      "sourceStart": 49.28,
+      "sourceEnd": 49.42,
+      "start": 46.4978125,
+      "end": 46.6378125,
+      "probability": 0.9937688112258911
+    },
+    {
+      "word": "café",
+      "sourceStart": 49.42,
+      "sourceEnd": 49.7,
+      "start": 46.6378125,
+      "end": 46.9178125,
+      "probability": 0.9911909699440002
+    },
+    {
+      "word": "puede",
+      "sourceStart": 49.7,
+      "sourceEnd": 50.04,
+      "start": 46.9178125,
+      "end": 47.2578125,
+      "probability": 0.9972724318504333
+    },
+    {
+      "word": "ayudarte",
+      "sourceStart": 50.04,
+      "sourceEnd": 50.52,
+      "start": 47.2578125,
+      "end": 47.7378125,
+      "probability": 0.9967160224914551
+    },
+    {
+      "word": "a",
+      "sourceStart": 50.52,
+      "sourceEnd": 50.58,
+      "start": 47.7378125,
+      "end": 47.7978125,
+      "probability": 0.9966447353363037
+    },
+    {
+      "word": "sentir",
+      "sourceStart": 50.58,
+      "sourceEnd": 50.88,
+      "start": 47.7978125,
+      "end": 48.0978125,
+      "probability": 0.9984033703804016
+    },
+    {
+      "word": "más",
+      "sourceStart": 50.88,
+      "sourceEnd": 51.22,
+      "start": 48.0978125,
+      "end": 48.4378125,
+      "probability": 0.9867845177650452
+    },
+    {
+      "word": "alerta",
+      "sourceStart": 51.22,
+      "sourceEnd": 51.66,
+      "start": 48.4378125,
+      "end": 48.8778125,
+      "probability": 0.9903654158115387
+    },
+    {
+      "word": "por",
+      "sourceStart": 51.66,
+      "sourceEnd": 51.82,
+      "start": 48.8778125,
+      "end": 49.0378125,
+      "probability": 0.9938726425170898
+    },
+    {
+      "word": "un",
+      "sourceStart": 51.82,
+      "sourceEnd": 51.96,
+      "start": 49.0378125,
+      "end": 49.1778125,
+      "probability": 0.9990744590759277
+    },
+    {
+      "word": "rato.",
+      "sourceStart": 51.96,
+      "sourceEnd": 52.28,
+      "start": 49.1778125,
+      "end": 49.4978125,
+      "probability": 0.9982877969741821
+    },
+    {
+      "word": "Pero",
+      "sourceStart": 52.54,
+      "sourceEnd": 52.88,
+      "start": 49.68610416666667,
+      "end": 49.94558333333333,
+      "probability": 0.9941673278808594
+    },
+    {
+      "word": "no",
+      "sourceStart": 52.88,
+      "sourceEnd": 53.12,
+      "start": 49.94558333333333,
+      "end": 50.185583333333334,
+      "probability": 0.9977977275848389
+    },
+    {
+      "word": "te",
+      "sourceStart": 53.12,
+      "sourceEnd": 53.3,
+      "start": 50.185583333333334,
+      "end": 50.36558333333333,
+      "probability": 0.9985563158988953
+    },
+    {
+      "word": "da",
+      "sourceStart": 53.3,
+      "sourceEnd": 53.42,
+      "start": 50.36558333333333,
+      "end": 50.48558333333333,
+      "probability": 0.9951525926589966
+    },
+    {
+      "word": "el",
+      "sourceStart": 53.42,
+      "sourceEnd": 53.52,
+      "start": 50.48558333333333,
+      "end": 50.58558333333333,
+      "probability": 0.9916645884513855
+    },
+    {
+      "word": "descanso",
+      "sourceStart": 53.52,
+      "sourceEnd": 54.22,
+      "start": 50.58558333333333,
+      "end": 51.285583333333335,
+      "probability": 0.9940061767896017
+    },
+    {
+      "word": "ni",
+      "sourceStart": 54.22,
+      "sourceEnd": 54.5,
+      "start": 51.285583333333335,
+      "end": 51.565583333333336,
+      "probability": 0.9767946600914001
+    },
+    {
+      "word": "la",
+      "sourceStart": 54.5,
+      "sourceEnd": 54.62,
+      "start": 51.565583333333336,
+      "end": 51.685583333333334,
+      "probability": 0.99810791015625
+    },
+    {
+      "word": "capacidad",
+      "sourceStart": 54.62,
+      "sourceEnd": 55.04,
+      "start": 51.685583333333334,
+      "end": 52.105583333333335,
+      "probability": 0.9964396357536316
+    },
+    {
+      "word": "de",
+      "sourceStart": 55.04,
+      "sourceEnd": 55.32,
+      "start": 52.105583333333335,
+      "end": 52.38558333333334,
+      "probability": 0.9983834028244019
+    },
+    {
+      "word": "decidir",
+      "sourceStart": 55.32,
+      "sourceEnd": 55.82,
+      "start": 52.38558333333334,
+      "end": 52.88558333333334,
+      "probability": 0.995000809431076
+    },
+    {
+      "word": "que",
+      "sourceStart": 55.82,
+      "sourceEnd": 56.02,
+      "start": 52.88558333333334,
+      "end": 53.08558333333333,
+      "probability": 0.8880525827407837
+    },
+    {
+      "word": "aporta",
+      "sourceStart": 56.02,
+      "sourceEnd": 56.3,
+      "start": 53.08558333333333,
+      "end": 53.36558333333333,
+      "probability": 0.9935085475444794
+    },
+    {
+      "word": "dormir.",
+      "sourceStart": 56.3,
+      "sourceEnd": 56.7,
+      "start": 53.36558333333333,
+      "end": 53.76558333333333,
+      "probability": 0.2923608422279358
+    },
+    {
+      "word": "Y",
+      "sourceStart": 57.04,
+      "sourceEnd": 57.42,
+      "start": 54.04835416666667,
+      "end": 54.215125,
+      "probability": 0.698074460029602
+    },
+    {
+      "word": "aunque",
+      "sourceStart": 57.42,
+      "sourceEnd": 57.56,
+      "start": 54.215125,
+      "end": 54.355125,
+      "probability": 0.9117159247398376
+    },
+    {
+      "word": "creas",
+      "sourceStart": 57.56,
+      "sourceEnd": 58.0,
+      "start": 54.355125,
+      "end": 54.795125,
+      "probability": 0.9972908198833466
+    },
+    {
+      "word": "que",
+      "sourceStart": 58.0,
+      "sourceEnd": 58.1,
+      "start": 54.795125,
+      "end": 54.895125,
+      "probability": 0.9974415302276611
+    },
+    {
+      "word": "estás",
+      "sourceStart": 58.1,
+      "sourceEnd": 58.3,
+      "start": 54.895125,
+      "end": 55.095125,
+      "probability": 0.9760112762451172
+    },
+    {
+      "word": "funcionando",
+      "sourceStart": 58.3,
+      "sourceEnd": 58.9,
+      "start": 55.095125,
+      "end": 55.695125,
+      "probability": 0.9984142184257507
+    },
+    {
+      "word": "bien,",
+      "sourceStart": 58.9,
+      "sourceEnd": 59.12,
+      "start": 55.695125,
+      "end": 55.915125,
+      "probability": 0.9979661703109741
+    },
+    {
+      "word": "tu",
+      "sourceStart": 59.56,
+      "sourceEnd": 59.6,
+      "start": 56.349333333333334,
+      "end": 56.38933333333333,
+      "probability": 0.9926620721817017
+    },
+    {
+      "word": "atención",
+      "sourceStart": 59.6,
+      "sourceEnd": 59.98,
+      "start": 56.38933333333333,
+      "end": 56.769333333333336,
+      "probability": 0.9988588094711304
+    },
+    {
+      "word": "puede",
+      "sourceStart": 59.98,
+      "sourceEnd": 60.44,
+      "start": 56.769333333333336,
+      "end": 57.22933333333334,
+      "probability": 0.9951391220092773
+    },
+    {
+      "word": "haber",
+      "sourceStart": 60.44,
+      "sourceEnd": 60.66,
+      "start": 57.22933333333334,
+      "end": 57.449333333333335,
+      "probability": 0.9976296424865723
+    },
+    {
+      "word": "cambiado.",
+      "sourceStart": 60.66,
+      "sourceEnd": 61.26,
+      "start": 57.449333333333335,
+      "end": 58.04933333333334,
+      "probability": 0.99946528673172
+    },
+    {
+      "word": "Sentirte",
+      "sourceStart": 61.74,
+      "sourceEnd": 62.2,
+      "start": 58.351875,
+      "end": 58.811875,
+      "probability": 0.9772427280743917
+    },
+    {
+      "word": "despierto",
+      "sourceStart": 62.2,
+      "sourceEnd": 62.76,
+      "start": 58.811875,
+      "end": 59.371875,
+      "probability": 0.9921776950359344
+    },
+    {
+      "word": "no",
+      "sourceStart": 62.76,
+      "sourceEnd": 63.16,
+      "start": 59.371875,
+      "end": 59.771875,
+      "probability": 0.9613767266273499
+    },
+    {
+      "word": "garantiza",
+      "sourceStart": 63.16,
+      "sourceEnd": 63.8,
+      "start": 59.771875,
+      "end": 60.411875,
+      "probability": 0.9859263896942139
+    },
+    {
+      "word": "que",
+      "sourceStart": 63.8,
+      "sourceEnd": 63.94,
+      "start": 60.411875,
+      "end": 60.551875,
+      "probability": 0.9975563287734985
+    },
+    {
+      "word": "rindas",
+      "sourceStart": 63.94,
+      "sourceEnd": 64.32,
+      "start": 60.551875,
+      "end": 60.931875,
+      "probability": 0.9695706963539124
+    },
+    {
+      "word": "igual.",
+      "sourceStart": 64.32,
+      "sourceEnd": 64.54,
+      "start": 60.931875,
+      "end": 61.151875,
+      "probability": 0.9984363913536072
+    },
+    {
+      "word": "Dormir",
+      "sourceStart": 65.26,
+      "sourceEnd": 65.68,
+      "start": 61.58827083333333,
+      "end": 62.008270833333334,
+      "probability": 0.9712311228116354
+    },
+    {
+      "word": "no",
+      "sourceStart": 65.68,
+      "sourceEnd": 66.14,
+      "start": 62.008270833333334,
+      "end": 62.468270833333335,
+      "probability": 0.9586241245269775
+    },
+    {
+      "word": "es",
+      "sourceStart": 66.14,
+      "sourceEnd": 66.36,
+      "start": 62.468270833333335,
+      "end": 62.688270833333334,
+      "probability": 0.997420072555542
+    },
+    {
+      "word": "perder",
+      "sourceStart": 66.36,
+      "sourceEnd": 66.62,
+      "start": 62.688270833333334,
+      "end": 62.94827083333333,
+      "probability": 0.9984360337257385
+    },
+    {
+      "word": "el",
+      "sourceStart": 66.62,
+      "sourceEnd": 66.82,
+      "start": 62.94827083333333,
+      "end": 63.148270833333335,
+      "probability": 0.9977655410766602
+    },
+    {
+      "word": "tiempo:",
+      "sourceStart": 66.82,
+      "sourceEnd": 67.18,
+      "start": 63.148270833333335,
+      "end": 63.508270833333334,
+      "probability": 0.9988277554512024
+    },
+    {
+      "word": "es",
+      "sourceStart": 67.62,
+      "sourceEnd": 67.78,
+      "start": 63.86985416666667,
+      "end": 64.02985416666667,
+      "probability": 0.9885872602462769
+    },
+    {
+      "word": "una",
+      "sourceStart": 67.78,
+      "sourceEnd": 67.94,
+      "start": 64.02985416666667,
+      "end": 64.18985416666666,
+      "probability": 0.9980454444885254
+    },
+    {
+      "word": "necesidad",
+      "sourceStart": 67.94,
+      "sourceEnd": 68.58,
+      "start": 64.18985416666666,
+      "end": 64.82985416666666,
+      "probability": 0.9997079372406006
+    },
+    {
+      "word": "biológica.",
+      "sourceStart": 68.58,
+      "sourceEnd": 69.26,
+      "start": 64.82985416666666,
+      "end": 65.50985416666667,
+      "probability": 0.9950914780298868
+    },
+    {
+      "word": "Si",
+      "sourceStart": 69.78,
+      "sourceEnd": 69.86,
+      "start": 65.84777083333333,
+      "end": 65.92777083333333,
+      "probability": 0.9898025393486023
+    },
+    {
+      "word": "tienes",
+      "sourceStart": 69.86,
+      "sourceEnd": 70.1,
+      "start": 65.92777083333333,
+      "end": 66.16777083333334,
+      "probability": 0.9838693737983704
+    },
+    {
+      "word": "sueño,",
+      "sourceStart": 70.1,
+      "sourceEnd": 70.74,
+      "start": 66.16777083333334,
+      "end": 66.80364583333333,
+      "probability": 0.9977239966392517
+    },
+    {
+      "word": "evita",
+      "sourceStart": 70.9,
+      "sourceEnd": 71.22,
+      "start": 66.959625,
+      "end": 67.279625,
+      "probability": 0.916237860918045
+    },
+    {
+      "word": "manejar.",
+      "sourceStart": 71.22,
+      "sourceEnd": 71.72,
+      "start": 67.279625,
+      "end": 67.779625,
+      "probability": 0.9979177713394165
+    },
+    {
+      "word": "¿Cuántas",
+      "sourceStart": 72.42,
+      "sourceEnd": 72.74,
+      "start": 68.06022916666667,
+      "end": 68.38022916666667,
+      "probability": 0.9628022760152817
+    },
+    {
+      "word": "horas",
+      "sourceStart": 72.74,
+      "sourceEnd": 72.92,
+      "start": 68.38022916666667,
+      "end": 68.56022916666667,
+      "probability": 0.9992881417274475
+    },
+    {
+      "word": "llevas",
+      "sourceStart": 72.92,
+      "sourceEnd": 73.26,
+      "start": 68.56022916666667,
+      "end": 68.90022916666666,
+      "probability": 0.9890938699245453
+    },
+    {
+      "word": "despierto",
+      "sourceStart": 73.26,
+      "sourceEnd": 73.76,
+      "start": 68.90022916666666,
+      "end": 69.40022916666666,
+      "probability": 0.9906830787658691
+    },
+    {
+      "word": "hoy?",
+      "sourceStart": 73.76,
+      "sourceEnd": 74.04,
+      "start": 69.40022916666666,
+      "end": 69.68022916666666,
+      "probability": 0.9947829842567444
+    }
+  ]
+}

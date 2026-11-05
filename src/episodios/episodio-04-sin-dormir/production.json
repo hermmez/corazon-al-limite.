@@ -6,34 +6,32 @@
   "fps": 30,
   "frames": 2100,
   "durationSeconds": 70,
-  "status": "visual-review-pending-voice-approval",
+  "status": "final-export-verified",
   "visualStandard": "100-percent-2d-no-3d",
   "visualAudit": "AUDITORIA_VISUAL_2D.md",
   "newAssetManifest": "public/episodio-04/ilustraciones/manifest.json",
   "voiceProfile": {
-    "profile": "CORAZON_CINEMATIC_MX",
-    "approvalStatus": "alejandro-selected-awaiting-priced-audition",
-    "selectedAuditionVoice": {
-      "provider": "ElevenLabs",
-      "voiceId": "YKUjKbMlejgvkOZlnnvt",
-      "voiceName": "Alejandro Ballesteros - Warm and Joyful",
-      "locale": "es-MX",
-      "generationAuthorized": false,
-      "performanceApprovedForProduction": false
+    "profile": "EPISODIO04_GRADY_HIGGSFIELD",
+    "approvalStatus": "approved-by-user",
+    "officialVoice": {
+      "provider": "Higgsfield",
+      "model": "elevenlabs_v4",
+      "voiceId": "e2a2d2e6-9ed2-59cd-82af-feaa27f8a678",
+      "voiceName": "Grady",
+      "voiceType": "preset",
+      "language": "es",
+      "generationAuthorized": true,
+      "authorizedCredits": 5.29,
+      "performanceApprovedForProduction": true
     },
-    "officialVoice": null,
-    "audition": "output/episodio-04-sueno/audicion_C2_local_provisional.wav",
-    "localAudition": {
-      "provider": "Piper local",
-      "voiceId": "es_MX-ald-medium",
-      "modelId": "es_MX-ald-medium",
-      "approvedForProduction": false,
-      "paidGenerations": 0,
-      "creditsSpent": 0
-    },
-    "commercialCandidateIsNotAuthorized": true
+    "metadata": "public/episodio-04/audio/narracion-grady.json",
+    "audio": "episodio-04/audio/narracion_grady_70s.wav",
+    "paidGenerations": 1,
+    "tempo": 1,
+    "wordsRemoved": 0,
+    "directElevenLabsApiUsed": false
   },
-  "visualTiming": "editorial-only; regenerate from actual approved narration before final export",
+  "visualTiming": "Scene entry frames follow measured Grady narration; existing scene animation source remains unchanged",
   "visualAssets": [
     "imagenes/personajes/01_neutral.png",
     "imagenes/personajes/05_cansado.png",
@@ -63,7 +61,11 @@
     "audioSampleRate": 48000,
     "audioBitrate": 192000,
     "faststart": true,
-    "colorSpace": "bt709"
+    "colorSpace": "bt709",
+    "audioEncoderBitrate": 174000,
+    "audioBitrateMeasured": 191708,
+    "verification": "output/episodio-04-sueno/grady-verificacion-final.json",
+    "file": "output/episodio-04-sueno/episodio04_FINAL_GRADY.mp4"
   },
   "layout": {
     "canvas": "full-bleed-1080x1920",

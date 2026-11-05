@@ -1,5 +1,7 @@
 # Voz C2 · corrección de selección
 
+**Historial sustituido:** el usuario aprobó posteriormente **Grady en Higgsfield / Eleven v4** para la producción definitiva. Esta página conserva las candidatas anteriores; no solicita nuevas credenciales ni determina la voz actual. La configuración vigente está en `production.json`.
+
 El usuario eligió **Alejandro Ballesteros** para la audición C2. Su identificador real de ElevenLabs es `YKUjKbMlejgvkOZlnnvt`. La generación de pago y la interpretación definitiva todavía requieren sus respectivas aprobaciones.
 
 La muestra Piper local fue rechazada por sonar robótica. Se conserva como evidencia y no debe proponerse otra vez como narrador definitivo. El primer selector mostró muestras en inglés, inadecuadas para revisar la narración de este episodio.

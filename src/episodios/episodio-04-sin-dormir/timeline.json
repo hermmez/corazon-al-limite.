@@ -1,18 +1,1008 @@
 {
-  "status": "visual-preview-only-awaiting-approved-narration",
-  "audioReady": false,
-  "voiceApproved": false,
-  "timingSource": "editorial scene windows from the requested brief; not audio timestamps",
+  "status": "aligned-to-grady-recording",
+  "audioReady": true,
+  "voiceApproved": true,
+  "timingSource": "faster-whisper small Spanish word timestamps, mapped through measured silent-only sample cuts",
+  "audio": "episodio-04/audio/narracion_grady_70s.wav",
   "sceneWindows": [
-    { "id": 0, "start": 0, "end": 8 },
-    { "id": 1, "start": 8, "end": 17 },
-    { "id": 2, "start": 17, "end": 26 },
-    { "id": 3, "start": 26, "end": 35 },
-    { "id": 4, "start": 35, "end": 44 },
-    { "id": 5, "start": 44, "end": 53 },
-    { "id": 6, "start": 53, "end": 62 },
-    { "id": 7, "start": 62, "end": 70 }
+    {
+      "id": 0,
+      "startFrame": 0,
+      "endFrame": 278,
+      "start": 0.0,
+      "end": 9.266666666666667,
+      "durationInFrames": 278
+    },
+    {
+      "id": 1,
+      "startFrame": 278,
+      "endFrame": 527,
+      "start": 9.266666666666667,
+      "end": 17.566666666666666,
+      "durationInFrames": 249
+    },
+    {
+      "id": 2,
+      "startFrame": 527,
+      "endFrame": 882,
+      "start": 17.566666666666666,
+      "end": 29.4,
+      "durationInFrames": 355
+    },
+    {
+      "id": 3,
+      "startFrame": 882,
+      "endFrame": 1133,
+      "start": 29.4,
+      "end": 37.766666666666666,
+      "durationInFrames": 251
+    },
+    {
+      "id": 4,
+      "startFrame": 1133,
+      "endFrame": 1390,
+      "start": 37.766666666666666,
+      "end": 46.333333333333336,
+      "durationInFrames": 257
+    },
+    {
+      "id": 5,
+      "startFrame": 1390,
+      "endFrame": 1617,
+      "start": 46.333333333333336,
+      "end": 53.9,
+      "durationInFrames": 227
+    },
+    {
+      "id": 6,
+      "startFrame": 1617,
+      "endFrame": 1841,
+      "start": 53.9,
+      "end": 61.36666666666667,
+      "durationInFrames": 224
+    },
+    {
+      "id": 7,
+      "startFrame": 1841,
+      "endFrame": 2100,
+      "start": 61.36666666666667,
+      "end": 70.0,
+      "durationInFrames": 259
+    }
   ],
-  "events": [],
-  "note": "La preparación de la voz definitiva medirá duración y marcas reales, actualizará los eventos semánticos y sincronizará captions. Estos intervalos mantienen la animática de revisión en 2100 fotogramas sin afirmar sincronía de locución."
+  "events": [
+    {
+      "word": "¿Qué",
+      "start": 0.0,
+      "end": 0.16
+    },
+    {
+      "word": "pasa",
+      "start": 0.16,
+      "end": 0.4
+    },
+    {
+      "word": "después",
+      "start": 0.4,
+      "end": 0.82
+    },
+    {
+      "word": "de",
+      "start": 0.82,
+      "end": 0.98
+    },
+    {
+      "word": "veinticuatro",
+      "start": 0.98,
+      "end": 1.48
+    },
+    {
+      "word": "horas",
+      "start": 1.48,
+      "end": 1.86
+    },
+    {
+      "word": "sin",
+      "start": 1.86,
+      "end": 2.12
+    },
+    {
+      "word": "dormir?",
+      "start": 2.12,
+      "end": 2.36
+    },
+    {
+      "word": "No",
+      "start": 2.767979,
+      "end": 3.007979
+    },
+    {
+      "word": "hay",
+      "start": 3.007979,
+      "end": 3.147979
+    },
+    {
+      "word": "un",
+      "start": 3.147979,
+      "end": 3.267979
+    },
+    {
+      "word": "reloj",
+      "start": 3.267979,
+      "end": 3.567979
+    },
+    {
+      "word": "idéntico",
+      "start": 3.567979,
+      "end": 4.027979
+    },
+    {
+      "word": "para",
+      "start": 4.027979,
+      "end": 4.247979
+    },
+    {
+      "word": "todos,",
+      "start": 4.247979,
+      "end": 4.567979
+    },
+    {
+      "word": "pero",
+      "start": 4.967979,
+      "end": 5.2255
+    },
+    {
+      "word": "la",
+      "start": 5.2255,
+      "end": 5.3855
+    },
+    {
+      "word": "falta",
+      "start": 5.3855,
+      "end": 5.6655
+    },
+    {
+      "word": "de",
+      "start": 5.6655,
+      "end": 5.8655
+    },
+    {
+      "word": "sueño",
+      "start": 5.8655,
+      "end": 6.2455
+    },
+    {
+      "word": "puede",
+      "start": 6.2455,
+      "end": 6.6055
+    },
+    {
+      "word": "empezar",
+      "start": 6.6055,
+      "end": 7.0455
+    },
+    {
+      "word": "a",
+      "start": 7.0455,
+      "end": 7.1655
+    },
+    {
+      "word": "cambiar",
+      "start": 7.1655,
+      "end": 7.4655
+    },
+    {
+      "word": "cómo",
+      "start": 7.4655,
+      "end": 7.9655
+    },
+    {
+      "word": "funciona",
+      "start": 7.9655,
+      "end": 8.5455
+    },
+    {
+      "word": "tu",
+      "start": 8.5455,
+      "end": 8.7255
+    },
+    {
+      "word": "cerebro.",
+      "start": 8.7255,
+      "end": 9.2055
+    },
+    {
+      "word": "Mientras",
+      "start": 9.330792,
+      "end": 9.754854
+    },
+    {
+      "word": "sigues",
+      "start": 9.754854,
+      "end": 10.094854
+    },
+    {
+      "word": "despierto,",
+      "start": 10.094854,
+      "end": 10.634854
+    },
+    {
+      "word": "aumenta",
+      "start": 11.074854,
+      "end": 11.614854
+    },
+    {
+      "word": "la",
+      "start": 11.614854,
+      "end": 11.714854
+    },
+    {
+      "word": "presión",
+      "start": 11.714854,
+      "end": 12.134854
+    },
+    {
+      "word": "por",
+      "start": 12.134854,
+      "end": 12.334854
+    },
+    {
+      "word": "dormir.",
+      "start": 12.334854,
+      "end": 12.674854
+    },
+    {
+      "word": "Puede",
+      "start": 13.001312,
+      "end": 13.201313
+    },
+    {
+      "word": "costarte",
+      "start": 13.201313,
+      "end": 13.681313
+    },
+    {
+      "word": "más",
+      "start": 13.681313,
+      "end": 13.941313
+    },
+    {
+      "word": "concentrarte,",
+      "start": 13.941313,
+      "end": 14.861313
+    },
+    {
+      "word": "reaccionar",
+      "start": 15.221312,
+      "end": 15.661312
+    },
+    {
+      "word": "a",
+      "start": 15.661312,
+      "end": 15.801312
+    },
+    {
+      "word": "tiempo",
+      "start": 15.801312,
+      "end": 16.201313
+    },
+    {
+      "word": "y",
+      "start": 16.201313,
+      "end": 16.561312
+    },
+    {
+      "word": "evitar",
+      "start": 16.561312,
+      "end": 16.861313
+    },
+    {
+      "word": "errores.",
+      "start": 16.861313,
+      "end": 17.381312
+    },
+    {
+      "word": "Y",
+      "start": 17.730958,
+      "end": 17.850958
+    },
+    {
+      "word": "aquí",
+      "start": 17.850958,
+      "end": 18.110958
+    },
+    {
+      "word": "viene",
+      "start": 18.110958,
+      "end": 18.430958
+    },
+    {
+      "word": "lo",
+      "start": 18.430958,
+      "end": 18.570958
+    },
+    {
+      "word": "peligroso:",
+      "start": 18.570958,
+      "end": 19.270958
+    },
+    {
+      "word": "pueden",
+      "start": 19.471312,
+      "end": 19.791313
+    },
+    {
+      "word": "aparecer",
+      "start": 19.791313,
+      "end": 20.251313
+    },
+    {
+      "word": "microsueños.",
+      "start": 20.251313,
+      "end": 21.331312
+    },
+    {
+      "word": "Son",
+      "start": 21.755063,
+      "end": 21.995062
+    },
+    {
+      "word": "lapsos",
+      "start": 21.995062,
+      "end": 22.395063
+    },
+    {
+      "word": "breves",
+      "start": 22.395063,
+      "end": 22.795063
+    },
+    {
+      "word": "en",
+      "start": 22.795063,
+      "end": 23.055062
+    },
+    {
+      "word": "los",
+      "start": 23.055062,
+      "end": 23.175062
+    },
+    {
+      "word": "que",
+      "start": 23.175062,
+      "end": 23.335062
+    },
+    {
+      "word": "el",
+      "start": 23.335062,
+      "end": 23.475062
+    },
+    {
+      "word": "cerebro",
+      "start": 23.475062,
+      "end": 23.815062
+    },
+    {
+      "word": "deja",
+      "start": 23.815062,
+      "end": 24.175062
+    },
+    {
+      "word": "de",
+      "start": 24.175062,
+      "end": 24.355062
+    },
+    {
+      "word": "responder,",
+      "start": 24.355062,
+      "end": 24.875062
+    },
+    {
+      "word": "incluso",
+      "start": 25.167979,
+      "end": 25.667979
+    },
+    {
+      "word": "con",
+      "start": 25.667979,
+      "end": 25.967979
+    },
+    {
+      "word": "los",
+      "start": 25.967979,
+      "end": 26.087979
+    },
+    {
+      "word": "ojos",
+      "start": 26.087979,
+      "end": 26.347979
+    },
+    {
+      "word": "abiertos.",
+      "start": 26.347979,
+      "end": 26.987979
+    },
+    {
+      "word": "No",
+      "start": 27.289938,
+      "end": 27.440375
+    },
+    {
+      "word": "existe",
+      "start": 27.440375,
+      "end": 27.780375
+    },
+    {
+      "word": "una",
+      "start": 27.780375,
+      "end": 28.040375
+    },
+    {
+      "word": "hora",
+      "start": 28.040375,
+      "end": 28.240375
+    },
+    {
+      "word": "exacta",
+      "start": 28.240375,
+      "end": 28.740375
+    },
+    {
+      "word": "para",
+      "start": 28.740375,
+      "end": 28.900375
+    },
+    {
+      "word": "todos.",
+      "start": 28.900375,
+      "end": 29.180375
+    },
+    {
+      "word": "Imagina",
+      "start": 29.591104,
+      "end": 30.111104
+    },
+    {
+      "word": "que",
+      "start": 30.111104,
+      "end": 30.231104
+    },
+    {
+      "word": "vas",
+      "start": 30.231104,
+      "end": 30.391104
+    },
+    {
+      "word": "manejando.",
+      "start": 30.391104,
+      "end": 30.971104
+    },
+    {
+      "word": "Un",
+      "start": 31.232646,
+      "end": 31.392646
+    },
+    {
+      "word": "lapso",
+      "start": 31.392646,
+      "end": 31.712646
+    },
+    {
+      "word": "sin",
+      "start": 31.712646,
+      "end": 31.892646
+    },
+    {
+      "word": "responder",
+      "start": 31.892646,
+      "end": 32.412646
+    },
+    {
+      "word": "puede",
+      "start": 32.412646,
+      "end": 32.772646
+    },
+    {
+      "word": "hacerte",
+      "start": 32.772646,
+      "end": 33.172646
+    },
+    {
+      "word": "perder",
+      "start": 33.172646,
+      "end": 33.452646
+    },
+    {
+      "word": "información",
+      "start": 33.452646,
+      "end": 33.932646
+    },
+    {
+      "word": "clave.",
+      "start": 33.932646,
+      "end": 34.652646
+    },
+    {
+      "word": "Por",
+      "start": 34.906188,
+      "end": 35.106187
+    },
+    {
+      "word": "eso",
+      "start": 35.106187,
+      "end": 35.306188
+    },
+    {
+      "word": "conducir",
+      "start": 35.306188,
+      "end": 35.866188
+    },
+    {
+      "word": "con",
+      "start": 35.866188,
+      "end": 36.026187
+    },
+    {
+      "word": "sueño",
+      "start": 36.026187,
+      "end": 36.406188
+    },
+    {
+      "word": "es",
+      "start": 36.406188,
+      "end": 36.926187
+    },
+    {
+      "word": "tan",
+      "start": 36.926187,
+      "end": 37.026187
+    },
+    {
+      "word": "arriesgado.",
+      "start": 37.026187,
+      "end": 37.586188
+    },
+    {
+      "word": "La",
+      "start": 37.936813,
+      "end": 38.076813
+    },
+    {
+      "word": "falta",
+      "start": 38.076813,
+      "end": 38.276812
+    },
+    {
+      "word": "de",
+      "start": 38.276812,
+      "end": 38.476813
+    },
+    {
+      "word": "sueño",
+      "start": 38.476813,
+      "end": 38.836813
+    },
+    {
+      "word": "también",
+      "start": 38.836813,
+      "end": 39.216813
+    },
+    {
+      "word": "puede",
+      "start": 39.216813,
+      "end": 39.496812
+    },
+    {
+      "word": "afectar",
+      "start": 39.496812,
+      "end": 39.976813
+    },
+    {
+      "word": "tu",
+      "start": 39.976813,
+      "end": 40.156813
+    },
+    {
+      "word": "memoria,",
+      "start": 40.156813,
+      "end": 40.616813
+    },
+    {
+      "word": "tus",
+      "start": 40.976813,
+      "end": 41.076813
+    },
+    {
+      "word": "decisiones",
+      "start": 41.076813,
+      "end": 41.876812
+    },
+    {
+      "word": "y",
+      "start": 41.876812,
+      "end": 42.136812
+    },
+    {
+      "word": "cómo",
+      "start": 42.136812,
+      "end": 42.416812
+    },
+    {
+      "word": "regulas",
+      "start": 42.416812,
+      "end": 42.916812
+    },
+    {
+      "word": "tus",
+      "start": 42.916812,
+      "end": 43.056812
+    },
+    {
+      "word": "emociones.",
+      "start": 43.056812,
+      "end": 43.616813
+    },
+    {
+      "word": "Los",
+      "start": 44.03975,
+      "end": 44.15975
+    },
+    {
+      "word": "efectos",
+      "start": 44.15975,
+      "end": 44.63975
+    },
+    {
+      "word": "varían",
+      "start": 44.63975,
+      "end": 44.99975
+    },
+    {
+      "word": "de",
+      "start": 44.99975,
+      "end": 45.17975
+    },
+    {
+      "word": "una",
+      "start": 45.17975,
+      "end": 45.33975
+    },
+    {
+      "word": "persona",
+      "start": 45.33975,
+      "end": 45.77975
+    },
+    {
+      "word": "a",
+      "start": 45.77975,
+      "end": 45.93975
+    },
+    {
+      "word": "otra.",
+      "start": 45.93975,
+      "end": 46.13975
+    },
+    {
+      "word": "El",
+      "start": 46.497813,
+      "end": 46.637813
+    },
+    {
+      "word": "café",
+      "start": 46.637813,
+      "end": 46.917812
+    },
+    {
+      "word": "puede",
+      "start": 46.917812,
+      "end": 47.257812
+    },
+    {
+      "word": "ayudarte",
+      "start": 47.257812,
+      "end": 47.737812
+    },
+    {
+      "word": "a",
+      "start": 47.737812,
+      "end": 47.797812
+    },
+    {
+      "word": "sentir",
+      "start": 47.797812,
+      "end": 48.097813
+    },
+    {
+      "word": "más",
+      "start": 48.097813,
+      "end": 48.437812
+    },
+    {
+      "word": "alerta",
+      "start": 48.437812,
+      "end": 48.877812
+    },
+    {
+      "word": "por",
+      "start": 48.877812,
+      "end": 49.037813
+    },
+    {
+      "word": "un",
+      "start": 49.037813,
+      "end": 49.177813
+    },
+    {
+      "word": "rato.",
+      "start": 49.177813,
+      "end": 49.497813
+    },
+    {
+      "word": "Pero",
+      "start": 49.686104,
+      "end": 49.945583
+    },
+    {
+      "word": "no",
+      "start": 49.945583,
+      "end": 50.185583
+    },
+    {
+      "word": "te",
+      "start": 50.185583,
+      "end": 50.365583
+    },
+    {
+      "word": "da",
+      "start": 50.365583,
+      "end": 50.485583
+    },
+    {
+      "word": "el",
+      "start": 50.485583,
+      "end": 50.585583
+    },
+    {
+      "word": "descanso",
+      "start": 50.585583,
+      "end": 51.285583
+    },
+    {
+      "word": "ni",
+      "start": 51.285583,
+      "end": 51.565583
+    },
+    {
+      "word": "la",
+      "start": 51.565583,
+      "end": 51.685583
+    },
+    {
+      "word": "capacidad",
+      "start": 51.685583,
+      "end": 52.105583
+    },
+    {
+      "word": "de",
+      "start": 52.105583,
+      "end": 52.385583
+    },
+    {
+      "word": "decidir",
+      "start": 52.385583,
+      "end": 52.885583
+    },
+    {
+      "word": "que",
+      "start": 52.885583,
+      "end": 53.085583
+    },
+    {
+      "word": "aporta",
+      "start": 53.085583,
+      "end": 53.365583
+    },
+    {
+      "word": "dormir.",
+      "start": 53.365583,
+      "end": 53.765583
+    },
+    {
+      "word": "Y",
+      "start": 54.048354,
+      "end": 54.215125
+    },
+    {
+      "word": "aunque",
+      "start": 54.215125,
+      "end": 54.355125
+    },
+    {
+      "word": "creas",
+      "start": 54.355125,
+      "end": 54.795125
+    },
+    {
+      "word": "que",
+      "start": 54.795125,
+      "end": 54.895125
+    },
+    {
+      "word": "estás",
+      "start": 54.895125,
+      "end": 55.095125
+    },
+    {
+      "word": "funcionando",
+      "start": 55.095125,
+      "end": 55.695125
+    },
+    {
+      "word": "bien,",
+      "start": 55.695125,
+      "end": 55.915125
+    },
+    {
+      "word": "tu",
+      "start": 56.349333,
+      "end": 56.389333
+    },
+    {
+      "word": "atención",
+      "start": 56.389333,
+      "end": 56.769333
+    },
+    {
+      "word": "puede",
+      "start": 56.769333,
+      "end": 57.229333
+    },
+    {
+      "word": "haber",
+      "start": 57.229333,
+      "end": 57.449333
+    },
+    {
+      "word": "cambiado.",
+      "start": 57.449333,
+      "end": 58.049333
+    },
+    {
+      "word": "Sentirte",
+      "start": 58.351875,
+      "end": 58.811875
+    },
+    {
+      "word": "despierto",
+      "start": 58.811875,
+      "end": 59.371875
+    },
+    {
+      "word": "no",
+      "start": 59.371875,
+      "end": 59.771875
+    },
+    {
+      "word": "garantiza",
+      "start": 59.771875,
+      "end": 60.411875
+    },
+    {
+      "word": "que",
+      "start": 60.411875,
+      "end": 60.551875
+    },
+    {
+      "word": "rindas",
+      "start": 60.551875,
+      "end": 60.931875
+    },
+    {
+      "word": "igual.",
+      "start": 60.931875,
+      "end": 61.151875
+    },
+    {
+      "word": "Dormir",
+      "start": 61.588271,
+      "end": 62.008271
+    },
+    {
+      "word": "no",
+      "start": 62.008271,
+      "end": 62.468271
+    },
+    {
+      "word": "es",
+      "start": 62.468271,
+      "end": 62.688271
+    },
+    {
+      "word": "perder",
+      "start": 62.688271,
+      "end": 62.948271
+    },
+    {
+      "word": "el",
+      "start": 62.948271,
+      "end": 63.148271
+    },
+    {
+      "word": "tiempo:",
+      "start": 63.148271,
+      "end": 63.508271
+    },
+    {
+      "word": "es",
+      "start": 63.869854,
+      "end": 64.029854
+    },
+    {
+      "word": "una",
+      "start": 64.029854,
+      "end": 64.189854
+    },
+    {
+      "word": "necesidad",
+      "start": 64.189854,
+      "end": 64.829854
+    },
+    {
+      "word": "biológica.",
+      "start": 64.829854,
+      "end": 65.509854
+    },
+    {
+      "word": "Si",
+      "start": 65.847771,
+      "end": 65.927771
+    },
+    {
+      "word": "tienes",
+      "start": 65.927771,
+      "end": 66.167771
+    },
+    {
+      "word": "sueño,",
+      "start": 66.167771,
+      "end": 66.803646
+    },
+    {
+      "word": "evita",
+      "start": 66.959625,
+      "end": 67.279625
+    },
+    {
+      "word": "manejar.",
+      "start": 67.279625,
+      "end": 67.779625
+    },
+    {
+      "word": "¿Cuántas",
+      "start": 68.060229,
+      "end": 68.380229
+    },
+    {
+      "word": "horas",
+      "start": 68.380229,
+      "end": 68.560229
+    },
+    {
+      "word": "llevas",
+      "start": 68.560229,
+      "end": 68.900229
+    },
+    {
+      "word": "despierto",
+      "start": 68.900229,
+      "end": 69.400229
+    },
+    {
+      "word": "hoy?",
+      "start": 69.400229,
+      "end": 69.680229
+    }
+  ],
+  "tempo": 1,
+  "removedSilenceSeconds": 4.370625,
+  "notes": "Scene illustration and animation source files remain unchanged. Only scene durations and entry times follow the complete narration."
 }
