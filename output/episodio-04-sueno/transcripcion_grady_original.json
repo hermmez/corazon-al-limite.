@@ -1,0 +1,1310 @@
+{
+  "engine": "faster-whisper",
+  "model": "small",
+  "language": "es",
+  "languageProbability": 1,
+  "audioSha256": "2283d19dd817c4c4c9fc5343864cf0ad7b7171f4834abbea57e9be947724e82d",
+  "elapsedSeconds": 33.0569212436676,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.36,
+      "text": " ¿Qué pasa después de 24 horas sin dormir?",
+      "avgLogprob": -0.13624790060611172,
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.16,
+          "word": " ¿Qué",
+          "probability": 0.8262800574302673
+        },
+        {
+          "start": 0.16,
+          "end": 0.4,
+          "word": " pasa",
+          "probability": 0.99785977602005
+        },
+        {
+          "start": 0.4,
+          "end": 0.82,
+          "word": " después",
+          "probability": 0.9967613816261292
+        },
+        {
+          "start": 0.82,
+          "end": 0.98,
+          "word": " de",
+          "probability": 0.9936829805374146
+        },
+        {
+          "start": 0.98,
+          "end": 1.48,
+          "word": " 24",
+          "probability": 0.9750670194625854
+        },
+        {
+          "start": 1.48,
+          "end": 1.86,
+          "word": " horas",
+          "probability": 0.9919093251228333
+        },
+        {
+          "start": 1.86,
+          "end": 2.12,
+          "word": " sin",
+          "probability": 0.9978098273277283
+        },
+        {
+          "start": 2.12,
+          "end": 2.36,
+          "word": " dormir?",
+          "probability": 0.9987712502479553
+        }
+      ]
+    },
+    {
+      "start": 3.02,
+      "end": 7.74,
+      "text": " No hay un reloj idéntico para todos, pero la falta de sueño puede empezar a cambiar",
+      "avgLogprob": -0.13624790060611172,
+      "words": [
+        {
+          "start": 3.02,
+          "end": 3.26,
+          "word": " No",
+          "probability": 0.98685222864151
+        },
+        {
+          "start": 3.26,
+          "end": 3.4,
+          "word": " hay",
+          "probability": 0.9984318614006042
+        },
+        {
+          "start": 3.4,
+          "end": 3.52,
+          "word": " un",
+          "probability": 0.9969289898872375
+        },
+        {
+          "start": 3.52,
+          "end": 3.82,
+          "word": " reloj",
+          "probability": 0.9656964143117269
+        },
+        {
+          "start": 3.82,
+          "end": 4.28,
+          "word": " idéntico",
+          "probability": 0.9924859801928202
+        },
+        {
+          "start": 4.28,
+          "end": 4.5,
+          "word": " para",
+          "probability": 0.9933133721351624
+        },
+        {
+          "start": 4.5,
+          "end": 4.82,
+          "word": " todos,",
+          "probability": 0.9971252083778381
+        },
+        {
+          "start": 5.22,
+          "end": 5.5,
+          "word": " pero",
+          "probability": 0.994330644607544
+        },
+        {
+          "start": 5.5,
+          "end": 5.66,
+          "word": " la",
+          "probability": 0.9965375661849976
+        },
+        {
+          "start": 5.66,
+          "end": 5.94,
+          "word": " falta",
+          "probability": 0.9981775283813477
+        },
+        {
+          "start": 5.94,
+          "end": 6.14,
+          "word": " de",
+          "probability": 0.9960771203041077
+        },
+        {
+          "start": 6.14,
+          "end": 6.52,
+          "word": " sueño",
+          "probability": 0.9979380071163177
+        },
+        {
+          "start": 6.52,
+          "end": 6.88,
+          "word": " puede",
+          "probability": 0.9792601466178894
+        },
+        {
+          "start": 6.88,
+          "end": 7.32,
+          "word": " empezar",
+          "probability": 0.9949023723602295
+        },
+        {
+          "start": 7.32,
+          "end": 7.44,
+          "word": " a",
+          "probability": 0.9989012479782104
+        },
+        {
+          "start": 7.44,
+          "end": 7.74,
+          "word": " cambiar",
+          "probability": 0.9976031184196472
+        }
+      ]
+    },
+    {
+      "start": 7.74,
+      "end": 9.48,
+      "text": " cómo funciona tu cerebro.",
+      "avgLogprob": -0.13624790060611172,
+      "words": [
+        {
+          "start": 7.74,
+          "end": 8.24,
+          "word": " cómo",
+          "probability": 0.9356611967086792
+        },
+        {
+          "start": 8.24,
+          "end": 8.82,
+          "word": " funciona",
+          "probability": 0.9975499510765076
+        },
+        {
+          "start": 8.82,
+          "end": 9.0,
+          "word": " tu",
+          "probability": 0.9742428660392761
+        },
+        {
+          "start": 9.0,
+          "end": 9.48,
+          "word": " cerebro.",
+          "probability": 0.9979192316532135
+        }
+      ]
+    },
+    {
+      "start": 9.86,
+      "end": 13.26,
+      "text": " Mientras sigues despierto, aumenta la presión por dormir.",
+      "avgLogprob": -0.13624790060611172,
+      "words": [
+        {
+          "start": 9.86,
+          "end": 10.34,
+          "word": " Mientras",
+          "probability": 0.9947249591350555
+        },
+        {
+          "start": 10.34,
+          "end": 10.68,
+          "word": " sigues",
+          "probability": 0.9957360923290253
+        },
+        {
+          "start": 10.68,
+          "end": 11.22,
+          "word": " despierto,",
+          "probability": 0.988321989774704
+        },
+        {
+          "start": 11.66,
+          "end": 12.2,
+          "word": " aumenta",
+          "probability": 0.9948986172676086
+        },
+        {
+          "start": 12.2,
+          "end": 12.3,
+          "word": " la",
+          "probability": 0.9985526204109192
+        },
+        {
+          "start": 12.3,
+          "end": 12.72,
+          "word": " presión",
+          "probability": 0.9940086901187897
+        },
+        {
+          "start": 12.72,
+          "end": 12.92,
+          "word": " por",
+          "probability": 0.9956839084625244
+        },
+        {
+          "start": 12.92,
+          "end": 13.26,
+          "word": " dormir.",
+          "probability": 0.9991901516914368
+        }
+      ]
+    },
+    {
+      "start": 13.74,
+      "end": 18.12,
+      "text": " Puede costarte más concentrarte, reaccionar a tiempo y evitar errores.",
+      "avgLogprob": -0.13624790060611172,
+      "words": [
+        {
+          "start": 13.74,
+          "end": 13.94,
+          "word": " Puede",
+          "probability": 0.9849376380443573
+        },
+        {
+          "start": 13.94,
+          "end": 14.42,
+          "word": " costarte",
+          "probability": 0.964241087436676
+        },
+        {
+          "start": 14.42,
+          "end": 14.68,
+          "word": " más",
+          "probability": 0.9931704998016357
+        },
+        {
+          "start": 14.68,
+          "end": 15.6,
+          "word": " concentrarte,",
+          "probability": 0.9887107610702515
+        },
+        {
+          "start": 15.96,
+          "end": 16.4,
+          "word": " reaccionar",
+          "probability": 0.9877585172653198
+        },
+        {
+          "start": 16.4,
+          "end": 16.54,
+          "word": " a",
+          "probability": 0.9972777962684631
+        },
+        {
+          "start": 16.54,
+          "end": 16.94,
+          "word": " tiempo",
+          "probability": 0.9993211030960083
+        },
+        {
+          "start": 16.94,
+          "end": 17.3,
+          "word": " y",
+          "probability": 0.8586269021034241
+        },
+        {
+          "start": 17.3,
+          "end": 17.6,
+          "word": " evitar",
+          "probability": 0.9981176853179932
+        },
+        {
+          "start": 17.6,
+          "end": 18.12,
+          "word": " errores.",
+          "probability": 0.9992953240871429
+        }
+      ]
+    },
+    {
+      "start": 18.66,
+      "end": 20.2,
+      "text": " Y aquí viene lo peligroso.",
+      "avgLogprob": -0.13624790060611172,
+      "words": [
+        {
+          "start": 18.66,
+          "end": 18.78,
+          "word": " Y",
+          "probability": 0.9645893573760986
+        },
+        {
+          "start": 18.78,
+          "end": 19.04,
+          "word": " aquí",
+          "probability": 0.9875374436378479
+        },
+        {
+          "start": 19.04,
+          "end": 19.36,
+          "word": " viene",
+          "probability": 0.9960447549819946
+        },
+        {
+          "start": 19.36,
+          "end": 19.5,
+          "word": " lo",
+          "probability": 0.9967346787452698
+        },
+        {
+          "start": 19.5,
+          "end": 20.2,
+          "word": " peligroso.",
+          "probability": 0.9933324853579203
+        }
+      ]
+    },
+    {
+      "start": 20.6,
+      "end": 22.46,
+      "text": " Pueden aparecer microsueños.",
+      "avgLogprob": -0.13624790060611172,
+      "words": [
+        {
+          "start": 20.6,
+          "end": 20.92,
+          "word": " Pueden",
+          "probability": 0.9841300845146179
+        },
+        {
+          "start": 20.92,
+          "end": 21.38,
+          "word": " aparecer",
+          "probability": 0.9859472513198853
+        },
+        {
+          "start": 21.38,
+          "end": 22.46,
+          "word": " microsueños.",
+          "probability": 0.8731140494346619
+        }
+      ]
+    },
+    {
+      "start": 23.02,
+      "end": 27.62,
+      "text": " Son lapsos breves en los que el cerebro deja de responder, incluso con los ojos",
+      "avgLogprob": -0.13624790060611172,
+      "words": [
+        {
+          "start": 23.02,
+          "end": 23.26,
+          "word": " Son",
+          "probability": 0.9922353625297546
+        },
+        {
+          "start": 23.26,
+          "end": 23.66,
+          "word": " lapsos",
+          "probability": 0.963764101266861
+        },
+        {
+          "start": 23.66,
+          "end": 24.06,
+          "word": " breves",
+          "probability": 0.9848980009555817
+        },
+        {
+          "start": 24.06,
+          "end": 24.32,
+          "word": " en",
+          "probability": 0.9599219560623169
+        },
+        {
+          "start": 24.32,
+          "end": 24.44,
+          "word": " los",
+          "probability": 0.9948462247848511
+        },
+        {
+          "start": 24.44,
+          "end": 24.6,
+          "word": " que",
+          "probability": 0.998721182346344
+        },
+        {
+          "start": 24.6,
+          "end": 24.74,
+          "word": " el",
+          "probability": 0.9981901049613953
+        },
+        {
+          "start": 24.74,
+          "end": 25.08,
+          "word": " cerebro",
+          "probability": 0.997742623090744
+        },
+        {
+          "start": 25.08,
+          "end": 25.44,
+          "word": " deja",
+          "probability": 0.989452064037323
+        },
+        {
+          "start": 25.44,
+          "end": 25.62,
+          "word": " de",
+          "probability": 0.9983996748924255
+        },
+        {
+          "start": 25.62,
+          "end": 26.14,
+          "word": " responder,",
+          "probability": 0.9987228512763977
+        },
+        {
+          "start": 26.44,
+          "end": 26.94,
+          "word": " incluso",
+          "probability": 0.9941624999046326
+        },
+        {
+          "start": 26.94,
+          "end": 27.24,
+          "word": " con",
+          "probability": 0.9977947473526001
+        },
+        {
+          "start": 27.24,
+          "end": 27.36,
+          "word": " los",
+          "probability": 0.9974241256713867
+        },
+        {
+          "start": 27.36,
+          "end": 27.62,
+          "word": " ojos",
+          "probability": 0.9986317753791809
+        }
+      ]
+    },
+    {
+      "start": 27.62,
+      "end": 28.26,
+      "text": " abiertos.",
+      "avgLogprob": -0.13624790060611172,
+      "words": [
+        {
+          "start": 27.62,
+          "end": 28.26,
+          "word": " abiertos.",
+          "probability": 0.9977538386980692
+        }
+      ]
+    },
+    {
+      "start": 28.26,
+      "end": 30.72,
+      "text": " No existe una hora exacta para todos.",
+      "avgLogprob": -0.10886156748120601,
+      "words": [
+        {
+          "start": 28.26,
+          "end": 28.98,
+          "word": " No",
+          "probability": 0.4397977292537689
+        },
+        {
+          "start": 28.98,
+          "end": 29.32,
+          "word": " existe",
+          "probability": 0.9905678629875183
+        },
+        {
+          "start": 29.32,
+          "end": 29.58,
+          "word": " una",
+          "probability": 0.991330623626709
+        },
+        {
+          "start": 29.58,
+          "end": 29.78,
+          "word": " hora",
+          "probability": 0.9910043478012085
+        },
+        {
+          "start": 29.78,
+          "end": 30.28,
+          "word": " exacta",
+          "probability": 0.992749959230423
+        },
+        {
+          "start": 30.28,
+          "end": 30.44,
+          "word": " para",
+          "probability": 0.99735426902771
+        },
+        {
+          "start": 30.44,
+          "end": 30.72,
+          "word": " todos.",
+          "probability": 0.9951186180114746
+        }
+      ]
+    },
+    {
+      "start": 31.26,
+      "end": 32.64,
+      "text": " Imagina que vas manejando.",
+      "avgLogprob": -0.10886156748120601,
+      "words": [
+        {
+          "start": 31.26,
+          "end": 31.78,
+          "word": " Imagina",
+          "probability": 0.9927948117256165
+        },
+        {
+          "start": 31.78,
+          "end": 31.9,
+          "word": " que",
+          "probability": 0.989382803440094
+        },
+        {
+          "start": 31.9,
+          "end": 32.06,
+          "word": " vas",
+          "probability": 0.9924435019493103
+        },
+        {
+          "start": 32.06,
+          "end": 32.64,
+          "word": " manejando.",
+          "probability": 0.9982283314069113
+        }
+      ]
+    },
+    {
+      "start": 33.06,
+      "end": 36.48,
+      "text": " Un lapso sin responder puede hacerte perder información clave.",
+      "avgLogprob": -0.10886156748120601,
+      "words": [
+        {
+          "start": 33.06,
+          "end": 33.22,
+          "word": " Un",
+          "probability": 0.9867456555366516
+        },
+        {
+          "start": 33.22,
+          "end": 33.54,
+          "word": " lapso",
+          "probability": 0.8743912577629089
+        },
+        {
+          "start": 33.54,
+          "end": 33.72,
+          "word": " sin",
+          "probability": 0.9879376292228699
+        },
+        {
+          "start": 33.72,
+          "end": 34.24,
+          "word": " responder",
+          "probability": 0.998076319694519
+        },
+        {
+          "start": 34.24,
+          "end": 34.6,
+          "word": " puede",
+          "probability": 0.9603352546691895
+        },
+        {
+          "start": 34.6,
+          "end": 35.0,
+          "word": " hacerte",
+          "probability": 0.9888647198677063
+        },
+        {
+          "start": 35.0,
+          "end": 35.28,
+          "word": " perder",
+          "probability": 0.9586585164070129
+        },
+        {
+          "start": 35.28,
+          "end": 35.76,
+          "word": " información",
+          "probability": 0.9983540773391724
+        },
+        {
+          "start": 35.76,
+          "end": 36.48,
+          "word": " clave.",
+          "probability": 0.9933023750782013
+        }
+      ]
+    },
+    {
+      "start": 36.9,
+      "end": 39.58,
+      "text": " Por eso conducir con sueño es tan arriesgado.",
+      "avgLogprob": -0.10886156748120601,
+      "words": [
+        {
+          "start": 36.9,
+          "end": 37.1,
+          "word": " Por",
+          "probability": 0.9887999296188354
+        },
+        {
+          "start": 37.1,
+          "end": 37.3,
+          "word": " eso",
+          "probability": 0.9951750040054321
+        },
+        {
+          "start": 37.3,
+          "end": 37.86,
+          "word": " conducir",
+          "probability": 0.7715325057506561
+        },
+        {
+          "start": 37.86,
+          "end": 38.02,
+          "word": " con",
+          "probability": 0.9958792924880981
+        },
+        {
+          "start": 38.02,
+          "end": 38.4,
+          "word": " sueño",
+          "probability": 0.9947151839733124
+        },
+        {
+          "start": 38.4,
+          "end": 38.92,
+          "word": " es",
+          "probability": 0.8958810567855835
+        },
+        {
+          "start": 38.92,
+          "end": 39.02,
+          "word": " tan",
+          "probability": 0.9528996348381042
+        },
+        {
+          "start": 39.02,
+          "end": 39.58,
+          "word": " arriesgado.",
+          "probability": 0.9862922032674154
+        }
+      ]
+    },
+    {
+      "start": 40.28,
+      "end": 45.96,
+      "text": " La falta de sueño también puede afectar tu memoria, tus decisiones y cómo regulas tus emociones.",
+      "avgLogprob": -0.10886156748120601,
+      "words": [
+        {
+          "start": 40.28,
+          "end": 40.42,
+          "word": " La",
+          "probability": 0.9892410635948181
+        },
+        {
+          "start": 40.42,
+          "end": 40.62,
+          "word": " falta",
+          "probability": 0.9984719157218933
+        },
+        {
+          "start": 40.62,
+          "end": 40.82,
+          "word": " de",
+          "probability": 0.9951985478401184
+        },
+        {
+          "start": 40.82,
+          "end": 41.18,
+          "word": " sueño",
+          "probability": 0.9988215863704681
+        },
+        {
+          "start": 41.18,
+          "end": 41.56,
+          "word": " también",
+          "probability": 0.9911147356033325
+        },
+        {
+          "start": 41.56,
+          "end": 41.84,
+          "word": " puede",
+          "probability": 0.9977967739105225
+        },
+        {
+          "start": 41.84,
+          "end": 42.32,
+          "word": " afectar",
+          "probability": 0.9976939558982849
+        },
+        {
+          "start": 42.32,
+          "end": 42.5,
+          "word": " tu",
+          "probability": 0.9902701377868652
+        },
+        {
+          "start": 42.5,
+          "end": 42.96,
+          "word": " memoria,",
+          "probability": 0.9984162449836731
+        },
+        {
+          "start": 43.32,
+          "end": 43.42,
+          "word": " tus",
+          "probability": 0.988680362701416
+        },
+        {
+          "start": 43.42,
+          "end": 44.22,
+          "word": " decisiones",
+          "probability": 0.8817667067050934
+        },
+        {
+          "start": 44.22,
+          "end": 44.48,
+          "word": " y",
+          "probability": 0.8696797490119934
+        },
+        {
+          "start": 44.48,
+          "end": 44.76,
+          "word": " cómo",
+          "probability": 0.9290688037872314
+        },
+        {
+          "start": 44.76,
+          "end": 45.26,
+          "word": " regulas",
+          "probability": 0.9791027307510376
+        },
+        {
+          "start": 45.26,
+          "end": 45.4,
+          "word": " tus",
+          "probability": 0.9833396673202515
+        },
+        {
+          "start": 45.4,
+          "end": 45.96,
+          "word": " emociones.",
+          "probability": 0.997923344373703
+        }
+      ]
+    },
+    {
+      "start": 46.54,
+      "end": 48.64,
+      "text": " Los efectos varían de una persona a otra.",
+      "avgLogprob": -0.10886156748120601,
+      "words": [
+        {
+          "start": 46.54,
+          "end": 46.66,
+          "word": " Los",
+          "probability": 0.9920083284378052
+        },
+        {
+          "start": 46.66,
+          "end": 47.14,
+          "word": " efectos",
+          "probability": 0.999031126499176
+        },
+        {
+          "start": 47.14,
+          "end": 47.5,
+          "word": " varían",
+          "probability": 0.9777874946594238
+        },
+        {
+          "start": 47.5,
+          "end": 47.68,
+          "word": " de",
+          "probability": 0.9990118741989136
+        },
+        {
+          "start": 47.68,
+          "end": 47.84,
+          "word": " una",
+          "probability": 0.9973123073577881
+        },
+        {
+          "start": 47.84,
+          "end": 48.28,
+          "word": " persona",
+          "probability": 0.9952670335769653
+        },
+        {
+          "start": 48.28,
+          "end": 48.44,
+          "word": " a",
+          "probability": 0.9969692826271057
+        },
+        {
+          "start": 48.44,
+          "end": 48.64,
+          "word": " otra.",
+          "probability": 0.9884031414985657
+        }
+      ]
+    },
+    {
+      "start": 49.28,
+      "end": 52.28,
+      "text": " El café puede ayudarte a sentir más alerta por un rato,",
+      "avgLogprob": -0.10886156748120601,
+      "words": [
+        {
+          "start": 49.28,
+          "end": 49.42,
+          "word": " El",
+          "probability": 0.9937688112258911
+        },
+        {
+          "start": 49.42,
+          "end": 49.7,
+          "word": " café",
+          "probability": 0.9911909699440002
+        },
+        {
+          "start": 49.7,
+          "end": 50.04,
+          "word": " puede",
+          "probability": 0.9972724318504333
+        },
+        {
+          "start": 50.04,
+          "end": 50.52,
+          "word": " ayudarte",
+          "probability": 0.9967160224914551
+        },
+        {
+          "start": 50.52,
+          "end": 50.58,
+          "word": " a",
+          "probability": 0.9966447353363037
+        },
+        {
+          "start": 50.58,
+          "end": 50.88,
+          "word": " sentir",
+          "probability": 0.9984033703804016
+        },
+        {
+          "start": 50.88,
+          "end": 51.22,
+          "word": " más",
+          "probability": 0.9867845177650452
+        },
+        {
+          "start": 51.22,
+          "end": 51.66,
+          "word": " alerta",
+          "probability": 0.9903654158115387
+        },
+        {
+          "start": 51.66,
+          "end": 51.82,
+          "word": " por",
+          "probability": 0.9938726425170898
+        },
+        {
+          "start": 51.82,
+          "end": 51.96,
+          "word": " un",
+          "probability": 0.9990744590759277
+        },
+        {
+          "start": 51.96,
+          "end": 52.28,
+          "word": " rato,",
+          "probability": 0.9982877969741821
+        }
+      ]
+    },
+    {
+      "start": 52.54,
+      "end": 56.7,
+      "text": " pero no te da el descanso ni la capacidad de decidir que aporta dormir.",
+      "avgLogprob": -0.10886156748120601,
+      "words": [
+        {
+          "start": 52.54,
+          "end": 52.88,
+          "word": " pero",
+          "probability": 0.9941673278808594
+        },
+        {
+          "start": 52.88,
+          "end": 53.12,
+          "word": " no",
+          "probability": 0.9977977275848389
+        },
+        {
+          "start": 53.12,
+          "end": 53.3,
+          "word": " te",
+          "probability": 0.9985563158988953
+        },
+        {
+          "start": 53.3,
+          "end": 53.42,
+          "word": " da",
+          "probability": 0.9951525926589966
+        },
+        {
+          "start": 53.42,
+          "end": 53.52,
+          "word": " el",
+          "probability": 0.9916645884513855
+        },
+        {
+          "start": 53.52,
+          "end": 54.22,
+          "word": " descanso",
+          "probability": 0.9940061767896017
+        },
+        {
+          "start": 54.22,
+          "end": 54.5,
+          "word": " ni",
+          "probability": 0.9767946600914001
+        },
+        {
+          "start": 54.5,
+          "end": 54.62,
+          "word": " la",
+          "probability": 0.99810791015625
+        },
+        {
+          "start": 54.62,
+          "end": 55.04,
+          "word": " capacidad",
+          "probability": 0.9964396357536316
+        },
+        {
+          "start": 55.04,
+          "end": 55.32,
+          "word": " de",
+          "probability": 0.9983834028244019
+        },
+        {
+          "start": 55.32,
+          "end": 55.82,
+          "word": " decidir",
+          "probability": 0.995000809431076
+        },
+        {
+          "start": 55.82,
+          "end": 56.02,
+          "word": " que",
+          "probability": 0.8880525827407837
+        },
+        {
+          "start": 56.02,
+          "end": 56.3,
+          "word": " aporta",
+          "probability": 0.9935085475444794
+        },
+        {
+          "start": 56.3,
+          "end": 56.7,
+          "word": " dormir.",
+          "probability": 0.2923608422279358
+        }
+      ]
+    },
+    {
+      "start": 57.260000000000005,
+      "end": 61.26,
+      "text": " Y aunque creas que estás funcionando bien, tu atención puede haber cambiado.",
+      "avgLogprob": -0.1557359408314635,
+      "words": [
+        {
+          "start": 57.04,
+          "end": 57.42,
+          "word": " Y",
+          "probability": 0.698074460029602
+        },
+        {
+          "start": 57.42,
+          "end": 57.56,
+          "word": " aunque",
+          "probability": 0.9117159247398376
+        },
+        {
+          "start": 57.56,
+          "end": 58.0,
+          "word": " creas",
+          "probability": 0.9972908198833466
+        },
+        {
+          "start": 58.0,
+          "end": 58.1,
+          "word": " que",
+          "probability": 0.9974415302276611
+        },
+        {
+          "start": 58.1,
+          "end": 58.3,
+          "word": " estás",
+          "probability": 0.9760112762451172
+        },
+        {
+          "start": 58.3,
+          "end": 58.9,
+          "word": " funcionando",
+          "probability": 0.9984142184257507
+        },
+        {
+          "start": 58.9,
+          "end": 59.12,
+          "word": " bien,",
+          "probability": 0.9979661703109741
+        },
+        {
+          "start": 59.56,
+          "end": 59.6,
+          "word": " tu",
+          "probability": 0.9926620721817017
+        },
+        {
+          "start": 59.6,
+          "end": 59.98,
+          "word": " atención",
+          "probability": 0.9988588094711304
+        },
+        {
+          "start": 59.98,
+          "end": 60.44,
+          "word": " puede",
+          "probability": 0.9951391220092773
+        },
+        {
+          "start": 60.44,
+          "end": 60.66,
+          "word": " haber",
+          "probability": 0.9976296424865723
+        },
+        {
+          "start": 60.66,
+          "end": 61.26,
+          "word": " cambiado.",
+          "probability": 0.99946528673172
+        }
+      ]
+    },
+    {
+      "start": 61.74,
+      "end": 64.54,
+      "text": " Sentirte despierto no garantiza que rindas igual.",
+      "avgLogprob": -0.1557359408314635,
+      "words": [
+        {
+          "start": 61.74,
+          "end": 62.2,
+          "word": " Sentirte",
+          "probability": 0.9772427280743917
+        },
+        {
+          "start": 62.2,
+          "end": 62.76,
+          "word": " despierto",
+          "probability": 0.9921776950359344
+        },
+        {
+          "start": 62.76,
+          "end": 63.16,
+          "word": " no",
+          "probability": 0.9613767266273499
+        },
+        {
+          "start": 63.16,
+          "end": 63.8,
+          "word": " garantiza",
+          "probability": 0.9859263896942139
+        },
+        {
+          "start": 63.8,
+          "end": 63.94,
+          "word": " que",
+          "probability": 0.9975563287734985
+        },
+        {
+          "start": 63.94,
+          "end": 64.32,
+          "word": " rindas",
+          "probability": 0.9695706963539124
+        },
+        {
+          "start": 64.32,
+          "end": 64.54,
+          "word": " igual.",
+          "probability": 0.9984363913536072
+        }
+      ]
+    },
+    {
+      "start": 65.26,
+      "end": 67.18,
+      "text": " Dormir no es perder el tiempo.",
+      "avgLogprob": -0.1557359408314635,
+      "words": [
+        {
+          "start": 65.26,
+          "end": 65.68,
+          "word": " Dormir",
+          "probability": 0.9712311228116354
+        },
+        {
+          "start": 65.68,
+          "end": 66.14,
+          "word": " no",
+          "probability": 0.9586241245269775
+        },
+        {
+          "start": 66.14,
+          "end": 66.36,
+          "word": " es",
+          "probability": 0.997420072555542
+        },
+        {
+          "start": 66.36,
+          "end": 66.62,
+          "word": " perder",
+          "probability": 0.9984360337257385
+        },
+        {
+          "start": 66.62,
+          "end": 66.82,
+          "word": " el",
+          "probability": 0.9977655410766602
+        },
+        {
+          "start": 66.82,
+          "end": 67.18,
+          "word": " tiempo.",
+          "probability": 0.9988277554512024
+        }
+      ]
+    },
+    {
+      "start": 67.62,
+      "end": 69.26,
+      "text": " Es una necesidad biológica.",
+      "avgLogprob": -0.1557359408314635,
+      "words": [
+        {
+          "start": 67.62,
+          "end": 67.78,
+          "word": " Es",
+          "probability": 0.9885872602462769
+        },
+        {
+          "start": 67.78,
+          "end": 67.94,
+          "word": " una",
+          "probability": 0.9980454444885254
+        },
+        {
+          "start": 67.94,
+          "end": 68.58,
+          "word": " necesidad",
+          "probability": 0.9997079372406006
+        },
+        {
+          "start": 68.58,
+          "end": 69.26,
+          "word": " biológica.",
+          "probability": 0.9950914780298868
+        }
+      ]
+    },
+    {
+      "start": 69.78,
+      "end": 71.72,
+      "text": " Si tienes sueño, evita manejar.",
+      "avgLogprob": -0.1557359408314635,
+      "words": [
+        {
+          "start": 69.78,
+          "end": 69.86,
+          "word": " Si",
+          "probability": 0.9898025393486023
+        },
+        {
+          "start": 69.86,
+          "end": 70.1,
+          "word": " tienes",
+          "probability": 0.9838693737983704
+        },
+        {
+          "start": 70.1,
+          "end": 70.74,
+          "word": " sueño,",
+          "probability": 0.9977239966392517
+        },
+        {
+          "start": 70.9,
+          "end": 71.22,
+          "word": " evita",
+          "probability": 0.916237860918045
+        },
+        {
+          "start": 71.22,
+          "end": 71.72,
+          "word": " manejar.",
+          "probability": 0.9979177713394165
+        }
+      ]
+    },
+    {
+      "start": 72.42,
+      "end": 74.04,
+      "text": " ¿Cuántas horas llevas despierto hoy?",
+      "avgLogprob": -0.1557359408314635,
+      "words": [
+        {
+          "start": 72.42,
+          "end": 72.74,
+          "word": " ¿Cuántas",
+          "probability": 0.9628022760152817
+        },
+        {
+          "start": 72.74,
+          "end": 72.92,
+          "word": " horas",
+          "probability": 0.9992881417274475
+        },
+        {
+          "start": 72.92,
+          "end": 73.26,
+          "word": " llevas",
+          "probability": 0.9890938699245453
+        },
+        {
+          "start": 73.26,
+          "end": 73.76,
+          "word": " despierto",
+          "probability": 0.9906830787658691
+        },
+        {
+          "start": 73.76,
+          "end": 74.04,
+          "word": " hoy?",
+          "probability": 0.9947829842567444
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "provider-read-failed",
+  "voiceId": "YKUjKbMlejgvkOZlnnvt",
+  "voiceName": "Alejandro Ballesteros - Warm and Joyful",
+  "locale": "es-MX",
+  "text": "¿Veinticuatro horas sin dormir? Tu cuerpo no simplemente se cansa… tu cerebro empieza a funcionar de otra manera. Y aquí viene lo peligroso: pueden aparecer microsueños, incluso con los ojos abiertos.",
+  "characters": 200,
+  "maxAuditionCharacters": 300,
+  "generationAuthorized": false,
+  "audioGenerationCalls": 0,
+  "httpStatus": 401,
+  "workflowRunUrl": "https://github.com/hermmez/corazon-al-limite./actions/runs/41928935538"
+}

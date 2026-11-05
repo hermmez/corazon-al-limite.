@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "episode": 4,
+  "provider": "Higgsfield",
+  "model": "elevenlabs_v4",
+  "voice": {
+    "name": "Grady",
+    "id": "e2a2d2e6-9ed2-59cd-82af-feaa27f8a678",
+    "type": "preset",
+    "language": "es",
+    "approvedByUser": true
+  },
+  "jobId": "5967ff15-994f-42b4-a3d4-dccce1e32d9b",
+  "generations": 1,
+  "quoteCredits": 5.29,
+  "authorization": {
+    "message": "Autorizo 5.29 créditos para una generación",
+    "maxGenerations": 1
+  },
+  "script": {
+    "file": "guion_definitivo_grady.txt",
+    "characters": 1139,
+    "words": 186,
+    "sha256": "c884394a7c7cc29efafad8eb6da123ddc6e6863c34e7ae02b2d6c680c1047438"
+  },
+  "originalAudio": "narracion_grady_original.mp3",
+  "originalSha256": "2283d19dd817c4c4c9fc5343864cf0ad7b7171f4834abbea57e9be947724e82d",
+  "editedAudio": "narracion_grady_70s.wav",
+  "durationSeconds": 70,
+  "sampleRate": 48000,
+  "tempo": 1,
+  "wordsRemoved": 0,
+  "editing": "Remove 4.370625 seconds only from measured silent pause centers, retaining at least 0.250421 seconds per edited pause; loudness normalization without timing change.",
+  "sourceUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3LWCFBq7eIgrDcVAzFjRPaNtjHC/hf_20261105_001146_5967ff15-994f-42b4-a3d4-dccce1e32d9b.mp3",
+  "directElevenLabsApiUsed": false
+}

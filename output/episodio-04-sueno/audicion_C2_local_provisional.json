@@ -1,0 +1,27 @@
+{
+  "status": "rejected-by-user",
+  "profile": "CORAZON_CINEMATIC_MX",
+  "provider": "Piper local",
+  "voiceId": "es_MX-ald-medium",
+  "modelId": "es_MX-ald-medium",
+  "modelSha256": "019b3803293c93e34a206dd2e53a3889209a514e786fd7144f7b70196c579b63",
+  "directionLabel": "C2 cinematográfica dinámica (solo ritmo de síntesis) ",
+  "text": "¿Veinticuatro horas sin dormir? No hay un cronómetro igual para todos. La falta de sueño puede ralentizar tu atención y provocar microsueños: lapsos breves en los que tu cerebro deja de responder, incluso con los ojos abiertos.",
+  "controls": {
+    "length_scale": 0.82,
+    "noise_scale": 0.55,
+    "noise_w_scale": 0.65
+  },
+  "semanticActingSupported": false,
+  "durationSeconds": 12.759365,
+  "sampleRate": 22050,
+  "channels": 1,
+  "sampleWidthBytes": 2,
+  "paidGenerations": 0,
+  "creditsSpent": 0,
+  "officialVoiceChanged": false,
+  "limitations": "La muestra usa la voz local Aldo; Piper no admite actuación por intención, emoción, énfasis o timbre. No se marca como narrador oficial ni sustituye una audición comercial.",
+  "sha256": "35ea69874b4e6b99ed4aadbbdbef62d78c2d067dd43814d232d6e0c8ed6af006",
+  "rejectionReason": "robotic-delivery",
+  "approvedForProduction": false
+}
