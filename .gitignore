@@ -40,3 +40,10 @@ output/episodio-04-sueno/revision-*.png
 output/episodio-04-sueno/*REVISION_VISUAL*.mp4
 output/episodio-04-sueno/episodio04_FINAL_GRADY.mp4
 
+# Episode 05: generated bundles and QA images remain local.
+output/episodio-05-nuclear/revision-interna/
+output/episodio-05-nuclear/revision-*.png
+output/episodio-05-nuclear/episodio05_FINAL_GRADY.mp4
+public/episodio-05/ilustraciones/edificio-corte-sotano.png
+
+output/episodio-05-nuclear/narracion_grady_192k.m4a

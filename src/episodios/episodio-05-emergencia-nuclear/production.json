@@ -1,0 +1,86 @@
+{
+  "episode": 5,
+  "composition": "Episodio05EmergenciaNuclear",
+  "title": "¿Qué hacer si ocurre una explosión nuclear?",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 2100,
+  "durationSeconds": 70,
+  "status": "final-render-verified",
+  "visualStandard": "100-percent-2d-illustrated-full-frame",
+  "reference": {
+    "episode": 4,
+    "component": "src/episodios/episodio-04-sin-dormir/scenes/FunctionsScene.tsx",
+    "baselineCommit": "b43ec80031ba5799dbb52050dca07766dd876314",
+    "reusedComponents": [
+      "Backdrop",
+      "Clock",
+      "C",
+      "clamp",
+      "original",
+      "useTime"
+    ]
+  },
+  "assets": "public/episodio-05/ilustraciones/manifest.json",
+  "assetPrompts": "RECURSOS_PLAN.json",
+  "scienceReview": "CIENCIA.md",
+  "voice": {
+    "provider": "Higgsfield",
+    "model": "elevenlabs_v4",
+    "name": "Grady",
+    "voiceId": "e2a2d2e6-9ed2-59cd-82af-feaa27f8a678",
+    "voiceType": "preset",
+    "language": "es",
+    "approvedByUser": true,
+    "authorizedCredits": 5.52,
+    "generationCalls": 1,
+    "jobId": "00306b8e-ba8c-4e3e-b4b3-ed2c460febda",
+    "audio": "episodio-05/audio/narracion_grady_70s.wav",
+    "tempo": 1,
+    "wordsRemoved": 0,
+    "scriptWords": 174,
+    "directElevenLabsApiUsed": false
+  },
+  "timing": {
+    "source": "measured Spanish audio words; DTW alignment of noventa por ciento",
+    "removedSilentSeconds": 5.232666666666667,
+    "minimumRetainedEditedPauseSeconds": 0.200283,
+    "transitionsOverlapFrames": 12,
+    "sceneWindows": "timeline.json",
+    "captionWords": "captions.json"
+  },
+  "layout": {
+    "fullFrame": true,
+    "permanentTopTitle": false,
+    "progressBar": false,
+    "decorativeFooterLegend": false,
+    "subtitleMaxLines": 2,
+    "subtitleWordsPerGroup": [
+      3,
+      5
+    ],
+    "educationalLabels": [
+      "Hasta 90 %",
+      "Al menos 24 h"
+    ]
+  },
+  "export": {
+    "videoCodec": "h264",
+    "videoProfile": "high",
+    "crf": 18,
+    "pixelFormat": "yuv420p",
+    "colorSpace": "bt709",
+    "audioCodec": "aac",
+    "audioSampleRate": 48000,
+    "audioBitrateTarget": 192000,
+    "faststart": true,
+    "finalFile": "output/episodio-05-nuclear/episodio05_FINAL_GRADY.mp4",
+    "sha256": "35496256a2202e6f6d092670b714b622d88792e85a3ce27f088ba19289f606a3",
+    "bytes": 47179843,
+    "audioBitrateMeasured": 191732,
+    "sourceFingerprint": "f42128de922208d0551b7d734d99c7e51627c42402ed50a4d946b2a9ded7c148",
+    "technicalVerification": "output/episodio-05-nuclear/grady-verificacion-final.json"
+  },
+  "report": "INFORME.md"
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 0,
+    "name": "Destello en la ciudad",
+    "start": 0,
+    "end": 8,
+    "text": "¿Qué harías si una bomba nuclear explotara cerca de tu ciudad? Tus primeros segundos podrían marcar la diferencia entre vivir y morir."
+  },
+  {
+    "id": 1,
+    "name": "Protección ante la onda expansiva",
+    "start": 8,
+    "end": 17,
+    "text": "Si ves un destello extremadamente brillante, ¡no lo mires! Tírate al suelo, boca abajo, y protege tu cabeza. La onda expansiva puede llegar después."
+  },
+  {
+    "id": 2,
+    "name": "Entrar y buscar refugio interior",
+    "start": 17,
+    "end": 26,
+    "text": "En cuanto pase el peligro inmediato, entra al edificio resistente más cercano. Un sótano o una habitación central, lejos de las ventanas, puede protegerte mejor."
+  },
+  {
+    "id": 3,
+    "name": "Lluvia radiactiva",
+    "start": 26,
+    "end": 35,
+    "text": "No salgas a buscar provisiones. Después de una explosión, el polvo radiactivo puede caer sobre calles, vehículos y edificios."
+  },
+  {
+    "id": 4,
+    "name": "Retirar y aislar ropa exterior",
+    "start": 35,
+    "end": 44,
+    "text": "Si estuviste afuera, quítate cuidadosamente la ropa exterior. Esto puede eliminar hasta el noventa por ciento del material radiactivo que llevas encima."
+  },
+  {
+    "id": 5,
+    "name": "Lavado y provisiones selladas",
+    "start": 44,
+    "end": 53,
+    "text": "Después, lávate con agua y jabón, sin tallarte agresivamente. Usa agua embotellada y alimentos sellados cuando estén disponibles."
+  },
+  {
+    "id": 6,
+    "name": "Permanecer y escuchar información oficial",
+    "start": 53,
+    "end": 62,
+    "text": "Permanece dentro al menos veinticuatro horas, salvo que exista un peligro inmediato o las autoridades indiquen otra cosa. Mantente atento a la información oficial."
+  },
+  {
+    "id": 7,
+    "name": "Entra, permanece y mantente informado",
+    "start": 62,
+    "end": 70,
+    "text": "Recuerda estas tres palabras: entra, permanece y mantente informado. En una emergencia nuclear, saber qué hacer puede salvarte la vida."
+  }
+]

@@ -1,0 +1,220 @@
+{
+  "selectedAssets": 15,
+  "rejectedCandidates": [
+    "edificio-corte-sotano.png"
+  ],
+  "generator": "built-in image_gen",
+  "paidImageGenerations": 0,
+  "assets": [
+    {
+      "id": "ciudad-avenida",
+      "file": "ciudad-avenida.png",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "mode": "RGB",
+      "alpha": null,
+      "sha256": "7d210eb4f984bd856061687497c8b7b188e66585188fcf770320efeea57f1f37",
+      "backgroundCoverScale": 1.1483253588516746
+    },
+    {
+      "id": "nube-explosion",
+      "file": "nube-explosion.png",
+      "dimensions": [
+        1201,
+        1309
+      ],
+      "mode": "RGBA",
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "2c620453761f0fa53a0338ceaa63234a4ddb9686b39c14679c1e1c8f86d284f5",
+      "backgroundCoverScale": null
+    },
+    {
+      "id": "personaje-chaqueta",
+      "file": "personaje-chaqueta.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha": [
+        0,
+        254
+      ],
+      "sha256": "851043aac22fe800e6903b987989684b8d350352b1ef89a35e92037b0ccd08ff",
+      "backgroundCoverScale": null
+    },
+    {
+      "id": "personaje-protegiendose",
+      "file": "personaje-protegiendose.png",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "1970f01bea0e1bc40a971b8dd29dd727430ca8ceef6acaa2fc3c27038378b58f",
+      "backgroundCoverScale": null
+    },
+    {
+      "id": "personaje-entrando",
+      "file": "personaje-entrando.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha": [
+        0,
+        254
+      ],
+      "sha256": "2f50fcf505a01d3e4e455f8102831281466809b9e69aaedef160f5c54809dfa0",
+      "backgroundCoverScale": null
+    },
+    {
+      "id": "edificio-concreto",
+      "file": "edificio-concreto.png",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "mode": "RGB",
+      "alpha": null,
+      "sha256": "be52e761e53657e37f727dd383efe8cca7e7085a39ce8b42da2238f0de7cadd8",
+      "backgroundCoverScale": 1.1483253588516746
+    },
+    {
+      "id": "edificio-corte-sotano",
+      "file": "edificio-corte-sotano-v2.png",
+      "dimensions": [
+        941,
+        1671
+      ],
+      "mode": "RGB",
+      "alpha": null,
+      "sha256": "5d218ccd18141ee0b7ce071772e8e94265b2a3a79b5067af59503d1e4094d9c1",
+      "backgroundCoverScale": 1.1490125673249552
+    },
+    {
+      "id": "refugio-interior",
+      "file": "refugio-interior.png",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "mode": "RGB",
+      "alpha": null,
+      "sha256": "e187b8664712bd89816383d36546412c009338e7adf25b13febba1656304ec3b",
+      "backgroundCoverScale": 1.1483253588516746
+    },
+    {
+      "id": "personaje-retirando-chaqueta",
+      "file": "personaje-retirando-chaqueta.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha": [
+        0,
+        254
+      ],
+      "sha256": "bf14ae76e74d2bf691d82d6719e16b7e4aaf146e467c90b82345afe5a2b86cc1",
+      "backgroundCoverScale": null
+    },
+    {
+      "id": "chaqueta-exterior",
+      "file": "chaqueta-exterior.png",
+      "dimensions": [
+        1199,
+        1312
+      ],
+      "mode": "RGBA",
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "15cebfb240d9c36f655aa3b19a4345232391e6a850a353ebb3547314ecfbab72",
+      "backgroundCoverScale": null
+    },
+    {
+      "id": "bolsa-ropa",
+      "file": "bolsa-ropa.png",
+      "dimensions": [
+        1199,
+        1312
+      ],
+      "mode": "RGBA",
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "562efa35f727be4240a2c3e10627febe825a640a56c20927004ce0e263a245a2",
+      "backgroundCoverScale": null
+    },
+    {
+      "id": "interior-higiene",
+      "file": "interior-higiene.png",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "mode": "RGB",
+      "alpha": null,
+      "sha256": "761b3774485f112b8222b48442afc3ea1bc8ab474c3781e91f4236c178fbe2b6",
+      "backgroundCoverScale": 1.1483253588516746
+    },
+    {
+      "id": "personaje-lavandose",
+      "file": "personaje-lavandose.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha": [
+        0,
+        254
+      ],
+      "sha256": "a09989c758c6081f920792bfbf259b0cf3f28b3333b09ea183aceb3285fd6ca6",
+      "backgroundCoverScale": null
+    },
+    {
+      "id": "provisiones-selladas",
+      "file": "provisiones-selladas.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha": [
+        0,
+        254
+      ],
+      "sha256": "d2cadfa11804903a219fd0de0c63f108942f3ca28854b384e65d69230b8fcbb2",
+      "backgroundCoverScale": null
+    },
+    {
+      "id": "radio-emergencia",
+      "file": "radio-emergencia.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha": [
+        0,
+        254
+      ],
+      "sha256": "ecc78622d22bb2adf50cad53a5da7d4e2dfc5d9f4446cd4180f25226fa1c6d20",
+      "backgroundCoverScale": null
+    }
+  ]
+}
