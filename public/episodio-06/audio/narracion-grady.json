@@ -1,0 +1,21 @@
+{
+  "status": "aligned-and-verified-wav",
+  "provider": "Higgsfield",
+  "model": "elevenlabs_v4",
+  "voice": "Grady",
+  "voiceType": "preset",
+  "voiceId": "e2a2d2e6-9ed2-59cd-82af-feaa27f8a678",
+  "jobId": "fec4f445-f4e8-4cf0-8c95-26c4355899bd",
+  "language": "es",
+  "authorizedCredits": 5.75,
+  "generationCalls": 1,
+  "words": 177,
+  "scriptSha256": "fb26f6f88b25fcb6d6d81e3b69c7b74fc0a20befe8d96f8d7332b483a919a892",
+  "sourceSha256": "49c7e53a6f4b21fc130189980daad1e2e17fda31fd26b8d820f97aa981aa5e69",
+  "sourceDuration": 82.99102083333334,
+  "duration": 70,
+  "tempo": 1.0883829450161997,
+  "pitchPreserved": true,
+  "quietSecondsRemoved": 6.84775,
+  "finalSha256": "1e26e3d2455d15044ce166b3f7611ae50d69af620f80f0f84064d81634f6c1a8"
+}

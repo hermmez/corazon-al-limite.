@@ -1,0 +1,35 @@
+{
+  "status": "final-render-verified",
+  "episode": 6,
+  "composition": "Episodio06MochilaEmergencia",
+  "scenes": 8,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 2100,
+  "durationSeconds": 70,
+  "style": "illustrated 2D",
+  "selectedIllustrations": 24,
+  "reference": "Episodio 04 / FunctionsScene.tsx",
+  "voice": {
+    "provider": "Higgsfield",
+    "model": "elevenlabs_v4",
+    "preset": "Grady",
+    "creditsAuthorized": 5.75,
+    "generations": 1,
+    "scriptWords": 177,
+    "tempo": 1.0883829450161997,
+    "pitchPreserved": true
+  },
+  "export": {
+    "video": "H.264 High",
+    "audio": "AAC mono",
+    "sampleRate": 48000,
+    "audioBitrateMeasured": 193258,
+    "sha256": "f3e25a52104d9a5f6eddebe520aeca5c2e2e524e33596f82665285bcd93788cc",
+    "sourceFingerprint": "8cc3fa495709ab89a4c33693a789f831dac43f293991f59c2740cbf9d1f41196",
+    "file": "episodio06_FINAL_GRADY_70s.mp4"
+  },
+  "previousEpisodesUnchanged": true,
+  "report": "INFORME.md"
+}

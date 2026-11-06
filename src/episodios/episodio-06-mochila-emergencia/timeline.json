@@ -1,0 +1,1136 @@
+{
+  "voiceReady": true,
+  "duration": 70,
+  "sceneWindows": [
+    {
+      "name": "Apagón y servicios",
+      "startFrame": 0,
+      "endFrame": 186,
+      "start": 0.0,
+      "end": 6.2,
+      "durationInFrames": 186
+    },
+    {
+      "name": "Unión Europea y Suecia",
+      "startFrame": 186,
+      "endFrame": 448,
+      "start": 6.2,
+      "end": 14.933333333333334,
+      "durationInFrames": 262
+    },
+    {
+      "name": "Preparar la mochila",
+      "startFrame": 448,
+      "endFrame": 729,
+      "start": 14.933333333333334,
+      "end": 24.3,
+      "durationInFrames": 281
+    },
+    {
+      "name": "Ajustar la carga",
+      "startFrame": 729,
+      "endFrame": 999,
+      "start": 24.3,
+      "end": 33.3,
+      "durationInFrames": 270
+    },
+    {
+      "name": "Agua en casa",
+      "startFrame": 999,
+      "endFrame": 1265,
+      "start": 33.3,
+      "end": 42.166666666666664,
+      "durationInFrames": 266
+    },
+    {
+      "name": "Siete días de reservas",
+      "startFrame": 1265,
+      "endFrame": 1559,
+      "start": 42.166666666666664,
+      "end": 51.96666666666667,
+      "durationInFrames": 294
+    },
+    {
+      "name": "Higiene y revisión",
+      "startFrame": 1559,
+      "endFrame": 1849,
+      "start": 51.96666666666667,
+      "end": 61.63333333333333,
+      "durationInFrames": 290
+    },
+    {
+      "name": "Evacuar o permanecer",
+      "startFrame": 1849,
+      "endFrame": 2100,
+      "start": 61.63333333333333,
+      "end": 70.0,
+      "durationInFrames": 251
+    }
+  ],
+  "events": [
+    {
+      "word": "¿Y",
+      "start": 0,
+      "end": 0.1837588515290665,
+      "confidence": 0.4235
+    },
+    {
+      "word": "si",
+      "start": 0.1837588515290665,
+      "end": 0.2940141624465064,
+      "confidence": 0.95256
+    },
+    {
+      "word": "mañana",
+      "start": 0.2940141624465064,
+      "end": 0.5880283248930128,
+      "confidence": 0.99756
+    },
+    {
+      "word": "se",
+      "start": 0.5880283248930128,
+      "end": 0.8269148318807993,
+      "confidence": 0.99843
+    },
+    {
+      "word": "fuera",
+      "start": 0.8269148318807993,
+      "end": 1.0658013388685856,
+      "confidence": 0.97163
+    },
+    {
+      "word": "la",
+      "start": 1.0658013388685856,
+      "end": 1.2311843052447458,
+      "confidence": 0.99264
+    },
+    {
+      "word": "luz,",
+      "start": 1.2311843052447458,
+      "end": 1.525198467691252,
+      "confidence": 0.99261
+    },
+    {
+      "word": "el",
+      "start": 1.8559644004435718,
+      "end": 1.9294679410551985,
+      "confidence": 0.99898
+    },
+    {
+      "word": "agua",
+      "start": 1.9294679410551985,
+      "end": 2.2234821035017047,
+      "confidence": 0.99953
+    },
+    {
+      "word": "y",
+      "start": 2.2234821035017047,
+      "end": 2.4439927253365847,
+      "confidence": 0.93363
+    },
+    {
+      "word": "las",
+      "start": 2.4439927253365847,
+      "end": 2.5909998065598376,
+      "confidence": 0.99508
+    },
+    {
+      "word": "comunicaciones",
+      "start": 2.5909998065598376,
+      "end": 3.2525316720644772,
+      "confidence": 0.99756
+    },
+    {
+      "word": "durante",
+      "start": 3.2525316720644772,
+      "end": 3.5465458345109835,
+      "confidence": 0.98979
+    },
+    {
+      "word": "una",
+      "start": 3.5465458345109835,
+      "end": 3.89568765241621,
+      "confidence": 0.99516
+    },
+    {
+      "word": "semana?",
+      "start": 3.89568765241621,
+      "end": 4.2632053554743425,
+      "confidence": 0.99845
+    },
+    {
+      "word": "¿Estarías",
+      "start": 4.461626632031667,
+      "end": 4.902647875701426,
+      "confidence": 0.56574
+    },
+    {
+      "word": "preparado",
+      "start": 4.902647875701426,
+      "end": 5.398796774829905,
+      "confidence": 0.99528
+    },
+    {
+      "word": "para",
+      "start": 5.398796774829905,
+      "end": 5.600931511511878,
+      "confidence": 0.99896
+    },
+    {
+      "word": "sobrevivir?",
+      "start": 5.600931511511878,
+      "end": 6.1705839512519844,
+      "confidence": 0.99768
+    },
+    {
+      "word": "La",
+      "start": 6.295673961120991,
+      "end": 6.486591751240876,
+      "confidence": 0.85866
+    },
+    {
+      "word": "Unión",
+      "start": 6.486591751240876,
+      "end": 6.7438541433815695,
+      "confidence": 0.9393
+    },
+    {
+      "word": "Europea",
+      "start": 6.7438541433815695,
+      "end": 7.221627157357143,
+      "confidence": 0.9801
+    },
+    {
+      "word": "recomienda",
+      "start": 7.221627157357143,
+      "end": 7.717776056485622,
+      "confidence": 0.98532
+    },
+    {
+      "word": "prepararse",
+      "start": 7.717776056485622,
+      "end": 8.269052611072821,
+      "confidence": 0.99585
+    },
+    {
+      "word": "para",
+      "start": 8.269052611072821,
+      "end": 8.489563232907702,
+      "confidence": 0.99463
+    },
+    {
+      "word": "al",
+      "start": 8.489563232907702,
+      "end": 8.691697969589674,
+      "confidence": 0.99213
+    },
+    {
+      "word": "menos",
+      "start": 8.691697969589674,
+      "end": 8.838705050812926,
+      "confidence": 0.99874
+    },
+    {
+      "word": "setenta",
+      "start": 8.838705050812926,
+      "end": 9.445109260858846,
+      "confidence": 0.56474
+    },
+    {
+      "word": "y",
+      "start": 9.445109260858846,
+      "end": 9.536988686623381,
+      "confidence": 0.99765
+    },
+    {
+      "word": "dos",
+      "start": 9.536988686623381,
+      "end": 9.665619882693727,
+      "confidence": 0.99775
+    },
+    {
+      "word": "horas",
+      "start": 9.665619882693727,
+      "end": 9.904506389681513,
+      "confidence": 0.99851
+    },
+    {
+      "word": "de",
+      "start": 9.904506389681513,
+      "end": 10.125017011516393,
+      "confidence": 0.99913
+    },
+    {
+      "word": "emergencia.",
+      "start": 10.125017011516393,
+      "end": 10.6946694512565,
+      "confidence": 0.99321
+    },
+    {
+      "word": "Suecia",
+      "start": 10.884228191536952,
+      "end": 11.34362532035962,
+      "confidence": 0.90171
+    },
+    {
+      "word": "va",
+      "start": 11.34362532035962,
+      "end": 11.674391253111937,
+      "confidence": 0.97979
+    },
+    {
+      "word": "más",
+      "start": 11.674391253111937,
+      "end": 11.950029530405539,
+      "confidence": 0.99546
+    },
+    {
+      "word": "lejos:",
+      "start": 11.950029530405539,
+      "end": 12.26241957800495,
+      "confidence": 0.99821
+    },
+    {
+      "word": "recomienda",
+      "start": 12.54240298647533,
+      "end": 13.038551885603813,
+      "confidence": 0.97661
+    },
+    {
+      "word": "tener",
+      "start": 13.038551885603813,
+      "end": 13.295814277744505,
+      "confidence": 0.99795
+    },
+    {
+      "word": "reservas",
+      "start": 13.295814277744505,
+      "end": 13.847090832331704,
+      "confidence": 0.99536
+    },
+    {
+      "word": "para",
+      "start": 13.847090832331704,
+      "end": 14.08597733931949,
+      "confidence": 0.99717
+    },
+    {
+      "word": "siete",
+      "start": 14.08597733931949,
+      "end": 14.435119157224717,
+      "confidence": 0.79231
+    },
+    {
+      "word": "días.",
+      "start": 14.435119157224717,
+      "end": 14.74750920482413,
+      "confidence": 0.99891
+    },
+    {
+      "word": "Primero,",
+      "start": 15.130531560980028,
+      "end": 15.49804926403816,
+      "confidence": 0.97804
+    },
+    {
+      "word": "prepara",
+      "start": 15.81901472470893,
+      "end": 16.039525346543808,
+      "confidence": 0.94542
+    },
+    {
+      "word": "una",
+      "start": 16.039525346543808,
+      "end": 16.204908312919972,
+      "confidence": 0.99876
+    },
+    {
+      "word": "mochila",
+      "start": 16.204908312919972,
+      "end": 16.59080190113101,
+      "confidence": 0.99641
+    },
+    {
+      "word": "que",
+      "start": 16.59080190113101,
+      "end": 16.75618486750717,
+      "confidence": 0.99671
+    },
+    {
+      "word": "puedas",
+      "start": 16.75618486750717,
+      "end": 17.123702570565303,
+      "confidence": 0.98786
+    },
+    {
+      "word": "cargar:",
+      "start": 17.123702570565303,
+      "end": 17.491220273623437,
+      "confidence": 0.98972
+    },
+    {
+      "word": "documentos,",
+      "start": 17.739026741529198,
+      "end": 18.437310377339646,
+      "confidence": 0.96488
+    },
+    {
+      "word": "dinero",
+      "start": 18.5843174585629,
+      "end": 18.804828080397783,
+      "confidence": 0.98837
+    },
+    {
+      "word": "en",
+      "start": 18.804828080397783,
+      "end": 18.97021104677394,
+      "confidence": 0.99429
+    },
+    {
+      "word": "efectivo,",
+      "start": 18.97021104677394,
+      "end": 19.42960817559661,
+      "confidence": 0.99658
+    },
+    {
+      "word": "medicamentos,",
+      "start": 19.711218615564903,
+      "end": 20.317622825610822,
+      "confidence": 0.99285
+    },
+    {
+      "word": "botiquín,",
+      "start": 20.630012873210234,
+      "end": 21.089410002032903,
+      "confidence": 0.76947
+    },
+    {
+      "word": "linterna,",
+      "start": 21.438551819938127,
+      "end": 21.989828374525327,
+      "confidence": 0.94167
+    },
+    {
+      "word": "radio",
+      "start": 22.263112241533708,
+      "end": 22.501998748521498,
+      "confidence": 0.96564
+    },
+    {
+      "word": "de",
+      "start": 22.501998748521498,
+      "end": 22.61225405943894,
+      "confidence": 0.99747
+    },
+    {
+      "word": "baterías",
+      "start": 22.61225405943894,
+      "end": 23.034899417955792,
+      "confidence": 0.98372
+    },
+    {
+      "word": "y",
+      "start": 23.034899417955792,
+      "end": 23.328913580402293,
+      "confidence": 0.93687
+    },
+    {
+      "word": "cargador",
+      "start": 23.328913580402293,
+      "end": 23.714807168613337,
+      "confidence": 0.99633
+    },
+    {
+      "word": "portátil.",
+      "start": 23.714807168613337,
+      "end": 24.22933195289472,
+      "confidence": 0.98635
+    },
+    {
+      "word": "Agrega",
+      "start": 24.427332115417293,
+      "end": 24.817628259446213,
+      "confidence": 0.85326
+    },
+    {
+      "word": "agua,",
+      "start": 24.817628259446213,
+      "end": 25.203521847657253,
+      "confidence": 0.78304
+    },
+    {
+      "word": "alimentos",
+      "start": 25.51868741957664,
+      "end": 25.812701582023145,
+      "confidence": 0.9813
+    },
+    {
+      "word": "listos",
+      "start": 25.812701582023145,
+      "end": 26.27209871084581,
+      "confidence": 0.9988
+    },
+    {
+      "word": "para",
+      "start": 26.27209871084581,
+      "end": 26.455857562374877,
+      "confidence": 0.99805
+    },
+    {
+      "word": "comer,",
+      "start": 26.455857562374877,
+      "end": 26.694744069362663,
+      "confidence": 0.99795
+    },
+    {
+      "word": "ropa",
+      "start": 27.12625196415639,
+      "end": 27.31001081568545,
+      "confidence": 0.99457
+    },
+    {
+      "word": "de",
+      "start": 27.31001081568545,
+      "end": 27.4386420117558,
+      "confidence": 0.99908
+    },
+    {
+      "word": "abrigo",
+      "start": 27.4386420117558,
+      "end": 27.82453559996684,
+      "confidence": 0.99576
+    },
+    {
+      "word": "y",
+      "start": 27.82453559996684,
+      "end": 28.008294451495907,
+      "confidence": 0.92959
+    },
+    {
+      "word": "artículos",
+      "start": 28.008294451495907,
+      "end": 28.41256392485985,
+      "confidence": 0.97842
+    },
+    {
+      "word": "de",
+      "start": 28.41256392485985,
+      "end": 28.614698661541826,
+      "confidence": 0.99756
+    },
+    {
+      "word": "higiene.",
+      "start": 28.614698661541826,
+      "end": 28.945464594294144,
+      "confidence": 0.99173
+    },
+    {
+      "word": "Recuerda:",
+      "start": 29.199970603661903,
+      "end": 29.622615962178752,
+      "confidence": 0.97278
+    },
+    {
+      "word": "la",
+      "start": 29.859109775787257,
+      "end": 29.950989201551792,
+      "confidence": 0.99028
+    },
+    {
+      "word": "mochila",
+      "start": 29.950989201551792,
+      "end": 30.30013101945702,
+      "confidence": 0.99627
+    },
+    {
+      "word": "debe",
+      "start": 30.30013101945702,
+      "end": 30.539017526444805,
+      "confidence": 0.99469
+    },
+    {
+      "word": "ser",
+      "start": 30.539017526444805,
+      "end": 30.777904033432588,
+      "confidence": 0.99151
+    },
+    {
+      "word": "práctica,",
+      "start": 30.777904033432588,
+      "end": 31.292428817713976,
+      "confidence": 0.99462
+    },
+    {
+      "word": "no",
+      "start": 31.58969704315631,
+      "end": 31.69995235407375,
+      "confidence": 0.99258
+    },
+    {
+      "word": "tan",
+      "start": 31.69995235407375,
+      "end": 31.846959435297002,
+      "confidence": 0.99506
+    },
+    {
+      "word": "pesada",
+      "start": 31.846959435297002,
+      "end": 32.214477138355136,
+      "confidence": 0.99624
+    },
+    {
+      "word": "que",
+      "start": 32.214477138355136,
+      "end": 32.37986010473129,
+      "confidence": 0.98587
+    },
+    {
+      "word": "no",
+      "start": 32.37986010473129,
+      "end": 32.50849130080164,
+      "confidence": 0.99232
+    },
+    {
+      "word": "puedas",
+      "start": 32.50849130080164,
+      "end": 32.83925723355396,
+      "confidence": 0.99637
+    },
+    {
+      "word": "moverte.",
+      "start": 32.83925723355396,
+      "end": 33.24352670691791,
+      "confidence": 0.75154
+    },
+    {
+      "word": "Pero",
+      "start": 33.388983322831386,
+      "end": 33.60304324331572,
+      "confidence": 0.97745
+    },
+    {
+      "word": "en",
+      "start": 33.60304324331572,
+      "end": 33.75005032453897,
+      "confidence": 0.97022
+    },
+    {
+      "word": "casa",
+      "start": 33.75005032453897,
+      "end": 34.007312716679664,
+      "confidence": 0.99847
+    },
+    {
+      "word": "o",
+      "start": 34.007312716679664,
+      "end": 34.246199223667446,
+      "confidence": 0.97876
+    },
+    {
+      "word": "en",
+      "start": 34.246199223667446,
+      "end": 34.35645453458489,
+      "confidence": 0.99263
+    },
+    {
+      "word": "tu",
+      "start": 34.35645453458489,
+      "end": 34.448333960349416,
+      "confidence": 0.9877
+    },
+    {
+      "word": "refugio",
+      "start": 34.448333960349416,
+      "end": 34.96285874463081,
+      "confidence": 0.99639
+    },
+    {
+      "word": "necesitas",
+      "start": 34.96285874463081,
+      "end": 35.642766495288356,
+      "confidence": 0.83073
+    },
+    {
+      "word": "más.",
+      "start": 35.642766495288356,
+      "end": 35.93678065773486,
+      "confidence": 0.98525
+    },
+    {
+      "word": "Reserva",
+      "start": 36.28391261320149,
+      "end": 36.81681328263578,
+      "confidence": 0.95679
+    },
+    {
+      "word": "agua",
+      "start": 36.81681328263578,
+      "end": 37.1475792153881,
+      "confidence": 0.99813
+    },
+    {
+      "word": "suficiente:",
+      "start": 37.1475792153881,
+      "end": 37.58860045905786,
+      "confidence": 0.99176
+    },
+    {
+      "word": "unos",
+      "start": 37.97131655046121,
+      "end": 38.11832363168446,
+      "confidence": 0.99674
+    },
+    {
+      "word": "cuatro",
+      "start": 38.11832363168446,
+      "end": 38.430713679283876,
+      "confidence": 0.14287
+    },
+    {
+      "word": "litros",
+      "start": 38.430713679283876,
+      "end": 38.81660726749491,
+      "confidence": 0.99244
+    },
+    {
+      "word": "diarios",
+      "start": 38.81660726749491,
+      "end": 39.16574908540014,
+      "confidence": 0.99701
+    },
+    {
+      "word": "por",
+      "start": 39.16574908540014,
+      "end": 39.44138736269374,
+      "confidence": 0.99078
+    },
+    {
+      "word": "persona,",
+      "start": 39.44138736269374,
+      "end": 39.86403272121059,
+      "confidence": 0.99875
+    },
+    {
+      "word": "incluyendo",
+      "start": 40.04172370232979,
+      "end": 40.55624848661118,
+      "confidence": 0.99874
+    },
+    {
+      "word": "necesidades",
+      "start": 40.55624848661118,
+      "end": 41.08914915604547,
+      "confidence": 0.99667
+    },
+    {
+      "word": "básicas",
+      "start": 41.08914915604547,
+      "end": 41.566922170021044,
+      "confidence": 0.99604
+    },
+    {
+      "word": "de",
+      "start": 41.566922170021044,
+      "end": 41.73230513639721,
+      "confidence": 0.99631
+    },
+    {
+      "word": "higiene.",
+      "start": 41.73230513639721,
+      "end": 42.08144695430243,
+      "confidence": 0.99849
+    },
+    {
+      "word": "Para",
+      "start": 42.254352548663064,
+      "end": 42.46477557521087,
+      "confidence": 0.99442
+    },
+    {
+      "word": "siete",
+      "start": 42.46477557521087,
+      "end": 42.66691031189285,
+      "confidence": 0.923
+    },
+    {
+      "word": "días,",
+      "start": 42.66691031189285,
+      "end": 42.979300359492264,
+      "confidence": 0.99799
+    },
+    {
+      "word": "eso",
+      "start": 43.29169040709167,
+      "end": 43.47544925862074,
+      "confidence": 0.99233
+    },
+    {
+      "word": "significa",
+      "start": 43.47544925862074,
+      "end": 43.898094617137595,
+      "confidence": 0.99675
+    },
+    {
+      "word": "aproximadamente",
+      "start": 43.898094617137595,
+      "end": 44.65150590840677,
+      "confidence": 0.98831
+    },
+    {
+      "word": "veintiocho",
+      "start": 44.65150590840677,
+      "end": 45.313037773911404,
+      "confidence": 0.76752
+    },
+    {
+      "word": "litros",
+      "start": 45.313037773911404,
+      "end": 45.93781786911023,
+      "confidence": 0.96263
+    },
+    {
+      "word": "por",
+      "start": 45.93781786911023,
+      "end": 46.121576720639304,
+      "confidence": 0.99027
+    },
+    {
+      "word": "persona.",
+      "start": 46.121576720639304,
+      "end": 46.562597964309056,
+      "confidence": 0.99847
+    },
+    {
+      "word": "Añade",
+      "start": 46.760578985284596,
+      "end": 47.054593147731104,
+      "confidence": 0.98636
+    },
+    {
+      "word": "alimentos",
+      "start": 47.054593147731104,
+      "end": 47.495614391400856,
+      "confidence": 0.98658
+    },
+    {
+      "word": "no",
+      "start": 47.495614391400856,
+      "end": 47.84475620930609,
+      "confidence": 0.99159
+    },
+    {
+      "word": "perecederos,",
+      "start": 47.84475620930609,
+      "end": 48.414408649046194,
+      "confidence": 0.97647
+    },
+    {
+      "word": "abrelatas",
+      "start": 48.703350301528616,
+      "end": 49.11602291404061,
+      "confidence": 0.5499
+    },
+    {
+      "word": "manual,",
+      "start": 49.11602291404061,
+      "end": 49.48354061709875,
+      "confidence": 0.99022
+    },
+    {
+      "word": "cobijas",
+      "start": 49.88273758049861,
+      "end": 50.4340141350858,
+      "confidence": 0.81805
+    },
+    {
+      "word": "y",
+      "start": 50.4340141350858,
+      "end": 50.63614887176777,
+      "confidence": 0.93006
+    },
+    {
+      "word": "medicinas",
+      "start": 50.63614887176777,
+      "end": 51.095546000590446,
+      "confidence": 0.9888
+    },
+    {
+      "word": "esenciales.",
+      "start": 51.095546000590446,
+      "end": 51.956992183321084,
+      "confidence": 0.99089
+    },
+    {
+      "word": "No",
+      "start": 52.013746870277714,
+      "end": 52.197505721806785,
+      "confidence": 0.94929
+    },
+    {
+      "word": "olvides",
+      "start": 52.197505721806785,
+      "end": 52.528271654559106,
+      "confidence": 0.99717
+    },
+    {
+      "word": "bolsas",
+      "start": 52.528271654559106,
+      "end": 52.95091701307596,
+      "confidence": 0.99767
+    },
+    {
+      "word": "de",
+      "start": 52.95091701307596,
+      "end": 53.0611723239934,
+      "confidence": 0.99935
+    },
+    {
+      "word": "basura,",
+      "start": 53.0611723239934,
+      "end": 53.465441797357336,
+      "confidence": 0.991
+    },
+    {
+      "word": "papel",
+      "start": 53.68595241919222,
+      "end": 53.86971127072129,
+      "confidence": 0.99838
+    },
+    {
+      "word": "higiénico,",
+      "start": 53.86971127072129,
+      "end": 54.49449136592012,
+      "confidence": 0.9733
+    },
+    {
+      "word": "baterías,",
+      "start": 54.69662610260209,
+      "end": 55.21115088688347,
+      "confidence": 0.98313
+    },
+    {
+      "word": "radio",
+      "start": 55.44194051947576,
+      "end": 55.77270645222808,
+      "confidence": 0.97771
+    },
+    {
+      "word": "y",
+      "start": 56.03433311709259,
+      "end": 56.14022415528621,
+      "confidence": 0.94047
+    },
+    {
+      "word": "provisiones",
+      "start": 56.14022415528621,
+      "end": 56.709876595026316,
+      "confidence": 0.86634
+    },
+    {
+      "word": "especiales",
+      "start": 56.709876595026316,
+      "end": 57.26115314961352,
+      "confidence": 0.99771
+    },
+    {
+      "word": "para",
+      "start": 57.26115314961352,
+      "end": 57.42653611598968,
+      "confidence": 0.99896
+    },
+    {
+      "word": "niños",
+      "start": 57.42653611598968,
+      "end": 57.70217439328328,
+      "confidence": 0.99282
+    },
+    {
+      "word": "o",
+      "start": 57.70217439328328,
+      "end": 57.922685015118155,
+      "confidence": 0.99175
+    },
+    {
+      "word": "mascotas.",
+      "start": 57.922685015118155,
+      "end": 58.49233745485826,
+      "confidence": 0.94268
+    },
+    {
+      "word": "Todo",
+      "start": 58.6645730950727,
+      "end": 58.82995606144886,
+      "confidence": 0.98751
+    },
+    {
+      "word": "debe",
+      "start": 58.82995606144886,
+      "end": 59.08721845358955,
+      "confidence": 0.99844
+    },
+    {
+      "word": "estar",
+      "start": 59.08721845358955,
+      "end": 59.36285673088315,
+      "confidence": 0.98967
+    },
+    {
+      "word": "organizado",
+      "start": 59.36285673088315,
+      "end": 59.96926094092907,
+      "confidence": 0.99796
+    },
+    {
+      "word": "y",
+      "start": 59.96926094092907,
+      "end": 60.18977156276395,
+      "confidence": 0.9937
+    },
+    {
+      "word": "revisarse",
+      "start": 60.18977156276395,
+      "end": 60.75942400250405,
+      "confidence": 0.97871
+    },
+    {
+      "word": "periódicamente.",
+      "start": 60.75942400250405,
+      "end": 61.4393317531616,
+      "confidence": 0.98856
+    },
+    {
+      "word": "Y",
+      "start": 61.859067596529236,
+      "end": 61.950947022293775,
+      "confidence": 0.94874
+    },
+    {
+      "word": "recuerda:",
+      "start": 61.950947022293775,
+      "end": 62.39196826596354,
+      "confidence": 0.98055
+    },
+    {
+      "word": "una",
+      "start": 62.55788719565666,
+      "end": 62.686518391727006,
+      "confidence": 0.99555
+    },
+    {
+      "word": "mochila",
+      "start": 62.686518391727006,
+      "end": 63.10916375024385,
+      "confidence": 0.99545
+    },
+    {
+      "word": "sirve",
+      "start": 63.10916375024385,
+      "end": 63.53180910876071,
+      "confidence": 0.97917
+    },
+    {
+      "word": "para",
+      "start": 63.53180910876071,
+      "end": 63.71556796028977,
+      "confidence": 0.99948
+    },
+    {
+      "word": "evacuar;",
+      "start": 63.71556796028977,
+      "end": 64.23009274457115,
+      "confidence": 0.9952
+    },
+    {
+      "word": "las",
+      "start": 64.46245198402026,
+      "end": 64.53595552463189,
+      "confidence": 0.99595
+    },
+    {
+      "word": "reservas",
+      "start": 64.53595552463189,
+      "end": 65.14235973467781,
+      "confidence": 0.99877
+    },
+    {
+      "word": "sirven",
+      "start": 65.14235973467781,
+      "end": 65.56500509319466,
+      "confidence": 0.99738
+    },
+    {
+      "word": "para",
+      "start": 65.56500509319466,
+      "end": 65.80389160018244,
+      "confidence": 0.99943
+    },
+    {
+      "word": "resistir",
+      "start": 65.80389160018244,
+      "end": 66.41029581022836,
+      "confidence": 0.99587
+    },
+    {
+      "word": "en",
+      "start": 66.41029581022836,
+      "end": 66.5205511211458,
+      "confidence": 0.99722
+    },
+    {
+      "word": "casa.",
+      "start": 66.5205511211458,
+      "end": 66.7594376281336,
+      "confidence": 0.99847
+    },
+    {
+      "word": "¿Tu",
+      "start": 67.03509504697423,
+      "end": 67.10859858758586,
+      "confidence": 0.72479
+    },
+    {
+      "word": "familia",
+      "start": 67.10859858758586,
+      "end": 67.42098863518525,
+      "confidence": 0.99834
+    },
+    {
+      "word": "podría",
+      "start": 67.42098863518525,
+      "end": 67.82525810854922,
+      "confidence": 0.99208
+    },
+    {
+      "word": "aguantar",
+      "start": 67.82525810854922,
+      "end": 68.33978289283058,
+      "confidence": 0.99284
+    },
+    {
+      "word": "siete",
+      "start": 68.33978289283058,
+      "end": 68.6154211701242,
+      "confidence": 0.72832
+    },
+    {
+      "word": "días",
+      "start": 68.6154211701242,
+      "end": 68.96456298802943,
+      "confidence": 0.99962
+    },
+    {
+      "word": "sin",
+      "start": 68.96456298802943,
+      "end": 69.1666977247114,
+      "confidence": 0.99755
+    },
+    {
+      "word": "servicios?",
+      "start": 69.1666977247114,
+      "end": 69.77624114847093,
+      "confidence": 0.95919
+    }
+  ],
+  "tempo": 1.0883829450161997,
+  "timingSource": "Faster Whisper small Spanish and acoustic alignment of setenta y dos, mapped through measured pause edits and pitch-preserving tempo"
+}
