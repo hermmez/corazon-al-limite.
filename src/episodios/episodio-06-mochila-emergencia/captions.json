@@ -1,0 +1,1418 @@
+[
+  {
+    "text": "¿Y",
+    "startMs": 0,
+    "endMs": 184,
+    "timestampMs": 92,
+    "confidence": 0.4235,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " si",
+    "startMs": 184,
+    "endMs": 294,
+    "timestampMs": 239,
+    "confidence": 0.95256,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " mañana",
+    "startMs": 294,
+    "endMs": 588,
+    "timestampMs": 441,
+    "confidence": 0.99756,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " se",
+    "startMs": 588,
+    "endMs": 827,
+    "timestampMs": 707,
+    "confidence": 0.99843,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " fuera",
+    "startMs": 827,
+    "endMs": 1066,
+    "timestampMs": 946,
+    "confidence": 0.97163,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " la",
+    "startMs": 1066,
+    "endMs": 1231,
+    "timestampMs": 1148,
+    "confidence": 0.99264,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " luz,",
+    "startMs": 1231,
+    "endMs": 1525,
+    "timestampMs": 1378,
+    "confidence": 0.99261,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " el",
+    "startMs": 1856,
+    "endMs": 1929,
+    "timestampMs": 1893,
+    "confidence": 0.99898,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " agua",
+    "startMs": 1929,
+    "endMs": 2223,
+    "timestampMs": 2076,
+    "confidence": 0.99953,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " y",
+    "startMs": 2223,
+    "endMs": 2444,
+    "timestampMs": 2334,
+    "confidence": 0.93363,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " las",
+    "startMs": 2444,
+    "endMs": 2591,
+    "timestampMs": 2517,
+    "confidence": 0.99508,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " comunicaciones",
+    "startMs": 2591,
+    "endMs": 3253,
+    "timestampMs": 2922,
+    "confidence": 0.99756,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " durante",
+    "startMs": 3253,
+    "endMs": 3547,
+    "timestampMs": 3400,
+    "confidence": 0.98979,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " una",
+    "startMs": 3547,
+    "endMs": 3896,
+    "timestampMs": 3721,
+    "confidence": 0.99516,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " semana?",
+    "startMs": 3896,
+    "endMs": 4263,
+    "timestampMs": 4079,
+    "confidence": 0.99845,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " ¿Estarías",
+    "startMs": 4462,
+    "endMs": 4903,
+    "timestampMs": 4682,
+    "confidence": 0.56574,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " preparado",
+    "startMs": 4903,
+    "endMs": 5399,
+    "timestampMs": 5151,
+    "confidence": 0.99528,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " para",
+    "startMs": 5399,
+    "endMs": 5601,
+    "timestampMs": 5500,
+    "confidence": 0.99896,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " sobrevivir?",
+    "startMs": 5601,
+    "endMs": 6171,
+    "timestampMs": 5886,
+    "confidence": 0.99768,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " La",
+    "startMs": 6296,
+    "endMs": 6487,
+    "timestampMs": 6391,
+    "confidence": 0.85866,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " Unión",
+    "startMs": 6487,
+    "endMs": 6744,
+    "timestampMs": 6615,
+    "confidence": 0.9393,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " Europea",
+    "startMs": 6744,
+    "endMs": 7222,
+    "timestampMs": 6983,
+    "confidence": 0.9801,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " recomienda",
+    "startMs": 7222,
+    "endMs": 7718,
+    "timestampMs": 7470,
+    "confidence": 0.98532,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " prepararse",
+    "startMs": 7718,
+    "endMs": 8269,
+    "timestampMs": 7993,
+    "confidence": 0.99585,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " para",
+    "startMs": 8269,
+    "endMs": 8490,
+    "timestampMs": 8379,
+    "confidence": 0.99463,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " al",
+    "startMs": 8490,
+    "endMs": 8692,
+    "timestampMs": 8591,
+    "confidence": 0.99213,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " menos",
+    "startMs": 8692,
+    "endMs": 8839,
+    "timestampMs": 8765,
+    "confidence": 0.99874,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " setenta",
+    "startMs": 8839,
+    "endMs": 9445,
+    "timestampMs": 9142,
+    "confidence": 0.56474,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " y",
+    "startMs": 9445,
+    "endMs": 9537,
+    "timestampMs": 9491,
+    "confidence": 0.99765,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " dos",
+    "startMs": 9537,
+    "endMs": 9666,
+    "timestampMs": 9601,
+    "confidence": 0.99775,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " horas",
+    "startMs": 9666,
+    "endMs": 9905,
+    "timestampMs": 9785,
+    "confidence": 0.99851,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " de",
+    "startMs": 9905,
+    "endMs": 10125,
+    "timestampMs": 10015,
+    "confidence": 0.99913,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " emergencia.",
+    "startMs": 10125,
+    "endMs": 10695,
+    "timestampMs": 10410,
+    "confidence": 0.99321,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Suecia",
+    "startMs": 10884,
+    "endMs": 11344,
+    "timestampMs": 11114,
+    "confidence": 0.90171,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " va",
+    "startMs": 11344,
+    "endMs": 11674,
+    "timestampMs": 11509,
+    "confidence": 0.97979,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " más",
+    "startMs": 11674,
+    "endMs": 11950,
+    "timestampMs": 11812,
+    "confidence": 0.99546,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " lejos:",
+    "startMs": 11950,
+    "endMs": 12262,
+    "timestampMs": 12106,
+    "confidence": 0.99821,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " recomienda",
+    "startMs": 12542,
+    "endMs": 13039,
+    "timestampMs": 12790,
+    "confidence": 0.97661,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " tener",
+    "startMs": 13039,
+    "endMs": 13296,
+    "timestampMs": 13167,
+    "confidence": 0.99795,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " reservas",
+    "startMs": 13296,
+    "endMs": 13847,
+    "timestampMs": 13571,
+    "confidence": 0.99536,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " para",
+    "startMs": 13847,
+    "endMs": 14086,
+    "timestampMs": 13967,
+    "confidence": 0.99717,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " siete",
+    "startMs": 14086,
+    "endMs": 14435,
+    "timestampMs": 14261,
+    "confidence": 0.79231,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " días.",
+    "startMs": 14435,
+    "endMs": 14748,
+    "timestampMs": 14591,
+    "confidence": 0.99891,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Primero,",
+    "startMs": 15131,
+    "endMs": 15498,
+    "timestampMs": 15314,
+    "confidence": 0.97804,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " prepara",
+    "startMs": 15819,
+    "endMs": 16040,
+    "timestampMs": 15929,
+    "confidence": 0.94542,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " una",
+    "startMs": 16040,
+    "endMs": 16205,
+    "timestampMs": 16122,
+    "confidence": 0.99876,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " mochila",
+    "startMs": 16205,
+    "endMs": 16591,
+    "timestampMs": 16398,
+    "confidence": 0.99641,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " que",
+    "startMs": 16591,
+    "endMs": 16756,
+    "timestampMs": 16673,
+    "confidence": 0.99671,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " puedas",
+    "startMs": 16756,
+    "endMs": 17124,
+    "timestampMs": 16940,
+    "confidence": 0.98786,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cargar:",
+    "startMs": 17124,
+    "endMs": 17491,
+    "timestampMs": 17307,
+    "confidence": 0.98972,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " documentos,",
+    "startMs": 17739,
+    "endMs": 18437,
+    "timestampMs": 18088,
+    "confidence": 0.96488,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " dinero",
+    "startMs": 18584,
+    "endMs": 18805,
+    "timestampMs": 18695,
+    "confidence": 0.98837,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " en",
+    "startMs": 18805,
+    "endMs": 18970,
+    "timestampMs": 18888,
+    "confidence": 0.99429,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " efectivo,",
+    "startMs": 18970,
+    "endMs": 19430,
+    "timestampMs": 19200,
+    "confidence": 0.99658,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " medicamentos,",
+    "startMs": 19711,
+    "endMs": 20318,
+    "timestampMs": 20014,
+    "confidence": 0.99285,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " botiquín,",
+    "startMs": 20630,
+    "endMs": 21089,
+    "timestampMs": 20860,
+    "confidence": 0.76947,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " linterna,",
+    "startMs": 21439,
+    "endMs": 21990,
+    "timestampMs": 21714,
+    "confidence": 0.94167,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " radio",
+    "startMs": 22263,
+    "endMs": 22502,
+    "timestampMs": 22383,
+    "confidence": 0.96564,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " de",
+    "startMs": 22502,
+    "endMs": 22612,
+    "timestampMs": 22557,
+    "confidence": 0.99747,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " baterías",
+    "startMs": 22612,
+    "endMs": 23035,
+    "timestampMs": 22824,
+    "confidence": 0.98372,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " y",
+    "startMs": 23035,
+    "endMs": 23329,
+    "timestampMs": 23182,
+    "confidence": 0.93687,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cargador",
+    "startMs": 23329,
+    "endMs": 23715,
+    "timestampMs": 23522,
+    "confidence": 0.99633,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " portátil.",
+    "startMs": 23715,
+    "endMs": 24229,
+    "timestampMs": 23972,
+    "confidence": 0.98635,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Agrega",
+    "startMs": 24427,
+    "endMs": 24818,
+    "timestampMs": 24622,
+    "confidence": 0.85326,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " agua,",
+    "startMs": 24818,
+    "endMs": 25204,
+    "timestampMs": 25011,
+    "confidence": 0.78304,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " alimentos",
+    "startMs": 25519,
+    "endMs": 25813,
+    "timestampMs": 25666,
+    "confidence": 0.9813,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " listos",
+    "startMs": 25813,
+    "endMs": 26272,
+    "timestampMs": 26042,
+    "confidence": 0.9988,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " para",
+    "startMs": 26272,
+    "endMs": 26456,
+    "timestampMs": 26364,
+    "confidence": 0.99805,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " comer,",
+    "startMs": 26456,
+    "endMs": 26695,
+    "timestampMs": 26575,
+    "confidence": 0.99795,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " ropa",
+    "startMs": 27126,
+    "endMs": 27310,
+    "timestampMs": 27218,
+    "confidence": 0.99457,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " de",
+    "startMs": 27310,
+    "endMs": 27439,
+    "timestampMs": 27374,
+    "confidence": 0.99908,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " abrigo",
+    "startMs": 27439,
+    "endMs": 27825,
+    "timestampMs": 27632,
+    "confidence": 0.99576,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " y",
+    "startMs": 27825,
+    "endMs": 28008,
+    "timestampMs": 27916,
+    "confidence": 0.92959,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " artículos",
+    "startMs": 28008,
+    "endMs": 28413,
+    "timestampMs": 28210,
+    "confidence": 0.97842,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " de",
+    "startMs": 28413,
+    "endMs": 28615,
+    "timestampMs": 28514,
+    "confidence": 0.99756,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " higiene.",
+    "startMs": 28615,
+    "endMs": 28945,
+    "timestampMs": 28780,
+    "confidence": 0.99173,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Recuerda:",
+    "startMs": 29200,
+    "endMs": 29623,
+    "timestampMs": 29411,
+    "confidence": 0.97278,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " la",
+    "startMs": 29859,
+    "endMs": 29951,
+    "timestampMs": 29905,
+    "confidence": 0.99028,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " mochila",
+    "startMs": 29951,
+    "endMs": 30300,
+    "timestampMs": 30126,
+    "confidence": 0.99627,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " debe",
+    "startMs": 30300,
+    "endMs": 30539,
+    "timestampMs": 30420,
+    "confidence": 0.99469,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " ser",
+    "startMs": 30539,
+    "endMs": 30778,
+    "timestampMs": 30658,
+    "confidence": 0.99151,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " práctica,",
+    "startMs": 30778,
+    "endMs": 31292,
+    "timestampMs": 31035,
+    "confidence": 0.99462,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " no",
+    "startMs": 31590,
+    "endMs": 31700,
+    "timestampMs": 31645,
+    "confidence": 0.99258,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " tan",
+    "startMs": 31700,
+    "endMs": 31847,
+    "timestampMs": 31773,
+    "confidence": 0.99506,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " pesada",
+    "startMs": 31847,
+    "endMs": 32214,
+    "timestampMs": 32031,
+    "confidence": 0.99624,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " que",
+    "startMs": 32214,
+    "endMs": 32380,
+    "timestampMs": 32297,
+    "confidence": 0.98587,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " no",
+    "startMs": 32380,
+    "endMs": 32508,
+    "timestampMs": 32444,
+    "confidence": 0.99232,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " puedas",
+    "startMs": 32508,
+    "endMs": 32839,
+    "timestampMs": 32674,
+    "confidence": 0.99637,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " moverte.",
+    "startMs": 32839,
+    "endMs": 33244,
+    "timestampMs": 33041,
+    "confidence": 0.75154,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Pero",
+    "startMs": 33389,
+    "endMs": 33603,
+    "timestampMs": 33496,
+    "confidence": 0.97745,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " en",
+    "startMs": 33603,
+    "endMs": 33750,
+    "timestampMs": 33677,
+    "confidence": 0.97022,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " casa",
+    "startMs": 33750,
+    "endMs": 34007,
+    "timestampMs": 33879,
+    "confidence": 0.99847,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " o",
+    "startMs": 34007,
+    "endMs": 34246,
+    "timestampMs": 34127,
+    "confidence": 0.97876,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " en",
+    "startMs": 34246,
+    "endMs": 34356,
+    "timestampMs": 34301,
+    "confidence": 0.99263,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " tu",
+    "startMs": 34356,
+    "endMs": 34448,
+    "timestampMs": 34402,
+    "confidence": 0.9877,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " refugio",
+    "startMs": 34448,
+    "endMs": 34963,
+    "timestampMs": 34706,
+    "confidence": 0.99639,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " necesitas",
+    "startMs": 34963,
+    "endMs": 35643,
+    "timestampMs": 35303,
+    "confidence": 0.83073,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " más.",
+    "startMs": 35643,
+    "endMs": 35937,
+    "timestampMs": 35790,
+    "confidence": 0.98525,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Reserva",
+    "startMs": 36284,
+    "endMs": 36817,
+    "timestampMs": 36550,
+    "confidence": 0.95679,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " agua",
+    "startMs": 36817,
+    "endMs": 37148,
+    "timestampMs": 36982,
+    "confidence": 0.99813,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " suficiente:",
+    "startMs": 37148,
+    "endMs": 37589,
+    "timestampMs": 37368,
+    "confidence": 0.99176,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " unos",
+    "startMs": 37971,
+    "endMs": 38118,
+    "timestampMs": 38045,
+    "confidence": 0.99674,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cuatro",
+    "startMs": 38118,
+    "endMs": 38431,
+    "timestampMs": 38275,
+    "confidence": 0.14287,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " litros",
+    "startMs": 38431,
+    "endMs": 38817,
+    "timestampMs": 38624,
+    "confidence": 0.99244,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " diarios",
+    "startMs": 38817,
+    "endMs": 39166,
+    "timestampMs": 38991,
+    "confidence": 0.99701,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " por",
+    "startMs": 39166,
+    "endMs": 39441,
+    "timestampMs": 39304,
+    "confidence": 0.99078,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " persona,",
+    "startMs": 39441,
+    "endMs": 39864,
+    "timestampMs": 39653,
+    "confidence": 0.99875,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " incluyendo",
+    "startMs": 40042,
+    "endMs": 40556,
+    "timestampMs": 40299,
+    "confidence": 0.99874,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " necesidades",
+    "startMs": 40556,
+    "endMs": 41089,
+    "timestampMs": 40823,
+    "confidence": 0.99667,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " básicas",
+    "startMs": 41089,
+    "endMs": 41567,
+    "timestampMs": 41328,
+    "confidence": 0.99604,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " de",
+    "startMs": 41567,
+    "endMs": 41732,
+    "timestampMs": 41650,
+    "confidence": 0.99631,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " higiene.",
+    "startMs": 41732,
+    "endMs": 42081,
+    "timestampMs": 41907,
+    "confidence": 0.99849,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Para",
+    "startMs": 42254,
+    "endMs": 42465,
+    "timestampMs": 42360,
+    "confidence": 0.99442,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " siete",
+    "startMs": 42465,
+    "endMs": 42667,
+    "timestampMs": 42566,
+    "confidence": 0.923,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " días,",
+    "startMs": 42667,
+    "endMs": 42979,
+    "timestampMs": 42823,
+    "confidence": 0.99799,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " eso",
+    "startMs": 43292,
+    "endMs": 43475,
+    "timestampMs": 43384,
+    "confidence": 0.99233,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " significa",
+    "startMs": 43475,
+    "endMs": 43898,
+    "timestampMs": 43687,
+    "confidence": 0.99675,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " aproximadamente",
+    "startMs": 43898,
+    "endMs": 44652,
+    "timestampMs": 44275,
+    "confidence": 0.98831,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " veintiocho",
+    "startMs": 44652,
+    "endMs": 45313,
+    "timestampMs": 44982,
+    "confidence": 0.76752,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " litros",
+    "startMs": 45313,
+    "endMs": 45938,
+    "timestampMs": 45625,
+    "confidence": 0.96263,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " por",
+    "startMs": 45938,
+    "endMs": 46122,
+    "timestampMs": 46030,
+    "confidence": 0.99027,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " persona.",
+    "startMs": 46122,
+    "endMs": 46563,
+    "timestampMs": 46342,
+    "confidence": 0.99847,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Añade",
+    "startMs": 46761,
+    "endMs": 47055,
+    "timestampMs": 46908,
+    "confidence": 0.98636,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " alimentos",
+    "startMs": 47055,
+    "endMs": 47496,
+    "timestampMs": 47275,
+    "confidence": 0.98658,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " no",
+    "startMs": 47496,
+    "endMs": 47845,
+    "timestampMs": 47670,
+    "confidence": 0.99159,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " perecederos,",
+    "startMs": 47845,
+    "endMs": 48414,
+    "timestampMs": 48130,
+    "confidence": 0.97647,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " abrelatas",
+    "startMs": 48703,
+    "endMs": 49116,
+    "timestampMs": 48910,
+    "confidence": 0.5499,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " manual,",
+    "startMs": 49116,
+    "endMs": 49484,
+    "timestampMs": 49300,
+    "confidence": 0.99022,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " cobijas",
+    "startMs": 49883,
+    "endMs": 50434,
+    "timestampMs": 50158,
+    "confidence": 0.81805,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " y",
+    "startMs": 50434,
+    "endMs": 50636,
+    "timestampMs": 50535,
+    "confidence": 0.93006,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " medicinas",
+    "startMs": 50636,
+    "endMs": 51096,
+    "timestampMs": 50866,
+    "confidence": 0.9888,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " esenciales.",
+    "startMs": 51096,
+    "endMs": 51957,
+    "timestampMs": 51526,
+    "confidence": 0.99089,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " No",
+    "startMs": 52014,
+    "endMs": 52198,
+    "timestampMs": 52106,
+    "confidence": 0.94929,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " olvides",
+    "startMs": 52198,
+    "endMs": 52528,
+    "timestampMs": 52363,
+    "confidence": 0.99717,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " bolsas",
+    "startMs": 52528,
+    "endMs": 52951,
+    "timestampMs": 52740,
+    "confidence": 0.99767,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " de",
+    "startMs": 52951,
+    "endMs": 53061,
+    "timestampMs": 53006,
+    "confidence": 0.99935,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " basura,",
+    "startMs": 53061,
+    "endMs": 53465,
+    "timestampMs": 53263,
+    "confidence": 0.991,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " papel",
+    "startMs": 53686,
+    "endMs": 53870,
+    "timestampMs": 53778,
+    "confidence": 0.99838,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " higiénico,",
+    "startMs": 53870,
+    "endMs": 54494,
+    "timestampMs": 54182,
+    "confidence": 0.9733,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " baterías,",
+    "startMs": 54697,
+    "endMs": 55211,
+    "timestampMs": 54954,
+    "confidence": 0.98313,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " radio",
+    "startMs": 55442,
+    "endMs": 55773,
+    "timestampMs": 55607,
+    "confidence": 0.97771,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " y",
+    "startMs": 56034,
+    "endMs": 56140,
+    "timestampMs": 56087,
+    "confidence": 0.94047,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " provisiones",
+    "startMs": 56140,
+    "endMs": 56710,
+    "timestampMs": 56425,
+    "confidence": 0.86634,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " especiales",
+    "startMs": 56710,
+    "endMs": 57261,
+    "timestampMs": 56986,
+    "confidence": 0.99771,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " para",
+    "startMs": 57261,
+    "endMs": 57427,
+    "timestampMs": 57344,
+    "confidence": 0.99896,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " niños",
+    "startMs": 57427,
+    "endMs": 57702,
+    "timestampMs": 57564,
+    "confidence": 0.99282,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " o",
+    "startMs": 57702,
+    "endMs": 57923,
+    "timestampMs": 57812,
+    "confidence": 0.99175,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " mascotas.",
+    "startMs": 57923,
+    "endMs": 58492,
+    "timestampMs": 58208,
+    "confidence": 0.94268,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Todo",
+    "startMs": 58665,
+    "endMs": 58830,
+    "timestampMs": 58747,
+    "confidence": 0.98751,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " debe",
+    "startMs": 58830,
+    "endMs": 59087,
+    "timestampMs": 58959,
+    "confidence": 0.99844,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " estar",
+    "startMs": 59087,
+    "endMs": 59363,
+    "timestampMs": 59225,
+    "confidence": 0.98967,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " organizado",
+    "startMs": 59363,
+    "endMs": 59969,
+    "timestampMs": 59666,
+    "confidence": 0.99796,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " y",
+    "startMs": 59969,
+    "endMs": 60190,
+    "timestampMs": 60080,
+    "confidence": 0.9937,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " revisarse",
+    "startMs": 60190,
+    "endMs": 60759,
+    "timestampMs": 60475,
+    "confidence": 0.97871,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " periódicamente.",
+    "startMs": 60759,
+    "endMs": 61439,
+    "timestampMs": 61099,
+    "confidence": 0.98856,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Y",
+    "startMs": 61859,
+    "endMs": 61951,
+    "timestampMs": 61905,
+    "confidence": 0.94874,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " recuerda:",
+    "startMs": 61951,
+    "endMs": 62392,
+    "timestampMs": 62171,
+    "confidence": 0.98055,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " una",
+    "startMs": 62558,
+    "endMs": 62687,
+    "timestampMs": 62622,
+    "confidence": 0.99555,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " mochila",
+    "startMs": 62687,
+    "endMs": 63109,
+    "timestampMs": 62898,
+    "confidence": 0.99545,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " sirve",
+    "startMs": 63109,
+    "endMs": 63532,
+    "timestampMs": 63320,
+    "confidence": 0.97917,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " para",
+    "startMs": 63532,
+    "endMs": 63716,
+    "timestampMs": 63624,
+    "confidence": 0.99948,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " evacuar;",
+    "startMs": 63716,
+    "endMs": 64230,
+    "timestampMs": 63973,
+    "confidence": 0.9952,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " las",
+    "startMs": 64462,
+    "endMs": 64536,
+    "timestampMs": 64499,
+    "confidence": 0.99595,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " reservas",
+    "startMs": 64536,
+    "endMs": 65142,
+    "timestampMs": 64839,
+    "confidence": 0.99877,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " sirven",
+    "startMs": 65142,
+    "endMs": 65565,
+    "timestampMs": 65354,
+    "confidence": 0.99738,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " para",
+    "startMs": 65565,
+    "endMs": 65804,
+    "timestampMs": 65684,
+    "confidence": 0.99943,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " resistir",
+    "startMs": 65804,
+    "endMs": 66410,
+    "timestampMs": 66107,
+    "confidence": 0.99587,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " en",
+    "startMs": 66410,
+    "endMs": 66521,
+    "timestampMs": 66465,
+    "confidence": 0.99722,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " casa.",
+    "startMs": 66521,
+    "endMs": 66759,
+    "timestampMs": 66640,
+    "confidence": 0.99847,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " ¿Tu",
+    "startMs": 67035,
+    "endMs": 67109,
+    "timestampMs": 67072,
+    "confidence": 0.72479,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " familia",
+    "startMs": 67109,
+    "endMs": 67421,
+    "timestampMs": 67265,
+    "confidence": 0.99834,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " podría",
+    "startMs": 67421,
+    "endMs": 67825,
+    "timestampMs": 67623,
+    "confidence": 0.99208,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " aguantar",
+    "startMs": 67825,
+    "endMs": 68340,
+    "timestampMs": 68083,
+    "confidence": 0.99284,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " siete",
+    "startMs": 68340,
+    "endMs": 68615,
+    "timestampMs": 68478,
+    "confidence": 0.72832,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " días",
+    "startMs": 68615,
+    "endMs": 68965,
+    "timestampMs": 68790,
+    "confidence": 0.99962,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " sin",
+    "startMs": 68965,
+    "endMs": 69167,
+    "timestampMs": 69066,
+    "confidence": 0.99755,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " servicios?",
+    "startMs": 69167,
+    "endMs": 69776,
+    "timestampMs": 69471,
+    "confidence": 0.95919,
+    "pageBreakAfter": true
+  }
+]

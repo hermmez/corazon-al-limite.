@@ -1,0 +1,269 @@
+{
+  "generator": "built-in imagegen",
+  "selected": 24,
+  "paidImageGenerations": 0,
+  "assets": [
+    {
+      "file": "mesa-preparacion.png",
+      "width": 941,
+      "height": 1672,
+      "alpha": null,
+      "backgroundScale": 1.1483253588516746,
+      "sha256": "ea563d6103a103c8a7cba54929599b53f14596d68374fa1f101f1be6b1fa7368"
+    },
+    {
+      "file": "despensa-reservas.png",
+      "width": 941,
+      "height": 1672,
+      "alpha": null,
+      "backgroundScale": 1.1483253588516746,
+      "sha256": "57c2d7ee2a6654b9fe4ab7e2c5dd2e0824076301bba6faa1055a97d91369f1ec"
+    },
+    {
+      "file": "mochila-abierta.png",
+      "width": 1123,
+      "height": 1400,
+      "alpha": [
+        0,
+        255
+      ],
+      "backgroundScale": null,
+      "sha256": "384bf7bae5522fa335db8773c66b8c52e06f6bf8500819b00c16de205f6b995b"
+    },
+    {
+      "file": "documentos-estanco.png",
+      "width": 1536,
+      "height": 1024,
+      "alpha": [
+        0,
+        254
+      ],
+      "backgroundScale": null,
+      "sha256": "209e21f267c9d2ae5c47a72473957f661660e04a007b491e14d740be95eecfc2"
+    },
+    {
+      "file": "botiquin-medicinas.png",
+      "width": 1536,
+      "height": 1024,
+      "alpha": [
+        0,
+        254
+      ],
+      "backgroundScale": null,
+      "sha256": "834c6091fb54018c2fdcef8b2f2b82cb5fd0e697756badf1ff88551548440ec5"
+    },
+    {
+      "file": "linterna.png",
+      "width": 1672,
+      "height": 941,
+      "alpha": [
+        0,
+        255
+      ],
+      "backgroundScale": null,
+      "sha256": "62a5b5be1b7d0319cc9542c9c4488357027b03a4cbe7f2977d6554f51a0322cb"
+    },
+    {
+      "file": "cargador-portatil.png",
+      "width": 1536,
+      "height": 1024,
+      "alpha": [
+        0,
+        254
+      ],
+      "backgroundScale": null,
+      "sha256": "9f8373dc9e5754af995b83c9b703592e0288926ac0beee235817c14fa8d43078"
+    },
+    {
+      "file": "botella-portatil.png",
+      "width": 941,
+      "height": 1672,
+      "alpha": [
+        0,
+        255
+      ],
+      "backgroundScale": null,
+      "sha256": "6fb3d4cc72a8bdf3c30f8e0b99b0496435b01c5fb6067ecce2d63bcfff418776"
+    },
+    {
+      "file": "ropa-higiene-viaje.png",
+      "width": 1536,
+      "height": 1024,
+      "alpha": [
+        0,
+        254
+      ],
+      "backgroundScale": null,
+      "sha256": "9675932aa6a2e0c0325800ac7d7d6ce311d64e11dbd0109317ce175b14d65962"
+    },
+    {
+      "file": "garrafon-4l.png",
+      "width": 1086,
+      "height": 1448,
+      "alpha": [
+        0,
+        255
+      ],
+      "backgroundScale": null,
+      "sha256": "9ef592be335d418efe5271feddc287c8d28c7c097c60fe05595cf1710e9b9d55"
+    },
+    {
+      "file": "abrelatas-manual.png",
+      "width": 1536,
+      "height": 1024,
+      "alpha": [
+        0,
+        254
+      ],
+      "backgroundScale": null,
+      "sha256": "2437076b72c627c5a5a796ea5c79ec2702b98c01b67d9b22139d81f22b2ffe58"
+    },
+    {
+      "file": "cobijas.png",
+      "width": 1536,
+      "height": 1024,
+      "alpha": [
+        0,
+        254
+      ],
+      "backgroundScale": null,
+      "sha256": "c785fd5993db81214fad684d1531dcbe9fc5ff7f9e31a85c79b82af2a09254d4"
+    },
+    {
+      "file": "saneamiento.png",
+      "width": 1536,
+      "height": 1024,
+      "alpha": [
+        0,
+        254
+      ],
+      "backgroundScale": null,
+      "sha256": "6ce2439a46df4a08773eca82c711c8a5b2b9d74ac52ecdf43275d0bec7a67387"
+    },
+    {
+      "file": "baterias.png",
+      "width": 1536,
+      "height": 1024,
+      "alpha": [
+        0,
+        254
+      ],
+      "backgroundScale": null,
+      "sha256": "2637ce4154ffb733d5ce636aa1dc171493f30c55b5e4e780b038e52f65ba70e2"
+    },
+    {
+      "file": "suministros-bebe.png",
+      "width": 1536,
+      "height": 1024,
+      "alpha": [
+        0,
+        254
+      ],
+      "backgroundScale": null,
+      "sha256": "64201ede31ea5a358e7c4bfafbeb3ca6bba5c4185c9beb936bd332117d1fa1f3"
+    },
+    {
+      "file": "suministros-mascota.png",
+      "width": 1536,
+      "height": 1024,
+      "alpha": [
+        0,
+        254
+      ],
+      "backgroundScale": null,
+      "sha256": "676678de4a17006aeb4897c3cc47f9235b473510656f8a1121553d5a1f230a73"
+    },
+    {
+      "file": "calendario-escritorio.png",
+      "width": 1330,
+      "height": 1182,
+      "alpha": [
+        0,
+        255
+      ],
+      "backgroundScale": null,
+      "sha256": "9a48d197273f3496c19c180e93acd006072795a475ee90a5c1cff2a91b4749fa"
+    },
+    {
+      "file": "telefono.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": [
+        0,
+        254
+      ],
+      "backgroundScale": null,
+      "sha256": "cd91916f4482bd58c9d10df7c5778e2876acf812dab277ba76287c25476fe85c"
+    },
+    {
+      "file": "lampara-mesa.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": [
+        0,
+        254
+      ],
+      "backgroundScale": null,
+      "sha256": "d46695356aca3a07febef4b3526dab597a30e7e33ad28387c4037f439dbc1de8"
+    },
+    {
+      "file": "personaje-empacando.png",
+      "width": 916,
+      "height": 1717,
+      "alpha": [
+        0,
+        255
+      ],
+      "backgroundScale": null,
+      "sha256": "c08b5f10f351b45fc8eac61e6025026e50f8d96055224c654be3f232ea162734"
+    },
+    {
+      "file": "familia-en-casa.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": [
+        0,
+        254
+      ],
+      "backgroundScale": null,
+      "sha256": "ae6f43fd26dca86809e4e6f686d880c1c23f58f1bb48dc7069d4029935aa1be4"
+    },
+    {
+      "file": "mochila-cerrada.png",
+      "width": 1123,
+      "height": 1401,
+      "alpha": [
+        0,
+        255
+      ],
+      "backgroundScale": null,
+      "sha256": "1c5ef2363c96fec7e162535b59bb5c7a1f6b93cb091bbf4a263096f9729df9c1"
+    },
+    {
+      "file": "personaje-mochila.png",
+      "width": 1024,
+      "height": 1536,
+      "alpha": [
+        0,
+        254
+      ],
+      "backgroundScale": null,
+      "sha256": "7bc69dd1da414e0e341c76a0fc9c7c9526b4cffa496506fa3e36658a7e3523ad"
+    },
+    {
+      "file": "personaje-carga-pesada.png",
+      "width": 1060,
+      "height": 1484,
+      "alpha": [
+        0,
+        255
+      ],
+      "backgroundScale": null,
+      "sha256": "f38a9440dd4003b4581d16858aaf06f8bdc05a257116a77e84e24e95179954c6"
+    }
+  ],
+  "previousEpisodesUnchanged": true,
+  "protectedFiles": 151,
+  "previousMP4Verified": true,
+  "reference": "52245607817385090c9a3df1fdfea4a70066e788"
+}

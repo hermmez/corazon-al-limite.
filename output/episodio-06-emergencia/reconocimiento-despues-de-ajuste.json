@@ -1,0 +1,9 @@
+{
+  "words": 177,
+  "exactAfterNumericNormalization": true,
+  "tempo": 1.0883829450161997,
+  "medianStartDifferenceMs": 11,
+  "p95StartDifferenceMs": 47,
+  "independentPass": "Faster Whisper small es on reconstructed edit from original take",
+  "lastAsrWordEnd": 69.48
+}

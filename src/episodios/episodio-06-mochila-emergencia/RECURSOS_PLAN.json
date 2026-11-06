@@ -1,0 +1,267 @@
+{
+  "mode": "built-in imagegen",
+  "reviewedExisting": [
+    "city street",
+    "kitchen",
+    "approved hero poses",
+    "radio",
+    "sealed food tray",
+    "home entry",
+    "refuge"
+  ],
+  "plan": [
+    {
+      "file": "mesa-preparacion.png",
+      "transparent": false,
+      "references": [
+        "public/episodio-05/ilustraciones/refugio-interior.png",
+        "public/imagenes/escenarios/02_cocina.png"
+      ],
+      "gap": "Missing foreground packing workbench",
+      "prompt": "Use case: illustration-story. Asset mesa-preparacion.png for a 1080 × 1920 vertical Remotion scene. Corazón al Límite animated education series. Use the supplied approved reference as the exact series style: hand-drawn stylized 2D editorial animation, clean midnight blue contours, angular rounded shapes, warm painterly cel shading with a controlled teal, amber and navy palette, detailed readable materials and selective highlight lines. Match its outline weight, perspective and shading. Flat hand-drawn 2D artwork with drawn depth, no 3D rendering, no photographic textures. No words, brands, signatures, watermark or stock graphic appearance.  Input images are approved style references, not assets to reproduce wholesale. A complete 9:16 portrait scene inside a well-kept modest home matching both approved interiors. Camera at standing counter height, slight downward 3/4 perspective. Warm teal curtains and brass pendant overhead, honey oak cabinet, plant and door in deep background. A broad honey wood tabletop runs from left to right across the entire foreground lower 35 percent; visible top surface from roughly 63% to 84% of image height, front fascia below. No items on this surface. Open center at table height to composite person behind, no people. Detailed corners full bleed, cinematic depth and illustrated lighting. Show wood grain and cabinet joinery. Fill the complete portrait canvas, no padding, borders, title or lettering.",
+      "status": "generated-and-inspected"
+    },
+    {
+      "file": "despensa-reservas.png",
+      "transparent": false,
+      "references": [
+        "public/episodio-05/ilustraciones/refugio-interior.png",
+        "public/imagenes/escenarios/02_cocina.png"
+      ],
+      "gap": "Missing complete home storage room for week supplies",
+      "prompt": "Use case: illustration-story. Asset despensa-reservas.png for a 1080 × 1920 vertical Remotion scene. Corazón al Límite animated education series. Use the supplied approved reference as the exact series style: hand-drawn stylized 2D editorial animation, clean midnight blue contours, angular rounded shapes, warm painterly cel shading with a controlled teal, amber and navy palette, detailed readable materials and selective highlight lines. Match its outline weight, perspective and shading. Flat hand-drawn 2D artwork with drawn depth, no 3D rendering, no photographic textures. No words, brands, signatures, watermark or stock graphic appearance.  Input images are approved style references, not assets to reproduce wholesale. Full-frame portrait 9:16 illustrated residential pantry adjoining the series' living area; crisp teal-painted wood shelving and warm amber ochre walls. On the left shelves are neatly stacked closed tins, jars, rolled blankets and discreet boxes. Lower shelf includes several large semi-translucent capped potable-water jugs. A blank wood work counter at about 70% of height in front, full width with perspective. Open walkway on right, deep background doorway and a warm window spill, wall space for subtle labels. No people, no modern retail branding, rich coherent scene. Full bleed composition through corners. Fill the complete portrait canvas, no padding, borders, title or lettering.",
+      "status": "generated-and-inspected"
+    },
+    {
+      "file": "mochila-abierta.png",
+      "transparent": true,
+      "references": [
+        "public/episodio-05/ilustraciones/radio-emergencia.png"
+      ],
+      "gap": "Missing open backpack and visible mouth for separate packing animation",
+      "prompt": "Use case: illustration-story. Asset mochila-abierta.png for a 1080 × 1920 vertical Remotion scene. Corazón al Límite animated education series. Use the supplied approved reference as the exact series style: hand-drawn stylized 2D editorial animation, clean midnight blue contours, angular rounded shapes, warm painterly cel shading with a controlled teal, amber and navy palette, detailed readable materials and selective highlight lines. Match its outline weight, perspective and shading. Flat hand-drawn 2D artwork with drawn depth, no 3D rendering, no photographic textures. No words, brands, signatures, watermark or stock graphic appearance.  Input images are approved style references, not assets to reproduce wholesale. Rugged compact 26-liter teal canvas daypack, navy base and straps, amber stitching and two mustard-colored zipper pulls, rounded rectangular shape, two slim side pockets, no logo. One open upright backpack, zipper unzipped, lid folded back, wide visibly empty main compartment visible from slight high 3/4 front view. Deep dark inner fabric bowl and bright front rim distinct, visible left and right straps, zippers and seams. Fully in frame, centered, isolated real transparent PNG. Perspective like a large foreground prop on an illustrated kitchen table. Single empty backpack. Deliver actual transparency outside the subject; no checkerboard, flat color backdrop, border, or other set.",
+      "status": "generated-and-inspected"
+    },
+    {
+      "file": "documentos-estanco.png",
+      "transparent": true,
+      "references": [
+        "public/episodio-05/ilustraciones/provisiones-selladas.png"
+      ],
+      "gap": "Missing identifiable cash and documents in one waterproof pouch",
+      "prompt": "Use case: illustration-story. Asset documentos-estanco.png for a 1080 × 1920 vertical Remotion scene. Corazón al Límite animated education series. Use the supplied approved reference as the exact series style: hand-drawn stylized 2D editorial animation, clean midnight blue contours, angular rounded shapes, warm painterly cel shading with a controlled teal, amber and navy palette, detailed readable materials and selective highlight lines. Match its outline weight, perspective and shading. Flat hand-drawn 2D artwork with drawn depth, no 3D rendering, no photographic textures. No words, brands, signatures, watermark or stock graphic appearance.  Input images are approved style references, not assets to reproduce wholesale. One transparent flexible waterproof zip envelope lying slightly tilted, with visible generic ID card (abstract portrait only, no recognizable faces or data), cream folded personal papers and two small generic green banknotes inside. The secure amber zipper edge and the transparent plastic folds are distinct. One practical assembled group, rendered above at 3/4 angle, no readable characters or currencies, isolated true alpha, all edges visible. Deliver actual transparency outside the subject; no checkerboard, flat color backdrop, border, or other set.",
+      "status": "generated-and-inspected"
+    },
+    {
+      "file": "botiquin-medicinas.png",
+      "transparent": true,
+      "references": [
+        "public/episodio-05/ilustraciones/radio-emergencia.png"
+      ],
+      "gap": "Missing portable first-aid kit and medication grouping",
+      "prompt": "Use case: illustration-story. Asset botiquin-medicinas.png for a 1080 × 1920 vertical Remotion scene. Corazón al Límite animated education series. Use the supplied approved reference as the exact series style: hand-drawn stylized 2D editorial animation, clean midnight blue contours, angular rounded shapes, warm painterly cel shading with a controlled teal, amber and navy palette, detailed readable materials and selective highlight lines. Match its outline weight, perspective and shading. Flat hand-drawn 2D artwork with drawn depth, no 3D rendering, no photographic textures. No words, brands, signatures, watermark or stock graphic appearance.  Input images are approved style references, not assets to reproduce wholesale. One open teal travel first-aid zip case in oblique 3/4 view, two cream bandage rolls, adhesive strips, little gauze packet and a small amber prescription bottle with plain cream label visible inside. No dosage or medicine branding. Recognizable detailed cloth zipper, small neutral white cross on side, all in frame, isolated transparent. Deliver actual transparency outside the subject; no checkerboard, flat color backdrop, border, or other set.",
+      "status": "generated-and-inspected"
+    },
+    {
+      "file": "linterna.png",
+      "transparent": true,
+      "references": [
+        "public/episodio-05/ilustraciones/radio-emergencia.png"
+      ],
+      "gap": "Missing independent battery flashlight",
+      "prompt": "Use case: illustration-story. Asset linterna.png for a 1080 × 1920 vertical Remotion scene. Corazón al Límite animated education series. Use the supplied approved reference as the exact series style: hand-drawn stylized 2D editorial animation, clean midnight blue contours, angular rounded shapes, warm painterly cel shading with a controlled teal, amber and navy palette, detailed readable materials and selective highlight lines. Match its outline weight, perspective and shading. Flat hand-drawn 2D artwork with drawn depth, no 3D rendering, no photographic textures. No words, brands, signatures, watermark or stock graphic appearance.  Input images are approved style references, not assets to reproduce wholesale. One compact rugged hand flashlight, navy ribbed barrel, muted teal grip and amber on-off switch, turned diagonally so that the silver lens glass, reflector, grip detail and end cap are visible. Off, no beam built into image. Wide diagonal composition, isolated true alpha, suitable as detailed close-up object. Deliver actual transparency outside the subject; no checkerboard, flat color backdrop, border, or other set.",
+      "status": "generated-and-inspected"
+    },
+    {
+      "file": "cargador-portatil.png",
+      "transparent": true,
+      "references": [
+        "public/episodio-05/ilustraciones/radio-emergencia.png"
+      ],
+      "gap": "Missing independent portable charger and its cable",
+      "prompt": "Use case: illustration-story. Asset cargador-portatil.png for a 1080 × 1920 vertical Remotion scene. Corazón al Límite animated education series. Use the supplied approved reference as the exact series style: hand-drawn stylized 2D editorial animation, clean midnight blue contours, angular rounded shapes, warm painterly cel shading with a controlled teal, amber and navy palette, detailed readable materials and selective highlight lines. Match its outline weight, perspective and shading. Flat hand-drawn 2D artwork with drawn depth, no 3D rendering, no photographic textures. No words, brands, signatures, watermark or stock graphic appearance.  Input images are approved style references, not assets to reproduce wholesale. One teal slim rectangular USB power bank in 3/4 view with a visible navy USB cable partly looped and plugged into the unit, clearly recognizable connector at the other end. Tiny amber battery lights without text. Warm edge highlights on finely drawn plastic. All in frame, true transparency. Deliver actual transparency outside the subject; no checkerboard, flat color backdrop, border, or other set.",
+      "status": "generated-and-inspected"
+    },
+    {
+      "file": "botella-portatil.png",
+      "transparent": true,
+      "references": [
+        "public/episodio-05/ilustraciones/provisiones-selladas.png"
+      ],
+      "gap": "Missing portable bottle isolated from the original food tray",
+      "prompt": "Use case: illustration-story. Asset botella-portatil.png for a 1080 × 1920 vertical Remotion scene. Corazón al Límite animated education series. Use the supplied approved reference as the exact series style: hand-drawn stylized 2D editorial animation, clean midnight blue contours, angular rounded shapes, warm painterly cel shading with a controlled teal, amber and navy palette, detailed readable materials and selective highlight lines. Match its outline weight, perspective and shading. Flat hand-drawn 2D artwork with drawn depth, no 3D rendering, no photographic textures. No words, brands, signatures, watermark or stock graphic appearance.  Input images are approved style references, not assets to reproduce wholesale. One small sealed half-liter clear PET bottle of drinking water, blue teal screw cap, visible water line, molded rings, clear painterly shadows, no label or typography. Standing upright, oblique side light, fully visible on real alpha. Deliver actual transparency outside the subject; no checkerboard, flat color backdrop, border, or other set.",
+      "status": "generated-and-inspected"
+    },
+    {
+      "file": "ropa-higiene-viaje.png",
+      "transparent": true,
+      "references": [
+        "public/episodio-05/ilustraciones/refugio-interior.png",
+        "public/episodio-05/ilustraciones/provisiones-selladas.png"
+      ],
+      "gap": "Missing wearable warm layer and compact hygiene pouch",
+      "prompt": "Use case: illustration-story. Asset ropa-higiene-viaje.png for a 1080 × 1920 vertical Remotion scene. Corazón al Límite animated education series. Use the supplied approved reference as the exact series style: hand-drawn stylized 2D editorial animation, clean midnight blue contours, angular rounded shapes, warm painterly cel shading with a controlled teal, amber and navy palette, detailed readable materials and selective highlight lines. Match its outline weight, perspective and shading. Flat hand-drawn 2D artwork with drawn depth, no 3D rendering, no photographic textures. No words, brands, signatures, watermark or stock graphic appearance.  Input images are approved style references, not assets to reproduce wholesale. One compact travel stack of a carefully folded deep ochre zip fleece, teal socks and a small navy zip toiletry pouch resting on top, with a sealed travel soap and a toothbrush sleeve visible from its open corner. Physical contact as one useful packing group. Slight high 3/4 view, real alpha, isolated all edges, no words. Deliver actual transparency outside the subject; no checkerboard, flat color backdrop, border, or other set.",
+      "status": "generated-and-inspected"
+    },
+    {
+      "file": "garrafon-4l.png",
+      "transparent": true,
+      "references": [
+        "public/episodio-05/ilustraciones/provisiones-selladas.png",
+        "public/episodio-05/ilustraciones/radio-emergencia.png"
+      ],
+      "gap": "Missing approximately four-liter food-grade container for quantity visualization",
+      "prompt": "Use case: illustration-story. Asset garrafon-4l.png for a 1080 × 1920 vertical Remotion scene. Corazón al Límite animated education series. Use the supplied approved reference as the exact series style: hand-drawn stylized 2D editorial animation, clean midnight blue contours, angular rounded shapes, warm painterly cel shading with a controlled teal, amber and navy palette, detailed readable materials and selective highlight lines. Match its outline weight, perspective and shading. Flat hand-drawn 2D artwork with drawn depth, no 3D rendering, no photographic textures. No words, brands, signatures, watermark or stock graphic appearance.  Input images are approved style references, not assets to reproduce wholesale. One upright translucent blue 4-liter home drinking-water jerrycan, squat rectangular container with a thick molded top carry handle, teal screw cap, soft corner radius, subtle molded vertical ribs, visible clear water filling most of the container. Single object, full frame, slight high frontal 3/4 perspective, no printed volume or numbers (added separately), true transparent PNG. Deliver actual transparency outside the subject; no checkerboard, flat color backdrop, border, or other set.",
+      "status": "generated-and-inspected"
+    },
+    {
+      "file": "abrelatas-manual.png",
+      "transparent": true,
+      "references": [
+        "public/episodio-05/ilustraciones/radio-emergencia.png"
+      ],
+      "gap": "Missing standalone recognizable can opener",
+      "prompt": "Use case: illustration-story. Asset abrelatas-manual.png for a 1080 × 1920 vertical Remotion scene. Corazón al Límite animated education series. Use the supplied approved reference as the exact series style: hand-drawn stylized 2D editorial animation, clean midnight blue contours, angular rounded shapes, warm painterly cel shading with a controlled teal, amber and navy palette, detailed readable materials and selective highlight lines. Match its outline weight, perspective and shading. Flat hand-drawn 2D artwork with drawn depth, no 3D rendering, no photographic textures. No words, brands, signatures, watermark or stock graphic appearance.  Input images are approved style references, not assets to reproduce wholesale. One household handheld manual can opener, clear steel cutter wheel and gear, distinctive dark teal coated long handles and turning crank visible from upper 3/4 angle. Beside no other objects. Accurate recognizable silhouette and outlined steel detailing, true alpha. Deliver actual transparency outside the subject; no checkerboard, flat color backdrop, border, or other set.",
+      "status": "generated-and-inspected"
+    },
+    {
+      "file": "cobijas.png",
+      "transparent": true,
+      "references": [
+        "public/episodio-05/ilustraciones/refugio-interior.png"
+      ],
+      "gap": "Missing movable blanket stack",
+      "prompt": "Use case: illustration-story. Asset cobijas.png for a 1080 × 1920 vertical Remotion scene. Corazón al Límite animated education series. Use the supplied approved reference as the exact series style: hand-drawn stylized 2D editorial animation, clean midnight blue contours, angular rounded shapes, warm painterly cel shading with a controlled teal, amber and navy palette, detailed readable materials and selective highlight lines. Match its outline weight, perspective and shading. Flat hand-drawn 2D artwork with drawn depth, no 3D rendering, no photographic textures. No words, brands, signatures, watermark or stock graphic appearance.  Input images are approved style references, not assets to reproduce wholesale. One stack of two thick folded emergency blankets with illustrated woven texture and neatly folded corners, upper amber golden blanket and lower dark teal blanket, slight high front 3/4 view. Complete clean isolated true alpha, no other objects. Deliver actual transparency outside the subject; no checkerboard, flat color backdrop, border, or other set.",
+      "status": "generated-and-inspected"
+    },
+    {
+      "file": "saneamiento.png",
+      "transparent": true,
+      "references": [
+        "public/episodio-05/ilustraciones/refugio-interior.png",
+        "public/episodio-05/ilustraciones/provisiones-selladas.png"
+      ],
+      "gap": "Missing garbage bags and toilet paper for sanitation",
+      "prompt": "Use case: illustration-story. Asset saneamiento.png for a 1080 × 1920 vertical Remotion scene. Corazón al Límite animated education series. Use the supplied approved reference as the exact series style: hand-drawn stylized 2D editorial animation, clean midnight blue contours, angular rounded shapes, warm painterly cel shading with a controlled teal, amber and navy palette, detailed readable materials and selective highlight lines. Match its outline weight, perspective and shading. Flat hand-drawn 2D artwork with drawn depth, no 3D rendering, no photographic textures. No words, brands, signatures, watermark or stock graphic appearance.  Input images are approved style references, not assets to reproduce wholesale. One physical sanitation group of a compact folded dark navy roll of trash bags leaning against two clean cream toilet paper rolls, one unrolled edge visible, with a small closed teal soap container touching the base. Oblique front view, all visible on real transparency, no text. Deliver actual transparency outside the subject; no checkerboard, flat color backdrop, border, or other set.",
+      "status": "generated-and-inspected"
+    },
+    {
+      "file": "baterias.png",
+      "transparent": true,
+      "references": [
+        "public/episodio-05/ilustraciones/radio-emergencia.png"
+      ],
+      "gap": "Missing independently animated spare cells",
+      "prompt": "Use case: illustration-story. Asset baterias.png for a 1080 × 1920 vertical Remotion scene. Corazón al Límite animated education series. Use the supplied approved reference as the exact series style: hand-drawn stylized 2D editorial animation, clean midnight blue contours, angular rounded shapes, warm painterly cel shading with a controlled teal, amber and navy palette, detailed readable materials and selective highlight lines. Match its outline weight, perspective and shading. Flat hand-drawn 2D artwork with drawn depth, no 3D rendering, no photographic textures. No words, brands, signatures, watermark or stock graphic appearance.  Input images are approved style references, not assets to reproduce wholesale. Three intact AA batteries grouped as a physical set, two standing and one lying diagonally at front, copper orange caps and teal bodies, distinct raised positive terminals, subtle drawn reflections, no logos, no words, fully visible isolated true alpha. Deliver actual transparency outside the subject; no checkerboard, flat color backdrop, border, or other set.",
+      "status": "generated-and-inspected"
+    },
+    {
+      "file": "suministros-bebe.png",
+      "transparent": true,
+      "references": [
+        "public/episodio-05/ilustraciones/provisiones-selladas.png"
+      ],
+      "gap": "Missing baby-specific supplies",
+      "prompt": "Use case: illustration-story. Asset suministros-bebe.png for a 1080 × 1920 vertical Remotion scene. Corazón al Límite animated education series. Use the supplied approved reference as the exact series style: hand-drawn stylized 2D editorial animation, clean midnight blue contours, angular rounded shapes, warm painterly cel shading with a controlled teal, amber and navy palette, detailed readable materials and selective highlight lines. Match its outline weight, perspective and shading. Flat hand-drawn 2D artwork with drawn depth, no 3D rendering, no photographic textures. No words, brands, signatures, watermark or stock graphic appearance.  Input images are approved style references, not assets to reproduce wholesale. One coherent physical infant supplies bundle, two white folded diapers with small blue tab and a capped clear baby bottle alongside, small sealed teal wipes packet underneath. 3/4 tabletop angle, full visible isolated real alpha, no labels or letters. Deliver actual transparency outside the subject; no checkerboard, flat color backdrop, border, or other set.",
+      "status": "generated-and-inspected"
+    },
+    {
+      "file": "suministros-mascota.png",
+      "transparent": true,
+      "references": [
+        "public/episodio-05/ilustraciones/provisiones-selladas.png",
+        "public/episodio-05/ilustraciones/radio-emergencia.png"
+      ],
+      "gap": "Missing separate pet provisions",
+      "prompt": "Use case: illustration-story. Asset suministros-mascota.png for a 1080 × 1920 vertical Remotion scene. Corazón al Límite animated education series. Use the supplied approved reference as the exact series style: hand-drawn stylized 2D editorial animation, clean midnight blue contours, angular rounded shapes, warm painterly cel shading with a controlled teal, amber and navy palette, detailed readable materials and selective highlight lines. Match its outline weight, perspective and shading. Flat hand-drawn 2D artwork with drawn depth, no 3D rendering, no photographic textures. No words, brands, signatures, watermark or stock graphic appearance.  Input images are approved style references, not assets to reproduce wholesale. One practical pet supply group: a shallow teal pet bowl with visible brown kibble, a closed ochre resealable food pouch with a tiny simple paw symbol only, and a rolled dark-blue leash with clip touching the bowl. Three-quarter tabletop perspective, complete group on real alpha. Deliver actual transparency outside the subject; no checkerboard, flat color backdrop, border, or other set.",
+      "status": "generated-and-inspected"
+    },
+    {
+      "file": "calendario-escritorio.png",
+      "transparent": true,
+      "references": [
+        "public/episodio-05/ilustraciones/refugio-interior.png",
+        "public/episodio-05/ilustraciones/radio-emergencia.png"
+      ],
+      "gap": "Missing physical calendar for 7 days and periodic review",
+      "prompt": "Use case: illustration-story. Asset calendario-escritorio.png for a 1080 × 1920 vertical Remotion scene. Corazón al Límite animated education series. Use the supplied approved reference as the exact series style: hand-drawn stylized 2D editorial animation, clean midnight blue contours, angular rounded shapes, warm painterly cel shading with a controlled teal, amber and navy palette, detailed readable materials and selective highlight lines. Match its outline weight, perspective and shading. Flat hand-drawn 2D artwork with drawn depth, no 3D rendering, no photographic textures. No words, brands, signatures, watermark or stock graphic appearance.  Input images are approved style references, not assets to reproduce wholesale. One large upright tabletop desk flip calendar, front facing almost square to camera, dark teal A-frame base, cream blank full rectangular page area with golden double wire binding at top. All page interior completely BLANK (animated grid and numbers added separately). Detailed pages and edge shadows with a couple of page corners, transparent background, entire calendar visible and no words. Deliver actual transparency outside the subject; no checkerboard, flat color backdrop, border, or other set.",
+      "status": "generated-and-inspected"
+    },
+    {
+      "file": "telefono.png",
+      "transparent": true,
+      "references": [
+        "public/episodio-05/ilustraciones/radio-emergencia.png"
+      ],
+      "gap": "Missing independent smartphone for network-loss close-up",
+      "prompt": "Use case: illustration-story. Asset telefono.png for a 1080 × 1920 vertical Remotion scene. Corazón al Límite animated education series. Use the supplied approved reference as the exact series style: hand-drawn stylized 2D editorial animation, clean midnight blue contours, angular rounded shapes, warm painterly cel shading with a controlled teal, amber and navy palette, detailed readable materials and selective highlight lines. Match its outline weight, perspective and shading. Flat hand-drawn 2D artwork with drawn depth, no 3D rendering, no photographic textures. No words, brands, signatures, watermark or stock graphic appearance.  Input images are approved style references, not assets to reproduce wholesale. One upright modern smartphone held at only a 4 degree 3/4 perspective, portrait orientation, thin dark navy case with teal edge highlights. Screen completely blank dark muted blue without symbols, icons or text so signal graphics can be added in Remotion. All sides visible, single object, isolated real transparent background. Deliver actual transparency outside the subject; no checkerboard, flat color backdrop, border, or other set.",
+      "status": "generated-and-inspected"
+    },
+    {
+      "file": "lampara-mesa.png",
+      "transparent": true,
+      "references": [
+        "public/episodio-05/ilustraciones/refugio-interior.png"
+      ],
+      "gap": "Missing independently controlled lamp for blackout",
+      "prompt": "Use case: illustration-story. Asset lampara-mesa.png for a 1080 × 1920 vertical Remotion scene. Corazón al Límite animated education series. Use the supplied approved reference as the exact series style: hand-drawn stylized 2D editorial animation, clean midnight blue contours, angular rounded shapes, warm painterly cel shading with a controlled teal, amber and navy palette, detailed readable materials and selective highlight lines. Match its outline weight, perspective and shading. Flat hand-drawn 2D artwork with drawn depth, no 3D rendering, no photographic textures. No words, brands, signatures, watermark or stock graphic appearance.  Input images are approved style references, not assets to reproduce wholesale. One attractive home table lamp turned off with translucent amber fabric shade, brass center stem and dark teal weighted base. Lamp entirely visible upright at 3/4 front view, no baked-in glow or cast background. Detailed illustrated fabric shading, real alpha. Deliver actual transparency outside the subject; no checkerboard, flat color backdrop, border, or other set.",
+      "status": "generated-and-inspected"
+    },
+    {
+      "file": "personaje-empacando.png",
+      "transparent": true,
+      "references": [
+        "public/imagenes/personajes/01_neutral.png",
+        "public/imagenes/personajes/11_sorprendido.png"
+      ],
+      "gap": "Missing approved hero with intentional packing gesture",
+      "prompt": "Use case: illustration-story. Asset personaje-empacando.png for a 1080 × 1920 vertical Remotion scene. Corazón al Límite animated education series. Use the supplied approved reference as the exact series style: hand-drawn stylized 2D editorial animation, clean midnight blue contours, angular rounded shapes, warm painterly cel shading with a controlled teal, amber and navy palette, detailed readable materials and selective highlight lines. Match its outline weight, perspective and shading. Flat hand-drawn 2D artwork with drawn depth, no 3D rendering, no photographic textures. No words, brands, signatures, watermark or stock graphic appearance.  Input images are approved style references, not assets to reproduce wholesale. Same exact young adult male character: identical dark swept wavy hair, eyebrows, face, proportions, skin tone, plain teal T-shirt, navy pants, navy white-laced shoes. Slight 3/4 looking down toward right, leaning just a little, both hands forward at belt height in a natural gesture carefully placing a small object into a backpack on a table. Empty hands, no backpack, no table. Full body all the way to shoes, isolated real alpha, preserve series identity, no new accessories. Deliver actual transparency outside the subject; no checkerboard, flat color backdrop, border, or other set.",
+      "status": "generated-and-inspected"
+    },
+    {
+      "file": "familia-en-casa.png",
+      "transparent": true,
+      "references": [
+        "public/imagenes/personajes/01_neutral.png",
+        "public/imagenes/escenarios/02_cocina.png"
+      ],
+      "gap": "Missing family sharing supplies in final home shot",
+      "prompt": "Use case: illustration-story. Asset familia-en-casa.png for a 1080 × 1920 vertical Remotion scene. Corazón al Límite animated education series. Use the supplied approved reference as the exact series style: hand-drawn stylized 2D editorial animation, clean midnight blue contours, angular rounded shapes, warm painterly cel shading with a controlled teal, amber and navy palette, detailed readable materials and selective highlight lines. Match its outline weight, perspective and shading. Flat hand-drawn 2D artwork with drawn depth, no 3D rendering, no photographic textures. No words, brands, signatures, watermark or stock graphic appearance.  Input images are approved style references, not assets to reproduce wholesale. One complete naturally posed small family grouping for the same illustrated series, an adult woman in warm burnt-ochre cardigan over cream top gently holding a young child in dark teal sweater by the shoulder, alongside a relaxed small brown dog at their feet. Adult and child close together, calmly checking supplies just off-frame left, natural eye lines, full bodies and dog all visible, organized as one pose on a common ground line. Proportions and facial stylization consistent with approved teal-shirt hero, who will be composited separately. Real transparent background. Deliver actual transparency outside the subject; no checkerboard, flat color backdrop, border, or other set.",
+      "status": "generated-and-inspected"
+    },
+    {
+      "file": "mochila-cerrada.png",
+      "transparent": true,
+      "references": [
+        "public/episodio-06/ilustraciones/mochila-abierta.png"
+      ],
+      "gap": "Closed version of the exact bag",
+      "prompt": "Use case: precise-object-edit. Input is the exact approved teal canvas daypack. Show the same rugged backpack sitting upright in the same view, now neatly zipped closed. Identical width, body proportions, top handle, side pockets, gold zip pulls, teal canvas, navy base, amber stitching and shoulder straps. Main top flap now covers the empty compartment, no contents visible. All edges visible, same illustrated shading and clean navy outlines, transparent background with actual alpha; preserve its identity. No extra objects, labels or logos.",
+      "status": "generated-and-inspected"
+    },
+    {
+      "file": "personaje-mochila.png",
+      "transparent": true,
+      "references": [
+        "public/imagenes/personajes/01_neutral.png",
+        "public/imagenes/personajes/11_sorprendido.png",
+        "public/episodio-06/ilustraciones/mochila-abierta.png"
+      ],
+      "gap": "Comfortable walk wearing practical evacuation bag",
+      "prompt": "Use case: identity-preserve. Corazón al Límite 2D Spanish educational series. Reference 1 and 2 are the exact same young man and style, reference 3 is the exact teal daypack with navy straps, amber stitches and gold zipper pulls. Match the references closely, line weight, illustrated shaded contours, teal/navy/warm colors, original facial design, body proportions and silhouette. Full body or full object, clear cutout, genuine PNG alpha, no backdrop or floor, no words, logos, watermark, 3D or photography. One full-body key pose of the exact young adult hero in his familiar teal T-shirt, dark trousers and blue lace-up shoes, wearing the compact teal daypack on both shoulders, not covering his distinctive hairstyle. 3/4 side view, facing screen right, comfortable walking stride with separated legs, his left hand adjusts one strap, relaxed confident expression. Bag fits high and close to back. Entire silhouette including hair and shoes.",
+      "status": "generated-and-inspected"
+    },
+    {
+      "file": "personaje-carga-pesada.png",
+      "transparent": true,
+      "references": [
+        "public/imagenes/personajes/01_neutral.png",
+        "public/imagenes/personajes/11_sorprendido.png",
+        "public/episodio-06/ilustraciones/mochila-abierta.png"
+      ],
+      "gap": "Brief expressive comparison with oversized load",
+      "prompt": "Use case: identity-preserve. Corazón al Límite 2D Spanish educational series. Reference 1 and 2 are the exact same young man and style, reference 3 is the exact teal daypack with navy straps, amber stitches and gold zipper pulls. Match the references closely, line weight, illustrated shaded contours, teal/navy/warm colors, original facial design, body proportions and silhouette. Full body or full object, clear cutout, genuine PNG alpha, no backdrop or floor, no words, logos, watermark, 3D or photography. One full-body key pose of the exact young adult hero in his familiar teal shirt, dark trousers and blue shoes. He faces screen right and leans forward with bent knees and raised worried eyebrows, struggling to move with an exaggerated, visibly oversized overloaded teal and navy camping pack. Pack higher than shoulders, a folded amber blanket and one bulky pocket; understandable weight comparison. Both hands hold straps, both feet completely visible, no injuries, fully isolated.",
+      "status": "generated-and-inspected"
+    }
+  ]
+}

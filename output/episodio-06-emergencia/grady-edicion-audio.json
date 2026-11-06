@@ -1,0 +1,310 @@
+{
+  "sourceSha256": "49c7e53a6f4b21fc130189980daad1e2e17fda31fd26b8d820f97aa981aa5e69",
+  "sourceDuration": 82.99102083333334,
+  "duration": 70,
+  "sampleRate": 48000,
+  "finalSamples": 3360000,
+  "tempo": 1.0883829450161997,
+  "pitchPreserved": true,
+  "words": 177,
+  "speechWordsRemoved": 0,
+  "quietSecondsRemoved": 6.84775,
+  "cuts": [
+    {
+      "start": 232177,
+      "end": 247731,
+      "removed": 15554,
+      "retained": 0.21,
+      "peakDbfs": -80.04326264885938
+    },
+    {
+      "start": 344455,
+      "end": 374986,
+      "removed": 30531,
+      "retained": 0.21,
+      "peakDbfs": -80.46847021555762
+    },
+    {
+      "start": 612326,
+      "end": 629303,
+      "removed": 16977,
+      "retained": 0.21,
+      "peakDbfs": -80.62721747625508
+    },
+    {
+      "start": 716763,
+      "end": 727096,
+      "removed": 10333,
+      "retained": 0.16,
+      "peakDbfs": -80.6074789144897
+    },
+    {
+      "start": 861996,
+      "end": 883266,
+      "removed": 21270,
+      "retained": 0.21,
+      "peakDbfs": -79.8175486688534
+    },
+    {
+      "start": 911749,
+      "end": 913221,
+      "removed": 1472,
+      "retained": 0.16,
+      "peakDbfs": -81.59391471188927
+    },
+    {
+      "start": 1017033,
+      "end": 1030967,
+      "removed": 13934,
+      "retained": 0.21,
+      "peakDbfs": -78.62474815008967
+    },
+    {
+      "start": 1135124,
+      "end": 1139612,
+      "removed": 4488,
+      "retained": 0.16,
+      "peakDbfs": -81.32631093041923
+    },
+    {
+      "start": 1270932,
+      "end": 1275855,
+      "removed": 4923,
+      "retained": 0.16,
+      "peakDbfs": -80.76311799779383
+    },
+    {
+      "start": 1392264,
+      "end": 1409530,
+      "removed": 17266,
+      "retained": 0.21,
+      "peakDbfs": -80.47317920103984
+    },
+    {
+      "start": 1464896,
+      "end": 1468591,
+      "removed": 3695,
+      "retained": 0.16,
+      "peakDbfs": -56.55627915720931
+    },
+    {
+      "start": 1549215,
+      "end": 1552592,
+      "removed": 3377,
+      "retained": 0.16,
+      "peakDbfs": -82.36089995496607
+    },
+    {
+      "start": 1666760,
+      "end": 1680344,
+      "removed": 13584,
+      "retained": 0.21,
+      "peakDbfs": -80.60096601279943
+    },
+    {
+      "start": 1712471,
+      "end": 1720276,
+      "removed": 7805,
+      "retained": 0.16,
+      "peakDbfs": -80.7634333417058
+    },
+    {
+      "start": 1810146,
+      "end": 1814776,
+      "removed": 4630,
+      "retained": 0.16,
+      "peakDbfs": -82.99881794506562
+    },
+    {
+      "start": 1914159,
+      "end": 1935697,
+      "removed": 21538,
+      "retained": 0.21,
+      "peakDbfs": -80.59724935070022
+    },
+    {
+      "start": 2083305,
+      "end": 2096850,
+      "removed": 13545,
+      "retained": 0.21,
+      "peakDbfs": -80.59589687769181
+    },
+    {
+      "start": 2185226,
+      "end": 2194992,
+      "removed": 9766,
+      "retained": 0.16,
+      "peakDbfs": -80.39363757081455
+    },
+    {
+      "start": 2305115,
+      "end": 2309272,
+      "removed": 4157,
+      "retained": 0.16,
+      "peakDbfs": -80.65389125537908
+    },
+    {
+      "start": 2426313,
+      "end": 2443727,
+      "removed": 17414,
+      "retained": 0.21,
+      "peakDbfs": -80.58174239899094
+    },
+    {
+      "start": 2676752,
+      "end": 2691369,
+      "removed": 14617,
+      "retained": 0.21,
+      "peakDbfs": -80.4599041156132
+    },
+    {
+      "start": 2793095,
+      "end": 2795801,
+      "removed": 2706,
+      "retained": 0.16,
+      "peakDbfs": -83.57573735112132
+    },
+    {
+      "start": 2857663,
+      "end": 2857928,
+      "removed": 265,
+      "retained": 0.16,
+      "peakDbfs": -83.69572414068142
+    },
+    {
+      "start": 2968204,
+      "end": 2979755,
+      "removed": 11551,
+      "retained": 0.21,
+      "peakDbfs": -80.67435993382277
+    },
+    {
+      "start": 3160994,
+      "end": 3161417,
+      "removed": 423,
+      "retained": 0.16,
+      "peakDbfs": -84.46735391445294
+    },
+    {
+      "start": 3326968,
+      "end": 3337170,
+      "removed": 10202,
+      "retained": 0.21,
+      "peakDbfs": -80.17455277281474
+    },
+    {
+      "start": 3503443,
+      "end": 3517035,
+      "removed": 13592,
+      "retained": 0.21,
+      "peakDbfs": -80.78919977368028
+    },
+    {
+      "start": 3553706,
+      "end": 3564238,
+      "removed": 10532,
+      "retained": 0.16,
+      "peakDbfs": -80.5084797004097
+    },
+    {
+      "start": 3661999,
+      "end": 3670980,
+      "removed": 8981,
+      "retained": 0.16,
+      "peakDbfs": -80.48643717690369
+    },
+    {
+      "start": 3807769,
+      "end": 3825048,
+      "removed": 17279,
+      "retained": 0.21,
+      "peakDbfs": -80.43616204131536
+    },
+    {
+      "start": 3976484,
+      "end": 3978769,
+      "removed": 2285,
+      "retained": 0.2,
+      "peakDbfs": -83.1498350250096
+    }
+  ],
+  "finalSha256": "1e26e3d2455d15044ce166b3f7611ae50d69af620f80f0f84064d81634f6c1a8",
+  "loudness": {
+    "input_i": "-19.92",
+    "input_tp": "-1.65",
+    "input_lra": "2.60",
+    "input_thresh": "-30.11",
+    "output_i": "-16.09",
+    "output_tp": "-2.00",
+    "output_lra": "2.30",
+    "output_thresh": "-26.26",
+    "normalization_type": "dynamic",
+    "target_offset": "0.09"
+  },
+  "sceneWindows": [
+    {
+      "name": "Apagón y servicios",
+      "startFrame": 0,
+      "endFrame": 186,
+      "start": 0.0,
+      "end": 6.2,
+      "durationInFrames": 186
+    },
+    {
+      "name": "Unión Europea y Suecia",
+      "startFrame": 186,
+      "endFrame": 448,
+      "start": 6.2,
+      "end": 14.933333333333334,
+      "durationInFrames": 262
+    },
+    {
+      "name": "Preparar la mochila",
+      "startFrame": 448,
+      "endFrame": 729,
+      "start": 14.933333333333334,
+      "end": 24.3,
+      "durationInFrames": 281
+    },
+    {
+      "name": "Ajustar la carga",
+      "startFrame": 729,
+      "endFrame": 999,
+      "start": 24.3,
+      "end": 33.3,
+      "durationInFrames": 270
+    },
+    {
+      "name": "Agua en casa",
+      "startFrame": 999,
+      "endFrame": 1265,
+      "start": 33.3,
+      "end": 42.166666666666664,
+      "durationInFrames": 266
+    },
+    {
+      "name": "Siete días de reservas",
+      "startFrame": 1265,
+      "endFrame": 1559,
+      "start": 42.166666666666664,
+      "end": 51.96666666666667,
+      "durationInFrames": 294
+    },
+    {
+      "name": "Higiene y revisión",
+      "startFrame": 1559,
+      "endFrame": 1849,
+      "start": 51.96666666666667,
+      "end": 61.63333333333333,
+      "durationInFrames": 290
+    },
+    {
+      "name": "Evacuar o permanecer",
+      "startFrame": 1849,
+      "endFrame": 2100,
+      "start": 61.63333333333333,
+      "end": 70.0,
+      "durationInFrames": 251
+    }
+  ]
+}
