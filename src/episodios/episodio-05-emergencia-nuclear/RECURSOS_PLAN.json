@@ -1,0 +1,188 @@
+{
+  "mode": "built-in image_gen",
+  "originalsProtected": true,
+  "assets": [
+    {
+      "id": "ciudad-avenida",
+      "file": "ciudad-avenida.png",
+      "transparent": false,
+      "status": "generated-and-inspected",
+      "prompt": "Use case: illustration-story. Asset for the 100% 2D educational animated series Corazón al Límite, episode 05. Match the approved reference illustrations: precise dark warm outlines, richly shaded hand-drawn/cel illustration, complete recognizable objects, layered depth through illustrated lighting, warm cream and gold light, teal and navy accents. The brain reference is STYLE ONLY, never draw a brain or neurons in these emergency assets. The room reference supplies architectural rendering detail; the character reference defines the unchanged identity. Never 3D, photorealism, low-detail clipart, generic geometric symbols, collage, split panels, labels, branding, watermark or text. Create one production-ready asset with sharp edges and enough detail for 1080x1920 video; preserve all reference source files.\nPrimary request: Single full-frame vertical 9:16 establishing background: a complete modern civilian city avenue at blue hour, detailed concrete and brick buildings, balconies, glass, parked vehicles, sidewalks, utility poles and street trees. Cinematic three-quarter street perspective converging near the upper third, detailed foreground pavement for a separate character layer, distant skyline and about one quarter sky for a separate distant explosion. No explosion, no smoke and no people. Natural straight architecture with readable perspective, no empty bands or frames. One continuous location, not a collage.",
+      "referenceRoles": [
+        "approved anatomy/brain: illustrated shading only",
+        "approved kitchen: environment detail",
+        "approved character: unchanged identity"
+      ]
+    },
+    {
+      "id": "nube-explosion",
+      "file": "nube-explosion.png",
+      "transparent": true,
+      "status": "generated-and-inspected",
+      "prompt": "Use case: illustration-story. Asset for the 100% 2D educational animated series Corazón al Límite, episode 05. Match the approved reference illustrations: precise dark warm outlines, richly shaded hand-drawn/cel illustration, complete recognizable objects, layered depth through illustrated lighting, warm cream and gold light, teal and navy accents. The brain reference is STYLE ONLY, never draw a brain or neurons in these emergency assets. The room reference supplies architectural rendering detail; the character reference defines the unchanged identity. Never 3D, photorealism, low-detail clipart, generic geometric symbols, collage, split panels, labels, branding, watermark or text. Create one production-ready asset with sharp edges and enough detail for 1080x1920 video; preserve all reference source files.\nPrimary request: One isolated stylized nuclear detonation cloud for a distant horizon, recognizable tall billowing mushroom cloud, warm golden-orange light within layered grey smoke and a broad irregular expanding basal dust cloud. Fully illustrated 2D smoke contours and painted shading, not a flat mushroom icon. No ground, buildings, people, weapon, instructions, text or scene background. Genuine transparent PNG with antialiased semitransparent smoke edges.",
+      "referenceRoles": [
+        "approved anatomy/brain: illustrated shading only",
+        "approved kitchen: environment detail",
+        "approved character: unchanged identity"
+      ]
+    },
+    {
+      "id": "personaje-chaqueta",
+      "file": "personaje-chaqueta.png",
+      "transparent": true,
+      "status": "generated-and-inspected",
+      "prompt": "Use case: illustration-story. Asset for the 100% 2D educational animated series Corazón al Límite, episode 05. Match the approved reference illustrations: precise dark warm outlines, richly shaded hand-drawn/cel illustration, complete recognizable objects, layered depth through illustrated lighting, warm cream and gold light, teal and navy accents. The brain reference is STYLE ONLY, never draw a brain or neurons in these emergency assets. The room reference supplies architectural rendering detail; the character reference defines the unchanged identity. Never 3D, photorealism, low-detail clipart, generic geometric symbols, collage, split panels, labels, branding, watermark or text. Create one production-ready asset with sharp edges and enough detail for 1080x1920 video; preserve all reference source files.\nPrimary request: The exact same full-body young adult male character from the approved reference: same brown swept hair, large brown eyes, warm skin, head/body proportions, teal T-shirt, dark slate trousers and navy/white sneakers. Add only an unzipped navy outdoor jacket over his same teal shirt, simple collar and cuffs. Standing with slightly bent knees, concerned surprised expression, head turned away from a bright source to the left, one forearm partly shielding his face, other hand ready for balance. Fully drawn feet and hands. No ground or glow/background. Genuine transparent PNG. This jacket establishes continuity for later clothing removal.",
+      "referenceRoles": [
+        "approved anatomy/brain: illustrated shading only",
+        "approved kitchen: environment detail",
+        "approved character: unchanged identity"
+      ]
+    },
+    {
+      "id": "personaje-protegiendose",
+      "file": "personaje-protegiendose.png",
+      "transparent": true,
+      "status": "generated-and-inspected",
+      "prompt": "Use case: illustration-story. Asset for the 100% 2D educational animated series Corazón al Límite, episode 05. Match the approved reference illustrations: precise dark warm outlines, richly shaded hand-drawn/cel illustration, complete recognizable objects, layered depth through illustrated lighting, warm cream and gold light, teal and navy accents. The brain reference is STYLE ONLY, never draw a brain or neurons in these emergency assets. The room reference supplies architectural rendering detail; the character reference defines the unchanged identity. Never 3D, photorealism, low-detail clipart, generic geometric symbols, collage, split panels, labels, branding, watermark or text. Create one production-ready asset with sharp edges and enough detail for 1080x1920 video; preserve all reference source files.\nPrimary request: Exact approved male character with the navy jacket established above, teal shirt, slate trousers and navy/white shoes, lying FLAT FACE DOWN on his stomach, body low and extended, elbows bent, both forearms and hands protecting the back of his head and neck, face looking down into ground, not looking at the blast. Side three-quarter view, complete recognizable human body, natural anatomy and five-finger hands, no injury or gore. No floor or environment. Genuine transparent PNG, wide composition.",
+      "referenceRoles": [
+        "approved anatomy/brain: illustrated shading only",
+        "approved kitchen: environment detail",
+        "approved character: unchanged identity"
+      ]
+    },
+    {
+      "id": "personaje-entrando",
+      "file": "personaje-entrando.png",
+      "transparent": true,
+      "status": "generated-and-inspected",
+      "prompt": "Use case: illustration-story. Asset for the 100% 2D educational animated series Corazón al Límite, episode 05. Match the approved reference illustrations: precise dark warm outlines, richly shaded hand-drawn/cel illustration, complete recognizable objects, layered depth through illustrated lighting, warm cream and gold light, teal and navy accents. The brain reference is STYLE ONLY, never draw a brain or neurons in these emergency assets. The room reference supplies architectural rendering detail; the character reference defines the unchanged identity. Never 3D, photorealism, low-detail clipart, generic geometric symbols, collage, split panels, labels, branding, watermark or text. Create one production-ready asset with sharp edges and enough detail for 1080x1920 video; preserve all reference source files.\nPrimary request: Exact approved male character in the same navy jacket, teal T-shirt, slate trousers and navy/white shoes, full-body brisk walking stride toward the RIGHT, natural separated legs and arm swing, determined calm expression, three-quarter side view, face and feet complete. Made for a layered 2D entrance animation, not floating. No ground, building or background. Genuine transparent PNG.",
+      "referenceRoles": [
+        "approved anatomy/brain: illustrated shading only",
+        "approved kitchen: environment detail",
+        "approved character: unchanged identity"
+      ]
+    },
+    {
+      "id": "edificio-concreto",
+      "file": "edificio-concreto.png",
+      "transparent": false,
+      "status": "generated-and-inspected",
+      "prompt": "Use case: illustration-story. Asset for the 100% 2D educational animated series Corazón al Límite, episode 05. Match the approved reference illustrations: precise dark warm outlines, richly shaded hand-drawn/cel illustration, complete recognizable objects, layered depth through illustrated lighting, warm cream and gold light, teal and navy accents. The brain reference is STYLE ONLY, never draw a brain or neurons in these emergency assets. The room reference supplies architectural rendering detail; the character reference defines the unchanged identity. Never 3D, photorealism, low-detail clipart, generic geometric symbols, collage, split panels, labels, branding, watermark or text. Create one production-ready asset with sharp edges and enough detail for 1080x1920 video; preserve all reference source files.\nPrimary request: Single full-frame vertical 9:16 continuous exterior illustration of a substantial modern reinforced-concrete and brick civic/apartment building, matching the city avenue style. Three storeys fill the frame, detailed concrete columns, thick solid walls, shut windows away from the entrance, clearly accessible wide ground-level doorway on the RIGHT half, short visible interior corridor and stair landing, continuous pavement in foreground. No character or text. No explosion. Same blue-hour lighting, navy/teal/cream palette, deep convincing 2D drawn perspective. Do not imply this is blast-proof.",
+      "referenceRoles": [
+        "approved anatomy/brain: illustrated shading only",
+        "approved kitchen: environment detail",
+        "approved character: unchanged identity"
+      ]
+    },
+    {
+      "id": "edificio-corte-sotano",
+      "file": "edificio-corte-sotano.png",
+      "transparent": false,
+      "status": "generated-and-inspected",
+      "prompt": "Use case: illustration-story. Asset for the 100% 2D educational animated series Corazón al Límite, episode 05. Match the approved reference illustrations: precise dark warm outlines, richly shaded hand-drawn/cel illustration, complete recognizable objects, layered depth through illustrated lighting, warm cream and gold light, teal and navy accents. The brain reference is STYLE ONLY, never draw a brain or neurons in these emergency assets. The room reference supplies architectural rendering detail; the character reference defines the unchanged identity. Never 3D, photorealism, low-detail clipart, generic geometric symbols, collage, split panels, labels, branding, watermark or text. Create one production-ready asset with sharp edges and enough detail for 1080x1920 video; preserve all reference source files.\nPrimary request: One detailed architectural cutaway illustration, vertical 9:16, of the same sturdy concrete building: visible exterior ground line near upper third, two occupied-looking furnished floors above grade, thick floor slabs, stairs descending to a substantial furnished basement below ground. The basement is in the lower half, with solid earth outside its walls, concrete ceiling, interior seating/table, closed solid door, warm practical lamp and clear central shelter area away from windows. Illustrate material thickness and depth with shadows, no labels, no arrows, no abstract boxes, no people. It is a readable full-building section, not a collage of panels, and not a guarantee of survival.",
+      "referenceRoles": [
+        "approved anatomy/brain: illustrated shading only",
+        "approved kitchen: environment detail",
+        "approved character: unchanged identity"
+      ],
+      "selectedFile": "edificio-corte-sotano-v2.png",
+      "rejectedFile": "edificio-corte-sotano.png"
+    },
+    {
+      "id": "refugio-interior",
+      "file": "refugio-interior.png",
+      "transparent": false,
+      "status": "generated-and-inspected",
+      "prompt": "Use case: illustration-story. Asset for the 100% 2D educational animated series Corazón al Límite, episode 05. Match the approved reference illustrations: precise dark warm outlines, richly shaded hand-drawn/cel illustration, complete recognizable objects, layered depth through illustrated lighting, warm cream and gold light, teal and navy accents. The brain reference is STYLE ONLY, never draw a brain or neurons in these emergency assets. The room reference supplies architectural rendering detail; the character reference defines the unchanged identity. Never 3D, photorealism, low-detail clipart, generic geometric symbols, collage, split panels, labels, branding, watermark or text. Create one production-ready asset with sharp edges and enough detail for 1080x1920 video; preserve all reference source files.\nPrimary request: One complete richly illustrated vertical 9:16 basement shelter interior, substantial reinforced-concrete walls and ceiling, closed solid door at rear left, short stair entrance, practical ceiling lamp, upholstered bench left, sturdy wooden work table at lower right, shelf with folded blankets and first-aid container, subtle wall pipes and floor details. No outside windows, no outdoor glow/radiation, no people, no lettering, no radio or food on the tabletop yet. Warm lamp light with deep navy/teal shadows, same 2D architectural rendering as approved kitchen. Shelter is ordinary safer indoor space, not science-fiction bunker.\nContinuity correction: use the BOTTOM BASEMENT of reference image 1 as the exact room being entered. Put the wooden table on the LEFT, teal bench/sofa to the RIGHT, closed teal door on the rear wall near the center, left wall shelving, and enclosed staircase at the far RIGHT. Render a closer INTERIOR VIEW of that one room filling the entire 9:16 frame. The cutaway building above it is not part of this new image. No windows. Keep tabletop empty for separately animated radio and provisions. Same warm lamp light and concrete material.",
+      "referenceRoles": [
+        "approved anatomy/brain: illustrated shading only",
+        "approved kitchen: environment detail",
+        "approved character: unchanged identity"
+      ]
+    },
+    {
+      "id": "personaje-retirando-chaqueta",
+      "file": "personaje-retirando-chaqueta.png",
+      "transparent": true,
+      "status": "generated-and-inspected",
+      "prompt": "Use case: illustration-story. Asset for the 100% 2D educational animated series Corazón al Límite, episode 05. Match the approved reference illustrations: precise dark warm outlines, richly shaded hand-drawn/cel illustration, complete recognizable objects, layered depth through illustrated lighting, warm cream and gold light, teal and navy accents. The brain reference is STYLE ONLY, never draw a brain or neurons in these emergency assets. The room reference supplies architectural rendering detail; the character reference defines the unchanged identity. Never 3D, photorealism, low-detail clipart, generic geometric symbols, collage, split panels, labels, branding, watermark or text. Create one production-ready asset with sharp edges and enough detail for 1080x1920 video; preserve all reference source files.\nPrimary request: Exact approved male character, teal T-shirt fully covering torso, slate trousers, navy/white sneakers. Show him CAREFULLY removing his same navy jacket without shaking it: jacket loose off shoulders, one arm already out, other sleeve being gently pulled off at wrist, hands low and controlled away from face, concerned focused face, full body and complete feet. Nonsexual educational fully clothed pose, no dust drawn into this clean sprite, no background or floor. Genuine transparent PNG. Preserve original face and proportions.",
+      "referenceRoles": [
+        "approved anatomy/brain: illustrated shading only",
+        "approved kitchen: environment detail",
+        "approved character: unchanged identity"
+      ]
+    },
+    {
+      "id": "chaqueta-exterior",
+      "file": "chaqueta-exterior.png",
+      "transparent": true,
+      "status": "generated-and-inspected",
+      "prompt": "Use case: illustration-story. Asset for the 100% 2D educational animated series Corazón al Límite, episode 05. Match the approved reference illustrations: precise dark warm outlines, richly shaded hand-drawn/cel illustration, complete recognizable objects, layered depth through illustrated lighting, warm cream and gold light, teal and navy accents. The brain reference is STYLE ONLY, never draw a brain or neurons in these emergency assets. The room reference supplies architectural rendering detail; the character reference defines the unchanged identity. Never 3D, photorealism, low-detail clipart, generic geometric symbols, collage, split panels, labels, branding, watermark or text. Create one production-ready asset with sharp edges and enough detail for 1080x1920 video; preserve all reference source files.\nPrimary request: One isolated navy outdoor jacket matching the character jacket, unzipped with simple collar/cuffs and two pockets, naturally folded/slightly slack fabric as it is lowered carefully into a bag. Detailed cel-shaded folds and outlined fabric, full jacket silhouette visible, no hands, people, radiation symbols, dust, hanger, text, floor or background. Genuine transparent PNG.",
+      "referenceRoles": [
+        "approved anatomy/brain: illustrated shading only",
+        "approved kitchen: environment detail",
+        "approved character: unchanged identity"
+      ]
+    },
+    {
+      "id": "bolsa-ropa",
+      "file": "bolsa-ropa.png",
+      "transparent": true,
+      "status": "generated-and-inspected",
+      "prompt": "Use case: illustration-story. Asset for the 100% 2D educational animated series Corazón al Límite, episode 05. Match the approved reference illustrations: precise dark warm outlines, richly shaded hand-drawn/cel illustration, complete recognizable objects, layered depth through illustrated lighting, warm cream and gold light, teal and navy accents. The brain reference is STYLE ONLY, never draw a brain or neurons in these emergency assets. The room reference supplies architectural rendering detail; the character reference defines the unchanged identity. Never 3D, photorealism, low-detail clipart, generic geometric symbols, collage, split panels, labels, branding, watermark or text. Create one production-ready asset with sharp edges and enough detail for 1080x1920 video; preserve all reference source files.\nPrimary request: One recognizable large sealable translucent grey polyethylene bag for contaminated outer clothing, upright on an implied flat surface but NO floor or backdrop. Wide open top that can receive a jacket as a separate animation layer; include folded rim, shaded translucent sides, realistic bag volume and tied drawstring hanging loose at edge. Empty inside, no clothing, no hands, no symbols, no text. Same rich 2D illustration, genuine transparent PNG.",
+      "referenceRoles": [
+        "approved anatomy/brain: illustrated shading only",
+        "approved kitchen: environment detail",
+        "approved character: unchanged identity"
+      ]
+    },
+    {
+      "id": "interior-higiene",
+      "file": "interior-higiene.png",
+      "transparent": false,
+      "status": "generated-and-inspected",
+      "prompt": "Use case: illustration-story. Asset for the 100% 2D educational animated series Corazón al Límite, episode 05. Match the approved reference illustrations: precise dark warm outlines, richly shaded hand-drawn/cel illustration, complete recognizable objects, layered depth through illustrated lighting, warm cream and gold light, teal and navy accents. The brain reference is STYLE ONLY, never draw a brain or neurons in these emergency assets. The room reference supplies architectural rendering detail; the character reference defines the unchanged identity. Never 3D, photorealism, low-detail clipart, generic geometric symbols, collage, split panels, labels, branding, watermark or text. Create one production-ready asset with sharp edges and enough detail for 1080x1920 video; preserve all reference source files.\nPrimary request: One full-frame vertical 9:16 washroom interior within a solid concrete building, richly illustrated in same approved kitchen style. Tiled cream and teal walls, a detailed white ceramic sink with chrome faucet at LEFT of center around 60% of frame height, soap dispenser, mirror, folded towel, closed shower enclosure at back right and tiled floor. No people, water motion, text, brand, outside window or decorative symbols. Warm light and crisp cel shading. Enough space in front of sink for a separate character washing hands.",
+      "referenceRoles": [
+        "approved anatomy/brain: illustrated shading only",
+        "approved kitchen: environment detail",
+        "approved character: unchanged identity"
+      ]
+    },
+    {
+      "id": "personaje-lavandose",
+      "file": "personaje-lavandose.png",
+      "transparent": true,
+      "status": "generated-and-inspected",
+      "prompt": "Use case: illustration-story. Asset for the 100% 2D educational animated series Corazón al Límite, episode 05. Match the approved reference illustrations: precise dark warm outlines, richly shaded hand-drawn/cel illustration, complete recognizable objects, layered depth through illustrated lighting, warm cream and gold light, teal and navy accents. The brain reference is STYLE ONLY, never draw a brain or neurons in these emergency assets. The room reference supplies architectural rendering detail; the character reference defines the unchanged identity. Never 3D, photorealism, low-detail clipart, generic geometric symbols, collage, split panels, labels, branding, watermark or text. Create one production-ready asset with sharp edges and enough detail for 1080x1920 video; preserve all reference source files.\nPrimary request: Exact approved full-body male character, same teal T-shirt, slate trousers and navy/white shoes, three-quarter SIDE view facing LEFT, slightly leaning forward calmly, both forearms forward and hands together at waist height gently washing each other with small white soap suds, full recognizable hands and fingers. Do not draw any sink, tap, ground or bathroom; these are separate layers. No nudity, no jacket, no scrubbing harshly. Genuine transparent PNG, same identity, proportions and shading.",
+      "referenceRoles": [
+        "approved anatomy/brain: illustrated shading only",
+        "approved kitchen: environment detail",
+        "approved character: unchanged identity"
+      ]
+    },
+    {
+      "id": "provisiones-selladas",
+      "file": "provisiones-selladas.png",
+      "transparent": true,
+      "status": "generated-and-inspected",
+      "prompt": "Use case: illustration-story. Asset for the 100% 2D educational animated series Corazón al Límite, episode 05. Match the approved reference illustrations: precise dark warm outlines, richly shaded hand-drawn/cel illustration, complete recognizable objects, layered depth through illustrated lighting, warm cream and gold light, teal and navy accents. The brain reference is STYLE ONLY, never draw a brain or neurons in these emergency assets. The room reference supplies architectural rendering detail; the character reference defines the unchanged identity. Never 3D, photorealism, low-detail clipart, generic geometric symbols, collage, split panels, labels, branding, watermark or text. Create one production-ready asset with sharp edges and enough detail for 1080x1920 video; preserve all reference source files.\nPrimary request: One coherent compact still life/tray of emergency provisions for placing on a shelter table: two clearly unopened transparent drinking-water bottles with closed blue caps, sealed metal food cans with intact lids and pull tabs, and one sealed plain food pouch, arranged together naturally with overlapping cast shadows and illustrated highlights. No brands, words, labels, radiation symbols, collage borders, background or people. Recognizable complete detailed objects in approved 2D shaded style. Genuine transparent PNG.",
+      "referenceRoles": [
+        "approved anatomy/brain: illustrated shading only",
+        "approved kitchen: environment detail",
+        "approved character: unchanged identity"
+      ]
+    },
+    {
+      "id": "radio-emergencia",
+      "file": "radio-emergencia.png",
+      "transparent": true,
+      "status": "generated-and-inspected",
+      "prompt": "Use case: illustration-story. Asset for the 100% 2D educational animated series Corazón al Límite, episode 05. Match the approved reference illustrations: precise dark warm outlines, richly shaded hand-drawn/cel illustration, complete recognizable objects, layered depth through illustrated lighting, warm cream and gold light, teal and navy accents. The brain reference is STYLE ONLY, never draw a brain or neurons in these emergency assets. The room reference supplies architectural rendering detail; the character reference defines the unchanged identity. Never 3D, photorealism, low-detail clipart, generic geometric symbols, collage, split panels, labels, branding, watermark or text. Create one production-ready asset with sharp edges and enough detail for 1080x1920 video; preserve all reference source files.\nPrimary request: One detailed portable emergency battery/hand-crank radio, three-quarter front view, dark navy and teal casing, large round speaker grille with drawn perforations, analog tuning window without readable text, tuning and volume knobs, folded hand crank, raised telescoping antenna and a small warm power light. Complete educational recognizable radio, no floating sound icons, no words, logos, numerals, table, hands or background. Genuine transparent PNG, rich 2D illustrated shading matching series.",
+      "referenceRoles": [
+        "approved anatomy/brain: illustrated shading only",
+        "approved kitchen: environment detail",
+        "approved character: unchanged identity"
+      ]
+    }
+  ]
+}

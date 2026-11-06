@@ -1,0 +1,99 @@
+{
+  "engine": "faster-whisper small attention alignment / DTW",
+  "sourceSegmentIndex": 10,
+  "clipStart": 42.1,
+  "canonicalText": "Esto puede eliminar hasta el noventa por ciento del material radiactivo que llevas encima.",
+  "words": [
+    {
+      "word": "Esto",
+      "start": 42.1,
+      "end": 42.7,
+      "probability": 0.49835866987268673
+    },
+    {
+      "word": " puede",
+      "start": 42.7,
+      "end": 43.0,
+      "probability": 0.9953814744949341
+    },
+    {
+      "word": " eliminar",
+      "start": 43.0,
+      "end": 43.52,
+      "probability": 0.9966214001178741
+    },
+    {
+      "word": " hasta",
+      "start": 43.52,
+      "end": 43.7,
+      "probability": 0.9955933690071106
+    },
+    {
+      "word": " el",
+      "start": 43.7,
+      "end": 43.86,
+      "probability": 0.9983968138694763
+    },
+    {
+      "word": " noventa",
+      "start": 43.86,
+      "end": 44.34,
+      "probability": 0.6761286854743958
+    },
+    {
+      "word": " por",
+      "start": 44.34,
+      "end": 44.48,
+      "probability": 0.9951719641685486
+    },
+    {
+      "word": " ciento",
+      "start": 44.48,
+      "end": 44.76,
+      "probability": 0.9867857098579407
+    },
+    {
+      "word": " del",
+      "start": 44.76,
+      "end": 45.0,
+      "probability": 0.9813791513442993
+    },
+    {
+      "word": " material",
+      "start": 45.0,
+      "end": 45.42,
+      "probability": 0.9976775050163269
+    },
+    {
+      "word": " radiactivo",
+      "start": 45.42,
+      "end": 46.1,
+      "probability": 0.7709840138753256
+    },
+    {
+      "word": " que",
+      "start": 46.1,
+      "end": 46.22,
+      "probability": 0.9969444870948792
+    },
+    {
+      "word": " llevas",
+      "start": 46.22,
+      "end": 46.52,
+      "probability": 0.9763055145740509
+    },
+    {
+      "word": " encima",
+      "start": 46.52,
+      "end": 46.74,
+      "probability": 0.9876629710197449
+    },
+    {
+      "word": ".",
+      "start": 46.74,
+      "end": 47.08,
+      "probability": 0.9965722560882568
+    }
+  ],
+  "timingFromTextLength": false
+}

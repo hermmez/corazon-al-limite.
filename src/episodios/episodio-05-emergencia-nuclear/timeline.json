@@ -1,0 +1,948 @@
+{
+  "status": "aligned-to-grady-recording",
+  "audioReady": true,
+  "voiceApproved": true,
+  "timingSource": "faster-whisper small Spanish word timestamps, mapped through measured silent-only sample cuts",
+  "audio": "episodio-05/audio/narracion_grady_70s.wav",
+  "sceneWindows": [
+    {
+      "id": 0,
+      "startFrame": 0,
+      "endFrame": 250,
+      "start": 0.0,
+      "end": 8.333333333333334,
+      "durationInFrames": 250
+    },
+    {
+      "id": 1,
+      "startFrame": 250,
+      "endFrame": 533,
+      "start": 8.333333333333334,
+      "end": 17.766666666666666,
+      "durationInFrames": 283
+    },
+    {
+      "id": 2,
+      "startFrame": 533,
+      "endFrame": 821,
+      "start": 17.766666666666666,
+      "end": 27.366666666666667,
+      "durationInFrames": 288
+    },
+    {
+      "id": 3,
+      "startFrame": 821,
+      "endFrame": 1060,
+      "start": 27.366666666666667,
+      "end": 35.333333333333336,
+      "durationInFrames": 239
+    },
+    {
+      "id": 4,
+      "startFrame": 1060,
+      "endFrame": 1315,
+      "start": 35.333333333333336,
+      "end": 43.833333333333336,
+      "durationInFrames": 255
+    },
+    {
+      "id": 5,
+      "startFrame": 1315,
+      "endFrame": 1546,
+      "start": 43.833333333333336,
+      "end": 51.53333333333333,
+      "durationInFrames": 231
+    },
+    {
+      "id": 6,
+      "startFrame": 1546,
+      "endFrame": 1825,
+      "start": 51.53333333333333,
+      "end": 60.833333333333336,
+      "durationInFrames": 279
+    },
+    {
+      "id": 7,
+      "startFrame": 1825,
+      "endFrame": 2100,
+      "start": 60.833333333333336,
+      "end": 70.0,
+      "durationInFrames": 275
+    }
+  ],
+  "events": [
+    {
+      "word": "¿Qué",
+      "start": 0.0,
+      "end": 0.22
+    },
+    {
+      "word": "harías",
+      "start": 0.22,
+      "end": 0.56
+    },
+    {
+      "word": "si",
+      "start": 0.56,
+      "end": 0.96
+    },
+    {
+      "word": "una",
+      "start": 0.96,
+      "end": 1.14
+    },
+    {
+      "word": "bomba",
+      "start": 1.14,
+      "end": 1.5
+    },
+    {
+      "word": "nuclear",
+      "start": 1.5,
+      "end": 1.9
+    },
+    {
+      "word": "explotara",
+      "start": 1.9,
+      "end": 2.54
+    },
+    {
+      "word": "cerca",
+      "start": 2.54,
+      "end": 2.9
+    },
+    {
+      "word": "de",
+      "start": 2.9,
+      "end": 3.14
+    },
+    {
+      "word": "tu",
+      "start": 3.14,
+      "end": 3.26
+    },
+    {
+      "word": "ciudad?",
+      "start": 3.26,
+      "end": 3.6
+    },
+    {
+      "word": "Tus",
+      "start": 3.852,
+      "end": 3.992
+    },
+    {
+      "word": "primeros",
+      "start": 3.992,
+      "end": 4.452
+    },
+    {
+      "word": "segundos",
+      "start": 4.452,
+      "end": 4.832
+    },
+    {
+      "word": "podrían",
+      "start": 4.832,
+      "end": 5.412
+    },
+    {
+      "word": "marcar",
+      "start": 5.412,
+      "end": 5.872
+    },
+    {
+      "word": "la",
+      "start": 5.872,
+      "end": 6.032
+    },
+    {
+      "word": "diferencia",
+      "start": 6.032,
+      "end": 6.552
+    },
+    {
+      "word": "entre",
+      "start": 6.552,
+      "end": 7.072
+    },
+    {
+      "word": "vivir",
+      "start": 7.072,
+      "end": 7.392
+    },
+    {
+      "word": "y",
+      "start": 7.392,
+      "end": 7.872708
+    },
+    {
+      "word": "morir.",
+      "start": 7.872708,
+      "end": 8.252708
+    },
+    {
+      "word": "Si",
+      "start": 8.43075,
+      "end": 8.61075
+    },
+    {
+      "word": "ves",
+      "start": 8.61075,
+      "end": 8.77075
+    },
+    {
+      "word": "un",
+      "start": 8.77075,
+      "end": 8.93075
+    },
+    {
+      "word": "destello",
+      "start": 8.93075,
+      "end": 9.33075
+    },
+    {
+      "word": "extremadamente",
+      "start": 9.33075,
+      "end": 10.17075
+    },
+    {
+      "word": "brillante,",
+      "start": 10.17075,
+      "end": 10.81075
+    },
+    {
+      "word": "¡no",
+      "start": 11.215396,
+      "end": 11.395396
+    },
+    {
+      "word": "lo",
+      "start": 11.395396,
+      "end": 11.555396
+    },
+    {
+      "word": "mires!",
+      "start": 11.555396,
+      "end": 11.835396
+    },
+    {
+      "word": "Tírate",
+      "start": 12.235333,
+      "end": 12.475333
+    },
+    {
+      "word": "al",
+      "start": 12.475333,
+      "end": 12.695333
+    },
+    {
+      "word": "suelo,",
+      "start": 12.695333,
+      "end": 13.015333
+    },
+    {
+      "word": "boca",
+      "start": 13.275333,
+      "end": 13.435333
+    },
+    {
+      "word": "abajo,",
+      "start": 13.435333,
+      "end": 13.815333
+    },
+    {
+      "word": "y",
+      "start": 13.815333,
+      "end": 14.207792
+    },
+    {
+      "word": "protege",
+      "start": 14.207792,
+      "end": 14.667792
+    },
+    {
+      "word": "tu",
+      "start": 14.667792,
+      "end": 14.847792
+    },
+    {
+      "word": "cabeza.",
+      "start": 14.847792,
+      "end": 15.087792
+    },
+    {
+      "word": "La",
+      "start": 15.537104,
+      "end": 15.637104
+    },
+    {
+      "word": "onda",
+      "start": 15.637104,
+      "end": 15.837104
+    },
+    {
+      "word": "expansiva",
+      "start": 15.837104,
+      "end": 16.477104
+    },
+    {
+      "word": "puede",
+      "start": 16.477104,
+      "end": 16.837104
+    },
+    {
+      "word": "llegar",
+      "start": 16.837104,
+      "end": 17.137104
+    },
+    {
+      "word": "después.",
+      "start": 17.137104,
+      "end": 17.577104
+    },
+    {
+      "word": "En",
+      "start": 17.960146,
+      "end": 18.120146
+    },
+    {
+      "word": "cuanto",
+      "start": 18.120146,
+      "end": 18.280146
+    },
+    {
+      "word": "pase",
+      "start": 18.280146,
+      "end": 18.680146
+    },
+    {
+      "word": "el",
+      "start": 18.680146,
+      "end": 18.820146
+    },
+    {
+      "word": "peligro",
+      "start": 18.820146,
+      "end": 19.180146
+    },
+    {
+      "word": "inmediato,",
+      "start": 19.180146,
+      "end": 19.720146
+    },
+    {
+      "word": "entra",
+      "start": 20.053708,
+      "end": 20.273708
+    },
+    {
+      "word": "al",
+      "start": 20.273708,
+      "end": 20.473708
+    },
+    {
+      "word": "edificio",
+      "start": 20.473708,
+      "end": 20.933708
+    },
+    {
+      "word": "resistente",
+      "start": 20.933708,
+      "end": 21.533708
+    },
+    {
+      "word": "más",
+      "start": 21.533708,
+      "end": 21.893708
+    },
+    {
+      "word": "cercano.",
+      "start": 21.893708,
+      "end": 22.353708
+    },
+    {
+      "word": "Un",
+      "start": 22.590187,
+      "end": 22.730187
+    },
+    {
+      "word": "sótano",
+      "start": 22.730187,
+      "end": 23.170188
+    },
+    {
+      "word": "o",
+      "start": 23.170188,
+      "end": 23.510188
+    },
+    {
+      "word": "una",
+      "start": 23.510188,
+      "end": 23.670188
+    },
+    {
+      "word": "habitación",
+      "start": 23.670188,
+      "end": 24.110187
+    },
+    {
+      "word": "central,",
+      "start": 24.110187,
+      "end": 24.510188
+    },
+    {
+      "word": "lejos",
+      "start": 24.930187,
+      "end": 25.130188
+    },
+    {
+      "word": "de",
+      "start": 25.130188,
+      "end": 25.290187
+    },
+    {
+      "word": "las",
+      "start": 25.290187,
+      "end": 25.410187
+    },
+    {
+      "word": "ventanas,",
+      "start": 25.410187,
+      "end": 25.830188
+    },
+    {
+      "word": "puede",
+      "start": 26.134062,
+      "end": 26.334063
+    },
+    {
+      "word": "protegerte",
+      "start": 26.334063,
+      "end": 26.914062
+    },
+    {
+      "word": "mejor.",
+      "start": 26.914062,
+      "end": 27.234063
+    },
+    {
+      "word": "No",
+      "start": 27.510813,
+      "end": 27.776167
+    },
+    {
+      "word": "salgas",
+      "start": 27.776167,
+      "end": 28.296167
+    },
+    {
+      "word": "a",
+      "start": 28.296167,
+      "end": 28.436167
+    },
+    {
+      "word": "buscar",
+      "start": 28.436167,
+      "end": 28.656167
+    },
+    {
+      "word": "provisiones.",
+      "start": 28.656167,
+      "end": 29.476167
+    },
+    {
+      "word": "Después",
+      "start": 29.666875,
+      "end": 29.986875
+    },
+    {
+      "word": "de",
+      "start": 29.986875,
+      "end": 30.206875
+    },
+    {
+      "word": "una",
+      "start": 30.206875,
+      "end": 30.346875
+    },
+    {
+      "word": "explosión,",
+      "start": 30.346875,
+      "end": 30.906875
+    },
+    {
+      "word": "el",
+      "start": 31.2355,
+      "end": 31.3555
+    },
+    {
+      "word": "polvo",
+      "start": 31.3555,
+      "end": 31.5955
+    },
+    {
+      "word": "radiactivo",
+      "start": 31.5955,
+      "end": 32.2355
+    },
+    {
+      "word": "puede",
+      "start": 32.2355,
+      "end": 32.5355
+    },
+    {
+      "word": "caer",
+      "start": 32.5355,
+      "end": 32.8955
+    },
+    {
+      "word": "sobre",
+      "start": 32.8955,
+      "end": 33.1155
+    },
+    {
+      "word": "calles,",
+      "start": 33.1155,
+      "end": 33.7155
+    },
+    {
+      "word": "vehículos",
+      "start": 33.9155,
+      "end": 34.3355
+    },
+    {
+      "word": "y",
+      "start": 34.3355,
+      "end": 34.6755
+    },
+    {
+      "word": "edificios.",
+      "start": 34.6755,
+      "end": 35.1955
+    },
+    {
+      "word": "Si",
+      "start": 35.474562,
+      "end": 35.674563
+    },
+    {
+      "word": "estuviste",
+      "start": 35.674563,
+      "end": 36.074562
+    },
+    {
+      "word": "afuera,",
+      "start": 36.074562,
+      "end": 36.494563
+    },
+    {
+      "word": "quítate",
+      "start": 36.827292,
+      "end": 37.107292
+    },
+    {
+      "word": "cuidadosamente",
+      "start": 37.107292,
+      "end": 37.987292
+    },
+    {
+      "word": "la",
+      "start": 37.987292,
+      "end": 38.247292
+    },
+    {
+      "word": "ropa",
+      "start": 38.247292,
+      "end": 38.487292
+    },
+    {
+      "word": "exterior.",
+      "start": 38.487292,
+      "end": 38.887292
+    },
+    {
+      "word": "Esto",
+      "start": 39.197167,
+      "end": 39.497167
+    },
+    {
+      "word": "puede",
+      "start": 39.497167,
+      "end": 39.797167
+    },
+    {
+      "word": "eliminar",
+      "start": 39.797167,
+      "end": 40.317167
+    },
+    {
+      "word": "hasta",
+      "start": 40.317167,
+      "end": 40.497167
+    },
+    {
+      "word": "el",
+      "start": 40.497167,
+      "end": 40.657167
+    },
+    {
+      "word": "noventa",
+      "start": 40.657167,
+      "end": 41.137167
+    },
+    {
+      "word": "por",
+      "start": 41.137167,
+      "end": 41.277167
+    },
+    {
+      "word": "ciento",
+      "start": 41.277167,
+      "end": 41.557167
+    },
+    {
+      "word": "del",
+      "start": 41.557167,
+      "end": 41.797167
+    },
+    {
+      "word": "material",
+      "start": 41.797167,
+      "end": 42.217167
+    },
+    {
+      "word": "radiactivo",
+      "start": 42.217167,
+      "end": 42.897167
+    },
+    {
+      "word": "que",
+      "start": 42.897167,
+      "end": 43.017167
+    },
+    {
+      "word": "llevas",
+      "start": 43.017167,
+      "end": 43.317167
+    },
+    {
+      "word": "encima.",
+      "start": 43.317167,
+      "end": 43.677167
+    },
+    {
+      "word": "Después,",
+      "start": 43.965229,
+      "end": 44.345229
+    },
+    {
+      "word": "lávate",
+      "start": 44.831313,
+      "end": 45.071312
+    },
+    {
+      "word": "con",
+      "start": 45.071312,
+      "end": 45.371313
+    },
+    {
+      "word": "agua",
+      "start": 45.371313,
+      "end": 45.591313
+    },
+    {
+      "word": "y",
+      "start": 45.591313,
+      "end": 45.711312
+    },
+    {
+      "word": "jabón,",
+      "start": 45.711312,
+      "end": 46.071312
+    },
+    {
+      "word": "sin",
+      "start": 46.231313,
+      "end": 46.511313
+    },
+    {
+      "word": "tallarte",
+      "start": 46.511313,
+      "end": 46.911313
+    },
+    {
+      "word": "agresivamente.",
+      "start": 46.911313,
+      "end": 47.531312
+    },
+    {
+      "word": "Usa",
+      "start": 47.931063,
+      "end": 48.211062
+    },
+    {
+      "word": "agua",
+      "start": 48.211062,
+      "end": 48.431063
+    },
+    {
+      "word": "embotellada",
+      "start": 48.431063,
+      "end": 49.051063
+    },
+    {
+      "word": "y",
+      "start": 49.051063,
+      "end": 49.231063
+    },
+    {
+      "word": "alimentos",
+      "start": 49.231063,
+      "end": 49.571062
+    },
+    {
+      "word": "sellados",
+      "start": 49.571062,
+      "end": 50.151063
+    },
+    {
+      "word": "cuando",
+      "start": 50.151063,
+      "end": 50.391062
+    },
+    {
+      "word": "estén",
+      "start": 50.391062,
+      "end": 50.771062
+    },
+    {
+      "word": "disponibles.",
+      "start": 50.771062,
+      "end": 51.351062
+    },
+    {
+      "word": "Permanece",
+      "start": 51.691354,
+      "end": 52.169458
+    },
+    {
+      "word": "dentro",
+      "start": 52.169458,
+      "end": 52.409458
+    },
+    {
+      "word": "al",
+      "start": 52.409458,
+      "end": 52.709458
+    },
+    {
+      "word": "menos",
+      "start": 52.709458,
+      "end": 52.969458
+    },
+    {
+      "word": "veinticuatro",
+      "start": 52.969458,
+      "end": 53.489458
+    },
+    {
+      "word": "horas,",
+      "start": 53.489458,
+      "end": 54.069458
+    },
+    {
+      "word": "salvo",
+      "start": 54.455708,
+      "end": 54.755708
+    },
+    {
+      "word": "que",
+      "start": 54.755708,
+      "end": 54.875708
+    },
+    {
+      "word": "exista",
+      "start": 54.875708,
+      "end": 55.295708
+    },
+    {
+      "word": "un",
+      "start": 55.295708,
+      "end": 55.415708
+    },
+    {
+      "word": "peligro",
+      "start": 55.415708,
+      "end": 55.795708
+    },
+    {
+      "word": "inmediato",
+      "start": 55.795708,
+      "end": 56.375708
+    },
+    {
+      "word": "o",
+      "start": 56.375708,
+      "end": 56.655708
+    },
+    {
+      "word": "las",
+      "start": 56.655708,
+      "end": 56.795708
+    },
+    {
+      "word": "autoridades",
+      "start": 56.795708,
+      "end": 57.355708
+    },
+    {
+      "word": "indiquen",
+      "start": 57.355708,
+      "end": 57.895708
+    },
+    {
+      "word": "otra",
+      "start": 57.895708,
+      "end": 58.035708
+    },
+    {
+      "word": "cosa.",
+      "start": 58.035708,
+      "end": 58.355708
+    },
+    {
+      "word": "Mantente",
+      "start": 58.709063,
+      "end": 59.129063
+    },
+    {
+      "word": "atento",
+      "start": 59.129063,
+      "end": 59.569063
+    },
+    {
+      "word": "a",
+      "start": 59.569063,
+      "end": 59.669063
+    },
+    {
+      "word": "la",
+      "start": 59.669063,
+      "end": 59.729062
+    },
+    {
+      "word": "información",
+      "start": 59.729062,
+      "end": 60.189062
+    },
+    {
+      "word": "oficial.",
+      "start": 60.189062,
+      "end": 60.669063
+    },
+    {
+      "word": "Recuerda",
+      "start": 61.023208,
+      "end": 61.483208
+    },
+    {
+      "word": "estas",
+      "start": 61.483208,
+      "end": 61.723208
+    },
+    {
+      "word": "tres",
+      "start": 61.723208,
+      "end": 62.083208
+    },
+    {
+      "word": "palabras:",
+      "start": 62.083208,
+      "end": 62.463208
+    },
+    {
+      "word": "entra,",
+      "start": 62.959917,
+      "end": 63.359917
+    },
+    {
+      "word": "permanece",
+      "start": 63.592604,
+      "end": 64.172604
+    },
+    {
+      "word": "y",
+      "start": 64.172604,
+      "end": 64.525229
+    },
+    {
+      "word": "mantente",
+      "start": 64.525229,
+      "end": 65.005229
+    },
+    {
+      "word": "informado.",
+      "start": 65.005229,
+      "end": 65.645229
+    },
+    {
+      "word": "En",
+      "start": 65.873146,
+      "end": 65.953146
+    },
+    {
+      "word": "una",
+      "start": 65.953146,
+      "end": 66.113146
+    },
+    {
+      "word": "emergencia",
+      "start": 66.113146,
+      "end": 66.673146
+    },
+    {
+      "word": "nuclear,",
+      "start": 66.673146,
+      "end": 67.053146
+    },
+    {
+      "word": "saber",
+      "start": 67.517708,
+      "end": 67.697708
+    },
+    {
+      "word": "qué",
+      "start": 67.697708,
+      "end": 67.997708
+    },
+    {
+      "word": "hacer",
+      "start": 67.997708,
+      "end": 68.357708
+    },
+    {
+      "word": "puede",
+      "start": 68.357708,
+      "end": 68.717708
+    },
+    {
+      "word": "salvarte",
+      "start": 68.717708,
+      "end": 69.337708
+    },
+    {
+      "word": "la",
+      "start": 69.337708,
+      "end": 69.457708
+    },
+    {
+      "word": "vida.",
+      "start": 69.457708,
+      "end": 69.657708
+    }
+  ],
+  "tempo": 1,
+  "removedSilenceSeconds": 5.232666666666667,
+  "notes": "Scene illustration and animation source files remain unchanged. Only scene durations and entry times follow the complete narration."
+}

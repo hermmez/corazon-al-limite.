@@ -1,0 +1,9 @@
+{
+  "targetBitrate": 192000,
+  "encoderBitrate": 173000,
+  "measuredBitrate": 191732,
+  "sampleRate": 48000,
+  "duration": 70,
+  "codec": "aac",
+  "calibrationBeforeVideoCapture": true
+}

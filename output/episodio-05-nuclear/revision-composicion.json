@@ -1,0 +1,22 @@
+{
+  "composition": "Episodio05EmergenciaNuclear",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 2100,
+  "duration": 70,
+  "lowResolutionStillFrames": [
+    730,
+    790,
+    1040,
+    1155,
+    1230,
+    1380,
+    1650,
+    1780,
+    1880,
+    2050
+  ],
+  "sourceFingerprint": "f42128de922208d0551b7d734d99c7e51627c42402ed50a4d946b2a9ded7c148",
+  "fullMovieRendered": false
+}

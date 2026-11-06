@@ -1,0 +1,1179 @@
+{
+  "engine": "faster-whisper",
+  "model": "small",
+  "language": "es",
+  "audioSha256": "a7c434b8d6f4fe98f9164d638c4e7ff561678e0dc9d239eb93a16d1728c8936a",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.6,
+      "text": " ¿Qué harías si una bomba nuclear explotara cerca de tu ciudad?",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.22,
+          "word": " ¿Qué",
+          "probability": 0.882745236158371
+        },
+        {
+          "start": 0.22,
+          "end": 0.56,
+          "word": " harías",
+          "probability": 0.9883834719657898
+        },
+        {
+          "start": 0.56,
+          "end": 0.96,
+          "word": " si",
+          "probability": 0.9928733110427856
+        },
+        {
+          "start": 0.96,
+          "end": 1.14,
+          "word": " una",
+          "probability": 0.9846161007881165
+        },
+        {
+          "start": 1.14,
+          "end": 1.5,
+          "word": " bomba",
+          "probability": 0.9922552108764648
+        },
+        {
+          "start": 1.5,
+          "end": 1.9,
+          "word": " nuclear",
+          "probability": 0.9764811992645264
+        },
+        {
+          "start": 1.9,
+          "end": 2.54,
+          "word": " explotara",
+          "probability": 0.9773572484652201
+        },
+        {
+          "start": 2.54,
+          "end": 2.9,
+          "word": " cerca",
+          "probability": 0.9914892911911011
+        },
+        {
+          "start": 2.9,
+          "end": 3.14,
+          "word": " de",
+          "probability": 0.9994970560073853
+        },
+        {
+          "start": 3.14,
+          "end": 3.26,
+          "word": " tu",
+          "probability": 0.99308842420578
+        },
+        {
+          "start": 3.26,
+          "end": 3.6,
+          "word": " ciudad?",
+          "probability": 0.9995941519737244
+        }
+      ]
+    },
+    {
+      "start": 4.32,
+      "end": 8.76,
+      "text": " Tus primeros segundos podrían marcar la diferencia entre vivir y morir.",
+      "words": [
+        {
+          "start": 4.32,
+          "end": 4.46,
+          "word": " Tus",
+          "probability": 0.9686450958251953
+        },
+        {
+          "start": 4.46,
+          "end": 4.92,
+          "word": " primeros",
+          "probability": 0.994938313961029
+        },
+        {
+          "start": 4.92,
+          "end": 5.3,
+          "word": " segundos",
+          "probability": 0.9745079278945923
+        },
+        {
+          "start": 5.3,
+          "end": 5.88,
+          "word": " podrían",
+          "probability": 0.9952220618724823
+        },
+        {
+          "start": 5.88,
+          "end": 6.34,
+          "word": " marcar",
+          "probability": 0.989996075630188
+        },
+        {
+          "start": 6.34,
+          "end": 6.5,
+          "word": " la",
+          "probability": 0.9975214600563049
+        },
+        {
+          "start": 6.5,
+          "end": 7.02,
+          "word": " diferencia",
+          "probability": 0.9989140033721924
+        },
+        {
+          "start": 7.02,
+          "end": 7.54,
+          "word": " entre",
+          "probability": 0.9974634647369385
+        },
+        {
+          "start": 7.54,
+          "end": 7.86,
+          "word": " vivir",
+          "probability": 0.9769648313522339
+        },
+        {
+          "start": 7.86,
+          "end": 8.38,
+          "word": " y",
+          "probability": 0.9973725080490112
+        },
+        {
+          "start": 8.38,
+          "end": 8.76,
+          "word": " morir.",
+          "probability": 0.9963595867156982
+        }
+      ]
+    },
+    {
+      "start": 9.32,
+      "end": 12.8,
+      "text": " Si ves un destello extremadamente brillante, no lo mires.",
+      "words": [
+        {
+          "start": 9.32,
+          "end": 9.5,
+          "word": " Si",
+          "probability": 0.9921627640724182
+        },
+        {
+          "start": 9.5,
+          "end": 9.66,
+          "word": " ves",
+          "probability": 0.998367965221405
+        },
+        {
+          "start": 9.66,
+          "end": 9.82,
+          "word": " un",
+          "probability": 0.9979926347732544
+        },
+        {
+          "start": 9.82,
+          "end": 10.22,
+          "word": " destello",
+          "probability": 0.956635981798172
+        },
+        {
+          "start": 10.22,
+          "end": 11.06,
+          "word": " extremadamente",
+          "probability": 0.9972545802593231
+        },
+        {
+          "start": 11.06,
+          "end": 11.7,
+          "word": " brillante,",
+          "probability": 0.9961313009262085
+        },
+        {
+          "start": 12.18,
+          "end": 12.36,
+          "word": " no",
+          "probability": 0.5249403119087219
+        },
+        {
+          "start": 12.36,
+          "end": 12.52,
+          "word": " lo",
+          "probability": 0.9961129426956177
+        },
+        {
+          "start": 12.52,
+          "end": 12.8,
+          "word": " mires.",
+          "probability": 0.9489654004573822
+        }
+      ]
+    },
+    {
+      "start": 13.36,
+      "end": 16.24,
+      "text": " Tírate al suelo, boca abajo y protege tu cabeza.",
+      "words": [
+        {
+          "start": 13.36,
+          "end": 13.6,
+          "word": " Tírate",
+          "probability": 0.8670451045036316
+        },
+        {
+          "start": 13.6,
+          "end": 13.82,
+          "word": " al",
+          "probability": 0.9927663803100586
+        },
+        {
+          "start": 13.82,
+          "end": 14.14,
+          "word": " suelo,",
+          "probability": 0.997568815946579
+        },
+        {
+          "start": 14.4,
+          "end": 14.56,
+          "word": " boca",
+          "probability": 0.9938437938690186
+        },
+        {
+          "start": 14.56,
+          "end": 14.94,
+          "word": " abajo",
+          "probability": 0.9971574544906616
+        },
+        {
+          "start": 14.94,
+          "end": 15.36,
+          "word": " y",
+          "probability": 0.8311729431152344
+        },
+        {
+          "start": 15.36,
+          "end": 15.82,
+          "word": " protege",
+          "probability": 0.8955073356628418
+        },
+        {
+          "start": 15.82,
+          "end": 16.0,
+          "word": " tu",
+          "probability": 0.9918002486228943
+        },
+        {
+          "start": 16.0,
+          "end": 16.24,
+          "word": " cabeza.",
+          "probability": 0.9997124075889587
+        }
+      ]
+    },
+    {
+      "start": 16.9,
+      "end": 18.94,
+      "text": " La onda expansiva puede llegar después.",
+      "words": [
+        {
+          "start": 16.9,
+          "end": 17.0,
+          "word": " La",
+          "probability": 0.9935985803604126
+        },
+        {
+          "start": 17.0,
+          "end": 17.2,
+          "word": " onda",
+          "probability": 0.9689369201660156
+        },
+        {
+          "start": 17.2,
+          "end": 17.84,
+          "word": " expansiva",
+          "probability": 0.9983051419258118
+        },
+        {
+          "start": 17.84,
+          "end": 18.2,
+          "word": " puede",
+          "probability": 0.9963709115982056
+        },
+        {
+          "start": 18.2,
+          "end": 18.5,
+          "word": " llegar",
+          "probability": 0.9980610013008118
+        },
+        {
+          "start": 18.5,
+          "end": 18.94,
+          "word": " después.",
+          "probability": 0.9983707070350647
+        }
+      ]
+    },
+    {
+      "start": 19.74,
+      "end": 24.2,
+      "text": " En cuanto pase el peligro inmediato, entra al edificio resistente más cercano.",
+      "words": [
+        {
+          "start": 19.74,
+          "end": 19.9,
+          "word": " En",
+          "probability": 0.9977110624313354
+        },
+        {
+          "start": 19.9,
+          "end": 20.06,
+          "word": " cuanto",
+          "probability": 0.9982972741127014
+        },
+        {
+          "start": 20.06,
+          "end": 20.46,
+          "word": " pase",
+          "probability": 0.9967278242111206
+        },
+        {
+          "start": 20.46,
+          "end": 20.6,
+          "word": " el",
+          "probability": 0.9972386360168457
+        },
+        {
+          "start": 20.6,
+          "end": 20.96,
+          "word": " peligro",
+          "probability": 0.9989335536956787
+        },
+        {
+          "start": 20.96,
+          "end": 21.5,
+          "word": " inmediato,",
+          "probability": 0.9991507331530253
+        },
+        {
+          "start": 21.9,
+          "end": 22.12,
+          "word": " entra",
+          "probability": 0.9925673007965088
+        },
+        {
+          "start": 22.12,
+          "end": 22.32,
+          "word": " al",
+          "probability": 0.9805287718772888
+        },
+        {
+          "start": 22.32,
+          "end": 22.78,
+          "word": " edificio",
+          "probability": 0.9987610777219137
+        },
+        {
+          "start": 22.78,
+          "end": 23.38,
+          "word": " resistente",
+          "probability": 0.9942476749420166
+        },
+        {
+          "start": 23.38,
+          "end": 23.74,
+          "word": " más",
+          "probability": 0.9877723455429077
+        },
+        {
+          "start": 23.74,
+          "end": 24.2,
+          "word": " cercano.",
+          "probability": 0.9995307922363281
+        }
+      ]
+    },
+    {
+      "start": 24.66,
+      "end": 29.36,
+      "text": " Un sótano o una habitación central, lejos de las ventanas, puede protegerte mejor.",
+      "words": [
+        {
+          "start": 24.66,
+          "end": 24.8,
+          "word": " Un",
+          "probability": 0.9954623579978943
+        },
+        {
+          "start": 24.8,
+          "end": 25.24,
+          "word": " sótano",
+          "probability": 0.9573930104573568
+        },
+        {
+          "start": 25.24,
+          "end": 25.58,
+          "word": " o",
+          "probability": 0.9094134569168091
+        },
+        {
+          "start": 25.58,
+          "end": 25.74,
+          "word": " una",
+          "probability": 0.8819712996482849
+        },
+        {
+          "start": 25.74,
+          "end": 26.18,
+          "word": " habitación",
+          "probability": 0.9970477223396301
+        },
+        {
+          "start": 26.18,
+          "end": 26.58,
+          "word": " central,",
+          "probability": 0.9945307374000549
+        },
+        {
+          "start": 27.0,
+          "end": 27.2,
+          "word": " lejos",
+          "probability": 0.9989904463291168
+        },
+        {
+          "start": 27.2,
+          "end": 27.36,
+          "word": " de",
+          "probability": 0.9991551637649536
+        },
+        {
+          "start": 27.36,
+          "end": 27.48,
+          "word": " las",
+          "probability": 0.9937394857406616
+        },
+        {
+          "start": 27.48,
+          "end": 27.9,
+          "word": " ventanas,",
+          "probability": 0.9930305778980255
+        },
+        {
+          "start": 28.26,
+          "end": 28.46,
+          "word": " puede",
+          "probability": 0.9973176121711731
+        },
+        {
+          "start": 28.46,
+          "end": 29.04,
+          "word": " protegerte",
+          "probability": 0.993587076663971
+        },
+        {
+          "start": 29.04,
+          "end": 29.36,
+          "word": " mejor.",
+          "probability": 0.9992150068283081
+        }
+      ]
+    },
+    {
+      "start": 29.36,
+      "end": 31.9,
+      "text": " No salgas a buscar provisiones.",
+      "words": [
+        {
+          "start": 29.36,
+          "end": 30.2,
+          "word": " No",
+          "probability": 0.21859067678451538
+        },
+        {
+          "start": 30.2,
+          "end": 30.72,
+          "word": " salgas",
+          "probability": 0.9742945432662964
+        },
+        {
+          "start": 30.72,
+          "end": 30.86,
+          "word": " a",
+          "probability": 0.9981486797332764
+        },
+        {
+          "start": 30.86,
+          "end": 31.08,
+          "word": " buscar",
+          "probability": 0.9985015392303467
+        },
+        {
+          "start": 31.08,
+          "end": 31.9,
+          "word": " provisiones.",
+          "probability": 0.8379282057285309
+        }
+      ]
+    },
+    {
+      "start": 32.22,
+      "end": 37.82,
+      "text": " Después de una explosión, el polvo radioactivo puede caer sobre calles, vehículos y edificios.",
+      "words": [
+        {
+          "start": 32.22,
+          "end": 32.54,
+          "word": " Después",
+          "probability": 0.9863491058349609
+        },
+        {
+          "start": 32.54,
+          "end": 32.76,
+          "word": " de",
+          "probability": 0.9974972605705261
+        },
+        {
+          "start": 32.76,
+          "end": 32.9,
+          "word": " una",
+          "probability": 0.9989494681358337
+        },
+        {
+          "start": 32.9,
+          "end": 33.46,
+          "word": " explosión,",
+          "probability": 0.9973478317260742
+        },
+        {
+          "start": 33.86,
+          "end": 33.98,
+          "word": " el",
+          "probability": 0.9940496683120728
+        },
+        {
+          "start": 33.98,
+          "end": 34.22,
+          "word": " polvo",
+          "probability": 0.9953452348709106
+        },
+        {
+          "start": 34.22,
+          "end": 34.86,
+          "word": " radioactivo",
+          "probability": 0.9326130350430807
+        },
+        {
+          "start": 34.86,
+          "end": 35.16,
+          "word": " puede",
+          "probability": 0.9875015020370483
+        },
+        {
+          "start": 35.16,
+          "end": 35.52,
+          "word": " caer",
+          "probability": 0.9983770549297333
+        },
+        {
+          "start": 35.52,
+          "end": 35.74,
+          "word": " sobre",
+          "probability": 0.993446409702301
+        },
+        {
+          "start": 35.74,
+          "end": 36.34,
+          "word": " calles,",
+          "probability": 0.9939810931682587
+        },
+        {
+          "start": 36.54,
+          "end": 36.96,
+          "word": " vehículos",
+          "probability": 0.990102618932724
+        },
+        {
+          "start": 36.96,
+          "end": 37.3,
+          "word": " y",
+          "probability": 0.8897950649261475
+        },
+        {
+          "start": 37.3,
+          "end": 37.82,
+          "word": " edificios.",
+          "probability": 0.9917427897453308
+        }
+      ]
+    },
+    {
+      "start": 38.4,
+      "end": 41.86,
+      "text": " Si estuviste afuera, quítate cuidadosamente la ropa exterior.",
+      "words": [
+        {
+          "start": 38.4,
+          "end": 38.6,
+          "word": " Si",
+          "probability": 0.9927178621292114
+        },
+        {
+          "start": 38.6,
+          "end": 39.0,
+          "word": " estuviste",
+          "probability": 0.9965108036994934
+        },
+        {
+          "start": 39.0,
+          "end": 39.42,
+          "word": " afuera,",
+          "probability": 0.9967750310897827
+        },
+        {
+          "start": 39.8,
+          "end": 40.08,
+          "word": " quítate",
+          "probability": 0.9706294139226278
+        },
+        {
+          "start": 40.08,
+          "end": 40.96,
+          "word": " cuidadosamente",
+          "probability": 0.9943038622538248
+        },
+        {
+          "start": 40.96,
+          "end": 41.22,
+          "word": " la",
+          "probability": 0.9935635328292847
+        },
+        {
+          "start": 41.22,
+          "end": 41.46,
+          "word": " ropa",
+          "probability": 0.995473712682724
+        },
+        {
+          "start": 41.46,
+          "end": 41.86,
+          "word": " exterior.",
+          "probability": 0.9965393543243408
+        }
+      ]
+    },
+    {
+      "start": 42.4,
+      "end": 46.88,
+      "text": " Esto puede eliminar hasta el 90% del material radioactivo que llevas encima.",
+      "words": [
+        {
+          "word": "Esto",
+          "start": 42.4,
+          "end": 42.7,
+          "probability": 0.49835866987268673
+        },
+        {
+          "word": " puede",
+          "start": 42.7,
+          "end": 43.0,
+          "probability": 0.9953814744949341
+        },
+        {
+          "word": " eliminar",
+          "start": 43.0,
+          "end": 43.52,
+          "probability": 0.9966214001178741
+        },
+        {
+          "word": " hasta",
+          "start": 43.52,
+          "end": 43.7,
+          "probability": 0.9955933690071106
+        },
+        {
+          "word": " el",
+          "start": 43.7,
+          "end": 43.86,
+          "probability": 0.9983968138694763
+        },
+        {
+          "word": " noventa",
+          "start": 43.86,
+          "end": 44.34,
+          "probability": 0.6761286854743958
+        },
+        {
+          "word": " por",
+          "start": 44.34,
+          "end": 44.48,
+          "probability": 0.9951719641685486
+        },
+        {
+          "word": " ciento",
+          "start": 44.48,
+          "end": 44.76,
+          "probability": 0.9867857098579407
+        },
+        {
+          "word": " del",
+          "start": 44.76,
+          "end": 45.0,
+          "probability": 0.9813791513442993
+        },
+        {
+          "word": " material",
+          "start": 45.0,
+          "end": 45.42,
+          "probability": 0.9976775050163269
+        },
+        {
+          "word": " radiactivo",
+          "start": 45.42,
+          "end": 46.1,
+          "probability": 0.7709840138753256
+        },
+        {
+          "word": " que",
+          "start": 46.1,
+          "end": 46.22,
+          "probability": 0.9969444870948792
+        },
+        {
+          "word": " llevas",
+          "start": 46.22,
+          "end": 46.52,
+          "probability": 0.9763055145740509
+        },
+        {
+          "word": " encima",
+          "start": 46.52,
+          "end": 46.88,
+          "probability": 0.9876629710197449
+        }
+      ]
+    },
+    {
+      "start": 47.38,
+      "end": 50.98,
+      "text": " Después, lávate con agua y jabón, sin tallarte agresivamente.",
+      "words": [
+        {
+          "start": 47.38,
+          "end": 47.76,
+          "word": " Después,",
+          "probability": 0.9819340109825134
+        },
+        {
+          "start": 48.28,
+          "end": 48.52,
+          "word": " lávate",
+          "probability": 0.9326690137386322
+        },
+        {
+          "start": 48.52,
+          "end": 48.82,
+          "word": " con",
+          "probability": 0.9989000558853149
+        },
+        {
+          "start": 48.82,
+          "end": 49.04,
+          "word": " agua",
+          "probability": 0.998813271522522
+        },
+        {
+          "start": 49.04,
+          "end": 49.16,
+          "word": " y",
+          "probability": 0.9963860511779785
+        },
+        {
+          "start": 49.16,
+          "end": 49.52,
+          "word": " jabón,",
+          "probability": 0.9905833005905151
+        },
+        {
+          "start": 49.68,
+          "end": 49.96,
+          "word": " sin",
+          "probability": 0.9905185103416443
+        },
+        {
+          "start": 49.96,
+          "end": 50.36,
+          "word": " tallarte",
+          "probability": 0.9862932562828064
+        },
+        {
+          "start": 50.36,
+          "end": 50.98,
+          "word": " agresivamente.",
+          "probability": 0.9941217104593912
+        }
+      ]
+    },
+    {
+      "start": 51.68,
+      "end": 55.1,
+      "text": " Usa agua embotellada y alimentos sellados cuando estén disponibles.",
+      "words": [
+        {
+          "start": 51.68,
+          "end": 51.96,
+          "word": " Usa",
+          "probability": 0.7993828654289246
+        },
+        {
+          "start": 51.96,
+          "end": 52.18,
+          "word": " agua",
+          "probability": 0.9992994070053101
+        },
+        {
+          "start": 52.18,
+          "end": 52.8,
+          "word": " embotellada",
+          "probability": 0.9769132137298584
+        },
+        {
+          "start": 52.8,
+          "end": 52.98,
+          "word": " y",
+          "probability": 0.9916707277297974
+        },
+        {
+          "start": 52.98,
+          "end": 53.32,
+          "word": " alimentos",
+          "probability": 0.9725351929664612
+        },
+        {
+          "start": 53.32,
+          "end": 53.9,
+          "word": " sellados",
+          "probability": 0.9925259947776794
+        },
+        {
+          "start": 53.9,
+          "end": 54.14,
+          "word": " cuando",
+          "probability": 0.9847893714904785
+        },
+        {
+          "start": 54.14,
+          "end": 54.52,
+          "word": " estén",
+          "probability": 0.9977835416793823
+        },
+        {
+          "start": 54.52,
+          "end": 55.1,
+          "word": " disponibles.",
+          "probability": 0.998870849609375
+        }
+      ]
+    },
+    {
+      "start": 55.1,
+      "end": 62.36,
+      "text": " Permanece dentro al menos 24 horas, salvo que exista un peligro inmediato o las autoridades indiquen otra cosa.",
+      "words": [
+        {
+          "start": 55.1,
+          "end": 56.16,
+          "word": " Permanece",
+          "probability": 0.7563749551773071
+        },
+        {
+          "start": 56.16,
+          "end": 56.4,
+          "word": " dentro",
+          "probability": 0.982459545135498
+        },
+        {
+          "start": 56.4,
+          "end": 56.7,
+          "word": " al",
+          "probability": 0.984367311000824
+        },
+        {
+          "start": 56.7,
+          "end": 56.96,
+          "word": " menos",
+          "probability": 0.9915040135383606
+        },
+        {
+          "start": 56.96,
+          "end": 57.48,
+          "word": " 24",
+          "probability": 0.938805341720581
+        },
+        {
+          "start": 57.48,
+          "end": 58.06,
+          "word": " horas,",
+          "probability": 0.9929823875427246
+        },
+        {
+          "start": 58.46,
+          "end": 58.76,
+          "word": " salvo",
+          "probability": 0.9949193000793457
+        },
+        {
+          "start": 58.76,
+          "end": 58.88,
+          "word": " que",
+          "probability": 0.9962789416313171
+        },
+        {
+          "start": 58.88,
+          "end": 59.3,
+          "word": " exista",
+          "probability": 0.9753962457180023
+        },
+        {
+          "start": 59.3,
+          "end": 59.42,
+          "word": " un",
+          "probability": 0.9949780106544495
+        },
+        {
+          "start": 59.42,
+          "end": 59.8,
+          "word": " peligro",
+          "probability": 0.9970896244049072
+        },
+        {
+          "start": 59.8,
+          "end": 60.38,
+          "word": " inmediato",
+          "probability": 0.9987924695014954
+        },
+        {
+          "start": 60.38,
+          "end": 60.66,
+          "word": " o",
+          "probability": 0.8315457701683044
+        },
+        {
+          "start": 60.66,
+          "end": 60.8,
+          "word": " las",
+          "probability": 0.9971917271614075
+        },
+        {
+          "start": 60.8,
+          "end": 61.36,
+          "word": " autoridades",
+          "probability": 0.9984116554260254
+        },
+        {
+          "start": 61.36,
+          "end": 61.9,
+          "word": " indiquen",
+          "probability": 0.9763796925544739
+        },
+        {
+          "start": 61.9,
+          "end": 62.04,
+          "word": " otra",
+          "probability": 0.9934715032577515
+        },
+        {
+          "start": 62.04,
+          "end": 62.36,
+          "word": " cosa.",
+          "probability": 0.9988508224487305
+        }
+      ]
+    },
+    {
+      "start": 62.92,
+      "end": 64.88,
+      "text": " Mantente atento a la información oficial.",
+      "words": [
+        {
+          "start": 62.92,
+          "end": 63.34,
+          "word": " Mantente",
+          "probability": 0.9810605943202972
+        },
+        {
+          "start": 63.34,
+          "end": 63.78,
+          "word": " atento",
+          "probability": 0.9957574903964996
+        },
+        {
+          "start": 63.78,
+          "end": 63.88,
+          "word": " a",
+          "probability": 0.9952538013458252
+        },
+        {
+          "start": 63.88,
+          "end": 63.94,
+          "word": " la",
+          "probability": 0.9979948997497559
+        },
+        {
+          "start": 63.94,
+          "end": 64.4,
+          "word": " información",
+          "probability": 0.9937080144882202
+        },
+        {
+          "start": 64.4,
+          "end": 64.88,
+          "word": " oficial.",
+          "probability": 0.9980016350746155
+        }
+      ]
+    },
+    {
+      "start": 65.5,
+      "end": 66.94,
+      "text": " Recuerda estas tres palabras.",
+      "words": [
+        {
+          "start": 65.5,
+          "end": 65.96,
+          "word": " Recuerda",
+          "probability": 0.9903612732887268
+        },
+        {
+          "start": 65.96,
+          "end": 66.2,
+          "word": " estas",
+          "probability": 0.9768223166465759
+        },
+        {
+          "start": 66.2,
+          "end": 66.56,
+          "word": " tres",
+          "probability": 0.8404628038406372
+        },
+        {
+          "start": 66.56,
+          "end": 66.94,
+          "word": " palabras.",
+          "probability": 0.9989664554595947
+        }
+      ]
+    },
+    {
+      "start": 67.66,
+      "end": 70.54,
+      "text": " Entra, permanece y mantente informado.",
+      "words": [
+        {
+          "start": 67.66,
+          "end": 68.06,
+          "word": " Entra,",
+          "probability": 0.7538335621356964
+        },
+        {
+          "start": 68.42,
+          "end": 69.0,
+          "word": " permanece",
+          "probability": 0.9973841110865275
+        },
+        {
+          "start": 69.0,
+          "end": 69.42,
+          "word": " y",
+          "probability": 0.9184029698371887
+        },
+        {
+          "start": 69.42,
+          "end": 69.9,
+          "word": " mantente",
+          "probability": 0.9975172579288483
+        },
+        {
+          "start": 69.9,
+          "end": 70.54,
+          "word": " informado.",
+          "probability": 0.9902932047843933
+        }
+      ]
+    },
+    {
+      "start": 71.08,
+      "end": 74.88,
+      "text": " En una emergencia nuclear, saber qué hacer puede salvarte la vida.",
+      "words": [
+        {
+          "start": 71.08,
+          "end": 71.16,
+          "word": " En",
+          "probability": 0.9872860312461853
+        },
+        {
+          "start": 71.16,
+          "end": 71.32,
+          "word": " una",
+          "probability": 0.9988228678703308
+        },
+        {
+          "start": 71.32,
+          "end": 71.88,
+          "word": " emergencia",
+          "probability": 0.9976348280906677
+        },
+        {
+          "start": 71.88,
+          "end": 72.26,
+          "word": " nuclear,",
+          "probability": 0.9807387590408325
+        },
+        {
+          "start": 72.74,
+          "end": 72.92,
+          "word": " saber",
+          "probability": 0.9921972155570984
+        },
+        {
+          "start": 72.92,
+          "end": 73.22,
+          "word": " qué",
+          "probability": 0.9198768138885498
+        },
+        {
+          "start": 73.22,
+          "end": 73.58,
+          "word": " hacer",
+          "probability": 0.9963142275810242
+        },
+        {
+          "start": 73.58,
+          "end": 73.94,
+          "word": " puede",
+          "probability": 0.9609431624412537
+        },
+        {
+          "start": 73.94,
+          "end": 74.56,
+          "word": " salvarte",
+          "probability": 0.9880806505680084
+        },
+        {
+          "start": 74.56,
+          "end": 74.68,
+          "word": " la",
+          "probability": 0.9966176152229309
+        },
+        {
+          "start": 74.68,
+          "end": 74.88,
+          "word": " vida.",
+          "probability": 0.9993784427642822
+        }
+      ]
+    }
+  ],
+  "numericWordTimingSource": "alineacion_noventa.json: attention/DTW, not text-length timing"
+}

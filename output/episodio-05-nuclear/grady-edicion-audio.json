@@ -1,0 +1,1647 @@
+{
+  "source": "public\\episodio-05\\audio\\narracion_grady_original.mp3",
+  "sourceSha256": "a7c434b8d6f4fe98f9164d638c4e7ff561678e0dc9d239eb93a16d1728c8936a",
+  "sourceSampleCount": 3611168,
+  "sampleRate": 48000,
+  "targetSampleCount": 3360000,
+  "duration": 70,
+  "tempo": 1,
+  "pitchChanged": false,
+  "speechWordsRemoved": 0,
+  "cuts": [
+    {
+      "sourceStartSample": 182242,
+      "sourceEndSample": 204706,
+      "removedSamples": 22464,
+      "removedPeakDbfs": -58.99,
+      "retainedPauseSeconds": 0.212816
+    },
+    {
+      "sourceStartSample": 391166,
+      "sourceEndSample": 393052,
+      "removedSamples": 1886,
+      "removedPeakDbfs": -55.168,
+      "retainedPauseSeconds": 0.201093
+    },
+    {
+      "sourceStartSample": 426090,
+      "sourceEndSample": 444424,
+      "removedSamples": 18334,
+      "removedPeakDbfs": -80.507,
+      "retainedPauseSeconds": 0.210468
+    },
+    {
+      "sourceStartSample": 572916,
+      "sourceEndSample": 576533,
+      "removedSamples": 3617,
+      "removedPeakDbfs": -82.826,
+      "retainedPauseSeconds": 0.202061
+    },
+    {
+      "sourceStartSample": 630283,
+      "sourceEndSample": 637966,
+      "removedSamples": 7683,
+      "removedPeakDbfs": -80.603,
+      "retainedPauseSeconds": 0.204381
+    },
+    {
+      "sourceStartSample": 726944,
+      "sourceEndSample": 728266,
+      "removedSamples": 1322,
+      "removedPeakDbfs": -83.313,
+      "retainedPauseSeconds": 0.200757
+    },
+    {
+      "sourceStartSample": 795782,
+      "sourceEndSample": 805895,
+      "removedSamples": 10113,
+      "removedPeakDbfs": -80.177,
+      "retainedPauseSeconds": 0.205776
+    },
+    {
+      "sourceStartSample": 925388,
+      "sourceEndSample": 945402,
+      "removedSamples": 20014,
+      "removedPeakDbfs": -80.17,
+      "retainedPauseSeconds": 0.211409
+    },
+    {
+      "sourceStartSample": 1042356,
+      "sourceEndSample": 1045545,
+      "removedSamples": 3189,
+      "removedPeakDbfs": -82.907,
+      "retainedPauseSeconds": 0.201817
+    },
+    {
+      "sourceStartSample": 1169629,
+      "sourceEndSample": 1180358,
+      "removedSamples": 10729,
+      "removedPeakDbfs": -80.936,
+      "retainedPauseSeconds": 0.206116
+    },
+    {
+      "sourceStartSample": 1350231,
+      "sourceEndSample": 1352925,
+      "removedSamples": 2694,
+      "removedPeakDbfs": -82.874,
+      "retainedPauseSeconds": 0.201539
+    },
+    {
+      "sourceStartSample": 1419489,
+      "sourceEndSample": 1433788,
+      "removedSamples": 14299,
+      "removedPeakDbfs": -80.692,
+      "retainedPauseSeconds": 0.208158
+    },
+    {
+      "sourceStartSample": 1537959,
+      "sourceEndSample": 1544165,
+      "removedSamples": 6206,
+      "removedPeakDbfs": -80.772,
+      "retainedPauseSeconds": 0.203542
+    },
+    {
+      "sourceStartSample": 1616168,
+      "sourceEndSample": 1619594,
+      "removedSamples": 3426,
+      "removedPeakDbfs": -82.497,
+      "retainedPauseSeconds": 0.201958
+    },
+    {
+      "sourceStartSample": 1827686,
+      "sourceEndSample": 1842131,
+      "removedSamples": 14445,
+      "removedPeakDbfs": -80.422,
+      "retainedPauseSeconds": 0.208246
+    },
+    {
+      "sourceStartSample": 1901399,
+      "sourceEndSample": 1903668,
+      "removedSamples": 2269,
+      "removedPeakDbfs": -83.11,
+      "retainedPauseSeconds": 0.2013
+    },
+    {
+      "sourceStartSample": 2021201,
+      "sourceEndSample": 2032247,
+      "removedSamples": 11046,
+      "removedPeakDbfs": -64.724,
+      "retainedPauseSeconds": 0.206315
+    },
+    {
+      "sourceStartSample": 2259969,
+      "sourceEndSample": 2270142,
+      "removedSamples": 10173,
+      "removedPeakDbfs": -80.472,
+      "retainedPauseSeconds": 0.205817
+    },
+    {
+      "sourceStartSample": 2306875,
+      "sourceEndSample": 2308503,
+      "removedSamples": 1628,
+      "removedPeakDbfs": -82.848,
+      "retainedPauseSeconds": 0.200936
+    },
+    {
+      "sourceStartSample": 2462913,
+      "sourceEndSample": 2477325,
+      "removedSamples": 14412,
+      "removedPeakDbfs": -80.129,
+      "retainedPauseSeconds": 0.208231
+    },
+    {
+      "sourceStartSample": 2658096,
+      "sourceEndSample": 2669693,
+      "removedSamples": 11597,
+      "removedPeakDbfs": -80.509,
+      "retainedPauseSeconds": 0.206627
+    },
+    {
+      "sourceStartSample": 2801493,
+      "sourceEndSample": 2802153,
+      "removedSamples": 660,
+      "removedPeakDbfs": -83.199,
+      "retainedPauseSeconds": 0.200377
+    },
+    {
+      "sourceStartSample": 3003172,
+      "sourceEndSample": 3013091,
+      "removedSamples": 9919,
+      "removedPeakDbfs": -81.268,
+      "retainedPauseSeconds": 0.205667
+    },
+    {
+      "sourceStartSample": 3124752,
+      "sourceEndSample": 3137513,
+      "removedSamples": 12761,
+      "removedPeakDbfs": -53.579,
+      "retainedPauseSeconds": 0.207275
+    },
+    {
+      "sourceStartSample": 3233100,
+      "sourceEndSample": 3243818,
+      "removedSamples": 10718,
+      "removedPeakDbfs": -80.676,
+      "retainedPauseSeconds": 0.206118
+    },
+    {
+      "sourceStartSample": 3274161,
+      "sourceEndSample": 3280272,
+      "removedSamples": 6111,
+      "removedPeakDbfs": -81.089,
+      "retainedPauseSeconds": 0.203481
+    },
+    {
+      "sourceStartSample": 3320528,
+      "sourceEndSample": 3323762,
+      "removedSamples": 3234,
+      "removedPeakDbfs": -83.064,
+      "retainedPauseSeconds": 0.201831
+    },
+    {
+      "sourceStartSample": 3391294,
+      "sourceEndSample": 3406274,
+      "removedSamples": 14980,
+      "removedPeakDbfs": -78.213,
+      "retainedPauseSeconds": 0.208552
+    },
+    {
+      "sourceStartSample": 3481126,
+      "sourceEndSample": 3481867,
+      "removedSamples": 741,
+      "removedPeakDbfs": -84.543,
+      "retainedPauseSeconds": 0.200412
+    },
+    {
+      "sourceStartSample": 3605863,
+      "sourceEndSample": 3606361,
+      "removedSamples": 498,
+      "removedPeakDbfs": -84.344,
+      "retainedPauseSeconds": 0.200283
+    }
+  ],
+  "removedSilenceSeconds": 5.232666666666667,
+  "minimumRetainedPauseSeconds": 0.200283,
+  "transcriptionWords": 174,
+  "wordCorrections": [
+    {
+      "word": "No",
+      "oldStart": 29.36,
+      "newStart": 29.934649,
+      "reason": "sentence-initial word spans measured silent gap"
+    },
+    {
+      "word": "Permanece",
+      "oldStart": 55.1,
+      "newStart": 55.681905,
+      "reason": "sentence-initial word spans measured silent gap"
+    }
+  ],
+  "normalization": {
+    "input_i": "-19.84",
+    "input_tp": "-1.51",
+    "input_lra": "4.10",
+    "input_thresh": "-30.09",
+    "output_i": "-16.17",
+    "output_tp": "-2.00",
+    "output_lra": "3.70",
+    "output_thresh": "-26.38",
+    "normalization_type": "dynamic",
+    "target_offset": "0.17"
+  },
+  "outputSha256": "c39d38e0b81f72a5958edeadea7c4382bf3fc87a61bbd0b1850f8ce85c9ad6c8",
+  "words": [
+    {
+      "word": "¿Qué",
+      "sourceStart": 0.0,
+      "sourceEnd": 0.22,
+      "start": 0.0,
+      "end": 0.22,
+      "probability": 0.882745236158371
+    },
+    {
+      "word": "harías",
+      "sourceStart": 0.22,
+      "sourceEnd": 0.56,
+      "start": 0.22,
+      "end": 0.56,
+      "probability": 0.9883834719657898
+    },
+    {
+      "word": "si",
+      "sourceStart": 0.56,
+      "sourceEnd": 0.96,
+      "start": 0.56,
+      "end": 0.96,
+      "probability": 0.9928733110427856
+    },
+    {
+      "word": "una",
+      "sourceStart": 0.96,
+      "sourceEnd": 1.14,
+      "start": 0.96,
+      "end": 1.14,
+      "probability": 0.9846161007881165
+    },
+    {
+      "word": "bomba",
+      "sourceStart": 1.14,
+      "sourceEnd": 1.5,
+      "start": 1.14,
+      "end": 1.5,
+      "probability": 0.9922552108764648
+    },
+    {
+      "word": "nuclear",
+      "sourceStart": 1.5,
+      "sourceEnd": 1.9,
+      "start": 1.5,
+      "end": 1.9,
+      "probability": 0.9764811992645264
+    },
+    {
+      "word": "explotara",
+      "sourceStart": 1.9,
+      "sourceEnd": 2.54,
+      "start": 1.9,
+      "end": 2.54,
+      "probability": 0.9773572484652201
+    },
+    {
+      "word": "cerca",
+      "sourceStart": 2.54,
+      "sourceEnd": 2.9,
+      "start": 2.54,
+      "end": 2.9,
+      "probability": 0.9914892911911011
+    },
+    {
+      "word": "de",
+      "sourceStart": 2.9,
+      "sourceEnd": 3.14,
+      "start": 2.9,
+      "end": 3.14,
+      "probability": 0.9994970560073853
+    },
+    {
+      "word": "tu",
+      "sourceStart": 3.14,
+      "sourceEnd": 3.26,
+      "start": 3.14,
+      "end": 3.26,
+      "probability": 0.99308842420578
+    },
+    {
+      "word": "ciudad?",
+      "sourceStart": 3.26,
+      "sourceEnd": 3.6,
+      "start": 3.26,
+      "end": 3.6,
+      "probability": 0.9995941519737244
+    },
+    {
+      "word": "Tus",
+      "sourceStart": 4.32,
+      "sourceEnd": 4.46,
+      "start": 3.852,
+      "end": 3.992,
+      "probability": 0.9686450958251953
+    },
+    {
+      "word": "primeros",
+      "sourceStart": 4.46,
+      "sourceEnd": 4.92,
+      "start": 3.992,
+      "end": 4.452,
+      "probability": 0.994938313961029
+    },
+    {
+      "word": "segundos",
+      "sourceStart": 4.92,
+      "sourceEnd": 5.3,
+      "start": 4.452,
+      "end": 4.832,
+      "probability": 0.9745079278945923
+    },
+    {
+      "word": "podrían",
+      "sourceStart": 5.3,
+      "sourceEnd": 5.88,
+      "start": 4.832,
+      "end": 5.412,
+      "probability": 0.9952220618724823
+    },
+    {
+      "word": "marcar",
+      "sourceStart": 5.88,
+      "sourceEnd": 6.34,
+      "start": 5.412,
+      "end": 5.872,
+      "probability": 0.989996075630188
+    },
+    {
+      "word": "la",
+      "sourceStart": 6.34,
+      "sourceEnd": 6.5,
+      "start": 5.872,
+      "end": 6.032,
+      "probability": 0.9975214600563049
+    },
+    {
+      "word": "diferencia",
+      "sourceStart": 6.5,
+      "sourceEnd": 7.02,
+      "start": 6.032,
+      "end": 6.552,
+      "probability": 0.9989140033721924
+    },
+    {
+      "word": "entre",
+      "sourceStart": 7.02,
+      "sourceEnd": 7.54,
+      "start": 6.552,
+      "end": 7.072,
+      "probability": 0.9974634647369385
+    },
+    {
+      "word": "vivir",
+      "sourceStart": 7.54,
+      "sourceEnd": 7.86,
+      "start": 7.072,
+      "end": 7.392,
+      "probability": 0.9769648313522339
+    },
+    {
+      "word": "y",
+      "sourceStart": 7.86,
+      "sourceEnd": 8.38,
+      "start": 7.392,
+      "end": 7.872708333333334,
+      "probability": 0.9973725080490112
+    },
+    {
+      "word": "morir.",
+      "sourceStart": 8.38,
+      "sourceEnd": 8.76,
+      "start": 7.872708333333334,
+      "end": 8.252708333333333,
+      "probability": 0.9963595867156982
+    },
+    {
+      "word": "Si",
+      "sourceStart": 9.32,
+      "sourceEnd": 9.5,
+      "start": 8.43075,
+      "end": 8.61075,
+      "probability": 0.9921627640724182
+    },
+    {
+      "word": "ves",
+      "sourceStart": 9.5,
+      "sourceEnd": 9.66,
+      "start": 8.61075,
+      "end": 8.77075,
+      "probability": 0.998367965221405
+    },
+    {
+      "word": "un",
+      "sourceStart": 9.66,
+      "sourceEnd": 9.82,
+      "start": 8.77075,
+      "end": 8.93075,
+      "probability": 0.9979926347732544
+    },
+    {
+      "word": "destello",
+      "sourceStart": 9.82,
+      "sourceEnd": 10.22,
+      "start": 8.93075,
+      "end": 9.33075,
+      "probability": 0.956635981798172
+    },
+    {
+      "word": "extremadamente",
+      "sourceStart": 10.22,
+      "sourceEnd": 11.06,
+      "start": 9.33075,
+      "end": 10.17075,
+      "probability": 0.9972545802593231
+    },
+    {
+      "word": "brillante,",
+      "sourceStart": 11.06,
+      "sourceEnd": 11.7,
+      "start": 10.17075,
+      "end": 10.81075,
+      "probability": 0.9961313009262085
+    },
+    {
+      "word": "¡no",
+      "sourceStart": 12.18,
+      "sourceEnd": 12.36,
+      "start": 11.215395833333334,
+      "end": 11.395395833333334,
+      "probability": 0.5249403119087219
+    },
+    {
+      "word": "lo",
+      "sourceStart": 12.36,
+      "sourceEnd": 12.52,
+      "start": 11.395395833333334,
+      "end": 11.555395833333334,
+      "probability": 0.9961129426956177
+    },
+    {
+      "word": "mires!",
+      "sourceStart": 12.52,
+      "sourceEnd": 12.8,
+      "start": 11.555395833333334,
+      "end": 11.835395833333333,
+      "probability": 0.9489654004573822
+    },
+    {
+      "word": "Tírate",
+      "sourceStart": 13.36,
+      "sourceEnd": 13.6,
+      "start": 12.235333333333333,
+      "end": 12.475333333333333,
+      "probability": 0.8670451045036316
+    },
+    {
+      "word": "al",
+      "sourceStart": 13.6,
+      "sourceEnd": 13.82,
+      "start": 12.475333333333333,
+      "end": 12.695333333333334,
+      "probability": 0.9927663803100586
+    },
+    {
+      "word": "suelo,",
+      "sourceStart": 13.82,
+      "sourceEnd": 14.14,
+      "start": 12.695333333333334,
+      "end": 13.015333333333333,
+      "probability": 0.997568815946579
+    },
+    {
+      "word": "boca",
+      "sourceStart": 14.4,
+      "sourceEnd": 14.56,
+      "start": 13.275333333333334,
+      "end": 13.435333333333332,
+      "probability": 0.9938437938690186
+    },
+    {
+      "word": "abajo,",
+      "sourceStart": 14.56,
+      "sourceEnd": 14.94,
+      "start": 13.435333333333332,
+      "end": 13.815333333333333,
+      "probability": 0.9971574544906616
+    },
+    {
+      "word": "y",
+      "sourceStart": 14.94,
+      "sourceEnd": 15.36,
+      "start": 13.815333333333333,
+      "end": 14.207791666666667,
+      "probability": 0.8311729431152344
+    },
+    {
+      "word": "protege",
+      "sourceStart": 15.36,
+      "sourceEnd": 15.82,
+      "start": 14.207791666666667,
+      "end": 14.667791666666666,
+      "probability": 0.8955073356628418
+    },
+    {
+      "word": "tu",
+      "sourceStart": 15.82,
+      "sourceEnd": 16.0,
+      "start": 14.667791666666666,
+      "end": 14.847791666666666,
+      "probability": 0.9918002486228943
+    },
+    {
+      "word": "cabeza.",
+      "sourceStart": 16.0,
+      "sourceEnd": 16.24,
+      "start": 14.847791666666666,
+      "end": 15.087791666666666,
+      "probability": 0.9997124075889587
+    },
+    {
+      "word": "La",
+      "sourceStart": 16.9,
+      "sourceEnd": 17.0,
+      "start": 15.537104166666667,
+      "end": 15.637104166666667,
+      "probability": 0.9935985803604126
+    },
+    {
+      "word": "onda",
+      "sourceStart": 17.0,
+      "sourceEnd": 17.2,
+      "start": 15.637104166666667,
+      "end": 15.837104166666666,
+      "probability": 0.9689369201660156
+    },
+    {
+      "word": "expansiva",
+      "sourceStart": 17.2,
+      "sourceEnd": 17.84,
+      "start": 15.837104166666666,
+      "end": 16.477104166666667,
+      "probability": 0.9983051419258118
+    },
+    {
+      "word": "puede",
+      "sourceStart": 17.84,
+      "sourceEnd": 18.2,
+      "start": 16.477104166666667,
+      "end": 16.837104166666666,
+      "probability": 0.9963709115982056
+    },
+    {
+      "word": "llegar",
+      "sourceStart": 18.2,
+      "sourceEnd": 18.5,
+      "start": 16.837104166666666,
+      "end": 17.137104166666667,
+      "probability": 0.9980610013008118
+    },
+    {
+      "word": "después.",
+      "sourceStart": 18.5,
+      "sourceEnd": 18.94,
+      "start": 17.137104166666667,
+      "end": 17.57710416666667,
+      "probability": 0.9983707070350647
+    },
+    {
+      "word": "En",
+      "sourceStart": 19.74,
+      "sourceEnd": 19.9,
+      "start": 17.960145833333332,
+      "end": 18.120145833333332,
+      "probability": 0.9977110624313354
+    },
+    {
+      "word": "cuanto",
+      "sourceStart": 19.9,
+      "sourceEnd": 20.06,
+      "start": 18.120145833333332,
+      "end": 18.280145833333332,
+      "probability": 0.9982972741127014
+    },
+    {
+      "word": "pase",
+      "sourceStart": 20.06,
+      "sourceEnd": 20.46,
+      "start": 18.280145833333332,
+      "end": 18.680145833333334,
+      "probability": 0.9967278242111206
+    },
+    {
+      "word": "el",
+      "sourceStart": 20.46,
+      "sourceEnd": 20.6,
+      "start": 18.680145833333334,
+      "end": 18.820145833333335,
+      "probability": 0.9972386360168457
+    },
+    {
+      "word": "peligro",
+      "sourceStart": 20.6,
+      "sourceEnd": 20.96,
+      "start": 18.820145833333335,
+      "end": 19.180145833333334,
+      "probability": 0.9989335536956787
+    },
+    {
+      "word": "inmediato,",
+      "sourceStart": 20.96,
+      "sourceEnd": 21.5,
+      "start": 19.180145833333334,
+      "end": 19.720145833333333,
+      "probability": 0.9991507331530253
+    },
+    {
+      "word": "entra",
+      "sourceStart": 21.9,
+      "sourceEnd": 22.12,
+      "start": 20.053708333333333,
+      "end": 20.27370833333333,
+      "probability": 0.9925673007965088
+    },
+    {
+      "word": "al",
+      "sourceStart": 22.12,
+      "sourceEnd": 22.32,
+      "start": 20.27370833333333,
+      "end": 20.473708333333335,
+      "probability": 0.9805287718772888
+    },
+    {
+      "word": "edificio",
+      "sourceStart": 22.32,
+      "sourceEnd": 22.78,
+      "start": 20.473708333333335,
+      "end": 20.933708333333332,
+      "probability": 0.9987610777219137
+    },
+    {
+      "word": "resistente",
+      "sourceStart": 22.78,
+      "sourceEnd": 23.38,
+      "start": 20.933708333333332,
+      "end": 21.533708333333333,
+      "probability": 0.9942476749420166
+    },
+    {
+      "word": "más",
+      "sourceStart": 23.38,
+      "sourceEnd": 23.74,
+      "start": 21.533708333333333,
+      "end": 21.893708333333333,
+      "probability": 0.9877723455429077
+    },
+    {
+      "word": "cercano.",
+      "sourceStart": 23.74,
+      "sourceEnd": 24.2,
+      "start": 21.893708333333333,
+      "end": 22.353708333333334,
+      "probability": 0.9995307922363281
+    },
+    {
+      "word": "Un",
+      "sourceStart": 24.66,
+      "sourceEnd": 24.8,
+      "start": 22.5901875,
+      "end": 22.7301875,
+      "probability": 0.9954623579978943
+    },
+    {
+      "word": "sótano",
+      "sourceStart": 24.8,
+      "sourceEnd": 25.24,
+      "start": 22.7301875,
+      "end": 23.1701875,
+      "probability": 0.9573930104573568
+    },
+    {
+      "word": "o",
+      "sourceStart": 25.24,
+      "sourceEnd": 25.58,
+      "start": 23.1701875,
+      "end": 23.5101875,
+      "probability": 0.9094134569168091
+    },
+    {
+      "word": "una",
+      "sourceStart": 25.58,
+      "sourceEnd": 25.74,
+      "start": 23.5101875,
+      "end": 23.6701875,
+      "probability": 0.8819712996482849
+    },
+    {
+      "word": "habitación",
+      "sourceStart": 25.74,
+      "sourceEnd": 26.18,
+      "start": 23.6701875,
+      "end": 24.1101875,
+      "probability": 0.9970477223396301
+    },
+    {
+      "word": "central,",
+      "sourceStart": 26.18,
+      "sourceEnd": 26.58,
+      "start": 24.1101875,
+      "end": 24.5101875,
+      "probability": 0.9945307374000549
+    },
+    {
+      "word": "lejos",
+      "sourceStart": 27.0,
+      "sourceEnd": 27.2,
+      "start": 24.9301875,
+      "end": 25.1301875,
+      "probability": 0.9989904463291168
+    },
+    {
+      "word": "de",
+      "sourceStart": 27.2,
+      "sourceEnd": 27.36,
+      "start": 25.1301875,
+      "end": 25.2901875,
+      "probability": 0.9991551637649536
+    },
+    {
+      "word": "las",
+      "sourceStart": 27.36,
+      "sourceEnd": 27.48,
+      "start": 25.2901875,
+      "end": 25.4101875,
+      "probability": 0.9937394857406616
+    },
+    {
+      "word": "ventanas,",
+      "sourceStart": 27.48,
+      "sourceEnd": 27.9,
+      "start": 25.4101875,
+      "end": 25.8301875,
+      "probability": 0.9930305778980255
+    },
+    {
+      "word": "puede",
+      "sourceStart": 28.26,
+      "sourceEnd": 28.46,
+      "start": 26.1340625,
+      "end": 26.3340625,
+      "probability": 0.9973176121711731
+    },
+    {
+      "word": "protegerte",
+      "sourceStart": 28.46,
+      "sourceEnd": 29.04,
+      "start": 26.3340625,
+      "end": 26.9140625,
+      "probability": 0.993587076663971
+    },
+    {
+      "word": "mejor.",
+      "sourceStart": 29.04,
+      "sourceEnd": 29.36,
+      "start": 26.9140625,
+      "end": 27.2340625,
+      "probability": 0.9992150068283081
+    },
+    {
+      "word": "No",
+      "sourceStart": 29.934649,
+      "sourceEnd": 30.2,
+      "start": 27.5108125,
+      "end": 27.776166666666665,
+      "probability": 0.21859067678451538
+    },
+    {
+      "word": "salgas",
+      "sourceStart": 30.2,
+      "sourceEnd": 30.72,
+      "start": 27.776166666666665,
+      "end": 28.296166666666668,
+      "probability": 0.9742945432662964
+    },
+    {
+      "word": "a",
+      "sourceStart": 30.72,
+      "sourceEnd": 30.86,
+      "start": 28.296166666666668,
+      "end": 28.436166666666665,
+      "probability": 0.9981486797332764
+    },
+    {
+      "word": "buscar",
+      "sourceStart": 30.86,
+      "sourceEnd": 31.08,
+      "start": 28.436166666666665,
+      "end": 28.656166666666667,
+      "probability": 0.9985015392303467
+    },
+    {
+      "word": "provisiones.",
+      "sourceStart": 31.08,
+      "sourceEnd": 31.9,
+      "start": 28.656166666666667,
+      "end": 29.476166666666668,
+      "probability": 0.8379282057285309
+    },
+    {
+      "word": "Después",
+      "sourceStart": 32.22,
+      "sourceEnd": 32.54,
+      "start": 29.666875,
+      "end": 29.986875,
+      "probability": 0.9863491058349609
+    },
+    {
+      "word": "de",
+      "sourceStart": 32.54,
+      "sourceEnd": 32.76,
+      "start": 29.986875,
+      "end": 30.206875,
+      "probability": 0.9974972605705261
+    },
+    {
+      "word": "una",
+      "sourceStart": 32.76,
+      "sourceEnd": 32.9,
+      "start": 30.206875,
+      "end": 30.346875,
+      "probability": 0.9989494681358337
+    },
+    {
+      "word": "explosión,",
+      "sourceStart": 32.9,
+      "sourceEnd": 33.46,
+      "start": 30.346875,
+      "end": 30.906875,
+      "probability": 0.9973478317260742
+    },
+    {
+      "word": "el",
+      "sourceStart": 33.86,
+      "sourceEnd": 33.98,
+      "start": 31.2355,
+      "end": 31.3555,
+      "probability": 0.9940496683120728
+    },
+    {
+      "word": "polvo",
+      "sourceStart": 33.98,
+      "sourceEnd": 34.22,
+      "start": 31.3555,
+      "end": 31.5955,
+      "probability": 0.9953452348709106
+    },
+    {
+      "word": "radiactivo",
+      "sourceStart": 34.22,
+      "sourceEnd": 34.86,
+      "start": 31.5955,
+      "end": 32.2355,
+      "probability": 0.9326130350430807
+    },
+    {
+      "word": "puede",
+      "sourceStart": 34.86,
+      "sourceEnd": 35.16,
+      "start": 32.2355,
+      "end": 32.5355,
+      "probability": 0.9875015020370483
+    },
+    {
+      "word": "caer",
+      "sourceStart": 35.16,
+      "sourceEnd": 35.52,
+      "start": 32.5355,
+      "end": 32.8955,
+      "probability": 0.9983770549297333
+    },
+    {
+      "word": "sobre",
+      "sourceStart": 35.52,
+      "sourceEnd": 35.74,
+      "start": 32.8955,
+      "end": 33.1155,
+      "probability": 0.993446409702301
+    },
+    {
+      "word": "calles,",
+      "sourceStart": 35.74,
+      "sourceEnd": 36.34,
+      "start": 33.1155,
+      "end": 33.7155,
+      "probability": 0.9939810931682587
+    },
+    {
+      "word": "vehículos",
+      "sourceStart": 36.54,
+      "sourceEnd": 36.96,
+      "start": 33.9155,
+      "end": 34.3355,
+      "probability": 0.990102618932724
+    },
+    {
+      "word": "y",
+      "sourceStart": 36.96,
+      "sourceEnd": 37.3,
+      "start": 34.3355,
+      "end": 34.6755,
+      "probability": 0.8897950649261475
+    },
+    {
+      "word": "edificios.",
+      "sourceStart": 37.3,
+      "sourceEnd": 37.82,
+      "start": 34.6755,
+      "end": 35.1955,
+      "probability": 0.9917427897453308
+    },
+    {
+      "word": "Si",
+      "sourceStart": 38.4,
+      "sourceEnd": 38.6,
+      "start": 35.4745625,
+      "end": 35.6745625,
+      "probability": 0.9927178621292114
+    },
+    {
+      "word": "estuviste",
+      "sourceStart": 38.6,
+      "sourceEnd": 39.0,
+      "start": 35.6745625,
+      "end": 36.0745625,
+      "probability": 0.9965108036994934
+    },
+    {
+      "word": "afuera,",
+      "sourceStart": 39.0,
+      "sourceEnd": 39.42,
+      "start": 36.0745625,
+      "end": 36.4945625,
+      "probability": 0.9967750310897827
+    },
+    {
+      "word": "quítate",
+      "sourceStart": 39.8,
+      "sourceEnd": 40.08,
+      "start": 36.82729166666667,
+      "end": 37.10729166666667,
+      "probability": 0.9706294139226278
+    },
+    {
+      "word": "cuidadosamente",
+      "sourceStart": 40.08,
+      "sourceEnd": 40.96,
+      "start": 37.10729166666667,
+      "end": 37.987291666666664,
+      "probability": 0.9943038622538248
+    },
+    {
+      "word": "la",
+      "sourceStart": 40.96,
+      "sourceEnd": 41.22,
+      "start": 37.987291666666664,
+      "end": 38.24729166666667,
+      "probability": 0.9935635328292847
+    },
+    {
+      "word": "ropa",
+      "sourceStart": 41.22,
+      "sourceEnd": 41.46,
+      "start": 38.24729166666667,
+      "end": 38.487291666666664,
+      "probability": 0.995473712682724
+    },
+    {
+      "word": "exterior.",
+      "sourceStart": 41.46,
+      "sourceEnd": 41.86,
+      "start": 38.487291666666664,
+      "end": 38.88729166666667,
+      "probability": 0.9965393543243408
+    },
+    {
+      "word": "Esto",
+      "sourceStart": 42.4,
+      "sourceEnd": 42.7,
+      "start": 39.19716666666667,
+      "end": 39.497166666666665,
+      "probability": 0.49835866987268673
+    },
+    {
+      "word": "puede",
+      "sourceStart": 42.7,
+      "sourceEnd": 43.0,
+      "start": 39.497166666666665,
+      "end": 39.79716666666667,
+      "probability": 0.9953814744949341
+    },
+    {
+      "word": "eliminar",
+      "sourceStart": 43.0,
+      "sourceEnd": 43.52,
+      "start": 39.79716666666667,
+      "end": 40.317166666666665,
+      "probability": 0.9966214001178741
+    },
+    {
+      "word": "hasta",
+      "sourceStart": 43.52,
+      "sourceEnd": 43.7,
+      "start": 40.317166666666665,
+      "end": 40.497166666666665,
+      "probability": 0.9955933690071106
+    },
+    {
+      "word": "el",
+      "sourceStart": 43.7,
+      "sourceEnd": 43.86,
+      "start": 40.497166666666665,
+      "end": 40.65716666666667,
+      "probability": 0.9983968138694763
+    },
+    {
+      "word": "noventa",
+      "sourceStart": 43.86,
+      "sourceEnd": 44.34,
+      "start": 40.65716666666667,
+      "end": 41.137166666666666,
+      "probability": 0.6761286854743958
+    },
+    {
+      "word": "por",
+      "sourceStart": 44.34,
+      "sourceEnd": 44.48,
+      "start": 41.137166666666666,
+      "end": 41.277166666666666,
+      "probability": 0.9951719641685486
+    },
+    {
+      "word": "ciento",
+      "sourceStart": 44.48,
+      "sourceEnd": 44.76,
+      "start": 41.277166666666666,
+      "end": 41.55716666666667,
+      "probability": 0.9867857098579407
+    },
+    {
+      "word": "del",
+      "sourceStart": 44.76,
+      "sourceEnd": 45.0,
+      "start": 41.55716666666667,
+      "end": 41.79716666666667,
+      "probability": 0.9813791513442993
+    },
+    {
+      "word": "material",
+      "sourceStart": 45.0,
+      "sourceEnd": 45.42,
+      "start": 41.79716666666667,
+      "end": 42.217166666666664,
+      "probability": 0.9976775050163269
+    },
+    {
+      "word": "radiactivo",
+      "sourceStart": 45.42,
+      "sourceEnd": 46.1,
+      "start": 42.217166666666664,
+      "end": 42.897166666666664,
+      "probability": 0.7709840138753256
+    },
+    {
+      "word": "que",
+      "sourceStart": 46.1,
+      "sourceEnd": 46.22,
+      "start": 42.897166666666664,
+      "end": 43.01716666666667,
+      "probability": 0.9969444870948792
+    },
+    {
+      "word": "llevas",
+      "sourceStart": 46.22,
+      "sourceEnd": 46.52,
+      "start": 43.01716666666667,
+      "end": 43.317166666666665,
+      "probability": 0.9763055145740509
+    },
+    {
+      "word": "encima.",
+      "sourceStart": 46.52,
+      "sourceEnd": 46.88,
+      "start": 43.317166666666665,
+      "end": 43.677166666666665,
+      "probability": 0.9876629710197449
+    },
+    {
+      "word": "Después,",
+      "sourceStart": 47.38,
+      "sourceEnd": 47.76,
+      "start": 43.96522916666667,
+      "end": 44.34522916666667,
+      "probability": 0.9819340109825134
+    },
+    {
+      "word": "lávate",
+      "sourceStart": 48.28,
+      "sourceEnd": 48.52,
+      "start": 44.8313125,
+      "end": 45.0713125,
+      "probability": 0.9326690137386322
+    },
+    {
+      "word": "con",
+      "sourceStart": 48.52,
+      "sourceEnd": 48.82,
+      "start": 45.0713125,
+      "end": 45.3713125,
+      "probability": 0.9989000558853149
+    },
+    {
+      "word": "agua",
+      "sourceStart": 48.82,
+      "sourceEnd": 49.04,
+      "start": 45.3713125,
+      "end": 45.5913125,
+      "probability": 0.998813271522522
+    },
+    {
+      "word": "y",
+      "sourceStart": 49.04,
+      "sourceEnd": 49.16,
+      "start": 45.5913125,
+      "end": 45.7113125,
+      "probability": 0.9963860511779785
+    },
+    {
+      "word": "jabón,",
+      "sourceStart": 49.16,
+      "sourceEnd": 49.52,
+      "start": 45.7113125,
+      "end": 46.0713125,
+      "probability": 0.9905833005905151
+    },
+    {
+      "word": "sin",
+      "sourceStart": 49.68,
+      "sourceEnd": 49.96,
+      "start": 46.2313125,
+      "end": 46.5113125,
+      "probability": 0.9905185103416443
+    },
+    {
+      "word": "tallarte",
+      "sourceStart": 49.96,
+      "sourceEnd": 50.36,
+      "start": 46.5113125,
+      "end": 46.9113125,
+      "probability": 0.9862932562828064
+    },
+    {
+      "word": "agresivamente.",
+      "sourceStart": 50.36,
+      "sourceEnd": 50.98,
+      "start": 46.9113125,
+      "end": 47.5313125,
+      "probability": 0.9941217104593912
+    },
+    {
+      "word": "Usa",
+      "sourceStart": 51.68,
+      "sourceEnd": 51.96,
+      "start": 47.9310625,
+      "end": 48.2110625,
+      "probability": 0.7993828654289246
+    },
+    {
+      "word": "agua",
+      "sourceStart": 51.96,
+      "sourceEnd": 52.18,
+      "start": 48.2110625,
+      "end": 48.4310625,
+      "probability": 0.9992994070053101
+    },
+    {
+      "word": "embotellada",
+      "sourceStart": 52.18,
+      "sourceEnd": 52.8,
+      "start": 48.4310625,
+      "end": 49.0510625,
+      "probability": 0.9769132137298584
+    },
+    {
+      "word": "y",
+      "sourceStart": 52.8,
+      "sourceEnd": 52.98,
+      "start": 49.0510625,
+      "end": 49.2310625,
+      "probability": 0.9916707277297974
+    },
+    {
+      "word": "alimentos",
+      "sourceStart": 52.98,
+      "sourceEnd": 53.32,
+      "start": 49.2310625,
+      "end": 49.5710625,
+      "probability": 0.9725351929664612
+    },
+    {
+      "word": "sellados",
+      "sourceStart": 53.32,
+      "sourceEnd": 53.9,
+      "start": 49.5710625,
+      "end": 50.1510625,
+      "probability": 0.9925259947776794
+    },
+    {
+      "word": "cuando",
+      "sourceStart": 53.9,
+      "sourceEnd": 54.14,
+      "start": 50.1510625,
+      "end": 50.3910625,
+      "probability": 0.9847893714904785
+    },
+    {
+      "word": "estén",
+      "sourceStart": 54.14,
+      "sourceEnd": 54.52,
+      "start": 50.3910625,
+      "end": 50.7710625,
+      "probability": 0.9977835416793823
+    },
+    {
+      "word": "disponibles.",
+      "sourceStart": 54.52,
+      "sourceEnd": 55.1,
+      "start": 50.7710625,
+      "end": 51.3510625,
+      "probability": 0.998870849609375
+    },
+    {
+      "word": "Permanece",
+      "sourceStart": 55.681905,
+      "sourceEnd": 56.16,
+      "start": 51.69135416666666,
+      "end": 52.16945833333333,
+      "probability": 0.7563749551773071
+    },
+    {
+      "word": "dentro",
+      "sourceStart": 56.16,
+      "sourceEnd": 56.4,
+      "start": 52.16945833333333,
+      "end": 52.40945833333333,
+      "probability": 0.982459545135498
+    },
+    {
+      "word": "al",
+      "sourceStart": 56.4,
+      "sourceEnd": 56.7,
+      "start": 52.40945833333333,
+      "end": 52.70945833333333,
+      "probability": 0.984367311000824
+    },
+    {
+      "word": "menos",
+      "sourceStart": 56.7,
+      "sourceEnd": 56.96,
+      "start": 52.70945833333333,
+      "end": 52.969458333333336,
+      "probability": 0.9915040135383606
+    },
+    {
+      "word": "veinticuatro",
+      "sourceStart": 56.96,
+      "sourceEnd": 57.48,
+      "start": 52.969458333333336,
+      "end": 53.48945833333333,
+      "probability": 0.938805341720581
+    },
+    {
+      "word": "horas,",
+      "sourceStart": 57.48,
+      "sourceEnd": 58.06,
+      "start": 53.48945833333333,
+      "end": 54.06945833333333,
+      "probability": 0.9929823875427246
+    },
+    {
+      "word": "salvo",
+      "sourceStart": 58.46,
+      "sourceEnd": 58.76,
+      "start": 54.455708333333334,
+      "end": 54.75570833333333,
+      "probability": 0.9949193000793457
+    },
+    {
+      "word": "que",
+      "sourceStart": 58.76,
+      "sourceEnd": 58.88,
+      "start": 54.75570833333333,
+      "end": 54.875708333333336,
+      "probability": 0.9962789416313171
+    },
+    {
+      "word": "exista",
+      "sourceStart": 58.88,
+      "sourceEnd": 59.3,
+      "start": 54.875708333333336,
+      "end": 55.29570833333333,
+      "probability": 0.9753962457180023
+    },
+    {
+      "word": "un",
+      "sourceStart": 59.3,
+      "sourceEnd": 59.42,
+      "start": 55.29570833333333,
+      "end": 55.415708333333335,
+      "probability": 0.9949780106544495
+    },
+    {
+      "word": "peligro",
+      "sourceStart": 59.42,
+      "sourceEnd": 59.8,
+      "start": 55.415708333333335,
+      "end": 55.79570833333333,
+      "probability": 0.9970896244049072
+    },
+    {
+      "word": "inmediato",
+      "sourceStart": 59.8,
+      "sourceEnd": 60.38,
+      "start": 55.79570833333333,
+      "end": 56.375708333333336,
+      "probability": 0.9987924695014954
+    },
+    {
+      "word": "o",
+      "sourceStart": 60.38,
+      "sourceEnd": 60.66,
+      "start": 56.375708333333336,
+      "end": 56.65570833333334,
+      "probability": 0.8315457701683044
+    },
+    {
+      "word": "las",
+      "sourceStart": 60.66,
+      "sourceEnd": 60.8,
+      "start": 56.65570833333334,
+      "end": 56.79570833333333,
+      "probability": 0.9971917271614075
+    },
+    {
+      "word": "autoridades",
+      "sourceStart": 60.8,
+      "sourceEnd": 61.36,
+      "start": 56.79570833333333,
+      "end": 57.35570833333333,
+      "probability": 0.9984116554260254
+    },
+    {
+      "word": "indiquen",
+      "sourceStart": 61.36,
+      "sourceEnd": 61.9,
+      "start": 57.35570833333333,
+      "end": 57.89570833333333,
+      "probability": 0.9763796925544739
+    },
+    {
+      "word": "otra",
+      "sourceStart": 61.9,
+      "sourceEnd": 62.04,
+      "start": 57.89570833333333,
+      "end": 58.03570833333333,
+      "probability": 0.9934715032577515
+    },
+    {
+      "word": "cosa.",
+      "sourceStart": 62.04,
+      "sourceEnd": 62.36,
+      "start": 58.03570833333333,
+      "end": 58.35570833333333,
+      "probability": 0.9988508224487305
+    },
+    {
+      "word": "Mantente",
+      "sourceStart": 62.92,
+      "sourceEnd": 63.34,
+      "start": 58.7090625,
+      "end": 59.1290625,
+      "probability": 0.9810605943202972
+    },
+    {
+      "word": "atento",
+      "sourceStart": 63.34,
+      "sourceEnd": 63.78,
+      "start": 59.1290625,
+      "end": 59.5690625,
+      "probability": 0.9957574903964996
+    },
+    {
+      "word": "a",
+      "sourceStart": 63.78,
+      "sourceEnd": 63.88,
+      "start": 59.5690625,
+      "end": 59.6690625,
+      "probability": 0.9952538013458252
+    },
+    {
+      "word": "la",
+      "sourceStart": 63.88,
+      "sourceEnd": 63.94,
+      "start": 59.6690625,
+      "end": 59.7290625,
+      "probability": 0.9979948997497559
+    },
+    {
+      "word": "información",
+      "sourceStart": 63.94,
+      "sourceEnd": 64.4,
+      "start": 59.7290625,
+      "end": 60.1890625,
+      "probability": 0.9937080144882202
+    },
+    {
+      "word": "oficial.",
+      "sourceStart": 64.4,
+      "sourceEnd": 64.88,
+      "start": 60.1890625,
+      "end": 60.6690625,
+      "probability": 0.9980016350746155
+    },
+    {
+      "word": "Recuerda",
+      "sourceStart": 65.5,
+      "sourceEnd": 65.96,
+      "start": 61.023208333333336,
+      "end": 61.48320833333333,
+      "probability": 0.9903612732887268
+    },
+    {
+      "word": "estas",
+      "sourceStart": 65.96,
+      "sourceEnd": 66.2,
+      "start": 61.48320833333333,
+      "end": 61.72320833333333,
+      "probability": 0.9768223166465759
+    },
+    {
+      "word": "tres",
+      "sourceStart": 66.2,
+      "sourceEnd": 66.56,
+      "start": 61.72320833333333,
+      "end": 62.08320833333333,
+      "probability": 0.8404628038406372
+    },
+    {
+      "word": "palabras:",
+      "sourceStart": 66.56,
+      "sourceEnd": 66.94,
+      "start": 62.08320833333333,
+      "end": 62.463208333333334,
+      "probability": 0.9989664554595947
+    },
+    {
+      "word": "entra,",
+      "sourceStart": 67.66,
+      "sourceEnd": 68.06,
+      "start": 62.959916666666665,
+      "end": 63.35991666666666,
+      "probability": 0.7538335621356964
+    },
+    {
+      "word": "permanece",
+      "sourceStart": 68.42,
+      "sourceEnd": 69.0,
+      "start": 63.59260416666667,
+      "end": 64.17260416666667,
+      "probability": 0.9973841110865275
+    },
+    {
+      "word": "y",
+      "sourceStart": 69.0,
+      "sourceEnd": 69.42,
+      "start": 64.17260416666667,
+      "end": 64.52522916666666,
+      "probability": 0.9184029698371887
+    },
+    {
+      "word": "mantente",
+      "sourceStart": 69.42,
+      "sourceEnd": 69.9,
+      "start": 64.52522916666666,
+      "end": 65.00522916666667,
+      "probability": 0.9975172579288483
+    },
+    {
+      "word": "informado.",
+      "sourceStart": 69.9,
+      "sourceEnd": 70.54,
+      "start": 65.00522916666667,
+      "end": 65.64522916666667,
+      "probability": 0.9902932047843933
+    },
+    {
+      "word": "En",
+      "sourceStart": 71.08,
+      "sourceEnd": 71.16,
+      "start": 65.87314583333334,
+      "end": 65.95314583333334,
+      "probability": 0.9872860312461853
+    },
+    {
+      "word": "una",
+      "sourceStart": 71.16,
+      "sourceEnd": 71.32,
+      "start": 65.95314583333334,
+      "end": 66.11314583333333,
+      "probability": 0.9988228678703308
+    },
+    {
+      "word": "emergencia",
+      "sourceStart": 71.32,
+      "sourceEnd": 71.88,
+      "start": 66.11314583333333,
+      "end": 66.67314583333334,
+      "probability": 0.9976348280906677
+    },
+    {
+      "word": "nuclear,",
+      "sourceStart": 71.88,
+      "sourceEnd": 72.26,
+      "start": 66.67314583333334,
+      "end": 67.05314583333333,
+      "probability": 0.9807387590408325
+    },
+    {
+      "word": "saber",
+      "sourceStart": 72.74,
+      "sourceEnd": 72.92,
+      "start": 67.51770833333333,
+      "end": 67.69770833333334,
+      "probability": 0.9921972155570984
+    },
+    {
+      "word": "qué",
+      "sourceStart": 72.92,
+      "sourceEnd": 73.22,
+      "start": 67.69770833333334,
+      "end": 67.99770833333334,
+      "probability": 0.9198768138885498
+    },
+    {
+      "word": "hacer",
+      "sourceStart": 73.22,
+      "sourceEnd": 73.58,
+      "start": 67.99770833333334,
+      "end": 68.35770833333333,
+      "probability": 0.9963142275810242
+    },
+    {
+      "word": "puede",
+      "sourceStart": 73.58,
+      "sourceEnd": 73.94,
+      "start": 68.35770833333333,
+      "end": 68.71770833333333,
+      "probability": 0.9609431624412537
+    },
+    {
+      "word": "salvarte",
+      "sourceStart": 73.94,
+      "sourceEnd": 74.56,
+      "start": 68.71770833333333,
+      "end": 69.33770833333334,
+      "probability": 0.9880806505680084
+    },
+    {
+      "word": "la",
+      "sourceStart": 74.56,
+      "sourceEnd": 74.68,
+      "start": 69.33770833333334,
+      "end": 69.45770833333333,
+      "probability": 0.9966176152229309
+    },
+    {
+      "word": "vida.",
+      "sourceStart": 74.68,
+      "sourceEnd": 74.88,
+      "start": 69.45770833333333,
+      "end": 69.65770833333333,
+      "probability": 0.9993784427642822
+    }
+  ]
+}

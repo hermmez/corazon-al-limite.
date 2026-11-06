@@ -1,4 +1,5 @@
 import { Episodio02Tiempo } from "./episodios/episodio-02-tiempo";
+import { Episodio05EmergenciaNuclear } from "./episodios/episodio-05-emergencia-nuclear";
 import { Episodio04SinDormir, BedroomScene, AttentionScene, MicrosleepScene, RoadScene, FunctionsScene, CoffeeScene, PerceptionScene, ClosingScene } from "./episodios/episodio-04-sin-dormir";
 import React from "react";
 import { Episodio01Cerebro as Episodio01CerebroAprobado } from "./episodios/episodio-01-cerebro";
@@ -20,6 +21,7 @@ export const RemotionRoot: React.FC = () => {
   return (
     <>
       <Composition id="Episodio02Tiempo" component={Episodio02Tiempo} durationInFrames={2100} fps={30} width={1080} height={1920} />
+      <Composition id="Episodio05EmergenciaNuclear" component={Episodio05EmergenciaNuclear} durationInFrames={2100} fps={30} width={1080} height={1920} />
       <Composition id="Episodio04SinDormir" component={Episodio04SinDormir} durationInFrames={2100} fps={30} width={1080} height={1920} />
       <Folder name="Episodio04-Escenas">
         <Composition id="Ep04Noche" component={BedroomScene} durationInFrames={240} fps={30} width={1080} height={1920} />
