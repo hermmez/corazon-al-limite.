@@ -1,0 +1,62 @@
+{
+  "title": "¿Cómo un pequeño fusible puede evitar un incendio?",
+  "fps": 30,
+  "duration": 70,
+  "scenes": [
+    {
+      "number": 1,
+      "start": 0,
+      "end": 8,
+      "text": "¿Sabías que esta pequeña pieza puede evitar que una falla eléctrica provoque un incendio en tu casa? Se llama fusible, y su funcionamiento es sorprendente."
+    },
+    {
+      "number": 2,
+      "start": 8,
+      "end": 17,
+      "text": "Dentro tiene un elemento metálico diseñado para calentarse cuando pasa demasiada corriente eléctrica. Pero ¿por qué querríamos que algo se derritiera?"
+    },
+    {
+      "number": 3,
+      "start": 17,
+      "end": 26,
+      "text": "Porque cuando ocurre una sobrecarga o un cortocircuito, la corriente puede aumentar peligrosamente y calentar los cables de tu instalación."
+    },
+    {
+      "number": 4,
+      "start": 26,
+      "end": 35,
+      "text": "Entonces entra en acción el fusible. Si la corriente supera sus límites durante el tiempo suficiente, su elemento interno se funde y abre el circuito."
+    },
+    {
+      "number": 5,
+      "start": 35,
+      "end": 44,
+      "text": "Al interrumpir la corriente, ayuda a proteger los cables y equipos contra daños por sobrecorriente, reduciendo el riesgo de incendio."
+    },
+    {
+      "number": 6,
+      "start": 44,
+      "end": 53,
+      "text": "Pero aquí viene algo importante: un fusible no es lo mismo que una pastilla termomagnética. El fusible se reemplaza después de operar; la pastilla puede rearmarse tras corregir la falla."
+    },
+    {
+      "number": 7,
+      "start": 53,
+      "end": 62,
+      "text": "Y jamás debes sustituir un fusible con alambre o colocar uno de mayor capacidad sin verificar el circuito. Podrías eliminar su protección y provocar un incendio."
+    },
+    {
+      "number": 8,
+      "start": 62,
+      "end": 70,
+      "text": "Así que ese pequeño fusible no está ahí por casualidad: está diseñado para sacrificarse y proteger tu instalación. ¿Sabías que funcionaba así?"
+    }
+  ],
+  "higgsfield": {
+    "model": "elevenlabs_v4",
+    "voice_type": "preset",
+    "voice_id": "e2a2d2e6-9ed2-59cd-82af-feaa27f8a678",
+    "credits": 5.75,
+    "authorized": false
+  }
+}
