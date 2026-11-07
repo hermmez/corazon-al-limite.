@@ -1,0 +1,196 @@
+{
+  "newFiles": 15,
+  "files": [
+    {
+      "path": "public/episodio-09/alambre-advertencia.svg",
+      "format": "svg",
+      "sha256": "ca86a4f07ca86700c483988478fea5820b7fa3b39ecacff36008ea6b2968c779",
+      "bytes": 2327
+    },
+    {
+      "path": "public/episodio-09/conductor-corte.svg",
+      "format": "svg",
+      "sha256": "0de0e1b94c728d36a13e83b3a3c65292f096dc7411b48e58b61ba71da783cab2",
+      "bytes": 3780
+    },
+    {
+      "path": "public/episodio-09/electricista.png",
+      "format": "png",
+      "sha256": "f21f12b65f645c4fe37183492d64c2fcdf03b7aa85d1894013ec01bada96d51d",
+      "bytes": 1689746
+    },
+    {
+      "path": "public/episodio-09/elemento-fundido.svg",
+      "format": "svg",
+      "sha256": "b7c8ebe385f026ec74140f37a79116134c947f5a3b0928cf50759009a378688e",
+      "bytes": 2158
+    },
+    {
+      "path": "public/episodio-09/elemento-metalico.svg",
+      "format": "svg",
+      "sha256": "e592e71af6cfdf2872eb04f85fd6b6216fc6652dd4e4b9d8ca74e9a658ff0c7f",
+      "bytes": 2214
+    },
+    {
+      "path": "public/episodio-09/fusible-carcasa.svg",
+      "format": "svg",
+      "sha256": "c269460bc0da911a14ee69780afc8b6e1324c6603b95928ecf00397f21f68188",
+      "bytes": 2617
+    },
+    {
+      "path": "public/episodio-09/fusible-corte.svg",
+      "format": "svg",
+      "sha256": "470a465c9d76fb0c0481904302214d750d047698fe9ced7b4413a02338968694",
+      "bytes": 4078
+    },
+    {
+      "path": "public/episodio-09/fusible-exterior.svg",
+      "format": "svg",
+      "sha256": "4526aa5e7027e1930efa02cffd7ceb4712ef345f92ebe94e3d624aa114807b31",
+      "bytes": 3724
+    },
+    {
+      "path": "public/episodio-09/fusible-terminales.svg",
+      "format": "svg",
+      "sha256": "61abaaad348afbfebdba12b4c46aef6e5dd036ee82101e1f5930c40d7f8e73cc",
+      "bytes": 3063
+    },
+    {
+      "path": "public/episodio-09/gabinete-cerrado.svg",
+      "format": "svg",
+      "sha256": "d10d9af110f4582a2b38b00097b3d8012f2e7ac5489164280048c52009b3c16e",
+      "bytes": 3201
+    },
+    {
+      "path": "public/episodio-09/interruptor-cuchillas.svg",
+      "format": "svg",
+      "sha256": "12800f0c9efba4b86e9a4e4ba6741a653adea2e876566d9660dbcb3472ac6063",
+      "bytes": 7721
+    },
+    {
+      "path": "public/episodio-09/lampara.svg",
+      "format": "svg",
+      "sha256": "32ef68da26c1fbfface374c4748a7215de1a876de943a8ee2143044ddaf4b90b",
+      "bytes": 2475
+    },
+    {
+      "path": "public/episodio-09/termomagnetico-cuerpo.svg",
+      "format": "svg",
+      "sha256": "1e4134c90dcd7bccfed2fff0b6cb289e564ad760c58c19f9fdedcdfd5e150593",
+      "bytes": 4022
+    },
+    {
+      "path": "public/episodio-09/termomagnetico-palanca.svg",
+      "format": "svg",
+      "sha256": "b644618b4f2df3f3c1b72a18023e065258949b985ac82d8bba9409c024f19adf",
+      "bytes": 2199
+    },
+    {
+      "path": "public/episodio-09/vivienda-mexicana.png",
+      "format": "png",
+      "sha256": "9fd4722e61acf025d1a76678181858d943ce20f6cfff9f89da2f01fc341b1794",
+      "bytes": 2735435
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Vivienda mexicana",
+      "implementation": "vivienda-mexicana.png",
+      "scenes": "Scene01, Scene05, Scene08"
+    },
+    {
+      "name": "Instalación doméstica",
+      "implementation": "interruptor-cuchillas.svg + Circuit",
+      "scenes": "Scene01, Scene03"
+    },
+    {
+      "name": "Interruptor de cuchillas con cartuchos",
+      "implementation": "interruptor-cuchillas.svg",
+      "scenes": "Scene01"
+    },
+    {
+      "name": "Fusible exterior",
+      "implementation": "fusible-exterior.svg / Fuse",
+      "scenes": "Scene01, Scene08"
+    },
+    {
+      "name": "Fusible en corte",
+      "implementation": "fusible-corte.svg",
+      "scenes": "Scene02, Scene04"
+    },
+    {
+      "name": "Elemento interno",
+      "implementation": "elemento-metalico.svg / Fuse",
+      "scenes": "Scene02"
+    },
+    {
+      "name": "Conductores con aislamiento",
+      "implementation": "conductor-corte.svg / Cable",
+      "scenes": "Scene03, Scene05"
+    },
+    {
+      "name": "Circuito doméstico",
+      "implementation": "Circuit en Art.tsx",
+      "scenes": "Scene03, Scene04, Scene05"
+    },
+    {
+      "name": "Flujo educativo de corriente",
+      "implementation": "Fuse y Circuit en Art.tsx",
+      "scenes": "Scene02, Scene03"
+    },
+    {
+      "name": "Cortocircuito conceptual",
+      "implementation": "Circuit(short) en Art.tsx",
+      "scenes": "Scene03"
+    },
+    {
+      "name": "Cable sobrecalentado",
+      "implementation": "Cable(heat) en Art.tsx",
+      "scenes": "Scene03, Scene07"
+    },
+    {
+      "name": "Elemento calentándose",
+      "implementation": "Fuse(heat) en Art.tsx",
+      "scenes": "Scene02, Scene04"
+    },
+    {
+      "name": "Elemento fundido",
+      "implementation": "elemento-fundido.svg / Fuse(broken)",
+      "scenes": "Scene04, Scene06"
+    },
+    {
+      "name": "Circuito abierto",
+      "implementation": "Circuit(open) en Art.tsx",
+      "scenes": "Scene04, Scene05"
+    },
+    {
+      "name": "Termomagnético",
+      "implementation": "termomagnetico-cuerpo.svg + termomagnetico-palanca.svg",
+      "scenes": "Scene06"
+    },
+    {
+      "name": "Comparación",
+      "implementation": "Scene06.tsx con dos ilustraciones independientes",
+      "scenes": "Scene06"
+    },
+    {
+      "name": "Sustitución incorrecta conceptual",
+      "implementation": "alambre-advertencia.svg + cruz + Warning",
+      "scenes": "Scene07"
+    },
+    {
+      "name": "Presentador aprobado",
+      "implementation": "public/imagenes/personajes/*.png, referenciados sin modificación",
+      "scenes": "Scene02, Scene05, Scene08"
+    }
+  ],
+  "reused": [
+    "public/imagenes/personajes/02_explicando.png",
+    "public/imagenes/personajes/03_senalando_derecha.png",
+    "public/imagenes/personajes/04_pensando.png",
+    "public/imagenes/personajes/16_aprobando.png",
+    "public/imagenes/escenarios/03_sala.png"
+  ],
+  "imageGeneration": "Herramienta integrada; sin cargos externos de Higgsfield",
+  "vectorSource": "scripts/episodio-09/crear-recursos.mjs"
+}
