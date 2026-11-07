@@ -1,6 +1,6 @@
 // Importación local: no llama ElevenLabs ni consume créditos.
 // Uso: node scripts/episodio-09/integrar-audio.mjs VOZ.wav CAPTIONS.json --revisado
-import {readFileSync,writeFileSync,copyFileSync,mkdirSync} from 'node:fs';
+import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
 import {execFileSync} from 'node:child_process';
 const [audioPath,captionsPath]=process.argv.slice(2);
 if(!audioPath||!captionsPath||!process.argv.includes('--revisado'))throw new Error('Se requiere voz Grady de Higgsfield, Caption[] alineado al audio REAL y revisión auditiva (--revisado).');
@@ -22,7 +22,7 @@ if(clean(captions.map(c=>c.text).join(' '))!==clean(script.scenes.map(s=>s.text)
 mkdirSync('public/episodio-09/audio',{recursive:true});
 // Normaliza el contenedor sin cambiar la velocidad. El original se conserva fuera del repositorio.
 execFileSync('ffmpeg',['-hide_banner','-loglevel','error','-y','-i',audioPath,'-ar','48000','-c:a','pcm_s16le','public/episodio-09/audio/grady-master.wav']);
-copyFileSync(captionsPath,'src/episodio09/captions.json');
+writeFileSync('src/episodio09/captions.json',JSON.stringify(captions,null,2)+'\n');
 const mpath='src/episodio09/audio-manifest.json';const manifest=JSON.parse(readFileSync(mpath,'utf8'));
 manifest.status='ready';manifest.captionStatus='aligned-reviewed';manifest.durationSeconds=duration;
 writeFileSync(mpath,JSON.stringify(manifest,null,2)+'\n');

@@ -12,6 +12,7 @@ Se muestra el disparo del mecanismo termomagnético y su posterior rearme, condi
 
 - [Eaton — Fuse technology: terminology, specifications and device selection](https://www.eaton.com/gb/en-gb/products/electronic-components/topics/fuse-technology.html): apartados de tiempo-corriente, fusión, arco y capacidad de interrupción; fundamento para la representación del fusible.
 - [Littelfuse — Fuseology Selection Guide](https://www.littelfuse.com/assetdocs/fuseology-selection-guide?assetguid=d812dff2-1c47-4dc3-bce7-07a4001ddc32): selección y límites de operación.
+- [Eaton Bussmann — Fuseology Handbook](https://www.eaton.com/content/dam/eaton/support/austria/downloads/Handbuch_Fuseology_Overcurrent_protection.pdf): revisión de la causa de falla por personal calificado antes del rearme o reemplazo; el diseño interno mostrado no pretende copiar un modelo específico del catálogo.
 - [Schneider Electric México — Seguridad eléctrica en el hogar](https://blogespanol.se.com/gestion-de-la-energia/seguridad-electrica/2024/05/08/descarga-electrica-en-tu-hogar-asegura-tu-instalacion/): distinción entre protección de sobrecorriente y falla a tierra, riesgos y revisión profesional.
 
 No se utiliza el documento como certificación normativa de una instalación. Ningún dibujo indica calibre, capacidad nominal de reemplazo ni instrucciones de cableado.

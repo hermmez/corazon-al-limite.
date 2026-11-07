@@ -7,7 +7,7 @@ Composición `Episodio09`: 1080 × 1920, 30 fps, 2100 fotogramas, 70 s exactos. 
 ## Estado de entrega
 
 - Ocho escenas, ilustraciones eléctricas por capas, calentamiento, fusión, circuito abierto, comparación y advertencia implementados.
-- MP4 de revisión: `out/episodio-09/episodio-09-BORRADOR-sin-voz.mp4`. H.264, yuv420p, pista AAC **silenciosa**. No es el máster final narrado.
+- MP4 de revisión: `out/episodio-09/episodio-09-BORRADOR-sin-voz.mp4`. H.264, muestreo 4:2:0, pista AAC **silenciosa**. No es el máster final narrado.
 - Voz pendiente de autorización. La consulta de costo a Higgsfield devolvió **5.75 créditos** para el guion íntegro, `elevenlabs_v4`, Grady, preset `e2a2d2e6-9ed2-59cd-82af-feaa27f8a678`. No se envió ninguna generación de audio ni se consumieron créditos externos.
 - Los 25 subtítulos actuales reproducen íntegramente el guion, con máximo dos líneas. Sus tiempos son **provisionales**, distribuidos por escena; no están alineados a una grabación real.
 - El guion tiene 189 palabras. La escena 06 exige aproximadamente 200 palabras/minuto en su ventana de 9 s: hay que comprobar la dicción real antes de aprobar el máster. No se ha acelerado ni sustituido la voz oficial.
