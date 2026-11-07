@@ -1,0 +1,202 @@
+[
+  {
+    "text": "¿Sabías que esta pequeña pieza\npuede evitar que una falla",
+    "startMs": 100,
+    "endMs": 3013,
+    "timestampMs": null,
+    "confidence": null,
+    "scene": 1
+  },
+  {
+    "text": "eléctrica provoque un incendio\nen tu casa? Se llama fusible,",
+    "startMs": 3013,
+    "endMs": 6080,
+    "timestampMs": null,
+    "confidence": null,
+    "scene": 1
+  },
+  {
+    "text": "y su funcionamiento\nes sorprendente.",
+    "startMs": 6080,
+    "endMs": 7920,
+    "timestampMs": null,
+    "confidence": null,
+    "scene": 1
+  },
+  {
+    "text": "Dentro tiene un elemento\nmetálico diseñado para calentarse",
+    "startMs": 8100,
+    "endMs": 11556,
+    "timestampMs": null,
+    "confidence": null,
+    "scene": 2
+  },
+  {
+    "text": "cuando pasa demasiada corriente\neléctrica. Pero ¿por qué",
+    "startMs": 11556,
+    "endMs": 14894,
+    "timestampMs": null,
+    "confidence": null,
+    "scene": 2
+  },
+  {
+    "text": "querríamos que\nalgo se derritiera?",
+    "startMs": 14894,
+    "endMs": 16920,
+    "timestampMs": null,
+    "confidence": null,
+    "scene": 2
+  },
+  {
+    "text": "Porque cuando ocurre una\nsobrecarga o un cortocircuito, la",
+    "startMs": 17100,
+    "endMs": 20834,
+    "timestampMs": null,
+    "confidence": null,
+    "scene": 3
+  },
+  {
+    "text": "corriente puede aumentar\npeligrosamente y calentar los cables de",
+    "startMs": 20834,
+    "endMs": 24954,
+    "timestampMs": null,
+    "confidence": null,
+    "scene": 3
+  },
+  {
+    "text": "tu instalación.",
+    "startMs": 24954,
+    "endMs": 25920,
+    "timestampMs": null,
+    "confidence": null,
+    "scene": 3
+  },
+  {
+    "text": "Entonces entra en acción el\nfusible. Si la corriente supera",
+    "startMs": 26100,
+    "endMs": 29616,
+    "timestampMs": null,
+    "confidence": null,
+    "scene": 4
+  },
+  {
+    "text": "sus límites durante el tiempo\nsuficiente, su elemento interno se",
+    "startMs": 29616,
+    "endMs": 33430,
+    "timestampMs": null,
+    "confidence": null,
+    "scene": 4
+  },
+  {
+    "text": "funde y abre el circuito.",
+    "startMs": 33430,
+    "endMs": 34920,
+    "timestampMs": null,
+    "confidence": null,
+    "scene": 4
+  },
+  {
+    "text": "Al interrumpir la corriente,\nayuda a proteger los cables y",
+    "startMs": 35100,
+    "endMs": 39005,
+    "timestampMs": null,
+    "confidence": null,
+    "scene": 5
+  },
+  {
+    "text": "equipos contra daños por\nsobrecorriente, reduciendo el riesgo de",
+    "startMs": 39005,
+    "endMs": 43314,
+    "timestampMs": null,
+    "confidence": null,
+    "scene": 5
+  },
+  {
+    "text": "incendio.",
+    "startMs": 43314,
+    "endMs": 43920,
+    "timestampMs": null,
+    "confidence": null,
+    "scene": 5
+  },
+  {
+    "text": "Pero aquí viene algo\nimportante: un fusible no es lo",
+    "startMs": 44100,
+    "endMs": 46606,
+    "timestampMs": null,
+    "confidence": null,
+    "scene": 6
+  },
+  {
+    "text": "mismo que una pastilla termomagnética.\nEl fusible se reemplaza",
+    "startMs": 46606,
+    "endMs": 49594,
+    "timestampMs": null,
+    "confidence": null,
+    "scene": 6
+  },
+  {
+    "text": "después de operar; la pastilla\npuede rearmarse tras corregir la",
+    "startMs": 49594,
+    "endMs": 52631,
+    "timestampMs": null,
+    "confidence": null,
+    "scene": 6
+  },
+  {
+    "text": "falla.",
+    "startMs": 52631,
+    "endMs": 52920,
+    "timestampMs": null,
+    "confidence": null,
+    "scene": 6
+  },
+  {
+    "text": "Y jamás debes sustituir un\nfusible con alambre o colocar",
+    "startMs": 53100,
+    "endMs": 56206,
+    "timestampMs": null,
+    "confidence": null,
+    "scene": 7
+  },
+  {
+    "text": "uno de mayor capacidad sin\nverificar el circuito. Podrías",
+    "startMs": 56206,
+    "endMs": 59368,
+    "timestampMs": null,
+    "confidence": null,
+    "scene": 7
+  },
+  {
+    "text": "eliminar su protección\ny provocar un incendio.",
+    "startMs": 59368,
+    "endMs": 61920,
+    "timestampMs": null,
+    "confidence": null,
+    "scene": 7
+  },
+  {
+    "text": "Así que ese pequeño fusible\nno está ahí por casualidad:",
+    "startMs": 62100,
+    "endMs": 65172,
+    "timestampMs": null,
+    "confidence": null,
+    "scene": 8
+  },
+  {
+    "text": "está diseñado para sacrificarse\ny proteger tu instalación.",
+    "startMs": 65172,
+    "endMs": 68412,
+    "timestampMs": null,
+    "confidence": null,
+    "scene": 8
+  },
+  {
+    "text": "¿Sabías que funcionaba así?",
+    "startMs": 68412,
+    "endMs": 69920,
+    "timestampMs": null,
+    "confidence": null,
+    "scene": 8
+  }
+]

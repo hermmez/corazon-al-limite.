@@ -5,13 +5,20 @@
   "scripts": {
     "dev": "remotion studio src/index.ts",
     "build": "remotion compositions src/index.ts",
-    "render": "remotion render src/index.ts CorazonAlLimite out/corazon-al-limite.mp4"
+    "render": "remotion render src/index.ts CorazonAlLimite out/corazon-al-limite.mp4",
+    "dev:ep09": "remotion studio src/index.ts --no-open",
+    "check:ep09": "tsc --noEmit && node scripts/episodio-09/validar.mjs",
+    "preview:ep09": "node scripts/episodio-09/revisar-fotogramas.cjs",
+    "render:ep09:draft": "node scripts/episodio-09/exportar.cjs --borrador",
+    "render:ep09": "node scripts/episodio-09/exportar.cjs"
   },
   "dependencies": {
+    "@remotion/captions": "4.0.541",
     "@remotion/cli": "^4.0.0",
-    "remotion": "^4.0.0",
+    "@remotion/media": "4.0.541",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "remotion": "^4.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.0",

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360"><defs>
+<linearGradient id="ceramic" x2="0" y2="1"><stop stop-color="#5a4935"/><stop offset=".18" stop-color="#f9df9a"/><stop offset=".36" stop-color="#fff1c6"/><stop offset=".61" stop-color="#c9a46d"/><stop offset=".9" stop-color="#73533d"/><stop offset="1" stop-color="#30262c"/></linearGradient>
+<linearGradient id="brass" x2="0" y2="1"><stop stop-color="#3e3337"/><stop offset=".1" stop-color="#997345"/><stop offset=".23" stop-color="#fff4c6"/><stop offset=".34" stop-color="#d7b77c"/><stop offset=".57" stop-color="#ac7a41"/><stop offset=".73" stop-color="#edce90"/><stop offset="1" stop-color="#433336"/></linearGradient>
+<linearGradient id="steel" x2="1" y2="1"><stop stop-color="#a9c6c7"/><stop offset=".22" stop-color="#f0f1df"/><stop offset=".4" stop-color="#647c8b"/><stop offset=".75" stop-color="#354d60"/><stop offset="1" stop-color="#142d42"/></linearGradient>
+<linearGradient id="ivory" x2="1" y2="1"><stop stop-color="#fff4d0"/><stop offset=".5" stop-color="#d2c1a3"/><stop offset="1" stop-color="#7e8281"/></linearGradient>
+<linearGradient id="plastic" x2="1" y2="1"><stop stop-color="#4c6571"/><stop offset=".5" stop-color="#182c3b"/><stop offset="1" stop-color="#07151f"/></linearGradient>
+<linearGradient id="copper" x2="0" y2="1"><stop stop-color="#fff2c9"/><stop offset=".3" stop-color="#eeb177"/><stop offset=".6" stop-color="#9f492b"/><stop offset="1" stop-color="#582b26"/></linearGradient>
+<filter id="shadow" x="-.3" y="-.3" width="1.6" height="1.6"><feDropShadow dx="6" dy="12" stdDeviation="8" flood-color="#010f1b" flood-opacity=".65"/></filter>
+<pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0 12L12 0" stroke="#fff" opacity=".07"/></pattern>
+<pattern id="grain" width="37" height="29" patternUnits="userSpaceOnUse"><path d="M4 9h3m14 12h2m8-16h2m-18 2h1" stroke="#ffe4a3" stroke-width="2" opacity=".2"/></pattern>
+</defs><g filter="url(#shadow)"><path d="M100 263C90 135 256 72 336 126S344 284 475 97" fill="none" stroke="#243a46" stroke-width="29"/><path d="M100 263C90 135 256 72 336 126S344 284 475 97" fill="none" stroke="url(#copper)" stroke-width="18"/><path d="M99 258C97 139 252 80 333 130S344 280 475 99" fill="none" stroke="#ffdc9c" stroke-width="3"/></g></svg>

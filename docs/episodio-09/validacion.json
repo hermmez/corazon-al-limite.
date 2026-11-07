@@ -1,0 +1,26 @@
+{
+  "originalCommit": "dfd156762fae47a61374c4c6b138f85bdd2ef542",
+  "originalFilesPreserved": 97,
+  "previousCompositionUnchanged": true,
+  "sceneCount": 8,
+  "frames": 2100,
+  "fps": 30,
+  "durationSeconds": 70,
+  "captionCount": 25,
+  "captionTextMatchesOfficialScript": true,
+  "captionLinesMaximum": 2,
+  "newAssetsVerified": 15,
+  "audio": {
+    "status": "pending-authorization",
+    "src": "episodio-09/audio/grady-master.wav",
+    "captionStatus": "provisional",
+    "platform": "Higgsfield",
+    "model": "elevenlabs_v4",
+    "voice": "Grady",
+    "voiceId": "e2a2d2e6-9ed2-59cd-82af-feaa27f8a678",
+    "voiceType": "preset",
+    "quotedCredits": 5.75,
+    "quoteDate": "2026-11-07",
+    "durationSeconds": null
+  }
+}
