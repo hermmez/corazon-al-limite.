@@ -1,0 +1,1306 @@
+[
+  {
+    "text": "Este",
+    "startMs": 130,
+    "endMs": 390,
+    "timestampMs": 260,
+    "confidence": 0.8698914051055908,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " trozo",
+    "startMs": 390,
+    "endMs": 750,
+    "timestampMs": 570,
+    "confidence": 0.979590117931366,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " de",
+    "startMs": 750,
+    "endMs": 910,
+    "timestampMs": 830,
+    "confidence": 0.9969377517700195,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " metal",
+    "startMs": 910,
+    "endMs": 1210,
+    "timestampMs": 1060,
+    "confidence": 0.9814814329147339,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " está",
+    "startMs": 1210,
+    "endMs": 1610,
+    "timestampMs": 1410,
+    "confidence": 0.982418954372406,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " diseñado",
+    "startMs": 1610,
+    "endMs": 2230,
+    "timestampMs": 1920,
+    "confidence": 0.998875081539154,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " para",
+    "startMs": 2230,
+    "endMs": 2470,
+    "timestampMs": 2350,
+    "confidence": 0.9982671737670898,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " fundirse.",
+    "startMs": 2470,
+    "endMs": 3010,
+    "timestampMs": 2740,
+    "confidence": 0.9924196898937225,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Es",
+    "startMs": 3775,
+    "endMs": 4015,
+    "timestampMs": 3895,
+    "confidence": 0.9441497325897217,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " el",
+    "startMs": 4015,
+    "endMs": 4155,
+    "timestampMs": 4085,
+    "confidence": 0.9981464147567749,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " elemento",
+    "startMs": 4155,
+    "endMs": 4495,
+    "timestampMs": 4325,
+    "confidence": 0.9941158294677734,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " fusible.",
+    "startMs": 4495,
+    "endMs": 5075,
+    "timestampMs": 4785,
+    "confidence": 0.9634751975536346,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Sus",
+    "startMs": 5821,
+    "endMs": 5941,
+    "timestampMs": 5881,
+    "confidence": 0.9840887784957886,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " zonas",
+    "startMs": 5941,
+    "endMs": 6241,
+    "timestampMs": 6091,
+    "confidence": 0.9980289041996002,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " estrechas",
+    "startMs": 6241,
+    "endMs": 6861,
+    "timestampMs": 6551,
+    "confidence": 0.9973132908344269,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " se",
+    "startMs": 6861,
+    "endMs": 7101,
+    "timestampMs": 6981,
+    "confidence": 0.9975716471672058,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " calientan",
+    "startMs": 7101,
+    "endMs": 7581,
+    "timestampMs": 7341,
+    "confidence": 0.9969275196393331,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " más",
+    "startMs": 7581,
+    "endMs": 7981,
+    "timestampMs": 7781,
+    "confidence": 0.9922196865081787,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cuando",
+    "startMs": 7981,
+    "endMs": 8241,
+    "timestampMs": 8111,
+    "confidence": 0.9868413209915161,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " pasa",
+    "startMs": 8241,
+    "endMs": 8621,
+    "timestampMs": 8431,
+    "confidence": 0.9762480854988098,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " una",
+    "startMs": 8621,
+    "endMs": 8841,
+    "timestampMs": 8731,
+    "confidence": 0.9961017370223999,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " corriente",
+    "startMs": 8841,
+    "endMs": 9321,
+    "timestampMs": 9081,
+    "confidence": 0.9996799528598785,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " excesiva.",
+    "startMs": 9321,
+    "endMs": 9921,
+    "timestampMs": 9621,
+    "confidence": 0.9907065431276957,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " El",
+    "startMs": 10552,
+    "endMs": 10712,
+    "timestampMs": 10632,
+    "confidence": 0.9921563863754272,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " elemento",
+    "startMs": 10712,
+    "endMs": 11072,
+    "timestampMs": 10892,
+    "confidence": 0.9957863688468933,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " queda",
+    "startMs": 11072,
+    "endMs": 11392,
+    "timestampMs": 11232,
+    "confidence": 0.9961657524108887,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " dentro",
+    "startMs": 11392,
+    "endMs": 11792,
+    "timestampMs": 11592,
+    "confidence": 0.9919488430023193,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " de",
+    "startMs": 11792,
+    "endMs": 12012,
+    "timestampMs": 11902,
+    "confidence": 0.9986971020698547,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " un",
+    "startMs": 12012,
+    "endMs": 12132,
+    "timestampMs": 12072,
+    "confidence": 0.9986581802368164,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cuerpo",
+    "startMs": 12132,
+    "endMs": 12432,
+    "timestampMs": 12282,
+    "confidence": 0.998754620552063,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cerámico.",
+    "startMs": 12432,
+    "endMs": 13072,
+    "timestampMs": 12752,
+    "confidence": 0.9908209045728048,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " La",
+    "startMs": 13760,
+    "endMs": 13860,
+    "timestampMs": 13810,
+    "confidence": 0.9908447861671448,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cerámica",
+    "startMs": 13860,
+    "endMs": 14340,
+    "timestampMs": 14100,
+    "confidence": 0.9971769054730734,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " resiste",
+    "startMs": 14340,
+    "endMs": 14920,
+    "timestampMs": 14630,
+    "confidence": 0.991376519203186,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " altas",
+    "startMs": 14920,
+    "endMs": 15300,
+    "timestampMs": 15110,
+    "confidence": 0.749917060136795,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " temperaturas",
+    "startMs": 15300,
+    "endMs": 15940,
+    "timestampMs": 15620,
+    "confidence": 0.9948933720588684,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " y",
+    "startMs": 15940,
+    "endMs": 16400,
+    "timestampMs": 16170,
+    "confidence": 0.9505109786987305,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " aísla",
+    "startMs": 16400,
+    "endMs": 16760,
+    "timestampMs": 16580,
+    "confidence": 0.8041976690292358,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " eléctricamente",
+    "startMs": 16760,
+    "endMs": 17560,
+    "timestampMs": 17160,
+    "confidence": 0.9658226370811462,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " el",
+    "startMs": 17560,
+    "endMs": 17800,
+    "timestampMs": 17680,
+    "confidence": 0.9841522574424744,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " interior",
+    "startMs": 17800,
+    "endMs": 18200,
+    "timestampMs": 18000,
+    "confidence": 0.9983854293823242,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " del",
+    "startMs": 18200,
+    "endMs": 18400,
+    "timestampMs": 18300,
+    "confidence": 0.9923847913742065,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cartucho.",
+    "startMs": 18400,
+    "endMs": 18980,
+    "timestampMs": 18690,
+    "confidence": 0.9912710189819336,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Este",
+    "startMs": 19613,
+    "endMs": 19869,
+    "timestampMs": 19741,
+    "confidence": 0.9889995455741882,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " diseño",
+    "startMs": 19869,
+    "endMs": 20349,
+    "timestampMs": 20109,
+    "confidence": 0.9982285797595978,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " lleva",
+    "startMs": 20349,
+    "endMs": 20709,
+    "timestampMs": 20529,
+    "confidence": 0.9959213733673096,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " arena",
+    "startMs": 20709,
+    "endMs": 21089,
+    "timestampMs": 20899,
+    "confidence": 0.9355705380439758,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " de",
+    "startMs": 21089,
+    "endMs": 21269,
+    "timestampMs": 21179,
+    "confidence": 0.9964589476585388,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cuarzo.",
+    "startMs": 21269,
+    "endMs": 21689,
+    "timestampMs": 21479,
+    "confidence": 0.9475782116254171,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Cuando",
+    "startMs": 22365,
+    "endMs": 22538,
+    "timestampMs": 22452,
+    "confidence": 0.9923702478408813,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " el",
+    "startMs": 22538,
+    "endMs": 22698,
+    "timestampMs": 22618,
+    "confidence": 0.9985358715057373,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " metal",
+    "startMs": 22698,
+    "endMs": 22918,
+    "timestampMs": 22808,
+    "confidence": 0.9909195899963379,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " se",
+    "startMs": 22918,
+    "endMs": 23118,
+    "timestampMs": 23018,
+    "confidence": 0.999211311340332,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " funde,",
+    "startMs": 23118,
+    "endMs": 23558,
+    "timestampMs": 23338,
+    "confidence": 0.9722047448158264,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " puede",
+    "startMs": 23738,
+    "endMs": 23938,
+    "timestampMs": 23838,
+    "confidence": 0.9971127510070801,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " quedar",
+    "startMs": 23938,
+    "endMs": 24218,
+    "timestampMs": 24078,
+    "confidence": 0.9704504609107971,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " un",
+    "startMs": 24218,
+    "endMs": 24398,
+    "timestampMs": 24308,
+    "confidence": 0.9965794682502747,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " arco",
+    "startMs": 24398,
+    "endMs": 24658,
+    "timestampMs": 24528,
+    "confidence": 0.9933313131332397,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " eléctrico",
+    "startMs": 24658,
+    "endMs": 25158,
+    "timestampMs": 24908,
+    "confidence": 0.9518509358167648,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " entre",
+    "startMs": 25158,
+    "endMs": 25438,
+    "timestampMs": 25298,
+    "confidence": 0.9959636926651001,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " sus",
+    "startMs": 25438,
+    "endMs": 25658,
+    "timestampMs": 25548,
+    "confidence": 0.9969692826271057,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " extremos.",
+    "startMs": 25658,
+    "endMs": 26258,
+    "timestampMs": 25958,
+    "confidence": 0.997437059879303,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " La",
+    "startMs": 26908,
+    "endMs": 27088,
+    "timestampMs": 26998,
+    "confidence": 0.9905117154121399,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " arena",
+    "startMs": 27088,
+    "endMs": 27408,
+    "timestampMs": 27248,
+    "confidence": 0.996570348739624,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " ayuda",
+    "startMs": 27408,
+    "endMs": 27948,
+    "timestampMs": 27678,
+    "confidence": 0.9882412552833557,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " a",
+    "startMs": 27948,
+    "endMs": 28148,
+    "timestampMs": 28048,
+    "confidence": 0.9952211976051331,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " extinguirlo.",
+    "startMs": 28148,
+    "endMs": 28848,
+    "timestampMs": 28498,
+    "confidence": 0.9614134232203165,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Los",
+    "startMs": 29465,
+    "endMs": 29591,
+    "timestampMs": 29528,
+    "confidence": 0.2628970742225647,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " contactos",
+    "startMs": 29591,
+    "endMs": 30131,
+    "timestampMs": 29861,
+    "confidence": 0.9440939724445343,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " metálicos",
+    "startMs": 30131,
+    "endMs": 30791,
+    "timestampMs": 30461,
+    "confidence": 0.9951263517141342,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cierran",
+    "startMs": 30791,
+    "endMs": 31371,
+    "timestampMs": 31081,
+    "confidence": 0.9707319438457489,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " los",
+    "startMs": 31371,
+    "endMs": 31531,
+    "timestampMs": 31451,
+    "confidence": 0.9962466359138489,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " extremos",
+    "startMs": 31531,
+    "endMs": 32071,
+    "timestampMs": 31801,
+    "confidence": 0.999021977186203,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " del",
+    "startMs": 32071,
+    "endMs": 32211,
+    "timestampMs": 32141,
+    "confidence": 0.9856086373329163,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cartucho.",
+    "startMs": 32211,
+    "endMs": 32771,
+    "timestampMs": 32491,
+    "confidence": 0.9932596484820048,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Por",
+    "startMs": 33376,
+    "endMs": 33509,
+    "timestampMs": 33442,
+    "confidence": 0.985458254814148,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " dentro",
+    "startMs": 33509,
+    "endMs": 33809,
+    "timestampMs": 33659,
+    "confidence": 0.9976558685302734,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " se",
+    "startMs": 33809,
+    "endMs": 34209,
+    "timestampMs": 34009,
+    "confidence": 0.7960945963859558,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " unen",
+    "startMs": 34209,
+    "endMs": 34509,
+    "timestampMs": 34359,
+    "confidence": 0.9810006618499756,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " al",
+    "startMs": 34509,
+    "endMs": 34669,
+    "timestampMs": 34589,
+    "confidence": 0.9962829947471619,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " elemento",
+    "startMs": 34669,
+    "endMs": 34989,
+    "timestampMs": 34829,
+    "confidence": 0.9948746562004089,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " fusible.",
+    "startMs": 34989,
+    "endMs": 35609,
+    "timestampMs": 35299,
+    "confidence": 0.9757095277309418,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Por",
+    "startMs": 36294,
+    "endMs": 36418,
+    "timestampMs": 36356,
+    "confidence": 0.9968178272247314,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " fuera",
+    "startMs": 36418,
+    "endMs": 36738,
+    "timestampMs": 36578,
+    "confidence": 0.9939579963684082,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " lo",
+    "startMs": 36738,
+    "endMs": 37078,
+    "timestampMs": 36908,
+    "confidence": 0.8603123426437378,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " conectan",
+    "startMs": 37078,
+    "endMs": 37558,
+    "timestampMs": 37318,
+    "confidence": 0.9981465637683868,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " al",
+    "startMs": 37558,
+    "endMs": 37698,
+    "timestampMs": 37628,
+    "confidence": 0.9976576566696167,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " circuito.",
+    "startMs": 37698,
+    "endMs": 38218,
+    "timestampMs": 37958,
+    "confidence": 0.9902794361114502,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Con",
+    "startMs": 38834,
+    "endMs": 38994,
+    "timestampMs": 38914,
+    "confidence": 0.9941562414169312,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " el",
+    "startMs": 38994,
+    "endMs": 39094,
+    "timestampMs": 39044,
+    "confidence": 0.9989101886749268,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cartucho",
+    "startMs": 39094,
+    "endMs": 39534,
+    "timestampMs": 39314,
+    "confidence": 0.9977201024691263,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " completo,",
+    "startMs": 39534,
+    "endMs": 39954,
+    "timestampMs": 39744,
+    "confidence": 0.9991256594657898,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " la",
+    "startMs": 40374,
+    "endMs": 40454,
+    "timestampMs": 40414,
+    "confidence": 0.995198667049408,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " corriente",
+    "startMs": 40454,
+    "endMs": 40854,
+    "timestampMs": 40654,
+    "confidence": 0.9997947812080383,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " normal",
+    "startMs": 40854,
+    "endMs": 41214,
+    "timestampMs": 41034,
+    "confidence": 0.9799839854240417,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " entra",
+    "startMs": 41214,
+    "endMs": 41754,
+    "timestampMs": 41484,
+    "confidence": 0.991787850856781,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " por",
+    "startMs": 41754,
+    "endMs": 41994,
+    "timestampMs": 41874,
+    "confidence": 0.9939654469490051,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " un",
+    "startMs": 41994,
+    "endMs": 42114,
+    "timestampMs": 42054,
+    "confidence": 0.996397852897644,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " contacto,",
+    "startMs": 42114,
+    "endMs": 42774,
+    "timestampMs": 42444,
+    "confidence": 0.996632307767868,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " atraviesa",
+    "startMs": 43014,
+    "endMs": 43554,
+    "timestampMs": 43284,
+    "confidence": 0.9700927138328552,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " el",
+    "startMs": 43554,
+    "endMs": 43694,
+    "timestampMs": 43624,
+    "confidence": 0.9976974129676819,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " elemento",
+    "startMs": 43694,
+    "endMs": 44014,
+    "timestampMs": 43854,
+    "confidence": 0.9974787831306458,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " y",
+    "startMs": 44014,
+    "endMs": 44534,
+    "timestampMs": 44274,
+    "confidence": 0.8474936485290527,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " sale",
+    "startMs": 44534,
+    "endMs": 44754,
+    "timestampMs": 44644,
+    "confidence": 0.9957958459854126,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " por",
+    "startMs": 44754,
+    "endMs": 44974,
+    "timestampMs": 44864,
+    "confidence": 0.997047483921051,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " el",
+    "startMs": 44974,
+    "endMs": 45094,
+    "timestampMs": 45034,
+    "confidence": 0.9974362254142761,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " otro.",
+    "startMs": 45094,
+    "endMs": 45274,
+    "timestampMs": 45184,
+    "confidence": 0.9972929358482361,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " El",
+    "startMs": 45952,
+    "endMs": 46112,
+    "timestampMs": 46032,
+    "confidence": 0.9901831746101379,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " circuito",
+    "startMs": 46112,
+    "endMs": 46632,
+    "timestampMs": 46372,
+    "confidence": 0.9994984269142151,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " permanece",
+    "startMs": 46632,
+    "endMs": 47212,
+    "timestampMs": 46922,
+    "confidence": 0.9951691428820292,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cerrado.",
+    "startMs": 47212,
+    "endMs": 47632,
+    "timestampMs": 47422,
+    "confidence": 0.9986039400100708,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Si",
+    "startMs": 48358,
+    "endMs": 48478,
+    "timestampMs": 48418,
+    "confidence": 0.9938884973526001,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " la",
+    "startMs": 48478,
+    "endMs": 48598,
+    "timestampMs": 48538,
+    "confidence": 0.9985198378562927,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " sobrecorriente",
+    "startMs": 48598,
+    "endMs": 49318,
+    "timestampMs": 48958,
+    "confidence": 0.7566868662834167,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " es",
+    "startMs": 49318,
+    "endMs": 49558,
+    "timestampMs": 49438,
+    "confidence": 0.998468816280365,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " intensa",
+    "startMs": 49558,
+    "endMs": 50278,
+    "timestampMs": 49918,
+    "confidence": 0.9920373857021332,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " o",
+    "startMs": 50278,
+    "endMs": 50478,
+    "timestampMs": 50378,
+    "confidence": 0.9385311007499695,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " dura",
+    "startMs": 50478,
+    "endMs": 50698,
+    "timestampMs": 50588,
+    "confidence": 0.9924488067626953,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " lo",
+    "startMs": 50698,
+    "endMs": 50838,
+    "timestampMs": 50768,
+    "confidence": 0.9987216591835022,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " suficiente,",
+    "startMs": 50838,
+    "endMs": 51238,
+    "timestampMs": 51038,
+    "confidence": 0.9835476279258728,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " el",
+    "startMs": 51838,
+    "endMs": 51898,
+    "timestampMs": 51868,
+    "confidence": 0.9969381093978882,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " metal",
+    "startMs": 51898,
+    "endMs": 52138,
+    "timestampMs": 52018,
+    "confidence": 0.9751196503639221,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " se",
+    "startMs": 52138,
+    "endMs": 52378,
+    "timestampMs": 52258,
+    "confidence": 0.9989494681358337,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " calienta",
+    "startMs": 52378,
+    "endMs": 52938,
+    "timestampMs": 52658,
+    "confidence": 0.943898340066274,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " hasta",
+    "startMs": 52938,
+    "endMs": 53138,
+    "timestampMs": 53038,
+    "confidence": 0.9981487989425659,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " fundirse.",
+    "startMs": 53138,
+    "endMs": 53698,
+    "timestampMs": 53418,
+    "confidence": 0.9891623854637146,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Surge",
+    "startMs": 54456,
+    "endMs": 54876,
+    "timestampMs": 54666,
+    "confidence": 0.9093155860900879,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " un",
+    "startMs": 54876,
+    "endMs": 55056,
+    "timestampMs": 54966,
+    "confidence": 0.9971709847450256,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " arco",
+    "startMs": 55056,
+    "endMs": 55296,
+    "timestampMs": 55176,
+    "confidence": 0.9956315159797668,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " breve",
+    "startMs": 55296,
+    "endMs": 55576,
+    "timestampMs": 55436,
+    "confidence": 0.9871805310249329,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " y",
+    "startMs": 55576,
+    "endMs": 55976,
+    "timestampMs": 55776,
+    "confidence": 0.9228819012641907,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " el",
+    "startMs": 55976,
+    "endMs": 56136,
+    "timestampMs": 56056,
+    "confidence": 0.9976842403411865,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cuarzo",
+    "startMs": 56136,
+    "endMs": 56516,
+    "timestampMs": 56326,
+    "confidence": 0.8713469902674357,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " ayuda",
+    "startMs": 56516,
+    "endMs": 56896,
+    "timestampMs": 56706,
+    "confidence": 0.9945738911628723,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " a",
+    "startMs": 56896,
+    "endMs": 57076,
+    "timestampMs": 56986,
+    "confidence": 0.9900062680244446,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " apagarlo.",
+    "startMs": 57076,
+    "endMs": 57536,
+    "timestampMs": 57306,
+    "confidence": 0.7957757413387299,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Al",
+    "startMs": 58215,
+    "endMs": 58348,
+    "timestampMs": 58282,
+    "confidence": 0.602403998374939,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " extinguirse",
+    "startMs": 58348,
+    "endMs": 58968,
+    "timestampMs": 58658,
+    "confidence": 0.9527616500854492,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " el",
+    "startMs": 58968,
+    "endMs": 59128,
+    "timestampMs": 59048,
+    "confidence": 0.9714785218238831,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " arco,",
+    "startMs": 59128,
+    "endMs": 59428,
+    "timestampMs": 59278,
+    "confidence": 0.9957456290721893,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " la",
+    "startMs": 59728,
+    "endMs": 59788,
+    "timestampMs": 59758,
+    "confidence": 0.9958856701850891,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " corriente",
+    "startMs": 59788,
+    "endMs": 60248,
+    "timestampMs": 60018,
+    "confidence": 0.9993564188480377,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " se",
+    "startMs": 60248,
+    "endMs": 60428,
+    "timestampMs": 60338,
+    "confidence": 0.9965229034423828,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " interrumpe.",
+    "startMs": 60428,
+    "endMs": 61028,
+    "timestampMs": 60728,
+    "confidence": 0.9366241892178854,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Así",
+    "startMs": 61623,
+    "endMs": 61923,
+    "timestampMs": 61773,
+    "confidence": 0.9430903792381287,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " el",
+    "startMs": 61923,
+    "endMs": 62283,
+    "timestampMs": 62103,
+    "confidence": 0.5643890500068665,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " fusible",
+    "startMs": 62283,
+    "endMs": 62763,
+    "timestampMs": 62523,
+    "confidence": 0.9818611145019531,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " ayuda",
+    "startMs": 62763,
+    "endMs": 63063,
+    "timestampMs": 62913,
+    "confidence": 0.9930040240287781,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " a",
+    "startMs": 63063,
+    "endMs": 63303,
+    "timestampMs": 63183,
+    "confidence": 0.996238112449646,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " proteger",
+    "startMs": 63303,
+    "endMs": 63703,
+    "timestampMs": 63503,
+    "confidence": 0.9907256364822388,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " los",
+    "startMs": 63703,
+    "endMs": 63923,
+    "timestampMs": 63813,
+    "confidence": 0.9960436820983887,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cables.",
+    "startMs": 63923,
+    "endMs": 64203,
+    "timestampMs": 64063,
+    "confidence": 0.9902864694595337,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Nunca",
+    "startMs": 64903,
+    "endMs": 65263,
+    "timestampMs": 65083,
+    "confidence": 0.9893610775470734,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " lo",
+    "startMs": 65263,
+    "endMs": 65403,
+    "timestampMs": 65333,
+    "confidence": 0.6423434615135193,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " sustituyas",
+    "startMs": 65403,
+    "endMs": 66003,
+    "timestampMs": 65703,
+    "confidence": 0.954014798005422,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " por",
+    "startMs": 66003,
+    "endMs": 66223,
+    "timestampMs": 66113,
+    "confidence": 0.9951673746109009,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " alambre.",
+    "startMs": 66223,
+    "endMs": 66563,
+    "timestampMs": 66393,
+    "confidence": 0.9827630817890167,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " ¿En",
+    "startMs": 67250,
+    "endMs": 67410,
+    "timestampMs": 67330,
+    "confidence": 0.8426487445831299,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " tu",
+    "startMs": 67410,
+    "endMs": 67530,
+    "timestampMs": 67470,
+    "confidence": 0.9964017868041992,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " casa",
+    "startMs": 67530,
+    "endMs": 67770,
+    "timestampMs": 67650,
+    "confidence": 0.9984134435653687,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " aún",
+    "startMs": 67770,
+    "endMs": 68070,
+    "timestampMs": 67920,
+    "confidence": 0.9029186367988586,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " usan",
+    "startMs": 68070,
+    "endMs": 68330,
+    "timestampMs": 68200,
+    "confidence": 0.9944064021110535,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " fusibles?",
+    "startMs": 68330,
+    "endMs": 68770,
+    "timestampMs": 68550,
+    "confidence": 0.9891604781150818,
+    "pageBreakAfter": true
+  }
+]

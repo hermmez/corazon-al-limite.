@@ -1,0 +1,72 @@
+{
+  "file": "episodio12_FINAL_GRADY_70s.mp4",
+  "sha256": "28bef455e19ee18eb77535e091564586b316086e4820322d1fb954da8096d607",
+  "duration": 70,
+  "width": 1080,
+  "height": 1920,
+  "frames": 2100,
+  "fps": 30,
+  "codec": "h264",
+  "audioCodec": "aac",
+  "sampleRate": 48000,
+  "audioBitrate": 194901,
+  "pixelFormat": "yuv420p",
+  "colorSpace": "bt709",
+  "videoProfile": "High",
+  "faststart": true,
+  "fullDecode": true,
+  "checkedTimestamps": 2100,
+  "blackIntervals": 0,
+  "audioCorrelation": 0.999959,
+  "peakEncodedDbfs": -1.91,
+  "internalPausesLongerThan700ms": [],
+  "closingSilence": [
+    68.982333,
+    70.0
+  ],
+  "voice": "Grady",
+  "words": 163,
+  "captionGroups": 43,
+  "tempo": 1,
+  "lastWordEndMs": 68770,
+  "authorizedCredits": 4.83,
+  "paidTakes": 1,
+  "motion": {
+    "sampleFps": 4,
+    "crop": [
+      0,
+      515,
+      1080,
+      700
+    ],
+    "threshold": 0.75,
+    "referenceEpisode04At125": {
+      "median": 0.618,
+      "p90": 10.538,
+      "lowMotionIntervals": [
+        [
+          31.0,
+          36.75
+        ],
+        [
+          38.75,
+          40.75
+        ],
+        [
+          51.5,
+          54.5
+        ]
+      ]
+    },
+    "episode12At100": {
+      "median": 2.01,
+      "p90": 8.65,
+      "lowMotionIntervals": [
+        [
+          3.75,
+          6.5
+        ]
+      ]
+    }
+  }
+}

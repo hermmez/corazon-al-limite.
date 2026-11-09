@@ -1,0 +1,51 @@
+[
+  {
+    "name": "El metal",
+    "title": "ELEMENTO FUSIBLE",
+    "text": "Este trozo de metal está diseñado para fundirse. Es el elemento fusible. Sus zonas estrechas se calientan más cuando pasa una corriente excesiva.",
+    "start": 0,
+    "end": 10
+  },
+  {
+    "name": "El aislante",
+    "title": "CUERPO CERÁMICO",
+    "text": "El elemento queda dentro de un cuerpo cerámico. La cerámica resiste altas temperaturas y aísla eléctricamente el interior del cartucho.",
+    "start": 10,
+    "end": 20
+  },
+  {
+    "name": "La arena",
+    "title": "ARENA DE CUARZO",
+    "text": "Este diseño lleva arena de cuarzo. Cuando el metal se funde, puede quedar un arco eléctrico entre sus extremos. La arena ayuda a extinguirlo.",
+    "start": 20,
+    "end": 31
+  },
+  {
+    "name": "Los contactos",
+    "title": "CONTACTOS ELÉCTRICOS",
+    "text": "Los contactos metálicos cierran los extremos del cartucho. Por dentro se unen al elemento fusible. Por fuera lo conectan al circuito.",
+    "start": 31,
+    "end": 41
+  },
+  {
+    "name": "El circuito",
+    "title": "CIRCUITO CERRADO",
+    "text": "Con el cartucho completo, la corriente normal entra por un contacto, atraviesa el elemento y sale por el otro. El circuito permanece cerrado.",
+    "start": 41,
+    "end": 51
+  },
+  {
+    "name": "La sobrecorriente",
+    "title": "FUSIÓN DEL ELEMENTO",
+    "text": "Si la sobrecorriente es intensa o dura lo suficiente, el metal se calienta hasta fundirse. Surge un arco breve y el cuarzo ayuda a apagarlo.",
+    "start": 51,
+    "end": 61
+  },
+  {
+    "name": "El resultado",
+    "title": "CIRCUITO ABIERTO",
+    "text": "Al extinguirse el arco, la corriente se interrumpe. Así el fusible ayuda a proteger los cables. Nunca lo sustituyas por alambre. ¿En tu casa aún usan fusibles?",
+    "start": 61,
+    "end": 70
+  }
+]
