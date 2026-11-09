@@ -1,3 +1,6 @@
 node_modules/
 out/
 *.log
+
+# Temporales de revisión y exportación del episodio 12.
+output/episodio-12-fusible/revision-interna/

@@ -1,0 +1,171 @@
+1
+00:00:00,130 --> 00:00:01,210
+Este trozo de metal
+
+2
+00:00:01,210 --> 00:00:03,010
+está diseñado para fundirse.
+
+3
+00:00:03,775 --> 00:00:05,075
+Es el elemento fusible.
+
+4
+00:00:05,821 --> 00:00:07,101
+Sus zonas estrechas se
+
+5
+00:00:07,101 --> 00:00:08,621
+calientan más cuando pasa
+
+6
+00:00:08,621 --> 00:00:09,921
+una corriente excesiva.
+
+7
+00:00:10,552 --> 00:00:11,792
+El elemento queda dentro
+
+8
+00:00:11,792 --> 00:00:13,072
+de un cuerpo cerámico.
+
+9
+00:00:13,760 --> 00:00:15,300
+La cerámica resiste altas
+
+10
+00:00:15,300 --> 00:00:17,560
+temperaturas y aísla eléctricamente
+
+11
+00:00:17,560 --> 00:00:18,980
+el interior del cartucho.
+
+12
+00:00:19,613 --> 00:00:20,709
+Este diseño lleva
+
+13
+00:00:20,709 --> 00:00:21,689
+arena de cuarzo.
+
+14
+00:00:22,365 --> 00:00:23,558
+Cuando el metal se funde,
+
+15
+00:00:23,738 --> 00:00:24,658
+puede quedar un arco
+
+16
+00:00:24,658 --> 00:00:26,258
+eléctrico entre sus extremos.
+
+17
+00:00:26,908 --> 00:00:28,848
+La arena ayuda a extinguirlo.
+
+18
+00:00:29,465 --> 00:00:31,371
+Los contactos metálicos cierran
+
+19
+00:00:31,371 --> 00:00:32,771
+los extremos del cartucho.
+
+20
+00:00:33,376 --> 00:00:34,509
+Por dentro se unen
+
+21
+00:00:34,509 --> 00:00:35,609
+al elemento fusible.
+
+22
+00:00:36,294 --> 00:00:37,078
+Por fuera lo
+
+23
+00:00:37,078 --> 00:00:38,218
+conectan al circuito.
+
+24
+00:00:38,834 --> 00:00:39,954
+Con el cartucho completo,
+
+25
+00:00:40,374 --> 00:00:41,754
+la corriente normal entra
+
+26
+00:00:41,754 --> 00:00:42,774
+por un contacto,
+
+27
+00:00:43,014 --> 00:00:44,534
+atraviesa el elemento y
+
+28
+00:00:44,534 --> 00:00:45,274
+sale por el otro.
+
+29
+00:00:45,952 --> 00:00:47,632
+El circuito permanece cerrado.
+
+30
+00:00:48,358 --> 00:00:49,558
+Si la sobrecorriente es
+
+31
+00:00:49,558 --> 00:00:50,838
+intensa o dura lo
+
+32
+00:00:50,838 --> 00:00:52,378
+suficiente, el metal se
+
+33
+00:00:52,378 --> 00:00:53,698
+calienta hasta fundirse.
+
+34
+00:00:54,456 --> 00:00:55,576
+Surge un arco breve
+
+35
+00:00:55,576 --> 00:00:56,516
+y el cuarzo
+
+36
+00:00:56,516 --> 00:00:57,536
+ayuda a apagarlo.
+
+37
+00:00:58,215 --> 00:00:59,428
+Al extinguirse el arco,
+
+38
+00:00:59,728 --> 00:01:01,028
+la corriente se interrumpe.
+
+39
+00:01:01,623 --> 00:01:03,063
+Así el fusible ayuda
+
+40
+00:01:03,063 --> 00:01:04,203
+a proteger los cables.
+
+41
+00:01:04,903 --> 00:01:06,563
+Nunca lo sustituyas por alambre.
+
+42
+00:01:07,250 --> 00:01:07,770
+¿En tu casa
+
+43
+00:01:07,770 --> 00:01:08,770
+aún usan fusibles?

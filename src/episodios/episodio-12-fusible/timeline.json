@@ -1,0 +1,69 @@
+{
+  "audioReady": true,
+  "cues": {
+    "ceramica": 12.432,
+    "aisla": 16.76,
+    "arena": 21.269,
+    "control": 24.658,
+    "contactos": 30.131,
+    "conexion": 34.209,
+    "completo": 39.534,
+    "corriente": 40.854,
+    "cerrado": 47.212,
+    "exceso": 48.598,
+    "calienta": 52.378,
+    "funde": 53.138,
+    "arco": 55.056,
+    "extingue": 57.076,
+    "interrumpe": 60.428,
+    "cables": 63.923,
+    "alambre": 66.223,
+    "remate": 67.53
+  },
+  "stages": [
+    {
+      "name": "El metal",
+      "briefStart": 0,
+      "start": 0,
+      "end": 10.552
+    },
+    {
+      "name": "El aislante",
+      "briefStart": 10,
+      "start": 10.552,
+      "end": 19.613
+    },
+    {
+      "name": "La arena",
+      "briefStart": 20,
+      "start": 19.613,
+      "end": 29.465
+    },
+    {
+      "name": "Los contactos",
+      "briefStart": 31,
+      "start": 29.465,
+      "end": 38.834
+    },
+    {
+      "name": "El circuito",
+      "briefStart": 41,
+      "start": 38.834,
+      "end": 48.358
+    },
+    {
+      "name": "La sobrecorriente",
+      "briefStart": 51,
+      "start": 48.358,
+      "end": 58.215
+    },
+    {
+      "name": "El resultado",
+      "briefStart": 61,
+      "start": 58.215,
+      "end": 70
+    }
+  ],
+  "tempo": 1,
+  "alignment": "faster-whisper-small multilingual, Spanish; quiet edits remapped at sample level"
+}

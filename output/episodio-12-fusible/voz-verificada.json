@@ -1,0 +1,167 @@
+{
+  "provider": "Higgsfield",
+  "model": "elevenlabs_v4",
+  "voice": "Grady",
+  "voiceId": "e2a2d2e6-9ed2-59cd-82af-feaa27f8a678",
+  "generationId": "47a6cc73-0a89-4bf7-817a-6a9067d3534a",
+  "generations": 1,
+  "credits": 4.83,
+  "sourceDuration": 66.35102083333334,
+  "duration": 70,
+  "sampleRate": 48000,
+  "tempo": 1,
+  "words": 163,
+  "pages": 43,
+  "lastWordEndMs": 68770,
+  "edits": [
+    [
+      158247,
+      7936
+    ],
+    [
+      245848,
+      7003
+    ],
+    [
+      469302,
+      7225
+    ],
+    [
+      613694,
+      9037
+    ],
+    [
+      888944,
+      1395
+    ],
+    [
+      1016265,
+      10047
+    ],
+    [
+      1224658,
+      11961
+    ],
+    [
+      1336290,
+      6866
+    ],
+    [
+      1515762,
+      10486
+    ],
+    [
+      1645134,
+      10998
+    ],
+    [
+      1758692,
+      6522
+    ],
+    [
+      2092235,
+      9489
+    ],
+    [
+      2198153,
+      4133
+    ],
+    [
+      2487324,
+      9498
+    ],
+    [
+      2658125,
+      7328
+    ],
+    [
+      2814391,
+      9339
+    ],
+    [
+      3078242,
+      2256
+    ]
+  ],
+  "quietAddedSeconds": 2.7399791666666666,
+  "preRoll": 0.13,
+  "gainDb": -0.6399999999999999,
+  "mixLoudness": {
+    "input_i": "-16.06",
+    "input_tp": "-1.99",
+    "input_lra": "2.60",
+    "input_thresh": "-26.89",
+    "output_i": "-16.11",
+    "output_tp": "-2.00",
+    "output_lra": "2.50",
+    "output_thresh": "-26.86",
+    "normalization_type": "dynamic",
+    "target_offset": "0.11"
+  },
+  "sourceSha256": "32381220e9ccd72331d861d137c9ddb3c50d62b1b0e71e2673d6f9da6acac2c2",
+  "mixSha256": "146af53dfe9e591db31cdcdaaf1547291f56ec45d1fdcdb6953854dbe7fc4cc4",
+  "cues": {
+    "ceramica": 12.432,
+    "aisla": 16.76,
+    "arena": 21.269,
+    "control": 24.658,
+    "contactos": 30.131,
+    "conexion": 34.209,
+    "completo": 39.534,
+    "corriente": 40.854,
+    "cerrado": 47.212,
+    "exceso": 48.598,
+    "calienta": 52.378,
+    "funde": 53.138,
+    "arco": 55.056,
+    "extingue": 57.076,
+    "interrumpe": 60.428,
+    "cables": 63.923,
+    "alambre": 66.223,
+    "remate": 67.53
+  },
+  "stages": [
+    {
+      "name": "El metal",
+      "briefStart": 0,
+      "start": 0,
+      "end": 10.552
+    },
+    {
+      "name": "El aislante",
+      "briefStart": 10,
+      "start": 10.552,
+      "end": 19.613
+    },
+    {
+      "name": "La arena",
+      "briefStart": 20,
+      "start": 19.613,
+      "end": 29.465
+    },
+    {
+      "name": "Los contactos",
+      "briefStart": 31,
+      "start": 29.465,
+      "end": 38.834
+    },
+    {
+      "name": "El circuito",
+      "briefStart": 41,
+      "start": 38.834,
+      "end": 48.358
+    },
+    {
+      "name": "La sobrecorriente",
+      "briefStart": 51,
+      "start": 48.358,
+      "end": 58.215
+    },
+    {
+      "name": "El resultado",
+      "briefStart": 61,
+      "start": 58.215,
+      "end": 70
+    }
+  ]
+}
