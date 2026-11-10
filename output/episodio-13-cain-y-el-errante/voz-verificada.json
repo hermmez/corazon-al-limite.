@@ -1,0 +1,170 @@
+{
+  "provider": "Higgsfield",
+  "model": "elevenlabs_v4",
+  "voice": "Grady",
+  "voiceId": "e2a2d2e6-9ed2-59cd-82af-feaa27f8a678",
+  "generationId": "6578c716-d575-4d91-ac60-51b9c318d174",
+  "generations": 1,
+  "credits": 4.37,
+  "sourceDuration": 63.08572916666667,
+  "duration": 70,
+  "sampleRate": 48000,
+  "tempo": 1,
+  "captionNormalization": [
+    "herrancia → errancia (ortografía)",
+    "copia → copie (modo verbal del guion)"
+  ],
+  "words": 162,
+  "pages": 41,
+  "lastWordEndMs": 67951,
+  "edits": [
+    [
+      215813,
+      1743
+    ],
+    [
+      399504,
+      9862
+    ],
+    [
+      533679,
+      21560
+    ],
+    [
+      690830,
+      10967
+    ],
+    [
+      773203,
+      26484
+    ],
+    [
+      925657,
+      9834
+    ],
+    [
+      1039485,
+      6510
+    ],
+    [
+      1204500,
+      14383
+    ],
+    [
+      1394283,
+      12611
+    ],
+    [
+      1505971,
+      5031
+    ],
+    [
+      1677357,
+      15573
+    ],
+    [
+      1751528,
+      15693
+    ],
+    [
+      1910488,
+      16744
+    ],
+    [
+      2059346,
+      7312
+    ],
+    [
+      2112798,
+      26011
+    ],
+    [
+      2195261,
+      10087
+    ],
+    [
+      2417780,
+      11584
+    ],
+    [
+      2785601,
+      13270
+    ]
+  ],
+  "quietAddedSeconds": 4.901229166666667,
+  "preRoll": 0.19,
+  "gainDb": 0.8500000000000001,
+  "mixLoudness": {
+    "input_i": "-16.10",
+    "input_tp": "-1.99",
+    "input_lra": "4.00",
+    "input_thresh": "-27.18",
+    "output_i": "-15.99",
+    "output_tp": "-2.00",
+    "output_lra": "3.60",
+    "output_thresh": "-26.99",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.01"
+  },
+  "sourceSha256": "d6c6229cdbc4046e18d9f542ec0db1c687fca03b721af6bc639b1f234fdba229",
+  "mixSha256": "05010dbecfb7a7504086eb6d3ebe6f73dcae09f920baa927e6c7927761daf622",
+  "cues": {
+    "cainGancho": 3.89,
+    "leyenda": 10.792,
+    "jesus": 13.181,
+    "regreso": 20.201,
+    "europa": 22.746,
+    "genesis": 23.94,
+    "abel": 26.522,
+    "destierro": 28.661,
+    "senal": 29.861,
+    "forma": 33.224,
+    "condena": 35.949,
+    "errancia": 36.809,
+    "inmortal": 42.26,
+    "nod": 46.009,
+    "pregunta": 49.143,
+    "identidad": 52.133,
+    "prejuicio": 57.415,
+    "cierre": 60.395,
+    "castigo": 65.151
+  },
+  "stages": [
+    {
+      "name": "LA CONDENA",
+      "briefStart": 0,
+      "start": 0,
+      "end": 9.002
+    },
+    {
+      "name": "EL JUDÍO ERRANTE",
+      "briefStart": 9,
+      "start": 9.002,
+      "end": 23.94
+    },
+    {
+      "name": "EL PRIMER ERRANTE",
+      "briefStart": 23,
+      "start": 23.94,
+      "end": 34.349
+    },
+    {
+      "name": "LA EXTRAÑA SIMILITUD",
+      "briefStart": 37,
+      "start": 34.349,
+      "end": 46.998
+    },
+    {
+      "name": "EL ORIGEN DEL MISTERIO",
+      "briefStart": 52,
+      "start": 46.998,
+      "end": 60.159
+    },
+    {
+      "name": "DOS HISTORIAS",
+      "briefStart": 63,
+      "start": 60.159,
+      "end": 70
+    }
+  ]
+}

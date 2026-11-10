@@ -1,0 +1,1298 @@
+[
+  {
+    "text": "¿Y",
+    "startMs": 190,
+    "endMs": 350,
+    "timestampMs": 270,
+    "confidence": 0.7187432050704956,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " si",
+    "startMs": 350,
+    "endMs": 490,
+    "timestampMs": 420,
+    "confidence": 0.9794899821281433,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " un",
+    "startMs": 490,
+    "endMs": 650,
+    "timestampMs": 570,
+    "confidence": 0.9940131306648254,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " hombre",
+    "startMs": 650,
+    "endMs": 890,
+    "timestampMs": 770,
+    "confidence": 0.9978110194206238,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " condenado",
+    "startMs": 890,
+    "endMs": 1470,
+    "timestampMs": 1180,
+    "confidence": 0.9947701891263326,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " a",
+    "startMs": 1470,
+    "endMs": 1630,
+    "timestampMs": 1550,
+    "confidence": 0.9986851811408997,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " vagar",
+    "startMs": 1630,
+    "endMs": 1970,
+    "timestampMs": 1800,
+    "confidence": 0.9712844491004944,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " durante",
+    "startMs": 1970,
+    "endMs": 2310,
+    "timestampMs": 2140,
+    "confidence": 0.9931052327156067,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " siglos",
+    "startMs": 2310,
+    "endMs": 2910,
+    "timestampMs": 2610,
+    "confidence": 0.9962342381477356,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " te",
+    "startMs": 2910,
+    "endMs": 3210,
+    "timestampMs": 3060,
+    "confidence": 0.9616702198982239,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " recordara",
+    "startMs": 3210,
+    "endMs": 3730,
+    "timestampMs": 3470,
+    "confidence": 0.7915478944778442,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " a",
+    "startMs": 3730,
+    "endMs": 3890,
+    "timestampMs": 3810,
+    "confidence": 0.9599069952964783,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " Caín?",
+    "startMs": 3890,
+    "endMs": 4230,
+    "timestampMs": 4060,
+    "confidence": 0.7414859682321548,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " La",
+    "startMs": 5054,
+    "endMs": 5186,
+    "timestampMs": 5120,
+    "confidence": 0.9755616784095764,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " pista",
+    "startMs": 5186,
+    "endMs": 5446,
+    "timestampMs": 5316,
+    "confidence": 0.9940998554229736,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " está",
+    "startMs": 5446,
+    "endMs": 5846,
+    "timestampMs": 5646,
+    "confidence": 0.9645490646362305,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " en",
+    "startMs": 5846,
+    "endMs": 6046,
+    "timestampMs": 5946,
+    "confidence": 0.9969860911369324,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " dos",
+    "startMs": 6046,
+    "endMs": 6306,
+    "timestampMs": 6176,
+    "confidence": 0.9796388149261475,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " relatos",
+    "startMs": 6306,
+    "endMs": 6886,
+    "timestampMs": 6596,
+    "confidence": 0.9964423775672913,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " separados",
+    "startMs": 6886,
+    "endMs": 7346,
+    "timestampMs": 7116,
+    "confidence": 0.9827142357826233,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " por",
+    "startMs": 7346,
+    "endMs": 7646,
+    "timestampMs": 7496,
+    "confidence": 0.9946395754814148,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " siglos.",
+    "startMs": 7646,
+    "endMs": 8046,
+    "timestampMs": 7846,
+    "confidence": 0.9990248382091522,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " En",
+    "startMs": 9002,
+    "endMs": 9132,
+    "timestampMs": 9067,
+    "confidence": 0.977272629737854,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " una",
+    "startMs": 9132,
+    "endMs": 9312,
+    "timestampMs": 9222,
+    "confidence": 0.9839815497398376,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " leyenda",
+    "startMs": 9312,
+    "endMs": 9672,
+    "timestampMs": 9492,
+    "confidence": 0.983641505241394,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cristiana",
+    "startMs": 9672,
+    "endMs": 10292,
+    "timestampMs": 9982,
+    "confidence": 0.9933591485023499,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " de",
+    "startMs": 10292,
+    "endMs": 10472,
+    "timestampMs": 10382,
+    "confidence": 0.9619182348251343,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " origen",
+    "startMs": 10472,
+    "endMs": 10792,
+    "timestampMs": 10632,
+    "confidence": 0.9902953505516052,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " medieval,",
+    "startMs": 10792,
+    "endMs": 11212,
+    "timestampMs": 11002,
+    "confidence": 0.989412248134613,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " un",
+    "startMs": 12161,
+    "endMs": 12281,
+    "timestampMs": 12221,
+    "confidence": 0.9865994453430176,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " hombre",
+    "startMs": 12281,
+    "endMs": 12521,
+    "timestampMs": 12401,
+    "confidence": 0.9988730549812317,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " ofende",
+    "startMs": 12521,
+    "endMs": 13001,
+    "timestampMs": 12761,
+    "confidence": 0.9787419140338898,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " a",
+    "startMs": 13001,
+    "endMs": 13181,
+    "timestampMs": 13091,
+    "confidence": 0.997725784778595,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Jesús",
+    "startMs": 13181,
+    "endMs": 13421,
+    "timestampMs": 13301,
+    "confidence": 0.9969379901885986,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " camino",
+    "startMs": 13421,
+    "endMs": 13961,
+    "timestampMs": 13691,
+    "confidence": 0.9616105556488037,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " a",
+    "startMs": 13961,
+    "endMs": 14141,
+    "timestampMs": 14051,
+    "confidence": 0.9951139688491821,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " la",
+    "startMs": 14141,
+    "endMs": 14221,
+    "timestampMs": 14181,
+    "confidence": 0.9950593709945679,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " crucifixión.",
+    "startMs": 14221,
+    "endMs": 14921,
+    "timestampMs": 14571,
+    "confidence": 0.8377063125371933,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Según",
+    "startMs": 15709,
+    "endMs": 16029,
+    "timestampMs": 15869,
+    "confidence": 0.9962945580482483,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " algunas",
+    "startMs": 16029,
+    "endMs": 16409,
+    "timestampMs": 16219,
+    "confidence": 0.9941080808639526,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " versiones,",
+    "startMs": 16409,
+    "endMs": 17109,
+    "timestampMs": 16759,
+    "confidence": 0.9980601072311401,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " su",
+    "startMs": 17901,
+    "endMs": 18001,
+    "timestampMs": 17951,
+    "confidence": 0.9890121221542358,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " castigo",
+    "startMs": 18001,
+    "endMs": 18441,
+    "timestampMs": 18221,
+    "confidence": 0.9947869181632996,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " es",
+    "startMs": 18441,
+    "endMs": 18641,
+    "timestampMs": 18541,
+    "confidence": 0.9985417127609253,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " vagar",
+    "startMs": 18641,
+    "endMs": 19201,
+    "timestampMs": 18921,
+    "confidence": 0.8954214751720428,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " hasta",
+    "startMs": 19201,
+    "endMs": 19501,
+    "timestampMs": 19351,
+    "confidence": 0.9927080273628235,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " el",
+    "startMs": 19501,
+    "endMs": 19661,
+    "timestampMs": 19581,
+    "confidence": 0.9954890608787537,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " regreso",
+    "startMs": 19661,
+    "endMs": 20061,
+    "timestampMs": 19861,
+    "confidence": 0.962988555431366,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " de",
+    "startMs": 20061,
+    "endMs": 20201,
+    "timestampMs": 20131,
+    "confidence": 0.9973379969596863,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " Cristo.",
+    "startMs": 20201,
+    "endMs": 20481,
+    "timestampMs": 20341,
+    "confidence": 0.9939464926719666,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " El",
+    "startMs": 21386,
+    "endMs": 21526,
+    "timestampMs": 21456,
+    "confidence": 0.9719995856285095,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " relato",
+    "startMs": 21526,
+    "endMs": 21866,
+    "timestampMs": 21696,
+    "confidence": 0.9927866458892822,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " se",
+    "startMs": 21866,
+    "endMs": 22066,
+    "timestampMs": 21966,
+    "confidence": 0.9969609379768372,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " difundió",
+    "startMs": 22066,
+    "endMs": 22566,
+    "timestampMs": 22316,
+    "confidence": 0.9983240564664205,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " por",
+    "startMs": 22566,
+    "endMs": 22746,
+    "timestampMs": 22656,
+    "confidence": 0.997989296913147,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " Europa.",
+    "startMs": 22746,
+    "endMs": 23046,
+    "timestampMs": 22896,
+    "confidence": 0.9966726303100586,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Génesis",
+    "startMs": 23940,
+    "endMs": 24402,
+    "timestampMs": 24171,
+    "confidence": 0.8406142592430115,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cuenta",
+    "startMs": 24402,
+    "endMs": 24862,
+    "timestampMs": 24632,
+    "confidence": 0.9790756702423096,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " que",
+    "startMs": 24862,
+    "endMs": 25122,
+    "timestampMs": 24992,
+    "confidence": 0.9890602827072144,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " Caín",
+    "startMs": 25122,
+    "endMs": 25482,
+    "timestampMs": 25302,
+    "confidence": 0.9937578737735748,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " mata",
+    "startMs": 25482,
+    "endMs": 25842,
+    "timestampMs": 25662,
+    "confidence": 0.9901690483093262,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " a",
+    "startMs": 25842,
+    "endMs": 26022,
+    "timestampMs": 25932,
+    "confidence": 0.996535062789917,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " su",
+    "startMs": 26022,
+    "endMs": 26142,
+    "timestampMs": 26082,
+    "confidence": 0.9861656427383423,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " hermano",
+    "startMs": 26142,
+    "endMs": 26522,
+    "timestampMs": 26332,
+    "confidence": 0.9952670633792877,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " Abel.",
+    "startMs": 26522,
+    "endMs": 26802,
+    "timestampMs": 26662,
+    "confidence": 0.9325272738933563,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Dios",
+    "startMs": 27601,
+    "endMs": 27861,
+    "timestampMs": 27731,
+    "confidence": 0.9856742024421692,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " lo",
+    "startMs": 27861,
+    "endMs": 28121,
+    "timestampMs": 27991,
+    "confidence": 0.995424211025238,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " condena",
+    "startMs": 28121,
+    "endMs": 28561,
+    "timestampMs": 28341,
+    "confidence": 0.9832827846209208,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " a",
+    "startMs": 28561,
+    "endMs": 28661,
+    "timestampMs": 28611,
+    "confidence": 0.9949948787689209,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " errar",
+    "startMs": 28661,
+    "endMs": 28981,
+    "timestampMs": 28821,
+    "confidence": 0.748187392950058,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " y",
+    "startMs": 28981,
+    "endMs": 29341,
+    "timestampMs": 29161,
+    "confidence": 0.9048760533332825,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " le",
+    "startMs": 29341,
+    "endMs": 29441,
+    "timestampMs": 29391,
+    "confidence": 0.9942032694816589,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " pone",
+    "startMs": 29441,
+    "endMs": 29641,
+    "timestampMs": 29541,
+    "confidence": 0.9982438087463379,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " una",
+    "startMs": 29641,
+    "endMs": 29861,
+    "timestampMs": 29751,
+    "confidence": 0.9918140172958374,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " señal",
+    "startMs": 29861,
+    "endMs": 30281,
+    "timestampMs": 30071,
+    "confidence": 0.9983382821083069,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " para",
+    "startMs": 30281,
+    "endMs": 30441,
+    "timestampMs": 30361,
+    "confidence": 0.9988395571708679,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " protegerlo.",
+    "startMs": 30441,
+    "endMs": 31081,
+    "timestampMs": 30761,
+    "confidence": 0.9943394859631857,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " El",
+    "startMs": 31830,
+    "endMs": 31964,
+    "timestampMs": 31897,
+    "confidence": 0.3985949158668518,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " texto",
+    "startMs": 31964,
+    "endMs": 32244,
+    "timestampMs": 32104,
+    "confidence": 0.9810914993286133,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " no",
+    "startMs": 32244,
+    "endMs": 32604,
+    "timestampMs": 32424,
+    "confidence": 0.9902616143226624,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " describe",
+    "startMs": 32604,
+    "endMs": 33004,
+    "timestampMs": 32804,
+    "confidence": 0.951411247253418,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " su",
+    "startMs": 33004,
+    "endMs": 33224,
+    "timestampMs": 33114,
+    "confidence": 0.9979986548423767,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " forma.",
+    "startMs": 33224,
+    "endMs": 33504,
+    "timestampMs": 33364,
+    "confidence": 0.9994421601295471,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Los",
+    "startMs": 34349,
+    "endMs": 34489,
+    "timestampMs": 34419,
+    "confidence": 0.9661046266555786,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " dos",
+    "startMs": 34489,
+    "endMs": 34669,
+    "timestampMs": 34579,
+    "confidence": 0.9910938143730164,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " relatos",
+    "startMs": 34669,
+    "endMs": 35249,
+    "timestampMs": 34959,
+    "confidence": 0.99858358502388,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " comparten",
+    "startMs": 35249,
+    "endMs": 35769,
+    "timestampMs": 35509,
+    "confidence": 0.9690254628658295,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " la",
+    "startMs": 35769,
+    "endMs": 35949,
+    "timestampMs": 35859,
+    "confidence": 0.9924353957176208,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " condena",
+    "startMs": 35949,
+    "endMs": 36509,
+    "timestampMs": 36229,
+    "confidence": 0.9767615596453348,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " y",
+    "startMs": 36509,
+    "endMs": 36709,
+    "timestampMs": 36609,
+    "confidence": 0.9956749081611633,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " la",
+    "startMs": 36709,
+    "endMs": 36809,
+    "timestampMs": 36759,
+    "confidence": 0.9884661436080933,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " errancia.",
+    "startMs": 36809,
+    "endMs": 37309,
+    "timestampMs": 37059,
+    "confidence": 0.7742601831754049,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Pero",
+    "startMs": 38126,
+    "endMs": 38273,
+    "timestampMs": 38200,
+    "confidence": 0.9869608879089355,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " hay",
+    "startMs": 38273,
+    "endMs": 38453,
+    "timestampMs": 38363,
+    "confidence": 0.9895114302635193,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " una",
+    "startMs": 38453,
+    "endMs": 38593,
+    "timestampMs": 38523,
+    "confidence": 0.9906285405158997,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " diferencia:",
+    "startMs": 38593,
+    "endMs": 39033,
+    "timestampMs": 38813,
+    "confidence": 0.9993467926979065,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " el",
+    "startMs": 39980,
+    "endMs": 40140,
+    "timestampMs": 40060,
+    "confidence": 0.9561498761177063,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " Génesis",
+    "startMs": 40140,
+    "endMs": 40600,
+    "timestampMs": 40370,
+    "confidence": 0.741784950097402,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " nunca",
+    "startMs": 40600,
+    "endMs": 41100,
+    "timestampMs": 40850,
+    "confidence": 0.9796002507209778,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " dice",
+    "startMs": 41100,
+    "endMs": 41500,
+    "timestampMs": 41300,
+    "confidence": 0.9993532299995422,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " que",
+    "startMs": 41500,
+    "endMs": 41680,
+    "timestampMs": 41590,
+    "confidence": 0.9953073859214783,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " Caín",
+    "startMs": 41680,
+    "endMs": 42020,
+    "timestampMs": 41850,
+    "confidence": 0.8420599699020386,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " sea",
+    "startMs": 42020,
+    "endMs": 42260,
+    "timestampMs": 42140,
+    "confidence": 0.9671313166618347,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " inmortal.",
+    "startMs": 42260,
+    "endMs": 42780,
+    "timestampMs": 42520,
+    "confidence": 0.9951215982437134,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Incluso",
+    "startMs": 43629,
+    "endMs": 44109,
+    "timestampMs": 43869,
+    "confidence": 0.9894290367762247,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " cuenta",
+    "startMs": 44109,
+    "endMs": 44369,
+    "timestampMs": 44239,
+    "confidence": 0.9985055923461914,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " que",
+    "startMs": 44369,
+    "endMs": 44549,
+    "timestampMs": 44459,
+    "confidence": 0.9956856966018677,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " se",
+    "startMs": 44549,
+    "endMs": 44689,
+    "timestampMs": 44619,
+    "confidence": 0.9967447519302368,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " estableció",
+    "startMs": 44689,
+    "endMs": 45249,
+    "timestampMs": 44969,
+    "confidence": 0.9978697299957275,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " en",
+    "startMs": 45249,
+    "endMs": 45389,
+    "timestampMs": 45319,
+    "confidence": 0.9960507750511169,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " la",
+    "startMs": 45389,
+    "endMs": 45529,
+    "timestampMs": 45459,
+    "confidence": 0.9533393979072571,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " tierra",
+    "startMs": 45529,
+    "endMs": 45849,
+    "timestampMs": 45689,
+    "confidence": 0.8345945477485657,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " de",
+    "startMs": 45849,
+    "endMs": 46009,
+    "timestampMs": 45929,
+    "confidence": 0.992970883846283,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " Nod.",
+    "startMs": 46009,
+    "endMs": 46209,
+    "timestampMs": 46109,
+    "confidence": 0.80058753490448,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Entonces,",
+    "startMs": 46998,
+    "endMs": 47461,
+    "timestampMs": 47230,
+    "confidence": 0.8349859714508057,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " ¿son",
+    "startMs": 48463,
+    "endMs": 48743,
+    "timestampMs": 48603,
+    "confidence": 0.9524918496608734,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " el",
+    "startMs": 48743,
+    "endMs": 48903,
+    "timestampMs": 48823,
+    "confidence": 0.9833036661148071,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " mismo",
+    "startMs": 48903,
+    "endMs": 49143,
+    "timestampMs": 49023,
+    "confidence": 0.998047947883606,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " personaje?",
+    "startMs": 49143,
+    "endMs": 49703,
+    "timestampMs": 49423,
+    "confidence": 0.9902670979499817,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " La",
+    "startMs": 50553,
+    "endMs": 50673,
+    "timestampMs": 50613,
+    "confidence": 0.9695367217063904,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " semejanza",
+    "startMs": 50673,
+    "endMs": 51253,
+    "timestampMs": 50963,
+    "confidence": 0.9789280742406845,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " no",
+    "startMs": 51253,
+    "endMs": 51473,
+    "timestampMs": 51363,
+    "confidence": 0.9964489936828613,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " demuestra",
+    "startMs": 51473,
+    "endMs": 51973,
+    "timestampMs": 51723,
+    "confidence": 0.9938584168752035,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " una",
+    "startMs": 51973,
+    "endMs": 52133,
+    "timestampMs": 52053,
+    "confidence": 0.996408998966217,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " identidad",
+    "startMs": 52133,
+    "endMs": 52793,
+    "timestampMs": 52463,
+    "confidence": 0.9952437281608582,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " ni",
+    "startMs": 52793,
+    "endMs": 53133,
+    "timestampMs": 52963,
+    "confidence": 0.8342605233192444,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " que",
+    "startMs": 53133,
+    "endMs": 53273,
+    "timestampMs": 53203,
+    "confidence": 0.9921466708183289,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " un",
+    "startMs": 53273,
+    "endMs": 53433,
+    "timestampMs": 53353,
+    "confidence": 0.9994878768920898,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " relato",
+    "startMs": 53433,
+    "endMs": 53793,
+    "timestampMs": 53613,
+    "confidence": 0.9960343241691589,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " copie",
+    "startMs": 53793,
+    "endMs": 54253,
+    "timestampMs": 54023,
+    "confidence": 0.7590482234954834,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " al",
+    "startMs": 54253,
+    "endMs": 54373,
+    "timestampMs": 54313,
+    "confidence": 0.9751264452934265,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " otro.",
+    "startMs": 54373,
+    "endMs": 54593,
+    "timestampMs": 54483,
+    "confidence": 0.999207079410553,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Algunas",
+    "startMs": 55395,
+    "endMs": 55815,
+    "timestampMs": 55605,
+    "confidence": 0.989708662033081,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " versiones",
+    "startMs": 55815,
+    "endMs": 56275,
+    "timestampMs": 56045,
+    "confidence": 0.9941287636756897,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " europeas",
+    "startMs": 56275,
+    "endMs": 56835,
+    "timestampMs": 56555,
+    "confidence": 0.9897386133670807,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " difundieron",
+    "startMs": 56835,
+    "endMs": 57415,
+    "timestampMs": 57125,
+    "confidence": 0.9942460457483927,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " prejuicios",
+    "startMs": 57415,
+    "endMs": 58055,
+    "timestampMs": 57735,
+    "confidence": 0.8984910845756531,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " contra",
+    "startMs": 58055,
+    "endMs": 58395,
+    "timestampMs": 58225,
+    "confidence": 0.996624231338501,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " el",
+    "startMs": 58395,
+    "endMs": 58555,
+    "timestampMs": 58475,
+    "confidence": 0.9977756142616272,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " pueblo",
+    "startMs": 58555,
+    "endMs": 58775,
+    "timestampMs": 58665,
+    "confidence": 0.987753689289093,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " judío.",
+    "startMs": 58775,
+    "endMs": 59335,
+    "timestampMs": 59055,
+    "confidence": 0.9609151482582092,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " Dos",
+    "startMs": 60159,
+    "endMs": 60395,
+    "timestampMs": 60277,
+    "confidence": 0.9642489552497864,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " relatos",
+    "startMs": 60395,
+    "endMs": 61115,
+    "timestampMs": 60755,
+    "confidence": 0.9963168799877167,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " y",
+    "startMs": 61115,
+    "endMs": 61335,
+    "timestampMs": 61225,
+    "confidence": 0.9576337337493896,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " una",
+    "startMs": 61335,
+    "endMs": 61535,
+    "timestampMs": 61435,
+    "confidence": 0.9969024062156677,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " condena",
+    "startMs": 61535,
+    "endMs": 62035,
+    "timestampMs": 61785,
+    "confidence": 0.9933480620384216,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " parecida.",
+    "startMs": 62035,
+    "endMs": 62495,
+    "timestampMs": 62265,
+    "confidence": 0.9874011874198914,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " ¿Por",
+    "startMs": 63351,
+    "endMs": 63451,
+    "timestampMs": 63401,
+    "confidence": 0.9817971885204315,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " qué",
+    "startMs": 63451,
+    "endMs": 63611,
+    "timestampMs": 63531,
+    "confidence": 0.9802320003509521,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " crees",
+    "startMs": 63611,
+    "endMs": 63951,
+    "timestampMs": 63781,
+    "confidence": 0.9895619750022888,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " que",
+    "startMs": 63951,
+    "endMs": 64091,
+    "timestampMs": 64021,
+    "confidence": 0.997624933719635,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " la",
+    "startMs": 64091,
+    "endMs": 64191,
+    "timestampMs": 64141,
+    "confidence": 0.9970567226409912,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " idea",
+    "startMs": 64191,
+    "endMs": 64411,
+    "timestampMs": 64301,
+    "confidence": 0.9949924349784851,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " de",
+    "startMs": 64411,
+    "endMs": 64591,
+    "timestampMs": 64501,
+    "confidence": 0.9972467422485352,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " vagar",
+    "startMs": 64591,
+    "endMs": 64951,
+    "timestampMs": 64771,
+    "confidence": 0.9035822153091431,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " como",
+    "startMs": 64951,
+    "endMs": 65151,
+    "timestampMs": 65051,
+    "confidence": 0.9907366633415222,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " castigo",
+    "startMs": 65151,
+    "endMs": 65731,
+    "timestampMs": 65441,
+    "confidence": 0.9939740896224976,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " aparece",
+    "startMs": 65731,
+    "endMs": 66091,
+    "timestampMs": 65911,
+    "confidence": 0.9232083559036255,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " en",
+    "startMs": 66091,
+    "endMs": 66411,
+    "timestampMs": 66251,
+    "confidence": 0.9990918636322021,
+    "pageBreakAfter": true
+  },
+  {
+    "text": " historias",
+    "startMs": 66411,
+    "endMs": 66911,
+    "timestampMs": 66661,
+    "confidence": 0.996378481388092,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " tan",
+    "startMs": 66911,
+    "endMs": 67171,
+    "timestampMs": 67041,
+    "confidence": 0.9928821325302124,
+    "pageBreakAfter": false
+  },
+  {
+    "text": " distintas?",
+    "startMs": 67171,
+    "endMs": 67951,
+    "timestampMs": 67561,
+    "confidence": 0.9987366497516632,
+    "pageBreakAfter": true
+  }
+]
