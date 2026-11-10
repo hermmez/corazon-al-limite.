@@ -1,0 +1,126 @@
+{
+  "file": "episodio14_FINAL_GRADY_70s.mp4",
+  "sha256": "118da360c7b295629ec1e2ecef4590ffa9d67c94cee8dc8a73b924d97285a82f",
+  "duration": 70,
+  "width": 1080,
+  "height": 1920,
+  "frames": 2100,
+  "fps": 30,
+  "codec": "h264",
+  "audioCodec": "aac",
+  "sampleRate": 48000,
+  "audioBitrate": 192294,
+  "pixelFormat": "yuv420p",
+  "colorSpace": "bt709",
+  "videoProfile": "High",
+  "faststart": true,
+  "fullDecode": true,
+  "checkedTimestamps": 2100,
+  "blackIntervals": 0,
+  "approvedArtwork": {
+    "silbato-exterior-aprobado.png": "171e96be24ec44e7eb0937b51d2edc247c935e49369549244755b1d4da70d22a",
+    "silbato-corte-aprobado.png": "40eabe5874c8ac28e8fcff6fdf2c900d22cc7df81ec33d76e3a5d64ddd346dbd"
+  },
+  "identicalAlpha": true,
+  "audioCorrelation": 0.999948,
+  "whistleDemonstration": {
+    "start": 68.26,
+    "end": 69.46,
+    "sourceStart": 0.57,
+    "sourceEnd": 1.77,
+    "envelope": [
+      0.116,
+      0.2,
+      0.26,
+      0.307,
+      0.368,
+      0.439,
+      0.444,
+      0.499,
+      0.58,
+      0.556,
+      0.684,
+      0.772,
+      0.793,
+      0.819,
+      0.776,
+      0.825,
+      0.776,
+      0.814,
+      0.871,
+      0.86,
+      0.917,
+      0.887,
+      0.912,
+      1.0,
+      0.856,
+      0.832,
+      0.831,
+      0.605,
+      0.387,
+      0.131
+    ],
+    "title": "Aztec Death Whistle",
+    "author": "Guy_Personface",
+    "license": "CC0 1.0",
+    "source": "https://freesound.org/people/Guy_Personface/sounds/832472/",
+    "sha256": "9e35c0c7085d7875e2cf11e49373483816a320e914d65d570d256e0eac4f3edd"
+  },
+  "whistleEncodedCorrelation": 0.999192,
+  "whistleEncodedPeakDbfs": -9.62,
+  "peakEncodedDbfs": -1.99,
+  "internalPausesLongerThan700ms": [],
+  "closingSilence": [
+    67.680792,
+    70.0
+  ],
+  "voice": "Grady",
+  "words": 167,
+  "captionGroups": 44,
+  "tempo": 1,
+  "lastWordEndMs": 67550,
+  "authorizedCredits": 4.6,
+  "paidTakes": 1,
+  "motion": {
+    "sampleFps": 4,
+    "crop": [
+      0,
+      535,
+      1080,
+      950
+    ],
+    "threshold": 0.75,
+    "referenceEpisode04At125": {
+      "median": 0.875,
+      "p90": 9.734,
+      "lowMotionIntervals": [
+        [
+          38.75,
+          40.75
+        ]
+      ]
+    },
+    "episode14At100": {
+      "median": 0.854,
+      "p90": 4.17,
+      "lowMotionIntervals": [
+        [
+          3.5,
+          9.5
+        ],
+        [
+          18.0,
+          21.0
+        ],
+        [
+          25.5,
+          28.0
+        ],
+        [
+          65.5,
+          68.0
+        ]
+      ]
+    }
+  }
+}

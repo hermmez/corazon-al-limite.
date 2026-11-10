@@ -1,0 +1,232 @@
+{
+  "provider": "Higgsfield",
+  "model": "elevenlabs_v4",
+  "voice": "Grady",
+  "voiceId": "e2a2d2e6-9ed2-59cd-82af-feaa27f8a678",
+  "generationId": "dc5f9561-b482-47b4-a873-855a32bb54ae",
+  "generations": 1,
+  "credits": 4.6,
+  "sourceDuration": 64.209,
+  "duration": 70,
+  "sampleRate": 48000,
+  "tempo": 1,
+  "captionNormalization": [
+    "a terrorizar → aterrorizar (segmentación automática)"
+  ],
+  "demo": {
+    "start": 68.26,
+    "end": 69.46,
+    "sourceStart": 0.57,
+    "sourceEnd": 1.77,
+    "envelope": [
+      0.116,
+      0.2,
+      0.26,
+      0.307,
+      0.368,
+      0.439,
+      0.444,
+      0.499,
+      0.58,
+      0.556,
+      0.684,
+      0.772,
+      0.793,
+      0.819,
+      0.776,
+      0.825,
+      0.776,
+      0.814,
+      0.871,
+      0.86,
+      0.917,
+      0.887,
+      0.912,
+      1.0,
+      0.856,
+      0.832,
+      0.831,
+      0.605,
+      0.387,
+      0.131
+    ],
+    "title": "Aztec Death Whistle",
+    "author": "Guy_Personface",
+    "license": "CC0 1.0",
+    "source": "https://freesound.org/people/Guy_Personface/sounds/832472/",
+    "sha256": "9e35c0c7085d7875e2cf11e49373483816a320e914d65d570d256e0eac4f3edd"
+  },
+  "words": 167,
+  "pages": 44,
+  "lastWordEndMs": 67550,
+  "edits": [
+    [
+      160061,
+      5420
+    ],
+    [
+      223327,
+      9432
+    ],
+    [
+      469388,
+      5522
+    ],
+    [
+      565453,
+      6438
+    ],
+    [
+      794860,
+      5960
+    ],
+    [
+      926463,
+      6730
+    ],
+    [
+      973263,
+      12561
+    ],
+    [
+      1188814,
+      7081
+    ],
+    [
+      1316822,
+      3977
+    ],
+    [
+      1457639,
+      8131
+    ],
+    [
+      1626490,
+      8932
+    ],
+    [
+      1804219,
+      4862
+    ],
+    [
+      1931335,
+      8792
+    ],
+    [
+      2086791,
+      7442
+    ],
+    [
+      2169709,
+      10335
+    ],
+    [
+      2277585,
+      6273
+    ],
+    [
+      2459794,
+      8335
+    ],
+    [
+      2575329,
+      8039
+    ],
+    [
+      2773266,
+      6336
+    ],
+    [
+      2834593,
+      13168
+    ],
+    [
+      2875519,
+      12600
+    ],
+    [
+      2915748,
+      6435
+    ]
+  ],
+  "quietAddedSeconds": 3.6000208333333332,
+  "preRoll": 0.15,
+  "gainDb": 0.43000000000000016,
+  "mixLoudness": {
+    "input_i": "-16.13",
+    "input_tp": "-1.99",
+    "input_lra": "3.00",
+    "input_thresh": "-26.97",
+    "output_i": "-16.10",
+    "output_tp": "-2.00",
+    "output_lra": "2.90",
+    "output_thresh": "-26.90",
+    "normalization_type": "dynamic",
+    "target_offset": "0.10"
+  },
+  "sourceSha256": "9142421d1617e0800974744fc30211d127e92c61267c31448871f224a54bc5e7",
+  "mixSha256": "d3e50597d397341b7d3aaf715cbb940233019d84ae23cc9f13ad0f4aeeee5472",
+  "cues": {
+    "grito": 2.75,
+    "barro": 1.57,
+    "arcilla": 11.474,
+    "cuerpo": 18.653,
+    "conducto": 23.175,
+    "chorro": 24.515,
+    "cavidad": 31.025,
+    "inestable": 34.654,
+    "aspero": 37.02,
+    "rostro": 40.362,
+    "campana": 43.465,
+    "exterior": 49.215,
+    "tlatelolco": 50.426,
+    "entierro": 53.086,
+    "batalla": 58.707,
+    "sale": 63.716,
+    "noche": 67.29
+  },
+  "stages": [
+    {
+      "name": "EL GRITO",
+      "briefStart": 0,
+      "start": 0,
+      "end": 10.57
+    },
+    {
+      "name": "EL BARRO",
+      "briefStart": 9,
+      "start": 10.57,
+      "end": 20.473
+    },
+    {
+      "name": "EL CONDUCTO",
+      "briefStart": 19,
+      "start": 20.473,
+      "end": 29.144
+    },
+    {
+      "name": "LAS CÁMARAS",
+      "briefStart": 29,
+      "start": 29.144,
+      "end": 39.782
+    },
+    {
+      "name": "EL CRÁNEO",
+      "briefStart": 43,
+      "start": 39.782,
+      "end": 50.266
+    },
+    {
+      "name": "EL MISTERIO",
+      "briefStart": 53,
+      "start": 50.266,
+      "end": 61.039
+    },
+    {
+      "name": "LA REVELACIÓN",
+      "briefStart": 63,
+      "start": 61.039,
+      "end": 70
+    }
+  ]
+}

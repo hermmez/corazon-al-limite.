@@ -1,0 +1,44 @@
+[
+  {
+    "name": "EL GRITO",
+    "start": 0,
+    "end": 9,
+    "text": "¿Cómo puede un silbato de barro sonar como un grito? Mira de cerca. Este pequeño instrumento del México prehispánico esconde su secreto en el interior."
+  },
+  {
+    "name": "EL BARRO",
+    "start": 9,
+    "end": 19,
+    "text": "Todo comienza con arcilla. Esta reconstrucción reúne las partes de un ejemplar estudiado con tomografía. El barro forma el cuerpo del instrumento."
+  },
+  {
+    "name": "EL CONDUCTO",
+    "start": 19,
+    "end": 29,
+    "text": "Al soplar, el aire entra por un conducto estrecho que dirige el chorro hacia el interior. Todavía falta ver qué lo hace sonar así."
+  },
+  {
+    "name": "LAS CÁMARAS",
+    "start": 29,
+    "end": 43,
+    "text": "El chorro se enfrenta a una cavidad cerrada. En el espacio entre ambos, el flujo se vuelve inestable. De ahí sale un sonido áspero que puede recordar a un grito."
+  },
+  {
+    "name": "EL CRÁNEO",
+    "start": 43,
+    "end": 53,
+    "text": "El rostro de cráneo cubre la estructura. Debajo sigue la campana, por donde sale el sonido. El rostro es visible. Las cavidades hacen el trabajo."
+  },
+  {
+    "name": "EL MISTERIO",
+    "start": 53,
+    "end": 63,
+    "text": "En Tlatelolco aparecieron ejemplares en un entierro ritual. Ese hallazgo habla de un contexto. El supuesto uso para aterrorizar en batalla sigue sin demostrarse."
+  },
+  {
+    "name": "LA REVELACIÓN",
+    "start": 63,
+    "end": 70,
+    "text": "El aire entra, oscila y sale. ¿Te atreverías a escuchar ese silbato en medio de la noche?"
+  }
+]
