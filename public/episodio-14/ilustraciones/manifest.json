@@ -1,0 +1,67 @@
+{
+  "generatedBy": "ImageGen integrado",
+  "assets": [
+    {
+      "file": "patio-nocturno.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "2b87ddc2381be8955eba00056b5317a36ae524d933d16f598f5d1f7262efcdad",
+      "references": [
+        "public/episodio-13/ilustraciones/jerusalen-antigua.png",
+        "public/episodio-13/ilustraciones/camino-bruma.png"
+      ],
+      "prompt": "Historical-scene and background plate for a vertical 9:16 Spanish educational film. Reference pictures are only for their detailed hand-painted 2D illustration style; discard their geography and motifs. Fill the portrait canvas with a plausible Late Postclassic Mexica courtyard at night on the highland lake plain, stone basalt paving, dark red porous tezontle masonry, plastered low stepped platforms, a rounded stepped base only glimpsed in the distant right, reed baskets, an agave and a few native highland reeds around the margins. A low broad flat-topped rough stone ledge in the lower centre (around y 72 percent) where a separate small object can sit. Room at left for a separate figure. Deep blue sky, warm reflected light from a tiny distant brazier, ink-dark crevices, cinematic mysterious shadows, atmospheric lake haze, layered depth. Confident outlines and rich painted texture, never photorealistic or 3D. No people, skulls, bones, letters, flags, labels, warfare, blood or pre-drawn instrument. A single fully illustrated full-bleed image."
+    },
+    {
+      "file": "mesa-arcilla.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "b686c78c9133e49be5c949d77dfe73a84f74d192472ad0f5d383c7b9b06251ae",
+      "references": [
+        "public/episodio-13/ilustraciones/manuscrito-abierto.png",
+        "public/episodio-13/ilustraciones/jerusalen-antigua.png"
+      ],
+      "prompt": "Create one detailed full-bleed portrait 9:16 illustrated background for a 2D educational archaeology video. The attached images guide the hand-painted animated style only. A warm mysterious conservation workbench, viewed from a slightly low angle, with subtle charcoal-to-teal background, an ancient weathered slate slab spanning the middle foreground at about 72% frame height, dark walnut under it, a few bristle tools and fragments of coarse clay at the far sides, a copper-colored lamp glint from offscreen upper left, archaeological papers with illegible abstract line texture tucked far into the margins. Keep center clear but visibly richly textured and warm so a separately animated ceramic object can be placed large. Composition full edge to edge. Layered stone grain, hand-painted shaded surfaces, amber and desaturated blue-green against warm clay tones. No objects in the central display area, no people, no whole skull, no mask, no writing, no modern logos. 2D graphic-novel animation, not a photo or render."
+    },
+    {
+      "file": "contexto-tlatelolco.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "23cf862d8f171141b2c1415afdd6868ad23ffdfc0da67e68e052d067def9e50c",
+      "references": [
+        "public/episodio-13/ilustraciones/jerusalen-antigua.png",
+        "public/episodio-13/ilustraciones/camino-bruma.png"
+      ],
+      "prompt": "One richly detailed full-bleed vertical 9:16 2D painted environment for a respectful non-graphic educational reconstruction of an archaeological excavation in the ceremonial precinct of Tlatelolco, Mexico City. Attached references are style only, not architecture. Warm late-afternoon light, historically plausible red tezontle stone blocks, basalt slab paving, pale plaster remnants, a portion of a low rounded Mexica platform in the distant upper half, field-grid strings kept at the right and left, hand-brush and folded neutral cloth at the outer edges, a shallow excavation cut with visible dry earthen strata and empty stone ledge in lower-middle foreground for a separate object overlay. Soft distant terrace silhouettes, depth and warm realistic color. No people, bodies, bones, graves with visible remains, weapons, military scenes, modern skyline, lettering, monuments from other cultures or illustration panels. Respectful restrained cinematic educational illustration with clear shadow shapes and finely painted texture."
+    },
+    {
+      "file": "silbato-exterior-aprobado.png",
+      "width": 939,
+      "height": 1675,
+      "sha256": "171e96be24ec44e7eb0937b51d2edc247c935e49369549244755b1d4da70d22a",
+      "alpha": "RGBA",
+      "approved": true,
+      "description": "Exterior 2D basado en la fotografía del usuario"
+    },
+    {
+      "file": "silbato-corte-aprobado.png",
+      "width": 939,
+      "height": 1675,
+      "sha256": "40eabe5874c8ac28e8fcff6fdf2c900d22cc7df81ec33d76e3a5d64ddd346dbd",
+      "alpha": "RGBA",
+      "approved": true,
+      "description": "Corte ilustrativo de un modelo comparable"
+    }
+  ],
+  "reused": [
+    "public/imagenes/personajes/12_preocupado.png"
+  ],
+  "vector": "src/episodios/episodio-14-silbato-mexica/silbato-aprobado.tsx",
+  "reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11555264/figure/Fig1/",
+  "approvedSilhouette": "Las dos imágenes comparten el canal alfa completo píxel por píxel.",
+  "cutArtworkSource": "src/episodios/episodio-14-silbato-mexica/arte/corte-capas.svg",
+  "exteriorReferences": [
+    "Fotografía proporcionada y aprobada por el usuario",
+    "public/imagenes/anatomia/02_cerebro_corte_transversal.png"
+  ]
+}

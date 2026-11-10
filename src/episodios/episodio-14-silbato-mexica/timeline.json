@@ -1,0 +1,111 @@
+{
+  "audioReady": true,
+  "cues": {
+    "grito": 2.75,
+    "barro": 1.57,
+    "arcilla": 11.474,
+    "cuerpo": 18.653,
+    "conducto": 23.175,
+    "chorro": 24.515,
+    "cavidad": 31.025,
+    "inestable": 34.654,
+    "aspero": 37.02,
+    "rostro": 40.362,
+    "campana": 43.465,
+    "exterior": 49.215,
+    "tlatelolco": 50.426,
+    "entierro": 53.086,
+    "batalla": 58.707,
+    "sale": 63.716,
+    "noche": 67.29
+  },
+  "stages": [
+    {
+      "name": "EL GRITO",
+      "briefStart": 0,
+      "start": 0,
+      "end": 10.57
+    },
+    {
+      "name": "EL BARRO",
+      "briefStart": 9,
+      "start": 10.57,
+      "end": 20.473
+    },
+    {
+      "name": "EL CONDUCTO",
+      "briefStart": 19,
+      "start": 20.473,
+      "end": 29.144
+    },
+    {
+      "name": "LAS CÁMARAS",
+      "briefStart": 29,
+      "start": 29.144,
+      "end": 39.782
+    },
+    {
+      "name": "EL CRÁNEO",
+      "briefStart": 43,
+      "start": 39.782,
+      "end": 50.266
+    },
+    {
+      "name": "EL MISTERIO",
+      "briefStart": 53,
+      "start": 50.266,
+      "end": 61.039
+    },
+    {
+      "name": "LA REVELACIÓN",
+      "briefStart": 63,
+      "start": 61.039,
+      "end": 70
+    }
+  ],
+  "tempo": 1,
+  "demo": {
+    "start": 68.26,
+    "end": 69.46,
+    "sourceStart": 0.57,
+    "sourceEnd": 1.77,
+    "envelope": [
+      0.116,
+      0.2,
+      0.26,
+      0.307,
+      0.368,
+      0.439,
+      0.444,
+      0.499,
+      0.58,
+      0.556,
+      0.684,
+      0.772,
+      0.793,
+      0.819,
+      0.776,
+      0.825,
+      0.776,
+      0.814,
+      0.871,
+      0.86,
+      0.917,
+      0.887,
+      0.912,
+      1.0,
+      0.856,
+      0.832,
+      0.831,
+      0.605,
+      0.387,
+      0.131
+    ],
+    "title": "Aztec Death Whistle",
+    "author": "Guy_Personface",
+    "license": "CC0 1.0",
+    "source": "https://freesound.org/people/Guy_Personface/sounds/832472/",
+    "sha256": "9e35c0c7085d7875e2cf11e49373483816a320e914d65d570d256e0eac4f3edd"
+  },
+  "alignment": "faster-whisper-small multilingual, Spanish; quiet edits remapped at sample level"
+}

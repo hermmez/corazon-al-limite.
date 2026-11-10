@@ -1,0 +1,42 @@
+{
+  "baseline": "56de33be50ae4b924d0ca90f1a5e45039154e772",
+  "libraryPng": 68,
+  "prior": [
+    {
+      "file": "episodio04_FINAL_GRADY_70s.mp4",
+      "sha256": "793e93a7d88661a2d2e543440d4ba5535af34064582e349fa2493e7a44a800f5"
+    },
+    {
+      "file": "episodio05_FINAL_GRADY_70s.mp4",
+      "sha256": "35496256a2202e6f6d092670b714b622d88792e85a3ce27f088ba19289f606a3"
+    },
+    {
+      "file": "episodio06_FINAL_GRADY_70s.mp4",
+      "sha256": "f3e25a52104d9a5f6eddebe520aeca5c2e2e524e33596f82665285bcd93788cc"
+    },
+    {
+      "file": "episodio07_FINAL_GRADY_70s.mp4",
+      "sha256": "0fea5aa47089aee62ba60214290b852d256f17301b302070b5eb33b0a9492d93"
+    },
+    {
+      "file": "episodio08_FINAL_GRADY_70s.mp4",
+      "sha256": "4161c02e4d82ae1fd45b0f66c95282d60dddfec31bf0cc9c712ba94eec9f29ef"
+    },
+    {
+      "file": "episodio10_FINAL_GRADY_70s.mp4",
+      "sha256": "cf4bb384f0bc37d1a12b08b48fa9374533e86ba78a5519f3ecd7829cd91b8a15"
+    },
+    {
+      "file": "episodio11_FINAL_GRADY_70s.mp4",
+      "sha256": "c3696ba582c78f84395f23de03bc33d0e68118505f27cb2b2648ad8d6a8324f6"
+    },
+    {
+      "file": "episodio12_FINAL_GRADY_70s.mp4",
+      "sha256": "28bef455e19ee18eb77535e091564586b316086e4820322d1fb954da8096d607"
+    },
+    {
+      "file": "episodio13_FINAL_GRADY_70s.mp4",
+      "sha256": "d8751387c5870b4e29aae02b18d06a0ebb5d9fffe1136eb4da4711b5548d3f8f"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 939 1675" width="939" height="1675">
+<title>Corte lateral ilustrativo de un silbato de terracota</title>
+<desc>El contorno proviene de la ilustración exterior. El recorrido acústico se dibujó como un esquema de un ejemplar comparable, IV Ca 2621m, y no identifica la estructura del objeto fotografiado.</desc>
+<defs>
+  <path id="plano" d="M178 106 C190 86 217 76 243 72 Q293 62 343 72 C352 78 360 99 362 130 C372 235 397 379 423 441 C443 492 484 518 554 542 C617 563 665 591 702 633 C736 666 755 708 748 751 C743 782 719 800 710 828 C697 863 697 907 710 946 C726 999 726 1039 705 1084 C688 1124 676 1158 692 1191 C710 1226 714 1268 731 1296 C743 1313 741 1332 723 1350 C689 1381 662 1381 649 1412 C635 1456 606 1490 568 1517 C520 1550 460 1556 404 1545 C349 1534 295 1504 260 1458 C231 1423 211 1380 193 1337 C177 1297 170 1258 149 1212 C129 1170 109 1138 99 1094 C90 1051 83 1002 75 958 C64 899 66 852 85 799 C101 751 129 698 160 652 C194 601 222 556 225 497 C229 444 218 388 209 338 C199 268 184 193 176 146 Q170 122 178 106Z"/>
+  <clipPath id="corte"><use xlink:href="#plano"/></clipPath>
+  <linearGradient id="clay" x1=".07" y1=".04" x2=".95" y2=".92">
+    <stop offset="0" stop-color="#e4a173"/><stop offset=".39" stop-color="#ce8458"/><stop offset=".69" stop-color="#b06847"/><stop offset="1" stop-color="#8c4b36"/>
+  </linearGradient>
+  <linearGradient id="dark" x1=".12" y1=".08" x2=".83" y2=".95">
+    <stop offset="0" stop-color="#2d1a19"/><stop offset=".49" stop-color="#4a271f"/><stop offset=".78" stop-color="#6b382b"/><stop offset="1" stop-color="#3c2220"/>
+  </linearGradient>
+  <linearGradient id="edge" x1=".2" y1=".02" x2=".76" y2=".89">
+    <stop offset="0" stop-color="#ffd2a0"/><stop offset=".53" stop-color="#d89766"/><stop offset="1" stop-color="#bd744a"/>
+  </linearGradient>
+  <pattern id="poros" width="109" height="137" patternUnits="userSpaceOnUse">
+    <path d="m4 6 11 2 5 7-11-1z m24 26 14-4 2 6-8 6z m35-18 8 2 3 5-9 3z m23 33 10-2 6 5-11 3z m-73 33 13-6 5 4-11 7z m32-9 10 1 3 6-9 2z m23 29 10-6 5 4-10 6z m-65 21 9 3-2 5-9-3z m80 7 12-5 3 4-11 6z" fill="#763f2f" opacity=".32"/>
+    <path d="m14 19 7 2 m11 24 12-3 m19-15 7 1 m20 26 10-3 m-85 37 10-5 m24-3 8 1 m15 25 8-3 m-74 25 8 4 m79-6 11-4" fill="none" stroke="#ffbf86" stroke-width="2.1" opacity=".57"/>
+    <path d="m41 16 5-2 m49 19 4-3 m-64 21 7 1 m28 15 7 1 m-49 36 5 2 m61-21 7-1 m-41 43 6 2" fill="none" stroke="#6d3b30" stroke-width="2.4" opacity=".3"/>
+  </pattern>
+  <marker id="flecha" markerWidth="7" markerHeight="5" refX="6" refY="2.5" orient="auto" markerUnits="strokeWidth"><path d="M.35 .35 6.6 2.5 .35 4.65 1.9 2.5Z" fill="#bde4d0"/></marker>
+  <path id="conducto" d="M222 82 Q253 70 285 75 Q296 85 299 108 C306 181 319 270 334 357 C346 429 361 480 382 534 C400 582 414 628 423 678 C432 731 445 766 465 810 L453 849 Q430 842 416 816 C390 767 373 719 361 670 C344 603 330 555 309 502 C284 440 269 369 254 294 C239 224 225 146 216 105 Q215 90 222 82Z"/>
+  <path id="choque" d="M419 795 C439 783 466 783 482 797 C504 816 511 850 504 875 C497 903 476 928 446 929 C418 931 393 916 386 888 C379 859 387 829 402 812Z"/>
+  <path id="contrapresion" d="M469 816 C487 788 517 770 551 769 C597 768 635 794 651 836 C666 876 655 928 631 959 C607 993 567 1006 531 990 C500 977 480 948 473 919 C468 900 454 885 450 866 C447 846 454 831 469 816Z"/>
+  <path id="campana" d="M421 886 C449 878 471 887 482 913 C459 952 450 985 451 1020 C456 1075 485 1130 528 1180 C560 1217 600 1238 640 1253 C677 1267 701 1293 737 1311 L742 1328 C724 1345 701 1344 675 1337 C635 1326 597 1321 561 1312 C526 1303 491 1278 463 1251 C416 1216 376 1174 354 1129 C327 1075 325 1017 345 966 C358 930 384 902 421 886Z"/>
+  <clipPath id="vacios"><use xlink:href="#conducto"/><use xlink:href="#choque"/><use xlink:href="#contrapresion"/><use xlink:href="#campana"/></clipPath>
+</defs>
+<g id="seccion-del-barro">
+  <use xlink:href="#plano" fill="#6b3a2c" stroke="#422821" stroke-width="18" stroke-linejoin="round"/>
+  <use xlink:href="#plano" fill="url(#clay)" stroke="url(#edge)" stroke-width="9" stroke-linejoin="round"/>
+  <g clip-path="url(#corte)">
+    <path d="M171 122 C205 99 279 72 345 80 C344 117 334 154 338 191 C310 196 276 205 246 225 C212 249 192 226 176 215Z M201 354 Q287 319 371 335 L397 421 Q307 428 269 486 Q230 491 218 475Z M211 526 C298 517 365 464 443 479 C503 491 552 523 626 555 L669 613 Q589 613 517 599 C418 580 353 629 300 677 C248 730 160 734 122 721Z M101 833 Q214 795 253 741 C290 729 316 735 353 729 C280 791 261 823 226 896 Q178 987 69 992Z M166 1096 Q242 1140 264 1210 Q285 1281 325 1318 Q280 1318 251 1287 C223 1271 198 1222 167 1218Z" fill="#efaa74" opacity=".63"/>
+    <path d="M366 75 C379 189 410 341 426 416 C455 493 505 499 561 527 C630 554 717 596 747 672 C767 723 756 769 739 808 C713 867 714 928 738 981 L733 1077 Q691 1094 676 1119 Q631 1186 644 1234 Q683 1278 667 1337 C638 1409 610 1458 546 1486 C485 1511 439 1497 376 1477 Q293 1452 247 1378 C270 1479 338 1537 431 1574 C531 1608 624 1566 675 1478 C733 1378 749 1257 766 1154 C784 1046 805 893 803 766 C801 637 709 551 578 498 Q473 457 442 371 Q425 242 397 94Z" fill="#713a2e" opacity=".50"/>
+    <path d="M81 971 Q160 971 227 913 Q245 888 272 886 C235 942 228 1004 190 1040 Q134 1084 83 1082Z M204 1263 Q246 1313 311 1341 C360 1361 393 1414 426 1449 Q363 1433 306 1416 Q243 1388 222 1329Z" fill="#f7b57a" opacity=".41"/>
+    <use xlink:href="#plano" fill="url(#poros)" opacity=".82"/>
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M185 131 C201 221 218 335 232 395 M197 124 C214 218 228 284 240 343 M340 94 C356 216 379 339 394 402 M246 515 C304 487 361 475 417 489 M191 635 Q266 597 303 555 M133 765 Q171 746 209 724 M117 812 Q159 795 191 770 M147 1121 Q207 1151 227 1200 M206 1266 Q251 1316 292 1344 M277 1410 Q316 1451 364 1471 M559 1492 Q604 1468 623 1423 M584 1502 Q631 1468 651 1428" stroke="#ffd29b" stroke-width="4.4" opacity=".58"/>
+      <path d="M198 141 C212 228 228 330 239 367 M343 112 C359 221 374 334 392 384 M249 529 C308 501 364 492 411 501 M193 646 Q244 618 277 586 M122 788 Q160 775 197 752 M171 1162 Q202 1180 225 1224 M255 1337 Q291 1369 333 1394 M308 1449 Q353 1483 398 1493 M569 1511 Q621 1478 643 1432" stroke="#824433" stroke-width="3.3" opacity=".47"/>
+      <path d="M135 914 l31-18 14-29 26-11 M245 769 l36-26 14-22 39-12 M383 541 l28 19 39-8 38 15 M656 679 l-7 33 17 28-4 40 M167 1073 l13 30 30 17 18 30 M285 1321 l35 16 15 23 49 16 M561 1450 l20-20 11-34 26-24" stroke="#7b4231" stroke-width="4.1" opacity=".65"/>
+    </g>
+  </g>
+</g>
+<g id="cavidades-acusticas" clip-path="url(#corte)">
+  <g fill="none" stroke-linejoin="round">
+    <use xlink:href="#conducto" stroke="#7d4432" stroke-width="26"/><use xlink:href="#choque" stroke="#7d4432" stroke-width="26"/><use xlink:href="#contrapresion" stroke="#7d4432" stroke-width="26"/><use xlink:href="#campana" stroke="#7d4432" stroke-width="26"/>
+    <use xlink:href="#conducto" stroke="url(#edge)" stroke-width="14"/><use xlink:href="#choque" stroke="url(#edge)" stroke-width="14"/><use xlink:href="#contrapresion" stroke="url(#edge)" stroke-width="14"/><use xlink:href="#campana" stroke="url(#edge)" stroke-width="14"/>
+  </g>
+  <g fill="url(#dark)">
+    <use xlink:href="#conducto"/><use xlink:href="#choque"/><use xlink:href="#contrapresion"/><use xlink:href="#campana"/>
+  </g>
+  <g clip-path="url(#vacios)">
+    <path d="M211 95 C228 185 246 292 271 392 C295 491 325 565 347 663 C361 720 380 785 406 823 L432 827 C396 745 384 704 371 643 C352 557 321 478 306 393 C286 295 266 177 255 87Z" fill="#86432f" opacity=".54"/>
+    <path d="M492 800 C533 776 579 779 617 817 C641 843 650 886 634 923 Q611 973 570 973 C615 948 629 909 620 873 C607 823 563 803 515 816Z" fill="#a6593b" opacity=".51"/>
+    <path d="M388 939 C355 985 350 1036 368 1084 C395 1159 461 1224 534 1262 Q579 1288 636 1271 Q668 1279 706 1311 L741 1323 C734 1336 715 1338 696 1337 C630 1334 535 1313 447 1245 C395 1208 358 1165 336 1106 C318 1044 323 976 363 927Z" fill="#a3543b" opacity=".53"/>
+    <path d="M395 845 Q419 804 451 808 M416 911 Q447 929 478 911 M501 810 Q544 786 587 805 M512 955 Q548 984 589 966 M355 1013 Q342 1068 374 1117 M439 1214 Q492 1268 551 1286 M245 130 Q255 212 267 260 M288 397 Q304 473 334 536 M367 653 q12 55 29 94" fill="none" stroke="#ce885c" opacity=".60" stroke-width="3.6" stroke-linecap="round"/>
+    <path d="M407 856 Q435 830 462 832 M461 899 Q489 880 488 862 M532 824 Q575 808 600 843 M588 945 Q613 920 617 887 M400 932 Q382 973 386 1006 M390 1080 Q417 1152 458 1192" fill="none" stroke="#462820" stroke-width="5" opacity=".55" stroke-linecap="round"/>
+  </g>
+</g>
+<g id="recorrido-cualitativo" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M251 105 C269 225 293 368 319 460 C345 551 367 601 383 677 C399 739 414 791 440 835" stroke="#bfe2cc" stroke-width="5.5" stroke-dasharray="11 15" marker-end="url(#flecha)"/>
+  <path d="M466 845 C495 827 525 811 556 818 C594 826 618 864 607 902 C595 941 553 949 526 927 C509 913 501 894 506 879" stroke="#a3cdb8" stroke-width="4.7" stroke-dasharray="8 11" marker-end="url(#flecha)"/>
+  <path d="M441 892 C412 925 397 968 404 1022 C418 1102 463 1160 511 1204 C554 1241 604 1263 643 1282 Q679 1300 712 1320" stroke="#bfe2cc" stroke-width="5.5" stroke-dasharray="10 14" marker-end="url(#flecha)"/>
+  <path d="M434 854 c13-17 45-19 52 1 c5 17-17 32-34 25 c-14-5-15-17-4-22 M454 898 q28 4 37-23 M410 873 q2-13 12-20" stroke="#d8ebcb" stroke-width="4.3" opacity=".92"/>
+</g>
+</svg>
