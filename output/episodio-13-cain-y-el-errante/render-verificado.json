@@ -1,0 +1,145 @@
+{
+  "file": "episodio13_FINAL_GRADY_70s.mp4",
+  "sha256": "d8751387c5870b4e29aae02b18d06a0ebb5d9fffe1136eb4da4711b5548d3f8f",
+  "duration": 70,
+  "width": 1080,
+  "height": 1920,
+  "frames": 2100,
+  "fps": 30,
+  "codec": "h264",
+  "audioCodec": "aac",
+  "sampleRate": 48000,
+  "audioBitrate": 189142,
+  "pixelFormat": "yuv420p",
+  "colorSpace": "bt709",
+  "videoProfile": "High",
+  "faststart": true,
+  "fullDecode": true,
+  "checkedTimestamps": 2100,
+  "blackIntervals": 0,
+  "audioCorrelation": 0.999929,
+  "peakEncodedDbfs": -1.82,
+  "internalPausesLongerThan700ms": [
+    [
+      4.319167,
+      5.089271
+    ],
+    [
+      8.267021,
+      9.03925
+    ],
+    [
+      11.389646,
+      12.159667
+    ],
+    [
+      15.002458,
+      15.772271
+    ],
+    [
+      17.105604,
+      17.878708
+    ],
+    [
+      20.663125,
+      21.433125
+    ],
+    [
+      23.204792,
+      23.974812
+    ],
+    [
+      26.860229,
+      27.630292
+    ],
+    [
+      31.095229,
+      31.86525
+    ],
+    [
+      33.605812,
+      34.375833
+    ],
+    [
+      37.391021,
+      38.161
+    ],
+    [
+      39.261938,
+      40.031937
+    ],
+    [
+      42.911479,
+      43.681458
+    ],
+    [
+      46.263021,
+      47.033292
+    ],
+    [
+      47.723979,
+      48.493958
+    ],
+    [
+      49.817958,
+      50.587958
+    ],
+    [
+      54.6795,
+      55.449521
+    ],
+    [
+      59.282292,
+      60.193979
+    ],
+    [
+      62.601354,
+      63.371354
+    ]
+  ],
+  "closingSilence": [
+    67.994646,
+    70.0
+  ],
+  "voice": "Grady",
+  "words": 162,
+  "captionGroups": 41,
+  "tempo": 1,
+  "lastWordEndMs": 67951,
+  "authorizedCredits": 4.37,
+  "paidTakes": 1,
+  "motion": {
+    "sampleFps": 4,
+    "crop": [
+      0,
+      535,
+      1080,
+      950
+    ],
+    "threshold": 0.75,
+    "referenceEpisode04At125": {
+      "median": 0.875,
+      "p90": 9.734,
+      "lowMotionIntervals": [
+        [
+          38.75,
+          40.75
+        ]
+      ]
+    },
+    "episode13At100": {
+      "median": 3.399,
+      "p90": 8.756,
+      "lowMotionIntervals": [
+        [
+          24.5,
+          26.5
+        ],
+        [
+          52.25,
+          59.75
+        ]
+      ]
+    }
+  }
+}

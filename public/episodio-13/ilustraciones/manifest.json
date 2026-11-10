@@ -1,0 +1,135 @@
+{
+  "tool": "ImageGen integrado",
+  "newIllustrations": 10,
+  "assets": [
+    {
+      "file": "viajero-medieval.png",
+      "width": 1024,
+      "height": 1536,
+      "rgba": true,
+      "sha256": "18173f0ee40986265b81fdd801949073a919449f30277823d47888ad8cd7a469",
+      "references": [
+        "public/imagenes/personajes/21_caminando.png"
+      ],
+      "prompt": "Use case: historical-scene, illustration-story. Produce one standalone full-body transparent PNG 2D puppet asset for a Spanish historical video. Use the attached approved walking illustration strictly as a rendering-style reference (clean deliberate contours, anatomically believable graphic-novel proportions, shaped cel shadows, warm highlights), with a completely different character and historical costume. A quiet adult traveler of a medieval European story, age about 38, olive-brown skin, short dark wavy hair, small neatly trimmed beard, ordinary natural features, no caricature. Outfit is a dark indigo blue wool half-cloak that trails to the left, ochre scarf, muted blue tunic, sienna leather belt, dark gray hose and brown walking boots. No symbols, no badges, no star, no hat, no letters. Entire body from head to both boots fully visible, oriented to screen right in 3/4 profile, neutral at the midpoint of a walk, near leg roughly vertical under hip, far leg slightly separated to left, with clear leg separation below the knee and recognizable sole shapes. One hand visible, arms naturally posed. Place the vertical figure centered and large with clean alpha edge. Cel-shaded hand-drawn dimensional lighting, muted historic palette with indigo and amber, thoughtfully detailed woven fabrics and hand stitching. Character only on true transparent background, no floor, no cast shadow, no rim glow outside alpha, no props, no collage, no watermarks or text."
+    },
+    {
+      "file": "cain.png",
+      "width": 1024,
+      "height": 1536,
+      "rgba": true,
+      "sha256": "49cf2327e225f62e6cc52c25adf01b1fcfdf06157d53a5de0b8be2629c96133f",
+      "references": [
+        "public/imagenes/personajes/21_caminando.png",
+        "public/episodio-13/ilustraciones/viajero-medieval.png"
+      ],
+      "prompt": "One standalone full-body cutout, character Cain as an artistic figure from the literary story in Genesis, not a historical portrait. Attached images are STYLE references only. Different adult man around 30 with deep tan-brown skin, close-cropped tight black curls, clean-shaven and a visibly strong, somewhat stocky build, dark attentive brows and a subdued thoughtful look. Ancient Near Eastern simple rust red sleeveless handwoven knee-length tunic, ochre sash, dark umber leather sandals, bare calves. No accessories, religious symbols, tattoos, or marks on skin. A complete 3/4 view facing screen right, neutral walking contact pose with near leg leading a little and far leg behind, both knees and entire sandals cleanly visible, no legs fused. Detailed dark contour, textured cel-shading, angular color masses. Transparent RGBA only, no glow/floor/shadow, no text or collage."
+    },
+    {
+      "file": "abel.png",
+      "width": 1024,
+      "height": 1536,
+      "rgba": true,
+      "sha256": "3175d17f1ef63433b575d4e83cbc28a377359b225f0f998958b3c58a770c4488",
+      "references": [
+        "public/imagenes/personajes/21_caminando.png",
+        "public/episodio-13/ilustraciones/viajero-medieval.png"
+      ],
+      "prompt": "One standalone full-body character for an artistic rendition of Abel from Genesis. STYLE ONLY references for detailed 2D animation and proportions. Young adult shepherd, warm medium-brown skin, long dark softly tied curls and quiet neutral expression, linen oatmeal short-sleeved tunic, muted olive-green shoulder wrap, rope belt and leather sandals. Distinct from blue traveler. Standing in three-quarter view facing slightly LEFT, body calm, one open hand held at waist in conversation; both feet visible. Hand-drawn confident dark contours, sculpted cel lighting and muted rich fabric texture. Entire body within frame, true transparent background, no ground, cast shadow, glow, text, badges, symbols, weapon, wounds or scenery."
+    },
+    {
+      "file": "jesus-leyenda.png",
+      "width": 1024,
+      "height": 1536,
+      "rgba": true,
+      "sha256": "46116a887f6efd9d4abc5e28e03b3db74c9916c2f957509b5ffcdf31df84bc67",
+      "references": [
+        "public/imagenes/personajes/21_caminando.png",
+        "public/episodio-13/ilustraciones/viajero-medieval.png"
+      ],
+      "prompt": "One standalone full-body 2D illustration on transparency, depicting Jesus as an ordinary adult Levantine man in a brief non-violent dramatization from a medieval legend. Reference images are style only. Shoulder-length dark brown hair, neat short beard, tawny skin, unbleached cream robe and muted red-brown mantle, worn leather sandals. Facing RIGHT, both feet visible, leaning slightly forward in a slow step, carrying a single rough wooden crossbeam across one shoulder supported with his arms. The beam and whole figure fit in frame. Pensive and composed. Polished clean dark ink contours, rich hand-painted cel shading and textile folds. No other figures, halo, religious badge, bruises, blood, execution or physical contact. Real transparent RGBA backdrop, no floor, no cast shadow, no rim glow, no text or collage."
+    },
+    {
+      "file": "camino-bruma.png",
+      "width": 941,
+      "height": 1672,
+      "rgba": false,
+      "sha256": "005bb52330f76bc9c170af2c36052c572474e513dd317fbad8175616e4b567a4",
+      "references": [
+        "public/episodio-10/ilustraciones/desierto-panoramico.png"
+      ],
+      "prompt": "One full-bleed vertical 9:16 2D animated feature background plate. Reference is for richly layered hand-painted style only, not location. An ancient uneven cobble-and-earth road in a temperate European valley before sunrise, from a low standing viewpoint, flowing from the lower centre toward a distant ridge. Foreground wild grasses and dark roots hug both edges; layered umber and slate hills, stone remnants, a small cluster of low stone village roofs with warm windows midway on left, blue mist pooling in the valleys, predawn gold at the horizon. Strong real stone detail, intriguing cobalt and dark teal versus warm bronze, clean shapes, subtle visible brush texture, no photorealism. Place horizon around top third and a continuous unobstructed road plane around lower half, so a separate human can stand there. Edges fully painted. No text, humans or symbols."
+    },
+    {
+      "file": "jerusalen-antigua.png",
+      "width": 941,
+      "height": 1672,
+      "rgba": false,
+      "sha256": "626e9aecfb494dc29fc99fba7cd96c733eba5ab4e5fea075572e77d5bf7d0630",
+      "references": [
+        "public/episodio-10/ilustraciones/desierto-panoramico.png"
+      ],
+      "prompt": "One full-bleed vertical 9:16 hand-painted 2D background for a dramatization of an ancient Jerusalem street, first-century Judea as imagined for an educational historical story. STYLE ONLY reference. Low street-level viewpoint down a dry ochre limestone alley, uneven slabs occupying lower half, stepped limestone houses with flat roofs and wooden awnings, carved lintels and recessed doors, faded linen canopy, amphorae, stair shadows, eastern sky and distant terraced pale walls. Two entrances on sides leave clear stage space for characters at centre and lower thirds. Amber sun, violet cast shadows, expressive clean outlined shapes with painterly fine stone texture. Fill edges and foreground. No people, domes, modern items, religious symbols, crosses, letters or labels. Single illustration, no collage."
+    },
+    {
+      "file": "ciudad-medieval.png",
+      "width": 941,
+      "height": 1672,
+      "rgba": false,
+      "sha256": "a484fbd962bb239b064362087bee8da8467b2ad8cdf45648a9be6585b1fcaa42",
+      "references": [
+        "public/episodio-10/ilustraciones/desierto-panoramico.png"
+      ],
+      "prompt": "One full-bleed vertical 9:16 hand-painted cinematic 2D background of a plausible thirteenth-century European walled town at blue hour. STYLE ONLY reference. Foreground cobbled path bends through an arched stone gateway, medieval half timbered gables, stonework, overhanging upper floor, dark wooden shutters and amber lit windows, silhouettes of distant roofs through arch. Distinct near, middle and deep layers, perspective leading to centre, ample unobstructed stage floor in lower half for a separate moving character. Deep blue, muted teal and rust contrasts, warm light hitting sculpted stone, expressive outlined shadows, detailed cinematic animation style, wide portrait crop, full bleed. No people, flags with symbols, text, crest, modern pavement or photos."
+    },
+    {
+      "file": "manuscrito-abierto.png",
+      "width": 941,
+      "height": 1672,
+      "rgba": false,
+      "sha256": "67880249adfb796ad6f88364785e0b3e3310629b7bcc2671fdd92b6db7ca9b58",
+      "references": [
+        "public/episodio-10/ilustraciones/desierto-panoramico.png"
+      ],
+      "prompt": "One vertical full-bleed 9:16 detailed hand-drawn 2D scene, an open medieval manuscript on a dark old oak reading desk, camera directly above with a gentle diagonal perspective, large spread centered near 52% of the frame. Cracked brown leather cover peeks out, stitched central gutter, individual curling parchment edges, thin red and muted gilt flourishes at the margins, abstract unrecognizable faded ink strokes only. The centres of both parchment pages should be spacious and light for animated miniatures and labels added in Remotion. Desk extends all the way to the four frame edges, candlelight reflected amber from upper left with dark slate corners, moody vivid visual contrast, fine crosshatching and clean inked contours consistent with reference rendering style. No legible text, symbols, faces, cross, watermark, panels or collage."
+    },
+    {
+      "file": "desierto-levante.png",
+      "width": 941,
+      "height": 1672,
+      "rgba": false,
+      "sha256": "863696562cb9ae7d4a6cb3a0c4ef759b2969377bdfebcb9056b3b0f8a3a3dc4a",
+      "references": [
+        "public/episodio-10/ilustraciones/desierto-panoramico.png",
+        "public/episodio-13/ilustraciones/jerusalen-antigua.png"
+      ],
+      "prompt": "Create one cinematic vertical 9:16 historical background plate in the same detailed 2D hand-painted educational animation style as the reference images, adapted to the ancient Levant. This setting is an artistic reconstruction for the story of Cain and Abel, not a specific historical claim. Ochre limestone hills, layered sandstone cliffs, a very broad stony semi-arid valley, winding compressed-earth track through the lower half with realistic walkable ground, occasional low dry Mediterranean shrubs, scattered wild barley on the outer foreground left, olive-like shrubs and distant light blue ridges. Ancient countryside without buildings or humans. Partly clouded warm sky and sunlight; honey, burnt orange, terracotta and muted blue. Low eye-level view from a path, readable walkable foreground and striking depth. Clear illustrated outlines with grain and shadows like attached approved reference. No cacti or American flora, no pyramids, no text, animals, figures, photos, religious objects or marks. One standalone full-bleed vertical background."
+    },
+    {
+      "file": "dos-caminos-levante.png",
+      "width": 941,
+      "height": 1672,
+      "rgba": false,
+      "sha256": "b423d3b36a9b90f14f5b8733ec39d441374057265e8c7627f208cf7f3545ee39",
+      "references": [
+        "Borrador interno de los dos caminos, SHA-256 0d6240f5a15f738cfd27b7d6b3a9739aecccc3a44cc4c41ea981daea8c55cdc0"
+      ],
+      "prompt": "Make a minimal edit to the attached 2D vertical illustration, intended for a historical story. Keep the exact same framing, colors, foreground, horizon, ridge, path shapes and positions. Preserve the two visibly separate parallel winding routes without moving, joining or crossing them. On the right warm semi-arid side replace every saguaro or cactus with modest native-looking dry Levantine scrub, thorn bushes and a few limestone rocks. Keep the warmth and subtle shadows of what was there, with NO cactus silhouettes anywhere, including the horizon. Leave the cool left side and separating ridge unchanged. Keep fully illustrated portrait orientation, exact same composition, no humans, no text. One standalone scene."
+    }
+  ],
+  "referencesOnly": [
+    "public/episodio-10/ilustraciones/desierto-panoramico.png",
+    "public/episodio-10/ilustraciones/desierto-aereo.png",
+    "public/imagenes/personajes/21_caminando.png"
+  ],
+  "internalDrafts": [
+    {
+      "description": "Primer dibujo de dos caminos, conservado en revisión interna. La versión final sustituye la vegetación americana por matorral.",
+      "sha256": "0d6240f5a15f738cfd27b7d6b3a9739aecccc3a44cc4c41ea981daea8c55cdc0",
+      "prompt": "One vertical 9:16 full-bleed cinematic 2D aerial background for an allegorical closing: two visibly separate winding paths run roughly parallel up a broad landscape, NEVER joining or crossing, each stays on its own side, with a narrow ridge of brush and rock clearly separating them. Left half cool blue-greens, ancient cobblestones through heather and fog, right half rich rust ochre earth on a dry eroded valley, divided naturally by the continuous rocky ridge. High oblique viewpoint, the two paths have a readable ground plane near the centre-left and centre-right for tiny separate animated travellers. Beautiful sunset and layered dramatic horizons above, warm/cool contrast, dense foreground textures and shadows all the way to edges, clean graphic-novel shapes, painterly detail. Style only reference, no humans, no labels, no symbols, no frame, no collage.",
+      "references": [
+        "public/episodio-10/ilustraciones/desierto-aereo.png"
+      ]
+    }
+  ]
+}

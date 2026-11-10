@@ -1,0 +1,64 @@
+{
+  "audioReady": true,
+  "cues": {
+    "cainGancho": 3.89,
+    "leyenda": 10.792,
+    "jesus": 13.181,
+    "regreso": 20.201,
+    "europa": 22.746,
+    "genesis": 23.94,
+    "abel": 26.522,
+    "destierro": 28.661,
+    "senal": 29.861,
+    "forma": 33.224,
+    "condena": 35.949,
+    "errancia": 36.809,
+    "inmortal": 42.26,
+    "nod": 46.009,
+    "pregunta": 49.143,
+    "identidad": 52.133,
+    "prejuicio": 57.415,
+    "cierre": 60.395,
+    "castigo": 65.151
+  },
+  "stages": [
+    {
+      "name": "LA CONDENA",
+      "briefStart": 0,
+      "start": 0,
+      "end": 9.002
+    },
+    {
+      "name": "EL JUDÍO ERRANTE",
+      "briefStart": 9,
+      "start": 9.002,
+      "end": 23.94
+    },
+    {
+      "name": "EL PRIMER ERRANTE",
+      "briefStart": 23,
+      "start": 23.94,
+      "end": 34.349
+    },
+    {
+      "name": "LA EXTRAÑA SIMILITUD",
+      "briefStart": 37,
+      "start": 34.349,
+      "end": 46.998
+    },
+    {
+      "name": "EL ORIGEN DEL MISTERIO",
+      "briefStart": 52,
+      "start": 46.998,
+      "end": 60.159
+    },
+    {
+      "name": "DOS HISTORIAS",
+      "briefStart": 63,
+      "start": 60.159,
+      "end": 70
+    }
+  ],
+  "tempo": 1,
+  "alignment": "faster-whisper-small multilingual, Spanish; quiet edits remapped at sample level"
+}
