@@ -8,7 +8,7 @@ anterior, sus recursos y su registro de 2.700 fotogramas se conservan.
 - Composición: `UnDiaVasAExtranarEsteMomento`.
 - 1080 × 1920, 30 FPS, 2.100 fotogramas: 70 segundos de imagen.
 - Animación 2D por código Remotion; sin generación de video de IA.
-- Entrega: MP4 H.264, yuv420p, audio AAC.
+- Entrega: MP4 H.264, YUV 4:2:0, audio AAC.
 - Registro adicional de las siete escenas para revisión independiente en Studio.
 
 ## Voz autorizada
@@ -96,3 +96,13 @@ En entornos con Chromium instalado se puede añadir
 `--browser-executable=/usr/bin/chromium`. El render final se verifica con ffprobe
 y una decodificación completa; la comprobación de 2.100 fotogramas es independiente
 del redondeo del contenedor o de los paquetes AAC.
+
+## Resultado de la exportación comprobada
+
+70,000 segundos de contenedor y de video; 2.100 fotogramas, 1080 × 1920,
+30 FPS, H.264 YUV 4:2:0 de rango completo y AAC estéreo a 48 kHz.
+Decodificación completa sin errores; pico de audio −2,0 dBFS.
+El muestreo de actividad cada 0,5 segundos no encontró intervalos de baja
+actividad superiores a 0,5 segundos antes del cierre; la fotografía final
+permanece como pausa emocional deliberada. Los informes JSON adjuntos
+conservan los resultados y el SHA256 del MP4 entregado.

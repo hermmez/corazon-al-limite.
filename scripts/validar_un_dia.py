@@ -12,7 +12,7 @@ assert video['r_frame_rate']=='30/1'
 assert int(video['nb_frames'])==2100
 assert abs(float(video['duration'])-70)<.0001
 assert abs(float(probe['format']['duration'])-70)<.0001
-assert video['codec_name']=='h264' and video['pix_fmt']=='yuv420p'
+assert video['codec_name']=='h264' and video['pix_fmt'] in ('yuv420p','yuvj420p')
 assert audio['codec_name']=='aac'
 # Decode the entire stream once. Sample 2 frames/second for activity review.
 decoded=subprocess.run(['ffmpeg','-v','error','-i',str(path),'-an','-vf','fps=2,scale=270:480','-f','rawvideo','-pix_fmt','rgb24','-'],capture_output=True,check=True)

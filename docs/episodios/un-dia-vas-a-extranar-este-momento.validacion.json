@@ -1,0 +1,31 @@
+{
+  "file": "corazon-al-limite-un-dia-vas-a-extranar-este-momento.mp4",
+  "durationSeconds": 70.0,
+  "videoFrames": 2100,
+  "width": 1080,
+  "height": 1920,
+  "fps": "30/1",
+  "videoCodec": "h264",
+  "pixelFormat": "yuvj420p",
+  "audioCodec": "aac",
+  "audioChannels": 2,
+  "audioSampleRate": "48000",
+  "fullVideoDecodeErrors": 0,
+  "activitySampleRate": 2,
+  "activityDefinition": "Fraction of pixels changing >12/255 between half-second samples; captions excluded. This metric is not an audience retention measurement.",
+  "lowActivitySampleTimes": [
+    11.0,
+    46.0,
+    68.5,
+    69.0,
+    69.5
+  ],
+  "intentionalClosingPhotographHold": {
+    "fromSeconds": 67.4,
+    "toSeconds": 70
+  },
+  "meanVolumeDb": -19.9,
+  "peakVolumeDb": -2.0,
+  "videoSha256": "11dd007cbb842d9878f4624b0424ef0f4bee1db4cedb17d5aa0a663aa0860a59",
+  "preClosingLongestLowActivitySeconds": 0.5
+}
