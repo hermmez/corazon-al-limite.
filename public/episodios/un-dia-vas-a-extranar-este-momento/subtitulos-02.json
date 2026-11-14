@@ -1,0 +1,135 @@
+[
+  {
+    "text": "No",
+    "startMs": 180,
+    "endMs": 420,
+    "timestampMs": 300,
+    "confidence": 0.9899409413337708
+  },
+  {
+    "text": " hablo",
+    "startMs": 420,
+    "endMs": 660,
+    "timestampMs": 540,
+    "confidence": 0.965496301651001
+  },
+  {
+    "text": " solo",
+    "startMs": 660,
+    "endMs": 980,
+    "timestampMs": 820,
+    "confidence": 0.7297938466072083
+  },
+  {
+    "text": " de",
+    "startMs": 980,
+    "endMs": 1180,
+    "timestampMs": 1080,
+    "confidence": 0.998114824295044
+  },
+  {
+    "text": " perder",
+    "startMs": 1180,
+    "endMs": 1460,
+    "timestampMs": 1320,
+    "confidence": 0.978925347328186
+  },
+  {
+    "text": " a",
+    "startMs": 1460,
+    "endMs": 1620,
+    "timestampMs": 1540,
+    "confidence": 0.9983077049255371
+  },
+  {
+    "text": " alguien.",
+    "startMs": 1620,
+    "endMs": 1920,
+    "timestampMs": 1770,
+    "confidence": 0.9992554783821106
+  },
+  {
+    "text": " Hablo",
+    "startMs": 2540,
+    "endMs": 2800,
+    "timestampMs": 2670,
+    "confidence": 0.9940946698188782
+  },
+  {
+    "text": " de",
+    "startMs": 2800,
+    "endMs": 2940,
+    "timestampMs": 2870,
+    "confidence": 0.9970470070838928
+  },
+  {
+    "text": " quienes",
+    "startMs": 2940,
+    "endMs": 3140,
+    "timestampMs": 3040,
+    "confidence": 0.943532407283783
+  },
+  {
+    "text": " tienes",
+    "startMs": 3140,
+    "endMs": 3520,
+    "timestampMs": 3330,
+    "confidence": 0.9820885062217712
+  },
+  {
+    "text": " cerca,",
+    "startMs": 3520,
+    "endMs": 3980,
+    "timestampMs": 3750,
+    "confidence": 0.9947405457496643
+  },
+  {
+    "text": " pero",
+    "startMs": 4420,
+    "endMs": 4460,
+    "timestampMs": 4440,
+    "confidence": 0.9970377683639526
+  },
+  {
+    "text": " siempre",
+    "startMs": 4460,
+    "endMs": 4960,
+    "timestampMs": 4710,
+    "confidence": 0.9980511665344238
+  },
+  {
+    "text": " escuchan",
+    "startMs": 4960,
+    "endMs": 5520,
+    "timestampMs": 5240,
+    "confidence": 0.9770258069038391
+  },
+  {
+    "text": " lo",
+    "startMs": 5520,
+    "endMs": 5620,
+    "timestampMs": 5570,
+    "confidence": 0.9994142055511475
+  },
+  {
+    "text": " mismo:",
+    "startMs": 5620,
+    "endMs": 5900,
+    "timestampMs": 5760,
+    "confidence": 0.9992538094520569
+  },
+  {
+    "text": " «Después",
+    "startMs": 6500,
+    "endMs": 6720,
+    "timestampMs": 6610,
+    "confidence": 0.9930840730667114
+  },
+  {
+    "text": " hablamos».",
+    "startMs": 6720,
+    "endMs": 7320,
+    "timestampMs": 7020,
+    "confidence": 0.9935485422611237
+  }
+]

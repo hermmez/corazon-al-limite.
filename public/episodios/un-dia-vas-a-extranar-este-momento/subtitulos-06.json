@@ -1,0 +1,170 @@
+[
+  {
+    "text": "Tal",
+    "startMs": 190,
+    "endMs": 350,
+    "timestampMs": 270,
+    "confidence": 0.986026406288147
+  },
+  {
+    "text": " vez",
+    "startMs": 350,
+    "endMs": 590,
+    "timestampMs": 470,
+    "confidence": 0.9919285774230957
+  },
+  {
+    "text": " hoy",
+    "startMs": 590,
+    "endMs": 790,
+    "timestampMs": 690,
+    "confidence": 0.9889703989028931
+  },
+  {
+    "text": " todavía",
+    "startMs": 790,
+    "endMs": 1310,
+    "timestampMs": 1050,
+    "confidence": 0.6723017692565918
+  },
+  {
+    "text": " puedes",
+    "startMs": 1310,
+    "endMs": 1770,
+    "timestampMs": 1540,
+    "confidence": 0.9972238540649414
+  },
+  {
+    "text": " escuchar",
+    "startMs": 1770,
+    "endMs": 2350,
+    "timestampMs": 2060,
+    "confidence": 0.9988930523395538
+  },
+  {
+    "text": " esa",
+    "startMs": 2350,
+    "endMs": 2510,
+    "timestampMs": 2430,
+    "confidence": 0.9902188181877136
+  },
+  {
+    "text": " historia",
+    "startMs": 2510,
+    "endMs": 2910,
+    "timestampMs": 2710,
+    "confidence": 0.9970859885215759
+  },
+  {
+    "text": " que",
+    "startMs": 2910,
+    "endMs": 3170,
+    "timestampMs": 3040,
+    "confidence": 0.9956263303756714
+  },
+  {
+    "text": " ya",
+    "startMs": 3170,
+    "endMs": 3330,
+    "timestampMs": 3250,
+    "confidence": 0.9969965219497681
+  },
+  {
+    "text": " conoces.",
+    "startMs": 3330,
+    "endMs": 3830,
+    "timestampMs": 3580,
+    "confidence": 0.984275609254837
+  },
+  {
+    "text": " Dar",
+    "startMs": 4430,
+    "endMs": 4570,
+    "timestampMs": 4500,
+    "confidence": 0.9925206899642944
+  },
+  {
+    "text": " un",
+    "startMs": 4570,
+    "endMs": 4730,
+    "timestampMs": 4650,
+    "confidence": 0.9953076243400574
+  },
+  {
+    "text": " abrazo",
+    "startMs": 4730,
+    "endMs": 5130,
+    "timestampMs": 4930,
+    "confidence": 0.9908852577209473
+  },
+  {
+    "text": " sin",
+    "startMs": 5130,
+    "endMs": 5350,
+    "timestampMs": 5240,
+    "confidence": 0.9961007833480835
+  },
+  {
+    "text": " motivo.",
+    "startMs": 5350,
+    "endMs": 5770,
+    "timestampMs": 5560,
+    "confidence": 0.9952113032341003
+  },
+  {
+    "text": " O",
+    "startMs": 6290,
+    "endMs": 6350,
+    "timestampMs": 6320,
+    "confidence": 0.9961919784545898
+  },
+  {
+    "text": " devolver",
+    "startMs": 6350,
+    "endMs": 6730,
+    "timestampMs": 6540,
+    "confidence": 0.9838469425837199
+  },
+  {
+    "text": " esa",
+    "startMs": 6730,
+    "endMs": 6930,
+    "timestampMs": 6830,
+    "confidence": 0.9983195662498474
+  },
+  {
+    "text": " llamada",
+    "startMs": 6930,
+    "endMs": 7370,
+    "timestampMs": 7150,
+    "confidence": 0.9977647662162781
+  },
+  {
+    "text": " que",
+    "startMs": 7370,
+    "endMs": 7550,
+    "timestampMs": 7460,
+    "confidence": 0.9974898099899292
+  },
+  {
+    "text": " llevas",
+    "startMs": 7550,
+    "endMs": 7850,
+    "timestampMs": 7700,
+    "confidence": 0.992032527923584
+  },
+  {
+    "text": " días",
+    "startMs": 7850,
+    "endMs": 8230,
+    "timestampMs": 8040,
+    "confidence": 0.9917581677436829
+  },
+  {
+    "text": " posponiendo.",
+    "startMs": 8230,
+    "endMs": 9010,
+    "timestampMs": 8620,
+    "confidence": 0.9372796267271042
+  }
+]
