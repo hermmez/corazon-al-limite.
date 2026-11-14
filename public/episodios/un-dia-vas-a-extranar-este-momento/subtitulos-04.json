@@ -1,0 +1,163 @@
+[
+  {
+    "text": "Y",
+    "startMs": 310,
+    "endMs": 330,
+    "timestampMs": 320,
+    "confidence": 0.9904760122299194
+  },
+  {
+    "text": " mientras",
+    "startMs": 330,
+    "endMs": 630,
+    "timestampMs": 480,
+    "confidence": 0.9963550567626953
+  },
+  {
+    "text": " persigues",
+    "startMs": 630,
+    "endMs": 1210,
+    "timestampMs": 920,
+    "confidence": 0.9334164460500082
+  },
+  {
+    "text": " el",
+    "startMs": 1210,
+    "endMs": 1350,
+    "timestampMs": 1280,
+    "confidence": 0.9981440305709839
+  },
+  {
+    "text": " futuro",
+    "startMs": 1350,
+    "endMs": 1710,
+    "timestampMs": 1530,
+    "confidence": 0.9993671774864197
+  },
+  {
+    "text": " que",
+    "startMs": 1710,
+    "endMs": 1950,
+    "timestampMs": 1830,
+    "confidence": 0.9835733771324158
+  },
+  {
+    "text": " tanto",
+    "startMs": 1950,
+    "endMs": 2330,
+    "timestampMs": 2140,
+    "confidence": 0.9917987585067749
+  },
+  {
+    "text": " deseas,",
+    "startMs": 2330,
+    "endMs": 2990,
+    "timestampMs": 2660,
+    "confidence": 0.9774974882602692
+  },
+  {
+    "text": " podrías",
+    "startMs": 3250,
+    "endMs": 3670,
+    "timestampMs": 3460,
+    "confidence": 0.988371878862381
+  },
+  {
+    "text": " estar",
+    "startMs": 3670,
+    "endMs": 3950,
+    "timestampMs": 3810,
+    "confidence": 0.9855330586433411
+  },
+  {
+    "text": " ignorando",
+    "startMs": 3950,
+    "endMs": 4470,
+    "timestampMs": 4210,
+    "confidence": 0.9947903156280518
+  },
+  {
+    "text": " una",
+    "startMs": 4470,
+    "endMs": 4710,
+    "timestampMs": 4590,
+    "confidence": 0.9984509944915771
+  },
+  {
+    "text": " parte",
+    "startMs": 4710,
+    "endMs": 5010,
+    "timestampMs": 4860,
+    "confidence": 0.997718095779419
+  },
+  {
+    "text": " de",
+    "startMs": 5010,
+    "endMs": 5190,
+    "timestampMs": 5100,
+    "confidence": 0.9992778897285461
+  },
+  {
+    "text": " tu",
+    "startMs": 5190,
+    "endMs": 5290,
+    "timestampMs": 5240,
+    "confidence": 0.9971033930778503
+  },
+  {
+    "text": " vida",
+    "startMs": 5290,
+    "endMs": 5550,
+    "timestampMs": 5420,
+    "confidence": 0.9996668100357056
+  },
+  {
+    "text": " que",
+    "startMs": 5550,
+    "endMs": 5850,
+    "timestampMs": 5700,
+    "confidence": 0.9863530397415161
+  },
+  {
+    "text": " algún",
+    "startMs": 5850,
+    "endMs": 6130,
+    "timestampMs": 5990,
+    "confidence": 0.9920245409011841
+  },
+  {
+    "text": " día",
+    "startMs": 6130,
+    "endMs": 6470,
+    "timestampMs": 6300,
+    "confidence": 0.9986200332641602
+  },
+  {
+    "text": " vas",
+    "startMs": 6470,
+    "endMs": 6930,
+    "timestampMs": 6700,
+    "confidence": 0.9962630867958069
+  },
+  {
+    "text": " a",
+    "startMs": 6930,
+    "endMs": 7050,
+    "timestampMs": 6990,
+    "confidence": 0.5484657287597656
+  },
+  {
+    "text": " extrañar",
+    "startMs": 7050,
+    "endMs": 7570,
+    "timestampMs": 7310,
+    "confidence": 0.9953897595405579
+  },
+  {
+    "text": " profundamente.",
+    "startMs": 7570,
+    "endMs": 8630,
+    "timestampMs": 8100,
+    "confidence": 0.9926989078521729
+  }
+]

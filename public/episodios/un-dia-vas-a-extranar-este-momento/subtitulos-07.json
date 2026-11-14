@@ -1,0 +1,149 @@
+[
+  {
+    "text": "Un",
+    "startMs": 240,
+    "endMs": 380,
+    "timestampMs": 310,
+    "confidence": 0.9664762616157532
+  },
+  {
+    "text": " día,",
+    "startMs": 380,
+    "endMs": 660,
+    "timestampMs": 520,
+    "confidence": 0.9981949925422668
+  },
+  {
+    "text": " lo",
+    "startMs": 660,
+    "endMs": 1120,
+    "timestampMs": 890,
+    "confidence": 0.5072734951972961
+  },
+  {
+    "text": " que",
+    "startMs": 1120,
+    "endMs": 1260,
+    "timestampMs": 1190,
+    "confidence": 0.9936863780021667
+  },
+  {
+    "text": " más",
+    "startMs": 1260,
+    "endMs": 1500,
+    "timestampMs": 1380,
+    "confidence": 0.983862578868866
+  },
+  {
+    "text": " extrañarás",
+    "startMs": 1500,
+    "endMs": 2280,
+    "timestampMs": 1890,
+    "confidence": 0.9463196396827698
+  },
+  {
+    "text": " no",
+    "startMs": 2280,
+    "endMs": 2680,
+    "timestampMs": 2480,
+    "confidence": 0.9668716192245483
+  },
+  {
+    "text": " será",
+    "startMs": 2680,
+    "endMs": 2920,
+    "timestampMs": 2800,
+    "confidence": 0.9886490106582642
+  },
+  {
+    "text": " lo",
+    "startMs": 2920,
+    "endMs": 3080,
+    "timestampMs": 3000,
+    "confidence": 0.9986116886138916
+  },
+  {
+    "text": " que",
+    "startMs": 3080,
+    "endMs": 3180,
+    "timestampMs": 3130,
+    "confidence": 0.9973852038383484
+  },
+  {
+    "text": " faltaba.",
+    "startMs": 3180,
+    "endMs": 3640,
+    "timestampMs": 3410,
+    "confidence": 0.9970986545085907
+  },
+  {
+    "text": " Será",
+    "startMs": 4120,
+    "endMs": 4340,
+    "timestampMs": 4230,
+    "confidence": 0.9883309006690979
+  },
+  {
+    "text": " lo",
+    "startMs": 4340,
+    "endMs": 4500,
+    "timestampMs": 4420,
+    "confidence": 0.9978329539299011
+  },
+  {
+    "text": " que",
+    "startMs": 4500,
+    "endMs": 4620,
+    "timestampMs": 4560,
+    "confidence": 0.999040424823761
+  },
+  {
+    "text": " tenías",
+    "startMs": 4620,
+    "endMs": 5060,
+    "timestampMs": 4840,
+    "confidence": 0.9883736670017242
+  },
+  {
+    "text": " y",
+    "startMs": 5060,
+    "endMs": 5420,
+    "timestampMs": 5240,
+    "confidence": 0.9448107481002808
+  },
+  {
+    "text": " no",
+    "startMs": 5420,
+    "endMs": 5600,
+    "timestampMs": 5510,
+    "confidence": 0.9966802597045898
+  },
+  {
+    "text": " sabías",
+    "startMs": 5600,
+    "endMs": 6080,
+    "timestampMs": 5840,
+    "confidence": 0.9820136427879333
+  },
+  {
+    "text": " que",
+    "startMs": 6080,
+    "endMs": 6360,
+    "timestampMs": 6220,
+    "confidence": 0.9711931347846985
+  },
+  {
+    "text": " era",
+    "startMs": 6360,
+    "endMs": 6500,
+    "timestampMs": 6430,
+    "confidence": 0.9884465932846069
+  },
+  {
+    "text": " suficiente.",
+    "startMs": 6500,
+    "endMs": 6880,
+    "timestampMs": 6690,
+    "confidence": 0.9912475943565369
+  }
+]

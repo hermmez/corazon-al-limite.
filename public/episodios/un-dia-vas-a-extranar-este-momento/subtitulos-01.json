@@ -1,0 +1,93 @@
+[
+  {
+    "text": "Un",
+    "startMs": 0,
+    "endMs": 200,
+    "timestampMs": 100,
+    "confidence": 0.846443772315979
+  },
+  {
+    "text": " día",
+    "startMs": 200,
+    "endMs": 440,
+    "timestampMs": 320,
+    "confidence": 0.9946253895759583
+  },
+  {
+    "text": " vas",
+    "startMs": 440,
+    "endMs": 840,
+    "timestampMs": 640,
+    "confidence": 0.9098396897315979
+  },
+  {
+    "text": " a",
+    "startMs": 840,
+    "endMs": 980,
+    "timestampMs": 910,
+    "confidence": 0.9970110654830933
+  },
+  {
+    "text": " extrañar",
+    "startMs": 980,
+    "endMs": 1500,
+    "timestampMs": 1240,
+    "confidence": 0.9955470363299052
+  },
+  {
+    "text": " esa",
+    "startMs": 1500,
+    "endMs": 1700,
+    "timestampMs": 1600,
+    "confidence": 0.9967691898345947
+  },
+  {
+    "text": " llamada.",
+    "startMs": 1700,
+    "endMs": 2120,
+    "timestampMs": 1910,
+    "confidence": 0.9975059926509857
+  },
+  {
+    "text": " Pero",
+    "startMs": 2560,
+    "endMs": 2960,
+    "timestampMs": 2760,
+    "confidence": 0.9816655516624451
+  },
+  {
+    "text": " quizá",
+    "startMs": 2960,
+    "endMs": 3660,
+    "timestampMs": 3310,
+    "confidence": 0.941176176071167
+  },
+  {
+    "text": " ya",
+    "startMs": 3660,
+    "endMs": 3840,
+    "timestampMs": 3750,
+    "confidence": 0.9408232569694519
+  },
+  {
+    "text": " sea",
+    "startMs": 3840,
+    "endMs": 4080,
+    "timestampMs": 3960,
+    "confidence": 0.991975724697113
+  },
+  {
+    "text": " demasiado",
+    "startMs": 4080,
+    "endMs": 4540,
+    "timestampMs": 4310,
+    "confidence": 0.9958325028419495
+  },
+  {
+    "text": " tarde.",
+    "startMs": 4540,
+    "endMs": 4860,
+    "timestampMs": 4700,
+    "confidence": 0.9988065958023071
+  }
+]

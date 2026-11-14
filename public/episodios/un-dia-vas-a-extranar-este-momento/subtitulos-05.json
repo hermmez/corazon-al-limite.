@@ -1,0 +1,135 @@
+[
+  {
+    "text": "Pero",
+    "startMs": 200,
+    "endMs": 380,
+    "timestampMs": 290,
+    "confidence": 0.9199475646018982
+  },
+  {
+    "text": " aquí",
+    "startMs": 380,
+    "endMs": 600,
+    "timestampMs": 490,
+    "confidence": 0.9837850332260132
+  },
+  {
+    "text": " viene",
+    "startMs": 600,
+    "endMs": 880,
+    "timestampMs": 740,
+    "confidence": 0.9907805323600769
+  },
+  {
+    "text": " algo",
+    "startMs": 880,
+    "endMs": 1140,
+    "timestampMs": 1010,
+    "confidence": 0.9991570711135864
+  },
+  {
+    "text": " que",
+    "startMs": 1140,
+    "endMs": 1340,
+    "timestampMs": 1240,
+    "confidence": 0.9953985810279846
+  },
+  {
+    "text": " todavía",
+    "startMs": 1340,
+    "endMs": 1780,
+    "timestampMs": 1560,
+    "confidence": 0.9652650356292725
+  },
+  {
+    "text": " puedes",
+    "startMs": 1780,
+    "endMs": 2220,
+    "timestampMs": 2000,
+    "confidence": 0.9964106678962708
+  },
+  {
+    "text": " cambiar:",
+    "startMs": 2220,
+    "endMs": 2680,
+    "timestampMs": 2450,
+    "confidence": 0.9969569444656372
+  },
+  {
+    "text": " no",
+    "startMs": 3300,
+    "endMs": 3520,
+    "timestampMs": 3410,
+    "confidence": 0.9850035905838013
+  },
+  {
+    "text": " necesitas",
+    "startMs": 3520,
+    "endMs": 4040,
+    "timestampMs": 3780,
+    "confidence": 0.9965255260467529
+  },
+  {
+    "text": " esperar",
+    "startMs": 4040,
+    "endMs": 4440,
+    "timestampMs": 4240,
+    "confidence": 0.9921384453773499
+  },
+  {
+    "text": " a",
+    "startMs": 4440,
+    "endMs": 4600,
+    "timestampMs": 4520,
+    "confidence": 0.9955249428749084
+  },
+  {
+    "text": " perder",
+    "startMs": 4600,
+    "endMs": 4840,
+    "timestampMs": 4720,
+    "confidence": 0.9982119798660278
+  },
+  {
+    "text": " un",
+    "startMs": 4840,
+    "endMs": 5060,
+    "timestampMs": 4950,
+    "confidence": 0.9986373782157898
+  },
+  {
+    "text": " momento",
+    "startMs": 5060,
+    "endMs": 5540,
+    "timestampMs": 5300,
+    "confidence": 0.9990659356117249
+  },
+  {
+    "text": " para",
+    "startMs": 5540,
+    "endMs": 5880,
+    "timestampMs": 5710,
+    "confidence": 0.9901621341705322
+  },
+  {
+    "text": " empezar",
+    "startMs": 5880,
+    "endMs": 6300,
+    "timestampMs": 6090,
+    "confidence": 0.9936886429786682
+  },
+  {
+    "text": " a",
+    "startMs": 6300,
+    "endMs": 6420,
+    "timestampMs": 6360,
+    "confidence": 0.9987053871154785
+  },
+  {
+    "text": " valorarlo.",
+    "startMs": 6420,
+    "endMs": 6980,
+    "timestampMs": 6700,
+    "confidence": 0.9903551042079926
+  }
+]

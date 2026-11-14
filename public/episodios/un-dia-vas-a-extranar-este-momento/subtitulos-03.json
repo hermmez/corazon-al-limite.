@@ -1,0 +1,128 @@
+[
+  {
+    "text": "Casi",
+    "startMs": 250,
+    "endMs": 450,
+    "timestampMs": 350,
+    "confidence": 0.9643550217151642
+  },
+  {
+    "text": " nunca",
+    "startMs": 450,
+    "endMs": 750,
+    "timestampMs": 600,
+    "confidence": 0.9985571503639221
+  },
+  {
+    "text": " sabemos",
+    "startMs": 750,
+    "endMs": 1310,
+    "timestampMs": 1030,
+    "confidence": 0.9969964027404785
+  },
+  {
+    "text": " cuándo",
+    "startMs": 1310,
+    "endMs": 1870,
+    "timestampMs": 1590,
+    "confidence": 0.9113286137580872
+  },
+  {
+    "text": " vivimos",
+    "startMs": 1870,
+    "endMs": 2210,
+    "timestampMs": 2040,
+    "confidence": 0.9956268668174744
+  },
+  {
+    "text": " algo",
+    "startMs": 2210,
+    "endMs": 2570,
+    "timestampMs": 2390,
+    "confidence": 0.9946278929710388
+  },
+  {
+    "text": " por",
+    "startMs": 2570,
+    "endMs": 2830,
+    "timestampMs": 2700,
+    "confidence": 0.9919859170913696
+  },
+  {
+    "text": " última",
+    "startMs": 2830,
+    "endMs": 3130,
+    "timestampMs": 2980,
+    "confidence": 0.9906283020973206
+  },
+  {
+    "text": " vez.",
+    "startMs": 3130,
+    "endMs": 3510,
+    "timestampMs": 3320,
+    "confidence": 0.9987398982048035
+  },
+  {
+    "text": " La",
+    "startMs": 4050,
+    "endMs": 4170,
+    "timestampMs": 4110,
+    "confidence": 0.9867343902587891
+  },
+  {
+    "text": " última",
+    "startMs": 4170,
+    "endMs": 4430,
+    "timestampMs": 4300,
+    "confidence": 0.9959002137184143
+  },
+  {
+    "text": " comida",
+    "startMs": 4430,
+    "endMs": 4790,
+    "timestampMs": 4610,
+    "confidence": 0.998129665851593
+  },
+  {
+    "text": " juntos.",
+    "startMs": 4790,
+    "endMs": 5170,
+    "timestampMs": 4980,
+    "confidence": 0.9677503108978271
+  },
+  {
+    "text": " La",
+    "startMs": 5830,
+    "endMs": 5950,
+    "timestampMs": 5890,
+    "confidence": 0.9964377880096436
+  },
+  {
+    "text": " última",
+    "startMs": 5950,
+    "endMs": 6190,
+    "timestampMs": 6070,
+    "confidence": 0.9982485771179199
+  },
+  {
+    "text": " conversación",
+    "startMs": 6190,
+    "endMs": 6890,
+    "timestampMs": 6540,
+    "confidence": 0.9983733892440796
+  },
+  {
+    "text": " sin",
+    "startMs": 6890,
+    "endMs": 7110,
+    "timestampMs": 7000,
+    "confidence": 0.9929525256156921
+  },
+  {
+    "text": " prisas.",
+    "startMs": 7110,
+    "endMs": 7590,
+    "timestampMs": 7350,
+    "confidence": 0.9761160910129547
+  }
+]

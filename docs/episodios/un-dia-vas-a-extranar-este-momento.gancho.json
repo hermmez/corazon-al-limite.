@@ -1,0 +1,9 @@
+{
+  "firstFramesReviewed": 90,
+  "firstFramesDecoded": 90,
+  "adjacentPairs": 89,
+  "minimumChangedPixelFraction": 0.0,
+  "medianChangedPixelFraction": 0.03635416666666667,
+  "pairsWithoutPixelChangeOver10": 3,
+  "pixelDifferenceThreshold": 10
+}
