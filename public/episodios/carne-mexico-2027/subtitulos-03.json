@@ -1,0 +1,135 @@
+[
+  {
+    "text": " Primera",
+    "startMs": 200,
+    "endMs": 660,
+    "timestampMs": 430,
+    "confidence": 0.9021718502044678
+  },
+  {
+    "text": " razón.",
+    "startMs": 660,
+    "endMs": 980,
+    "timestampMs": 820,
+    "confidence": 0.9919981360435486
+  },
+  {
+    "text": " Producir",
+    "startMs": 1580,
+    "endMs": 2060,
+    "timestampMs": 1820,
+    "confidence": 0.7929805815219879
+  },
+  {
+    "text": " y",
+    "startMs": 2060,
+    "endMs": 2200,
+    "timestampMs": 2130,
+    "confidence": 0.9978219270706177
+  },
+  {
+    "text": " transportar",
+    "startMs": 2200,
+    "endMs": 2780,
+    "timestampMs": 2490,
+    "confidence": 0.9972771406173706
+  },
+  {
+    "text": " carne",
+    "startMs": 2780,
+    "endMs": 3120,
+    "timestampMs": 2950,
+    "confidence": 0.994273841381073
+  },
+  {
+    "text": " cuesta",
+    "startMs": 3120,
+    "endMs": 3640,
+    "timestampMs": 3380,
+    "confidence": 0.9935256838798523
+  },
+  {
+    "text": " dinero.",
+    "startMs": 3640,
+    "endMs": 3960,
+    "timestampMs": 3800,
+    "confidence": 0.9986215829849243
+  },
+  {
+    "text": " Electricidad,",
+    "startMs": 4500,
+    "endMs": 5260,
+    "timestampMs": 4880,
+    "confidence": 0.9476572275161743
+  },
+  {
+    "text": " combustible,",
+    "startMs": 5600,
+    "endMs": 6280,
+    "timestampMs": 5940,
+    "confidence": 0.9988372325897217
+  },
+  {
+    "text": " refrigeración",
+    "startMs": 6660,
+    "endMs": 7380,
+    "timestampMs": 7020,
+    "confidence": 0.9935881197452545
+  },
+  {
+    "text": " y",
+    "startMs": 7380,
+    "endMs": 7540,
+    "timestampMs": 7460,
+    "confidence": 0.970797061920166
+  },
+  {
+    "text": " distribución",
+    "startMs": 7540,
+    "endMs": 8200,
+    "timestampMs": 7870,
+    "confidence": 0.9986023902893066
+  },
+  {
+    "text": " pueden",
+    "startMs": 8200,
+    "endMs": 8680,
+    "timestampMs": 8440,
+    "confidence": 0.9429961442947388
+  },
+  {
+    "text": " terminar",
+    "startMs": 8680,
+    "endMs": 9120,
+    "timestampMs": 8900,
+    "confidence": 0.9961656332015991
+  },
+  {
+    "text": " reflejándose",
+    "startMs": 9120,
+    "endMs": 9860,
+    "timestampMs": 9490,
+    "confidence": 0.9973358511924744
+  },
+  {
+    "text": " en",
+    "startMs": 9860,
+    "endMs": 10020,
+    "timestampMs": 9940,
+    "confidence": 0.9970695376396179
+  },
+  {
+    "text": " el",
+    "startMs": 10020,
+    "endMs": 10120,
+    "timestampMs": 10070,
+    "confidence": 0.9988813996315002
+  },
+  {
+    "text": " precio.",
+    "startMs": 10120,
+    "endMs": 10400,
+    "timestampMs": 10260,
+    "confidence": 0.994624674320221
+  }
+]

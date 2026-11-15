@@ -1,0 +1,1288 @@
+{
+  "sourceCuts": [
+    0,
+    6.84,
+    16.4,
+    27.26,
+    35.98,
+    45.1,
+    54.96,
+    66.19428571428571
+  ],
+  "voiceStartFrames": [
+    0,
+    217,
+    521,
+    855,
+    1136,
+    1434,
+    1763
+  ],
+  "words": [
+    {
+      "text": " ¿La",
+      "start": 0.0,
+      "end": 0.26,
+      "probability": 0.7575774788856506,
+      "phrase": "¿La carne ya está cara?",
+      "globalStart": 0.0,
+      "globalEnd": 0.26
+    },
+    {
+      "text": " Carne",
+      "start": 0.26,
+      "end": 0.54,
+      "probability": 0.990829586982727,
+      "phrase": "¿La carne ya está cara?",
+      "globalStart": 0.26,
+      "globalEnd": 0.54
+    },
+    {
+      "text": " ya",
+      "start": 0.54,
+      "end": 0.74,
+      "probability": 0.6968671083450317,
+      "phrase": "¿La carne ya está cara?",
+      "globalStart": 0.54,
+      "globalEnd": 0.74
+    },
+    {
+      "text": " está",
+      "start": 0.74,
+      "end": 0.92,
+      "probability": 0.9609528183937073,
+      "phrase": "¿La carne ya está cara?",
+      "globalStart": 0.74,
+      "globalEnd": 0.92
+    },
+    {
+      "text": " cara?",
+      "start": 0.92,
+      "end": 1.2,
+      "probability": 0.9831294417381287,
+      "phrase": "¿La carne ya está cara?",
+      "globalStart": 0.92,
+      "globalEnd": 1.2
+    },
+    {
+      "text": " En",
+      "start": 1.76,
+      "end": 1.94,
+      "probability": 0.9709031581878662,
+      "phrase": "En 2027 podría costarte más.",
+      "globalStart": 1.76,
+      "globalEnd": 1.94
+    },
+    {
+      "text": " 2027",
+      "start": 1.94,
+      "end": 2.8,
+      "probability": 0.9734626710414886,
+      "phrase": "En 2027 podría costarte más.",
+      "globalStart": 1.94,
+      "globalEnd": 2.8
+    },
+    {
+      "text": " podría",
+      "start": 2.8,
+      "end": 3.38,
+      "probability": 0.8318596482276917,
+      "phrase": "En 2027 podría costarte más.",
+      "globalStart": 2.8,
+      "globalEnd": 3.38
+    },
+    {
+      "text": " costarte",
+      "start": 3.38,
+      "end": 3.9,
+      "probability": 0.8488377034664154,
+      "phrase": "En 2027 podría costarte más.",
+      "globalStart": 3.38,
+      "globalEnd": 3.9
+    },
+    {
+      "text": " más.",
+      "start": 3.9,
+      "end": 4.16,
+      "probability": 0.9972924590110779,
+      "phrase": "En 2027 podría costarte más.",
+      "globalStart": 3.9,
+      "globalEnd": 4.16
+    },
+    {
+      "text": " Estas",
+      "start": 4.68,
+      "end": 5.1,
+      "probability": 0.9856463074684143,
+      "phrase": "Estas son tres razones.",
+      "globalStart": 4.68,
+      "globalEnd": 5.1
+    },
+    {
+      "text": " son",
+      "start": 5.1,
+      "end": 5.48,
+      "probability": 0.9931286573410034,
+      "phrase": "Estas son tres razones.",
+      "globalStart": 5.1,
+      "globalEnd": 5.48
+    },
+    {
+      "text": " tres",
+      "start": 5.48,
+      "end": 5.84,
+      "probability": 0.8163583874702454,
+      "phrase": "Estas son tres razones.",
+      "globalStart": 5.48,
+      "globalEnd": 5.84
+    },
+    {
+      "text": " razones.",
+      "start": 5.84,
+      "end": 6.28,
+      "probability": 0.9991204738616943,
+      "phrase": "Estas son tres razones.",
+      "globalStart": 5.84,
+      "globalEnd": 6.28
+    },
+    {
+      "text": " El",
+      "start": 7.06,
+      "end": 7.26,
+      "probability": 0.9772905707359314,
+      "phrase": "El Consejo Mexicano de la carne estima que la res podría subir 6%.",
+      "globalStart": 7.453333333333333,
+      "globalEnd": 7.653333333333332
+    },
+    {
+      "text": " Consejo",
+      "start": 7.26,
+      "end": 7.64,
+      "probability": 0.9525151550769806,
+      "phrase": "El Consejo Mexicano de la carne estima que la res podría subir 6%.",
+      "globalStart": 7.653333333333332,
+      "globalEnd": 8.033333333333333
+    },
+    {
+      "text": " Mexicano",
+      "start": 7.64,
+      "end": 8.1,
+      "probability": 0.8975890874862671,
+      "phrase": "El Consejo Mexicano de la carne estima que la res podría subir 6%.",
+      "globalStart": 8.033333333333333,
+      "globalEnd": 8.493333333333332
+    },
+    {
+      "text": " de",
+      "start": 8.1,
+      "end": 8.26,
+      "probability": 0.9970992803573608,
+      "phrase": "El Consejo Mexicano de la carne estima que la res podría subir 6%.",
+      "globalStart": 8.493333333333332,
+      "globalEnd": 8.653333333333332
+    },
+    {
+      "text": " la",
+      "start": 8.26,
+      "end": 8.38,
+      "probability": 0.9710328578948975,
+      "phrase": "El Consejo Mexicano de la carne estima que la res podría subir 6%.",
+      "globalStart": 8.653333333333332,
+      "globalEnd": 8.773333333333333
+    },
+    {
+      "text": " Carne",
+      "start": 8.38,
+      "end": 8.68,
+      "probability": 0.5171505808830261,
+      "phrase": "El Consejo Mexicano de la carne estima que la res podría subir 6%.",
+      "globalStart": 8.773333333333333,
+      "globalEnd": 9.073333333333334
+    },
+    {
+      "text": " estima",
+      "start": 8.68,
+      "end": 9.32,
+      "probability": 0.9772299230098724,
+      "phrase": "El Consejo Mexicano de la carne estima que la res podría subir 6%.",
+      "globalStart": 9.073333333333334,
+      "globalEnd": 9.713333333333335
+    },
+    {
+      "text": " que",
+      "start": 9.32,
+      "end": 9.48,
+      "probability": 0.9974058270454407,
+      "phrase": "El Consejo Mexicano de la carne estima que la res podría subir 6%.",
+      "globalStart": 9.713333333333335,
+      "globalEnd": 9.873333333333335
+    },
+    {
+      "text": " la",
+      "start": 9.48,
+      "end": 9.6,
+      "probability": 0.9922109842300415,
+      "phrase": "El Consejo Mexicano de la carne estima que la res podría subir 6%.",
+      "globalStart": 9.873333333333335,
+      "globalEnd": 9.993333333333332
+    },
+    {
+      "text": " res",
+      "start": 9.6,
+      "end": 9.78,
+      "probability": 0.9660991430282593,
+      "phrase": "El Consejo Mexicano de la carne estima que la res podría subir 6%.",
+      "globalStart": 9.993333333333332,
+      "globalEnd": 10.173333333333332
+    },
+    {
+      "text": " podría",
+      "start": 9.78,
+      "end": 10.24,
+      "probability": 0.9876697659492493,
+      "phrase": "El Consejo Mexicano de la carne estima que la res podría subir 6%.",
+      "globalStart": 10.173333333333332,
+      "globalEnd": 10.633333333333333
+    },
+    {
+      "text": " subir",
+      "start": 10.24,
+      "end": 10.52,
+      "probability": 0.9972712397575378,
+      "phrase": "El Consejo Mexicano de la carne estima que la res podría subir 6%.",
+      "globalStart": 10.633333333333333,
+      "globalEnd": 10.913333333333334
+    },
+    {
+      "text": " 6 %;",
+      "start": 10.52,
+      "end": 11.86,
+      "probability": 0.6862097084522247,
+      "phrase": "El Consejo Mexicano de la carne estima que la res podría subir 6%.",
+      "globalStart": 10.913333333333334,
+      "globalEnd": 12.253333333333334
+    },
+    {
+      "text": " El",
+      "start": 11.86,
+      "end": 12.28,
+      "probability": 0.9549152851104736,
+      "phrase": "El cerdo 4.8 y el pollo 3.3.",
+      "globalStart": 12.253333333333334,
+      "globalEnd": 12.673333333333332
+    },
+    {
+      "text": " cerdo",
+      "start": 12.28,
+      "end": 12.66,
+      "probability": 0.9904505014419556,
+      "phrase": "El cerdo 4.8 y el pollo 3.3.",
+      "globalStart": 12.673333333333332,
+      "globalEnd": 13.053333333333335
+    },
+    {
+      "text": " 4,8 %;",
+      "start": 12.66,
+      "end": 13.74,
+      "probability": 0.5658146739006042,
+      "phrase": "El cerdo 4.8 y el pollo 3.3.",
+      "globalStart": 13.053333333333335,
+      "globalEnd": 14.133333333333333
+    },
+    {
+      "text": " y",
+      "start": 13.74,
+      "end": 14.28,
+      "probability": 0.6838369965553284,
+      "phrase": "El cerdo 4.8 y el pollo 3.3.",
+      "globalStart": 14.133333333333333,
+      "globalEnd": 14.673333333333332
+    },
+    {
+      "text": " el",
+      "start": 14.28,
+      "end": 14.44,
+      "probability": 0.9975570440292358,
+      "phrase": "El cerdo 4.8 y el pollo 3.3.",
+      "globalStart": 14.673333333333332,
+      "globalEnd": 14.833333333333332
+    },
+    {
+      "text": " pollo",
+      "start": 14.44,
+      "end": 14.7,
+      "probability": 0.9935824573040009,
+      "phrase": "El cerdo 4.8 y el pollo 3.3.",
+      "globalStart": 14.833333333333332,
+      "globalEnd": 15.093333333333334
+    },
+    {
+      "text": " 3,3 %.",
+      "start": 14.7,
+      "end": 15.9,
+      "probability": 0.9937641024589539,
+      "phrase": "El cerdo 4.8 y el pollo 3.3.",
+      "globalStart": 15.093333333333334,
+      "globalEnd": 16.293333333333333
+    },
+    {
+      "text": " Primera",
+      "start": 16.6,
+      "end": 17.06,
+      "probability": 0.9021718502044678,
+      "phrase": "Primera razón.",
+      "globalStart": 17.56666666666667,
+      "globalEnd": 18.026666666666664
+    },
+    {
+      "text": " razón.",
+      "start": 17.06,
+      "end": 17.38,
+      "probability": 0.9919981360435486,
+      "phrase": "Primera razón.",
+      "globalStart": 18.026666666666664,
+      "globalEnd": 18.34666666666667
+    },
+    {
+      "text": " Producir",
+      "start": 17.98,
+      "end": 18.46,
+      "probability": 0.7929805815219879,
+      "phrase": "Producir y transportar carne cuesta dinero.",
+      "globalStart": 18.946666666666665,
+      "globalEnd": 19.42666666666667
+    },
+    {
+      "text": " y",
+      "start": 18.46,
+      "end": 18.6,
+      "probability": 0.9978219270706177,
+      "phrase": "Producir y transportar carne cuesta dinero.",
+      "globalStart": 19.42666666666667,
+      "globalEnd": 19.56666666666667
+    },
+    {
+      "text": " transportar",
+      "start": 18.6,
+      "end": 19.18,
+      "probability": 0.9972771406173706,
+      "phrase": "Producir y transportar carne cuesta dinero.",
+      "globalStart": 19.56666666666667,
+      "globalEnd": 20.14666666666667
+    },
+    {
+      "text": " carne",
+      "start": 19.18,
+      "end": 19.52,
+      "probability": 0.994273841381073,
+      "phrase": "Producir y transportar carne cuesta dinero.",
+      "globalStart": 20.14666666666667,
+      "globalEnd": 20.48666666666667
+    },
+    {
+      "text": " cuesta",
+      "start": 19.52,
+      "end": 20.04,
+      "probability": 0.9935256838798523,
+      "phrase": "Producir y transportar carne cuesta dinero.",
+      "globalStart": 20.48666666666667,
+      "globalEnd": 21.006666666666668
+    },
+    {
+      "text": " dinero.",
+      "start": 20.04,
+      "end": 20.36,
+      "probability": 0.9986215829849243,
+      "phrase": "Producir y transportar carne cuesta dinero.",
+      "globalStart": 21.006666666666668,
+      "globalEnd": 21.326666666666668
+    },
+    {
+      "text": " Electricidad,",
+      "start": 20.9,
+      "end": 21.66,
+      "probability": 0.9476572275161743,
+      "phrase": "Electricidad, combustible, refrigeración y distribución",
+      "globalStart": 21.866666666666667,
+      "globalEnd": 22.626666666666672
+    },
+    {
+      "text": " combustible,",
+      "start": 22.0,
+      "end": 22.68,
+      "probability": 0.9988372325897217,
+      "phrase": "Electricidad, combustible, refrigeración y distribución",
+      "globalStart": 22.96666666666667,
+      "globalEnd": 23.64666666666667
+    },
+    {
+      "text": " refrigeración",
+      "start": 23.06,
+      "end": 23.78,
+      "probability": 0.9935881197452545,
+      "phrase": "Electricidad, combustible, refrigeración y distribución",
+      "globalStart": 24.026666666666664,
+      "globalEnd": 24.74666666666667
+    },
+    {
+      "text": " y",
+      "start": 23.78,
+      "end": 23.94,
+      "probability": 0.970797061920166,
+      "phrase": "Electricidad, combustible, refrigeración y distribución",
+      "globalStart": 24.74666666666667,
+      "globalEnd": 24.906666666666673
+    },
+    {
+      "text": " distribución",
+      "start": 23.94,
+      "end": 24.6,
+      "probability": 0.9986023902893066,
+      "phrase": "Electricidad, combustible, refrigeración y distribución",
+      "globalStart": 24.906666666666673,
+      "globalEnd": 25.56666666666667
+    },
+    {
+      "text": " pueden",
+      "start": 24.6,
+      "end": 25.08,
+      "probability": 0.9429961442947388,
+      "phrase": "pueden terminar reflejándose en el precio.",
+      "globalStart": 25.56666666666667,
+      "globalEnd": 26.046666666666667
+    },
+    {
+      "text": " terminar",
+      "start": 25.08,
+      "end": 25.52,
+      "probability": 0.9961656332015991,
+      "phrase": "pueden terminar reflejándose en el precio.",
+      "globalStart": 26.046666666666667,
+      "globalEnd": 26.48666666666667
+    },
+    {
+      "text": " reflejándose",
+      "start": 25.52,
+      "end": 26.26,
+      "probability": 0.9973358511924744,
+      "phrase": "pueden terminar reflejándose en el precio.",
+      "globalStart": 26.48666666666667,
+      "globalEnd": 27.226666666666667
+    },
+    {
+      "text": " en",
+      "start": 26.26,
+      "end": 26.42,
+      "probability": 0.9970695376396179,
+      "phrase": "pueden terminar reflejándose en el precio.",
+      "globalStart": 27.226666666666667,
+      "globalEnd": 27.38666666666667
+    },
+    {
+      "text": " el",
+      "start": 26.42,
+      "end": 26.52,
+      "probability": 0.9988813996315002,
+      "phrase": "pueden terminar reflejándose en el precio.",
+      "globalStart": 27.38666666666667,
+      "globalEnd": 27.48666666666667
+    },
+    {
+      "text": " precio.",
+      "start": 26.52,
+      "end": 26.8,
+      "probability": 0.994624674320221,
+      "phrase": "pueden terminar reflejándose en el precio.",
+      "globalStart": 27.48666666666667,
+      "globalEnd": 27.766666666666673
+    },
+    {
+      "text": " Segunda",
+      "start": 27.52,
+      "end": 28.0,
+      "probability": 0.9867236018180847,
+      "phrase": "Segunda razón.",
+      "globalStart": 28.759999999999994,
+      "globalEnd": 29.24
+    },
+    {
+      "text": " razón.",
+      "start": 28.0,
+      "end": 28.34,
+      "probability": 0.9984007477760315,
+      "phrase": "Segunda razón.",
+      "globalStart": 29.24,
+      "globalEnd": 29.580000000000002
+    },
+    {
+      "text": " La",
+      "start": 28.9,
+      "end": 29.02,
+      "probability": 0.6235882639884949,
+      "phrase": "La inseguridad y los robos en carretera también representan costos",
+      "globalStart": 30.139999999999997,
+      "globalEnd": 30.259999999999994
+    },
+    {
+      "text": " inseguridad",
+      "start": 29.02,
+      "end": 29.7,
+      "probability": 0.9866867512464523,
+      "phrase": "La inseguridad y los robos en carretera también representan costos",
+      "globalStart": 30.259999999999994,
+      "globalEnd": 30.94
+    },
+    {
+      "text": " y",
+      "start": 29.7,
+      "end": 29.86,
+      "probability": 0.9882910847663879,
+      "phrase": "La inseguridad y los robos en carretera también representan costos",
+      "globalStart": 30.94,
+      "globalEnd": 31.099999999999998
+    },
+    {
+      "text": " los",
+      "start": 29.86,
+      "end": 29.98,
+      "probability": 0.9972111582756042,
+      "phrase": "La inseguridad y los robos en carretera también representan costos",
+      "globalStart": 31.099999999999998,
+      "globalEnd": 31.220000000000002
+    },
+    {
+      "text": " robos",
+      "start": 29.98,
+      "end": 30.3,
+      "probability": 0.9534008800983429,
+      "phrase": "La inseguridad y los robos en carretera también representan costos",
+      "globalStart": 31.220000000000002,
+      "globalEnd": 31.539999999999996
+    },
+    {
+      "text": " en",
+      "start": 30.3,
+      "end": 30.44,
+      "probability": 0.9968444108963013,
+      "phrase": "La inseguridad y los robos en carretera también representan costos",
+      "globalStart": 31.539999999999996,
+      "globalEnd": 31.679999999999996
+    },
+    {
+      "text": " carretera",
+      "start": 30.44,
+      "end": 30.94,
+      "probability": 0.9884268045425415,
+      "phrase": "La inseguridad y los robos en carretera también representan costos",
+      "globalStart": 31.679999999999996,
+      "globalEnd": 32.17999999999999
+    },
+    {
+      "text": " también",
+      "start": 30.94,
+      "end": 31.5,
+      "probability": 0.9657026529312134,
+      "phrase": "La inseguridad y los robos en carretera también representan costos",
+      "globalStart": 32.17999999999999,
+      "globalEnd": 32.739999999999995
+    },
+    {
+      "text": " representan",
+      "start": 31.5,
+      "end": 32.16,
+      "probability": 0.9936426281929016,
+      "phrase": "La inseguridad y los robos en carretera también representan costos",
+      "globalStart": 32.739999999999995,
+      "globalEnd": 33.39999999999999
+    },
+    {
+      "text": " costos",
+      "start": 32.16,
+      "end": 32.64,
+      "probability": 0.9881088137626648,
+      "phrase": "La inseguridad y los robos en carretera también representan costos",
+      "globalStart": 33.39999999999999,
+      "globalEnd": 33.879999999999995
+    },
+    {
+      "text": " para",
+      "start": 32.64,
+      "end": 32.84,
+      "probability": 0.9965831637382507,
+      "phrase": "para las empresas que llevan los alimentos hasta las tiendas.",
+      "globalStart": 33.879999999999995,
+      "globalEnd": 34.08
+    },
+    {
+      "text": " las",
+      "start": 32.84,
+      "end": 33.04,
+      "probability": 0.9906540513038635,
+      "phrase": "para las empresas que llevan los alimentos hasta las tiendas.",
+      "globalStart": 34.08,
+      "globalEnd": 34.28
+    },
+    {
+      "text": " empresas",
+      "start": 33.04,
+      "end": 33.46,
+      "probability": 0.997805655002594,
+      "phrase": "para las empresas que llevan los alimentos hasta las tiendas.",
+      "globalStart": 34.28,
+      "globalEnd": 34.7
+    },
+    {
+      "text": " que",
+      "start": 33.46,
+      "end": 33.76,
+      "probability": 0.9924890995025635,
+      "phrase": "para las empresas que llevan los alimentos hasta las tiendas.",
+      "globalStart": 34.7,
+      "globalEnd": 35.0
+    },
+    {
+      "text": " llevan",
+      "start": 33.76,
+      "end": 34.04,
+      "probability": 0.9950706362724304,
+      "phrase": "para las empresas que llevan los alimentos hasta las tiendas.",
+      "globalStart": 35.0,
+      "globalEnd": 35.28
+    },
+    {
+      "text": " los",
+      "start": 34.04,
+      "end": 34.18,
+      "probability": 0.9964637160301208,
+      "phrase": "para las empresas que llevan los alimentos hasta las tiendas.",
+      "globalStart": 35.28,
+      "globalEnd": 35.42
+    },
+    {
+      "text": " alimentos",
+      "start": 34.18,
+      "end": 34.58,
+      "probability": 0.9964886903762817,
+      "phrase": "para las empresas que llevan los alimentos hasta las tiendas.",
+      "globalStart": 35.42,
+      "globalEnd": 35.81999999999999
+    },
+    {
+      "text": " hasta",
+      "start": 34.58,
+      "end": 34.92,
+      "probability": 0.9835662245750427,
+      "phrase": "para las empresas que llevan los alimentos hasta las tiendas.",
+      "globalStart": 35.81999999999999,
+      "globalEnd": 36.16
+    },
+    {
+      "text": " las",
+      "start": 34.92,
+      "end": 35.16,
+      "probability": 0.9956282377243042,
+      "phrase": "para las empresas que llevan los alimentos hasta las tiendas.",
+      "globalStart": 36.16,
+      "globalEnd": 36.39999999999999
+    },
+    {
+      "text": " tiendas.",
+      "start": 35.16,
+      "end": 35.64,
+      "probability": 0.997627337773641,
+      "phrase": "para las empresas que llevan los alimentos hasta las tiendas.",
+      "globalStart": 36.39999999999999,
+      "globalEnd": 36.879999999999995
+    },
+    {
+      "text": " Tercera",
+      "start": 36.16,
+      "end": 36.68,
+      "probability": 0.8573631048202515,
+      "phrase": "Tercera razón.",
+      "globalStart": 38.046666666666674,
+      "globalEnd": 38.56666666666667
+    },
+    {
+      "text": " razón.",
+      "start": 36.68,
+      "end": 37.0,
+      "probability": 0.9719493389129639,
+      "phrase": "Tercera razón.",
+      "globalStart": 38.56666666666667,
+      "globalEnd": 38.88666666666668
+    },
+    {
+      "text": " La",
+      "start": 37.64,
+      "end": 37.68,
+      "probability": 0.9890826940536499,
+      "phrase": "La disponibilidad de ganado en Estados Unidos.",
+      "globalStart": 39.526666666666664,
+      "globalEnd": 39.56666666666667
+    },
+    {
+      "text": " disponibilidad",
+      "start": 37.68,
+      "end": 38.36,
+      "probability": 0.9961626827716827,
+      "phrase": "La disponibilidad de ganado en Estados Unidos.",
+      "globalStart": 39.56666666666667,
+      "globalEnd": 40.24666666666666
+    },
+    {
+      "text": " de",
+      "start": 38.36,
+      "end": 38.62,
+      "probability": 0.9949308037757874,
+      "phrase": "La disponibilidad de ganado en Estados Unidos.",
+      "globalStart": 40.24666666666666,
+      "globalEnd": 40.50666666666667
+    },
+    {
+      "text": " ganado",
+      "start": 38.62,
+      "end": 38.96,
+      "probability": 0.99581578373909,
+      "phrase": "La disponibilidad de ganado en Estados Unidos.",
+      "globalStart": 40.50666666666667,
+      "globalEnd": 40.84666666666667
+    },
+    {
+      "text": " en",
+      "start": 38.96,
+      "end": 39.1,
+      "probability": 0.9980043768882751,
+      "phrase": "La disponibilidad de ganado en Estados Unidos.",
+      "globalStart": 40.84666666666667,
+      "globalEnd": 40.98666666666667
+    },
+    {
+      "text": " Estados",
+      "start": 39.1,
+      "end": 39.34,
+      "probability": 0.8923847675323486,
+      "phrase": "La disponibilidad de ganado en Estados Unidos.",
+      "globalStart": 40.98666666666667,
+      "globalEnd": 41.22666666666668
+    },
+    {
+      "text": " Unidos.",
+      "start": 39.34,
+      "end": 39.84,
+      "probability": 0.9992063641548157,
+      "phrase": "La disponibilidad de ganado en Estados Unidos.",
+      "globalStart": 41.22666666666668,
+      "globalEnd": 41.72666666666668
+    },
+    {
+      "text": " Lo",
+      "start": 40.42,
+      "end": 40.58,
+      "probability": 0.9874956607818604,
+      "phrase": "Lo que ocurre con la oferta internacional también puede afectar el mercado mexicano.",
+      "globalStart": 42.306666666666665,
+      "globalEnd": 42.46666666666666
+    },
+    {
+      "text": " que",
+      "start": 40.58,
+      "end": 40.68,
+      "probability": 0.9990943670272827,
+      "phrase": "Lo que ocurre con la oferta internacional también puede afectar el mercado mexicano.",
+      "globalStart": 42.46666666666666,
+      "globalEnd": 42.56666666666667
+    },
+    {
+      "text": " ocurre",
+      "start": 40.68,
+      "end": 41.04,
+      "probability": 0.998651534318924,
+      "phrase": "Lo que ocurre con la oferta internacional también puede afectar el mercado mexicano.",
+      "globalStart": 42.56666666666667,
+      "globalEnd": 42.92666666666667
+    },
+    {
+      "text": " con",
+      "start": 41.04,
+      "end": 41.2,
+      "probability": 0.9962378740310669,
+      "phrase": "Lo que ocurre con la oferta internacional también puede afectar el mercado mexicano.",
+      "globalStart": 42.92666666666667,
+      "globalEnd": 43.086666666666666
+    },
+    {
+      "text": " la",
+      "start": 41.2,
+      "end": 41.32,
+      "probability": 0.9979737401008606,
+      "phrase": "Lo que ocurre con la oferta internacional también puede afectar el mercado mexicano.",
+      "globalStart": 43.086666666666666,
+      "globalEnd": 43.20666666666667
+    },
+    {
+      "text": " oferta",
+      "start": 41.32,
+      "end": 41.62,
+      "probability": 0.9959001243114471,
+      "phrase": "Lo que ocurre con la oferta internacional también puede afectar el mercado mexicano.",
+      "globalStart": 43.20666666666667,
+      "globalEnd": 43.50666666666667
+    },
+    {
+      "text": " internacional",
+      "start": 41.62,
+      "end": 42.3,
+      "probability": 0.9970656037330627,
+      "phrase": "Lo que ocurre con la oferta internacional también puede afectar el mercado mexicano.",
+      "globalStart": 43.50666666666667,
+      "globalEnd": 44.18666666666666
+    },
+    {
+      "text": " también",
+      "start": 42.3,
+      "end": 42.88,
+      "probability": 0.9688526391983032,
+      "phrase": "Lo que ocurre con la oferta internacional también puede afectar el mercado mexicano.",
+      "globalStart": 44.18666666666666,
+      "globalEnd": 44.76666666666667
+    },
+    {
+      "text": " puede",
+      "start": 42.88,
+      "end": 43.22,
+      "probability": 0.9984639883041382,
+      "phrase": "Lo que ocurre con la oferta internacional también puede afectar el mercado mexicano.",
+      "globalStart": 44.76666666666667,
+      "globalEnd": 45.106666666666676
+    },
+    {
+      "text": " afectar",
+      "start": 43.22,
+      "end": 43.7,
+      "probability": 0.9985325932502747,
+      "phrase": "Lo que ocurre con la oferta internacional también puede afectar el mercado mexicano.",
+      "globalStart": 45.106666666666676,
+      "globalEnd": 45.586666666666666
+    },
+    {
+      "text": " el",
+      "start": 43.7,
+      "end": 43.82,
+      "probability": 0.961120069026947,
+      "phrase": "Lo que ocurre con la oferta internacional también puede afectar el mercado mexicano.",
+      "globalStart": 45.586666666666666,
+      "globalEnd": 45.70666666666667
+    },
+    {
+      "text": " mercado",
+      "start": 43.82,
+      "end": 44.12,
+      "probability": 0.997141420841217,
+      "phrase": "Lo que ocurre con la oferta internacional también puede afectar el mercado mexicano.",
+      "globalStart": 45.70666666666667,
+      "globalEnd": 46.00666666666667
+    },
+    {
+      "text": " mexicano.",
+      "start": 44.12,
+      "end": 44.68,
+      "probability": 0.9967431426048279,
+      "phrase": "Lo que ocurre con la oferta internacional también puede afectar el mercado mexicano.",
+      "globalStart": 46.00666666666667,
+      "globalEnd": 46.56666666666667
+    },
+    {
+      "text": " Para",
+      "start": 45.36,
+      "end": 45.62,
+      "probability": 0.9877054691314697,
+      "phrase": "Para entenderlo, imagina un kilo de carne de res que cuesta 250 pesos.",
+      "globalStart": 48.059999999999995,
+      "globalEnd": 48.319999999999986
+    },
+    {
+      "text": " entenderlo,",
+      "start": 45.62,
+      "end": 46.28,
+      "probability": 0.996210128068924,
+      "phrase": "Para entenderlo, imagina un kilo de carne de res que cuesta 250 pesos.",
+      "globalStart": 48.319999999999986,
+      "globalEnd": 48.98
+    },
+    {
+      "text": " imagina",
+      "start": 46.5,
+      "end": 46.9,
+      "probability": 0.9893639981746674,
+      "phrase": "Para entenderlo, imagina un kilo de carne de res que cuesta 250 pesos.",
+      "globalStart": 49.199999999999996,
+      "globalEnd": 49.59999999999999
+    },
+    {
+      "text": " un",
+      "start": 46.9,
+      "end": 47.1,
+      "probability": 0.9480103254318237,
+      "phrase": "Para entenderlo, imagina un kilo de carne de res que cuesta 250 pesos.",
+      "globalStart": 49.59999999999999,
+      "globalEnd": 49.800000000000004
+    },
+    {
+      "text": " kilo",
+      "start": 47.1,
+      "end": 47.3,
+      "probability": 0.9690626263618469,
+      "phrase": "Para entenderlo, imagina un kilo de carne de res que cuesta 250 pesos.",
+      "globalStart": 49.800000000000004,
+      "globalEnd": 49.99999999999999
+    },
+    {
+      "text": " de",
+      "start": 47.3,
+      "end": 47.5,
+      "probability": 0.9989784955978394,
+      "phrase": "Para entenderlo, imagina un kilo de carne de res que cuesta 250 pesos.",
+      "globalStart": 49.99999999999999,
+      "globalEnd": 50.199999999999996
+    },
+    {
+      "text": " carne",
+      "start": 47.5,
+      "end": 47.74,
+      "probability": 0.9976578950881958,
+      "phrase": "Para entenderlo, imagina un kilo de carne de res que cuesta 250 pesos.",
+      "globalStart": 50.199999999999996,
+      "globalEnd": 50.43999999999999
+    },
+    {
+      "text": " de",
+      "start": 47.74,
+      "end": 47.92,
+      "probability": 0.9977537989616394,
+      "phrase": "Para entenderlo, imagina un kilo de carne de res que cuesta 250 pesos.",
+      "globalStart": 50.43999999999999,
+      "globalEnd": 50.62
+    },
+    {
+      "text": " res",
+      "start": 47.92,
+      "end": 48.1,
+      "probability": 0.9951798915863037,
+      "phrase": "Para entenderlo, imagina un kilo de carne de res que cuesta 250 pesos.",
+      "globalStart": 50.62,
+      "globalEnd": 50.800000000000004
+    },
+    {
+      "text": " que",
+      "start": 48.1,
+      "end": 48.38,
+      "probability": 0.9586505889892578,
+      "phrase": "Para entenderlo, imagina un kilo de carne de res que cuesta 250 pesos.",
+      "globalStart": 50.800000000000004,
+      "globalEnd": 51.080000000000005
+    },
+    {
+      "text": " cuesta",
+      "start": 48.38,
+      "end": 48.76,
+      "probability": 0.9950963258743286,
+      "phrase": "Para entenderlo, imagina un kilo de carne de res que cuesta 250 pesos.",
+      "globalStart": 51.080000000000005,
+      "globalEnd": 51.46
+    },
+    {
+      "text": " 250",
+      "start": 48.76,
+      "end": 49.48,
+      "probability": 0.7220995426177979,
+      "phrase": "Para entenderlo, imagina un kilo de carne de res que cuesta 250 pesos.",
+      "globalStart": 51.46,
+      "globalEnd": 52.18
+    },
+    {
+      "text": " pesos.",
+      "start": 49.48,
+      "end": 50.28,
+      "probability": 0.9948521256446838,
+      "phrase": "Para entenderlo, imagina un kilo de carne de res que cuesta 250 pesos.",
+      "globalStart": 52.18,
+      "globalEnd": 52.98
+    },
+    {
+      "text": " Si",
+      "start": 50.88,
+      "end": 51.08,
+      "probability": 0.9844346642494202,
+      "phrase": "Si aumentas 6%, pagarías 265.",
+      "globalStart": 53.580000000000005,
+      "globalEnd": 53.779999999999994
+    },
+    {
+      "text": " aumenta",
+      "start": 51.08,
+      "end": 51.56,
+      "probability": 0.7823298573493958,
+      "phrase": "Si aumentas 6%, pagarías 265.",
+      "globalStart": 53.779999999999994,
+      "globalEnd": 54.26
+    },
+    {
+      "text": " 6 %,",
+      "start": 51.56,
+      "end": 52.42,
+      "probability": 0.6893631219863892,
+      "phrase": "Si aumentas 6%, pagarías 265.",
+      "globalStart": 54.26,
+      "globalEnd": 55.12
+    },
+    {
+      "text": " pagarías",
+      "start": 52.42,
+      "end": 53.08,
+      "probability": 0.9520238637924194,
+      "phrase": "Si aumentas 6%, pagarías 265.",
+      "globalStart": 55.12,
+      "globalEnd": 55.779999999999994
+    },
+    {
+      "text": " 265.",
+      "start": 53.08,
+      "end": 54.52,
+      "probability": 0.9860800206661224,
+      "phrase": "Si aumentas 6%, pagarías 265.",
+      "globalStart": 55.779999999999994,
+      "globalEnd": 57.21999999999999
+    },
+    {
+      "text": " Pero",
+      "start": 55.16,
+      "end": 55.34,
+      "probability": 0.5318270325660706,
+      "phrase": "Pero ojo, son pronósticos, no precios confirmados.",
+      "globalStart": 58.96666666666666,
+      "globalEnd": 59.14666666666667
+    },
+    {
+      "text": " ojo,",
+      "start": 55.34,
+      "end": 55.68,
+      "probability": 0.6764667630195618,
+      "phrase": "Pero ojo, son pronósticos, no precios confirmados.",
+      "globalStart": 59.14666666666667,
+      "globalEnd": 59.48666666666666
+    },
+    {
+      "text": " son",
+      "start": 56.04,
+      "end": 56.16,
+      "probability": 0.9731393456459045,
+      "phrase": "Pero ojo, son pronósticos, no precios confirmados.",
+      "globalStart": 59.84666666666667,
+      "globalEnd": 59.96666666666666
+    },
+    {
+      "text": " pronósticos,",
+      "start": 56.16,
+      "end": 56.94,
+      "probability": 0.9830432335535685,
+      "phrase": "Pero ojo, son pronósticos, no precios confirmados.",
+      "globalStart": 59.96666666666666,
+      "globalEnd": 60.74666666666666
+    },
+    {
+      "text": " no",
+      "start": 57.22,
+      "end": 57.44,
+      "probability": 0.9936919212341309,
+      "phrase": "Pero ojo, son pronósticos, no precios confirmados.",
+      "globalStart": 61.026666666666664,
+      "globalEnd": 61.24666666666666
+    },
+    {
+      "text": " precios",
+      "start": 57.44,
+      "end": 57.84,
+      "probability": 0.9952127933502197,
+      "phrase": "Pero ojo, son pronósticos, no precios confirmados.",
+      "globalStart": 61.24666666666666,
+      "globalEnd": 61.64666666666667
+    },
+    {
+      "text": " confirmados.",
+      "start": 57.84,
+      "end": 58.5,
+      "probability": 0.9975757300853729,
+      "phrase": "Pero ojo, son pronósticos, no precios confirmados.",
+      "globalStart": 61.64666666666667,
+      "globalEnd": 62.306666666666665
+    },
+    {
+      "text": " El",
+      "start": 59.02,
+      "end": 59.12,
+      "probability": 0.9855037331581116,
+      "phrase": "El aumento real dependerá del mercado.",
+      "globalStart": 62.82666666666666,
+      "globalEnd": 62.926666666666655
+    },
+    {
+      "text": " aumento",
+      "start": 59.12,
+      "end": 59.36,
+      "probability": 0.9965728521347046,
+      "phrase": "El aumento real dependerá del mercado.",
+      "globalStart": 62.926666666666655,
+      "globalEnd": 63.166666666666664
+    },
+    {
+      "text": " real",
+      "start": 59.36,
+      "end": 59.8,
+      "probability": 0.9951332211494446,
+      "phrase": "El aumento real dependerá del mercado.",
+      "globalStart": 63.166666666666664,
+      "globalEnd": 63.60666666666666
+    },
+    {
+      "text": " dependerá",
+      "start": 59.8,
+      "end": 60.4,
+      "probability": 0.9919335047403971,
+      "phrase": "El aumento real dependerá del mercado.",
+      "globalStart": 63.60666666666666,
+      "globalEnd": 64.20666666666665
+    },
+    {
+      "text": " del",
+      "start": 60.4,
+      "end": 60.54,
+      "probability": 0.9968345761299133,
+      "phrase": "El aumento real dependerá del mercado.",
+      "globalStart": 64.20666666666665,
+      "globalEnd": 64.34666666666666
+    },
+    {
+      "text": " mercado.",
+      "start": 60.54,
+      "end": 60.88,
+      "probability": 0.9991939663887024,
+      "phrase": "El aumento real dependerá del mercado.",
+      "globalStart": 64.34666666666666,
+      "globalEnd": 64.68666666666667
+    },
+    {
+      "text": " Ahora",
+      "start": 61.76,
+      "end": 62.0,
+      "probability": 0.9504820108413696,
+      "phrase": "Ahora dime, ¿cuál compras más en tu casa?",
+      "globalStart": 65.56666666666666,
+      "globalEnd": 65.80666666666667
+    },
+    {
+      "text": " dime,",
+      "start": 62.0,
+      "end": 62.24,
+      "probability": 0.950330376625061,
+      "phrase": "Ahora dime, ¿cuál compras más en tu casa?",
+      "globalStart": 65.80666666666667,
+      "globalEnd": 66.04666666666665
+    },
+    {
+      "text": " ¿cuál",
+      "start": 62.62,
+      "end": 62.8,
+      "probability": 0.9050241112709045,
+      "phrase": "Ahora dime, ¿cuál compras más en tu casa?",
+      "globalStart": 66.42666666666665,
+      "globalEnd": 66.60666666666665
+    },
+    {
+      "text": " compras",
+      "start": 62.8,
+      "end": 63.18,
+      "probability": 0.9554367959499359,
+      "phrase": "Ahora dime, ¿cuál compras más en tu casa?",
+      "globalStart": 66.60666666666665,
+      "globalEnd": 66.98666666666665
+    },
+    {
+      "text": " más",
+      "start": 63.18,
+      "end": 63.32,
+      "probability": 0.9844314455986023,
+      "phrase": "Ahora dime, ¿cuál compras más en tu casa?",
+      "globalStart": 66.98666666666665,
+      "globalEnd": 67.12666666666667
+    },
+    {
+      "text": " en",
+      "start": 63.32,
+      "end": 63.48,
+      "probability": 0.9980725049972534,
+      "phrase": "Ahora dime, ¿cuál compras más en tu casa?",
+      "globalStart": 67.12666666666667,
+      "globalEnd": 67.28666666666666
+    },
+    {
+      "text": " tu",
+      "start": 63.48,
+      "end": 63.58,
+      "probability": 0.9986017346382141,
+      "phrase": "Ahora dime, ¿cuál compras más en tu casa?",
+      "globalStart": 67.28666666666666,
+      "globalEnd": 67.38666666666666
+    },
+    {
+      "text": " casa:",
+      "start": 63.58,
+      "end": 63.82,
+      "probability": 0.9992387294769287,
+      "phrase": "Ahora dime, ¿cuál compras más en tu casa?",
+      "globalStart": 67.38666666666666,
+      "globalEnd": 67.62666666666667
+    },
+    {
+      "text": " Res,",
+      "start": 64.34,
+      "end": 64.5,
+      "probability": 0.8100477457046509,
+      "phrase": "Res, pollo o cerdo?",
+      "globalStart": 68.14666666666668,
+      "globalEnd": 68.30666666666667
+    },
+    {
+      "text": " pollo",
+      "start": 64.96,
+      "end": 65.26,
+      "probability": 0.9742786884307861,
+      "phrase": "Res, pollo o cerdo?",
+      "globalStart": 68.76666666666665,
+      "globalEnd": 69.06666666666666
+    },
+    {
+      "text": " o",
+      "start": 65.26,
+      "end": 65.6,
+      "probability": 0.9168307185173035,
+      "phrase": "Res, pollo o cerdo?",
+      "globalStart": 69.06666666666666,
+      "globalEnd": 69.40666666666667
+    },
+    {
+      "text": " cerdo?",
+      "start": 65.6,
+      "end": 65.98,
+      "probability": 0.9671740531921387,
+      "phrase": "Res, pollo o cerdo?",
+      "globalStart": 69.40666666666667,
+      "globalEnd": 69.78666666666666
+    }
+  ],
+  "editorialASRFixes": [
+    "Numerales agrupados: 6 %, 4,8 %, 3,3 %, $250 y $265",
+    "aumentas → aumenta, según el guion y la unión fonética con seis",
+    "Inicio de Pero colocado en la toma correcta tras una pausa detectada"
+  ]
+}

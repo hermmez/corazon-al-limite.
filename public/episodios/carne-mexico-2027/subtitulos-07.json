@@ -1,0 +1,177 @@
+[
+  {
+    "text": " Pero",
+    "startMs": 200,
+    "endMs": 380,
+    "timestampMs": 290,
+    "confidence": 0.5318270325660706
+  },
+  {
+    "text": " ojo,",
+    "startMs": 380,
+    "endMs": 720,
+    "timestampMs": 550,
+    "confidence": 0.6764667630195618
+  },
+  {
+    "text": " son",
+    "startMs": 1080,
+    "endMs": 1200,
+    "timestampMs": 1140,
+    "confidence": 0.9731393456459045
+  },
+  {
+    "text": " pronósticos,",
+    "startMs": 1200,
+    "endMs": 1980,
+    "timestampMs": 1590,
+    "confidence": 0.9830432335535685
+  },
+  {
+    "text": " no",
+    "startMs": 2260,
+    "endMs": 2480,
+    "timestampMs": 2370,
+    "confidence": 0.9936919212341309
+  },
+  {
+    "text": " precios",
+    "startMs": 2480,
+    "endMs": 2880,
+    "timestampMs": 2680,
+    "confidence": 0.9952127933502197
+  },
+  {
+    "text": " confirmados.",
+    "startMs": 2880,
+    "endMs": 3540,
+    "timestampMs": 3210,
+    "confidence": 0.9975757300853729
+  },
+  {
+    "text": " El",
+    "startMs": 4060,
+    "endMs": 4160,
+    "timestampMs": 4110,
+    "confidence": 0.9855037331581116
+  },
+  {
+    "text": " aumento",
+    "startMs": 4160,
+    "endMs": 4400,
+    "timestampMs": 4280,
+    "confidence": 0.9965728521347046
+  },
+  {
+    "text": " real",
+    "startMs": 4400,
+    "endMs": 4840,
+    "timestampMs": 4620,
+    "confidence": 0.9951332211494446
+  },
+  {
+    "text": " dependerá",
+    "startMs": 4840,
+    "endMs": 5440,
+    "timestampMs": 5140,
+    "confidence": 0.9919335047403971
+  },
+  {
+    "text": " del",
+    "startMs": 5440,
+    "endMs": 5580,
+    "timestampMs": 5510,
+    "confidence": 0.9968345761299133
+  },
+  {
+    "text": " mercado.",
+    "startMs": 5580,
+    "endMs": 5920,
+    "timestampMs": 5750,
+    "confidence": 0.9991939663887024
+  },
+  {
+    "text": " Ahora",
+    "startMs": 6800,
+    "endMs": 7040,
+    "timestampMs": 6920,
+    "confidence": 0.9504820108413696
+  },
+  {
+    "text": " dime,",
+    "startMs": 7040,
+    "endMs": 7280,
+    "timestampMs": 7160,
+    "confidence": 0.950330376625061
+  },
+  {
+    "text": " ¿cuál",
+    "startMs": 7660,
+    "endMs": 7840,
+    "timestampMs": 7750,
+    "confidence": 0.9050241112709045
+  },
+  {
+    "text": " compras",
+    "startMs": 7840,
+    "endMs": 8220,
+    "timestampMs": 8030,
+    "confidence": 0.9554367959499359
+  },
+  {
+    "text": " más",
+    "startMs": 8220,
+    "endMs": 8360,
+    "timestampMs": 8290,
+    "confidence": 0.9844314455986023
+  },
+  {
+    "text": " en",
+    "startMs": 8360,
+    "endMs": 8520,
+    "timestampMs": 8440,
+    "confidence": 0.9980725049972534
+  },
+  {
+    "text": " tu",
+    "startMs": 8520,
+    "endMs": 8620,
+    "timestampMs": 8570,
+    "confidence": 0.9986017346382141
+  },
+  {
+    "text": " casa:",
+    "startMs": 8620,
+    "endMs": 8860,
+    "timestampMs": 8740,
+    "confidence": 0.9992387294769287
+  },
+  {
+    "text": " Res,",
+    "startMs": 9380,
+    "endMs": 9540,
+    "timestampMs": 9460,
+    "confidence": 0.8100477457046509
+  },
+  {
+    "text": " pollo",
+    "startMs": 10000,
+    "endMs": 10300,
+    "timestampMs": 10150,
+    "confidence": 0.9742786884307861
+  },
+  {
+    "text": " o",
+    "startMs": 10300,
+    "endMs": 10640,
+    "timestampMs": 10470,
+    "confidence": 0.9168307185173035
+  },
+  {
+    "text": " cerdo?",
+    "startMs": 10640,
+    "endMs": 11020,
+    "timestampMs": 10830,
+    "confidence": 0.9671740531921387
+  }
+]

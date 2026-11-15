@@ -1,0 +1,156 @@
+[
+  {
+    "text": " Segunda",
+    "startMs": 260,
+    "endMs": 740,
+    "timestampMs": 500,
+    "confidence": 0.9867236018180847
+  },
+  {
+    "text": " razón.",
+    "startMs": 740,
+    "endMs": 1080,
+    "timestampMs": 910,
+    "confidence": 0.9984007477760315
+  },
+  {
+    "text": " La",
+    "startMs": 1640,
+    "endMs": 1760,
+    "timestampMs": 1700,
+    "confidence": 0.6235882639884949
+  },
+  {
+    "text": " inseguridad",
+    "startMs": 1760,
+    "endMs": 2440,
+    "timestampMs": 2100,
+    "confidence": 0.9866867512464523
+  },
+  {
+    "text": " y",
+    "startMs": 2440,
+    "endMs": 2600,
+    "timestampMs": 2520,
+    "confidence": 0.9882910847663879
+  },
+  {
+    "text": " los",
+    "startMs": 2600,
+    "endMs": 2720,
+    "timestampMs": 2660,
+    "confidence": 0.9972111582756042
+  },
+  {
+    "text": " robos",
+    "startMs": 2720,
+    "endMs": 3040,
+    "timestampMs": 2880,
+    "confidence": 0.9534008800983429
+  },
+  {
+    "text": " en",
+    "startMs": 3040,
+    "endMs": 3180,
+    "timestampMs": 3110,
+    "confidence": 0.9968444108963013
+  },
+  {
+    "text": " carretera",
+    "startMs": 3180,
+    "endMs": 3680,
+    "timestampMs": 3430,
+    "confidence": 0.9884268045425415
+  },
+  {
+    "text": " también",
+    "startMs": 3680,
+    "endMs": 4240,
+    "timestampMs": 3960,
+    "confidence": 0.9657026529312134
+  },
+  {
+    "text": " representan",
+    "startMs": 4240,
+    "endMs": 4900,
+    "timestampMs": 4570,
+    "confidence": 0.9936426281929016
+  },
+  {
+    "text": " costos",
+    "startMs": 4900,
+    "endMs": 5380,
+    "timestampMs": 5140,
+    "confidence": 0.9881088137626648
+  },
+  {
+    "text": " para",
+    "startMs": 5380,
+    "endMs": 5580,
+    "timestampMs": 5480,
+    "confidence": 0.9965831637382507
+  },
+  {
+    "text": " las",
+    "startMs": 5580,
+    "endMs": 5780,
+    "timestampMs": 5680,
+    "confidence": 0.9906540513038635
+  },
+  {
+    "text": " empresas",
+    "startMs": 5780,
+    "endMs": 6200,
+    "timestampMs": 5990,
+    "confidence": 0.997805655002594
+  },
+  {
+    "text": " que",
+    "startMs": 6200,
+    "endMs": 6500,
+    "timestampMs": 6350,
+    "confidence": 0.9924890995025635
+  },
+  {
+    "text": " llevan",
+    "startMs": 6500,
+    "endMs": 6780,
+    "timestampMs": 6640,
+    "confidence": 0.9950706362724304
+  },
+  {
+    "text": " los",
+    "startMs": 6780,
+    "endMs": 6920,
+    "timestampMs": 6850,
+    "confidence": 0.9964637160301208
+  },
+  {
+    "text": " alimentos",
+    "startMs": 6920,
+    "endMs": 7320,
+    "timestampMs": 7120,
+    "confidence": 0.9964886903762817
+  },
+  {
+    "text": " hasta",
+    "startMs": 7320,
+    "endMs": 7660,
+    "timestampMs": 7490,
+    "confidence": 0.9835662245750427
+  },
+  {
+    "text": " las",
+    "startMs": 7660,
+    "endMs": 7900,
+    "timestampMs": 7780,
+    "confidence": 0.9956282377243042
+  },
+  {
+    "text": " tiendas.",
+    "startMs": 7900,
+    "endMs": 8380,
+    "timestampMs": 8140,
+    "confidence": 0.997627337773641
+  }
+]

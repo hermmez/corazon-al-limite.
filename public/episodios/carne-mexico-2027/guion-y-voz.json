@@ -1,0 +1,28 @@
+{
+  "episode": "¿Por qué comer carne podría ser más caro en México en 2027?",
+  "model": "elevenlabs_v4",
+  "voice": {
+    "name": "Grady",
+    "voice_id": "e2a2d2e6-9ed2-59cd-82af-feaa27f8a678",
+    "voice_type": "preset"
+  },
+  "creditsExact": 4.6,
+  "approved": true,
+  "generated": true,
+  "wordCount": 152,
+  "narration": [
+    "¿La carne ya está cara? En 2027 podría costarte más. Estas son tres razones.",
+    "El Consejo Mexicano de la Carne estima que la res podría subir seis por ciento; el cerdo, cuatro punto ocho; y el pollo, tres punto tres.",
+    "Primera razón: producir y transportar carne cuesta dinero. Electricidad, combustible, refrigeración y distribución pueden terminar reflejándose en el precio.",
+    "Segunda razón: la inseguridad y los robos en carretera también representan costos para las empresas que llevan los alimentos hasta las tiendas.",
+    "Tercera razón: la disponibilidad de ganado en Estados Unidos. Lo que ocurre con la oferta internacional también puede afectar el mercado mexicano.",
+    "Para entenderlo, imagina un kilo de carne de res que cuesta doscientos cincuenta pesos. Si aumenta seis por ciento, pagarías doscientos sesenta y cinco.",
+    "Pero ojo: son pronósticos, no precios confirmados. El aumento real dependerá del mercado. Ahora dime, ¿cuál compras más en tu casa: res, pollo o cerdo?"
+  ],
+  "approvedCredits": 4.6,
+  "jobId": "e7b9a6e4-3b2a-4d58-aa3d-bd8ff7c87b0d",
+  "sources": [
+    "https://www.unotv.com/negocios/incremento-proteinas-pollo-cerdo-res-2027/",
+    "https://www.jornada.com.mx/2026/11/08/economia/012n1eco"
+  ]
+}

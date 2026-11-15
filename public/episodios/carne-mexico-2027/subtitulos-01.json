@@ -1,0 +1,100 @@
+[
+  {
+    "text": " ¿La",
+    "startMs": 0,
+    "endMs": 260,
+    "timestampMs": 130,
+    "confidence": 0.7575774788856506
+  },
+  {
+    "text": " Carne",
+    "startMs": 260,
+    "endMs": 540,
+    "timestampMs": 400,
+    "confidence": 0.990829586982727
+  },
+  {
+    "text": " ya",
+    "startMs": 540,
+    "endMs": 740,
+    "timestampMs": 640,
+    "confidence": 0.6968671083450317
+  },
+  {
+    "text": " está",
+    "startMs": 740,
+    "endMs": 920,
+    "timestampMs": 830,
+    "confidence": 0.9609528183937073
+  },
+  {
+    "text": " cara?",
+    "startMs": 920,
+    "endMs": 1200,
+    "timestampMs": 1060,
+    "confidence": 0.9831294417381287
+  },
+  {
+    "text": " En",
+    "startMs": 1760,
+    "endMs": 1940,
+    "timestampMs": 1850,
+    "confidence": 0.9709031581878662
+  },
+  {
+    "text": " 2027",
+    "startMs": 1940,
+    "endMs": 2800,
+    "timestampMs": 2370,
+    "confidence": 0.9734626710414886
+  },
+  {
+    "text": " podría",
+    "startMs": 2800,
+    "endMs": 3380,
+    "timestampMs": 3090,
+    "confidence": 0.8318596482276917
+  },
+  {
+    "text": " costarte",
+    "startMs": 3380,
+    "endMs": 3900,
+    "timestampMs": 3640,
+    "confidence": 0.8488377034664154
+  },
+  {
+    "text": " más.",
+    "startMs": 3900,
+    "endMs": 4160,
+    "timestampMs": 4030,
+    "confidence": 0.9972924590110779
+  },
+  {
+    "text": " Estas",
+    "startMs": 4680,
+    "endMs": 5100,
+    "timestampMs": 4890,
+    "confidence": 0.9856463074684143
+  },
+  {
+    "text": " son",
+    "startMs": 5100,
+    "endMs": 5480,
+    "timestampMs": 5290,
+    "confidence": 0.9931286573410034
+  },
+  {
+    "text": " tres",
+    "startMs": 5480,
+    "endMs": 5840,
+    "timestampMs": 5660,
+    "confidence": 0.8163583874702454
+  },
+  {
+    "text": " razones.",
+    "startMs": 5840,
+    "endMs": 6280,
+    "timestampMs": 6060,
+    "confidence": 0.9991204738616943
+  }
+]
