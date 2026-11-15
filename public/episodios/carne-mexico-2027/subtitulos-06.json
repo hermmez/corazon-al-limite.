@@ -1,0 +1,128 @@
+[
+  {
+    "text": " Para",
+    "startMs": 260,
+    "endMs": 520,
+    "timestampMs": 390,
+    "confidence": 0.9877054691314697
+  },
+  {
+    "text": " entenderlo,",
+    "startMs": 520,
+    "endMs": 1180,
+    "timestampMs": 850,
+    "confidence": 0.996210128068924
+  },
+  {
+    "text": " imagina",
+    "startMs": 1400,
+    "endMs": 1800,
+    "timestampMs": 1600,
+    "confidence": 0.9893639981746674
+  },
+  {
+    "text": " un",
+    "startMs": 1800,
+    "endMs": 2000,
+    "timestampMs": 1900,
+    "confidence": 0.9480103254318237
+  },
+  {
+    "text": " kilo",
+    "startMs": 2000,
+    "endMs": 2200,
+    "timestampMs": 2100,
+    "confidence": 0.9690626263618469
+  },
+  {
+    "text": " de",
+    "startMs": 2200,
+    "endMs": 2400,
+    "timestampMs": 2300,
+    "confidence": 0.9989784955978394
+  },
+  {
+    "text": " carne",
+    "startMs": 2400,
+    "endMs": 2640,
+    "timestampMs": 2520,
+    "confidence": 0.9976578950881958
+  },
+  {
+    "text": " de",
+    "startMs": 2640,
+    "endMs": 2820,
+    "timestampMs": 2730,
+    "confidence": 0.9977537989616394
+  },
+  {
+    "text": " res",
+    "startMs": 2820,
+    "endMs": 3000,
+    "timestampMs": 2910,
+    "confidence": 0.9951798915863037
+  },
+  {
+    "text": " que",
+    "startMs": 3000,
+    "endMs": 3280,
+    "timestampMs": 3140,
+    "confidence": 0.9586505889892578
+  },
+  {
+    "text": " cuesta",
+    "startMs": 3280,
+    "endMs": 3660,
+    "timestampMs": 3470,
+    "confidence": 0.9950963258743286
+  },
+  {
+    "text": " 250",
+    "startMs": 3660,
+    "endMs": 4380,
+    "timestampMs": 4020,
+    "confidence": 0.7220995426177979
+  },
+  {
+    "text": " pesos.",
+    "startMs": 4380,
+    "endMs": 5180,
+    "timestampMs": 4780,
+    "confidence": 0.9948521256446838
+  },
+  {
+    "text": " Si",
+    "startMs": 5780,
+    "endMs": 5980,
+    "timestampMs": 5880,
+    "confidence": 0.9844346642494202
+  },
+  {
+    "text": " aumenta",
+    "startMs": 5980,
+    "endMs": 6460,
+    "timestampMs": 6220,
+    "confidence": 0.7823298573493958
+  },
+  {
+    "text": " 6 %,",
+    "startMs": 6460,
+    "endMs": 7320,
+    "timestampMs": 6890,
+    "confidence": 0.6893631219863892
+  },
+  {
+    "text": " pagarías",
+    "startMs": 7320,
+    "endMs": 7980,
+    "timestampMs": 7650,
+    "confidence": 0.9520238637924194
+  },
+  {
+    "text": " 265.",
+    "startMs": 7980,
+    "endMs": 9420,
+    "timestampMs": 8700,
+    "confidence": 0.9860800206661224
+  }
+]
