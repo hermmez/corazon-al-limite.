@@ -1,0 +1,128 @@
+[
+  {
+    "text": " Su",
+    "startMs": 300,
+    "endMs": 440,
+    "timestampMs": 370,
+    "confidence": 0.9888648986816406
+  },
+  {
+    "text": " alimentación",
+    "startMs": 440,
+    "endMs": 1040,
+    "timestampMs": 740,
+    "confidence": 0.9989474415779114
+  },
+  {
+    "text": " incluye",
+    "startMs": 1040,
+    "endMs": 1600,
+    "timestampMs": 1320,
+    "confidence": 0.9790196716785431
+  },
+  {
+    "text": " medusas,",
+    "startMs": 1600,
+    "endMs": 2180,
+    "timestampMs": 1890,
+    "confidence": 0.9780933062235514
+  },
+  {
+    "text": " salpas",
+    "startMs": 2580,
+    "endMs": 2980,
+    "timestampMs": 2780,
+    "confidence": 0.9364453852176666
+  },
+  {
+    "text": " y",
+    "startMs": 2980,
+    "endMs": 3360,
+    "timestampMs": 3170,
+    "confidence": 0.923629879951477
+  },
+  {
+    "text": " otros",
+    "startMs": 3360,
+    "endMs": 3560,
+    "timestampMs": 3460,
+    "confidence": 0.9951484799385071
+  },
+  {
+    "text": " animales",
+    "startMs": 3560,
+    "endMs": 3980,
+    "timestampMs": 3770,
+    "confidence": 0.999407172203064
+  },
+  {
+    "text": " marinos.",
+    "startMs": 3980,
+    "endMs": 4460,
+    "timestampMs": 4220,
+    "confidence": 0.9753747284412384
+  },
+  {
+    "text": " Para",
+    "startMs": 5040,
+    "endMs": 5240,
+    "timestampMs": 5140,
+    "confidence": 0.9943247437477112
+  },
+  {
+    "text": " conseguir",
+    "startMs": 5240,
+    "endMs": 5640,
+    "timestampMs": 5440,
+    "confidence": 0.9967877864837646
+  },
+  {
+    "text": " comida,",
+    "startMs": 5640,
+    "endMs": 6040,
+    "timestampMs": 5840,
+    "confidence": 0.9989526271820068
+  },
+  {
+    "text": " puede",
+    "startMs": 6440,
+    "endMs": 6520,
+    "timestampMs": 6480,
+    "confidence": 0.9948335886001587
+  },
+  {
+    "text": " recorrer",
+    "startMs": 6520,
+    "endMs": 7000,
+    "timestampMs": 6760,
+    "confidence": 0.9902727802594503
+  },
+  {
+    "text": " distintas",
+    "startMs": 7000,
+    "endMs": 7660,
+    "timestampMs": 7330,
+    "confidence": 0.9979022145271301
+  },
+  {
+    "text": " zonas",
+    "startMs": 7660,
+    "endMs": 7960,
+    "timestampMs": 7810,
+    "confidence": 0.9972212314605713
+  },
+  {
+    "text": " del",
+    "startMs": 7960,
+    "endMs": 8180,
+    "timestampMs": 8070,
+    "confidence": 0.9933345317840576
+  },
+  {
+    "text": " océano.",
+    "startMs": 8180,
+    "endMs": 8600,
+    "timestampMs": 8390,
+    "confidence": 0.9523880283037821
+  }
+]

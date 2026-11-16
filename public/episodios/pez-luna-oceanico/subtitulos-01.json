@@ -1,0 +1,121 @@
+[
+  {
+    "text": "¡Este",
+    "startMs": 0,
+    "endMs": 320,
+    "timestampMs": 160,
+    "confidence": 0.8051444292068481
+  },
+  {
+    "text": " pez",
+    "startMs": 320,
+    "endMs": 660,
+    "timestampMs": 490,
+    "confidence": 0.9516723155975342
+  },
+  {
+    "text": " parece",
+    "startMs": 660,
+    "endMs": 880,
+    "timestampMs": 770,
+    "confidence": 0.9949827194213867
+  },
+  {
+    "text": " cortado",
+    "startMs": 880,
+    "endMs": 1560,
+    "timestampMs": 1220,
+    "confidence": 0.9897444546222687
+  },
+  {
+    "text": " por",
+    "startMs": 1560,
+    "endMs": 1760,
+    "timestampMs": 1660,
+    "confidence": 0.9970400929450989
+  },
+  {
+    "text": " la",
+    "startMs": 1760,
+    "endMs": 1920,
+    "timestampMs": 1840,
+    "confidence": 0.9980460405349731
+  },
+  {
+    "text": " mitad!",
+    "startMs": 1920,
+    "endMs": 2160,
+    "timestampMs": 2040,
+    "confidence": 0.9989290833473206
+  },
+  {
+    "text": " Pero",
+    "startMs": 2840,
+    "endMs": 3000,
+    "timestampMs": 2920,
+    "confidence": 0.9803654551506042
+  },
+  {
+    "text": " está",
+    "startMs": 3000,
+    "endMs": 3200,
+    "timestampMs": 3100,
+    "confidence": 0.9640458226203918
+  },
+  {
+    "text": " completo",
+    "startMs": 3200,
+    "endMs": 3640,
+    "timestampMs": 3420,
+    "confidence": 0.9980575442314148
+  },
+  {
+    "text": " y",
+    "startMs": 3640,
+    "endMs": 4120,
+    "timestampMs": 3880,
+    "confidence": 0.9202573895454407
+  },
+  {
+    "text": " puede",
+    "startMs": 4120,
+    "endMs": 4360,
+    "timestampMs": 4240,
+    "confidence": 0.9969407916069031
+  },
+  {
+    "text": " pesar",
+    "startMs": 4360,
+    "endMs": 4680,
+    "timestampMs": 4520,
+    "confidence": 0.9586783647537231
+  },
+  {
+    "text": " más",
+    "startMs": 4680,
+    "endMs": 5080,
+    "timestampMs": 4880,
+    "confidence": 0.9884131550788879
+  },
+  {
+    "text": " de",
+    "startMs": 5080,
+    "endMs": 5300,
+    "timestampMs": 5190,
+    "confidence": 0.9978736639022827
+  },
+  {
+    "text": " una",
+    "startMs": 5300,
+    "endMs": 5500,
+    "timestampMs": 5400,
+    "confidence": 0.9683957099914551
+  },
+  {
+    "text": " tonelada.",
+    "startMs": 5500,
+    "endMs": 6000,
+    "timestampMs": 5750,
+    "confidence": 0.9974950949350992
+  }
+]

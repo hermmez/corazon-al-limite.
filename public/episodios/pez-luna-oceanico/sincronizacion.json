@@ -1,0 +1,1431 @@
+{
+  "sourceCuts": [
+    0,
+    6.38,
+    17.3,
+    25.4,
+    34.62,
+    43.54,
+    52.6,
+    59.08,
+    62.27591836734694
+  ],
+  "voiceStartFrames": [
+    0,
+    234,
+    570,
+    858,
+    1170,
+    1470,
+    1770,
+    2004
+  ],
+  "words": [
+    {
+      "start": 0.0,
+      "end": 0.32,
+      "text": "¡Este",
+      "probability": 0.8051444292068481,
+      "phrase": "Este pez parece cortado por la mitad, pero está completo y puede pesar más de una tonelada.",
+      "globalStart": 0.0,
+      "globalEnd": 0.32
+    },
+    {
+      "start": 0.32,
+      "end": 0.66,
+      "text": " pez",
+      "probability": 0.9516723155975342,
+      "phrase": "Este pez parece cortado por la mitad, pero está completo y puede pesar más de una tonelada.",
+      "globalStart": 0.32,
+      "globalEnd": 0.66
+    },
+    {
+      "start": 0.66,
+      "end": 0.88,
+      "text": " parece",
+      "probability": 0.9949827194213867,
+      "phrase": "Este pez parece cortado por la mitad, pero está completo y puede pesar más de una tonelada.",
+      "globalStart": 0.66,
+      "globalEnd": 0.88
+    },
+    {
+      "start": 0.88,
+      "end": 1.56,
+      "text": " cortado",
+      "probability": 0.9897444546222687,
+      "phrase": "Este pez parece cortado por la mitad, pero está completo y puede pesar más de una tonelada.",
+      "globalStart": 0.88,
+      "globalEnd": 1.56
+    },
+    {
+      "start": 1.56,
+      "end": 1.76,
+      "text": " por",
+      "probability": 0.9970400929450989,
+      "phrase": "Este pez parece cortado por la mitad, pero está completo y puede pesar más de una tonelada.",
+      "globalStart": 1.56,
+      "globalEnd": 1.76
+    },
+    {
+      "start": 1.76,
+      "end": 1.92,
+      "text": " la",
+      "probability": 0.9980460405349731,
+      "phrase": "Este pez parece cortado por la mitad, pero está completo y puede pesar más de una tonelada.",
+      "globalStart": 1.76,
+      "globalEnd": 1.92
+    },
+    {
+      "start": 1.92,
+      "end": 2.16,
+      "text": " mitad!",
+      "probability": 0.9989290833473206,
+      "phrase": "Este pez parece cortado por la mitad, pero está completo y puede pesar más de una tonelada.",
+      "globalStart": 1.92,
+      "globalEnd": 2.16
+    },
+    {
+      "start": 2.84,
+      "end": 3.0,
+      "text": " Pero",
+      "probability": 0.9803654551506042,
+      "phrase": "Este pez parece cortado por la mitad, pero está completo y puede pesar más de una tonelada.",
+      "globalStart": 2.84,
+      "globalEnd": 3.0
+    },
+    {
+      "start": 3.0,
+      "end": 3.2,
+      "text": " está",
+      "probability": 0.9640458226203918,
+      "phrase": "Este pez parece cortado por la mitad, pero está completo y puede pesar más de una tonelada.",
+      "globalStart": 3.0,
+      "globalEnd": 3.2
+    },
+    {
+      "start": 3.2,
+      "end": 3.64,
+      "text": " completo",
+      "probability": 0.9980575442314148,
+      "phrase": "Este pez parece cortado por la mitad, pero está completo y puede pesar más de una tonelada.",
+      "globalStart": 3.2,
+      "globalEnd": 3.64
+    },
+    {
+      "start": 3.64,
+      "end": 4.12,
+      "text": " y",
+      "probability": 0.9202573895454407,
+      "phrase": "Este pez parece cortado por la mitad, pero está completo y puede pesar más de una tonelada.",
+      "globalStart": 3.64,
+      "globalEnd": 4.12
+    },
+    {
+      "start": 4.12,
+      "end": 4.36,
+      "text": " puede",
+      "probability": 0.9969407916069031,
+      "phrase": "Este pez parece cortado por la mitad, pero está completo y puede pesar más de una tonelada.",
+      "globalStart": 4.12,
+      "globalEnd": 4.36
+    },
+    {
+      "start": 4.36,
+      "end": 4.68,
+      "text": " pesar",
+      "probability": 0.9586783647537231,
+      "phrase": "Este pez parece cortado por la mitad, pero está completo y puede pesar más de una tonelada.",
+      "globalStart": 4.36,
+      "globalEnd": 4.68
+    },
+    {
+      "start": 4.68,
+      "end": 5.08,
+      "text": " más",
+      "probability": 0.9884131550788879,
+      "phrase": "Este pez parece cortado por la mitad, pero está completo y puede pesar más de una tonelada.",
+      "globalStart": 4.68,
+      "globalEnd": 5.08
+    },
+    {
+      "start": 5.08,
+      "end": 5.3,
+      "text": " de",
+      "probability": 0.9978736639022827,
+      "phrase": "Este pez parece cortado por la mitad, pero está completo y puede pesar más de una tonelada.",
+      "globalStart": 5.08,
+      "globalEnd": 5.3
+    },
+    {
+      "start": 5.3,
+      "end": 5.5,
+      "text": " una",
+      "probability": 0.9683957099914551,
+      "phrase": "Este pez parece cortado por la mitad, pero está completo y puede pesar más de una tonelada.",
+      "globalStart": 5.3,
+      "globalEnd": 5.5
+    },
+    {
+      "start": 5.5,
+      "end": 6.0,
+      "text": " tonelada.",
+      "probability": 0.9974950949350992,
+      "phrase": "Este pez parece cortado por la mitad, pero está completo y puede pesar más de una tonelada.",
+      "globalStart": 5.5,
+      "globalEnd": 6.0
+    },
+    {
+      "start": 6.52,
+      "end": 6.78,
+      "text": " Se",
+      "probability": 0.9948679208755493,
+      "phrase": "Se llama pez luna o mola mola.",
+      "globalStart": 7.94,
+      "globalEnd": 8.2
+    },
+    {
+      "start": 6.78,
+      "end": 7.02,
+      "text": " llama",
+      "probability": 0.9943391680717468,
+      "phrase": "Se llama pez luna o mola mola.",
+      "globalStart": 8.2,
+      "globalEnd": 8.440000000000001
+    },
+    {
+      "start": 7.02,
+      "end": 7.52,
+      "text": " pez",
+      "probability": 0.634347066283226,
+      "phrase": "Se llama pez luna o mola mola.",
+      "globalStart": 8.440000000000001,
+      "globalEnd": 8.940000000000001
+    },
+    {
+      "start": 7.52,
+      "end": 7.86,
+      "text": " luna",
+      "probability": 0.9114349484443665,
+      "phrase": "Se llama pez luna o mola mola.",
+      "globalStart": 8.940000000000001,
+      "globalEnd": 9.280000000000001
+    },
+    {
+      "start": 7.86,
+      "end": 8.38,
+      "text": " o",
+      "probability": 0.6767401099205017,
+      "phrase": "Se llama pez luna o mola mola.",
+      "globalStart": 9.280000000000001,
+      "globalEnd": 9.8
+    },
+    {
+      "start": 8.38,
+      "end": 8.96,
+      "text": " Mola",
+      "probability": 0.795160561800003,
+      "phrase": "Se llama pez luna o mola mola.",
+      "globalStart": 9.8,
+      "globalEnd": 10.380000000000003
+    },
+    {
+      "start": 8.96,
+      "end": 9.32,
+      "text": " mola.",
+      "probability": 0.9323810935020447,
+      "phrase": "Se llama pez luna o mola mola.",
+      "globalStart": 10.380000000000003,
+      "globalEnd": 10.740000000000002
+    },
+    {
+      "start": 9.88,
+      "end": 10.0,
+      "text": " En",
+      "probability": 0.9960623383522034,
+      "phrase": "En lugar de una cola convencional, tiene un borde posterior llamado clavus que funciona",
+      "globalStart": 11.3,
+      "globalEnd": 11.420000000000002
+    },
+    {
+      "start": 10.0,
+      "end": 10.22,
+      "text": " lugar",
+      "probability": 0.9992049336433411,
+      "phrase": "En lugar de una cola convencional, tiene un borde posterior llamado clavus que funciona",
+      "globalStart": 11.420000000000002,
+      "globalEnd": 11.64
+    },
+    {
+      "start": 10.22,
+      "end": 10.4,
+      "text": " de",
+      "probability": 0.9985955357551575,
+      "phrase": "En lugar de una cola convencional, tiene un borde posterior llamado clavus que funciona",
+      "globalStart": 11.64,
+      "globalEnd": 11.82
+    },
+    {
+      "start": 10.4,
+      "end": 10.58,
+      "text": " una",
+      "probability": 0.9958584904670715,
+      "phrase": "En lugar de una cola convencional, tiene un borde posterior llamado clavus que funciona",
+      "globalStart": 11.82,
+      "globalEnd": 12.0
+    },
+    {
+      "start": 10.58,
+      "end": 10.82,
+      "text": " cola",
+      "probability": 0.9955258965492249,
+      "phrase": "En lugar de una cola convencional, tiene un borde posterior llamado clavus que funciona",
+      "globalStart": 12.0,
+      "globalEnd": 12.240000000000002
+    },
+    {
+      "start": 10.82,
+      "end": 11.5,
+      "text": " convencional,",
+      "probability": 0.9948107600212097,
+      "phrase": "En lugar de una cola convencional, tiene un borde posterior llamado clavus que funciona",
+      "globalStart": 12.240000000000002,
+      "globalEnd": 12.920000000000002
+    },
+    {
+      "start": 11.96,
+      "end": 12.16,
+      "text": " tiene",
+      "probability": 0.9986893534660339,
+      "phrase": "En lugar de una cola convencional, tiene un borde posterior llamado clavus que funciona",
+      "globalStart": 13.380000000000003,
+      "globalEnd": 13.580000000000002
+    },
+    {
+      "start": 12.16,
+      "end": 12.34,
+      "text": " un",
+      "probability": 0.9980648159980774,
+      "phrase": "En lugar de una cola convencional, tiene un borde posterior llamado clavus que funciona",
+      "globalStart": 13.580000000000002,
+      "globalEnd": 13.760000000000002
+    },
+    {
+      "start": 12.34,
+      "end": 12.56,
+      "text": " borde",
+      "probability": 0.9125259518623352,
+      "phrase": "En lugar de una cola convencional, tiene un borde posterior llamado clavus que funciona",
+      "globalStart": 13.760000000000002,
+      "globalEnd": 13.98
+    },
+    {
+      "start": 12.56,
+      "end": 13.12,
+      "text": " posterior",
+      "probability": 0.9987291693687439,
+      "phrase": "En lugar de una cola convencional, tiene un borde posterior llamado clavus que funciona",
+      "globalStart": 13.98,
+      "globalEnd": 14.54
+    },
+    {
+      "start": 13.12,
+      "end": 13.5,
+      "text": " llamado",
+      "probability": 0.9829578995704651,
+      "phrase": "En lugar de una cola convencional, tiene un borde posterior llamado clavus que funciona",
+      "globalStart": 14.54,
+      "globalEnd": 14.920000000000002
+    },
+    {
+      "start": 13.5,
+      "end": 14.32,
+      "text": " clavus",
+      "probability": 0.8751646478970846,
+      "phrase": "En lugar de una cola convencional, tiene un borde posterior llamado clavus que funciona",
+      "globalStart": 14.920000000000002,
+      "globalEnd": 15.740000000000002
+    },
+    {
+      "start": 14.32,
+      "end": 14.7,
+      "text": " que",
+      "probability": 0.49183589220046997,
+      "phrase": "En lugar de una cola convencional, tiene un borde posterior llamado clavus que funciona",
+      "globalStart": 15.740000000000002,
+      "globalEnd": 16.12
+    },
+    {
+      "start": 14.7,
+      "end": 15.06,
+      "text": " funciona",
+      "probability": 0.9956252574920654,
+      "phrase": "En lugar de una cola convencional, tiene un borde posterior llamado clavus que funciona",
+      "globalStart": 16.12,
+      "globalEnd": 16.48
+    },
+    {
+      "start": 15.06,
+      "end": 15.42,
+      "text": " como",
+      "probability": 0.9983323216438293,
+      "phrase": "como un timón para orientarse.",
+      "globalStart": 16.48,
+      "globalEnd": 16.84
+    },
+    {
+      "start": 15.42,
+      "end": 15.62,
+      "text": " un",
+      "probability": 0.9979830980300903,
+      "phrase": "como un timón para orientarse.",
+      "globalStart": 16.84,
+      "globalEnd": 17.04
+    },
+    {
+      "start": 15.62,
+      "end": 16.04,
+      "text": " timón",
+      "probability": 0.9531497657299042,
+      "phrase": "como un timón para orientarse.",
+      "globalStart": 17.04,
+      "globalEnd": 17.46
+    },
+    {
+      "start": 16.04,
+      "end": 16.3,
+      "text": " para",
+      "probability": 0.9981503486633301,
+      "phrase": "como un timón para orientarse.",
+      "globalStart": 17.46,
+      "globalEnd": 17.720000000000002
+    },
+    {
+      "start": 16.3,
+      "end": 16.9,
+      "text": " orientarse.",
+      "probability": 0.9947061240673065,
+      "phrase": "como un timón para orientarse.",
+      "globalStart": 17.720000000000002,
+      "globalEnd": 18.32
+    },
+    {
+      "start": 17.52,
+      "end": 17.68,
+      "text": " Y",
+      "probability": 0.9653955698013306,
+      "phrase": "Y aquí viene lo increíble.",
+      "globalStart": 19.219999999999995,
+      "globalEnd": 19.38
+    },
+    {
+      "start": 17.68,
+      "end": 17.92,
+      "text": " aquí",
+      "probability": 0.9898453950881958,
+      "phrase": "Y aquí viene lo increíble.",
+      "globalStart": 19.38,
+      "globalEnd": 19.62
+    },
+    {
+      "start": 17.92,
+      "end": 18.28,
+      "text": " viene",
+      "probability": 0.9986530542373657,
+      "phrase": "Y aquí viene lo increíble.",
+      "globalStart": 19.62,
+      "globalEnd": 19.98
+    },
+    {
+      "start": 18.28,
+      "end": 18.42,
+      "text": " lo",
+      "probability": 0.9989758729934692,
+      "phrase": "Y aquí viene lo increíble.",
+      "globalStart": 19.98,
+      "globalEnd": 20.12
+    },
+    {
+      "start": 18.42,
+      "end": 18.98,
+      "text": " increíble.",
+      "probability": 0.9899958074092865,
+      "phrase": "Y aquí viene lo increíble.",
+      "globalStart": 20.12,
+      "globalEnd": 20.680000000000003
+    },
+    {
+      "start": 19.42,
+      "end": 19.64,
+      "text": " Se",
+      "probability": 0.9973276853561401,
+      "phrase": "Se impulsa moviendo sus aletas dorsal y anal de forma coordinada, como si fueran dos alas.",
+      "globalStart": 21.12,
+      "globalEnd": 21.34
+    },
+    {
+      "start": 19.64,
+      "end": 20.24,
+      "text": " impulsa",
+      "probability": 0.9718385338783264,
+      "phrase": "Se impulsa moviendo sus aletas dorsal y anal de forma coordinada, como si fueran dos alas.",
+      "globalStart": 21.34,
+      "globalEnd": 21.939999999999994
+    },
+    {
+      "start": 20.24,
+      "end": 20.68,
+      "text": " moviendo",
+      "probability": 0.9567965865135193,
+      "phrase": "Se impulsa moviendo sus aletas dorsal y anal de forma coordinada, como si fueran dos alas.",
+      "globalStart": 21.939999999999994,
+      "globalEnd": 22.38
+    },
+    {
+      "start": 20.68,
+      "end": 20.88,
+      "text": " sus",
+      "probability": 0.9801639914512634,
+      "phrase": "Se impulsa moviendo sus aletas dorsal y anal de forma coordinada, como si fueran dos alas.",
+      "globalStart": 22.38,
+      "globalEnd": 22.579999999999995
+    },
+    {
+      "start": 20.88,
+      "end": 21.24,
+      "text": " aletas",
+      "probability": 0.9895826578140259,
+      "phrase": "Se impulsa moviendo sus aletas dorsal y anal de forma coordinada, como si fueran dos alas.",
+      "globalStart": 22.579999999999995,
+      "globalEnd": 22.939999999999994
+    },
+    {
+      "start": 21.24,
+      "end": 21.84,
+      "text": " dorsal",
+      "probability": 0.9929012656211853,
+      "phrase": "Se impulsa moviendo sus aletas dorsal y anal de forma coordinada, como si fueran dos alas.",
+      "globalStart": 22.939999999999994,
+      "globalEnd": 23.540000000000003
+    },
+    {
+      "start": 21.84,
+      "end": 21.98,
+      "text": " y",
+      "probability": 0.9968966245651245,
+      "phrase": "Se impulsa moviendo sus aletas dorsal y anal de forma coordinada, como si fueran dos alas.",
+      "globalStart": 23.540000000000003,
+      "globalEnd": 23.680000000000003
+    },
+    {
+      "start": 21.98,
+      "end": 22.22,
+      "text": " anal",
+      "probability": 0.9547987580299377,
+      "phrase": "Se impulsa moviendo sus aletas dorsal y anal de forma coordinada, como si fueran dos alas.",
+      "globalStart": 23.680000000000003,
+      "globalEnd": 23.919999999999998
+    },
+    {
+      "start": 22.22,
+      "end": 22.42,
+      "text": " de",
+      "probability": 0.9883822798728943,
+      "phrase": "Se impulsa moviendo sus aletas dorsal y anal de forma coordinada, como si fueran dos alas.",
+      "globalStart": 23.919999999999998,
+      "globalEnd": 24.12
+    },
+    {
+      "start": 22.42,
+      "end": 22.66,
+      "text": " forma",
+      "probability": 0.9985601305961609,
+      "phrase": "Se impulsa moviendo sus aletas dorsal y anal de forma coordinada, como si fueran dos alas.",
+      "globalStart": 24.12,
+      "globalEnd": 24.359999999999996
+    },
+    {
+      "start": 22.66,
+      "end": 23.48,
+      "text": " coordinada,",
+      "probability": 0.9478109180927277,
+      "phrase": "Se impulsa moviendo sus aletas dorsal y anal de forma coordinada, como si fueran dos alas.",
+      "globalStart": 24.359999999999996,
+      "globalEnd": 25.180000000000003
+    },
+    {
+      "start": 23.64,
+      "end": 23.82,
+      "text": " como",
+      "probability": 0.9972301125526428,
+      "phrase": "Se impulsa moviendo sus aletas dorsal y anal de forma coordinada, como si fueran dos alas.",
+      "globalStart": 25.34,
+      "globalEnd": 25.52
+    },
+    {
+      "start": 23.82,
+      "end": 23.98,
+      "text": " si",
+      "probability": 0.9991503953933716,
+      "phrase": "Se impulsa moviendo sus aletas dorsal y anal de forma coordinada, como si fueran dos alas.",
+      "globalStart": 25.52,
+      "globalEnd": 25.680000000000003
+    },
+    {
+      "start": 23.98,
+      "end": 24.3,
+      "text": " fueran",
+      "probability": 0.9979173243045807,
+      "phrase": "Se impulsa moviendo sus aletas dorsal y anal de forma coordinada, como si fueran dos alas.",
+      "globalStart": 25.680000000000003,
+      "globalEnd": 25.999999999999996
+    },
+    {
+      "start": 24.3,
+      "end": 24.58,
+      "text": " dos",
+      "probability": 0.9846444129943848,
+      "phrase": "Se impulsa moviendo sus aletas dorsal y anal de forma coordinada, como si fueran dos alas.",
+      "globalStart": 25.999999999999996,
+      "globalEnd": 26.279999999999998
+    },
+    {
+      "start": 24.58,
+      "end": 25.08,
+      "text": " alas.",
+      "probability": 0.9887237250804901,
+      "phrase": "Se impulsa moviendo sus aletas dorsal y anal de forma coordinada, como si fueran dos alas.",
+      "globalStart": 26.279999999999998,
+      "globalEnd": 26.779999999999998
+    },
+    {
+      "start": 25.6,
+      "end": 26.06,
+      "text": " Algunos",
+      "probability": 0.9972774386405945,
+      "phrase": "Algunos ejemplares alcanzan tamaños impresionantes.",
+      "globalStart": 28.800000000000004,
+      "globalEnd": 29.259999999999998
+    },
+    {
+      "start": 26.06,
+      "end": 26.58,
+      "text": " ejemplares",
+      "probability": 0.996895412604014,
+      "phrase": "Algunos ejemplares alcanzan tamaños impresionantes.",
+      "globalStart": 29.259999999999998,
+      "globalEnd": 29.78
+    },
+    {
+      "start": 26.58,
+      "end": 27.16,
+      "text": " alcanzan",
+      "probability": 0.996405154466629,
+      "phrase": "Algunos ejemplares alcanzan tamaños impresionantes.",
+      "globalStart": 29.78,
+      "globalEnd": 30.360000000000007
+    },
+    {
+      "start": 27.16,
+      "end": 27.62,
+      "text": " tamaños",
+      "probability": 0.9890883266925812,
+      "phrase": "Algunos ejemplares alcanzan tamaños impresionantes.",
+      "globalStart": 30.360000000000007,
+      "globalEnd": 30.82
+    },
+    {
+      "start": 27.62,
+      "end": 28.64,
+      "text": " impresionantes.",
+      "probability": 0.9968559344609579,
+      "phrase": "Algunos ejemplares alcanzan tamaños impresionantes.",
+      "globalStart": 30.82,
+      "globalEnd": 31.840000000000003
+    },
+    {
+      "start": 29.15,
+      "end": 29.28,
+      "text": " Y",
+      "probability": 0.3340076208114624,
+      "phrase": "Y aunque parece un animal torpe, puede realizar inmersiones profundas para buscar alimento.",
+      "globalStart": 32.35,
+      "globalEnd": 32.480000000000004
+    },
+    {
+      "start": 29.28,
+      "end": 29.4,
+      "text": " aunque",
+      "probability": 0.8132084608078003,
+      "phrase": "Y aunque parece un animal torpe, puede realizar inmersiones profundas para buscar alimento.",
+      "globalStart": 32.480000000000004,
+      "globalEnd": 32.6
+    },
+    {
+      "start": 29.4,
+      "end": 29.78,
+      "text": " parece",
+      "probability": 0.8628661632537842,
+      "phrase": "Y aunque parece un animal torpe, puede realizar inmersiones profundas para buscar alimento.",
+      "globalStart": 32.6,
+      "globalEnd": 32.980000000000004
+    },
+    {
+      "start": 29.78,
+      "end": 29.98,
+      "text": " un",
+      "probability": 0.9848833680152893,
+      "phrase": "Y aunque parece un animal torpe, puede realizar inmersiones profundas para buscar alimento.",
+      "globalStart": 32.980000000000004,
+      "globalEnd": 33.18
+    },
+    {
+      "start": 29.98,
+      "end": 30.24,
+      "text": " animal",
+      "probability": 0.9912716746330261,
+      "phrase": "Y aunque parece un animal torpe, puede realizar inmersiones profundas para buscar alimento.",
+      "globalStart": 33.18,
+      "globalEnd": 33.440000000000005
+    },
+    {
+      "start": 30.24,
+      "end": 30.74,
+      "text": " torpe,",
+      "probability": 0.9775487184524536,
+      "phrase": "Y aunque parece un animal torpe, puede realizar inmersiones profundas para buscar alimento.",
+      "globalStart": 33.440000000000005,
+      "globalEnd": 33.940000000000005
+    },
+    {
+      "start": 31.08,
+      "end": 31.34,
+      "text": " puede",
+      "probability": 0.9873173832893372,
+      "phrase": "Y aunque parece un animal torpe, puede realizar inmersiones profundas para buscar alimento.",
+      "globalStart": 34.28,
+      "globalEnd": 34.54
+    },
+    {
+      "start": 31.34,
+      "end": 31.78,
+      "text": " realizar",
+      "probability": 0.9944303631782532,
+      "phrase": "Y aunque parece un animal torpe, puede realizar inmersiones profundas para buscar alimento.",
+      "globalStart": 34.54,
+      "globalEnd": 34.980000000000004
+    },
+    {
+      "start": 31.78,
+      "end": 32.36,
+      "text": " inmersiones",
+      "probability": 0.9166664481163025,
+      "phrase": "Y aunque parece un animal torpe, puede realizar inmersiones profundas para buscar alimento.",
+      "globalStart": 34.980000000000004,
+      "globalEnd": 35.56
+    },
+    {
+      "start": 32.36,
+      "end": 33.24,
+      "text": " profundas",
+      "probability": 0.9925087988376617,
+      "phrase": "Y aunque parece un animal torpe, puede realizar inmersiones profundas para buscar alimento.",
+      "globalStart": 35.56,
+      "globalEnd": 36.440000000000005
+    },
+    {
+      "start": 33.24,
+      "end": 33.42,
+      "text": " para",
+      "probability": 0.9884946942329407,
+      "phrase": "Y aunque parece un animal torpe, puede realizar inmersiones profundas para buscar alimento.",
+      "globalStart": 36.440000000000005,
+      "globalEnd": 36.620000000000005
+    },
+    {
+      "start": 33.42,
+      "end": 33.7,
+      "text": " buscar",
+      "probability": 0.9979963898658752,
+      "phrase": "Y aunque parece un animal torpe, puede realizar inmersiones profundas para buscar alimento.",
+      "globalStart": 36.620000000000005,
+      "globalEnd": 36.900000000000006
+    },
+    {
+      "start": 33.7,
+      "end": 34.18,
+      "text": " alimento.",
+      "probability": 0.9945880472660065,
+      "phrase": "Y aunque parece un animal torpe, puede realizar inmersiones profundas para buscar alimento.",
+      "globalStart": 36.900000000000006,
+      "globalEnd": 37.38
+    },
+    {
+      "start": 34.92,
+      "end": 35.06,
+      "text": " Su",
+      "probability": 0.9888648986816406,
+      "phrase": "Su alimentación incluye medusas, salpas y otros animales marinos.",
+      "globalStart": 39.300000000000004,
+      "globalEnd": 39.440000000000005
+    },
+    {
+      "start": 35.06,
+      "end": 35.66,
+      "text": " alimentación",
+      "probability": 0.9989474415779114,
+      "phrase": "Su alimentación incluye medusas, salpas y otros animales marinos.",
+      "globalStart": 39.440000000000005,
+      "globalEnd": 40.04
+    },
+    {
+      "start": 35.66,
+      "end": 36.22,
+      "text": " incluye",
+      "probability": 0.9790196716785431,
+      "phrase": "Su alimentación incluye medusas, salpas y otros animales marinos.",
+      "globalStart": 40.04,
+      "globalEnd": 40.6
+    },
+    {
+      "start": 36.22,
+      "end": 36.8,
+      "text": " medusas,",
+      "probability": 0.9780933062235514,
+      "phrase": "Su alimentación incluye medusas, salpas y otros animales marinos.",
+      "globalStart": 40.6,
+      "globalEnd": 41.18
+    },
+    {
+      "start": 37.2,
+      "end": 37.6,
+      "text": " salpas",
+      "probability": 0.9364453852176666,
+      "phrase": "Su alimentación incluye medusas, salpas y otros animales marinos.",
+      "globalStart": 41.580000000000005,
+      "globalEnd": 41.98
+    },
+    {
+      "start": 37.6,
+      "end": 37.98,
+      "text": " y",
+      "probability": 0.923629879951477,
+      "phrase": "Su alimentación incluye medusas, salpas y otros animales marinos.",
+      "globalStart": 41.98,
+      "globalEnd": 42.35999999999999
+    },
+    {
+      "start": 37.98,
+      "end": 38.18,
+      "text": " otros",
+      "probability": 0.9951484799385071,
+      "phrase": "Su alimentación incluye medusas, salpas y otros animales marinos.",
+      "globalStart": 42.35999999999999,
+      "globalEnd": 42.56000000000001
+    },
+    {
+      "start": 38.18,
+      "end": 38.6,
+      "text": " animales",
+      "probability": 0.999407172203064,
+      "phrase": "Su alimentación incluye medusas, salpas y otros animales marinos.",
+      "globalStart": 42.56000000000001,
+      "globalEnd": 42.98
+    },
+    {
+      "start": 38.6,
+      "end": 39.08,
+      "text": " marinos.",
+      "probability": 0.9753747284412384,
+      "phrase": "Su alimentación incluye medusas, salpas y otros animales marinos.",
+      "globalStart": 42.98,
+      "globalEnd": 43.46
+    },
+    {
+      "start": 39.66,
+      "end": 39.86,
+      "text": " Para",
+      "probability": 0.9943247437477112,
+      "phrase": "Para conseguir comida, puede recorrer distintas zonas del océano.",
+      "globalStart": 44.04,
+      "globalEnd": 44.24
+    },
+    {
+      "start": 39.86,
+      "end": 40.26,
+      "text": " conseguir",
+      "probability": 0.9967877864837646,
+      "phrase": "Para conseguir comida, puede recorrer distintas zonas del océano.",
+      "globalStart": 44.24,
+      "globalEnd": 44.63999999999999
+    },
+    {
+      "start": 40.26,
+      "end": 40.66,
+      "text": " comida,",
+      "probability": 0.9989526271820068,
+      "phrase": "Para conseguir comida, puede recorrer distintas zonas del océano.",
+      "globalStart": 44.63999999999999,
+      "globalEnd": 45.04
+    },
+    {
+      "start": 41.06,
+      "end": 41.14,
+      "text": " puede",
+      "probability": 0.9948335886001587,
+      "phrase": "Para conseguir comida, puede recorrer distintas zonas del océano.",
+      "globalStart": 45.440000000000005,
+      "globalEnd": 45.52
+    },
+    {
+      "start": 41.14,
+      "end": 41.62,
+      "text": " recorrer",
+      "probability": 0.9902727802594503,
+      "phrase": "Para conseguir comida, puede recorrer distintas zonas del océano.",
+      "globalStart": 45.52,
+      "globalEnd": 46.00000000000001
+    },
+    {
+      "start": 41.62,
+      "end": 42.28,
+      "text": " distintas",
+      "probability": 0.9979022145271301,
+      "phrase": "Para conseguir comida, puede recorrer distintas zonas del océano.",
+      "globalStart": 46.00000000000001,
+      "globalEnd": 46.660000000000004
+    },
+    {
+      "start": 42.28,
+      "end": 42.58,
+      "text": " zonas",
+      "probability": 0.9972212314605713,
+      "phrase": "Para conseguir comida, puede recorrer distintas zonas del océano.",
+      "globalStart": 46.660000000000004,
+      "globalEnd": 46.96
+    },
+    {
+      "start": 42.58,
+      "end": 42.8,
+      "text": " del",
+      "probability": 0.9933345317840576,
+      "phrase": "Para conseguir comida, puede recorrer distintas zonas del océano.",
+      "globalStart": 46.96,
+      "globalEnd": 47.18
+    },
+    {
+      "start": 42.8,
+      "end": 43.22,
+      "text": " océano.",
+      "probability": 0.9523880283037821,
+      "phrase": "Para conseguir comida, puede recorrer distintas zonas del océano.",
+      "globalStart": 47.18,
+      "globalEnd": 47.6
+    },
+    {
+      "start": 43.74,
+      "end": 43.9,
+      "text": " Y",
+      "probability": 0.9715235233306885,
+      "phrase": "Y lo más curioso, a veces permanece cerca de la superficie, a costado de lado.",
+      "globalStart": 49.20000000000001,
+      "globalEnd": 49.36000000000001
+    },
+    {
+      "start": 43.9,
+      "end": 44.0,
+      "text": " lo",
+      "probability": 0.9473996162414551,
+      "phrase": "Y lo más curioso, a veces permanece cerca de la superficie, a costado de lado.",
+      "globalStart": 49.36000000000001,
+      "globalEnd": 49.46
+    },
+    {
+      "start": 44.0,
+      "end": 44.16,
+      "text": " más",
+      "probability": 0.9906331300735474,
+      "phrase": "Y lo más curioso, a veces permanece cerca de la superficie, a costado de lado.",
+      "globalStart": 49.46,
+      "globalEnd": 49.62
+    },
+    {
+      "start": 44.16,
+      "end": 44.68,
+      "text": " curioso,",
+      "probability": 0.9974563717842102,
+      "phrase": "Y lo más curioso, a veces permanece cerca de la superficie, a costado de lado.",
+      "globalStart": 49.62,
+      "globalEnd": 50.14000000000001
+    },
+    {
+      "start": 45.06,
+      "end": 45.18,
+      "text": " a",
+      "probability": 0.9810106158256531,
+      "phrase": "Y lo más curioso, a veces permanece cerca de la superficie, a costado de lado.",
+      "globalStart": 50.52,
+      "globalEnd": 50.64000000000001
+    },
+    {
+      "start": 45.18,
+      "end": 45.42,
+      "text": " veces",
+      "probability": 0.9992953538894653,
+      "phrase": "Y lo más curioso, a veces permanece cerca de la superficie, a costado de lado.",
+      "globalStart": 50.64000000000001,
+      "globalEnd": 50.88
+    },
+    {
+      "start": 45.42,
+      "end": 46.04,
+      "text": " permanece",
+      "probability": 0.9738026857376099,
+      "phrase": "Y lo más curioso, a veces permanece cerca de la superficie, a costado de lado.",
+      "globalStart": 50.88,
+      "globalEnd": 51.49999999999999
+    },
+    {
+      "start": 46.04,
+      "end": 46.36,
+      "text": " cerca",
+      "probability": 0.9982032775878906,
+      "phrase": "Y lo más curioso, a veces permanece cerca de la superficie, a costado de lado.",
+      "globalStart": 51.49999999999999,
+      "globalEnd": 51.82
+    },
+    {
+      "start": 46.36,
+      "end": 46.6,
+      "text": " de",
+      "probability": 0.9979795813560486,
+      "phrase": "Y lo más curioso, a veces permanece cerca de la superficie, a costado de lado.",
+      "globalStart": 51.82,
+      "globalEnd": 52.059999999999995
+    },
+    {
+      "start": 46.6,
+      "end": 46.68,
+      "text": " la",
+      "probability": 0.9959062337875366,
+      "phrase": "Y lo más curioso, a veces permanece cerca de la superficie, a costado de lado.",
+      "globalStart": 52.059999999999995,
+      "globalEnd": 52.14000000000001
+    },
+    {
+      "start": 46.68,
+      "end": 47.4,
+      "text": " superficie,",
+      "probability": 0.9974378347396851,
+      "phrase": "Y lo más curioso, a veces permanece cerca de la superficie, a costado de lado.",
+      "globalStart": 52.14000000000001,
+      "globalEnd": 52.86000000000001
+    },
+    {
+      "start": 47.6,
+      "end": 48.08,
+      "text": " acostado",
+      "probability": 0.3399360179901123,
+      "phrase": "Y lo más curioso, a veces permanece cerca de la superficie, a costado de lado.",
+      "globalStart": 53.059999999999995,
+      "globalEnd": 53.54
+    },
+    {
+      "start": 48.08,
+      "end": 48.2,
+      "text": " de",
+      "probability": 0.7609692215919495,
+      "phrase": "Y lo más curioso, a veces permanece cerca de la superficie, a costado de lado.",
+      "globalStart": 53.54,
+      "globalEnd": 53.660000000000004
+    },
+    {
+      "start": 48.2,
+      "end": 48.42,
+      "text": " lado.",
+      "probability": 0.9714264273643494,
+      "phrase": "Y lo más curioso, a veces permanece cerca de la superficie, a costado de lado.",
+      "globalStart": 53.660000000000004,
+      "globalEnd": 53.88
+    },
+    {
+      "start": 48.92,
+      "end": 49.12,
+      "text": " Se",
+      "probability": 0.9864898920059204,
+      "phrase": "Se cree que esto puede ayudarle a calentarse después de sumergirse.",
+      "globalStart": 54.38,
+      "globalEnd": 54.580000000000005
+    },
+    {
+      "start": 49.12,
+      "end": 49.32,
+      "text": " cree",
+      "probability": 0.9976835250854492,
+      "phrase": "Se cree que esto puede ayudarle a calentarse después de sumergirse.",
+      "globalStart": 54.580000000000005,
+      "globalEnd": 54.779999999999994
+    },
+    {
+      "start": 49.32,
+      "end": 49.52,
+      "text": " que",
+      "probability": 0.996823787689209,
+      "phrase": "Se cree que esto puede ayudarle a calentarse después de sumergirse.",
+      "globalStart": 54.779999999999994,
+      "globalEnd": 54.98000000000001
+    },
+    {
+      "start": 49.52,
+      "end": 49.72,
+      "text": " esto",
+      "probability": 0.9838575720787048,
+      "phrase": "Se cree que esto puede ayudarle a calentarse después de sumergirse.",
+      "globalStart": 54.98000000000001,
+      "globalEnd": 55.18
+    },
+    {
+      "start": 49.72,
+      "end": 49.98,
+      "text": " puede",
+      "probability": 0.9964028596878052,
+      "phrase": "Se cree que esto puede ayudarle a calentarse después de sumergirse.",
+      "globalStart": 55.18,
+      "globalEnd": 55.43999999999999
+    },
+    {
+      "start": 49.98,
+      "end": 50.48,
+      "text": " ayudarle",
+      "probability": 0.9708886444568634,
+      "phrase": "Se cree que esto puede ayudarle a calentarse después de sumergirse.",
+      "globalStart": 55.43999999999999,
+      "globalEnd": 55.93999999999999
+    },
+    {
+      "start": 50.48,
+      "end": 50.56,
+      "text": " a",
+      "probability": 0.9974430799484253,
+      "phrase": "Se cree que esto puede ayudarle a calentarse después de sumergirse.",
+      "globalStart": 55.93999999999999,
+      "globalEnd": 56.02
+    },
+    {
+      "start": 50.56,
+      "end": 51.16,
+      "text": " calentarse",
+      "probability": 0.9623619516690572,
+      "phrase": "Se cree que esto puede ayudarle a calentarse después de sumergirse.",
+      "globalStart": 56.02,
+      "globalEnd": 56.62
+    },
+    {
+      "start": 51.16,
+      "end": 51.5,
+      "text": " después",
+      "probability": 0.9684002995491028,
+      "phrase": "Se cree que esto puede ayudarle a calentarse después de sumergirse.",
+      "globalStart": 56.62,
+      "globalEnd": 56.96
+    },
+    {
+      "start": 51.5,
+      "end": 51.68,
+      "text": " de",
+      "probability": 0.9973664879798889,
+      "phrase": "Se cree que esto puede ayudarle a calentarse después de sumergirse.",
+      "globalStart": 56.96,
+      "globalEnd": 57.14000000000001
+    },
+    {
+      "start": 51.68,
+      "end": 52.2,
+      "text": " sumergirse.",
+      "probability": 0.9741113185882568,
+      "phrase": "Se cree que esto puede ayudarle a calentarse después de sumergirse.",
+      "globalStart": 57.14000000000001,
+      "globalEnd": 57.660000000000004
+    },
+    {
+      "start": 52.78,
+      "end": 53.1,
+      "text": " Así",
+      "probability": 0.9731695055961609,
+      "phrase": "Así que no, no es un pez incompleto.",
+      "globalStart": 59.18,
+      "globalEnd": 59.49999999999999
+    },
+    {
+      "start": 53.1,
+      "end": 53.34,
+      "text": " que",
+      "probability": 0.9975444674491882,
+      "phrase": "Así que no, no es un pez incompleto.",
+      "globalStart": 59.49999999999999,
+      "globalEnd": 59.74
+    },
+    {
+      "start": 53.34,
+      "end": 53.74,
+      "text": " no,",
+      "probability": 0.7522057294845581,
+      "phrase": "Así que no, no es un pez incompleto.",
+      "globalStart": 59.74,
+      "globalEnd": 60.14000000000001
+    },
+    {
+      "start": 54.06,
+      "end": 54.4,
+      "text": " no",
+      "probability": 0.970039963722229,
+      "phrase": "Así que no, no es un pez incompleto.",
+      "globalStart": 60.46,
+      "globalEnd": 60.800000000000004
+    },
+    {
+      "start": 54.4,
+      "end": 54.62,
+      "text": " es",
+      "probability": 0.997657299041748,
+      "phrase": "Así que no, no es un pez incompleto.",
+      "globalStart": 60.800000000000004,
+      "globalEnd": 61.02
+    },
+    {
+      "start": 54.62,
+      "end": 54.8,
+      "text": " un",
+      "probability": 0.9975408315658569,
+      "phrase": "Así que no, no es un pez incompleto.",
+      "globalStart": 61.02,
+      "globalEnd": 61.199999999999996
+    },
+    {
+      "start": 54.8,
+      "end": 55.04,
+      "text": " pez",
+      "probability": 0.9815477430820465,
+      "phrase": "Así que no, no es un pez incompleto.",
+      "globalStart": 61.199999999999996,
+      "globalEnd": 61.43999999999999
+    },
+    {
+      "start": 55.04,
+      "end": 55.7,
+      "text": " incompleto.",
+      "probability": 0.9816491405169169,
+      "phrase": "Así que no, no es un pez incompleto.",
+      "globalStart": 61.43999999999999,
+      "globalEnd": 62.1
+    },
+    {
+      "start": 56.02,
+      "end": 56.16,
+      "text": " Es",
+      "probability": 0.2036837488412857,
+      "phrase": "Es el resultado de millones de años de evolución.",
+      "globalStart": 62.42000000000001,
+      "globalEnd": 62.559999999999995
+    },
+    {
+      "start": 56.16,
+      "end": 56.28,
+      "text": " el",
+      "probability": 0.9965115189552307,
+      "phrase": "Es el resultado de millones de años de evolución.",
+      "globalStart": 62.559999999999995,
+      "globalEnd": 62.68
+    },
+    {
+      "start": 56.28,
+      "end": 56.76,
+      "text": " resultado",
+      "probability": 0.9975506663322449,
+      "phrase": "Es el resultado de millones de años de evolución.",
+      "globalStart": 62.68,
+      "globalEnd": 63.15999999999999
+    },
+    {
+      "start": 56.76,
+      "end": 57.0,
+      "text": " de",
+      "probability": 0.9961787462234497,
+      "phrase": "Es el resultado de millones de años de evolución.",
+      "globalStart": 63.15999999999999,
+      "globalEnd": 63.4
+    },
+    {
+      "start": 57.0,
+      "end": 57.44,
+      "text": " millones",
+      "probability": 0.9776800274848938,
+      "phrase": "Es el resultado de millones de años de evolución.",
+      "globalStart": 63.4,
+      "globalEnd": 63.839999999999996
+    },
+    {
+      "start": 57.44,
+      "end": 57.82,
+      "text": " de",
+      "probability": 0.9949069619178772,
+      "phrase": "Es el resultado de millones de años de evolución.",
+      "globalStart": 63.839999999999996,
+      "globalEnd": 64.22
+    },
+    {
+      "start": 57.82,
+      "end": 58.04,
+      "text": " años",
+      "probability": 0.9982938170433044,
+      "phrase": "Es el resultado de millones de años de evolución.",
+      "globalStart": 64.22,
+      "globalEnd": 64.44
+    },
+    {
+      "start": 58.04,
+      "end": 58.26,
+      "text": " de",
+      "probability": 0.9977037310600281,
+      "phrase": "Es el resultado de millones de años de evolución.",
+      "globalStart": 64.44,
+      "globalEnd": 64.66
+    },
+    {
+      "start": 58.26,
+      "end": 58.76,
+      "text": " evolución.",
+      "probability": 0.9961073994636536,
+      "phrase": "Es el resultado de millones de años de evolución.",
+      "globalStart": 64.66,
+      "globalEnd": 65.16
+    },
+    {
+      "start": 59.3,
+      "end": 59.42,
+      "text": " Y",
+      "probability": 0.7273955941200256,
+      "phrase": "Y ahora dime, ¿te atreverías a nadar junto a uno?",
+      "globalStart": 67.02,
+      "globalEnd": 67.14
+    },
+    {
+      "start": 59.42,
+      "end": 59.62,
+      "text": " ahora",
+      "probability": 0.9847404360771179,
+      "phrase": "Y ahora dime, ¿te atreverías a nadar junto a uno?",
+      "globalStart": 67.14,
+      "globalEnd": 67.33999999999999
+    },
+    {
+      "start": 59.62,
+      "end": 59.86,
+      "text": " dime,",
+      "probability": 0.8570372462272644,
+      "phrase": "Y ahora dime, ¿te atreverías a nadar junto a uno?",
+      "globalStart": 67.33999999999999,
+      "globalEnd": 67.58
+    },
+    {
+      "start": 60.34,
+      "end": 60.5,
+      "text": " ¿te",
+      "probability": 0.8502868115901947,
+      "phrase": "Y ahora dime, ¿te atreverías a nadar junto a uno?",
+      "globalStart": 68.06,
+      "globalEnd": 68.22
+    },
+    {
+      "start": 60.5,
+      "end": 61.02,
+      "text": " atreverías",
+      "probability": 0.9843581020832062,
+      "phrase": "Y ahora dime, ¿te atreverías a nadar junto a uno?",
+      "globalStart": 68.22,
+      "globalEnd": 68.74
+    },
+    {
+      "start": 61.02,
+      "end": 61.2,
+      "text": " a",
+      "probability": 0.9961112141609192,
+      "phrase": "Y ahora dime, ¿te atreverías a nadar junto a uno?",
+      "globalStart": 68.74,
+      "globalEnd": 68.92
+    },
+    {
+      "start": 61.2,
+      "end": 61.44,
+      "text": " nadar",
+      "probability": 0.9929047524929047,
+      "phrase": "Y ahora dime, ¿te atreverías a nadar junto a uno?",
+      "globalStart": 68.92,
+      "globalEnd": 69.16000000000001
+    },
+    {
+      "start": 61.44,
+      "end": 61.6,
+      "text": " junto",
+      "probability": 0.9666488766670227,
+      "phrase": "Y ahora dime, ¿te atreverías a nadar junto a uno?",
+      "globalStart": 69.16000000000001,
+      "globalEnd": 69.32000000000001
+    },
+    {
+      "start": 61.6,
+      "end": 61.86,
+      "text": " a",
+      "probability": 0.9970489144325256,
+      "phrase": "Y ahora dime, ¿te atreverías a nadar junto a uno?",
+      "globalStart": 69.32000000000001,
+      "globalEnd": 69.58
+    },
+    {
+      "start": 61.86,
+      "end": 62.0,
+      "text": " uno?",
+      "probability": 0.8545568585395813,
+      "phrase": "Y ahora dime, ¿te atreverías a nadar junto a uno?",
+      "globalStart": 69.58,
+      "globalEnd": 69.72000000000001
+    }
+  ],
+  "cues": {
+    "complete": 3.2,
+    "ton": 5.5,
+    "name": 8.940000000000001,
+    "scientific": 9.8,
+    "tail": 12.0,
+    "posterior": 13.98,
+    "clavus": 14.920000000000002,
+    "rudder": 17.04,
+    "incredible": 20.12,
+    "propulsion": 21.34,
+    "dorsal": 22.939999999999994,
+    "anal": 23.680000000000003,
+    "coordinated": 24.359999999999996,
+    "wings": 26.279999999999998,
+    "big": 30.82,
+    "dives": 34.980000000000004,
+    "deep": 35.56,
+    "food": 36.900000000000006,
+    "jelly": 40.6,
+    "salps": 41.580000000000005,
+    "travel": 45.52,
+    "surface": 52.14000000000001,
+    "side": 53.059999999999995,
+    "maybe": 54.580000000000005,
+    "warm": 56.02,
+    "notIncomplete": 61.43999999999999,
+    "evolution": 64.66,
+    "question": 67.33999999999999,
+    "swim": 68.92,
+    "end": 69.72000000000001
+  },
+  "playbackRate": 1,
+  "editorialASRFixes": [
+    "a costado → acostado, unión de transcripción de la palabra aprobada",
+    "Mola con mayúscula de género",
+    "Inicios de Pero, Y y Es se colocan tras las pausas acústicas correspondientes"
+  ]
+}

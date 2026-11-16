@@ -1,0 +1,63 @@
+{
+  "episode": "El pez luna: el gigante más extraño del océano",
+  "species": "Mola mola",
+  "approvedVoiceCredits": 4.37,
+  "jobId": "757294a9-1df8-4612-b175-6c6fafc12256",
+  "sourceDurationSeconds": 62.27591836734694,
+  "playbackRate": 1,
+  "voiceEndSeconds": 69.99591836734693,
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "frames": 2100,
+  "sourceCuts": [
+    0,
+    6.38,
+    17.3,
+    25.4,
+    34.62,
+    43.54,
+    52.6,
+    59.08,
+    62.27591836734694
+  ],
+  "voiceStartFrames": [
+    0,
+    234,
+    570,
+    858,
+    1170,
+    1470,
+    1770,
+    2004
+  ],
+  "originalVoiceSha256": "23e3fe3be19c4925fb02720717acc952e5d74def9f634bf0b002a29f56a9fbe4",
+  "sources": [
+    {
+      "url": "https://www.fishbase.se/summary/mola-mola.html",
+      "claim": "Mola mola: peso publicado de 1,3 t; respalda «más de una tonelada» sin atribuirle récords de M. alexandrini."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29926911/",
+      "claim": "Propulsión con aletas dorsal y anal; el clavus funciona como timón."
+    },
+    {
+      "url": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/ocean-sunfish",
+      "claim": "Dieta variada que incluye medusas y salpas; buceo y desplazamientos. No usar cifras de récord de otras especies."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25643743/",
+      "claim": "Estudio de termorregulación mediante retornos a aguas superficiales más cálidas después de inmersiones de alimentación; no afirmar que sea la única función de la conducta superficial."
+    },
+    {
+      "url": "https://australian.museum/learn/animals/fishes/ocean-sunfish-mola-mola/",
+      "claim": "Identidad específica; clavus con borde ondulado, sin aleta caudal convencional. No usar los pesos de esta ficha para récords, por su mezcla de cifras históricas."
+    }
+  ],
+  "music": "Composición y síntesis local original, sin muestras de terceros",
+  "visuals": "Ilustración 2D original adaptada usando los PNG aprobados como referencias; recursos anteriores intactos",
+  "approvedReferenceSha256": {
+    "public/imagenes/personajes/01_neutral.png": "e9d71d28f4e6dd744f9e5985c1e9632052c0cf5d842c6230bd23fb22dc7a8410",
+    "public/imagenes/escenarios/03_sala.png": "d203b3f86034ab07a11248553e1e50531483991bb6aa15b6c6fcafa342682d9d"
+  }
+}
