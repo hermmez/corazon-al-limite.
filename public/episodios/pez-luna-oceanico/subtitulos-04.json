@@ -1,0 +1,128 @@
+[
+  {
+    "text": " Algunos",
+    "startMs": 200,
+    "endMs": 660,
+    "timestampMs": 430,
+    "confidence": 0.9972774386405945
+  },
+  {
+    "text": " ejemplares",
+    "startMs": 660,
+    "endMs": 1180,
+    "timestampMs": 920,
+    "confidence": 0.996895412604014
+  },
+  {
+    "text": " alcanzan",
+    "startMs": 1180,
+    "endMs": 1760,
+    "timestampMs": 1470,
+    "confidence": 0.996405154466629
+  },
+  {
+    "text": " tamaños",
+    "startMs": 1760,
+    "endMs": 2220,
+    "timestampMs": 1990,
+    "confidence": 0.9890883266925812
+  },
+  {
+    "text": " impresionantes.",
+    "startMs": 2220,
+    "endMs": 3240,
+    "timestampMs": 2730,
+    "confidence": 0.9968559344609579
+  },
+  {
+    "text": " Y",
+    "startMs": 3750,
+    "endMs": 3880,
+    "timestampMs": 3815,
+    "confidence": 0.3340076208114624
+  },
+  {
+    "text": " aunque",
+    "startMs": 3880,
+    "endMs": 4000,
+    "timestampMs": 3940,
+    "confidence": 0.8132084608078003
+  },
+  {
+    "text": " parece",
+    "startMs": 4000,
+    "endMs": 4380,
+    "timestampMs": 4190,
+    "confidence": 0.8628661632537842
+  },
+  {
+    "text": " un",
+    "startMs": 4380,
+    "endMs": 4580,
+    "timestampMs": 4480,
+    "confidence": 0.9848833680152893
+  },
+  {
+    "text": " animal",
+    "startMs": 4580,
+    "endMs": 4840,
+    "timestampMs": 4710,
+    "confidence": 0.9912716746330261
+  },
+  {
+    "text": " torpe,",
+    "startMs": 4840,
+    "endMs": 5340,
+    "timestampMs": 5090,
+    "confidence": 0.9775487184524536
+  },
+  {
+    "text": " puede",
+    "startMs": 5680,
+    "endMs": 5940,
+    "timestampMs": 5810,
+    "confidence": 0.9873173832893372
+  },
+  {
+    "text": " realizar",
+    "startMs": 5940,
+    "endMs": 6380,
+    "timestampMs": 6160,
+    "confidence": 0.9944303631782532
+  },
+  {
+    "text": " inmersiones",
+    "startMs": 6380,
+    "endMs": 6960,
+    "timestampMs": 6670,
+    "confidence": 0.9166664481163025
+  },
+  {
+    "text": " profundas",
+    "startMs": 6960,
+    "endMs": 7840,
+    "timestampMs": 7400,
+    "confidence": 0.9925087988376617
+  },
+  {
+    "text": " para",
+    "startMs": 7840,
+    "endMs": 8020,
+    "timestampMs": 7930,
+    "confidence": 0.9884946942329407
+  },
+  {
+    "text": " buscar",
+    "startMs": 8020,
+    "endMs": 8300,
+    "timestampMs": 8160,
+    "confidence": 0.9979963898658752
+  },
+  {
+    "text": " alimento.",
+    "startMs": 8300,
+    "endMs": 8780,
+    "timestampMs": 8540,
+    "confidence": 0.9945880472660065
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "episode": "El pez luna: el gigante más extraño del océano",
+  "species": "Mola mola",
+  "repository": "hermmez/corazon-al-limite.",
+  "quoteDate": "2026-11-16",
+  "model": "elevenlabs_v4",
+  "voice": {
+    "name": "Grady",
+    "voice_id": "e2a2d2e6-9ed2-59cd-82af-feaa27f8a678",
+    "voice_type": "preset"
+  },
+  "creditsExact": 4.37,
+  "approved": true,
+  "generated": true,
+  "narration": [
+    "¡Este pez parece cortado por la mitad! Pero está completo y puede pesar más de una tonelada.",
+    "Se llama pez luna, o Mola mola. En lugar de una cola convencional, tiene un borde posterior llamado clavus, que funciona como un timón para orientarse.",
+    "Y aquí viene lo increíble: se impulsa moviendo sus aletas dorsal y anal de forma coordinada, como si fueran dos alas.",
+    "Algunos ejemplares alcanzan tamaños impresionantes. Y aunque parece un animal torpe, puede realizar inmersiones profundas para buscar alimento.",
+    "Su alimentación incluye medusas, salpas y otros animales marinos. Para conseguir comida, puede recorrer distintas zonas del océano.",
+    "Y lo más curioso: a veces permanece cerca de la superficie, acostado de lado. Se cree que esto puede ayudarle a calentarse después de sumergirse.",
+    "Así que no, no es un pez incompleto. Es el resultado de millones de años de evolución. Y ahora dime: ¿te atreverías a nadar junto a uno?"
+  ],
+  "wordCount": 152,
+  "originalWordCount": 173,
+  "generationParams": {
+    "model": "elevenlabs_v4",
+    "prompt": "¡Este pez parece cortado por la mitad! Pero está completo y puede pesar más de una tonelada.\n\nSe llama pez luna, o Mola mola. En lugar de una cola convencional, tiene un borde posterior llamado clavus, que funciona como un timón para orientarse.\n\nY aquí viene lo increíble: se impulsa moviendo sus aletas dorsal y anal de forma coordinada, como si fueran dos alas.\n\nAlgunos ejemplares alcanzan tamaños impresionantes. Y aunque parece un animal torpe, puede realizar inmersiones profundas para buscar alimento.\n\nSu alimentación incluye medusas, salpas y otros animales marinos. Para conseguir comida, puede recorrer distintas zonas del océano.\n\nY lo más curioso: a veces permanece cerca de la superficie, acostado de lado. Se cree que esto puede ayudarle a calentarse después de sumergirse.\n\nAsí que no, no es un pez incompleto. Es el resultado de millones de años de evolución. Y ahora dime: ¿te atreverías a nadar junto a uno?",
+    "dialogue": [
+      {
+        "text": "¡Este pez parece cortado por la mitad! Pero está completo y puede pesar más de una tonelada.\n\nSe llama pez luna, o Mola mola. En lugar de una cola convencional, tiene un borde posterior llamado clavus, que funciona como un timón para orientarse.\n\nY aquí viene lo increíble: se impulsa moviendo sus aletas dorsal y anal de forma coordinada, como si fueran dos alas.\n\nAlgunos ejemplares alcanzan tamaños impresionantes. Y aunque parece un animal torpe, puede realizar inmersiones profundas para buscar alimento.\n\nSu alimentación incluye medusas, salpas y otros animales marinos. Para conseguir comida, puede recorrer distintas zonas del océano.\n\nY lo más curioso: a veces permanece cerca de la superficie, acostado de lado. Se cree que esto puede ayudarle a calentarse después de sumergirse.\n\nAsí que no, no es un pez incompleto. Es el resultado de millones de años de evolución. Y ahora dime: ¿te atreverías a nadar junto a uno?",
+        "voice_type": "preset",
+        "voice_id": "e2a2d2e6-9ed2-59cd-82af-feaa27f8a678"
+      }
+    ],
+    "batch_size": 1,
+    "count": 1,
+    "get_cost": true
+  },
+  "sourceChecks": [
+    {
+      "url": "https://www.fishbase.se/summary/mola-mola.html",
+      "claim": "Mola mola: peso publicado de 1,3 t; respalda «más de una tonelada» sin atribuirle récords de M. alexandrini."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29926911/",
+      "claim": "Propulsión con aletas dorsal y anal; el clavus funciona como timón."
+    },
+    {
+      "url": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/ocean-sunfish",
+      "claim": "Dieta variada que incluye medusas y salpas; buceo y desplazamientos. No usar cifras de récord de otras especies."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25643743/",
+      "claim": "Estudio de termorregulación mediante retornos a aguas superficiales más cálidas después de inmersiones de alimentación; no afirmar que sea la única función de la conducta superficial."
+    },
+    {
+      "url": "https://australian.museum/learn/animals/fishes/ocean-sunfish-mola-mola/",
+      "claim": "Identidad específica; clavus con borde ondulado, sin aleta caudal convencional. No usar los pesos de esta ficha para récords, por su mezcla de cifras históricas."
+    }
+  ],
+  "narrationDirection": {
+    "language": "Español latinoamericano",
+    "tone": "Natural, humano, expresivo y curioso; sin exageración publicitaria",
+    "playbackRate": 1,
+    "pauseRangeSeconds": [
+      0.2,
+      0.4
+    ],
+    "pausePreparation": "Puntuación y separación en siete párrafos para pausas naturales; sin etiquetas de pausa pronunciables ni silencios forzados."
+  },
+  "target": {
+    "durationSeconds": 70,
+    "fps": 30,
+    "frames": 2100,
+    "width": 1080,
+    "height": 1920
+  },
+  "note": "Autorización expresa recibida para una generación completa por 4,37 créditos. No gastar créditos adicionales.",
+  "approvedCredits": 4.37,
+  "approvalDate": "2026-11-16",
+  "jobId": "757294a9-1df8-4612-b175-6c6fafc12256",
+  "submissionStatus": "completed",
+  "audioDurationSeconds": 62.275875,
+  "audioUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3LWCFBq7eIgrDcVAzFjRPaNtjHC/hf_20261116_184757_757294a9-1df8-4612-b175-6c6fafc12256.mp3"
+}

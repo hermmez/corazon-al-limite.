@@ -1,0 +1,1029 @@
+{
+  "language": "es",
+  "duration": 62.2759375,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.0,
+      "text": " Este pez parece cortado por la mitad, pero está completo y puede pesar más de una tonelada.",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.32,
+          "text": " Este",
+          "probability": 0.8051444292068481
+        },
+        {
+          "start": 0.32,
+          "end": 0.66,
+          "text": " pez",
+          "probability": 0.9516723155975342
+        },
+        {
+          "start": 0.66,
+          "end": 0.88,
+          "text": " parece",
+          "probability": 0.9949827194213867
+        },
+        {
+          "start": 0.88,
+          "end": 1.56,
+          "text": " cortado",
+          "probability": 0.9897444546222687
+        },
+        {
+          "start": 1.56,
+          "end": 1.76,
+          "text": " por",
+          "probability": 0.9970400929450989
+        },
+        {
+          "start": 1.76,
+          "end": 1.92,
+          "text": " la",
+          "probability": 0.9980460405349731
+        },
+        {
+          "start": 1.92,
+          "end": 2.16,
+          "text": " mitad,",
+          "probability": 0.9989290833473206
+        },
+        {
+          "start": 2.56,
+          "end": 3.0,
+          "text": " pero",
+          "probability": 0.9803654551506042
+        },
+        {
+          "start": 3.0,
+          "end": 3.2,
+          "text": " está",
+          "probability": 0.9640458226203918
+        },
+        {
+          "start": 3.2,
+          "end": 3.64,
+          "text": " completo",
+          "probability": 0.9980575442314148
+        },
+        {
+          "start": 3.64,
+          "end": 4.12,
+          "text": " y",
+          "probability": 0.9202573895454407
+        },
+        {
+          "start": 4.12,
+          "end": 4.36,
+          "text": " puede",
+          "probability": 0.9969407916069031
+        },
+        {
+          "start": 4.36,
+          "end": 4.68,
+          "text": " pesar",
+          "probability": 0.9586783647537231
+        },
+        {
+          "start": 4.68,
+          "end": 5.08,
+          "text": " más",
+          "probability": 0.9884131550788879
+        },
+        {
+          "start": 5.08,
+          "end": 5.3,
+          "text": " de",
+          "probability": 0.9978736639022827
+        },
+        {
+          "start": 5.3,
+          "end": 5.5,
+          "text": " una",
+          "probability": 0.9683957099914551
+        },
+        {
+          "start": 5.5,
+          "end": 6.0,
+          "text": " tonelada.",
+          "probability": 0.9974950949350992
+        }
+      ]
+    },
+    {
+      "start": 6.52,
+      "end": 9.32,
+      "text": " Se llama pez luna o mola mola.",
+      "words": [
+        {
+          "start": 6.52,
+          "end": 6.78,
+          "text": " Se",
+          "probability": 0.9948679208755493
+        },
+        {
+          "start": 6.78,
+          "end": 7.02,
+          "text": " llama",
+          "probability": 0.9943391680717468
+        },
+        {
+          "start": 7.02,
+          "end": 7.52,
+          "text": " pez",
+          "probability": 0.634347066283226
+        },
+        {
+          "start": 7.52,
+          "end": 7.86,
+          "text": " luna",
+          "probability": 0.9114349484443665
+        },
+        {
+          "start": 7.86,
+          "end": 8.38,
+          "text": " o",
+          "probability": 0.6767401099205017
+        },
+        {
+          "start": 8.38,
+          "end": 8.96,
+          "text": " mola",
+          "probability": 0.795160561800003
+        },
+        {
+          "start": 8.96,
+          "end": 9.32,
+          "text": " mola.",
+          "probability": 0.9323810935020447
+        }
+      ]
+    },
+    {
+      "start": 9.88,
+      "end": 15.06,
+      "text": " En lugar de una cola convencional, tiene un borde posterior llamado clavus que funciona",
+      "words": [
+        {
+          "start": 9.88,
+          "end": 10.0,
+          "text": " En",
+          "probability": 0.9960623383522034
+        },
+        {
+          "start": 10.0,
+          "end": 10.22,
+          "text": " lugar",
+          "probability": 0.9992049336433411
+        },
+        {
+          "start": 10.22,
+          "end": 10.4,
+          "text": " de",
+          "probability": 0.9985955357551575
+        },
+        {
+          "start": 10.4,
+          "end": 10.58,
+          "text": " una",
+          "probability": 0.9958584904670715
+        },
+        {
+          "start": 10.58,
+          "end": 10.82,
+          "text": " cola",
+          "probability": 0.9955258965492249
+        },
+        {
+          "start": 10.82,
+          "end": 11.5,
+          "text": " convencional,",
+          "probability": 0.9948107600212097
+        },
+        {
+          "start": 11.96,
+          "end": 12.16,
+          "text": " tiene",
+          "probability": 0.9986893534660339
+        },
+        {
+          "start": 12.16,
+          "end": 12.34,
+          "text": " un",
+          "probability": 0.9980648159980774
+        },
+        {
+          "start": 12.34,
+          "end": 12.56,
+          "text": " borde",
+          "probability": 0.9125259518623352
+        },
+        {
+          "start": 12.56,
+          "end": 13.12,
+          "text": " posterior",
+          "probability": 0.9987291693687439
+        },
+        {
+          "start": 13.12,
+          "end": 13.5,
+          "text": " llamado",
+          "probability": 0.9829578995704651
+        },
+        {
+          "start": 13.5,
+          "end": 14.32,
+          "text": " clavus",
+          "probability": 0.8751646478970846
+        },
+        {
+          "start": 14.32,
+          "end": 14.7,
+          "text": " que",
+          "probability": 0.49183589220046997
+        },
+        {
+          "start": 14.7,
+          "end": 15.06,
+          "text": " funciona",
+          "probability": 0.9956252574920654
+        }
+      ]
+    },
+    {
+      "start": 15.06,
+      "end": 16.9,
+      "text": " como un timón para orientarse.",
+      "words": [
+        {
+          "start": 15.06,
+          "end": 15.42,
+          "text": " como",
+          "probability": 0.9983323216438293
+        },
+        {
+          "start": 15.42,
+          "end": 15.62,
+          "text": " un",
+          "probability": 0.9979830980300903
+        },
+        {
+          "start": 15.62,
+          "end": 16.04,
+          "text": " timón",
+          "probability": 0.9531497657299042
+        },
+        {
+          "start": 16.04,
+          "end": 16.3,
+          "text": " para",
+          "probability": 0.9981503486633301
+        },
+        {
+          "start": 16.3,
+          "end": 16.9,
+          "text": " orientarse.",
+          "probability": 0.9947061240673065
+        }
+      ]
+    },
+    {
+      "start": 17.52,
+      "end": 18.98,
+      "text": " Y aquí viene lo increíble.",
+      "words": [
+        {
+          "start": 17.52,
+          "end": 17.68,
+          "text": " Y",
+          "probability": 0.9653955698013306
+        },
+        {
+          "start": 17.68,
+          "end": 17.92,
+          "text": " aquí",
+          "probability": 0.9898453950881958
+        },
+        {
+          "start": 17.92,
+          "end": 18.28,
+          "text": " viene",
+          "probability": 0.9986530542373657
+        },
+        {
+          "start": 18.28,
+          "end": 18.42,
+          "text": " lo",
+          "probability": 0.9989758729934692
+        },
+        {
+          "start": 18.42,
+          "end": 18.98,
+          "text": " increíble.",
+          "probability": 0.9899958074092865
+        }
+      ]
+    },
+    {
+      "start": 19.42,
+      "end": 25.08,
+      "text": " Se impulsa moviendo sus aletas dorsal y anal de forma coordinada, como si fueran dos alas.",
+      "words": [
+        {
+          "start": 19.42,
+          "end": 19.64,
+          "text": " Se",
+          "probability": 0.9973276853561401
+        },
+        {
+          "start": 19.64,
+          "end": 20.24,
+          "text": " impulsa",
+          "probability": 0.9718385338783264
+        },
+        {
+          "start": 20.24,
+          "end": 20.68,
+          "text": " moviendo",
+          "probability": 0.9567965865135193
+        },
+        {
+          "start": 20.68,
+          "end": 20.88,
+          "text": " sus",
+          "probability": 0.9801639914512634
+        },
+        {
+          "start": 20.88,
+          "end": 21.24,
+          "text": " aletas",
+          "probability": 0.9895826578140259
+        },
+        {
+          "start": 21.24,
+          "end": 21.84,
+          "text": " dorsal",
+          "probability": 0.9929012656211853
+        },
+        {
+          "start": 21.84,
+          "end": 21.98,
+          "text": " y",
+          "probability": 0.9968966245651245
+        },
+        {
+          "start": 21.98,
+          "end": 22.22,
+          "text": " anal",
+          "probability": 0.9547987580299377
+        },
+        {
+          "start": 22.22,
+          "end": 22.42,
+          "text": " de",
+          "probability": 0.9883822798728943
+        },
+        {
+          "start": 22.42,
+          "end": 22.66,
+          "text": " forma",
+          "probability": 0.9985601305961609
+        },
+        {
+          "start": 22.66,
+          "end": 23.48,
+          "text": " coordinada,",
+          "probability": 0.9478109180927277
+        },
+        {
+          "start": 23.64,
+          "end": 23.82,
+          "text": " como",
+          "probability": 0.9972301125526428
+        },
+        {
+          "start": 23.82,
+          "end": 23.98,
+          "text": " si",
+          "probability": 0.9991503953933716
+        },
+        {
+          "start": 23.98,
+          "end": 24.3,
+          "text": " fueran",
+          "probability": 0.9979173243045807
+        },
+        {
+          "start": 24.3,
+          "end": 24.58,
+          "text": " dos",
+          "probability": 0.9846444129943848
+        },
+        {
+          "start": 24.58,
+          "end": 25.08,
+          "text": " alas.",
+          "probability": 0.9887237250804901
+        }
+      ]
+    },
+    {
+      "start": 25.6,
+      "end": 28.64,
+      "text": " Algunos ejemplares alcanzan tamaños impresionantes.",
+      "words": [
+        {
+          "start": 25.6,
+          "end": 26.06,
+          "text": " Algunos",
+          "probability": 0.9972774386405945
+        },
+        {
+          "start": 26.06,
+          "end": 26.58,
+          "text": " ejemplares",
+          "probability": 0.996895412604014
+        },
+        {
+          "start": 26.58,
+          "end": 27.16,
+          "text": " alcanzan",
+          "probability": 0.996405154466629
+        },
+        {
+          "start": 27.16,
+          "end": 27.62,
+          "text": " tamaños",
+          "probability": 0.9890883266925812
+        },
+        {
+          "start": 27.62,
+          "end": 28.64,
+          "text": " impresionantes.",
+          "probability": 0.9968559344609579
+        }
+      ]
+    },
+    {
+      "start": 28.64,
+      "end": 34.18,
+      "text": " Y aunque parece un animal torpe, puede realizar inmersiones profundas para buscar alimento.",
+      "words": [
+        {
+          "start": 28.64,
+          "end": 29.28,
+          "text": " Y",
+          "probability": 0.3340076208114624
+        },
+        {
+          "start": 29.28,
+          "end": 29.4,
+          "text": " aunque",
+          "probability": 0.8132084608078003
+        },
+        {
+          "start": 29.4,
+          "end": 29.78,
+          "text": " parece",
+          "probability": 0.8628661632537842
+        },
+        {
+          "start": 29.78,
+          "end": 29.98,
+          "text": " un",
+          "probability": 0.9848833680152893
+        },
+        {
+          "start": 29.98,
+          "end": 30.24,
+          "text": " animal",
+          "probability": 0.9912716746330261
+        },
+        {
+          "start": 30.24,
+          "end": 30.74,
+          "text": " torpe,",
+          "probability": 0.9775487184524536
+        },
+        {
+          "start": 31.08,
+          "end": 31.34,
+          "text": " puede",
+          "probability": 0.9873173832893372
+        },
+        {
+          "start": 31.34,
+          "end": 31.78,
+          "text": " realizar",
+          "probability": 0.9944303631782532
+        },
+        {
+          "start": 31.78,
+          "end": 32.36,
+          "text": " inmersiones",
+          "probability": 0.9166664481163025
+        },
+        {
+          "start": 32.36,
+          "end": 33.24,
+          "text": " profundas",
+          "probability": 0.9925087988376617
+        },
+        {
+          "start": 33.24,
+          "end": 33.42,
+          "text": " para",
+          "probability": 0.9884946942329407
+        },
+        {
+          "start": 33.42,
+          "end": 33.7,
+          "text": " buscar",
+          "probability": 0.9979963898658752
+        },
+        {
+          "start": 33.7,
+          "end": 34.18,
+          "text": " alimento.",
+          "probability": 0.9945880472660065
+        }
+      ]
+    },
+    {
+      "start": 34.92,
+      "end": 39.08,
+      "text": " Su alimentación incluye medusas, salpas y otros animales marinos.",
+      "words": [
+        {
+          "start": 34.92,
+          "end": 35.06,
+          "text": " Su",
+          "probability": 0.9888648986816406
+        },
+        {
+          "start": 35.06,
+          "end": 35.66,
+          "text": " alimentación",
+          "probability": 0.9989474415779114
+        },
+        {
+          "start": 35.66,
+          "end": 36.22,
+          "text": " incluye",
+          "probability": 0.9790196716785431
+        },
+        {
+          "start": 36.22,
+          "end": 36.8,
+          "text": " medusas,",
+          "probability": 0.9780933062235514
+        },
+        {
+          "start": 37.2,
+          "end": 37.6,
+          "text": " salpas",
+          "probability": 0.9364453852176666
+        },
+        {
+          "start": 37.6,
+          "end": 37.98,
+          "text": " y",
+          "probability": 0.923629879951477
+        },
+        {
+          "start": 37.98,
+          "end": 38.18,
+          "text": " otros",
+          "probability": 0.9951484799385071
+        },
+        {
+          "start": 38.18,
+          "end": 38.6,
+          "text": " animales",
+          "probability": 0.999407172203064
+        },
+        {
+          "start": 38.6,
+          "end": 39.08,
+          "text": " marinos.",
+          "probability": 0.9753747284412384
+        }
+      ]
+    },
+    {
+      "start": 39.66,
+      "end": 43.22,
+      "text": " Para conseguir comida, puede recorrer distintas zonas del océano.",
+      "words": [
+        {
+          "start": 39.66,
+          "end": 39.86,
+          "text": " Para",
+          "probability": 0.9943247437477112
+        },
+        {
+          "start": 39.86,
+          "end": 40.26,
+          "text": " conseguir",
+          "probability": 0.9967877864837646
+        },
+        {
+          "start": 40.26,
+          "end": 40.66,
+          "text": " comida,",
+          "probability": 0.9989526271820068
+        },
+        {
+          "start": 41.06,
+          "end": 41.14,
+          "text": " puede",
+          "probability": 0.9948335886001587
+        },
+        {
+          "start": 41.14,
+          "end": 41.62,
+          "text": " recorrer",
+          "probability": 0.9902727802594503
+        },
+        {
+          "start": 41.62,
+          "end": 42.28,
+          "text": " distintas",
+          "probability": 0.9979022145271301
+        },
+        {
+          "start": 42.28,
+          "end": 42.58,
+          "text": " zonas",
+          "probability": 0.9972212314605713
+        },
+        {
+          "start": 42.58,
+          "end": 42.8,
+          "text": " del",
+          "probability": 0.9933345317840576
+        },
+        {
+          "start": 42.8,
+          "end": 43.22,
+          "text": " océano.",
+          "probability": 0.9523880283037821
+        }
+      ]
+    },
+    {
+      "start": 43.74,
+      "end": 48.42,
+      "text": " Y lo más curioso, a veces permanece cerca de la superficie, a costado de lado.",
+      "words": [
+        {
+          "start": 43.74,
+          "end": 43.9,
+          "text": " Y",
+          "probability": 0.9715235233306885
+        },
+        {
+          "start": 43.9,
+          "end": 44.0,
+          "text": " lo",
+          "probability": 0.9473996162414551
+        },
+        {
+          "start": 44.0,
+          "end": 44.16,
+          "text": " más",
+          "probability": 0.9906331300735474
+        },
+        {
+          "start": 44.16,
+          "end": 44.68,
+          "text": " curioso,",
+          "probability": 0.9974563717842102
+        },
+        {
+          "start": 45.06,
+          "end": 45.18,
+          "text": " a",
+          "probability": 0.9810106158256531
+        },
+        {
+          "start": 45.18,
+          "end": 45.42,
+          "text": " veces",
+          "probability": 0.9992953538894653
+        },
+        {
+          "start": 45.42,
+          "end": 46.04,
+          "text": " permanece",
+          "probability": 0.9738026857376099
+        },
+        {
+          "start": 46.04,
+          "end": 46.36,
+          "text": " cerca",
+          "probability": 0.9982032775878906
+        },
+        {
+          "start": 46.36,
+          "end": 46.6,
+          "text": " de",
+          "probability": 0.9979795813560486
+        },
+        {
+          "start": 46.6,
+          "end": 46.68,
+          "text": " la",
+          "probability": 0.9959062337875366
+        },
+        {
+          "start": 46.68,
+          "end": 47.4,
+          "text": " superficie,",
+          "probability": 0.9974378347396851
+        },
+        {
+          "start": 47.6,
+          "end": 47.66,
+          "text": " a",
+          "probability": 0.3399360179901123
+        },
+        {
+          "start": 47.66,
+          "end": 48.08,
+          "text": " costado",
+          "probability": 0.9915063083171844
+        },
+        {
+          "start": 48.08,
+          "end": 48.2,
+          "text": " de",
+          "probability": 0.7609692215919495
+        },
+        {
+          "start": 48.2,
+          "end": 48.42,
+          "text": " lado.",
+          "probability": 0.9714264273643494
+        }
+      ]
+    },
+    {
+      "start": 48.92,
+      "end": 52.2,
+      "text": " Se cree que esto puede ayudarle a calentarse después de sumergirse.",
+      "words": [
+        {
+          "start": 48.92,
+          "end": 49.12,
+          "text": " Se",
+          "probability": 0.9864898920059204
+        },
+        {
+          "start": 49.12,
+          "end": 49.32,
+          "text": " cree",
+          "probability": 0.9976835250854492
+        },
+        {
+          "start": 49.32,
+          "end": 49.52,
+          "text": " que",
+          "probability": 0.996823787689209
+        },
+        {
+          "start": 49.52,
+          "end": 49.72,
+          "text": " esto",
+          "probability": 0.9838575720787048
+        },
+        {
+          "start": 49.72,
+          "end": 49.98,
+          "text": " puede",
+          "probability": 0.9964028596878052
+        },
+        {
+          "start": 49.98,
+          "end": 50.48,
+          "text": " ayudarle",
+          "probability": 0.9708886444568634
+        },
+        {
+          "start": 50.48,
+          "end": 50.56,
+          "text": " a",
+          "probability": 0.9974430799484253
+        },
+        {
+          "start": 50.56,
+          "end": 51.16,
+          "text": " calentarse",
+          "probability": 0.9623619516690572
+        },
+        {
+          "start": 51.16,
+          "end": 51.5,
+          "text": " después",
+          "probability": 0.9684002995491028
+        },
+        {
+          "start": 51.5,
+          "end": 51.68,
+          "text": " de",
+          "probability": 0.9973664879798889
+        },
+        {
+          "start": 51.68,
+          "end": 52.2,
+          "text": " sumergirse.",
+          "probability": 0.9741113185882568
+        }
+      ]
+    },
+    {
+      "start": 52.78,
+      "end": 55.7,
+      "text": " Así que no, no es un pez incompleto.",
+      "words": [
+        {
+          "start": 52.78,
+          "end": 53.1,
+          "text": " Así",
+          "probability": 0.9731695055961609
+        },
+        {
+          "start": 53.1,
+          "end": 53.34,
+          "text": " que",
+          "probability": 0.9975444674491882
+        },
+        {
+          "start": 53.34,
+          "end": 53.74,
+          "text": " no,",
+          "probability": 0.7522057294845581
+        },
+        {
+          "start": 54.06,
+          "end": 54.4,
+          "text": " no",
+          "probability": 0.970039963722229
+        },
+        {
+          "start": 54.4,
+          "end": 54.62,
+          "text": " es",
+          "probability": 0.997657299041748
+        },
+        {
+          "start": 54.62,
+          "end": 54.8,
+          "text": " un",
+          "probability": 0.9975408315658569
+        },
+        {
+          "start": 54.8,
+          "end": 55.04,
+          "text": " pez",
+          "probability": 0.9815477430820465
+        },
+        {
+          "start": 55.04,
+          "end": 55.7,
+          "text": " incompleto.",
+          "probability": 0.9816491405169169
+        }
+      ]
+    },
+    {
+      "start": 55.7,
+      "end": 58.76,
+      "text": " Es el resultado de millones de años de evolución.",
+      "words": [
+        {
+          "start": 55.7,
+          "end": 56.16,
+          "text": " Es",
+          "probability": 0.2036837488412857
+        },
+        {
+          "start": 56.16,
+          "end": 56.28,
+          "text": " el",
+          "probability": 0.9965115189552307
+        },
+        {
+          "start": 56.28,
+          "end": 56.76,
+          "text": " resultado",
+          "probability": 0.9975506663322449
+        },
+        {
+          "start": 56.76,
+          "end": 57.0,
+          "text": " de",
+          "probability": 0.9961787462234497
+        },
+        {
+          "start": 57.0,
+          "end": 57.44,
+          "text": " millones",
+          "probability": 0.9776800274848938
+        },
+        {
+          "start": 57.44,
+          "end": 57.82,
+          "text": " de",
+          "probability": 0.9949069619178772
+        },
+        {
+          "start": 57.82,
+          "end": 58.04,
+          "text": " años",
+          "probability": 0.9982938170433044
+        },
+        {
+          "start": 58.04,
+          "end": 58.26,
+          "text": " de",
+          "probability": 0.9977037310600281
+        },
+        {
+          "start": 58.26,
+          "end": 58.76,
+          "text": " evolución.",
+          "probability": 0.9961073994636536
+        }
+      ]
+    },
+    {
+      "start": 59.16,
+      "end": 62.0,
+      "text": " Y ahora dime, ¿te atreverías a nadar junto a uno?",
+      "words": [
+        {
+          "start": 59.16,
+          "end": 59.42,
+          "text": " Y",
+          "probability": 0.7273955941200256
+        },
+        {
+          "start": 59.42,
+          "end": 59.62,
+          "text": " ahora",
+          "probability": 0.9847404360771179
+        },
+        {
+          "start": 59.62,
+          "end": 59.86,
+          "text": " dime,",
+          "probability": 0.8570372462272644
+        },
+        {
+          "start": 60.34,
+          "end": 60.5,
+          "text": " ¿te",
+          "probability": 0.8502868115901947
+        },
+        {
+          "start": 60.5,
+          "end": 61.02,
+          "text": " atreverías",
+          "probability": 0.9843581020832062
+        },
+        {
+          "start": 61.02,
+          "end": 61.2,
+          "text": " a",
+          "probability": 0.9961112141609192
+        },
+        {
+          "start": 61.2,
+          "end": 61.44,
+          "text": " nadar",
+          "probability": 0.9929047524929047
+        },
+        {
+          "start": 61.44,
+          "end": 61.6,
+          "text": " junto",
+          "probability": 0.9666488766670227
+        },
+        {
+          "start": 61.6,
+          "end": 61.86,
+          "text": " a",
+          "probability": 0.9970489144325256
+        },
+        {
+          "start": 61.86,
+          "end": 62.0,
+          "text": " uno?",
+          "probability": 0.8545568585395813
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "references": [
+    "public/imagenes/personajes/01_neutral.png",
+    "public/imagenes/escenarios/03_sala.png"
+  ],
+  "resources": [
+    {
+      "file": "pez-luna-perfil.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "source": "exec-7b3e3d5d-041d-4360-8ea6-c601dfd02765.png"
+    },
+    {
+      "file": "pez-luna-frontal.png",
+      "size": [
+        887,
+        1774
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "source": "exec-a0f9f158-5151-4189-9ac8-8c07ed5287e3.png"
+    },
+    {
+      "file": "oceano-ilustrado.png",
+      "size": [
+        941,
+        1672
+      ],
+      "mode": "RGB",
+      "alphaExtrema": null,
+      "source": "exec-d51fcbea-669c-4dc8-a533-aa0e8c586ebb.png"
+    },
+    {
+      "file": "buzo-personaje-original.png",
+      "size": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "source": "exec-625b3ac4-a141-46ca-a257-55d442928cc5.png"
+    },
+    {
+      "file": "medusa.png",
+      "size": [
+        1098,
+        1433
+      ],
+      "mode": "RGBA",
+      "source": "exec-d712ee54-480e-4342-884c-7478e79d726b.png",
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "file": "salpa.png",
+      "size": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "source": "exec-cd2680b2-2e02-4f50-9191-17f65fc70939.png",
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    }
+  ],
+  "validation": "Comparación visual con las referencias: contornos oscuros, sombras cel, mismo rostro y paleta compatible. Anatomía de Mola mola: clavus ondulado sin cola convencional; vistas lateral y frontal coherentes. Los originales no se modifican."
+}

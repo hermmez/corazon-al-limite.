@@ -1,0 +1,177 @@
+[
+  {
+    "text": " Y",
+    "startMs": 200,
+    "endMs": 360,
+    "timestampMs": 280,
+    "confidence": 0.9715235233306885
+  },
+  {
+    "text": " lo",
+    "startMs": 360,
+    "endMs": 460,
+    "timestampMs": 410,
+    "confidence": 0.9473996162414551
+  },
+  {
+    "text": " más",
+    "startMs": 460,
+    "endMs": 620,
+    "timestampMs": 540,
+    "confidence": 0.9906331300735474
+  },
+  {
+    "text": " curioso,",
+    "startMs": 620,
+    "endMs": 1140,
+    "timestampMs": 880,
+    "confidence": 0.9974563717842102
+  },
+  {
+    "text": " a",
+    "startMs": 1520,
+    "endMs": 1640,
+    "timestampMs": 1580,
+    "confidence": 0.9810106158256531
+  },
+  {
+    "text": " veces",
+    "startMs": 1640,
+    "endMs": 1880,
+    "timestampMs": 1760,
+    "confidence": 0.9992953538894653
+  },
+  {
+    "text": " permanece",
+    "startMs": 1880,
+    "endMs": 2500,
+    "timestampMs": 2190,
+    "confidence": 0.9738026857376099
+  },
+  {
+    "text": " cerca",
+    "startMs": 2500,
+    "endMs": 2820,
+    "timestampMs": 2660,
+    "confidence": 0.9982032775878906
+  },
+  {
+    "text": " de",
+    "startMs": 2820,
+    "endMs": 3060,
+    "timestampMs": 2940,
+    "confidence": 0.9979795813560486
+  },
+  {
+    "text": " la",
+    "startMs": 3060,
+    "endMs": 3140,
+    "timestampMs": 3100,
+    "confidence": 0.9959062337875366
+  },
+  {
+    "text": " superficie,",
+    "startMs": 3140,
+    "endMs": 3860,
+    "timestampMs": 3500,
+    "confidence": 0.9974378347396851
+  },
+  {
+    "text": " acostado",
+    "startMs": 4060,
+    "endMs": 4540,
+    "timestampMs": 4300,
+    "confidence": 0.3399360179901123
+  },
+  {
+    "text": " de",
+    "startMs": 4540,
+    "endMs": 4660,
+    "timestampMs": 4600,
+    "confidence": 0.7609692215919495
+  },
+  {
+    "text": " lado.",
+    "startMs": 4660,
+    "endMs": 4880,
+    "timestampMs": 4770,
+    "confidence": 0.9714264273643494
+  },
+  {
+    "text": " Se",
+    "startMs": 5380,
+    "endMs": 5580,
+    "timestampMs": 5480,
+    "confidence": 0.9864898920059204
+  },
+  {
+    "text": " cree",
+    "startMs": 5580,
+    "endMs": 5780,
+    "timestampMs": 5680,
+    "confidence": 0.9976835250854492
+  },
+  {
+    "text": " que",
+    "startMs": 5780,
+    "endMs": 5980,
+    "timestampMs": 5880,
+    "confidence": 0.996823787689209
+  },
+  {
+    "text": " esto",
+    "startMs": 5980,
+    "endMs": 6180,
+    "timestampMs": 6080,
+    "confidence": 0.9838575720787048
+  },
+  {
+    "text": " puede",
+    "startMs": 6180,
+    "endMs": 6440,
+    "timestampMs": 6310,
+    "confidence": 0.9964028596878052
+  },
+  {
+    "text": " ayudarle",
+    "startMs": 6440,
+    "endMs": 6940,
+    "timestampMs": 6690,
+    "confidence": 0.9708886444568634
+  },
+  {
+    "text": " a",
+    "startMs": 6940,
+    "endMs": 7020,
+    "timestampMs": 6980,
+    "confidence": 0.9974430799484253
+  },
+  {
+    "text": " calentarse",
+    "startMs": 7020,
+    "endMs": 7620,
+    "timestampMs": 7320,
+    "confidence": 0.9623619516690572
+  },
+  {
+    "text": " después",
+    "startMs": 7620,
+    "endMs": 7960,
+    "timestampMs": 7790,
+    "confidence": 0.9684002995491028
+  },
+  {
+    "text": " de",
+    "startMs": 7960,
+    "endMs": 8140,
+    "timestampMs": 8050,
+    "confidence": 0.9973664879798889
+  },
+  {
+    "text": " sumergirse.",
+    "startMs": 8140,
+    "endMs": 8660,
+    "timestampMs": 8400,
+    "confidence": 0.9741113185882568
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "text": " Se",
+    "startMs": 140,
+    "endMs": 400,
+    "timestampMs": 270,
+    "confidence": 0.9948679208755493
+  },
+  {
+    "text": " llama",
+    "startMs": 400,
+    "endMs": 640,
+    "timestampMs": 520,
+    "confidence": 0.9943391680717468
+  },
+  {
+    "text": " pez",
+    "startMs": 640,
+    "endMs": 1140,
+    "timestampMs": 890,
+    "confidence": 0.634347066283226
+  },
+  {
+    "text": " luna",
+    "startMs": 1140,
+    "endMs": 1480,
+    "timestampMs": 1310,
+    "confidence": 0.9114349484443665
+  },
+  {
+    "text": " o",
+    "startMs": 1480,
+    "endMs": 2000,
+    "timestampMs": 1740,
+    "confidence": 0.6767401099205017
+  },
+  {
+    "text": " Mola",
+    "startMs": 2000,
+    "endMs": 2580,
+    "timestampMs": 2290,
+    "confidence": 0.795160561800003
+  },
+  {
+    "text": " mola.",
+    "startMs": 2580,
+    "endMs": 2940,
+    "timestampMs": 2760,
+    "confidence": 0.9323810935020447
+  },
+  {
+    "text": " En",
+    "startMs": 3500,
+    "endMs": 3620,
+    "timestampMs": 3560,
+    "confidence": 0.9960623383522034
+  },
+  {
+    "text": " lugar",
+    "startMs": 3620,
+    "endMs": 3840,
+    "timestampMs": 3730,
+    "confidence": 0.9992049336433411
+  },
+  {
+    "text": " de",
+    "startMs": 3840,
+    "endMs": 4020,
+    "timestampMs": 3930,
+    "confidence": 0.9985955357551575
+  },
+  {
+    "text": " una",
+    "startMs": 4020,
+    "endMs": 4200,
+    "timestampMs": 4110,
+    "confidence": 0.9958584904670715
+  },
+  {
+    "text": " cola",
+    "startMs": 4200,
+    "endMs": 4440,
+    "timestampMs": 4320,
+    "confidence": 0.9955258965492249
+  },
+  {
+    "text": " convencional,",
+    "startMs": 4440,
+    "endMs": 5120,
+    "timestampMs": 4780,
+    "confidence": 0.9948107600212097
+  },
+  {
+    "text": " tiene",
+    "startMs": 5580,
+    "endMs": 5780,
+    "timestampMs": 5680,
+    "confidence": 0.9986893534660339
+  },
+  {
+    "text": " un",
+    "startMs": 5780,
+    "endMs": 5960,
+    "timestampMs": 5870,
+    "confidence": 0.9980648159980774
+  },
+  {
+    "text": " borde",
+    "startMs": 5960,
+    "endMs": 6180,
+    "timestampMs": 6070,
+    "confidence": 0.9125259518623352
+  },
+  {
+    "text": " posterior",
+    "startMs": 6180,
+    "endMs": 6740,
+    "timestampMs": 6460,
+    "confidence": 0.9987291693687439
+  },
+  {
+    "text": " llamado",
+    "startMs": 6740,
+    "endMs": 7120,
+    "timestampMs": 6930,
+    "confidence": 0.9829578995704651
+  },
+  {
+    "text": " clavus",
+    "startMs": 7120,
+    "endMs": 7940,
+    "timestampMs": 7530,
+    "confidence": 0.8751646478970846
+  },
+  {
+    "text": " que",
+    "startMs": 7940,
+    "endMs": 8320,
+    "timestampMs": 8130,
+    "confidence": 0.49183589220046997
+  },
+  {
+    "text": " funciona",
+    "startMs": 8320,
+    "endMs": 8680,
+    "timestampMs": 8500,
+    "confidence": 0.9956252574920654
+  },
+  {
+    "text": " como",
+    "startMs": 8680,
+    "endMs": 9040,
+    "timestampMs": 8860,
+    "confidence": 0.9983323216438293
+  },
+  {
+    "text": " un",
+    "startMs": 9040,
+    "endMs": 9240,
+    "timestampMs": 9140,
+    "confidence": 0.9979830980300903
+  },
+  {
+    "text": " timón",
+    "startMs": 9240,
+    "endMs": 9660,
+    "timestampMs": 9450,
+    "confidence": 0.9531497657299042
+  },
+  {
+    "text": " para",
+    "startMs": 9660,
+    "endMs": 9920,
+    "timestampMs": 9790,
+    "confidence": 0.9981503486633301
+  },
+  {
+    "text": " orientarse.",
+    "startMs": 9920,
+    "endMs": 10520,
+    "timestampMs": 10220,
+    "confidence": 0.9947061240673065
+  }
+]
