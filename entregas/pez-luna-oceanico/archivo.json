@@ -1,0 +1,13 @@
+{
+  "video": "corazon-al-limite-pez-luna-oceanico.mp4",
+  "bytes": 40298149,
+  "sha256": "8138c2a34bf5ea6655d0b43986437794ae0594ba922e0d8c7e7672794d1108a0",
+  "durationSeconds": 70,
+  "frames": 2100,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "videoCodec": "h264",
+  "audioCodec": "aac",
+  "audioPeakDb": -1.2
+}
