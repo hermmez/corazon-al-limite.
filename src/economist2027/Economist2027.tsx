@@ -2,13 +2,16 @@ import React from "react";
 import {
   AbsoluteFill,
   Audio,
+  Freeze,
   Sequence,
   staticFile,
   useCurrentFrame,
   useVideoConfig,
+  interpolate,
 } from "remotion";
 import { Captions } from "./Captions";
 import { C, ease } from "./Art";
+import { visualClocks, finalQuestionMs } from "./timing";
 import { Scene1 } from "./Scene1";
 import { Scene2 } from "./Scene2";
 import { Scene3 } from "./Scene3";
@@ -17,6 +20,29 @@ import { Scene5 } from "./Scene5";
 import { Scene6 } from "./Scene6";
 import { Scene7 } from "./Scene7";
 
+const VisualClock = ({
+  scene,
+  children,
+}: {
+  scene: number;
+  children: React.ReactNode;
+}) => {
+  const f = useCurrentFrame(),
+    { fps } = useVideoConfig(),
+    c = visualClocks[scene];
+  return (
+    <Freeze
+      frame={
+        interpolate(f / fps, [...c.inputSeconds], [...c.animationSeconds], {
+          extrapolateLeft: "clamp",
+          extrapolateRight: "extend",
+        }) * fps
+      }
+    >
+      {children}
+    </Freeze>
+  );
+};
 const IncomingMask = ({
   children,
   kind,
@@ -47,21 +73,25 @@ export const Economist2027 = () => {
   return (
     <AbsoluteFill style={{ background: C.navy, overflow: "hidden" }}>
       <Audio
-        src={staticFile("episodios/economist-2027/musica-original.wav")}
+        src={staticFile("episodios/economist-2027/narracion-ritmo-v2.wav")}
+      />
+      <Audio
+        src={staticFile("episodios/economist-2027/musica-ritmo-v2.wav")}
         volume={0.65}
       />
       <Audio
-        src={staticFile("episodios/economist-2027/efectos-originales.wav")}
+        src={staticFile("episodios/economist-2027/efectos-ritmo-v2.wav")}
         volume={0.55}
       />
       <Sequence
-        name="01 — La portada"
-        from={0 * fps}
-        durationInFrames={8 * fps + 11}
+        name="01 — Escena sincronizada"
+        from={0}
+        durationInFrames={274}
         premountFor={fps}
       >
-        <Scene1 />
-        <Audio src={staticFile("episodios/economist-2027/voz-01.wav")} />
+        <VisualClock scene={0}>
+          <Scene1 />
+        </VisualClock>
         <Captions
           captions={[
             {
@@ -101,87 +131,88 @@ export const Economist2027 = () => {
             },
             {
               text: " ¿Qué",
-              startMs: 3560,
-              endMs: 3800,
-              timestampMs: 3680,
+              startMs: 3859,
+              endMs: 4099,
+              timestampMs: 3979,
               confidence: 0.9485,
             },
             {
               text: " esconde",
-              startMs: 3800,
-              endMs: 4200,
-              timestampMs: 4000,
+              startMs: 4099,
+              endMs: 4499,
+              timestampMs: 4299,
               confidence: 0.7265,
             },
             {
               text: " esta",
-              startMs: 4200,
-              endMs: 4480,
-              timestampMs: 4340,
+              startMs: 4499,
+              endMs: 4779,
+              timestampMs: 4639,
               confidence: 0.9401,
             },
             {
               text: " inquietante",
-              startMs: 4480,
-              endMs: 5200,
-              timestampMs: 4840,
+              startMs: 4779,
+              endMs: 5499,
+              timestampMs: 5139,
               confidence: 0.9942,
             },
             {
               text: " portada",
-              startMs: 5200,
-              endMs: 5720,
-              timestampMs: 5460,
+              startMs: 5499,
+              endMs: 6019,
+              timestampMs: 5759,
               confidence: 0.9984,
             },
             {
               text: " de",
-              startMs: 5720,
-              endMs: 5900,
-              timestampMs: 5810,
+              startMs: 6019,
+              endMs: 6199,
+              timestampMs: 6109,
               confidence: 0.901,
             },
             {
               text: " The",
-              startMs: 5900,
-              endMs: 6000,
-              timestampMs: 5950,
+              startMs: 6199,
+              endMs: 6299,
+              timestampMs: 6249,
               confidence: 0.5619,
             },
             {
               text: " Economist",
-              startMs: 6000,
-              endMs: 6500,
-              timestampMs: 6250,
+              startMs: 6299,
+              endMs: 6799,
+              timestampMs: 6549,
               confidence: 0.99,
             },
             {
               text: " para",
-              startMs: 6500,
-              endMs: 6720,
-              timestampMs: 6610,
+              startMs: 6799,
+              endMs: 7019,
+              timestampMs: 6909,
               confidence: 0.9813,
             },
             {
               text: " 2027?",
-              startMs: 6720,
-              endMs: 7540,
-              timestampMs: 7130,
+              startMs: 7019,
+              endMs: 7839,
+              timestampMs: 7429,
               confidence: 0.9717,
             },
           ]}
         />
       </Sequence>
       <Sequence
-        name="02 — Los líderes"
-        from={8 * fps}
-        durationInFrames={10 * fps + 11}
+        name="02 — Escena sincronizada"
+        from={263}
+        durationInFrames={262}
         premountFor={fps}
       >
         <IncomingMask kind="iris">
-          <Scene2 />
+          <VisualClock scene={1}>
+            <Scene2 />
+          </VisualClock>
         </IncomingMask>
-        <Audio src={staticFile("episodios/economist-2027/voz-02.wav")} />
         <div
           style={{
             position: "absolute",
@@ -199,150 +230,151 @@ export const Economist2027 = () => {
           captions={[
             {
               text: " Arriba,",
-              startMs: 120,
-              endMs: 620,
-              timestampMs: 370,
+              startMs: 112,
+              endMs: 612,
+              timestampMs: 362,
               confidence: 0.9572,
             },
             {
               text: " los",
-              startMs: 960,
-              endMs: 1080,
-              timestampMs: 1020,
+              startMs: 952,
+              endMs: 1072,
+              timestampMs: 1012,
               confidence: 0.9913,
             },
             {
               text: " líderes",
-              startMs: 1080,
-              endMs: 1520,
-              timestampMs: 1300,
+              startMs: 1072,
+              endMs: 1512,
+              timestampMs: 1292,
               confidence: 0.9978,
             },
             {
               text: " parecen",
-              startMs: 1520,
-              endMs: 1900,
-              timestampMs: 1710,
+              startMs: 1512,
+              endMs: 1892,
+              timestampMs: 1702,
               confidence: 0.993,
             },
             {
               text: " vigilar",
-              startMs: 1900,
-              endMs: 2360,
-              timestampMs: 2130,
+              startMs: 1892,
+              endMs: 2352,
+              timestampMs: 2122,
               confidence: 0.9827,
             },
             {
               text: " el",
-              startMs: 2360,
-              endMs: 2560,
-              timestampMs: 2460,
+              startMs: 2352,
+              endMs: 2552,
+              timestampMs: 2452,
               confidence: 0.998,
             },
             {
               text: " mundo.",
-              startMs: 2560,
-              endMs: 2840,
-              timestampMs: 2700,
+              startMs: 2552,
+              endMs: 2832,
+              timestampMs: 2692,
               confidence: 0.9978,
             },
             {
               text: " La",
-              startMs: 3420,
-              endMs: 3540,
-              timestampMs: 3480,
+              startMs: 3751,
+              endMs: 3871,
+              timestampMs: 3811,
               confidence: 0.9902,
             },
             {
               text: " revista",
-              startMs: 3540,
-              endMs: 3980,
-              timestampMs: 3760,
+              startMs: 3871,
+              endMs: 4311,
+              timestampMs: 4091,
               confidence: 0.9976,
             },
             {
               text: " analiza",
-              startMs: 3980,
-              endMs: 4520,
-              timestampMs: 4250,
+              startMs: 4311,
+              endMs: 4851,
+              timestampMs: 4581,
               confidence: 0.9838,
             },
             {
               text: " la",
-              startMs: 4520,
-              endMs: 4660,
-              timestampMs: 4590,
+              startMs: 4851,
+              endMs: 4991,
+              timestampMs: 4921,
               confidence: 0.9882,
             },
             {
               text: " sucesión",
-              startMs: 4660,
-              endMs: 5160,
-              timestampMs: 4910,
+              startMs: 4991,
+              endMs: 5491,
+              timestampMs: 5241,
               confidence: 0.997,
             },
             {
               text: " de",
-              startMs: 5160,
-              endMs: 5280,
-              timestampMs: 5220,
+              startMs: 5491,
+              endMs: 5611,
+              timestampMs: 5551,
               confidence: 0.9941,
             },
             {
               text: " Trump",
-              startMs: 5280,
-              endMs: 5660,
-              timestampMs: 5470,
+              startMs: 5611,
+              endMs: 5991,
+              timestampMs: 5801,
               confidence: 0.9967,
             },
             {
               text: " y",
-              startMs: 5660,
-              endMs: 5980,
-              timestampMs: 5820,
+              startMs: 5991,
+              endMs: 6311,
+              timestampMs: 6151,
               confidence: 0.9927,
             },
             {
               text: " el",
-              startMs: 5980,
-              endMs: 6100,
-              timestampMs: 6040,
+              startMs: 6311,
+              endMs: 6431,
+              timestampMs: 6371,
               confidence: 0.9995,
             },
             {
               text: " avance",
-              startMs: 6100,
-              endMs: 6400,
-              timestampMs: 6250,
+              startMs: 6431,
+              endMs: 6731,
+              timestampMs: 6581,
               confidence: 0.9985,
             },
             {
               text: " del",
-              startMs: 6400,
-              endMs: 6640,
-              timestampMs: 6520,
+              startMs: 6731,
+              endMs: 6971,
+              timestampMs: 6851,
               confidence: 0.9957,
             },
             {
               text: " populismo.",
-              startMs: 6640,
-              endMs: 7240,
-              timestampMs: 6940,
+              startMs: 6971,
+              endMs: 7571,
+              timestampMs: 7271,
               confidence: 0.9984,
             },
           ]}
         />
       </Sequence>
       <Sequence
-        name="03 — Inteligencia artificial"
-        from={18 * fps}
-        durationInFrames={10 * fps + 11}
+        name="03 — Escena sincronizada"
+        from={514}
+        durationInFrames={340}
         premountFor={fps}
       >
         <IncomingMask kind="flag">
-          <Scene3 />
+          <VisualClock scene={2}>
+            <Scene3 />
+          </VisualClock>
         </IncomingMask>
-        <Audio src={staticFile("episodios/economist-2027/voz-03.wav")} />
         <div
           style={{
             position: "absolute",
@@ -360,178 +392,179 @@ export const Economist2027 = () => {
           captions={[
             {
               text: " Pero",
-              startMs: 40,
-              endMs: 280,
-              timestampMs: 160,
+              startMs: 42,
+              endMs: 282,
+              timestampMs: 162,
               confidence: 0.9602,
             },
             {
               text: " mira",
-              startMs: 280,
-              endMs: 660,
-              timestampMs: 470,
+              startMs: 282,
+              endMs: 662,
+              timestampMs: 472,
               confidence: 0.781,
             },
             {
               text: " el",
-              startMs: 660,
-              endMs: 860,
-              timestampMs: 760,
+              startMs: 662,
+              endMs: 862,
+              timestampMs: 762,
               confidence: 0.9796,
             },
             {
               text: " centro:",
-              startMs: 860,
-              endMs: 1160,
-              timestampMs: 1010,
+              startMs: 862,
+              endMs: 1162,
+              timestampMs: 1012,
               confidence: 0.9864,
             },
             {
               text: " un",
-              startMs: 1740,
-              endMs: 1880,
-              timestampMs: 1810,
+              startMs: 2233,
+              endMs: 2373,
+              timestampMs: 2303,
               confidence: 0.9821,
             },
             {
               text: " cerebro",
-              startMs: 1880,
-              endMs: 2460,
-              timestampMs: 2170,
+              startMs: 2373,
+              endMs: 2953,
+              timestampMs: 2663,
               confidence: 0.9964,
             },
             {
               text: " rodeado",
-              startMs: 2460,
-              endMs: 3120,
-              timestampMs: 2790,
+              startMs: 2953,
+              endMs: 3613,
+              timestampMs: 3283,
               confidence: 0.9834,
             },
             {
               text: " de",
-              startMs: 3120,
-              endMs: 3300,
-              timestampMs: 3210,
+              startMs: 3613,
+              endMs: 3793,
+              timestampMs: 3703,
               confidence: 0.9975,
             },
             {
               text: " tecnología.",
-              startMs: 3300,
-              endMs: 3820,
-              timestampMs: 3560,
+              startMs: 3793,
+              endMs: 4313,
+              timestampMs: 4053,
               confidence: 0.9936,
             },
             {
               text: " Es",
-              startMs: 4400,
-              endMs: 4600,
-              timestampMs: 4500,
+              startMs: 5238,
+              endMs: 5438,
+              timestampMs: 5338,
               confidence: 0.987,
             },
             {
               text: " una",
-              startMs: 4600,
-              endMs: 4760,
-              timestampMs: 4680,
+              startMs: 5438,
+              endMs: 5598,
+              timestampMs: 5518,
               confidence: 0.997,
             },
             {
               text: " pista",
-              startMs: 4760,
-              endMs: 5040,
-              timestampMs: 4900,
+              startMs: 5598,
+              endMs: 5878,
+              timestampMs: 5738,
               confidence: 0.9978,
             },
             {
               text: " sobre",
-              startMs: 5040,
-              endMs: 5380,
-              timestampMs: 5210,
+              startMs: 5878,
+              endMs: 6218,
+              timestampMs: 6048,
               confidence: 0.9976,
             },
             {
               text: " la",
-              startMs: 5380,
-              endMs: 5520,
-              timestampMs: 5450,
+              startMs: 6218,
+              endMs: 6358,
+              timestampMs: 6288,
               confidence: 0.998,
             },
             {
               text: " inteligencia",
-              startMs: 5520,
-              endMs: 6100,
-              timestampMs: 5810,
+              startMs: 6358,
+              endMs: 6938,
+              timestampMs: 6648,
               confidence: 0.9877,
             },
             {
               text: " artificial,",
-              startMs: 6100,
-              endMs: 6640,
-              timestampMs: 6370,
+              startMs: 6938,
+              endMs: 7478,
+              timestampMs: 7208,
               confidence: 0.9978,
             },
             {
               text: " sus",
-              startMs: 7060,
-              endMs: 7240,
-              timestampMs: 7150,
+              startMs: 7898,
+              endMs: 8078,
+              timestampMs: 7988,
               confidence: 0.9719,
             },
             {
               text: " riesgos",
-              startMs: 7240,
-              endMs: 7720,
-              timestampMs: 7480,
+              startMs: 8078,
+              endMs: 8558,
+              timestampMs: 8318,
               confidence: 0.9955,
             },
             {
               text: " y",
-              startMs: 7720,
-              endMs: 8180,
-              timestampMs: 7950,
+              startMs: 8558,
+              endMs: 9018,
+              timestampMs: 8788,
               confidence: 0.876,
             },
             {
               text: " el",
-              startMs: 8180,
-              endMs: 8300,
-              timestampMs: 8240,
+              startMs: 9018,
+              endMs: 9138,
+              timestampMs: 9078,
               confidence: 0.9969,
             },
             {
               text: " rechazo",
-              startMs: 8300,
-              endMs: 8760,
-              timestampMs: 8530,
+              startMs: 9138,
+              endMs: 9598,
+              timestampMs: 9368,
               confidence: 0.9971,
             },
             {
               text: " que",
-              startMs: 8760,
-              endMs: 8960,
-              timestampMs: 8860,
+              startMs: 9598,
+              endMs: 9798,
+              timestampMs: 9698,
               confidence: 0.9962,
             },
             {
               text: " provoca.",
-              startMs: 8960,
-              endMs: 9380,
-              timestampMs: 9170,
+              startMs: 9798,
+              endMs: 10218,
+              timestampMs: 10008,
               confidence: 0.993,
             },
           ]}
         />
       </Sequence>
       <Sequence
-        name="04 — Tensiones internacionales"
-        from={28 * fps}
-        durationInFrames={11 * fps + 11}
+        name="04 — Escena sincronizada"
+        from={843}
+        durationInFrames={305}
         premountFor={fps}
       >
         <IncomingMask kind="iris">
-          <Scene4 />
+          <VisualClock scene={3}>
+            <Scene4 />
+          </VisualClock>
         </IncomingMask>
-        <Audio src={staticFile("episodios/economist-2027/voz-04.wav")} />
         <div
           style={{
             position: "absolute",
@@ -549,178 +582,179 @@ export const Economist2027 = () => {
           captions={[
             {
               text: " Más",
-              startMs: 140,
-              endMs: 380,
-              timestampMs: 260,
+              startMs: 148,
+              endMs: 388,
+              timestampMs: 268,
               confidence: 0.9949,
             },
             {
               text: " abajo",
-              startMs: 380,
-              endMs: 680,
-              timestampMs: 530,
+              startMs: 388,
+              endMs: 688,
+              timestampMs: 538,
               confidence: 0.9946,
             },
             {
               text: " aparecen",
-              startMs: 680,
-              endMs: 1320,
-              timestampMs: 1000,
+              startMs: 688,
+              endMs: 1328,
+              timestampMs: 1008,
               confidence: 0.9264,
             },
             {
               text: " tanques",
-              startMs: 1320,
-              endMs: 1860,
-              timestampMs: 1590,
+              startMs: 1328,
+              endMs: 1868,
+              timestampMs: 1598,
               confidence: 0.9819,
             },
             {
               text: " y",
-              startMs: 1860,
-              endMs: 2100,
-              timestampMs: 1980,
+              startMs: 1868,
+              endMs: 2108,
+              timestampMs: 1988,
               confidence: 0.9986,
             },
             {
               text: " armas.",
-              startMs: 2100,
-              endMs: 2340,
-              timestampMs: 2220,
+              startMs: 2108,
+              endMs: 2348,
+              timestampMs: 2228,
               confidence: 0.9981,
             },
             {
               text: " La",
-              startMs: 2340,
-              endMs: 3060,
-              timestampMs: 2700,
+              startMs: 3465,
+              endMs: 3525,
+              timestampMs: 3495,
               confidence: 0.6015,
             },
             {
               text: " publicación",
-              startMs: 3060,
-              endMs: 3640,
-              timestampMs: 3350,
+              startMs: 3525,
+              endMs: 4105,
+              timestampMs: 3815,
               confidence: 0.9826,
             },
             {
               text: " teme",
-              startMs: 3640,
-              endMs: 4040,
-              timestampMs: 3840,
+              startMs: 4105,
+              endMs: 4505,
+              timestampMs: 4305,
               confidence: 0.9816,
             },
             {
               text: " repercusiones",
-              startMs: 4040,
-              endMs: 4700,
-              timestampMs: 4370,
+              startMs: 4505,
+              endMs: 5165,
+              timestampMs: 4835,
               confidence: 0.9952,
             },
             {
               text: " de",
-              startMs: 4700,
-              endMs: 4920,
-              timestampMs: 4810,
+              startMs: 5165,
+              endMs: 5385,
+              timestampMs: 5275,
               confidence: 0.9977,
             },
             {
               text: " la",
-              startMs: 4920,
-              endMs: 5020,
-              timestampMs: 4970,
+              startMs: 5385,
+              endMs: 5485,
+              timestampMs: 5435,
               confidence: 0.9948,
             },
             {
               text: " guerra",
-              startMs: 5020,
-              endMs: 5240,
-              timestampMs: 5130,
+              startMs: 5485,
+              endMs: 5705,
+              timestampMs: 5595,
               confidence: 0.928,
             },
             {
               text: " con",
-              startMs: 5240,
-              endMs: 5500,
-              timestampMs: 5370,
+              startMs: 5705,
+              endMs: 5965,
+              timestampMs: 5835,
               confidence: 0.9963,
             },
             {
               text: " Irán",
-              startMs: 5500,
-              endMs: 5800,
-              timestampMs: 5650,
+              startMs: 5965,
+              endMs: 6265,
+              timestampMs: 6115,
               confidence: 0.9458,
             },
             {
               text: " y",
-              startMs: 5800,
-              endMs: 6180,
-              timestampMs: 5990,
+              startMs: 6265,
+              endMs: 6645,
+              timestampMs: 6455,
               confidence: 0.8546,
             },
             {
               text: " observa",
-              startMs: 6180,
-              endMs: 6600,
-              timestampMs: 6390,
+              startMs: 6645,
+              endMs: 7065,
+              timestampMs: 6855,
               confidence: 0.9941,
             },
             {
               text: " con",
-              startMs: 6600,
-              endMs: 6760,
-              timestampMs: 6680,
+              startMs: 7065,
+              endMs: 7225,
+              timestampMs: 7145,
               confidence: 0.9949,
             },
             {
               text: " inquietud",
-              startMs: 6760,
-              endMs: 7300,
-              timestampMs: 7030,
+              startMs: 7225,
+              endMs: 7765,
+              timestampMs: 7495,
               confidence: 0.9975,
             },
             {
               text: " la",
-              startMs: 7300,
-              endMs: 7540,
-              timestampMs: 7420,
+              startMs: 7765,
+              endMs: 8005,
+              timestampMs: 7885,
               confidence: 0.9931,
             },
             {
               text: " situación",
-              startMs: 7540,
-              endMs: 8000,
-              timestampMs: 7770,
+              startMs: 8005,
+              endMs: 8465,
+              timestampMs: 8235,
               confidence: 0.9996,
             },
             {
               text: " de",
-              startMs: 8000,
-              endMs: 8200,
-              timestampMs: 8100,
+              startMs: 8465,
+              endMs: 8665,
+              timestampMs: 8565,
               confidence: 0.9941,
             },
             {
               text: " Taiwán.",
-              startMs: 8200,
-              endMs: 8620,
-              timestampMs: 8410,
+              startMs: 8665,
+              endMs: 9085,
+              timestampMs: 8875,
               confidence: 0.8607,
             },
           ]}
         />
       </Sequence>
       <Sequence
-        name="05 — Clima"
-        from={39 * fps}
-        durationInFrames={10 * fps + 11}
+        name="05 — Escena sincronizada"
+        from={1137}
+        durationInFrames={270}
         premountFor={fps}
       >
         <IncomingMask kind="wave">
-          <Scene5 />
+          <VisualClock scene={4}>
+            <Scene5 />
+          </VisualClock>
         </IncomingMask>
-        <Audio src={staticFile("episodios/economist-2027/voz-05.wav")} />
         <div
           style={{
             position: "absolute",
@@ -738,157 +772,158 @@ export const Economist2027 = () => {
           captions={[
             {
               text: " Y",
-              startMs: 130,
-              endMs: 270,
-              timestampMs: 200,
+              startMs: 127,
+              endMs: 267,
+              timestampMs: 197,
               confidence: 0.9725,
             },
             {
               text: " el",
-              startMs: 270,
-              endMs: 390,
-              timestampMs: 330,
+              startMs: 267,
+              endMs: 387,
+              timestampMs: 327,
               confidence: 0.9867,
             },
             {
               text: " fuego",
-              startMs: 390,
-              endMs: 670,
-              timestampMs: 530,
+              startMs: 387,
+              endMs: 667,
+              timestampMs: 527,
               confidence: 0.9789,
             },
             {
               text: " podemos",
-              startMs: 670,
-              endMs: 1210,
-              timestampMs: 940,
+              startMs: 667,
+              endMs: 1207,
+              timestampMs: 937,
               confidence: 0.832,
             },
             {
               text: " relacionarlo",
-              startMs: 1210,
-              endMs: 1930,
-              timestampMs: 1570,
+              startMs: 1207,
+              endMs: 1927,
+              timestampMs: 1567,
               confidence: 0.977,
             },
             {
               text: " con",
-              startMs: 1930,
-              endMs: 2190,
-              timestampMs: 2060,
+              startMs: 1927,
+              endMs: 2187,
+              timestampMs: 2057,
               confidence: 0.9972,
             },
             {
               text: " otro",
-              startMs: 2190,
-              endMs: 2390,
-              timestampMs: 2290,
+              startMs: 2187,
+              endMs: 2387,
+              timestampMs: 2287,
               confidence: 0.994,
             },
             {
               text: " tema",
-              startMs: 2390,
-              endMs: 2670,
-              timestampMs: 2530,
+              startMs: 2387,
+              endMs: 2667,
+              timestampMs: 2527,
               confidence: 0.9995,
             },
             {
               text: " de",
-              startMs: 2670,
-              endMs: 2810,
-              timestampMs: 2740,
+              startMs: 2667,
+              endMs: 2807,
+              timestampMs: 2737,
               confidence: 0.9955,
             },
             {
               text: " la",
-              startMs: 2810,
-              endMs: 2910,
-              timestampMs: 2860,
+              startMs: 2807,
+              endMs: 2907,
+              timestampMs: 2857,
               confidence: 0.9966,
             },
             {
               text: " revista:",
-              startMs: 2910,
-              endMs: 3330,
-              timestampMs: 3120,
+              startMs: 2907,
+              endMs: 3327,
+              timestampMs: 3117,
               confidence: 0.9962,
             },
             {
               text: " el",
-              startMs: 3810,
-              endMs: 3890,
-              timestampMs: 3850,
+              startMs: 4323,
+              endMs: 4403,
+              timestampMs: 4363,
               confidence: 0.9751,
             },
             {
               text: " riesgo",
-              startMs: 3890,
-              endMs: 4350,
-              timestampMs: 4120,
+              startMs: 4403,
+              endMs: 4863,
+              timestampMs: 4633,
               confidence: 0.9977,
             },
             {
               text: " de",
-              startMs: 4350,
-              endMs: 4470,
-              timestampMs: 4410,
+              startMs: 4863,
+              endMs: 4983,
+              timestampMs: 4923,
               confidence: 0.9936,
             },
             {
               text: " más",
-              startMs: 4470,
-              endMs: 4790,
-              timestampMs: 4630,
+              startMs: 4983,
+              endMs: 5303,
+              timestampMs: 5143,
               confidence: 0.9762,
             },
             {
               text: " calor",
-              startMs: 4790,
-              endMs: 5030,
-              timestampMs: 4910,
+              startMs: 5303,
+              endMs: 5543,
+              timestampMs: 5423,
               confidence: 0.9903,
             },
             {
               text: " extremo,",
-              startMs: 5030,
-              endMs: 5710,
-              timestampMs: 5370,
+              startMs: 5543,
+              endMs: 6223,
+              timestampMs: 5883,
               confidence: 0.9825,
             },
             {
               text: " sequías",
-              startMs: 5990,
-              endMs: 6390,
-              timestampMs: 6190,
+              startMs: 6503,
+              endMs: 6903,
+              timestampMs: 6703,
               confidence: 0.9748,
             },
             {
               text: " e",
-              startMs: 6390,
-              endMs: 6730,
-              timestampMs: 6560,
+              startMs: 6903,
+              endMs: 7243,
+              timestampMs: 7073,
               confidence: 0.9359,
             },
             {
               text: " incendios.",
-              startMs: 6730,
-              endMs: 7330,
-              timestampMs: 7030,
+              startMs: 7243,
+              endMs: 7843,
+              timestampMs: 7543,
               confidence: 0.996,
             },
           ]}
         />
       </Sequence>
       <Sequence
-        name="06 — Economía, salud y espacio"
-        from={49 * fps}
-        durationInFrames={11 * fps + 11}
+        name="06 — Escena sincronizada"
+        from={1396}
+        durationInFrames={354}
         premountFor={fps}
       >
         <IncomingMask kind="cloud">
-          <Scene6 />
+          <VisualClock scene={5}>
+            <Scene6 />
+          </VisualClock>
         </IncomingMask>
-        <Audio src={staticFile("episodios/economist-2027/voz-06.wav")} />
         <div
           style={{
             position: "absolute",
@@ -906,333 +941,335 @@ export const Economist2027 = () => {
           captions={[
             {
               text: " Entre",
-              startMs: 180,
-              endMs: 420,
-              timestampMs: 300,
+              startMs: 171,
+              endMs: 411,
+              timestampMs: 291,
               confidence: 0.9897,
             },
             {
               text: " tantas",
-              startMs: 420,
-              endMs: 780,
-              timestampMs: 600,
+              startMs: 411,
+              endMs: 771,
+              timestampMs: 591,
               confidence: 0.9979,
             },
             {
               text: " amenazas",
-              startMs: 780,
-              endMs: 1340,
-              timestampMs: 1060,
+              startMs: 771,
+              endMs: 1331,
+              timestampMs: 1051,
               confidence: 0.9988,
             },
             {
               text: " también",
-              startMs: 1340,
-              endMs: 1820,
-              timestampMs: 1580,
+              startMs: 1331,
+              endMs: 1811,
+              timestampMs: 1571,
               confidence: 0.7045,
             },
             {
               text: " hay",
-              startMs: 1820,
-              endMs: 1980,
-              timestampMs: 1900,
+              startMs: 1811,
+              endMs: 1971,
+              timestampMs: 1891,
               confidence: 0.9985,
             },
             {
               text: " señales",
-              startMs: 1980,
-              endMs: 2400,
-              timestampMs: 2190,
+              startMs: 1971,
+              endMs: 2391,
+              timestampMs: 2181,
               confidence: 0.9987,
             },
             {
               text: " sobre",
-              startMs: 2400,
-              endMs: 2700,
-              timestampMs: 2550,
+              startMs: 2391,
+              endMs: 2691,
+              timestampMs: 2541,
               confidence: 0.9967,
             },
             {
               text: " deuda,",
-              startMs: 2700,
-              endMs: 3160,
-              timestampMs: 2930,
+              startMs: 2691,
+              endMs: 3151,
+              timestampMs: 2921,
               confidence: 0.9883,
             },
             {
               text: " medicamentos",
-              startMs: 3480,
-              endMs: 4040,
-              timestampMs: 3760,
+              startMs: 3471,
+              endMs: 4031,
+              timestampMs: 3751,
               confidence: 0.9915,
             },
             {
               text: " para",
-              startMs: 4040,
-              endMs: 4320,
-              timestampMs: 4180,
+              startMs: 4031,
+              endMs: 4311,
+              timestampMs: 4171,
               confidence: 0.9974,
             },
             {
               text: " adelgazar",
-              startMs: 4320,
-              endMs: 4840,
-              timestampMs: 4580,
+              startMs: 4311,
+              endMs: 4831,
+              timestampMs: 4571,
               confidence: 0.9987,
             },
             {
               text: " y",
-              startMs: 4840,
-              endMs: 5300,
-              timestampMs: 5070,
+              startMs: 4831,
+              endMs: 5291,
+              timestampMs: 5061,
               confidence: 0.8892,
             },
             {
               text: " viajes",
-              startMs: 5300,
-              endMs: 5660,
-              timestampMs: 5480,
+              startMs: 5291,
+              endMs: 5651,
+              timestampMs: 5471,
               confidence: 0.9954,
             },
             {
               text: " espaciales.",
-              startMs: 5660,
-              endMs: 6480,
-              timestampMs: 6070,
+              startMs: 5651,
+              endMs: 6471,
+              timestampMs: 6061,
               confidence: 0.9962,
             },
             {
               text: " No",
-              startMs: 6840,
-              endMs: 7040,
-              timestampMs: 6940,
+              startMs: 7259,
+              endMs: 7459,
+              timestampMs: 7359,
               confidence: 0.974,
             },
             {
               text: " todo",
-              startMs: 7040,
-              endMs: 7260,
-              timestampMs: 7150,
+              startMs: 7459,
+              endMs: 7679,
+              timestampMs: 7569,
               confidence: 0.9961,
             },
             {
               text: " es",
-              startMs: 7260,
-              endMs: 7440,
-              timestampMs: 7350,
+              startMs: 7679,
+              endMs: 7859,
+              timestampMs: 7769,
               confidence: 0.9993,
             },
             {
               text: " guerra:",
-              startMs: 7440,
-              endMs: 7660,
-              timestampMs: 7550,
+              startMs: 7859,
+              endMs: 8079,
+              timestampMs: 7969,
               confidence: 0.9936,
             },
             {
               text: " el",
-              startMs: 8180,
-              endMs: 8320,
-              timestampMs: 8250,
+              startMs: 8880,
+              endMs: 9020,
+              timestampMs: 8950,
               confidence: 0.9874,
             },
             {
               text: " mundo",
-              startMs: 8320,
-              endMs: 8580,
-              timestampMs: 8450,
+              startMs: 9020,
+              endMs: 9280,
+              timestampMs: 9150,
               confidence: 0.9973,
             },
             {
               text: " también",
-              startMs: 8580,
-              endMs: 9100,
-              timestampMs: 8840,
+              startMs: 9280,
+              endMs: 9800,
+              timestampMs: 9540,
               confidence: 0.9907,
             },
             {
               text: " está",
-              startMs: 9100,
-              endMs: 9400,
-              timestampMs: 9250,
+              startMs: 9800,
+              endMs: 10100,
+              timestampMs: 9950,
               confidence: 0.9962,
             },
             {
               text: " cambiando.",
-              startMs: 9400,
-              endMs: 9920,
-              timestampMs: 9660,
+              startMs: 10100,
+              endMs: 10620,
+              timestampMs: 10360,
               confidence: 0.9979,
             },
           ]}
         />
       </Sequence>
       <Sequence
-        name="07 — El verdadero misterio"
-        from={60 * fps}
-        durationInFrames={10 * fps + 0}
+        name="07 — Escena sincronizada"
+        from={1739}
+        durationInFrames={361}
         premountFor={fps}
       >
         <IncomingMask kind="iris">
-          <Scene7 />
+          <VisualClock scene={6}>
+            <Scene7 />
+          </VisualClock>
         </IncomingMask>
-        <Audio src={staticFile("episodios/economist-2027/voz-07.wav")} />
         <Captions
           final
+          hideAfterMs={finalQuestionMs}
           captions={[
             {
               text: " ¿Entonces",
-              startMs: 100,
-              endMs: 420,
-              timestampMs: 260,
+              startMs: 89,
+              endMs: 409,
+              timestampMs: 249,
               confidence: 0.4574,
             },
             {
               text: " predice",
-              startMs: 840,
-              endMs: 1260,
-              timestampMs: 1050,
+              startMs: 829,
+              endMs: 1249,
+              timestampMs: 1039,
               confidence: 0.6423,
             },
             {
               text: " el",
-              startMs: 1260,
-              endMs: 1400,
-              timestampMs: 1330,
+              startMs: 1249,
+              endMs: 1389,
+              timestampMs: 1319,
               confidence: 0.9935,
             },
             {
               text: " futuro?",
-              startMs: 1400,
-              endMs: 1640,
-              timestampMs: 1520,
+              startMs: 1389,
+              endMs: 1629,
+              timestampMs: 1509,
               confidence: 0.9988,
             },
             {
               text: " No.",
-              startMs: 2340,
-              endMs: 2580,
-              timestampMs: 2460,
+              startMs: 2754,
+              endMs: 2994,
+              timestampMs: 2874,
               confidence: 0.9528,
             },
             {
               text: " Son",
-              startMs: 2800,
-              endMs: 3000,
-              timestampMs: 2900,
+              startMs: 3710,
+              endMs: 3910,
+              timestampMs: 3810,
               confidence: 0.989,
             },
             {
               text: " escenarios",
-              startMs: 3000,
-              endMs: 3600,
-              timestampMs: 3300,
+              startMs: 3910,
+              endMs: 4510,
+              timestampMs: 4210,
               confidence: 0.9957,
             },
             {
               text: " y",
-              startMs: 3600,
-              endMs: 3880,
-              timestampMs: 3740,
+              startMs: 4510,
+              endMs: 4790,
+              timestampMs: 4650,
               confidence: 0.9945,
             },
             {
               text: " preocupaciones,",
-              startMs: 3880,
-              endMs: 4740,
-              timestampMs: 4310,
+              startMs: 4790,
+              endMs: 5650,
+              timestampMs: 5220,
               confidence: 0.999,
             },
             {
               text: " no",
-              startMs: 5180,
-              endMs: 5300,
-              timestampMs: 5240,
+              startMs: 6090,
+              endMs: 6210,
+              timestampMs: 6150,
               confidence: 0.9937,
             },
             {
               text: " certezas.",
-              startMs: 5300,
-              endMs: 5980,
-              timestampMs: 5640,
+              startMs: 6210,
+              endMs: 6890,
+              timestampMs: 6550,
               confidence: 0.8183,
             },
             {
               text: " Pero",
-              startMs: 6220,
-              endMs: 6440,
-              timestampMs: 6330,
+              startMs: 7776,
+              endMs: 7996,
+              timestampMs: 7886,
               confidence: 0.9695,
             },
             {
               text: " vuelve",
-              startMs: 6440,
-              endMs: 6940,
-              timestampMs: 6690,
+              startMs: 7996,
+              endMs: 8496,
+              timestampMs: 8246,
               confidence: 0.6997,
             },
             {
               text: " a",
-              startMs: 6940,
-              endMs: 7000,
-              timestampMs: 6970,
+              startMs: 8496,
+              endMs: 8556,
+              timestampMs: 8526,
               confidence: 0.9945,
             },
             {
               text: " mirar",
-              startMs: 7000,
-              endMs: 7260,
-              timestampMs: 7130,
+              startMs: 8556,
+              endMs: 8816,
+              timestampMs: 8686,
               confidence: 0.9913,
             },
             {
               text: " la",
-              startMs: 7260,
-              endMs: 7340,
-              timestampMs: 7300,
+              startMs: 8816,
+              endMs: 8896,
+              timestampMs: 8856,
               confidence: 0.9972,
             },
             {
               text: " portada:",
-              startMs: 7340,
-              endMs: 7780,
-              timestampMs: 7560,
+              startMs: 8896,
+              endMs: 9336,
+              timestampMs: 9116,
               confidence: 0.9964,
             },
             {
               text: " ¿qué",
-              startMs: 8100,
-              endMs: 8240,
-              timestampMs: 8170,
+              startMs: 10277,
+              endMs: 10417,
+              timestampMs: 10347,
               confidence: 0.9347,
             },
             {
               text: " símbolo",
-              startMs: 8240,
-              endMs: 8760,
-              timestampMs: 8500,
+              startMs: 10417,
+              endMs: 10937,
+              timestampMs: 10677,
               confidence: 0.9975,
             },
             {
               text: " te",
-              startMs: 8760,
-              endMs: 8840,
-              timestampMs: 8800,
+              startMs: 10937,
+              endMs: 11017,
+              timestampMs: 10977,
               confidence: 0.9981,
             },
             {
               text: " inquieta",
-              startMs: 8840,
-              endMs: 9300,
-              timestampMs: 9070,
+              startMs: 11017,
+              endMs: 11477,
+              timestampMs: 11247,
               confidence: 0.9969,
             },
             {
               text: " más?",
-              startMs: 9300,
-              endMs: 9460,
-              timestampMs: 9380,
+              startMs: 11477,
+              endMs: 11637,
+              timestampMs: 11557,
               confidence: 0.9961,
             },
           ]}

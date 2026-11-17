@@ -7,7 +7,7 @@ Episodio independiente, 1080 × 1920, 30 fps, 2100 fotogramas y 70 segundos. Se 
 ```sh
 npm ci
 npx remotion studio src/economist2027/index.tsx --no-open
-npx remotion render src/economist2027/index.tsx Economist2027 out/economist-2027/render-remotion.mp4 --codec=h264 --audio-codec=aac --crf=18 --pixel-format=yuv420p
+npx remotion render src/economist2027/index.tsx Economist2027 out/economist-2027/render-remotion.mp4 --codec=h264 --audio-codec=aac --crf=22 --color-space=bt709 --pixel-format=yuv420p
 ffmpeg -i out/economist-2027/render-remotion.mp4 -map 0:v:0 -map 0:a:0 -c:v copy -af 'atrim=duration=70,asetpts=PTS-STARTPTS' -c:a aac -b:a 192k -ar 48000 -t 70 -movflags +faststart out/economist-2027/corazon-al-limite-economist-2027.mp4
 ```
 
@@ -20,7 +20,7 @@ Esta entrada también registra la composición anterior, sin modificarla, y las 
 - Autorización expresa recibida antes de generar audio o recursos visuales.
 - Un solo trabajo: `1b77ccba-6297-4a50-b990-77c0e2b4b719`, completado.
 - Original: `narracion-original.mp3`, 63,555875 s según FFprobe. No se solicitó otra generación pagada.
-- `audio-edit.json` conserva todos los intervalos originales, las pausas añadidas y tres cortes de 0,2 s dentro de silencios del cierre. Velocidad de reproducción **1×** en todos los clips. Ninguna palabra se elimina ni se acelera.
+- La revisión 2 usa una pista continua, `narracion-ritmo-v2.wav`, sin rellenos al final de las escenas. Solo se amplían pausas que ya existían en la locución; ninguna supera aproximadamente 0,98 s en la detección de silencios a −32 dB. `audio-edit.json` registra cada inserción y demuestra que se conservan todas las muestras PCM originales a velocidad **1×**, sin eliminar palabras, alterar el tono ni generar otra voz.
 - Transcripción local mediante faster-whisper small, español, tiempos por palabra. Se cotejaron sus 145 palabras con el guion autorizado. El texto de los JSON de subtítulos conserva la puntuación del guion.
 - La transcripción comprueba contenido y temporización; no certifica el acento ni sustituye la escucha humana de Grady. El catálogo de Higgsfield no publica una certificación de acento latinoamericano para este preset.
 
@@ -32,7 +32,7 @@ Se reutiliza `public/imagenes/anatomia/01_cerebro_completo.png` sin alterarlo. N
 
 Los recursos ausentes son SVG nativo propio en `Art.tsx`, `Maps.tsx` y las escenas: tanque con orugas/ruedas/suspensión/torreta, robot con articulaciones y pinzas, cámara con eje y lente, árboles con ramas, llamas de contorno variable, frasco/tapa/pastillas, cohete/aletas/propulsión, monedas, Capitolio y figuras genéricas. No son recortes de la revista. No se emplearon generadores de video, fotografías como personajes, Three.js, Blender ni recursos 3D.
 
-`plan-70-segundos.json` contiene los 70 registros con frase real, acción, objetos, cámara, transición y estado de revisión. La duración de las escenas se mantiene en los intervalos solicitados; las revelaciones internas siguen el audio real, no una lectura teórica por segundo.
+`plan-70-segundos.json` contiene los 70 registros con frase real, acción, objetos, cámara, transición y estado de revisión. Las transiciones siguen la locución revisada, manteniendo los 70 segundos exactos. Los límites actuales son 0 / 8,767 / 17,133 / 28,100 / 37,900 / 46,533 / 57,967 / 70 s. Las revelaciones y los subtítulos siguen las palabras reales. `timing.ts` aplica un reloj visual continuo a los SVG nativos; no congela las animaciones durante las pausas.
 
 Música y efectos: síntesis procedural original creada para el episodio; sin composición comercial, samples externos ni cargos adicionales. Uso autorizado sin restricciones de estos archivos originales dentro del proyecto. La música permanece por debajo de la narración.
 
@@ -57,4 +57,10 @@ python scripts/verificar_economist_2027.py
 
 El verificador comprueba el archivo exportado, 70 s / 2100 fotogramas / 30 fps, H.264/AAC, el plan de 70 registros, los 145 subtítulos, los SHA256 de los recursos y la conservación de los archivos previos. La inspección del estilo, la pertinencia editorial del movimiento y el acento de la voz requieren revisión humana; una diferencia numérica entre fotogramas no certifica por sí sola estos aspectos.
 
-La salida de Remotion contenía 2100 fotogramas / 70 s de imagen, pero su pista AAC extendía el contenedor a 70,016 s. El paso FFmpeg conserva el video H.264 sin recodificar y ajusta únicamente el extremo del audio AAC para que imagen, audio y contenedor duren 70,000 s. No cambia la velocidad ni corta palabras. El H.264 es 8 bits / 4:2:0 con rango completo (`yuvj420p`), una variante válida del muestreo 4:2:0; el verificador acepta también el rango limitado `yuv420p`.
+La salida de Remotion contenía 2100 fotogramas / 70 s de imagen, pero su pista AAC extendía el contenedor a 70,016 s. El paso FFmpeg conserva el video H.264 sin recodificar y ajusta únicamente el extremo del audio AAC para que imagen, audio y contenedor duren 70,000 s. No cambia la velocidad ni corta palabras. La revisión actual exporta H.264 BT.709, 8 bits / 4:2:0 de rango limitado (`yuv420p`), con inicio rápido para reproducción móvil.
+
+## Revisión de ritmo
+
+La versión inicial añadía 2,3 / 2,05 / 2,25 s de relleno al final de tres escenas y producía cuatro pausas superiores a 1,15 s, con un máximo de 2,858 s. La revisión elimina esos rellenos y distribuye el margen únicamente dentro de pausas naturales ya presentes. La pista revisada tiene 70 s; el máximo medido es 0,983 s y no hay pausas superiores a 1,15 s.
+
+`python scripts/reeditar_ritmo_economist_2027.py` reconstruye audio, subtítulos, efectos, plan y reloj visual desde la locución original y la referencia de tiempos V1. Requiere NumPy y FFmpeg, sin TTS ni servicios de pago. El verificador retira las inserciones digitales y comprueba que el PCM resultante es idéntico al original decodificado, además de medir las pausas de la pista de voz. La versión anterior se conserva en el historial y en su enlace de entrega.

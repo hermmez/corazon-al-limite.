@@ -1,142 +1,142 @@
 [
   {
     "text": " Y",
-    "startMs": 130,
-    "endMs": 270,
-    "timestampMs": 200,
+    "startMs": 127,
+    "endMs": 267,
+    "timestampMs": 197,
     "confidence": 0.9725
   },
   {
     "text": " el",
-    "startMs": 270,
-    "endMs": 390,
-    "timestampMs": 330,
+    "startMs": 267,
+    "endMs": 387,
+    "timestampMs": 327,
     "confidence": 0.9867
   },
   {
     "text": " fuego",
-    "startMs": 390,
-    "endMs": 670,
-    "timestampMs": 530,
+    "startMs": 387,
+    "endMs": 667,
+    "timestampMs": 527,
     "confidence": 0.9789
   },
   {
     "text": " podemos",
-    "startMs": 670,
-    "endMs": 1210,
-    "timestampMs": 940,
+    "startMs": 667,
+    "endMs": 1207,
+    "timestampMs": 937,
     "confidence": 0.832
   },
   {
     "text": " relacionarlo",
-    "startMs": 1210,
-    "endMs": 1930,
-    "timestampMs": 1570,
+    "startMs": 1207,
+    "endMs": 1927,
+    "timestampMs": 1567,
     "confidence": 0.977
   },
   {
     "text": " con",
-    "startMs": 1930,
-    "endMs": 2190,
-    "timestampMs": 2060,
+    "startMs": 1927,
+    "endMs": 2187,
+    "timestampMs": 2057,
     "confidence": 0.9972
   },
   {
     "text": " otro",
-    "startMs": 2190,
-    "endMs": 2390,
-    "timestampMs": 2290,
+    "startMs": 2187,
+    "endMs": 2387,
+    "timestampMs": 2287,
     "confidence": 0.994
   },
   {
     "text": " tema",
-    "startMs": 2390,
-    "endMs": 2670,
-    "timestampMs": 2530,
+    "startMs": 2387,
+    "endMs": 2667,
+    "timestampMs": 2527,
     "confidence": 0.9995
   },
   {
     "text": " de",
-    "startMs": 2670,
-    "endMs": 2810,
-    "timestampMs": 2740,
+    "startMs": 2667,
+    "endMs": 2807,
+    "timestampMs": 2737,
     "confidence": 0.9955
   },
   {
     "text": " la",
-    "startMs": 2810,
-    "endMs": 2910,
-    "timestampMs": 2860,
+    "startMs": 2807,
+    "endMs": 2907,
+    "timestampMs": 2857,
     "confidence": 0.9966
   },
   {
     "text": " revista:",
-    "startMs": 2910,
-    "endMs": 3330,
-    "timestampMs": 3120,
+    "startMs": 2907,
+    "endMs": 3327,
+    "timestampMs": 3117,
     "confidence": 0.9962
   },
   {
     "text": " el",
-    "startMs": 3810,
-    "endMs": 3890,
-    "timestampMs": 3850,
+    "startMs": 4323,
+    "endMs": 4403,
+    "timestampMs": 4363,
     "confidence": 0.9751
   },
   {
     "text": " riesgo",
-    "startMs": 3890,
-    "endMs": 4350,
-    "timestampMs": 4120,
+    "startMs": 4403,
+    "endMs": 4863,
+    "timestampMs": 4633,
     "confidence": 0.9977
   },
   {
     "text": " de",
-    "startMs": 4350,
-    "endMs": 4470,
-    "timestampMs": 4410,
+    "startMs": 4863,
+    "endMs": 4983,
+    "timestampMs": 4923,
     "confidence": 0.9936
   },
   {
     "text": " más",
-    "startMs": 4470,
-    "endMs": 4790,
-    "timestampMs": 4630,
+    "startMs": 4983,
+    "endMs": 5303,
+    "timestampMs": 5143,
     "confidence": 0.9762
   },
   {
     "text": " calor",
-    "startMs": 4790,
-    "endMs": 5030,
-    "timestampMs": 4910,
+    "startMs": 5303,
+    "endMs": 5543,
+    "timestampMs": 5423,
     "confidence": 0.9903
   },
   {
     "text": " extremo,",
-    "startMs": 5030,
-    "endMs": 5710,
-    "timestampMs": 5370,
+    "startMs": 5543,
+    "endMs": 6223,
+    "timestampMs": 5883,
     "confidence": 0.9825
   },
   {
     "text": " sequías",
-    "startMs": 5990,
-    "endMs": 6390,
-    "timestampMs": 6190,
+    "startMs": 6503,
+    "endMs": 6903,
+    "timestampMs": 6703,
     "confidence": 0.9748
   },
   {
     "text": " e",
-    "startMs": 6390,
-    "endMs": 6730,
-    "timestampMs": 6560,
+    "startMs": 6903,
+    "endMs": 7243,
+    "timestampMs": 7073,
     "confidence": 0.9359
   },
   {
     "text": " incendios.",
-    "startMs": 6730,
-    "endMs": 7330,
-    "timestampMs": 7030,
+    "startMs": 7243,
+    "endMs": 7843,
+    "timestampMs": 7543,
     "confidence": 0.996
   }
 ]

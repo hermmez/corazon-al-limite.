@@ -1,112 +1,231 @@
-[
-  {
-    "scene": 1,
-    "fromSecond": 0,
-    "toSecond": 8,
-    "sourceRanges": [
-      [
-        0,
-        8
-      ]
-    ],
-    "sourceSpeechDuration": 8,
-    "paddedSilence": 0,
-    "playbackRate": 1
-  },
-  {
-    "scene": 2,
-    "fromSecond": 8,
-    "toSecond": 18,
-    "sourceRanges": [
-      [
-        8.3,
-        16
-      ]
-    ],
-    "sourceSpeechDuration": 7.699999999999999,
-    "paddedSilence": 2.3000000000000007,
-    "playbackRate": 1
-  },
-  {
-    "scene": 3,
-    "fromSecond": 18,
-    "toSecond": 28,
-    "sourceRanges": [
-      [
-        16,
-        25.9
-      ]
-    ],
-    "sourceSpeechDuration": 9.899999999999999,
-    "paddedSilence": 0.10000000000000142,
-    "playbackRate": 1
-  },
-  {
-    "scene": 4,
-    "fromSecond": 28,
-    "toSecond": 39,
-    "sourceRanges": [
-      [
-        25.9,
-        34.85
-      ]
-    ],
-    "sourceSpeechDuration": 8.950000000000003,
-    "paddedSilence": 2.049999999999997,
-    "playbackRate": 1
-  },
-  {
-    "scene": 5,
-    "fromSecond": 39,
-    "toSecond": 49,
-    "sourceRanges": [
-      [
-        34.85,
-        42.6
-      ]
-    ],
-    "sourceSpeechDuration": 7.75,
-    "paddedSilence": 2.25,
-    "playbackRate": 1
-  },
-  {
-    "scene": 6,
-    "fromSecond": 49,
-    "toSecond": 60,
-    "sourceRanges": [
-      [
-        42.6,
-        53.1
-      ]
-    ],
-    "sourceSpeechDuration": 10.5,
-    "paddedSilence": 0.5,
-    "playbackRate": 1
-  },
-  {
-    "scene": 7,
-    "fromSecond": 60,
-    "toSecond": 70,
-    "sourceRanges": [
-      [
-        53.1,
-        55.9
+{
+  "revision": 2,
+  "durationSeconds": 70,
+  "voicePlaybackRate": 1,
+  "sourceDurationSeconds": 63.5559375,
+  "originalPcmPreserved": true,
+  "originalSamplesSha256": "02d7faf55d3f6d0bb95adfbb77ccdfdb9001784965a5f3e1ce3c8e7fbbf9278f",
+  "prolongedSceneTailPaddingRemoved": true,
+  "maximumDesignedPauseSeconds": 0.980009,
+  "insertions": [
+    {
+      "sourceSecond": 3.371208333333333,
+      "sourceSilence": [
+        3.030839,
+        3.711565
       ],
-      [
-        56.1,
-        59.5
+      "addedSamples": 14365,
+      "addedSeconds": 0.2992708333333333,
+      "editedSilenceSeconds": 0.979997,
+      "timelineInsertionSecond": 3.371208333333333
+    },
+    {
+      "sourceSecond": 8.130604166666666,
+      "sourceSilence": [
+        7.762177,
+        8.499025
       ],
-      [
-        59.7,
-        61.55
+      "addedSamples": 7668,
+      "addedSeconds": 0.15975,
+      "editedSilenceSeconds": 0.896598,
+      "timelineInsertionSecond": 8.429875
+    },
+    {
+      "sourceSecond": 11.494770833333334,
+      "sourceSilence": [
+        11.240703,
+        11.748844
       ],
-      [
-        61.75,
-        63.555875
-      ]
-    ],
-    "sourceSpeechDuration": 9.85587499999999,
-    "paddedSilence": 0.1441250000000096,
-    "playbackRate": 1
-  }
-]
+      "addedSamples": 16246,
+      "addedSeconds": 0.33845833333333336,
+      "editedSilenceSeconds": 0.846599,
+      "timelineInsertionSecond": 11.953791666666667
+    },
+    {
+      "sourceSecond": 15.847395833333334,
+      "sourceSilence": [
+        15.568163,
+        16.126621
+      ],
+      "addedSamples": 16231,
+      "addedSeconds": 0.3381458333333333,
+      "editedSilenceSeconds": 0.896604,
+      "timelineInsertionSecond": 16.644875
+    },
+    {
+      "sourceSecond": 17.51514583333333,
+      "sourceSilence": [
+        17.27034,
+        17.759932
+      ],
+      "addedSamples": 23540,
+      "addedSeconds": 0.49041666666666667,
+      "editedSilenceSeconds": 0.980009,
+      "timelineInsertionSecond": 18.650770833333333
+    },
+    {
+      "sourceSecond": 20.254208333333334,
+      "sourceSilence": [
+        20.003424,
+        20.504989
+      ],
+      "addedSamples": 16562,
+      "addedSeconds": 0.3450416666666667,
+      "editedSilenceSeconds": 0.846607,
+      "timelineInsertionSecond": 21.88025
+    },
+    {
+      "sourceSecond": 25.7791875,
+      "sourceSilence": [
+        25.449365,
+        26.109025
+      ],
+      "addedSamples": 11373,
+      "addedSeconds": 0.2369375,
+      "editedSilenceSeconds": 0.896597,
+      "timelineInsertionSecond": 27.75027083333333
+    },
+    {
+      "sourceSecond": 28.706083333333332,
+      "sourceSilence": [
+        28.511179,
+        28.900975
+      ],
+      "addedSamples": 21927,
+      "addedSeconds": 0.4568125,
+      "editedSilenceSeconds": 0.846609,
+      "timelineInsertionSecond": 30.914104166666668
+    },
+    {
+      "sourceSecond": 34.7950625,
+      "sourceSilence": [
+        34.538027,
+        35.052109
+      ],
+      "addedSamples": 18361,
+      "addedSeconds": 0.3825208333333333,
+      "editedSilenceSeconds": 0.896603,
+      "timelineInsertionSecond": 37.459895833333334
+    },
+    {
+      "sourceSecond": 38.45379166666667,
+      "sourceSilence": [
+        38.263333,
+        38.64424
+      ],
+      "addedSamples": 24754,
+      "addedSeconds": 0.5157083333333333,
+      "editedSilenceSeconds": 0.896615,
+      "timelineInsertionSecond": 41.50114583333333
+    },
+    {
+      "sourceSecond": 42.59372916666667,
+      "sourceSilence": [
+        42.351202,
+        42.836259
+      ],
+      "addedSamples": 17354,
+      "addedSeconds": 0.36154166666666665,
+      "editedSilenceSeconds": 0.846599,
+      "timelineInsertionSecond": 46.15679166666666
+    },
+    {
+      "sourceSecond": 49.2841875,
+      "sourceSilence": [
+        49.074671,
+        49.493719
+      ],
+      "addedSamples": 20523,
+      "addedSeconds": 0.4275625,
+      "editedSilenceSeconds": 0.84661,
+      "timelineInsertionSecond": 53.20879166666667
+    },
+    {
+      "sourceSecond": 50.60389583333333,
+      "sourceSilence": [
+        50.396122,
+        50.811655
+      ],
+      "addedSamples": 13491,
+      "addedSeconds": 0.2810625,
+      "editedSilenceSeconds": 0.696596,
+      "timelineInsertionSecond": 54.9560625
+    },
+    {
+      "sourceSecond": 52.86775,
+      "sourceSilence": [
+        52.530658,
+        53.204853
+      ],
+      "addedSamples": 10676,
+      "addedSeconds": 0.22241666666666668,
+      "editedSilenceSeconds": 0.896612,
+      "timelineInsertionSecond": 57.50097916666667
+    },
+    {
+      "sourceSecond": 55.1808125,
+      "sourceSilence": [
+        54.903424,
+        55.458186
+      ],
+      "addedSamples": 20411,
+      "addedSeconds": 0.42522916666666666,
+      "editedSilenceSeconds": 0.979991,
+      "timelineInsertionSecond": 60.036458333333336
+    },
+    {
+      "sourceSecond": 55.94275,
+      "sourceSilence": [
+        55.742154,
+        56.143333
+      ],
+      "addedSamples": 14180,
+      "addedSeconds": 0.29541666666666666,
+      "editedSilenceSeconds": 0.696596,
+      "timelineInsertionSecond": 61.223625
+    },
+    {
+      "sourceSecond": 59.55433333333333,
+      "sourceSilence": [
+        59.30415,
+        59.804512
+      ],
+      "addedSamples": 21420,
+      "addedSeconds": 0.44625,
+      "editedSilenceSeconds": 0.946612,
+      "timelineInsertionSecond": 65.130625
+    },
+    {
+      "sourceSecond": 61.591520833333334,
+      "sourceSilence": [
+        61.32898,
+        61.854082
+      ],
+      "addedSamples": 20233,
+      "addedSeconds": 0.42152083333333334,
+      "editedSilenceSeconds": 0.946623,
+      "timelineInsertionSecond": 67.6140625
+    }
+  ],
+  "sceneBoundariesFrames": [
+    0,
+    263,
+    514,
+    843,
+    1137,
+    1396,
+    1739,
+    2100
+  ],
+  "sceneBoundariesSeconds": [
+    0.0,
+    8.766666666666667,
+    17.133333333333333,
+    28.1,
+    37.9,
+    46.53333333333333,
+    57.96666666666667,
+    70.0
+  ],
+  "animationClock": "continuous piecewise interpolation anchored to actual words; no static visual holds"
+}

@@ -1,5 +1,5 @@
 """Read-only technical checks of the exported episode; uses FFprobe and FFmpeg."""
-import argparse, hashlib, json, pathlib, subprocess
+import argparse, hashlib, json, pathlib, subprocess, re, wave
 
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 parser=argparse.ArgumentParser()
@@ -23,6 +23,24 @@ for c in caps:assert 0<=c['compositionStartMs']<c['compositionEndMs']<=70000
 manifest=json.loads((ROOT/'docs/economist-2027/manifest-recursos.json').read_text())
 for asset in manifest:
  p=ROOT/asset['path'];assert hashlib.sha256(p.read_bytes()).hexdigest()==asset['sha256'],p
+audio_edit=json.loads((ROOT/'docs/economist-2027/audio-edit.json').read_text())
+silence_result=None
+if isinstance(audio_edit,dict) and audio_edit.get('revision')==2:
+ voice=ROOT/'public/episodios/economist-2027/narracion-ritmo-v2.wav'
+ with wave.open(str(voice),'rb') as wav:
+  assert wav.getframerate()==48000 and wav.getnframes()==70*48000
+  pcm=wav.readframes(wav.getnframes())
+ restored=[];cursor=0
+ for insert in audio_edit['insertions']:
+  pos=round(insert['timelineInsertionSecond']*48000)*2;n=insert['addedSamples']*2
+  restored.append(pcm[cursor:pos]);assert not any(pcm[pos:pos+n]);cursor=pos+n
+ restored.append(pcm[cursor:]);restored=b''.join(restored)
+ original=subprocess.check_output(['ffmpeg','-v','error','-i',str(ROOT/'public/episodios/economist-2027/narracion-original.mp3'),'-ar','48000','-ac','1','-f','s16le','-'])
+ assert restored==original,'La voz debe conservar todas las muestras originales y su velocidad'
+ log=subprocess.run(['ffmpeg','-hide_banner','-i',str(voice),'-af','silencedetect=noise=-32dB:d=0.25','-f','null','-'],capture_output=True,text=True,check=True).stderr
+ pauses=[float(x) for x in re.findall(r'silence_duration: ([\d.]+)',log)]
+ assert max(pauses)<1.05,pauses
+ silence_result={'maximumPauseSeconds':max(pauses),'pausesLongerThan1_15Seconds':sum(x>1.15 for x in pauses),'originalPcmPreserved':True,'voicePlaybackRate':1}
 baseline='dfd156762fae47a61374c4c6b138f85bdd2ef542'
 subprocess.run(['git','diff','--exit-code',baseline,'--','src/Root.tsx','src/CorazonAlLimite.tsx','src/index.ts','package.json','public/imagenes'],cwd=ROOT,check=True)
-print(json.dumps({'technical':'passed','durationSeconds':float(probe['format']['duration']),'frames':int(v['nb_frames']),'video':v,'audio':a,'storyboardRecords':len(plan),'captionWords':len(caps),'existingEpisodesAndIllustrations':'unchanged','sha256':hashlib.sha256(video.read_bytes()).hexdigest()},ensure_ascii=False,indent=2))
+print(json.dumps({'technical':'passed','voiceRhythm':silence_result,'durationSeconds':float(probe['format']['duration']),'frames':int(v['nb_frames']),'video':v,'audio':a,'storyboardRecords':len(plan),'captionWords':len(caps),'existingEpisodesAndIllustrations':'unchanged','sha256':hashlib.sha256(video.read_bytes()).hexdigest()},ensure_ascii=False,indent=2))

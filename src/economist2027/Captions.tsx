@@ -11,9 +11,11 @@ export type Caption = {
 export const Captions = ({
   captions,
   final = false,
+  hideAfterMs = 7500,
 }: {
   captions: Caption[];
   final?: boolean;
+  hideAfterMs?: number;
 }) => {
   const frame = useCurrentFrame(),
     { fps } = useVideoConfig(),
@@ -38,7 +40,7 @@ export const Captions = ({
   const active = pages.find(
     (p) => now >= p[0].startMs - 50 && now <= p[p.length - 1].endMs + 100,
   );
-  if (!active || (final && now > 7500)) return null;
+  if (!active || (final && now > hideAfterMs)) return null;
   return (
     <div
       style={{

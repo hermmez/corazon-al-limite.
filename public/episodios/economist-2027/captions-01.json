@@ -36,72 +36,72 @@
   },
   {
     "text": " ¿Qué",
-    "startMs": 3560,
-    "endMs": 3800,
-    "timestampMs": 3680,
+    "startMs": 3859,
+    "endMs": 4099,
+    "timestampMs": 3979,
     "confidence": 0.9485
   },
   {
     "text": " esconde",
-    "startMs": 3800,
-    "endMs": 4200,
-    "timestampMs": 4000,
+    "startMs": 4099,
+    "endMs": 4499,
+    "timestampMs": 4299,
     "confidence": 0.7265
   },
   {
     "text": " esta",
-    "startMs": 4200,
-    "endMs": 4480,
-    "timestampMs": 4340,
+    "startMs": 4499,
+    "endMs": 4779,
+    "timestampMs": 4639,
     "confidence": 0.9401
   },
   {
     "text": " inquietante",
-    "startMs": 4480,
-    "endMs": 5200,
-    "timestampMs": 4840,
+    "startMs": 4779,
+    "endMs": 5499,
+    "timestampMs": 5139,
     "confidence": 0.9942
   },
   {
     "text": " portada",
-    "startMs": 5200,
-    "endMs": 5720,
-    "timestampMs": 5460,
+    "startMs": 5499,
+    "endMs": 6019,
+    "timestampMs": 5759,
     "confidence": 0.9984
   },
   {
     "text": " de",
-    "startMs": 5720,
-    "endMs": 5900,
-    "timestampMs": 5810,
+    "startMs": 6019,
+    "endMs": 6199,
+    "timestampMs": 6109,
     "confidence": 0.901
   },
   {
     "text": " The",
-    "startMs": 5900,
-    "endMs": 6000,
-    "timestampMs": 5950,
+    "startMs": 6199,
+    "endMs": 6299,
+    "timestampMs": 6249,
     "confidence": 0.5619
   },
   {
     "text": " Economist",
-    "startMs": 6000,
-    "endMs": 6500,
-    "timestampMs": 6250,
+    "startMs": 6299,
+    "endMs": 6799,
+    "timestampMs": 6549,
     "confidence": 0.99
   },
   {
     "text": " para",
-    "startMs": 6500,
-    "endMs": 6720,
-    "timestampMs": 6610,
+    "startMs": 6799,
+    "endMs": 7019,
+    "timestampMs": 6909,
     "confidence": 0.9813
   },
   {
     "text": " 2027?",
-    "startMs": 6720,
-    "endMs": 7540,
-    "timestampMs": 7130,
+    "startMs": 7019,
+    "endMs": 7839,
+    "timestampMs": 7429,
     "confidence": 0.9717
   }
 ]

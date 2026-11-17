@@ -1,156 +1,156 @@
 [
   {
     "text": " ¿Entonces",
-    "startMs": 100,
-    "endMs": 420,
-    "timestampMs": 260,
+    "startMs": 89,
+    "endMs": 409,
+    "timestampMs": 249,
     "confidence": 0.4574
   },
   {
     "text": " predice",
-    "startMs": 840,
-    "endMs": 1260,
-    "timestampMs": 1050,
+    "startMs": 829,
+    "endMs": 1249,
+    "timestampMs": 1039,
     "confidence": 0.6423
   },
   {
     "text": " el",
-    "startMs": 1260,
-    "endMs": 1400,
-    "timestampMs": 1330,
+    "startMs": 1249,
+    "endMs": 1389,
+    "timestampMs": 1319,
     "confidence": 0.9935
   },
   {
     "text": " futuro?",
-    "startMs": 1400,
-    "endMs": 1640,
-    "timestampMs": 1520,
+    "startMs": 1389,
+    "endMs": 1629,
+    "timestampMs": 1509,
     "confidence": 0.9988
   },
   {
     "text": " No.",
-    "startMs": 2340,
-    "endMs": 2580,
-    "timestampMs": 2460,
+    "startMs": 2754,
+    "endMs": 2994,
+    "timestampMs": 2874,
     "confidence": 0.9528
   },
   {
     "text": " Son",
-    "startMs": 2800,
-    "endMs": 3000,
-    "timestampMs": 2900,
+    "startMs": 3710,
+    "endMs": 3910,
+    "timestampMs": 3810,
     "confidence": 0.989
   },
   {
     "text": " escenarios",
-    "startMs": 3000,
-    "endMs": 3600,
-    "timestampMs": 3300,
+    "startMs": 3910,
+    "endMs": 4510,
+    "timestampMs": 4210,
     "confidence": 0.9957
   },
   {
     "text": " y",
-    "startMs": 3600,
-    "endMs": 3880,
-    "timestampMs": 3740,
+    "startMs": 4510,
+    "endMs": 4790,
+    "timestampMs": 4650,
     "confidence": 0.9945
   },
   {
     "text": " preocupaciones,",
-    "startMs": 3880,
-    "endMs": 4740,
-    "timestampMs": 4310,
+    "startMs": 4790,
+    "endMs": 5650,
+    "timestampMs": 5220,
     "confidence": 0.999
   },
   {
     "text": " no",
-    "startMs": 5180,
-    "endMs": 5300,
-    "timestampMs": 5240,
+    "startMs": 6090,
+    "endMs": 6210,
+    "timestampMs": 6150,
     "confidence": 0.9937
   },
   {
     "text": " certezas.",
-    "startMs": 5300,
-    "endMs": 5980,
-    "timestampMs": 5640,
+    "startMs": 6210,
+    "endMs": 6890,
+    "timestampMs": 6550,
     "confidence": 0.8183
   },
   {
     "text": " Pero",
-    "startMs": 6220,
-    "endMs": 6440,
-    "timestampMs": 6330,
+    "startMs": 7776,
+    "endMs": 7996,
+    "timestampMs": 7886,
     "confidence": 0.9695
   },
   {
     "text": " vuelve",
-    "startMs": 6440,
-    "endMs": 6940,
-    "timestampMs": 6690,
+    "startMs": 7996,
+    "endMs": 8496,
+    "timestampMs": 8246,
     "confidence": 0.6997
   },
   {
     "text": " a",
-    "startMs": 6940,
-    "endMs": 7000,
-    "timestampMs": 6970,
+    "startMs": 8496,
+    "endMs": 8556,
+    "timestampMs": 8526,
     "confidence": 0.9945
   },
   {
     "text": " mirar",
-    "startMs": 7000,
-    "endMs": 7260,
-    "timestampMs": 7130,
+    "startMs": 8556,
+    "endMs": 8816,
+    "timestampMs": 8686,
     "confidence": 0.9913
   },
   {
     "text": " la",
-    "startMs": 7260,
-    "endMs": 7340,
-    "timestampMs": 7300,
+    "startMs": 8816,
+    "endMs": 8896,
+    "timestampMs": 8856,
     "confidence": 0.9972
   },
   {
     "text": " portada:",
-    "startMs": 7340,
-    "endMs": 7780,
-    "timestampMs": 7560,
+    "startMs": 8896,
+    "endMs": 9336,
+    "timestampMs": 9116,
     "confidence": 0.9964
   },
   {
     "text": " ¿qué",
-    "startMs": 8100,
-    "endMs": 8240,
-    "timestampMs": 8170,
+    "startMs": 10277,
+    "endMs": 10417,
+    "timestampMs": 10347,
     "confidence": 0.9347
   },
   {
     "text": " símbolo",
-    "startMs": 8240,
-    "endMs": 8760,
-    "timestampMs": 8500,
+    "startMs": 10417,
+    "endMs": 10937,
+    "timestampMs": 10677,
     "confidence": 0.9975
   },
   {
     "text": " te",
-    "startMs": 8760,
-    "endMs": 8840,
-    "timestampMs": 8800,
+    "startMs": 10937,
+    "endMs": 11017,
+    "timestampMs": 10977,
     "confidence": 0.9981
   },
   {
     "text": " inquieta",
-    "startMs": 8840,
-    "endMs": 9300,
-    "timestampMs": 9070,
+    "startMs": 11017,
+    "endMs": 11477,
+    "timestampMs": 11247,
     "confidence": 0.9969
   },
   {
     "text": " más?",
-    "startMs": 9300,
-    "endMs": 9460,
-    "timestampMs": 9380,
+    "startMs": 11477,
+    "endMs": 11637,
+    "timestampMs": 11557,
     "confidence": 0.9961
   }
 ]

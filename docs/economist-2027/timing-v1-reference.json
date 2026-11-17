@@ -1,0 +1,2156 @@
+{
+  "captions": [
+    {
+      "text": " Misiles,",
+      "startMs": 0,
+      "endMs": 540,
+      "timestampMs": 270,
+      "confidence": 0.5856,
+      "scene": 1,
+      "compositionStartMs": 0,
+      "compositionEndMs": 540
+    },
+    {
+      "text": " incendios",
+      "startMs": 1100,
+      "endMs": 1740,
+      "timestampMs": 1420,
+      "confidence": 0.9958,
+      "scene": 1,
+      "compositionStartMs": 1100,
+      "compositionEndMs": 1740
+    },
+    {
+      "text": " y",
+      "startMs": 1740,
+      "endMs": 2320,
+      "timestampMs": 2030,
+      "confidence": 0.8439,
+      "scene": 1,
+      "compositionStartMs": 1740,
+      "compositionEndMs": 2320
+    },
+    {
+      "text": " un",
+      "startMs": 2320,
+      "endMs": 2480,
+      "timestampMs": 2400,
+      "confidence": 0.9827,
+      "scene": 1,
+      "compositionStartMs": 2320,
+      "compositionEndMs": 2480
+    },
+    {
+      "text": " cerebro.",
+      "startMs": 2480,
+      "endMs": 3080,
+      "timestampMs": 2780,
+      "confidence": 0.9947,
+      "scene": 1,
+      "compositionStartMs": 2480,
+      "compositionEndMs": 3080
+    },
+    {
+      "text": " ¿Qué",
+      "startMs": 3560,
+      "endMs": 3800,
+      "timestampMs": 3680,
+      "confidence": 0.9485,
+      "scene": 1,
+      "compositionStartMs": 3560,
+      "compositionEndMs": 3800
+    },
+    {
+      "text": " esconde",
+      "startMs": 3800,
+      "endMs": 4200,
+      "timestampMs": 4000,
+      "confidence": 0.7265,
+      "scene": 1,
+      "compositionStartMs": 3800,
+      "compositionEndMs": 4200
+    },
+    {
+      "text": " esta",
+      "startMs": 4200,
+      "endMs": 4480,
+      "timestampMs": 4340,
+      "confidence": 0.9401,
+      "scene": 1,
+      "compositionStartMs": 4200,
+      "compositionEndMs": 4480
+    },
+    {
+      "text": " inquietante",
+      "startMs": 4480,
+      "endMs": 5200,
+      "timestampMs": 4840,
+      "confidence": 0.9942,
+      "scene": 1,
+      "compositionStartMs": 4480,
+      "compositionEndMs": 5200
+    },
+    {
+      "text": " portada",
+      "startMs": 5200,
+      "endMs": 5720,
+      "timestampMs": 5460,
+      "confidence": 0.9984,
+      "scene": 1,
+      "compositionStartMs": 5200,
+      "compositionEndMs": 5720
+    },
+    {
+      "text": " de",
+      "startMs": 5720,
+      "endMs": 5900,
+      "timestampMs": 5810,
+      "confidence": 0.901,
+      "scene": 1,
+      "compositionStartMs": 5720,
+      "compositionEndMs": 5900
+    },
+    {
+      "text": " The",
+      "startMs": 5900,
+      "endMs": 6000,
+      "timestampMs": 5950,
+      "confidence": 0.5619,
+      "scene": 1,
+      "compositionStartMs": 5900,
+      "compositionEndMs": 6000
+    },
+    {
+      "text": " Economist",
+      "startMs": 6000,
+      "endMs": 6500,
+      "timestampMs": 6250,
+      "confidence": 0.99,
+      "scene": 1,
+      "compositionStartMs": 6000,
+      "compositionEndMs": 6500
+    },
+    {
+      "text": " para",
+      "startMs": 6500,
+      "endMs": 6720,
+      "timestampMs": 6610,
+      "confidence": 0.9813,
+      "scene": 1,
+      "compositionStartMs": 6500,
+      "compositionEndMs": 6720
+    },
+    {
+      "text": " 2027?",
+      "startMs": 6720,
+      "endMs": 7540,
+      "timestampMs": 7130,
+      "confidence": 0.9717,
+      "scene": 1,
+      "compositionStartMs": 6720,
+      "compositionEndMs": 7540
+    },
+    {
+      "text": " Arriba,",
+      "startMs": 120,
+      "endMs": 620,
+      "timestampMs": 370,
+      "confidence": 0.9572,
+      "scene": 2,
+      "compositionStartMs": 8120,
+      "compositionEndMs": 8620
+    },
+    {
+      "text": " los",
+      "startMs": 960,
+      "endMs": 1080,
+      "timestampMs": 1020,
+      "confidence": 0.9913,
+      "scene": 2,
+      "compositionStartMs": 8960,
+      "compositionEndMs": 9080
+    },
+    {
+      "text": " líderes",
+      "startMs": 1080,
+      "endMs": 1520,
+      "timestampMs": 1300,
+      "confidence": 0.9978,
+      "scene": 2,
+      "compositionStartMs": 9080,
+      "compositionEndMs": 9520
+    },
+    {
+      "text": " parecen",
+      "startMs": 1520,
+      "endMs": 1900,
+      "timestampMs": 1710,
+      "confidence": 0.993,
+      "scene": 2,
+      "compositionStartMs": 9520,
+      "compositionEndMs": 9900
+    },
+    {
+      "text": " vigilar",
+      "startMs": 1900,
+      "endMs": 2360,
+      "timestampMs": 2130,
+      "confidence": 0.9827,
+      "scene": 2,
+      "compositionStartMs": 9900,
+      "compositionEndMs": 10360
+    },
+    {
+      "text": " el",
+      "startMs": 2360,
+      "endMs": 2560,
+      "timestampMs": 2460,
+      "confidence": 0.998,
+      "scene": 2,
+      "compositionStartMs": 10360,
+      "compositionEndMs": 10560
+    },
+    {
+      "text": " mundo.",
+      "startMs": 2560,
+      "endMs": 2840,
+      "timestampMs": 2700,
+      "confidence": 0.9978,
+      "scene": 2,
+      "compositionStartMs": 10560,
+      "compositionEndMs": 10840
+    },
+    {
+      "text": " La",
+      "startMs": 3420,
+      "endMs": 3540,
+      "timestampMs": 3480,
+      "confidence": 0.9902,
+      "scene": 2,
+      "compositionStartMs": 11420,
+      "compositionEndMs": 11540
+    },
+    {
+      "text": " revista",
+      "startMs": 3540,
+      "endMs": 3980,
+      "timestampMs": 3760,
+      "confidence": 0.9976,
+      "scene": 2,
+      "compositionStartMs": 11540,
+      "compositionEndMs": 11980
+    },
+    {
+      "text": " analiza",
+      "startMs": 3980,
+      "endMs": 4520,
+      "timestampMs": 4250,
+      "confidence": 0.9838,
+      "scene": 2,
+      "compositionStartMs": 11980,
+      "compositionEndMs": 12520
+    },
+    {
+      "text": " la",
+      "startMs": 4520,
+      "endMs": 4660,
+      "timestampMs": 4590,
+      "confidence": 0.9882,
+      "scene": 2,
+      "compositionStartMs": 12520,
+      "compositionEndMs": 12660
+    },
+    {
+      "text": " sucesión",
+      "startMs": 4660,
+      "endMs": 5160,
+      "timestampMs": 4910,
+      "confidence": 0.997,
+      "scene": 2,
+      "compositionStartMs": 12660,
+      "compositionEndMs": 13160
+    },
+    {
+      "text": " de",
+      "startMs": 5160,
+      "endMs": 5280,
+      "timestampMs": 5220,
+      "confidence": 0.9941,
+      "scene": 2,
+      "compositionStartMs": 13160,
+      "compositionEndMs": 13280
+    },
+    {
+      "text": " Trump",
+      "startMs": 5280,
+      "endMs": 5660,
+      "timestampMs": 5470,
+      "confidence": 0.9967,
+      "scene": 2,
+      "compositionStartMs": 13280,
+      "compositionEndMs": 13660
+    },
+    {
+      "text": " y",
+      "startMs": 5660,
+      "endMs": 5980,
+      "timestampMs": 5820,
+      "confidence": 0.9927,
+      "scene": 2,
+      "compositionStartMs": 13660,
+      "compositionEndMs": 13980
+    },
+    {
+      "text": " el",
+      "startMs": 5980,
+      "endMs": 6100,
+      "timestampMs": 6040,
+      "confidence": 0.9995,
+      "scene": 2,
+      "compositionStartMs": 13980,
+      "compositionEndMs": 14100
+    },
+    {
+      "text": " avance",
+      "startMs": 6100,
+      "endMs": 6400,
+      "timestampMs": 6250,
+      "confidence": 0.9985,
+      "scene": 2,
+      "compositionStartMs": 14100,
+      "compositionEndMs": 14400
+    },
+    {
+      "text": " del",
+      "startMs": 6400,
+      "endMs": 6640,
+      "timestampMs": 6520,
+      "confidence": 0.9957,
+      "scene": 2,
+      "compositionStartMs": 14400,
+      "compositionEndMs": 14640
+    },
+    {
+      "text": " populismo.",
+      "startMs": 6640,
+      "endMs": 7240,
+      "timestampMs": 6940,
+      "confidence": 0.9984,
+      "scene": 2,
+      "compositionStartMs": 14640,
+      "compositionEndMs": 15240
+    },
+    {
+      "text": " Pero",
+      "startMs": 40,
+      "endMs": 280,
+      "timestampMs": 160,
+      "confidence": 0.9602,
+      "scene": 3,
+      "compositionStartMs": 18040,
+      "compositionEndMs": 18280
+    },
+    {
+      "text": " mira",
+      "startMs": 280,
+      "endMs": 660,
+      "timestampMs": 470,
+      "confidence": 0.781,
+      "scene": 3,
+      "compositionStartMs": 18280,
+      "compositionEndMs": 18660
+    },
+    {
+      "text": " el",
+      "startMs": 660,
+      "endMs": 860,
+      "timestampMs": 760,
+      "confidence": 0.9796,
+      "scene": 3,
+      "compositionStartMs": 18660,
+      "compositionEndMs": 18860
+    },
+    {
+      "text": " centro:",
+      "startMs": 860,
+      "endMs": 1160,
+      "timestampMs": 1010,
+      "confidence": 0.9864,
+      "scene": 3,
+      "compositionStartMs": 18860,
+      "compositionEndMs": 19160
+    },
+    {
+      "text": " un",
+      "startMs": 1740,
+      "endMs": 1880,
+      "timestampMs": 1810,
+      "confidence": 0.9821,
+      "scene": 3,
+      "compositionStartMs": 19740,
+      "compositionEndMs": 19880
+    },
+    {
+      "text": " cerebro",
+      "startMs": 1880,
+      "endMs": 2460,
+      "timestampMs": 2170,
+      "confidence": 0.9964,
+      "scene": 3,
+      "compositionStartMs": 19880,
+      "compositionEndMs": 20460
+    },
+    {
+      "text": " rodeado",
+      "startMs": 2460,
+      "endMs": 3120,
+      "timestampMs": 2790,
+      "confidence": 0.9834,
+      "scene": 3,
+      "compositionStartMs": 20460,
+      "compositionEndMs": 21120
+    },
+    {
+      "text": " de",
+      "startMs": 3120,
+      "endMs": 3300,
+      "timestampMs": 3210,
+      "confidence": 0.9975,
+      "scene": 3,
+      "compositionStartMs": 21120,
+      "compositionEndMs": 21300
+    },
+    {
+      "text": " tecnología.",
+      "startMs": 3300,
+      "endMs": 3820,
+      "timestampMs": 3560,
+      "confidence": 0.9936,
+      "scene": 3,
+      "compositionStartMs": 21300,
+      "compositionEndMs": 21820
+    },
+    {
+      "text": " Es",
+      "startMs": 4400,
+      "endMs": 4600,
+      "timestampMs": 4500,
+      "confidence": 0.987,
+      "scene": 3,
+      "compositionStartMs": 22400,
+      "compositionEndMs": 22600
+    },
+    {
+      "text": " una",
+      "startMs": 4600,
+      "endMs": 4760,
+      "timestampMs": 4680,
+      "confidence": 0.997,
+      "scene": 3,
+      "compositionStartMs": 22600,
+      "compositionEndMs": 22760
+    },
+    {
+      "text": " pista",
+      "startMs": 4760,
+      "endMs": 5040,
+      "timestampMs": 4900,
+      "confidence": 0.9978,
+      "scene": 3,
+      "compositionStartMs": 22760,
+      "compositionEndMs": 23040
+    },
+    {
+      "text": " sobre",
+      "startMs": 5040,
+      "endMs": 5380,
+      "timestampMs": 5210,
+      "confidence": 0.9976,
+      "scene": 3,
+      "compositionStartMs": 23040,
+      "compositionEndMs": 23380
+    },
+    {
+      "text": " la",
+      "startMs": 5380,
+      "endMs": 5520,
+      "timestampMs": 5450,
+      "confidence": 0.998,
+      "scene": 3,
+      "compositionStartMs": 23380,
+      "compositionEndMs": 23520
+    },
+    {
+      "text": " inteligencia",
+      "startMs": 5520,
+      "endMs": 6100,
+      "timestampMs": 5810,
+      "confidence": 0.9877,
+      "scene": 3,
+      "compositionStartMs": 23520,
+      "compositionEndMs": 24100
+    },
+    {
+      "text": " artificial,",
+      "startMs": 6100,
+      "endMs": 6640,
+      "timestampMs": 6370,
+      "confidence": 0.9978,
+      "scene": 3,
+      "compositionStartMs": 24100,
+      "compositionEndMs": 24640
+    },
+    {
+      "text": " sus",
+      "startMs": 7060,
+      "endMs": 7240,
+      "timestampMs": 7150,
+      "confidence": 0.9719,
+      "scene": 3,
+      "compositionStartMs": 25060,
+      "compositionEndMs": 25240
+    },
+    {
+      "text": " riesgos",
+      "startMs": 7240,
+      "endMs": 7720,
+      "timestampMs": 7480,
+      "confidence": 0.9955,
+      "scene": 3,
+      "compositionStartMs": 25240,
+      "compositionEndMs": 25720
+    },
+    {
+      "text": " y",
+      "startMs": 7720,
+      "endMs": 8180,
+      "timestampMs": 7950,
+      "confidence": 0.876,
+      "scene": 3,
+      "compositionStartMs": 25720,
+      "compositionEndMs": 26180
+    },
+    {
+      "text": " el",
+      "startMs": 8180,
+      "endMs": 8300,
+      "timestampMs": 8240,
+      "confidence": 0.9969,
+      "scene": 3,
+      "compositionStartMs": 26180,
+      "compositionEndMs": 26300
+    },
+    {
+      "text": " rechazo",
+      "startMs": 8300,
+      "endMs": 8760,
+      "timestampMs": 8530,
+      "confidence": 0.9971,
+      "scene": 3,
+      "compositionStartMs": 26300,
+      "compositionEndMs": 26760
+    },
+    {
+      "text": " que",
+      "startMs": 8760,
+      "endMs": 8960,
+      "timestampMs": 8860,
+      "confidence": 0.9962,
+      "scene": 3,
+      "compositionStartMs": 26760,
+      "compositionEndMs": 26960
+    },
+    {
+      "text": " provoca.",
+      "startMs": 8960,
+      "endMs": 9380,
+      "timestampMs": 9170,
+      "confidence": 0.993,
+      "scene": 3,
+      "compositionStartMs": 26960,
+      "compositionEndMs": 27380
+    },
+    {
+      "text": " Más",
+      "startMs": 140,
+      "endMs": 380,
+      "timestampMs": 260,
+      "confidence": 0.9949,
+      "scene": 4,
+      "compositionStartMs": 28140,
+      "compositionEndMs": 28380
+    },
+    {
+      "text": " abajo",
+      "startMs": 380,
+      "endMs": 680,
+      "timestampMs": 530,
+      "confidence": 0.9946,
+      "scene": 4,
+      "compositionStartMs": 28380,
+      "compositionEndMs": 28680
+    },
+    {
+      "text": " aparecen",
+      "startMs": 680,
+      "endMs": 1320,
+      "timestampMs": 1000,
+      "confidence": 0.9264,
+      "scene": 4,
+      "compositionStartMs": 28680,
+      "compositionEndMs": 29320
+    },
+    {
+      "text": " tanques",
+      "startMs": 1320,
+      "endMs": 1860,
+      "timestampMs": 1590,
+      "confidence": 0.9819,
+      "scene": 4,
+      "compositionStartMs": 29320,
+      "compositionEndMs": 29860
+    },
+    {
+      "text": " y",
+      "startMs": 1860,
+      "endMs": 2100,
+      "timestampMs": 1980,
+      "confidence": 0.9986,
+      "scene": 4,
+      "compositionStartMs": 29860,
+      "compositionEndMs": 30100
+    },
+    {
+      "text": " armas.",
+      "startMs": 2100,
+      "endMs": 2340,
+      "timestampMs": 2220,
+      "confidence": 0.9981,
+      "scene": 4,
+      "compositionStartMs": 30100,
+      "compositionEndMs": 30340
+    },
+    {
+      "text": " La",
+      "startMs": 2340,
+      "endMs": 3060,
+      "timestampMs": 2700,
+      "confidence": 0.6015,
+      "scene": 4,
+      "compositionStartMs": 30340,
+      "compositionEndMs": 31060
+    },
+    {
+      "text": " publicación",
+      "startMs": 3060,
+      "endMs": 3640,
+      "timestampMs": 3350,
+      "confidence": 0.9826,
+      "scene": 4,
+      "compositionStartMs": 31060,
+      "compositionEndMs": 31640
+    },
+    {
+      "text": " teme",
+      "startMs": 3640,
+      "endMs": 4040,
+      "timestampMs": 3840,
+      "confidence": 0.9816,
+      "scene": 4,
+      "compositionStartMs": 31640,
+      "compositionEndMs": 32040
+    },
+    {
+      "text": " repercusiones",
+      "startMs": 4040,
+      "endMs": 4700,
+      "timestampMs": 4370,
+      "confidence": 0.9952,
+      "scene": 4,
+      "compositionStartMs": 32040,
+      "compositionEndMs": 32700
+    },
+    {
+      "text": " de",
+      "startMs": 4700,
+      "endMs": 4920,
+      "timestampMs": 4810,
+      "confidence": 0.9977,
+      "scene": 4,
+      "compositionStartMs": 32700,
+      "compositionEndMs": 32920
+    },
+    {
+      "text": " la",
+      "startMs": 4920,
+      "endMs": 5020,
+      "timestampMs": 4970,
+      "confidence": 0.9948,
+      "scene": 4,
+      "compositionStartMs": 32920,
+      "compositionEndMs": 33020
+    },
+    {
+      "text": " guerra",
+      "startMs": 5020,
+      "endMs": 5240,
+      "timestampMs": 5130,
+      "confidence": 0.928,
+      "scene": 4,
+      "compositionStartMs": 33020,
+      "compositionEndMs": 33240
+    },
+    {
+      "text": " con",
+      "startMs": 5240,
+      "endMs": 5500,
+      "timestampMs": 5370,
+      "confidence": 0.9963,
+      "scene": 4,
+      "compositionStartMs": 33240,
+      "compositionEndMs": 33500
+    },
+    {
+      "text": " Irán",
+      "startMs": 5500,
+      "endMs": 5800,
+      "timestampMs": 5650,
+      "confidence": 0.9458,
+      "scene": 4,
+      "compositionStartMs": 33500,
+      "compositionEndMs": 33800
+    },
+    {
+      "text": " y",
+      "startMs": 5800,
+      "endMs": 6180,
+      "timestampMs": 5990,
+      "confidence": 0.8546,
+      "scene": 4,
+      "compositionStartMs": 33800,
+      "compositionEndMs": 34180
+    },
+    {
+      "text": " observa",
+      "startMs": 6180,
+      "endMs": 6600,
+      "timestampMs": 6390,
+      "confidence": 0.9941,
+      "scene": 4,
+      "compositionStartMs": 34180,
+      "compositionEndMs": 34600
+    },
+    {
+      "text": " con",
+      "startMs": 6600,
+      "endMs": 6760,
+      "timestampMs": 6680,
+      "confidence": 0.9949,
+      "scene": 4,
+      "compositionStartMs": 34600,
+      "compositionEndMs": 34760
+    },
+    {
+      "text": " inquietud",
+      "startMs": 6760,
+      "endMs": 7300,
+      "timestampMs": 7030,
+      "confidence": 0.9975,
+      "scene": 4,
+      "compositionStartMs": 34760,
+      "compositionEndMs": 35300
+    },
+    {
+      "text": " la",
+      "startMs": 7300,
+      "endMs": 7540,
+      "timestampMs": 7420,
+      "confidence": 0.9931,
+      "scene": 4,
+      "compositionStartMs": 35300,
+      "compositionEndMs": 35540
+    },
+    {
+      "text": " situación",
+      "startMs": 7540,
+      "endMs": 8000,
+      "timestampMs": 7770,
+      "confidence": 0.9996,
+      "scene": 4,
+      "compositionStartMs": 35540,
+      "compositionEndMs": 36000
+    },
+    {
+      "text": " de",
+      "startMs": 8000,
+      "endMs": 8200,
+      "timestampMs": 8100,
+      "confidence": 0.9941,
+      "scene": 4,
+      "compositionStartMs": 36000,
+      "compositionEndMs": 36200
+    },
+    {
+      "text": " Taiwán.",
+      "startMs": 8200,
+      "endMs": 8620,
+      "timestampMs": 8410,
+      "confidence": 0.8607,
+      "scene": 4,
+      "compositionStartMs": 36200,
+      "compositionEndMs": 36620
+    },
+    {
+      "text": " Y",
+      "startMs": 130,
+      "endMs": 270,
+      "timestampMs": 200,
+      "confidence": 0.9725,
+      "scene": 5,
+      "compositionStartMs": 39130,
+      "compositionEndMs": 39270
+    },
+    {
+      "text": " el",
+      "startMs": 270,
+      "endMs": 390,
+      "timestampMs": 330,
+      "confidence": 0.9867,
+      "scene": 5,
+      "compositionStartMs": 39270,
+      "compositionEndMs": 39390
+    },
+    {
+      "text": " fuego",
+      "startMs": 390,
+      "endMs": 670,
+      "timestampMs": 530,
+      "confidence": 0.9789,
+      "scene": 5,
+      "compositionStartMs": 39390,
+      "compositionEndMs": 39670
+    },
+    {
+      "text": " podemos",
+      "startMs": 670,
+      "endMs": 1210,
+      "timestampMs": 940,
+      "confidence": 0.832,
+      "scene": 5,
+      "compositionStartMs": 39670,
+      "compositionEndMs": 40210
+    },
+    {
+      "text": " relacionarlo",
+      "startMs": 1210,
+      "endMs": 1930,
+      "timestampMs": 1570,
+      "confidence": 0.977,
+      "scene": 5,
+      "compositionStartMs": 40210,
+      "compositionEndMs": 40930
+    },
+    {
+      "text": " con",
+      "startMs": 1930,
+      "endMs": 2190,
+      "timestampMs": 2060,
+      "confidence": 0.9972,
+      "scene": 5,
+      "compositionStartMs": 40930,
+      "compositionEndMs": 41190
+    },
+    {
+      "text": " otro",
+      "startMs": 2190,
+      "endMs": 2390,
+      "timestampMs": 2290,
+      "confidence": 0.994,
+      "scene": 5,
+      "compositionStartMs": 41190,
+      "compositionEndMs": 41390
+    },
+    {
+      "text": " tema",
+      "startMs": 2390,
+      "endMs": 2670,
+      "timestampMs": 2530,
+      "confidence": 0.9995,
+      "scene": 5,
+      "compositionStartMs": 41390,
+      "compositionEndMs": 41670
+    },
+    {
+      "text": " de",
+      "startMs": 2670,
+      "endMs": 2810,
+      "timestampMs": 2740,
+      "confidence": 0.9955,
+      "scene": 5,
+      "compositionStartMs": 41670,
+      "compositionEndMs": 41810
+    },
+    {
+      "text": " la",
+      "startMs": 2810,
+      "endMs": 2910,
+      "timestampMs": 2860,
+      "confidence": 0.9966,
+      "scene": 5,
+      "compositionStartMs": 41810,
+      "compositionEndMs": 41910
+    },
+    {
+      "text": " revista:",
+      "startMs": 2910,
+      "endMs": 3330,
+      "timestampMs": 3120,
+      "confidence": 0.9962,
+      "scene": 5,
+      "compositionStartMs": 41910,
+      "compositionEndMs": 42330
+    },
+    {
+      "text": " el",
+      "startMs": 3810,
+      "endMs": 3890,
+      "timestampMs": 3850,
+      "confidence": 0.9751,
+      "scene": 5,
+      "compositionStartMs": 42810,
+      "compositionEndMs": 42890
+    },
+    {
+      "text": " riesgo",
+      "startMs": 3890,
+      "endMs": 4350,
+      "timestampMs": 4120,
+      "confidence": 0.9977,
+      "scene": 5,
+      "compositionStartMs": 42890,
+      "compositionEndMs": 43350
+    },
+    {
+      "text": " de",
+      "startMs": 4350,
+      "endMs": 4470,
+      "timestampMs": 4410,
+      "confidence": 0.9936,
+      "scene": 5,
+      "compositionStartMs": 43350,
+      "compositionEndMs": 43470
+    },
+    {
+      "text": " más",
+      "startMs": 4470,
+      "endMs": 4790,
+      "timestampMs": 4630,
+      "confidence": 0.9762,
+      "scene": 5,
+      "compositionStartMs": 43470,
+      "compositionEndMs": 43790
+    },
+    {
+      "text": " calor",
+      "startMs": 4790,
+      "endMs": 5030,
+      "timestampMs": 4910,
+      "confidence": 0.9903,
+      "scene": 5,
+      "compositionStartMs": 43790,
+      "compositionEndMs": 44030
+    },
+    {
+      "text": " extremo,",
+      "startMs": 5030,
+      "endMs": 5710,
+      "timestampMs": 5370,
+      "confidence": 0.9825,
+      "scene": 5,
+      "compositionStartMs": 44030,
+      "compositionEndMs": 44710
+    },
+    {
+      "text": " sequías",
+      "startMs": 5990,
+      "endMs": 6390,
+      "timestampMs": 6190,
+      "confidence": 0.9748,
+      "scene": 5,
+      "compositionStartMs": 44990,
+      "compositionEndMs": 45390
+    },
+    {
+      "text": " e",
+      "startMs": 6390,
+      "endMs": 6730,
+      "timestampMs": 6560,
+      "confidence": 0.9359,
+      "scene": 5,
+      "compositionStartMs": 45390,
+      "compositionEndMs": 45730
+    },
+    {
+      "text": " incendios.",
+      "startMs": 6730,
+      "endMs": 7330,
+      "timestampMs": 7030,
+      "confidence": 0.996,
+      "scene": 5,
+      "compositionStartMs": 45730,
+      "compositionEndMs": 46330
+    },
+    {
+      "text": " Entre",
+      "startMs": 180,
+      "endMs": 420,
+      "timestampMs": 300,
+      "confidence": 0.9897,
+      "scene": 6,
+      "compositionStartMs": 49180,
+      "compositionEndMs": 49420
+    },
+    {
+      "text": " tantas",
+      "startMs": 420,
+      "endMs": 780,
+      "timestampMs": 600,
+      "confidence": 0.9979,
+      "scene": 6,
+      "compositionStartMs": 49420,
+      "compositionEndMs": 49780
+    },
+    {
+      "text": " amenazas",
+      "startMs": 780,
+      "endMs": 1340,
+      "timestampMs": 1060,
+      "confidence": 0.9988,
+      "scene": 6,
+      "compositionStartMs": 49780,
+      "compositionEndMs": 50340
+    },
+    {
+      "text": " también",
+      "startMs": 1340,
+      "endMs": 1820,
+      "timestampMs": 1580,
+      "confidence": 0.7045,
+      "scene": 6,
+      "compositionStartMs": 50340,
+      "compositionEndMs": 50820
+    },
+    {
+      "text": " hay",
+      "startMs": 1820,
+      "endMs": 1980,
+      "timestampMs": 1900,
+      "confidence": 0.9985,
+      "scene": 6,
+      "compositionStartMs": 50820,
+      "compositionEndMs": 50980
+    },
+    {
+      "text": " señales",
+      "startMs": 1980,
+      "endMs": 2400,
+      "timestampMs": 2190,
+      "confidence": 0.9987,
+      "scene": 6,
+      "compositionStartMs": 50980,
+      "compositionEndMs": 51400
+    },
+    {
+      "text": " sobre",
+      "startMs": 2400,
+      "endMs": 2700,
+      "timestampMs": 2550,
+      "confidence": 0.9967,
+      "scene": 6,
+      "compositionStartMs": 51400,
+      "compositionEndMs": 51700
+    },
+    {
+      "text": " deuda,",
+      "startMs": 2700,
+      "endMs": 3160,
+      "timestampMs": 2930,
+      "confidence": 0.9883,
+      "scene": 6,
+      "compositionStartMs": 51700,
+      "compositionEndMs": 52160
+    },
+    {
+      "text": " medicamentos",
+      "startMs": 3480,
+      "endMs": 4040,
+      "timestampMs": 3760,
+      "confidence": 0.9915,
+      "scene": 6,
+      "compositionStartMs": 52480,
+      "compositionEndMs": 53040
+    },
+    {
+      "text": " para",
+      "startMs": 4040,
+      "endMs": 4320,
+      "timestampMs": 4180,
+      "confidence": 0.9974,
+      "scene": 6,
+      "compositionStartMs": 53040,
+      "compositionEndMs": 53320
+    },
+    {
+      "text": " adelgazar",
+      "startMs": 4320,
+      "endMs": 4840,
+      "timestampMs": 4580,
+      "confidence": 0.9987,
+      "scene": 6,
+      "compositionStartMs": 53320,
+      "compositionEndMs": 53840
+    },
+    {
+      "text": " y",
+      "startMs": 4840,
+      "endMs": 5300,
+      "timestampMs": 5070,
+      "confidence": 0.8892,
+      "scene": 6,
+      "compositionStartMs": 53840,
+      "compositionEndMs": 54300
+    },
+    {
+      "text": " viajes",
+      "startMs": 5300,
+      "endMs": 5660,
+      "timestampMs": 5480,
+      "confidence": 0.9954,
+      "scene": 6,
+      "compositionStartMs": 54300,
+      "compositionEndMs": 54660
+    },
+    {
+      "text": " espaciales.",
+      "startMs": 5660,
+      "endMs": 6480,
+      "timestampMs": 6070,
+      "confidence": 0.9962,
+      "scene": 6,
+      "compositionStartMs": 54660,
+      "compositionEndMs": 55480
+    },
+    {
+      "text": " No",
+      "startMs": 6840,
+      "endMs": 7040,
+      "timestampMs": 6940,
+      "confidence": 0.974,
+      "scene": 6,
+      "compositionStartMs": 55840,
+      "compositionEndMs": 56040
+    },
+    {
+      "text": " todo",
+      "startMs": 7040,
+      "endMs": 7260,
+      "timestampMs": 7150,
+      "confidence": 0.9961,
+      "scene": 6,
+      "compositionStartMs": 56040,
+      "compositionEndMs": 56260
+    },
+    {
+      "text": " es",
+      "startMs": 7260,
+      "endMs": 7440,
+      "timestampMs": 7350,
+      "confidence": 0.9993,
+      "scene": 6,
+      "compositionStartMs": 56260,
+      "compositionEndMs": 56440
+    },
+    {
+      "text": " guerra:",
+      "startMs": 7440,
+      "endMs": 7660,
+      "timestampMs": 7550,
+      "confidence": 0.9936,
+      "scene": 6,
+      "compositionStartMs": 56440,
+      "compositionEndMs": 56660
+    },
+    {
+      "text": " el",
+      "startMs": 8180,
+      "endMs": 8320,
+      "timestampMs": 8250,
+      "confidence": 0.9874,
+      "scene": 6,
+      "compositionStartMs": 57180,
+      "compositionEndMs": 57320
+    },
+    {
+      "text": " mundo",
+      "startMs": 8320,
+      "endMs": 8580,
+      "timestampMs": 8450,
+      "confidence": 0.9973,
+      "scene": 6,
+      "compositionStartMs": 57320,
+      "compositionEndMs": 57580
+    },
+    {
+      "text": " también",
+      "startMs": 8580,
+      "endMs": 9100,
+      "timestampMs": 8840,
+      "confidence": 0.9907,
+      "scene": 6,
+      "compositionStartMs": 57580,
+      "compositionEndMs": 58100
+    },
+    {
+      "text": " está",
+      "startMs": 9100,
+      "endMs": 9400,
+      "timestampMs": 9250,
+      "confidence": 0.9962,
+      "scene": 6,
+      "compositionStartMs": 58100,
+      "compositionEndMs": 58400
+    },
+    {
+      "text": " cambiando.",
+      "startMs": 9400,
+      "endMs": 9920,
+      "timestampMs": 9660,
+      "confidence": 0.9979,
+      "scene": 6,
+      "compositionStartMs": 58400,
+      "compositionEndMs": 58920
+    },
+    {
+      "text": " ¿Entonces",
+      "startMs": 100,
+      "endMs": 420,
+      "timestampMs": 260,
+      "confidence": 0.4574,
+      "scene": 7,
+      "compositionStartMs": 60100,
+      "compositionEndMs": 60420
+    },
+    {
+      "text": " predice",
+      "startMs": 840,
+      "endMs": 1260,
+      "timestampMs": 1050,
+      "confidence": 0.6423,
+      "scene": 7,
+      "compositionStartMs": 60840,
+      "compositionEndMs": 61260
+    },
+    {
+      "text": " el",
+      "startMs": 1260,
+      "endMs": 1400,
+      "timestampMs": 1330,
+      "confidence": 0.9935,
+      "scene": 7,
+      "compositionStartMs": 61260,
+      "compositionEndMs": 61400
+    },
+    {
+      "text": " futuro?",
+      "startMs": 1400,
+      "endMs": 1640,
+      "timestampMs": 1520,
+      "confidence": 0.9988,
+      "scene": 7,
+      "compositionStartMs": 61400,
+      "compositionEndMs": 61640
+    },
+    {
+      "text": " No.",
+      "startMs": 2340,
+      "endMs": 2580,
+      "timestampMs": 2460,
+      "confidence": 0.9528,
+      "scene": 7,
+      "compositionStartMs": 62340,
+      "compositionEndMs": 62580
+    },
+    {
+      "text": " Son",
+      "startMs": 2800,
+      "endMs": 3000,
+      "timestampMs": 2900,
+      "confidence": 0.989,
+      "scene": 7,
+      "compositionStartMs": 62800,
+      "compositionEndMs": 63000
+    },
+    {
+      "text": " escenarios",
+      "startMs": 3000,
+      "endMs": 3600,
+      "timestampMs": 3300,
+      "confidence": 0.9957,
+      "scene": 7,
+      "compositionStartMs": 63000,
+      "compositionEndMs": 63600
+    },
+    {
+      "text": " y",
+      "startMs": 3600,
+      "endMs": 3880,
+      "timestampMs": 3740,
+      "confidence": 0.9945,
+      "scene": 7,
+      "compositionStartMs": 63600,
+      "compositionEndMs": 63880
+    },
+    {
+      "text": " preocupaciones,",
+      "startMs": 3880,
+      "endMs": 4740,
+      "timestampMs": 4310,
+      "confidence": 0.999,
+      "scene": 7,
+      "compositionStartMs": 63880,
+      "compositionEndMs": 64740
+    },
+    {
+      "text": " no",
+      "startMs": 5180,
+      "endMs": 5300,
+      "timestampMs": 5240,
+      "confidence": 0.9937,
+      "scene": 7,
+      "compositionStartMs": 65180,
+      "compositionEndMs": 65300
+    },
+    {
+      "text": " certezas.",
+      "startMs": 5300,
+      "endMs": 5980,
+      "timestampMs": 5640,
+      "confidence": 0.8183,
+      "scene": 7,
+      "compositionStartMs": 65300,
+      "compositionEndMs": 65980
+    },
+    {
+      "text": " Pero",
+      "startMs": 6220,
+      "endMs": 6440,
+      "timestampMs": 6330,
+      "confidence": 0.9695,
+      "scene": 7,
+      "compositionStartMs": 66220,
+      "compositionEndMs": 66440
+    },
+    {
+      "text": " vuelve",
+      "startMs": 6440,
+      "endMs": 6940,
+      "timestampMs": 6690,
+      "confidence": 0.6997,
+      "scene": 7,
+      "compositionStartMs": 66440,
+      "compositionEndMs": 66940
+    },
+    {
+      "text": " a",
+      "startMs": 6940,
+      "endMs": 7000,
+      "timestampMs": 6970,
+      "confidence": 0.9945,
+      "scene": 7,
+      "compositionStartMs": 66940,
+      "compositionEndMs": 67000
+    },
+    {
+      "text": " mirar",
+      "startMs": 7000,
+      "endMs": 7260,
+      "timestampMs": 7130,
+      "confidence": 0.9913,
+      "scene": 7,
+      "compositionStartMs": 67000,
+      "compositionEndMs": 67260
+    },
+    {
+      "text": " la",
+      "startMs": 7260,
+      "endMs": 7340,
+      "timestampMs": 7300,
+      "confidence": 0.9972,
+      "scene": 7,
+      "compositionStartMs": 67260,
+      "compositionEndMs": 67340
+    },
+    {
+      "text": " portada:",
+      "startMs": 7340,
+      "endMs": 7780,
+      "timestampMs": 7560,
+      "confidence": 0.9964,
+      "scene": 7,
+      "compositionStartMs": 67340,
+      "compositionEndMs": 67780
+    },
+    {
+      "text": " ¿qué",
+      "startMs": 8100,
+      "endMs": 8240,
+      "timestampMs": 8170,
+      "confidence": 0.9347,
+      "scene": 7,
+      "compositionStartMs": 68100,
+      "compositionEndMs": 68240
+    },
+    {
+      "text": " símbolo",
+      "startMs": 8240,
+      "endMs": 8760,
+      "timestampMs": 8500,
+      "confidence": 0.9975,
+      "scene": 7,
+      "compositionStartMs": 68240,
+      "compositionEndMs": 68760
+    },
+    {
+      "text": " te",
+      "startMs": 8760,
+      "endMs": 8840,
+      "timestampMs": 8800,
+      "confidence": 0.9981,
+      "scene": 7,
+      "compositionStartMs": 68760,
+      "compositionEndMs": 68840
+    },
+    {
+      "text": " inquieta",
+      "startMs": 8840,
+      "endMs": 9300,
+      "timestampMs": 9070,
+      "confidence": 0.9969,
+      "scene": 7,
+      "compositionStartMs": 68840,
+      "compositionEndMs": 69300
+    },
+    {
+      "text": " más?",
+      "startMs": 9300,
+      "endMs": 9460,
+      "timestampMs": 9380,
+      "confidence": 0.9961,
+      "scene": 7,
+      "compositionStartMs": 69300,
+      "compositionEndMs": 69460
+    }
+  ],
+  "plan": [
+    {
+      "segundo": 0,
+      "elemento_principal": "portada",
+      "accion_visual": "Entrada inmediata; destello de misil",
+      "movimiento_objetos": "aletas del misil",
+      "camara": "seguimiento corto",
+      "transicion": "máscara de papel",
+      "frase_sincronizada": "Misiles,",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 1,
+      "elemento_principal": "misil",
+      "accion_visual": "Misil atraviesa el borde documental",
+      "movimiento_objetos": "estela y aletas",
+      "camara": "seguimiento ascendente",
+      "transicion": "silueta vectorial",
+      "frase_sincronizada": "incendios y",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 2,
+      "elemento_principal": "llama/cerebro",
+      "accion_visual": "Llama se ramifica hacia el cerebro al oírlo",
+      "movimiento_objetos": "lenguas y nodos",
+      "camara": "paneo hacia el centro",
+      "transicion": "morph de trayectorias",
+      "frase_sincronizada": "y un cerebro.",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 3,
+      "elemento_principal": "circuitos",
+      "accion_visual": "Impulso recorre las conexiones",
+      "movimiento_objetos": "nodos y neurona",
+      "camara": "desplazamiento lateral",
+      "transicion": "trazo SVG",
+      "frase_sincronizada": "cerebro. ¿Qué esconde",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 4,
+      "elemento_principal": "cerebro",
+      "accion_visual": "Cerebro aprobado aparece por máscara",
+      "movimiento_objetos": "impulsos neuronales",
+      "camara": "acercamiento selectivo",
+      "transicion": "iris",
+      "frase_sincronizada": "esconde esta inquietante",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 5,
+      "elemento_principal": "portada",
+      "accion_visual": "La imagen documental recupera el centro",
+      "movimiento_objetos": "misil sale; pulso se retrae",
+      "camara": "retroceso",
+      "transicion": "iris inverso",
+      "frase_sincronizada": "inquietante portada de The",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 6,
+      "elemento_principal": "portada",
+      "accion_visual": "Señal señala símbolos observables",
+      "movimiento_objetos": "anillo y líneas",
+      "camara": "deriva lateral",
+      "transicion": "máscara de detalle",
+      "frase_sincronizada": "Economist para 2027?",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 7,
+      "elemento_principal": "portada",
+      "accion_visual": "Anillo asciende hacia las figuras superiores",
+      "movimiento_objetos": "circuitos se repliegan",
+      "camara": "paneo superior",
+      "transicion": "encadenado de trazos",
+      "frase_sincronizada": "2027?",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 8,
+      "elemento_principal": "figuras",
+      "accion_visual": "Recorrido del grupo superior documental",
+      "movimiento_objetos": "onda en contorno",
+      "camara": "paneo corto",
+      "transicion": "recorte de encuadre",
+      "frase_sincronizada": "Arriba, los",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 9,
+      "elemento_principal": "figuras",
+      "accion_visual": "Las figuras dan paso a representación propia",
+      "movimiento_objetos": "brazos y cabezas",
+      "camara": "descenso",
+      "transicion": "barrido",
+      "frase_sincronizada": "los líderes parecen vigilar",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 10,
+      "elemento_principal": "líderes genéricos",
+      "accion_visual": "Gestos alternados sin identificar personas",
+      "movimiento_objetos": "codos y hombros",
+      "camara": "parallax",
+      "transicion": "máscara vertical",
+      "frase_sincronizada": "vigilar el mundo.",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 11,
+      "elemento_principal": "líderes genéricos",
+      "accion_visual": "Sombra de poder se proyecta",
+      "movimiento_objetos": "manos y sombra",
+      "camara": "desplazamiento lateral",
+      "transicion": "sombras",
+      "frase_sincronizada": "La revista analiza",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 12,
+      "elemento_principal": "Capitolio",
+      "accion_visual": "Cúpula y columnas se construyen por capas",
+      "movimiento_objetos": "bandera y columnas",
+      "camara": "travelling hacia abajo",
+      "transicion": "máscara de arquitectura",
+      "frase_sincronizada": "analiza la sucesión",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 13,
+      "elemento_principal": "Capitolio",
+      "accion_visual": "Ondea la bandera y recorremos las columnas",
+      "movimiento_objetos": "Bandera y articulaciones de figuras genéricas ante el Capitolio",
+      "camara": "paneo",
+      "transicion": "línea arquitectónica",
+      "frase_sincronizada": "sucesión de Trump y el",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 14,
+      "elemento_principal": "mapa mundial",
+      "accion_visual": "Mapa despliega regiones",
+      "movimiento_objetos": "países destacados",
+      "camara": "retroceso",
+      "transicion": "máscara cartográfica",
+      "frase_sincronizada": "el avance del populismo.",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 15,
+      "elemento_principal": "mapa mundial",
+      "accion_visual": "Regiones se iluminan sucesivamente",
+      "movimiento_objetos": "marcadores; sombras genéricas",
+      "camara": "desplazamiento lateral",
+      "transicion": "onda",
+      "frase_sincronizada": "populismo.",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 16,
+      "elemento_principal": "mapa mundial",
+      "accion_visual": "Sombra política cruza territorios",
+      "movimiento_objetos": "figuras de sombra",
+      "camara": "parallax",
+      "transicion": "máscara",
+      "frase_sincronizada": "(pausa visual; música y efectos continúan)",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 17,
+      "elemento_principal": "bandera",
+      "accion_visual": "Tela atraviesa el encuadre",
+      "movimiento_objetos": "ondulación por vértices",
+      "camara": "sigue la tela",
+      "transicion": "barrido de bandera",
+      "frase_sincronizada": "(pausa visual; música y efectos continúan)",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 18,
+      "elemento_principal": "detalle documental del cerebro",
+      "accion_visual": "El barrido de bandera revela un acercamiento del documento; se prepara la máscara del cerebro aprobado",
+      "movimiento_objetos": "Tela sale del encuadre y líneas recorren el documento",
+      "camara": "aproximación selectiva",
+      "transicion": "máscara de circuitos",
+      "frase_sincronizada": "Pero mira el centro:",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 19,
+      "elemento_principal": "cerebro",
+      "accion_visual": "El documento da paso al cerebro aprobado al comenzar la palabra cerebro, en 19,88 s",
+      "movimiento_objetos": "impulsos en curvas",
+      "camara": "deriva lateral",
+      "transicion": "trazo",
+      "frase_sincronizada": "centro: un cerebro",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 20,
+      "elemento_principal": "neuronas",
+      "accion_visual": "Impulsos recorren conexiones",
+      "movimiento_objetos": "ramas e impulsos",
+      "camara": "seguimiento",
+      "transicion": "extensión de circuitos",
+      "frase_sincronizada": "cerebro rodeado",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 21,
+      "elemento_principal": "circuitos",
+      "accion_visual": "Ramificaciones conectan al entorno",
+      "movimiento_objetos": "nodos y terminales",
+      "camara": "retroceso",
+      "transicion": "trazo enlazado",
+      "frase_sincronizada": "rodeado de tecnología.",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 22,
+      "elemento_principal": "robot",
+      "accion_visual": "Piezas del robot se ensamblan",
+      "movimiento_objetos": "cabeza; codos; pinza",
+      "camara": "descenso",
+      "transicion": "ensamblaje por máscara",
+      "frase_sincronizada": "Es una pista",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 23,
+      "elemento_principal": "robot",
+      "accion_visual": "Pinza se abre y brazo apunta",
+      "movimiento_objetos": "hombro y codo",
+      "camara": "seguimiento de mano",
+      "transicion": "encadenado",
+      "frase_sincronizada": "pista sobre la inteligencia",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 24,
+      "elemento_principal": "pantallas",
+      "accion_visual": "Paneles reciben información sin datos inventados",
+      "movimiento_objetos": "barras abstractas",
+      "camara": "paneo lateral",
+      "transicion": "revelado desde pinza",
+      "frase_sincronizada": "inteligencia artificial,",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 25,
+      "elemento_principal": "robot",
+      "accion_visual": "Cabeza sigue una señal de riesgo",
+      "movimiento_objetos": "cuello; pinza",
+      "camara": "parallax",
+      "transicion": "línea de señal",
+      "frase_sincronizada": "sus riesgos y",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 26,
+      "elemento_principal": "cámara",
+      "accion_visual": "Cámara de vigilancia gira en su soporte",
+      "movimiento_objetos": "eje y lente",
+      "camara": "seguimiento",
+      "transicion": "círculo de lente",
+      "frase_sincronizada": "y el rechazo que provoca.",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 27,
+      "elemento_principal": "lente",
+      "accion_visual": "Diafragma abre paso al terreno",
+      "movimiento_objetos": "hojas del diafragma",
+      "camara": "acercamiento selectivo",
+      "transicion": "iris",
+      "frase_sincronizada": "provoca.",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 28,
+      "elemento_principal": "tanque",
+      "accion_visual": "Tanque original entra sobre terreno por capas",
+      "movimiento_objetos": "orugas; ruedas; suspensión",
+      "camara": "seguimiento lateral",
+      "transicion": "iris mecánico",
+      "frase_sincronizada": "Más abajo aparecen",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 29,
+      "elemento_principal": "tanque",
+      "accion_visual": "Orugas avanzan y bobina la suspensión",
+      "movimiento_objetos": "eslabones y ruedas",
+      "camara": "seguimiento",
+      "transicion": "parallax de suelo",
+      "frase_sincronizada": "aparecen tanques y",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 30,
+      "elemento_principal": "tanque",
+      "accion_visual": "Torre cambia de orientación sin disparar",
+      "movimiento_objetos": "torreta; antena",
+      "camara": "travelling",
+      "transicion": "articulación",
+      "frase_sincronizada": "y armas. La",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 31,
+      "elemento_principal": "terreno",
+      "accion_visual": "El fondo se desplaza a distinta velocidad",
+      "movimiento_objetos": "tanque y suelo",
+      "camara": "seguimiento",
+      "transicion": "capas",
+      "frase_sincronizada": "La publicación teme",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 32,
+      "elemento_principal": "misil",
+      "accion_visual": "Misil cruza el cielo sin impacto",
+      "movimiento_objetos": "estela; aletas",
+      "camara": "paneo ascendente",
+      "transicion": "barrido diagonal",
+      "frase_sincronizada": "teme repercusiones de la",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 33,
+      "elemento_principal": "Medio Oriente",
+      "accion_visual": "Cartografía revela Irán y vecinos",
+      "movimiento_objetos": "onda geográfica",
+      "camara": "paneo sobre mapa",
+      "transicion": "máscara de estela",
+      "frase_sincronizada": "la guerra con Irán y",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 34,
+      "elemento_principal": "Medio Oriente",
+      "accion_visual": "Foco en región sin afirmar guerra futura",
+      "movimiento_objetos": "anillos y contornos",
+      "camara": "retroceso",
+      "transicion": "onda",
+      "frase_sincronizada": "y observa con inquietud",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 35,
+      "elemento_principal": "Asia oriental",
+      "accion_visual": "Cartografía cambia de región",
+      "movimiento_objetos": "países y costa",
+      "camara": "desplazamiento",
+      "transicion": "onda cartográfica",
+      "frase_sincronizada": "inquietud la situación",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 36,
+      "elemento_principal": "Taiwán",
+      "accion_visual": "Taiwán se destaca y etiqueta en 36,18 s, alineado con la palabra en 36,20 s",
+      "movimiento_objetos": "anillo localizador",
+      "camara": "aproximación a isla",
+      "transicion": "revelación sincronizada",
+      "frase_sincronizada": "de Taiwán.",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 37,
+      "elemento_principal": "Taiwán",
+      "accion_visual": "Costa china e isla permanecen contextualizadas",
+      "movimiento_objetos": "ondas; etiqueta",
+      "camara": "deriva suave",
+      "transicion": "onda marina",
+      "frase_sincronizada": "(pausa visual; música y efectos continúan)",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 38,
+      "elemento_principal": "ondas",
+      "accion_visual": "Ondas se transforman en relieve vegetal",
+      "movimiento_objetos": "olas y árboles nacientes",
+      "camara": "descenso",
+      "transicion": "morph de curvas",
+      "frase_sincronizada": "(pausa visual; música y efectos continúan)",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 39,
+      "elemento_principal": "mapa/clima",
+      "accion_visual": "Pequeña llama nace en cartografía",
+      "movimiento_objetos": "lenguas de llama",
+      "camara": "descenso",
+      "transicion": "máscara orgánica",
+      "frase_sincronizada": "Y el fuego podemos",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 40,
+      "elemento_principal": "paisaje",
+      "accion_visual": "Terreno emerge de las curvas del mapa",
+      "movimiento_objetos": "capas del horizonte",
+      "camara": "travelling lateral",
+      "transicion": "transformación",
+      "frase_sincronizada": "podemos relacionarlo con",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 41,
+      "elemento_principal": "árboles",
+      "accion_visual": "Copas y ramas oscilan con viento",
+      "movimiento_objetos": "ramas; hojas",
+      "camara": "parallax",
+      "transicion": "revelado por nube",
+      "frase_sincronizada": "con otro tema de la revista:",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 42,
+      "elemento_principal": "vegetación",
+      "accion_visual": "Color de hojas cambia gradualmente",
+      "movimiento_objetos": "hojas desprendidas",
+      "camara": "seguimiento lateral",
+      "transicion": "interpolación de color",
+      "frase_sincronizada": "revista: el riesgo",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 43,
+      "elemento_principal": "fuego",
+      "accion_visual": "Frentes ilustrados crecen sin violencia gráfica",
+      "movimiento_objetos": "llamas; hojas; humo",
+      "camara": "paneo motivado",
+      "transicion": "máscara de fuego",
+      "frase_sincronizada": "riesgo de más calor",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 44,
+      "elemento_principal": "bosque",
+      "accion_visual": "Fuego avanza entre capas con profundidad",
+      "movimiento_objetos": "árboles; humo; ceniza",
+      "camara": "seguimiento",
+      "transicion": "parallax",
+      "frase_sincronizada": "calor extremo, sequías",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 45,
+      "elemento_principal": "termómetro",
+      "accion_visual": "Columna asciende sin escala numérica",
+      "movimiento_objetos": "mercurio; indicador",
+      "camara": "desplazamiento hacia medidor",
+      "transicion": "trazo",
+      "frase_sincronizada": "sequías e incendios.",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 46,
+      "elemento_principal": "calor",
+      "accion_visual": "Calor ondula el paisaje mediante geometría 2D",
+      "movimiento_objetos": "copas y humo",
+      "camara": "paneo",
+      "transicion": "curvas SVG",
+      "frase_sincronizada": "incendios.",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 47,
+      "elemento_principal": "nube",
+      "accion_visual": "Nube cruza y tapa el encuadre",
+      "movimiento_objetos": "masas de nube",
+      "camara": "seguimiento",
+      "transicion": "barrido de nube",
+      "frase_sincronizada": "(pausa visual; música y efectos continúan)",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 48,
+      "elemento_principal": "nube/gráfica",
+      "accion_visual": "Nube revela barras económicas",
+      "movimiento_objetos": "barras emergentes",
+      "camara": "descenso",
+      "transicion": "máscara suave",
+      "frase_sincronizada": "(pausa visual; música y efectos continúan)",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 49,
+      "elemento_principal": "gráficas",
+      "accion_visual": "Barras cambian de tamaño sin cifras",
+      "movimiento_objetos": "barras y curva",
+      "camara": "paneo corto",
+      "transicion": "trazo",
+      "frase_sincronizada": "Entre tantas amenazas",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 50,
+      "elemento_principal": "barras",
+      "accion_visual": "Barras responden al pulso financiero",
+      "movimiento_objetos": "barras y curva",
+      "camara": "desplazamiento lateral",
+      "transicion": "trazo enlazado",
+      "frase_sincronizada": "amenazas también hay señales",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 51,
+      "elemento_principal": "gráficas",
+      "accion_visual": "Curva se redondea en monedas",
+      "movimiento_objetos": "barras y discos",
+      "camara": "seguimiento",
+      "transicion": "transformación",
+      "frase_sincronizada": "señales sobre deuda,",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 52,
+      "elemento_principal": "monedas",
+      "accion_visual": "Monedas ruedan hacia el centro",
+      "movimiento_objetos": "rotación; caída",
+      "camara": "seguimiento lateral",
+      "transicion": "círculos",
+      "frase_sincronizada": "deuda, medicamentos",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 53,
+      "elemento_principal": "medicamento",
+      "accion_visual": "Frasco ilustrado emerge del apilamiento",
+      "movimiento_objetos": "tapa; pastillas",
+      "camara": "desplazamiento corto",
+      "transicion": "máscara circular",
+      "frase_sincronizada": "medicamentos para adelgazar y",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 54,
+      "elemento_principal": "medicamento",
+      "accion_visual": "Tapa gira y pastillas se separan",
+      "movimiento_objetos": "tapa; cápsulas",
+      "camara": "órbita 2D sutil",
+      "transicion": "articulación",
+      "frase_sincronizada": "y viajes espaciales.",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 55,
+      "elemento_principal": "cohete",
+      "accion_visual": "Frasco cede su silueta al fuselaje",
+      "movimiento_objetos": "aletas; tapa/cúpula",
+      "camara": "paneo ascendente",
+      "transicion": "morph",
+      "frase_sincronizada": "espaciales. No",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 56,
+      "elemento_principal": "cohete",
+      "accion_visual": "Propulsión aumenta y cohete despega",
+      "movimiento_objetos": "llama; aletas; humo",
+      "camara": "seguimiento ascendente",
+      "transicion": "máscara de gases",
+      "frase_sincronizada": "No todo es guerra:",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 57,
+      "elemento_principal": "nubes",
+      "accion_visual": "Cohete atraviesa capas atmosféricas",
+      "movimiento_objetos": "nubes; gases",
+      "camara": "ascenso",
+      "transicion": "parallax",
+      "frase_sincronizada": "el mundo también",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 58,
+      "elemento_principal": "Tierra",
+      "accion_visual": "Curvatura aparece bajo el cohete",
+      "movimiento_objetos": "continentes; nubes",
+      "camara": "retroceso",
+      "transicion": "iris planetario",
+      "frase_sincronizada": "también está cambiando.",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 59,
+      "elemento_principal": "Tierra",
+      "accion_visual": "Superficie gira dentro de su máscara",
+      "movimiento_objetos": "continentes y bandas",
+      "camara": "alejamiento",
+      "transicion": "máscara circular",
+      "frase_sincronizada": "(pausa visual; música y efectos continúan)",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 60,
+      "elemento_principal": "Tierra",
+      "accion_visual": "Retorno desde el espacio",
+      "movimiento_objetos": "continentes; atmósfera",
+      "camara": "aproximación motivada",
+      "transicion": "iris",
+      "frase_sincronizada": "¿Entonces predice",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 61,
+      "elemento_principal": "portada",
+      "accion_visual": "Círculo terrestre da paso al documento",
+      "movimiento_objetos": "nubes se retiran",
+      "camara": "retroceso",
+      "transicion": "iris a portada original",
+      "frase_sincronizada": "predice el futuro?",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 62,
+      "elemento_principal": "símbolos",
+      "accion_visual": "Señales señalan preocupaciones editoriales",
+      "movimiento_objetos": "circuitos; punteros",
+      "camara": "desplazamiento corto",
+      "transicion": "revelaciones enlazadas",
+      "frase_sincronizada": "No. Son",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 63,
+      "elemento_principal": "circuitos",
+      "accion_visual": "Líneas vuelven hacia el cerebro documental",
+      "movimiento_objetos": "impulsos y nodos",
+      "camara": "deriva lateral",
+      "transicion": "trazo inverso",
+      "frase_sincronizada": "escenarios y preocupaciones,",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 64,
+      "elemento_principal": "tanque",
+      "accion_visual": "Tanque ilustrado atraviesa primer plano",
+      "movimiento_objetos": "ruedas; orugas; suspensión",
+      "camara": "seguimiento breve",
+      "transicion": "oclusión",
+      "frase_sincronizada": "preocupaciones,",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 65,
+      "elemento_principal": "llamas",
+      "accion_visual": "Llamas retroceden mostrando el documento",
+      "movimiento_objetos": "lenguas y humo",
+      "camara": "retroceso",
+      "transicion": "máscara de fuego inversa",
+      "frase_sincronizada": "no certezas.",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 66,
+      "elemento_principal": "portada",
+      "accion_visual": "Portada completa y pregunta se revelan",
+      "movimiento_objetos": "anillo; marcador",
+      "camara": "encuadre estable motivado",
+      "transicion": "máscara tipográfica",
+      "frase_sincronizada": "Pero vuelve a",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 67,
+      "elemento_principal": "pregunta",
+      "accion_visual": "Pregunta final aparece por palabras",
+      "movimiento_objetos": "indicador y anillo",
+      "camara": "deriva mínima",
+      "transicion": "revelado de texto",
+      "frase_sincronizada": "mirar la portada:",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 68,
+      "elemento_principal": "portada/pregunta",
+      "accion_visual": "Pequeña pausa de lectura con actividad",
+      "movimiento_objetos": "anillo; impulso",
+      "camara": "deriva mínima",
+      "transicion": "sin corte",
+      "frase_sincronizada": "¿qué símbolo te inquieta",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    },
+    {
+      "segundo": 69,
+      "elemento_principal": "portada/pregunta",
+      "accion_visual": "Cierre sobre documento legible sin negro",
+      "movimiento_objetos": "órbita de marcador",
+      "camara": "deriva mínima",
+      "transicion": "continuidad",
+      "frase_sincronizada": "inquieta más?",
+      "validacion": "Revisado en muestras por segundo; diferencias visuales medidas cada 0,5 s; ver informe QC."
+    }
+  ]
+}
