@@ -1,6 +1,6 @@
 {
   "revision": 2,
-  "status": "exported and verified; external delivery awaiting permission",
+  "status": "delivered after explicit user authorization",
   "export": {
     "technical": "passed",
     "voiceRhythm": {
@@ -746,7 +746,15 @@
     }
   ],
   "limitations": [
-    "The measurement is based on the isolated narration; naturalness and artistic quality still require listening/viewing.",
-    "The revised file has not been uploaded to Higgsfield because automatic approval review requires explicit permission for this revised payload."
-  ]
+    "The measurement is based on the isolated narration; naturalness and artistic quality still require listening/viewing."
+  ],
+  "externalDelivery": {
+    "userAuthorizedGitHubAndHiggsfield": true,
+    "higgsfieldMediaId": "9892c97c-e449-4367-8aee-c1c1896fbe33",
+    "videoUrl": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LWCFBq7eIgrDcVAzFjRPaNtjHC/9892c97c-e449-4367-8aee-c1c1896fbe33.mp4",
+    "httpStatus": 200,
+    "contentType": "video/mp4",
+    "contentLengthBytes": 29576375,
+    "acceptsByteRanges": true
+  }
 }
