@@ -46,3 +46,12 @@ Música y efectos: síntesis procedural original creada para el episodio; sin co
 La relación símbolo-tema es una lectura visual de este episodio, no un descifrado oficial exhaustivo. Los objetos visibles (misiles, fuego, cerebro, figuras, tanques, gráfico, monedas, pastillas y cohete) se separan de los temas documentados. Las escenas nuevas se identifican como recreaciones 2D. El Capitolio es un recurso narrativo estadounidense solicitado por el guion, no una identificación factual del edificio clásico de la portada. Las figuras políticas son genéricas; no se asignan nombres a siluetas ambiguas.
 
 No se afirma que Trump deje la presidencia en 2027, que haya una invasión inevitable de Taiwán, que el año necesariamente bata un récord climático ni que existan mensajes secretos. No hay porcentajes, precios ni cotizaciones inventados.
+
+## Verificación reproducible
+
+```sh
+npx tsc --noEmit
+python scripts/verificar_economist_2027.py
+```
+
+El verificador comprueba el archivo exportado, 70 s / 2100 fotogramas / 30 fps, H.264/AAC, el plan de 70 registros, los 145 subtítulos, los SHA256 de los recursos y la conservación de los archivos previos. La inspección del estilo, la pertinencia editorial del movimiento y el acento de la voz requieren revisión humana; una diferencia numérica entre fotogramas no certifica por sí sola estos aspectos.

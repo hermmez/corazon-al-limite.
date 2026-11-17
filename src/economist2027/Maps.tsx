@@ -1,16 +1,211 @@
-import React from 'react';
-import paths from './mapPaths';
-import {C,clamp} from './Art';
-export const GeoMap=({t,region='world',x=70,y=660,w=940,h=650}:{t:number;region?:'world'|'middleEast'|'asia';x?:number;y?:number;w?:number;h?:number})=>{
- const vb=region==='world'?'-180 -85 360 170':region==='middleEast'?'25 -48 46 38':'97 -50 43 40';
- const highlighted=region==='asia'?t>=8.18:region==='middleEast'?t>=5.45:true;
- const focus=highlighted?(region==='middleEast'?'IRN':region==='asia'?'TWN':''):'';
- return <g><rect x={x-10} y={y-10} width={w+20} height={h+20} rx="32" fill="#204b59" stroke="#77a7a2" strokeWidth={3}/><svg x={x} y={y} width={w} height={h} viewBox={vb} preserveAspectRatio="xMidYMid meet">
- {[-60,-30,0,30,60].map(lat=><path key={lat} d={`M-180 ${-lat}H180`} stroke="#426d76" strokeWidth=".25"/>)}
- {[-150,-120,-90,-60,-30,0,30,60,90,120,150].map(lon=><path key={lon} d={`M${lon} -90V90`} stroke="#426d76" strokeWidth=".25"/>)}
- {paths.map((p,i)=><path key={p.code} d={p.d} fill={p.code===focus?C.coral:region==='world'&&Math.floor(t*1.4+i)%19===0?C.gold:'#9bbcaa'} stroke="#163e4b" strokeWidth={region==='world'?.35:.13} fillRule="evenodd"/>)}
- {region==='middleEast'&&highlighted&&<><circle cx="53.7" cy="-32.4" r={1.8+(t%1)*2.3} opacity={1-t%1} stroke={C.cream} strokeWidth=".22"/><circle cx="53.7" cy="-32.4" r=".5" fill={C.coral} stroke="none"/></>}
- {region==='asia'&&highlighted&&<><circle cx="121" cy="-23.7" r={1.1+(t%1)*2.3} opacity={1-t%1} stroke={C.cream} strokeWidth=".2"/><circle cx="121" cy="-23.7" r=".45" fill={C.coral} stroke="none"/><path d="M121 -23.7L128 -28H135" stroke={C.cream} strokeWidth=".2"/></>}
- </svg>{region!=='world'&&highlighted&&<text x={region==='asia'?840:600} y={region==='asia'?y+h*.48:y+h*.39} fill={C.cream} stroke="none" fontSize="36" fontFamily="Arial" fontWeight="700">{region==='asia'?'TAIWÁN':'IRÁN'}</text>}<text x={x+20} y={y+h-20} fill="#bed0c5" stroke="none" fontSize="20" fontFamily="Arial">{region==='world'?'MAPA MUNDIAL':region==='asia'?'ASIA ORIENTAL':'MEDIO ORIENTE'}</text></g>
+import React from "react";
+import paths from "./mapPaths";
+import { C, clamp } from "./Art";
+export const GeoMap = ({
+  t,
+  region = "world",
+  x = 70,
+  y = 660,
+  w = 940,
+  h = 650,
+}: {
+  t: number;
+  region?: "world" | "middleEast" | "asia";
+  x?: number;
+  y?: number;
+  w?: number;
+  h?: number;
+}) => {
+  const vb =
+    region === "world"
+      ? "-180 -85 360 170"
+      : region === "middleEast"
+        ? "25 -48 46 38"
+        : "97 -50 43 40";
+  const highlighted =
+    region === "asia" ? t >= 8.18 : region === "middleEast" ? t >= 5.45 : true;
+  const focus = highlighted
+    ? region === "middleEast"
+      ? "IRN"
+      : region === "asia"
+        ? "TWN"
+        : ""
+    : "";
+  return (
+    <g>
+      <rect
+        x={x - 10}
+        y={y - 10}
+        width={w + 20}
+        height={h + 20}
+        rx="32"
+        fill="#204b59"
+        stroke="#77a7a2"
+        strokeWidth={3}
+      />
+      <svg
+        x={x}
+        y={y}
+        width={w}
+        height={h}
+        viewBox={vb}
+        preserveAspectRatio="xMidYMid meet"
+      >
+        {[-60, -30, 0, 30, 60].map((lat) => (
+          <path
+            key={lat}
+            d={`M-180 ${-lat}H180`}
+            stroke="#426d76"
+            strokeWidth=".25"
+          />
+        ))}
+        {[-150, -120, -90, -60, -30, 0, 30, 60, 90, 120, 150].map((lon) => (
+          <path
+            key={lon}
+            d={`M${lon} -90V90`}
+            stroke="#426d76"
+            strokeWidth=".25"
+          />
+        ))}
+        {paths.map((p, i) => (
+          <path
+            key={p.code}
+            d={p.d}
+            fill={
+              p.code === focus
+                ? C.coral
+                : region === "world" && Math.floor(t * 1.4 + i) % 19 === 0
+                  ? C.gold
+                  : "#9bbcaa"
+            }
+            stroke="#163e4b"
+            strokeWidth={region === "world" ? 0.35 : 0.13}
+            fillRule="evenodd"
+          />
+        ))}
+        {region === "middleEast" && highlighted && (
+          <>
+            <circle
+              cx="53.7"
+              cy="-32.4"
+              r={1.8 + (t % 1) * 2.3}
+              opacity={1 - (t % 1)}
+              stroke={C.cream}
+              strokeWidth=".22"
+            />
+            <circle cx="53.7" cy="-32.4" r=".5" fill={C.coral} stroke="none" />
+          </>
+        )}
+        {region === "asia" && highlighted && (
+          <>
+            <circle
+              cx="121"
+              cy="-23.7"
+              r={1.1 + (t % 1) * 2.3}
+              opacity={1 - (t % 1)}
+              stroke={C.cream}
+              strokeWidth=".2"
+            />
+            <circle cx="121" cy="-23.7" r=".45" fill={C.coral} stroke="none" />
+            <path
+              d="M121 -23.7L128 -28H135"
+              stroke={C.cream}
+              strokeWidth=".2"
+            />
+          </>
+        )}
+      </svg>
+      {region !== "world" && highlighted && (
+        <text
+          x={region === "asia" ? 840 : 600}
+          y={region === "asia" ? y + h * 0.48 : y + h * 0.39}
+          fill={C.cream}
+          stroke="none"
+          fontSize="36"
+          fontFamily="Arial"
+          fontWeight="700"
+        >
+          {region === "asia" ? "TAIWÁN" : "IRÁN"}
+        </text>
+      )}
+      <text
+        x={x + 20}
+        y={y + h - 20}
+        fill="#bed0c5"
+        stroke="none"
+        fontSize="20"
+        fontFamily="Arial"
+      >
+        {region === "world"
+          ? "MAPA MUNDIAL"
+          : region === "asia"
+            ? "ASIA ORIENTAL"
+            : "MEDIO ORIENTE"}
+      </text>
+    </g>
+  );
 };
-export const Earth=({t,x=540,y=930,r=350}:{t:number;x?:number;y?:number;r?:number})=><g transform={`translate(${x} ${y})`}><defs><clipPath id="earthMask"><circle r={r}/></clipPath><radialGradient id="ocean" cx=".3" cy=".28"><stop stopColor="#37afba"/><stop offset="1" stopColor="#125366"/></radialGradient><radialGradient id="shade" cx=".25" cy=".3"><stop offset=".4" stopColor="#122735" stopOpacity="0"/><stop offset="1" stopColor="#122735" stopOpacity=".7"/></radialGradient></defs><circle r={r+14} fill="#74c8c5" opacity=".12" stroke="none"/><circle r={r} fill="url(#ocean)" stroke="#172f3d" strokeWidth={7}/><g clipPath="url(#earthMask)"><g transform={`scale(${r/84}) translate(${-130+(t*5)%360} 0)`}>{[-360,0,360].map(offset=><g key={offset} transform={`translate(${offset} 0)`}>{paths.filter(p=>p.code!=='ATA').map(p=><path key={p.code} d={p.d} fill={C.sage} stroke={C.tealDark} strokeWidth=".25"/>)}</g>)}</g>{[0,1,2].map(i=><path key={i} d={`M${-r-180+((t*30+i*290)%(r*3))} ${-r*.35+i*r*.42}q100 -40 230 0t200 0`} stroke={C.cream} strokeWidth={r*.06} opacity=".3"/>)}<circle r={r} fill="url(#shade)" stroke="none"/></g><path d={`M${-r*.65} ${-r*.68}Q${-r*.25} ${-r*1.03} ${r*.2} ${-r*.95}`} stroke={C.cream} strokeWidth={5} opacity=".7"/></g>;
+export const Earth = ({
+  t,
+  x = 540,
+  y = 930,
+  r = 350,
+}: {
+  t: number;
+  x?: number;
+  y?: number;
+  r?: number;
+}) => (
+  <g transform={`translate(${x} ${y})`}>
+    <defs>
+      <clipPath id="earthMask">
+        <circle r={r} />
+      </clipPath>
+      <radialGradient id="ocean" cx=".3" cy=".28">
+        <stop stopColor="#37afba" />
+        <stop offset="1" stopColor="#125366" />
+      </radialGradient>
+      <radialGradient id="shade" cx=".25" cy=".3">
+        <stop offset=".4" stopColor="#122735" stopOpacity="0" />
+        <stop offset="1" stopColor="#122735" stopOpacity=".7" />
+      </radialGradient>
+    </defs>
+    <circle r={r + 14} fill="#74c8c5" opacity=".12" stroke="none" />
+    <circle r={r} fill="url(#ocean)" stroke="#172f3d" strokeWidth={7} />
+    <g clipPath="url(#earthMask)">
+      <g transform={`scale(${r / 84}) translate(${-130 + ((t * 5) % 360)} 0)`}>
+        {[-360, 0, 360].map((offset) => (
+          <g key={offset} transform={`translate(${offset} 0)`}>
+            {paths
+              .filter((p) => p.code !== "ATA")
+              .map((p) => (
+                <path
+                  key={p.code}
+                  d={p.d}
+                  fill={C.sage}
+                  stroke={C.tealDark}
+                  strokeWidth=".25"
+                />
+              ))}
+          </g>
+        ))}
+      </g>
+      {[0, 1, 2].map((i) => (
+        <path
+          key={i}
+          d={`M${-r - 180 + ((t * 30 + i * 290) % (r * 3))} ${-r * 0.35 + i * r * 0.42}q100 -40 230 0t200 0`}
+          stroke={C.cream}
+          strokeWidth={r * 0.06}
+          opacity=".3"
+        />
+      ))}
+      <circle r={r} fill="url(#shade)" stroke="none" />
+    </g>
+    <path
+      d={`M${-r * 0.65} ${-r * 0.68}Q${-r * 0.25} ${-r * 1.03} ${r * 0.2} ${-r * 0.95}`}
+      stroke={C.cream}
+      strokeWidth={5}
+      opacity=".7"
+    />
+  </g>
+);
