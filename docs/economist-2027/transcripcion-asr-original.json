@@ -1,0 +1,966 @@
+{
+  "language": "es",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.08,
+      "text": " misiles, incendios y un cerebro.",
+      "words": [
+        {
+          "text": " misiles,",
+          "start": 0.0,
+          "end": 0.54,
+          "confidence": 0.5856181606650352
+        },
+        {
+          "text": " incendios",
+          "start": 1.1,
+          "end": 1.74,
+          "confidence": 0.9958195885022482
+        },
+        {
+          "text": " y",
+          "start": 1.74,
+          "end": 2.32,
+          "confidence": 0.8438765406608582
+        },
+        {
+          "text": " un",
+          "start": 2.32,
+          "end": 2.48,
+          "confidence": 0.982714831829071
+        },
+        {
+          "text": " cerebro.",
+          "start": 2.48,
+          "end": 3.08,
+          "confidence": 0.9947234988212585
+        }
+      ]
+    },
+    {
+      "start": 3.56,
+      "end": 7.54,
+      "text": " ¿Qué esconde esta inquietante portada de The Economist para 2027?",
+      "words": [
+        {
+          "text": " ¿Qué",
+          "start": 3.56,
+          "end": 3.8,
+          "confidence": 0.9484969973564148
+        },
+        {
+          "text": " esconde",
+          "start": 3.8,
+          "end": 4.2,
+          "confidence": 0.7264537513256073
+        },
+        {
+          "text": " esta",
+          "start": 4.2,
+          "end": 4.48,
+          "confidence": 0.9400546550750732
+        },
+        {
+          "text": " inquietante",
+          "start": 4.48,
+          "end": 5.2,
+          "confidence": 0.9942164023717245
+        },
+        {
+          "text": " portada",
+          "start": 5.2,
+          "end": 5.72,
+          "confidence": 0.9984373152256012
+        },
+        {
+          "text": " de",
+          "start": 5.72,
+          "end": 5.9,
+          "confidence": 0.9010305404663086
+        },
+        {
+          "text": " The",
+          "start": 5.9,
+          "end": 6.0,
+          "confidence": 0.5618769526481628
+        },
+        {
+          "text": " Economist",
+          "start": 6.0,
+          "end": 6.5,
+          "confidence": 0.9900223612785339
+        },
+        {
+          "text": " para",
+          "start": 6.5,
+          "end": 6.72,
+          "confidence": 0.981346070766449
+        },
+        {
+          "text": " 2027?",
+          "start": 6.72,
+          "end": 7.54,
+          "confidence": 0.9716528356075287
+        }
+      ]
+    },
+    {
+      "start": 8.42,
+      "end": 11.14,
+      "text": " Arriba, los líderes parecen vigilar el mundo.",
+      "words": [
+        {
+          "text": " Arriba,",
+          "start": 8.42,
+          "end": 8.92,
+          "confidence": 0.9571735660235087
+        },
+        {
+          "text": " los",
+          "start": 9.26,
+          "end": 9.38,
+          "confidence": 0.9912576675415039
+        },
+        {
+          "text": " líderes",
+          "start": 9.38,
+          "end": 9.82,
+          "confidence": 0.9978017508983612
+        },
+        {
+          "text": " parecen",
+          "start": 9.82,
+          "end": 10.2,
+          "confidence": 0.9929702281951904
+        },
+        {
+          "text": " vigilar",
+          "start": 10.2,
+          "end": 10.66,
+          "confidence": 0.9827412962913513
+        },
+        {
+          "text": " el",
+          "start": 10.66,
+          "end": 10.86,
+          "confidence": 0.9979574680328369
+        },
+        {
+          "text": " mundo.",
+          "start": 10.86,
+          "end": 11.14,
+          "confidence": 0.9977722764015198
+        }
+      ]
+    },
+    {
+      "start": 11.72,
+      "end": 15.54,
+      "text": " La revista analiza la sucesión de Trump y el avance del populismo.",
+      "words": [
+        {
+          "text": " La",
+          "start": 11.72,
+          "end": 11.84,
+          "confidence": 0.9901941418647766
+        },
+        {
+          "text": " revista",
+          "start": 11.84,
+          "end": 12.28,
+          "confidence": 0.9975696504116058
+        },
+        {
+          "text": " analiza",
+          "start": 12.28,
+          "end": 12.82,
+          "confidence": 0.9838109612464905
+        },
+        {
+          "text": " la",
+          "start": 12.82,
+          "end": 12.96,
+          "confidence": 0.9881916642189026
+        },
+        {
+          "text": " sucesión",
+          "start": 12.96,
+          "end": 13.46,
+          "confidence": 0.9970105489095052
+        },
+        {
+          "text": " de",
+          "start": 13.46,
+          "end": 13.58,
+          "confidence": 0.9941389560699463
+        },
+        {
+          "text": " Trump",
+          "start": 13.58,
+          "end": 13.96,
+          "confidence": 0.9966631531715393
+        },
+        {
+          "text": " y",
+          "start": 13.96,
+          "end": 14.28,
+          "confidence": 0.9927093982696533
+        },
+        {
+          "text": " el",
+          "start": 14.28,
+          "end": 14.4,
+          "confidence": 0.9995032548904419
+        },
+        {
+          "text": " avance",
+          "start": 14.4,
+          "end": 14.7,
+          "confidence": 0.9984778463840485
+        },
+        {
+          "text": " del",
+          "start": 14.7,
+          "end": 14.94,
+          "confidence": 0.9956973791122437
+        },
+        {
+          "text": " populismo.",
+          "start": 14.94,
+          "end": 15.54,
+          "confidence": 0.9983907341957092
+        }
+      ]
+    },
+    {
+      "start": 16.04,
+      "end": 19.82,
+      "text": " Pero mira el centro, un cerebro rodeado de tecnología.",
+      "words": [
+        {
+          "text": " Pero",
+          "start": 16.04,
+          "end": 16.28,
+          "confidence": 0.9602208137512207
+        },
+        {
+          "text": " mira",
+          "start": 16.28,
+          "end": 16.66,
+          "confidence": 0.780953586101532
+        },
+        {
+          "text": " el",
+          "start": 16.66,
+          "end": 16.86,
+          "confidence": 0.9796156883239746
+        },
+        {
+          "text": " centro,",
+          "start": 16.86,
+          "end": 17.16,
+          "confidence": 0.9864165782928467
+        },
+        {
+          "text": " un",
+          "start": 17.74,
+          "end": 17.88,
+          "confidence": 0.9820864200592041
+        },
+        {
+          "text": " cerebro",
+          "start": 17.88,
+          "end": 18.46,
+          "confidence": 0.9964463114738464
+        },
+        {
+          "text": " rodeado",
+          "start": 18.46,
+          "end": 19.12,
+          "confidence": 0.983355313539505
+        },
+        {
+          "text": " de",
+          "start": 19.12,
+          "end": 19.3,
+          "confidence": 0.9974842071533203
+        },
+        {
+          "text": " tecnología.",
+          "start": 19.3,
+          "end": 19.82,
+          "confidence": 0.993608832359314
+        }
+      ]
+    },
+    {
+      "start": 20.4,
+      "end": 25.38,
+      "text": " Es una pista sobre la inteligencia artificial, sus riesgos y el rechazo que provoca.",
+      "words": [
+        {
+          "text": " Es",
+          "start": 20.4,
+          "end": 20.6,
+          "confidence": 0.9870349764823914
+        },
+        {
+          "text": " una",
+          "start": 20.6,
+          "end": 20.76,
+          "confidence": 0.9970241189002991
+        },
+        {
+          "text": " pista",
+          "start": 20.76,
+          "end": 21.04,
+          "confidence": 0.9977660179138184
+        },
+        {
+          "text": " sobre",
+          "start": 21.04,
+          "end": 21.38,
+          "confidence": 0.9975650310516357
+        },
+        {
+          "text": " la",
+          "start": 21.38,
+          "end": 21.52,
+          "confidence": 0.9979742169380188
+        },
+        {
+          "text": " inteligencia",
+          "start": 21.52,
+          "end": 22.1,
+          "confidence": 0.9876583019892374
+        },
+        {
+          "text": " artificial,",
+          "start": 22.1,
+          "end": 22.64,
+          "confidence": 0.9978193044662476
+        },
+        {
+          "text": " sus",
+          "start": 23.06,
+          "end": 23.24,
+          "confidence": 0.9718591570854187
+        },
+        {
+          "text": " riesgos",
+          "start": 23.24,
+          "end": 23.72,
+          "confidence": 0.9955094456672668
+        },
+        {
+          "text": " y",
+          "start": 23.72,
+          "end": 24.18,
+          "confidence": 0.8760274648666382
+        },
+        {
+          "text": " el",
+          "start": 24.18,
+          "end": 24.3,
+          "confidence": 0.9969303011894226
+        },
+        {
+          "text": " rechazo",
+          "start": 24.3,
+          "end": 24.76,
+          "confidence": 0.997063934803009
+        },
+        {
+          "text": " que",
+          "start": 24.76,
+          "end": 24.96,
+          "confidence": 0.9961732029914856
+        },
+        {
+          "text": " provoca.",
+          "start": 24.96,
+          "end": 25.38,
+          "confidence": 0.9929550588130951
+        }
+      ]
+    },
+    {
+      "start": 26.04,
+      "end": 28.24,
+      "text": " Más abajo aparecen tanques y armas.",
+      "words": [
+        {
+          "text": " Más",
+          "start": 26.04,
+          "end": 26.28,
+          "confidence": 0.9949245154857635
+        },
+        {
+          "text": " abajo",
+          "start": 26.28,
+          "end": 26.58,
+          "confidence": 0.9945857524871826
+        },
+        {
+          "text": " aparecen",
+          "start": 26.58,
+          "end": 27.22,
+          "confidence": 0.9263916313648224
+        },
+        {
+          "text": " tanques",
+          "start": 27.22,
+          "end": 27.76,
+          "confidence": 0.9818535447120667
+        },
+        {
+          "text": " y",
+          "start": 27.76,
+          "end": 28.0,
+          "confidence": 0.9985748529434204
+        },
+        {
+          "text": " armas.",
+          "start": 28.0,
+          "end": 28.24,
+          "confidence": 0.9980925917625427
+        }
+      ]
+    },
+    {
+      "start": 28.24,
+      "end": 34.1,
+      "text": " La publicación teme repercusiones de la guerra con Irán y observa con inquietud la situación de",
+      "words": [
+        {
+          "text": " La",
+          "start": 28.24,
+          "end": 28.96,
+          "confidence": 0.6015349626541138
+        },
+        {
+          "text": " publicación",
+          "start": 28.96,
+          "end": 29.54,
+          "confidence": 0.9826249182224274
+        },
+        {
+          "text": " teme",
+          "start": 29.54,
+          "end": 29.94,
+          "confidence": 0.9816244542598724
+        },
+        {
+          "text": " repercusiones",
+          "start": 29.94,
+          "end": 30.6,
+          "confidence": 0.995175838470459
+        },
+        {
+          "text": " de",
+          "start": 30.6,
+          "end": 30.82,
+          "confidence": 0.9976592063903809
+        },
+        {
+          "text": " la",
+          "start": 30.82,
+          "end": 30.92,
+          "confidence": 0.9947951436042786
+        },
+        {
+          "text": " guerra",
+          "start": 30.92,
+          "end": 31.14,
+          "confidence": 0.9280081391334534
+        },
+        {
+          "text": " con",
+          "start": 31.14,
+          "end": 31.4,
+          "confidence": 0.9963122010231018
+        },
+        {
+          "text": " Irán",
+          "start": 31.4,
+          "end": 31.7,
+          "confidence": 0.9457611441612244
+        },
+        {
+          "text": " y",
+          "start": 31.7,
+          "end": 32.08,
+          "confidence": 0.8545835018157959
+        },
+        {
+          "text": " observa",
+          "start": 32.08,
+          "end": 32.5,
+          "confidence": 0.9940825998783112
+        },
+        {
+          "text": " con",
+          "start": 32.5,
+          "end": 32.66,
+          "confidence": 0.9949378967285156
+        },
+        {
+          "text": " inquietud",
+          "start": 32.66,
+          "end": 33.2,
+          "confidence": 0.9974939227104187
+        },
+        {
+          "text": " la",
+          "start": 33.2,
+          "end": 33.44,
+          "confidence": 0.9930826425552368
+        },
+        {
+          "text": " situación",
+          "start": 33.44,
+          "end": 33.9,
+          "confidence": 0.9995705485343933
+        },
+        {
+          "text": " de",
+          "start": 33.9,
+          "end": 34.1,
+          "confidence": 0.994147777557373
+        }
+      ]
+    },
+    {
+      "start": 34.1,
+      "end": 39.88,
+      "text": " Taiwán. Y el fuego podemos relacionarlo con otro tema de la revista, el riesgo de más calor",
+      "words": [
+        {
+          "text": " Taiwán.",
+          "start": 34.1,
+          "end": 34.52,
+          "confidence": 0.8607309063275655
+        },
+        {
+          "text": " Y",
+          "start": 34.98,
+          "end": 35.12,
+          "confidence": 0.9724689722061157
+        },
+        {
+          "text": " el",
+          "start": 35.12,
+          "end": 35.24,
+          "confidence": 0.9866787791252136
+        },
+        {
+          "text": " fuego",
+          "start": 35.24,
+          "end": 35.52,
+          "confidence": 0.9789332151412964
+        },
+        {
+          "text": " podemos",
+          "start": 35.52,
+          "end": 36.06,
+          "confidence": 0.8320134878158569
+        },
+        {
+          "text": " relacionarlo",
+          "start": 36.06,
+          "end": 36.78,
+          "confidence": 0.9769707322120667
+        },
+        {
+          "text": " con",
+          "start": 36.78,
+          "end": 37.04,
+          "confidence": 0.9971810579299927
+        },
+        {
+          "text": " otro",
+          "start": 37.04,
+          "end": 37.24,
+          "confidence": 0.9940428137779236
+        },
+        {
+          "text": " tema",
+          "start": 37.24,
+          "end": 37.52,
+          "confidence": 0.9994986057281494
+        },
+        {
+          "text": " de",
+          "start": 37.52,
+          "end": 37.66,
+          "confidence": 0.9955497980117798
+        },
+        {
+          "text": " la",
+          "start": 37.66,
+          "end": 37.76,
+          "confidence": 0.9966374635696411
+        },
+        {
+          "text": " revista,",
+          "start": 37.76,
+          "end": 38.18,
+          "confidence": 0.9962243735790253
+        },
+        {
+          "text": " el",
+          "start": 38.66,
+          "end": 38.74,
+          "confidence": 0.9750609397888184
+        },
+        {
+          "text": " riesgo",
+          "start": 38.74,
+          "end": 39.2,
+          "confidence": 0.9976890981197357
+        },
+        {
+          "text": " de",
+          "start": 39.2,
+          "end": 39.32,
+          "confidence": 0.9936315417289734
+        },
+        {
+          "text": " más",
+          "start": 39.32,
+          "end": 39.64,
+          "confidence": 0.9762268662452698
+        },
+        {
+          "text": " calor",
+          "start": 39.64,
+          "end": 39.88,
+          "confidence": 0.9903143048286438
+        }
+      ]
+    },
+    {
+      "start": 39.88,
+      "end": 45.76,
+      "text": " extremo, sequías e incendios. Entre tantas amenazas también hay señales sobre deuda,",
+      "words": [
+        {
+          "text": " extremo,",
+          "start": 39.88,
+          "end": 40.56,
+          "confidence": 0.9825324714183807
+        },
+        {
+          "text": " sequías",
+          "start": 40.84,
+          "end": 41.24,
+          "confidence": 0.9747500717639923
+        },
+        {
+          "text": " e",
+          "start": 41.24,
+          "end": 41.58,
+          "confidence": 0.9359392523765564
+        },
+        {
+          "text": " incendios.",
+          "start": 41.58,
+          "end": 42.18,
+          "confidence": 0.9960148930549622
+        },
+        {
+          "text": " Entre",
+          "start": 42.78,
+          "end": 43.02,
+          "confidence": 0.9896577000617981
+        },
+        {
+          "text": " tantas",
+          "start": 43.02,
+          "end": 43.38,
+          "confidence": 0.9979366660118103
+        },
+        {
+          "text": " amenazas",
+          "start": 43.38,
+          "end": 43.94,
+          "confidence": 0.9988139867782593
+        },
+        {
+          "text": " también",
+          "start": 43.94,
+          "end": 44.42,
+          "confidence": 0.7045249342918396
+        },
+        {
+          "text": " hay",
+          "start": 44.42,
+          "end": 44.58,
+          "confidence": 0.9984561204910278
+        },
+        {
+          "text": " señales",
+          "start": 44.58,
+          "end": 45.0,
+          "confidence": 0.9987276792526245
+        },
+        {
+          "text": " sobre",
+          "start": 45.0,
+          "end": 45.3,
+          "confidence": 0.9967473745346069
+        },
+        {
+          "text": " deuda,",
+          "start": 45.3,
+          "end": 45.76,
+          "confidence": 0.9883057177066803
+        }
+      ]
+    },
+    {
+      "start": 46.08,
+      "end": 52.52,
+      "text": " medicamentos para adelgazar y viajes espaciales. No todo es guerra. El mundo también está cambiando.",
+      "words": [
+        {
+          "text": " medicamentos",
+          "start": 46.08,
+          "end": 46.64,
+          "confidence": 0.9914607405662537
+        },
+        {
+          "text": " para",
+          "start": 46.64,
+          "end": 46.92,
+          "confidence": 0.9974090456962585
+        },
+        {
+          "text": " adelgazar",
+          "start": 46.92,
+          "end": 47.44,
+          "confidence": 0.9987020492553711
+        },
+        {
+          "text": " y",
+          "start": 47.44,
+          "end": 47.9,
+          "confidence": 0.8891608119010925
+        },
+        {
+          "text": " viajes",
+          "start": 47.9,
+          "end": 48.26,
+          "confidence": 0.9953685402870178
+        },
+        {
+          "text": " espaciales.",
+          "start": 48.26,
+          "end": 49.08,
+          "confidence": 0.9962366223335266
+        },
+        {
+          "text": " No",
+          "start": 49.44,
+          "end": 49.64,
+          "confidence": 0.97402024269104
+        },
+        {
+          "text": " todo",
+          "start": 49.64,
+          "end": 49.86,
+          "confidence": 0.996094286441803
+        },
+        {
+          "text": " es",
+          "start": 49.86,
+          "end": 50.04,
+          "confidence": 0.9992693066596985
+        },
+        {
+          "text": " guerra.",
+          "start": 50.04,
+          "end": 50.26,
+          "confidence": 0.9936209321022034
+        },
+        {
+          "text": " El",
+          "start": 50.78,
+          "end": 50.92,
+          "confidence": 0.9873714447021484
+        },
+        {
+          "text": " mundo",
+          "start": 50.92,
+          "end": 51.18,
+          "confidence": 0.9973105192184448
+        },
+        {
+          "text": " también",
+          "start": 51.18,
+          "end": 51.7,
+          "confidence": 0.9906964302062988
+        },
+        {
+          "text": " está",
+          "start": 51.7,
+          "end": 52.0,
+          "confidence": 0.9961696267127991
+        },
+        {
+          "text": " cambiando.",
+          "start": 52.0,
+          "end": 52.52,
+          "confidence": 0.9979206323623657
+        }
+      ]
+    },
+    {
+      "start": 52.52,
+      "end": 59.28,
+      "text": " Entonces, predice el futuro? No. Son escenarios y preocupaciones, no certezas.",
+      "words": [
+        {
+          "text": " Entonces,",
+          "start": 52.52,
+          "end": 53.52,
+          "confidence": 0.45738887786865234
+        },
+        {
+          "text": " predice",
+          "start": 53.94,
+          "end": 54.36,
+          "confidence": 0.6423183381557465
+        },
+        {
+          "text": " el",
+          "start": 54.36,
+          "end": 54.5,
+          "confidence": 0.993549644947052
+        },
+        {
+          "text": " futuro?",
+          "start": 54.5,
+          "end": 54.74,
+          "confidence": 0.9988197684288025
+        },
+        {
+          "text": " No.",
+          "start": 55.44,
+          "end": 55.68,
+          "confidence": 0.9528369903564453
+        },
+        {
+          "text": " Son",
+          "start": 56.1,
+          "end": 56.3,
+          "confidence": 0.9890109896659851
+        },
+        {
+          "text": " escenarios",
+          "start": 56.3,
+          "end": 56.9,
+          "confidence": 0.9957340558369955
+        },
+        {
+          "text": " y",
+          "start": 56.9,
+          "end": 57.18,
+          "confidence": 0.9945408701896667
+        },
+        {
+          "text": " preocupaciones,",
+          "start": 57.18,
+          "end": 58.04,
+          "confidence": 0.9989767372608185
+        },
+        {
+          "text": " no",
+          "start": 58.48,
+          "end": 58.6,
+          "confidence": 0.9936856627464294
+        },
+        {
+          "text": " certezas.",
+          "start": 58.6,
+          "end": 59.28,
+          "confidence": 0.8183196385701498
+        }
+      ]
+    },
+    {
+      "start": 59.72,
+      "end": 63.16,
+      "text": " Pero vuelve a mirar la portada. ¿Qué símbolo te inquieta más?",
+      "words": [
+        {
+          "text": " Pero",
+          "start": 59.72,
+          "end": 59.94,
+          "confidence": 0.9694730639457703
+        },
+        {
+          "text": " vuelve",
+          "start": 59.94,
+          "end": 60.44,
+          "confidence": 0.6996792256832123
+        },
+        {
+          "text": " a",
+          "start": 60.44,
+          "end": 60.5,
+          "confidence": 0.9944643378257751
+        },
+        {
+          "text": " mirar",
+          "start": 60.5,
+          "end": 60.76,
+          "confidence": 0.9912936985492706
+        },
+        {
+          "text": " la",
+          "start": 60.76,
+          "end": 60.84,
+          "confidence": 0.997174859046936
+        },
+        {
+          "text": " portada.",
+          "start": 60.84,
+          "end": 61.28,
+          "confidence": 0.9963855147361755
+        },
+        {
+          "text": " ¿Qué",
+          "start": 61.8,
+          "end": 61.94,
+          "confidence": 0.9346922934055328
+        },
+        {
+          "text": " símbolo",
+          "start": 61.94,
+          "end": 62.46,
+          "confidence": 0.9974969426790873
+        },
+        {
+          "text": " te",
+          "start": 62.46,
+          "end": 62.54,
+          "confidence": 0.9980738162994385
+        },
+        {
+          "text": " inquieta",
+          "start": 62.54,
+          "end": 63.0,
+          "confidence": 0.9969242612520853
+        },
+        {
+          "text": " más?",
+          "start": 63.0,
+          "end": 63.16,
+          "confidence": 0.9961209893226624
+        }
+      ]
+    }
+  ]
+}

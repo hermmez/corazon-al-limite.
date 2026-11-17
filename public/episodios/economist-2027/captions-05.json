@@ -1,0 +1,142 @@
+[
+  {
+    "text": " Y",
+    "startMs": 130,
+    "endMs": 270,
+    "timestampMs": 200,
+    "confidence": 0.9725
+  },
+  {
+    "text": " el",
+    "startMs": 270,
+    "endMs": 390,
+    "timestampMs": 330,
+    "confidence": 0.9867
+  },
+  {
+    "text": " fuego",
+    "startMs": 390,
+    "endMs": 670,
+    "timestampMs": 530,
+    "confidence": 0.9789
+  },
+  {
+    "text": " podemos",
+    "startMs": 670,
+    "endMs": 1210,
+    "timestampMs": 940,
+    "confidence": 0.832
+  },
+  {
+    "text": " relacionarlo",
+    "startMs": 1210,
+    "endMs": 1930,
+    "timestampMs": 1570,
+    "confidence": 0.977
+  },
+  {
+    "text": " con",
+    "startMs": 1930,
+    "endMs": 2190,
+    "timestampMs": 2060,
+    "confidence": 0.9972
+  },
+  {
+    "text": " otro",
+    "startMs": 2190,
+    "endMs": 2390,
+    "timestampMs": 2290,
+    "confidence": 0.994
+  },
+  {
+    "text": " tema",
+    "startMs": 2390,
+    "endMs": 2670,
+    "timestampMs": 2530,
+    "confidence": 0.9995
+  },
+  {
+    "text": " de",
+    "startMs": 2670,
+    "endMs": 2810,
+    "timestampMs": 2740,
+    "confidence": 0.9955
+  },
+  {
+    "text": " la",
+    "startMs": 2810,
+    "endMs": 2910,
+    "timestampMs": 2860,
+    "confidence": 0.9966
+  },
+  {
+    "text": " revista:",
+    "startMs": 2910,
+    "endMs": 3330,
+    "timestampMs": 3120,
+    "confidence": 0.9962
+  },
+  {
+    "text": " el",
+    "startMs": 3810,
+    "endMs": 3890,
+    "timestampMs": 3850,
+    "confidence": 0.9751
+  },
+  {
+    "text": " riesgo",
+    "startMs": 3890,
+    "endMs": 4350,
+    "timestampMs": 4120,
+    "confidence": 0.9977
+  },
+  {
+    "text": " de",
+    "startMs": 4350,
+    "endMs": 4470,
+    "timestampMs": 4410,
+    "confidence": 0.9936
+  },
+  {
+    "text": " más",
+    "startMs": 4470,
+    "endMs": 4790,
+    "timestampMs": 4630,
+    "confidence": 0.9762
+  },
+  {
+    "text": " calor",
+    "startMs": 4790,
+    "endMs": 5030,
+    "timestampMs": 4910,
+    "confidence": 0.9903
+  },
+  {
+    "text": " extremo,",
+    "startMs": 5030,
+    "endMs": 5710,
+    "timestampMs": 5370,
+    "confidence": 0.9825
+  },
+  {
+    "text": " sequías",
+    "startMs": 5990,
+    "endMs": 6390,
+    "timestampMs": 6190,
+    "confidence": 0.9748
+  },
+  {
+    "text": " e",
+    "startMs": 6390,
+    "endMs": 6730,
+    "timestampMs": 6560,
+    "confidence": 0.9359
+  },
+  {
+    "text": " incendios.",
+    "startMs": 6730,
+    "endMs": 7330,
+    "timestampMs": 7030,
+    "confidence": 0.996
+  }
+]

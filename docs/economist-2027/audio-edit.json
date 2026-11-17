@@ -1,0 +1,112 @@
+[
+  {
+    "scene": 1,
+    "fromSecond": 0,
+    "toSecond": 8,
+    "sourceRanges": [
+      [
+        0,
+        8
+      ]
+    ],
+    "sourceSpeechDuration": 8,
+    "paddedSilence": 0,
+    "playbackRate": 1
+  },
+  {
+    "scene": 2,
+    "fromSecond": 8,
+    "toSecond": 18,
+    "sourceRanges": [
+      [
+        8.3,
+        16
+      ]
+    ],
+    "sourceSpeechDuration": 7.699999999999999,
+    "paddedSilence": 2.3000000000000007,
+    "playbackRate": 1
+  },
+  {
+    "scene": 3,
+    "fromSecond": 18,
+    "toSecond": 28,
+    "sourceRanges": [
+      [
+        16,
+        25.9
+      ]
+    ],
+    "sourceSpeechDuration": 9.899999999999999,
+    "paddedSilence": 0.10000000000000142,
+    "playbackRate": 1
+  },
+  {
+    "scene": 4,
+    "fromSecond": 28,
+    "toSecond": 39,
+    "sourceRanges": [
+      [
+        25.9,
+        34.85
+      ]
+    ],
+    "sourceSpeechDuration": 8.950000000000003,
+    "paddedSilence": 2.049999999999997,
+    "playbackRate": 1
+  },
+  {
+    "scene": 5,
+    "fromSecond": 39,
+    "toSecond": 49,
+    "sourceRanges": [
+      [
+        34.85,
+        42.6
+      ]
+    ],
+    "sourceSpeechDuration": 7.75,
+    "paddedSilence": 2.25,
+    "playbackRate": 1
+  },
+  {
+    "scene": 6,
+    "fromSecond": 49,
+    "toSecond": 60,
+    "sourceRanges": [
+      [
+        42.6,
+        53.1
+      ]
+    ],
+    "sourceSpeechDuration": 10.5,
+    "paddedSilence": 0.5,
+    "playbackRate": 1
+  },
+  {
+    "scene": 7,
+    "fromSecond": 60,
+    "toSecond": 70,
+    "sourceRanges": [
+      [
+        53.1,
+        55.9
+      ],
+      [
+        56.1,
+        59.5
+      ],
+      [
+        59.7,
+        61.55
+      ],
+      [
+        61.75,
+        63.555875
+      ]
+    ],
+    "sourceSpeechDuration": 9.85587499999999,
+    "paddedSilence": 0.1441250000000096,
+    "playbackRate": 1
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "path": "public/episodios/economist-2027/captions-01.json",
+    "bytes": 1820,
+    "sha256": "71a13d5928f67412df698865d294088fa36a1e29b43f2adddf8921bdc372b8c7"
+  },
+  {
+    "path": "public/episodios/economist-2027/captions-02.json",
+    "bytes": 2295,
+    "sha256": "182d273ed3a38271319903c8de875ccd42e156a852f527a1ed3d78beef9e65ee"
+  },
+  {
+    "path": "public/episodios/economist-2027/captions-03.json",
+    "bytes": 2771,
+    "sha256": "c520537752676606cc5e50f7abe74cc92dbb88fda3d0c67802ebed880e310f73"
+  },
+  {
+    "path": "public/episodios/economist-2027/captions-04.json",
+    "bytes": 2784,
+    "sha256": "a846cbb5e735b9c38813e0dd573f9be7aaf51a7a4373d22d5b451533babc82b5"
+  },
+  {
+    "path": "public/episodios/economist-2027/captions-05.json",
+    "bytes": 2403,
+    "sha256": "61fea78ce9c9c42c745d4a497c6e36830c347e6179be707584702e7e585dc936"
+  },
+  {
+    "path": "public/episodios/economist-2027/captions-06.json",
+    "bytes": 2799,
+    "sha256": "cd57c8d1bca3b74da6555dc289dee7e04a30dcaeac4475a223e22e27e5f5ed94"
+  },
+  {
+    "path": "public/episodios/economist-2027/captions-07.json",
+    "bytes": 2672,
+    "sha256": "c3ce44306988abb3227cf895bd1c9281232cbcbd64b3de44f4479b55f4285034"
+  },
+  {
+    "path": "public/episodios/economist-2027/efectos-originales.wav",
+    "bytes": 3360044,
+    "sha256": "6bc693cbbaf175f143cc2479aed5cdf62d9ce67440b6a54378d88c9a95448c58"
+  },
+  {
+    "path": "public/episodios/economist-2027/musica-original.wav",
+    "bytes": 3360044,
+    "sha256": "049c69d782a49111652d43ec09890f845a0a295491fa3644c8be326e6f0eb62b"
+  },
+  {
+    "path": "public/episodios/economist-2027/narracion-original.mp3",
+    "bytes": 1016938,
+    "sha256": "02944b7f51c37a312b61c8aebcab4b6e0f2d7665fdab8f101d4587c3f31645d4"
+  },
+  {
+    "path": "public/episodios/economist-2027/portada-completa.jpg",
+    "bytes": 243125,
+    "sha256": "524e2889949f7236ec229ed251e26cfa600ed1af67c1f42fc54a8aaecad8309e"
+  },
+  {
+    "path": "public/episodios/economist-2027/portada-oficial.jpg",
+    "bytes": 145111,
+    "sha256": "e6f09fbafb9796d1351d989557ed910534542f3b3497dfa687a628188e2478da"
+  },
+  {
+    "path": "public/episodios/economist-2027/voz-01.wav",
+    "bytes": 768078,
+    "sha256": "a2e54d3b895854eb8d468b1831f72db09e8f2879d6102f578408328179639d18"
+  },
+  {
+    "path": "public/episodios/economist-2027/voz-02.wav",
+    "bytes": 960078,
+    "sha256": "06246dc852c113ce5ac4e7e49241264c44b5cdd5f3abb5e63cf8ff6120734ef0"
+  },
+  {
+    "path": "public/episodios/economist-2027/voz-03.wav",
+    "bytes": 960078,
+    "sha256": "4cebb77bb7ccfae54c7cafa04e3e89ef3ec73a88caec9211122b0b11677cfe07"
+  },
+  {
+    "path": "public/episodios/economist-2027/voz-04.wav",
+    "bytes": 1056078,
+    "sha256": "403d8898fe32093cead266922647c30352a973249e109b8eebfb166821d92d02"
+  },
+  {
+    "path": "public/episodios/economist-2027/voz-05.wav",
+    "bytes": 960078,
+    "sha256": "4ae9f60e88b5690ade098a9616f06a9b00f43b66a9687de69531cfbd76d91235"
+  },
+  {
+    "path": "public/episodios/economist-2027/voz-06.wav",
+    "bytes": 1056078,
+    "sha256": "18447f6540b2393892bc9e805684dac4f4cd01064673fdcf9a0a5a883bec2a07"
+  },
+  {
+    "path": "public/episodios/economist-2027/voz-07.wav",
+    "bytes": 960078,
+    "sha256": "269061552b649b6af69e34a357bb1908687452710de2e8715724d0075aec90ce"
+  }
+]
