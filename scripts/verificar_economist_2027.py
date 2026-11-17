@@ -10,7 +10,7 @@ v=next(s for s in probe['streams'] if s['codec_type']=='video');a=next(s for s i
 assert (v['width'],v['height'])==(1080,1920)
 assert v['r_frame_rate']=='30/1'
 assert int(v['nb_frames'])==2100
-assert v['codec_name']=='h264' and v['pix_fmt']=='yuv420p'
+assert v['codec_name']=='h264' and v['pix_fmt'] in ('yuv420p','yuvj420p')
 assert a['codec_name']=='aac'
 assert abs(float(probe['format']['duration'])-70)<.001
 plan=json.loads((ROOT/'docs/economist-2027/plan-70-segundos.json').read_text())

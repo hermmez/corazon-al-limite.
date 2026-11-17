@@ -7,7 +7,8 @@ Episodio independiente, 1080 × 1920, 30 fps, 2100 fotogramas y 70 segundos. Se 
 ```sh
 npm ci
 npx remotion studio src/economist2027/index.tsx --no-open
-npx remotion render src/economist2027/index.tsx Economist2027 out/economist-2027/corazon-al-limite-economist-2027.mp4 --codec=h264 --audio-codec=aac --crf=18 --pixel-format=yuv420p
+npx remotion render src/economist2027/index.tsx Economist2027 out/economist-2027/render-remotion.mp4 --codec=h264 --audio-codec=aac --crf=18 --pixel-format=yuv420p
+ffmpeg -i out/economist-2027/render-remotion.mp4 -map 0:v:0 -map 0:a:0 -c:v copy -af 'atrim=duration=70,asetpts=PTS-STARTPTS' -c:a aac -b:a 192k -ar 48000 -t 70 -movflags +faststart out/economist-2027/corazon-al-limite-economist-2027.mp4
 ```
 
 Esta entrada también registra la composición anterior, sin modificarla, y las siete escenas nuevas para inspección individual. Para Chromium preinstalado se puede añadir `--browser-executable=/usr/bin/chromium`. Ajustar `--concurrency` a los núcleos disponibles.
@@ -55,3 +56,5 @@ python scripts/verificar_economist_2027.py
 ```
 
 El verificador comprueba el archivo exportado, 70 s / 2100 fotogramas / 30 fps, H.264/AAC, el plan de 70 registros, los 145 subtítulos, los SHA256 de los recursos y la conservación de los archivos previos. La inspección del estilo, la pertinencia editorial del movimiento y el acento de la voz requieren revisión humana; una diferencia numérica entre fotogramas no certifica por sí sola estos aspectos.
+
+La salida de Remotion contenía 2100 fotogramas / 70 s de imagen, pero su pista AAC extendía el contenedor a 70,016 s. El paso FFmpeg conserva el video H.264 sin recodificar y ajusta únicamente el extremo del audio AAC para que imagen, audio y contenedor duren 70,000 s. No cambia la velocidad ni corta palabras. El H.264 es 8 bits / 4:2:0 con rango completo (`yuvj420p`), una variante válida del muestreo 4:2:0; el verificador acepta también el rango limitado `yuv420p`.
