@@ -75,5 +75,7 @@ for i,(a,b) in enumerate(zip(cuts,cuts[1:])):
  lo=round(starts[i]*sr);hi=min(n,round((starts[i]+b-a)*sr));music[lo:hi]*=.5
 wav('musica-medieval-original.wav',music*fade[:,None]);wav('ambiente-original.wav',sfx*fade[:,None])
 manifest=dict(episode=q['episode'],voiceCredits=4.14,jobId=q['jobId'],originalVoiceSha256=hashlib.sha256((out/'narracion-original.mp3').read_bytes()).hexdigest(),sourceSeconds=len(voice)/sr,cuts=cuts,starts=starts,playbackRate=1,frames=2100,fps=30,width=1080,height=1920,narrativeHyenas=10000,realInteractions=None,interactionMechanism='Dinámica narrativa ficticia',music='Composición, síntesis y efectos locales originales, sin muestras de terceros')
+manifest['approvedReferenceSha256']={str(f.relative_to(root)):hashlib.sha256(f.read_bytes()).hexdigest() for f in [root/'public/imagenes/personajes/01_neutral.png',root/'public/imagenes/escenarios/03_sala.png']}
+manifest['rigging']='Partes anatómicas con máscaras de la misma ilustración; transformaciones de cabeza, brazos, patas, cola; poses de marcha de 8 fases para multitudes lejanas.'
 (out/'produccion.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(dict(cues=cues,sourceSeconds=len(voice)/sr,voiceEnd=starts[-1]+cuts[-1]-cuts[-2]),indent=2))
