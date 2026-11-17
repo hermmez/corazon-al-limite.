@@ -1,0 +1,107 @@
+[
+  {
+    "text": " Misiles,",
+    "startMs": 0,
+    "endMs": 540,
+    "timestampMs": 270,
+    "confidence": 0.5856
+  },
+  {
+    "text": " incendios",
+    "startMs": 1100,
+    "endMs": 1740,
+    "timestampMs": 1420,
+    "confidence": 0.9958
+  },
+  {
+    "text": " y",
+    "startMs": 1740,
+    "endMs": 2320,
+    "timestampMs": 2030,
+    "confidence": 0.8439
+  },
+  {
+    "text": " un",
+    "startMs": 2320,
+    "endMs": 2480,
+    "timestampMs": 2400,
+    "confidence": 0.9827
+  },
+  {
+    "text": " cerebro.",
+    "startMs": 2480,
+    "endMs": 3080,
+    "timestampMs": 2780,
+    "confidence": 0.9947
+  },
+  {
+    "text": " ¿Qué",
+    "startMs": 3859,
+    "endMs": 4099,
+    "timestampMs": 3979,
+    "confidence": 0.9485
+  },
+  {
+    "text": " esconde",
+    "startMs": 4099,
+    "endMs": 4499,
+    "timestampMs": 4299,
+    "confidence": 0.7265
+  },
+  {
+    "text": " esta",
+    "startMs": 4499,
+    "endMs": 4779,
+    "timestampMs": 4639,
+    "confidence": 0.9401
+  },
+  {
+    "text": " inquietante",
+    "startMs": 4779,
+    "endMs": 5499,
+    "timestampMs": 5139,
+    "confidence": 0.9942
+  },
+  {
+    "text": " portada",
+    "startMs": 5499,
+    "endMs": 6019,
+    "timestampMs": 5759,
+    "confidence": 0.9984
+  },
+  {
+    "text": " de",
+    "startMs": 6019,
+    "endMs": 6199,
+    "timestampMs": 6109,
+    "confidence": 0.901
+  },
+  {
+    "text": " The",
+    "startMs": 6199,
+    "endMs": 6299,
+    "timestampMs": 6249,
+    "confidence": 0.5619
+  },
+  {
+    "text": " Economist",
+    "startMs": 6299,
+    "endMs": 6799,
+    "timestampMs": 6549,
+    "confidence": 0.99
+  },
+  {
+    "text": " para",
+    "startMs": 6799,
+    "endMs": 7019,
+    "timestampMs": 6909,
+    "confidence": 0.9813
+  },
+  {
+    "text": " 2027?",
+    "startMs": 7019,
+    "endMs": 7839,
+    "timestampMs": 7429,
+    "confidence": 0.9717
+  }
+]

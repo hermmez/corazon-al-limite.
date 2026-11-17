@@ -1,0 +1,163 @@
+[
+  {
+    "text": " Más",
+    "startMs": 148,
+    "endMs": 388,
+    "timestampMs": 268,
+    "confidence": 0.9949
+  },
+  {
+    "text": " abajo",
+    "startMs": 388,
+    "endMs": 688,
+    "timestampMs": 538,
+    "confidence": 0.9946
+  },
+  {
+    "text": " aparecen",
+    "startMs": 688,
+    "endMs": 1328,
+    "timestampMs": 1008,
+    "confidence": 0.9264
+  },
+  {
+    "text": " tanques",
+    "startMs": 1328,
+    "endMs": 1868,
+    "timestampMs": 1598,
+    "confidence": 0.9819
+  },
+  {
+    "text": " y",
+    "startMs": 1868,
+    "endMs": 2108,
+    "timestampMs": 1988,
+    "confidence": 0.9986
+  },
+  {
+    "text": " armas.",
+    "startMs": 2108,
+    "endMs": 2348,
+    "timestampMs": 2228,
+    "confidence": 0.9981
+  },
+  {
+    "text": " La",
+    "startMs": 3465,
+    "endMs": 3525,
+    "timestampMs": 3495,
+    "confidence": 0.6015
+  },
+  {
+    "text": " publicación",
+    "startMs": 3525,
+    "endMs": 4105,
+    "timestampMs": 3815,
+    "confidence": 0.9826
+  },
+  {
+    "text": " teme",
+    "startMs": 4105,
+    "endMs": 4505,
+    "timestampMs": 4305,
+    "confidence": 0.9816
+  },
+  {
+    "text": " repercusiones",
+    "startMs": 4505,
+    "endMs": 5165,
+    "timestampMs": 4835,
+    "confidence": 0.9952
+  },
+  {
+    "text": " de",
+    "startMs": 5165,
+    "endMs": 5385,
+    "timestampMs": 5275,
+    "confidence": 0.9977
+  },
+  {
+    "text": " la",
+    "startMs": 5385,
+    "endMs": 5485,
+    "timestampMs": 5435,
+    "confidence": 0.9948
+  },
+  {
+    "text": " guerra",
+    "startMs": 5485,
+    "endMs": 5705,
+    "timestampMs": 5595,
+    "confidence": 0.928
+  },
+  {
+    "text": " con",
+    "startMs": 5705,
+    "endMs": 5965,
+    "timestampMs": 5835,
+    "confidence": 0.9963
+  },
+  {
+    "text": " Irán",
+    "startMs": 5965,
+    "endMs": 6265,
+    "timestampMs": 6115,
+    "confidence": 0.9458
+  },
+  {
+    "text": " y",
+    "startMs": 6265,
+    "endMs": 6645,
+    "timestampMs": 6455,
+    "confidence": 0.8546
+  },
+  {
+    "text": " observa",
+    "startMs": 6645,
+    "endMs": 7065,
+    "timestampMs": 6855,
+    "confidence": 0.9941
+  },
+  {
+    "text": " con",
+    "startMs": 7065,
+    "endMs": 7225,
+    "timestampMs": 7145,
+    "confidence": 0.9949
+  },
+  {
+    "text": " inquietud",
+    "startMs": 7225,
+    "endMs": 7765,
+    "timestampMs": 7495,
+    "confidence": 0.9975
+  },
+  {
+    "text": " la",
+    "startMs": 7765,
+    "endMs": 8005,
+    "timestampMs": 7885,
+    "confidence": 0.9931
+  },
+  {
+    "text": " situación",
+    "startMs": 8005,
+    "endMs": 8465,
+    "timestampMs": 8235,
+    "confidence": 0.9996
+  },
+  {
+    "text": " de",
+    "startMs": 8465,
+    "endMs": 8665,
+    "timestampMs": 8565,
+    "confidence": 0.9941
+  },
+  {
+    "text": " Taiwán.",
+    "startMs": 8665,
+    "endMs": 9085,
+    "timestampMs": 8875,
+    "confidence": 0.8607
+  }
+]

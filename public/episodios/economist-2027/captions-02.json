@@ -1,0 +1,135 @@
+[
+  {
+    "text": " Arriba,",
+    "startMs": 112,
+    "endMs": 612,
+    "timestampMs": 362,
+    "confidence": 0.9572
+  },
+  {
+    "text": " los",
+    "startMs": 952,
+    "endMs": 1072,
+    "timestampMs": 1012,
+    "confidence": 0.9913
+  },
+  {
+    "text": " líderes",
+    "startMs": 1072,
+    "endMs": 1512,
+    "timestampMs": 1292,
+    "confidence": 0.9978
+  },
+  {
+    "text": " parecen",
+    "startMs": 1512,
+    "endMs": 1892,
+    "timestampMs": 1702,
+    "confidence": 0.993
+  },
+  {
+    "text": " vigilar",
+    "startMs": 1892,
+    "endMs": 2352,
+    "timestampMs": 2122,
+    "confidence": 0.9827
+  },
+  {
+    "text": " el",
+    "startMs": 2352,
+    "endMs": 2552,
+    "timestampMs": 2452,
+    "confidence": 0.998
+  },
+  {
+    "text": " mundo.",
+    "startMs": 2552,
+    "endMs": 2832,
+    "timestampMs": 2692,
+    "confidence": 0.9978
+  },
+  {
+    "text": " La",
+    "startMs": 3751,
+    "endMs": 3871,
+    "timestampMs": 3811,
+    "confidence": 0.9902
+  },
+  {
+    "text": " revista",
+    "startMs": 3871,
+    "endMs": 4311,
+    "timestampMs": 4091,
+    "confidence": 0.9976
+  },
+  {
+    "text": " analiza",
+    "startMs": 4311,
+    "endMs": 4851,
+    "timestampMs": 4581,
+    "confidence": 0.9838
+  },
+  {
+    "text": " la",
+    "startMs": 4851,
+    "endMs": 4991,
+    "timestampMs": 4921,
+    "confidence": 0.9882
+  },
+  {
+    "text": " sucesión",
+    "startMs": 4991,
+    "endMs": 5491,
+    "timestampMs": 5241,
+    "confidence": 0.997
+  },
+  {
+    "text": " de",
+    "startMs": 5491,
+    "endMs": 5611,
+    "timestampMs": 5551,
+    "confidence": 0.9941
+  },
+  {
+    "text": " Trump",
+    "startMs": 5611,
+    "endMs": 5991,
+    "timestampMs": 5801,
+    "confidence": 0.9967
+  },
+  {
+    "text": " y",
+    "startMs": 5991,
+    "endMs": 6311,
+    "timestampMs": 6151,
+    "confidence": 0.9927
+  },
+  {
+    "text": " el",
+    "startMs": 6311,
+    "endMs": 6431,
+    "timestampMs": 6371,
+    "confidence": 0.9995
+  },
+  {
+    "text": " avance",
+    "startMs": 6431,
+    "endMs": 6731,
+    "timestampMs": 6581,
+    "confidence": 0.9985
+  },
+  {
+    "text": " del",
+    "startMs": 6731,
+    "endMs": 6971,
+    "timestampMs": 6851,
+    "confidence": 0.9957
+  },
+  {
+    "text": " populismo.",
+    "startMs": 6971,
+    "endMs": 7571,
+    "timestampMs": 7271,
+    "confidence": 0.9984
+  }
+]

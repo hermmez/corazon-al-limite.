@@ -1,0 +1,574 @@
+import React from "react";
+import { Img, staticFile, interpolate, interpolateColors } from "remotion";
+export const C = {
+  ink: "#192735",
+  navy: "#10232e",
+  teal: "#1b9ca5",
+  tealDark: "#126b79",
+  cream: "#fff0d8",
+  coral: "#f47f74",
+  red: "#dc585f",
+  gold: "#e9ad5d",
+  sage: "#8cb69c",
+  pale: "#e1ddc9",
+};
+export const clamp = (v: number) => Math.max(0, Math.min(1, v));
+export const ease = (t: number, a: number, b: number) => {
+  const p = clamp((t - a) / (b - a));
+  return p * p * (3 - 2 * p);
+};
+export const lerp = (t: number, a: number, b: number, x: number, y: number) =>
+  interpolate(t, [a, b], [x, y], {
+    extrapolateLeft: "clamp",
+    extrapolateRight: "clamp",
+  });
+export const SVG: React.FC<React.PropsWithChildren> = ({ children }) => (
+  <svg
+    viewBox="0 0 1080 1920"
+    style={{ position: "absolute", width: "100%", height: "100%" }}
+    fill="none"
+    stroke={C.ink}
+    strokeWidth={5}
+    strokeLinejoin="round"
+    strokeLinecap="round"
+  >
+    <defs>
+      <linearGradient id="sky" x2="0" y2="1">
+        <stop stopColor="#183642" />
+        <stop offset="1" stopColor="#395f65" />
+      </linearGradient>
+      <linearGradient id="metal" x2="0.8" y2="1">
+        <stop stopColor="#d9e6df" />
+        <stop offset=".6" stopColor="#a4c7c5" />
+        <stop offset="1" stopColor="#659496" />
+      </linearGradient>
+      <linearGradient id="land" x2="0" y2="1">
+        <stop stopColor="#a4c3aa" />
+        <stop offset="1" stopColor="#416e6e" />
+      </linearGradient>
+    </defs>
+    {children}
+  </svg>
+);
+export const Backdrop = ({
+  t,
+  space = false,
+}: {
+  t: number;
+  space?: boolean;
+}) => (
+  <>
+    <rect
+      width="1080"
+      height="1920"
+      fill={space ? "#10232e" : "url(#sky)"}
+      stroke="none"
+    />
+    {Array.from({ length: 24 }, (_, i) => (
+      <circle
+        key={i}
+        cx={(i * 173 + 45) % 1080}
+        cy={(i * 211 - t * (6 + (i % 4)) + 3000) % 1920}
+        r={i % 3 === 0 ? 2 : 1}
+        fill={C.cream}
+        opacity={space ? 0.45 : 0.15}
+        stroke="none"
+      />
+    ))}
+    <circle
+      cx="950"
+      cy="450"
+      r="480"
+      fill={C.teal}
+      opacity=".035"
+      stroke="none"
+    />
+  </>
+);
+export const Ground = ({ t }: { t: number }) => (
+  <>
+    <path d="M-100 1190Q170 950 460 1140T1180 1050V1920H-100Z" fill="#526e70" />
+    <path
+      d="M-100 1300Q300 1090 660 1270T1200 1220V1920H-100Z"
+      fill="#708c7c"
+    />
+    {Array.from({ length: 15 }, (_, i) => (
+      <path
+        key={i}
+        d={`M${((i * 139 - t * 95 + 4000) % 1400) - 150} ${1440 + (i % 4) * 35}l70 -4`}
+        stroke="#b9b39a"
+        strokeWidth={5}
+        opacity=".5"
+      />
+    ))}
+  </>
+);
+export const Flame = ({
+  t,
+  x = 0,
+  y = 0,
+  s = 1,
+}: {
+  t: number;
+  x?: number;
+  y?: number;
+  s?: number;
+}) => (
+  <g transform={`translate(${x} ${y}) scale(${s})`}>
+    <path
+      d={`M0 0C-68 -40 -41 -96 -28 ${-129 + Math.sin(t * 8) * 15}Q-3 -103 5 -200Q70 -134 49 -83Q77 -100 81 -137C130 -61 82 12 0 0Z`}
+      fill={C.coral}
+    />
+    <path
+      d={`M19 -6Q-18 -32 14 ${-100 + Math.sin(t * 10) * 13}Q30 -75 42 -127Q80 -46 47 -9Z`}
+      fill={C.gold}
+      stroke="none"
+    />
+    <path d="M20 -4Q5 -21 30 -55Q53 -20 39 -5Z" fill={C.cream} stroke="none" />
+  </g>
+);
+export const Cloud = ({
+  x,
+  y,
+  s = 1,
+  t = 0,
+}: {
+  x: number;
+  y: number;
+  s?: number;
+  t?: number;
+}) => (
+  <g
+    transform={`translate(${x + Math.sin(t) * 12} ${y}) scale(${s})`}
+    stroke="none"
+  >
+    <path
+      d="M-150 0C-180 -65 -120 -95 -75 -70C-90 -155 35 -165 50 -87C130 -133 188 -39 155 0Z"
+      fill="#cbd8d0"
+    />
+    <path
+      d="M-150 0Q-140 -45 -75 -32Q-35 -100 35 -40Q80 -76 155 0Z"
+      fill="#edf0df"
+    />
+  </g>
+);
+export const Missile = ({
+  t,
+  x,
+  y,
+  s = 1,
+  angle = 40,
+}: {
+  t: number;
+  x: number;
+  y: number;
+  s?: number;
+  angle?: number;
+}) => (
+  <g transform={`translate(${x} ${y}) rotate(${angle}) scale(${s})`}>
+    <g transform={`scale(${1 + Math.sin(t * 19) * 0.08} 1)`}>
+      <path d="M-20 80Q0 200 20 80" fill={C.gold} />
+      <path d="M-10 80Q0 140 10 80" fill={C.cream} stroke="none" />
+    </g>
+    <path d="M-24 70L-54 108V34L-24 1M24 70L54 108V34L24 1" fill={C.teal} />
+    <path
+      d="M-25 70V-100Q-15 -146 0 -172Q18 -148 25 -100V70Z"
+      fill="url(#metal)"
+    />
+    <path d="M-25 -96Q0 -108 25 -96V-70H-25Z" fill={C.coral} />
+    <path d="M-15 -60V48" stroke={C.cream} strokeWidth={6} />
+  </g>
+);
+export const Tank = ({
+  t,
+  x,
+  y,
+  s = 1,
+}: {
+  t: number;
+  x: number;
+  y: number;
+  s?: number;
+}) => (
+  <g transform={`translate(${x} ${y}) scale(${s})`}>
+    <ellipse
+      cx="0"
+      cy="85"
+      rx="245"
+      ry="29"
+      fill={C.ink}
+      opacity=".15"
+      stroke="none"
+    />
+    <g transform={`translate(0 ${Math.sin(t * 15) * 3})`}>
+      <path
+        d="M-200 10H170Q225 30 206 65Q192 90 160 90H-175Q-230 65 -219 35Z"
+        fill={C.ink}
+      />
+      <path
+        d="M-200 24H170Q207 40 186 65Q178 74 155 74H-173Q-207 64 -200 24Z"
+        fill="#667f7e"
+      />
+      <path
+        d="M-200 21H170Q217 30 200 62Q190 82 160 82H-177Q-221 64 -213 36Z"
+        stroke={C.pale}
+        strokeWidth={7}
+        strokeDasharray="12 13"
+        strokeDashoffset={-t * 120}
+      />
+      {[-165, -100, -35, 30, 95, 160].map((x, i) => (
+        <g key={i} transform={`translate(${x} 49) rotate(${t * 180})`}>
+          <circle r="24" fill={C.tealDark} />
+          <path d="M-15 0H15M0 -15V15" stroke="#84a9a5" />
+          <circle r="6" fill={C.ink} />
+        </g>
+      ))}
+      <path d="M-190 -44H138L188 10H-220Z" fill={C.tealDark} />
+      <path d="M-155 -65H102L140 -28H-190Z" fill={C.sage} />
+      <path d="M-159 -61H-90L-123 -29H-190Z" fill={C.teal} />
+      <g transform={`rotate(${Math.sin(t * 0.9) * 3} 0 -80)`}>
+        <path d="M48 -111H241V-89H45Z" fill={C.tealDark} />
+        <path d="M227 -116H250V-85H227Z" fill={C.ink} />
+        <path d="M-83 -120H33L77 -68H-110Z" fill={C.teal} />
+        <path d="M-69 -120V-145H6V-120" fill={C.sage} />
+        <path d="M-72 -90H42" stroke="#77bfb5" />
+        <path d="M-75 -144L-96 -246" strokeWidth={4} />
+      </g>
+      <path d="M-177 -21H127" stroke={C.cream} strokeWidth={4} opacity=".5" />
+    </g>
+  </g>
+);
+export const Robot = ({
+  t,
+  x,
+  y,
+  s = 1,
+}: {
+  t: number;
+  x: number;
+  y: number;
+  s?: number;
+}) => {
+  const a = Math.sin(t * 2.6) * 17;
+  return (
+    <g transform={`translate(${x} ${y}) scale(${s})`}>
+      <ellipse
+        cx="0"
+        cy="330"
+        rx="145"
+        ry="20"
+        fill={C.ink}
+        opacity=".16"
+        stroke="none"
+      />
+      <g transform={`rotate(${Math.sin(t * 1.5) * 8} 0 -50)`}>
+        <rect
+          x="-104"
+          y="-220"
+          width="208"
+          height="151"
+          rx="35"
+          fill="url(#metal)"
+        />
+        <path d="M-55 -220V-258" />
+        <circle cx="-55" cy="-264" r="11" fill={C.coral} />
+        <rect x="-77" y="-182" width="154" height="62" rx="25" fill={C.navy} />
+        <ellipse
+          cx="-36"
+          cy="-151"
+          rx="12"
+          ry={8 + Math.abs(Math.sin(t * 2)) * 5}
+          fill={C.teal}
+          stroke="none"
+        />
+        <ellipse
+          cx="36"
+          cy="-151"
+          rx="12"
+          ry="12"
+          fill={C.teal}
+          stroke="none"
+        />
+        <path d="M-20 -92H20" />
+      </g>
+      <path d="M-27 -68V-35H27V-68" fill={C.tealDark} />
+      <rect x="-88" y="-36" width="176" height="195" rx="31" fill={C.teal} />
+      <path d="M-66 85H65V139H-65Z" fill={C.tealDark} />
+      <circle cy="20" r="25" fill={C.coral} />
+      {[-1, 1].map((side) => (
+        <g key={side}>
+          <g transform={`translate(${side * 99} 0) rotate(${side * (22 + a)})`}>
+            <circle r="23" fill={C.gold} />
+            <rect
+              x="-19"
+              y="18"
+              width="38"
+              height="94"
+              rx="15"
+              fill="url(#metal)"
+            />
+            <g transform={`translate(0 111) rotate(${side * (24 - a)})`}>
+              <circle r="20" fill={C.ink} />
+              <rect
+                x="-20"
+                y="15"
+                width="40"
+                height="92"
+                rx="14"
+                fill="url(#metal)"
+              />
+              <path
+                d={`M-16 106L${-38 - Math.sin(t * 3) * 9} 134L-21 153M16 106L${38 + Math.sin(t * 3) * 9} 134L21 153`}
+                stroke={C.teal}
+                strokeWidth={15}
+              />
+            </g>
+          </g>
+          <g
+            transform={`translate(${side * 52} 159) rotate(${side * Math.sin(t * 2) * 6})`}
+          >
+            <rect x="-23" width="46" height="130" rx="16" fill="url(#metal)" />
+            <path d="M-35 285" />
+            <path d="M-29 119H27L45 158H-36Z" fill={C.tealDark} />
+          </g>
+        </g>
+      ))}
+    </g>
+  );
+};
+export const Surveillance = ({
+  t,
+  x,
+  y,
+  s = 1,
+}: {
+  t: number;
+  x: number;
+  y: number;
+  s?: number;
+}) => (
+  <g transform={`translate(${x} ${y}) scale(${s})`}>
+    <path d="M-150 -130H-80V-27L-21 4" stroke={C.tealDark} strokeWidth={23} />
+    <g transform={`rotate(${Math.sin(t * 1.2) * 17})`}>
+      <path d="M-56 -76H104L140 0L86 45L-78 4Z" fill="url(#metal)" />
+      <path d="M-53 -85H110L128 -43H-69Z" fill={C.teal} />
+      <ellipse cx="108" cy="3" rx="35" ry="44" fill={C.ink} />
+      <ellipse cx="111" cy="3" rx="20" ry="28" fill={C.tealDark} />
+      <ellipse cx="116" cy="-5" rx="6" ry="10" fill={C.cream} stroke="none" />
+      <circle cx="61" cy="16" r="7" fill={C.coral} />
+    </g>
+  </g>
+);
+export const Tree = ({
+  t,
+  x,
+  y,
+  s = 1,
+  dry = 0,
+}: {
+  t: number;
+  x: number;
+  y: number;
+  s?: number;
+  dry?: number;
+}) => (
+  <g transform={`translate(${x} ${y}) scale(${s})`}>
+    <path d="M-15 0L-9 -190H8L20 0Z" fill="#8f6653" />
+    <g transform={`rotate(${Math.sin(t * 2 + x) * 3} 0 -70)`}>
+      <path
+        d="M-104 -125L-44 -190L-77 -189L-28 -247L-54 -246L0 -328L58 -248L31 -248L81 -191H51L111 -124Z"
+        fill={interpolateColors(dry, [0, 1], [C.sage, "#a89063"])}
+      />
+      <path
+        d="M0 -319L31 -248L81 -191H51L111 -124H25L0 -155Z"
+        fill={interpolateColors(dry, [0, 1], [C.tealDark, "#82704f"])}
+        opacity=".6"
+      />
+      <path
+        d="M-62 -185L-10 -246M-57 -143L12 -211"
+        stroke={C.cream}
+        opacity=".24"
+      />
+    </g>
+  </g>
+);
+export const Coin = ({
+  t,
+  x,
+  y,
+  s = 1,
+}: {
+  t: number;
+  x: number;
+  y: number;
+  s?: number;
+}) => (
+  <g
+    transform={`translate(${x} ${y}) rotate(${t * 50}) scale(${s * (0.75 + 0.25 * Math.abs(Math.cos(t * 2)))} ${s})`}
+  >
+    <circle r="61" fill={C.gold} />
+    <circle r="45" stroke="#b87e41" strokeWidth={4} />
+    <path
+      d="M-10 -25Q40 -35 24 0Q15 16 -20 17M0 -38V36"
+      stroke={C.cream}
+      strokeWidth={9}
+    />
+    <path d="M-44 -31Q-28 -51 -12 -50" stroke={C.cream} />
+  </g>
+);
+export const Bottle = ({
+  t,
+  x,
+  y,
+  s = 1,
+}: {
+  t: number;
+  x: number;
+  y: number;
+  s?: number;
+}) => (
+  <g transform={`translate(${x} ${y}) rotate(${Math.sin(t) * 5}) scale(${s})`}>
+    <path
+      d="M-58 -142V-105Q-103 -90 -103 -51V136Q-103 165 -73 165H73Q103 165 103 136V-51Q103 -90 58 -105V-142Z"
+      fill="url(#metal)"
+    />
+    <g
+      transform={`translate(0 ${-ease(t, 1, 2) * 20}) rotate(${ease(t, 1, 2) * 10})`}
+    >
+      <rect x="-72" y="-179" width="144" height="45" rx="8" fill={C.teal} />
+      {[-50, -25, 0, 25, 50].map((x) => (
+        <path key={x} d={`M${x} -169V-145`} stroke={C.tealDark} />
+      ))}
+    </g>
+    <rect x="-103" y="-25" width="206" height="136" fill={C.cream} />
+    <path
+      d="M-17 -3H17V25H45V59H17V87H-17V59H-45V25H-17Z"
+      fill={C.coral}
+      stroke="none"
+    />
+    <path d="M-75 -90V-48M-75 125V140" stroke={C.cream} strokeWidth={10} />
+  </g>
+);
+export const Rocket = ({
+  t,
+  x,
+  y,
+  s = 1,
+}: {
+  t: number;
+  x: number;
+  y: number;
+  s?: number;
+}) => (
+  <g transform={`translate(${x} ${y}) scale(${s})`}>
+    <g
+      transform={`translate(0 140) rotate(180) scale(${0.9 + Math.sin(t * 22) * 0.1} ${1.3 + Math.sin(t * 25) * 0.15})`}
+    >
+      <Flame t={t} />
+    </g>
+    <path
+      d="M-65 40L-136 161V36L-54 -44M65 40L136 161V36L54 -44"
+      fill={C.teal}
+    />
+    <path
+      d="M-63 126V-140Q-49 -226 0 -291Q49 -226 63 -140V126Z"
+      fill="url(#metal)"
+    />
+    <path d="M-51 -199Q-32 -250 0 -291Q35 -245 51 -199Z" fill={C.coral} />
+    <circle cy="-112" r="43" fill={C.tealDark} />
+    <circle cy="-112" r="29" fill={C.navy} />
+    <path d="M-17 -125L4 -140" stroke={C.cream} strokeWidth={6} />
+    <path d="M-63 25H63V60H-63Z" fill={C.teal} />
+    <path d="M0 43L-14 145H14Z" fill={C.coral} />
+    <path d="M-37 -65V1" stroke={C.cream} strokeWidth={8} />
+  </g>
+);
+export const Figure = ({
+  t,
+  x,
+  y,
+  s = 1,
+  variant = 0,
+}: {
+  t: number;
+  x: number;
+  y: number;
+  s?: number;
+  variant?: number;
+}) => (
+  <g transform={`translate(${x} ${y}) scale(${s})`}>
+    <path d="M-22 70L-35 175H-8L3 90L17 175H45L31 70" fill={C.ink} />
+    <path
+      d="M-38 -31Q0 -52 40 -31L51 78H-49Z"
+      fill={variant % 2 ? C.tealDark : C.navy}
+    />
+    <path d="M-12 -38L0 37L15 -38" fill={C.cream} />
+    <path d="M0 -29L-6 -13L2 14L7 -12Z" fill={C.coral} />
+    <ellipse
+      cy="-71"
+      rx="29"
+      ry="39"
+      fill={variant % 3 === 1 ? "#c58c68" : "#efb58c"}
+    />
+    <path
+      d="M-30 -75Q-38 -116 0 -112Q38 -116 29 -75L17 -89Q-7 -76 -19 -90Z"
+      fill={C.ink}
+    />
+    {[-1, 1].map((side) => (
+      <g
+        key={side}
+        transform={`translate(${side * 34} -22) rotate(${side * (13 + Math.sin(t * 2 + variant) * 12)})`}
+      >
+        <path
+          d="M0 0L15 60L4 84"
+          stroke={variant % 2 ? C.tealDark : C.navy}
+          strokeWidth={23}
+        />
+        <ellipse cx="4" cy="89" rx="9" ry="13" fill="#efb58c" />
+      </g>
+    ))}
+  </g>
+);
+export const Capitol = ({ t }: { t: number }) => (
+  <g transform={`translate(540 ${950 + lerp(t, 0, 1, 190, 0)})`}>
+    <path d="M-310 210H310V240H-310ZM-290 180H290V210H-290Z" fill={C.pale} />
+    <path d="M-280 -70H280V180H-280Z" fill={C.cream} />
+    <path d="M-330 -70L0 -199L330 -70Z" fill={C.pale} />
+    <path d="M-216 -90L0 -173L216 -90Z" fill={C.tealDark} />
+    {[-240, -160, -80, 0, 80, 160, 240].map((x, i) => (
+      <g
+        key={x}
+        transform={`translate(0 ${lerp(t, 0.1 + i * 0.08, 0.8 + i * 0.08, 100, 0)})`}
+      >
+        <rect x={x - 18} y="-42" width="36" height="205" fill={C.pale} />
+        <path
+          d={`M${x - 25} -47H${x + 25}M${x - 25} 163H${x + 25}`}
+          strokeWidth={11}
+        />
+        <path d={`M${x - 9} -20V145`} stroke={C.cream} />
+      </g>
+    ))}
+    <path d="M-108 -174V-252H108V-174" fill={C.cream} />
+    <path d="M-118 -252Q-98 -351 0 -367Q98 -351 118 -252Z" fill={C.pale} />
+    <path d="M-32 -360V-400H32V-360M0 -400V-470" fill={C.cream} />
+    <path
+      d={`M0 -470Q48 ${-489 + Math.sin(t * 3) * 9} 94 -461V-413Q47 ${-440 + Math.sin(t * 3) * 12} 0 -423Z`}
+      fill={C.coral}
+    />
+    <path d="M-280 167H280" stroke={C.tealDark} />
+  </g>
+);
+export const Cover = ({ t, focus = false }: { t: number; focus?: boolean }) => (
+  <Img
+    src={staticFile("episodios/economist-2027/portada-completa.jpg")}
+    style={{
+      position: "absolute",
+      width: focus ? 1500 : 850,
+      height: "auto",
+      left: focus ? -205 : 115,
+      top: focus ? -180 : 170,
+      transform: `translate(${Math.sin(t * 0.6) * 5}px,${Math.cos(t * 0.6) * 5}px)`,
+      boxShadow: "0 22px 80px #0006",
+    }}
+  />
+);

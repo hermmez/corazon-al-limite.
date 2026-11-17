@@ -1,0 +1,107 @@
+import React from "react";
+import { Img, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { SVG, Backdrop, Robot, Surveillance, C, ease, lerp } from "./Art";
+export const Scene3 = () => {
+  const f = useCurrentFrame(),
+    { fps } = useVideoConfig(),
+    t = f / fps;
+  return (
+    <>
+      <SVG>
+        <Backdrop t={t} />
+      </SVG>
+      <Img
+        src={staticFile("episodios/economist-2027/portada-completa.jpg")}
+        style={{
+          position: "absolute",
+          width: 1480,
+          left: lerp(t, 0, 2, -150, -220),
+          top: -420,
+          opacity: 1 - ease(t, 1.7, 2),
+        }}
+      />
+      <Img
+        src={staticFile("imagenes/anatomia/01_cerebro_completo.png")}
+        style={{
+          position: "absolute",
+          width: lerp(t, 3.7, 4.7, 760, 390),
+          left: lerp(t, 3.7, 4.7, 160, 10),
+          top: lerp(t, 3.7, 4.7, 500, 600),
+          opacity: 1 - ease(t, 6.5, 7.2),
+          clipPath: `circle(${ease(t, 1.75, 2) * 75}% at 50% 50%)`,
+        }}
+      />
+      <SVG>
+        {Array.from({ length: 7 }, (_, i) => {
+          const start = 1.9 + i * 0.12,
+            p = ease(t, start, start + 0.9);
+          const y = 620 + i * 73;
+          return (
+            <g key={i} opacity={(1 - ease(t, 6.4, 7.3)) * p}>
+              <path
+                d={`M520 ${y}H${720 + i * 17}L${820 + i * 13} ${y - 90}H1050`}
+                stroke={i % 2 ? C.gold : C.teal}
+                strokeWidth="7"
+                pathLength="1"
+                strokeDasharray="1"
+                strokeDashoffset={1 - p}
+              />
+              <circle
+                cx={520 + ((t * 180 + i * 63) % 500)}
+                cy={y}
+                r="8"
+                fill={C.cream}
+                stroke="none"
+              />
+            </g>
+          );
+        })}
+        <g
+          opacity={ease(t, 4, 4.4) * (1 - ease(t, 8, 8.5))}
+          transform={`translate(0 ${lerp(t, 4, 4.5, 100, 0)})`}
+        >
+          <Robot t={t} x={660} y={800} s={1.25} />
+          {[0, 1, 2].map((i) => (
+            <g
+              key={i}
+              transform={`translate(${80 + i * 305} ${1210 + Math.sin(t + i) * 10})`}
+            >
+              <rect
+                width="245"
+                height="130"
+                rx="17"
+                fill={C.navy}
+                stroke="#609493"
+              />
+              {[0, 1, 2, 3].map((j) => (
+                <path
+                  key={j}
+                  d={`M25 ${28 + j * 24}H${65 + ((t * 50 + j * 41 + i * 20) % 145)}`}
+                  stroke={j === 2 ? C.coral : C.teal}
+                  strokeWidth="7"
+                />
+              ))}
+            </g>
+          ))}
+        </g>
+        <g opacity={ease(t, 7.4, 7.9)}>
+          <Surveillance t={t} x={500} y={850} s={2.2} />
+          <path
+            d="M735 848L1080 640V1150Z"
+            fill={C.teal}
+            opacity={0.05 + Math.sin(t * 2) * 0.02}
+            stroke="none"
+          />
+        </g>
+        <circle
+          cx="738"
+          cy="857"
+          r={lerp(t, 9.55, 10, 0, 1700)}
+          fill={C.navy}
+          stroke={C.teal}
+          strokeWidth="15"
+        />
+      </SVG>
+    </>
+  );
+};

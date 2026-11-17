@@ -1,0 +1,156 @@
+[
+  {
+    "text": " ¿Entonces",
+    "startMs": 89,
+    "endMs": 409,
+    "timestampMs": 249,
+    "confidence": 0.4574
+  },
+  {
+    "text": " predice",
+    "startMs": 829,
+    "endMs": 1249,
+    "timestampMs": 1039,
+    "confidence": 0.6423
+  },
+  {
+    "text": " el",
+    "startMs": 1249,
+    "endMs": 1389,
+    "timestampMs": 1319,
+    "confidence": 0.9935
+  },
+  {
+    "text": " futuro?",
+    "startMs": 1389,
+    "endMs": 1629,
+    "timestampMs": 1509,
+    "confidence": 0.9988
+  },
+  {
+    "text": " No.",
+    "startMs": 2754,
+    "endMs": 2994,
+    "timestampMs": 2874,
+    "confidence": 0.9528
+  },
+  {
+    "text": " Son",
+    "startMs": 3710,
+    "endMs": 3910,
+    "timestampMs": 3810,
+    "confidence": 0.989
+  },
+  {
+    "text": " escenarios",
+    "startMs": 3910,
+    "endMs": 4510,
+    "timestampMs": 4210,
+    "confidence": 0.9957
+  },
+  {
+    "text": " y",
+    "startMs": 4510,
+    "endMs": 4790,
+    "timestampMs": 4650,
+    "confidence": 0.9945
+  },
+  {
+    "text": " preocupaciones,",
+    "startMs": 4790,
+    "endMs": 5650,
+    "timestampMs": 5220,
+    "confidence": 0.999
+  },
+  {
+    "text": " no",
+    "startMs": 6090,
+    "endMs": 6210,
+    "timestampMs": 6150,
+    "confidence": 0.9937
+  },
+  {
+    "text": " certezas.",
+    "startMs": 6210,
+    "endMs": 6890,
+    "timestampMs": 6550,
+    "confidence": 0.8183
+  },
+  {
+    "text": " Pero",
+    "startMs": 7776,
+    "endMs": 7996,
+    "timestampMs": 7886,
+    "confidence": 0.9695
+  },
+  {
+    "text": " vuelve",
+    "startMs": 7996,
+    "endMs": 8496,
+    "timestampMs": 8246,
+    "confidence": 0.6997
+  },
+  {
+    "text": " a",
+    "startMs": 8496,
+    "endMs": 8556,
+    "timestampMs": 8526,
+    "confidence": 0.9945
+  },
+  {
+    "text": " mirar",
+    "startMs": 8556,
+    "endMs": 8816,
+    "timestampMs": 8686,
+    "confidence": 0.9913
+  },
+  {
+    "text": " la",
+    "startMs": 8816,
+    "endMs": 8896,
+    "timestampMs": 8856,
+    "confidence": 0.9972
+  },
+  {
+    "text": " portada:",
+    "startMs": 8896,
+    "endMs": 9336,
+    "timestampMs": 9116,
+    "confidence": 0.9964
+  },
+  {
+    "text": " ¿qué",
+    "startMs": 10277,
+    "endMs": 10417,
+    "timestampMs": 10347,
+    "confidence": 0.9347
+  },
+  {
+    "text": " símbolo",
+    "startMs": 10417,
+    "endMs": 10937,
+    "timestampMs": 10677,
+    "confidence": 0.9975
+  },
+  {
+    "text": " te",
+    "startMs": 10937,
+    "endMs": 11017,
+    "timestampMs": 10977,
+    "confidence": 0.9981
+  },
+  {
+    "text": " inquieta",
+    "startMs": 11017,
+    "endMs": 11477,
+    "timestampMs": 11247,
+    "confidence": 0.9969
+  },
+  {
+    "text": " más?",
+    "startMs": 11477,
+    "endMs": 11637,
+    "timestampMs": 11557,
+    "confidence": 0.9961
+  }
+]

@@ -1,0 +1,163 @@
+[
+  {
+    "text": " Pero",
+    "startMs": 42,
+    "endMs": 282,
+    "timestampMs": 162,
+    "confidence": 0.9602
+  },
+  {
+    "text": " mira",
+    "startMs": 282,
+    "endMs": 662,
+    "timestampMs": 472,
+    "confidence": 0.781
+  },
+  {
+    "text": " el",
+    "startMs": 662,
+    "endMs": 862,
+    "timestampMs": 762,
+    "confidence": 0.9796
+  },
+  {
+    "text": " centro:",
+    "startMs": 862,
+    "endMs": 1162,
+    "timestampMs": 1012,
+    "confidence": 0.9864
+  },
+  {
+    "text": " un",
+    "startMs": 2233,
+    "endMs": 2373,
+    "timestampMs": 2303,
+    "confidence": 0.9821
+  },
+  {
+    "text": " cerebro",
+    "startMs": 2373,
+    "endMs": 2953,
+    "timestampMs": 2663,
+    "confidence": 0.9964
+  },
+  {
+    "text": " rodeado",
+    "startMs": 2953,
+    "endMs": 3613,
+    "timestampMs": 3283,
+    "confidence": 0.9834
+  },
+  {
+    "text": " de",
+    "startMs": 3613,
+    "endMs": 3793,
+    "timestampMs": 3703,
+    "confidence": 0.9975
+  },
+  {
+    "text": " tecnología.",
+    "startMs": 3793,
+    "endMs": 4313,
+    "timestampMs": 4053,
+    "confidence": 0.9936
+  },
+  {
+    "text": " Es",
+    "startMs": 5238,
+    "endMs": 5438,
+    "timestampMs": 5338,
+    "confidence": 0.987
+  },
+  {
+    "text": " una",
+    "startMs": 5438,
+    "endMs": 5598,
+    "timestampMs": 5518,
+    "confidence": 0.997
+  },
+  {
+    "text": " pista",
+    "startMs": 5598,
+    "endMs": 5878,
+    "timestampMs": 5738,
+    "confidence": 0.9978
+  },
+  {
+    "text": " sobre",
+    "startMs": 5878,
+    "endMs": 6218,
+    "timestampMs": 6048,
+    "confidence": 0.9976
+  },
+  {
+    "text": " la",
+    "startMs": 6218,
+    "endMs": 6358,
+    "timestampMs": 6288,
+    "confidence": 0.998
+  },
+  {
+    "text": " inteligencia",
+    "startMs": 6358,
+    "endMs": 6938,
+    "timestampMs": 6648,
+    "confidence": 0.9877
+  },
+  {
+    "text": " artificial,",
+    "startMs": 6938,
+    "endMs": 7478,
+    "timestampMs": 7208,
+    "confidence": 0.9978
+  },
+  {
+    "text": " sus",
+    "startMs": 7898,
+    "endMs": 8078,
+    "timestampMs": 7988,
+    "confidence": 0.9719
+  },
+  {
+    "text": " riesgos",
+    "startMs": 8078,
+    "endMs": 8558,
+    "timestampMs": 8318,
+    "confidence": 0.9955
+  },
+  {
+    "text": " y",
+    "startMs": 8558,
+    "endMs": 9018,
+    "timestampMs": 8788,
+    "confidence": 0.876
+  },
+  {
+    "text": " el",
+    "startMs": 9018,
+    "endMs": 9138,
+    "timestampMs": 9078,
+    "confidence": 0.9969
+  },
+  {
+    "text": " rechazo",
+    "startMs": 9138,
+    "endMs": 9598,
+    "timestampMs": 9368,
+    "confidence": 0.9971
+  },
+  {
+    "text": " que",
+    "startMs": 9598,
+    "endMs": 9798,
+    "timestampMs": 9698,
+    "confidence": 0.9962
+  },
+  {
+    "text": " provoca.",
+    "startMs": 9798,
+    "endMs": 10218,
+    "timestampMs": 10008,
+    "confidence": 0.993
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "segundo": 0,
+    "elemento_principal": "portada",
+    "accion_visual": "Entrada inmediata; destello de misil",
+    "movimiento_objetos": "aletas del misil",
+    "camara": "seguimiento corto",
+    "transicion": "máscara de papel",
+    "frase_sincronizada": "Misiles,",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 1,
+    "elemento_principal": "misil",
+    "accion_visual": "Misil atraviesa el borde documental",
+    "movimiento_objetos": "estela y aletas",
+    "camara": "seguimiento ascendente",
+    "transicion": "silueta vectorial",
+    "frase_sincronizada": "incendios y",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 2,
+    "elemento_principal": "llama/cerebro",
+    "accion_visual": "Llama se ramifica hacia el cerebro al oírlo",
+    "movimiento_objetos": "lenguas y nodos",
+    "camara": "paneo hacia el centro",
+    "transicion": "morph de trayectorias",
+    "frase_sincronizada": "y un cerebro.",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 3,
+    "elemento_principal": "circuitos",
+    "accion_visual": "Impulso recorre las conexiones",
+    "movimiento_objetos": "nodos y neurona",
+    "camara": "desplazamiento lateral",
+    "transicion": "trazo SVG",
+    "frase_sincronizada": "cerebro. ¿Qué",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 4,
+    "elemento_principal": "cerebro",
+    "accion_visual": "Cerebro aprobado aparece por máscara",
+    "movimiento_objetos": "impulsos neuronales",
+    "camara": "acercamiento selectivo",
+    "transicion": "iris",
+    "frase_sincronizada": "¿Qué esconde esta inquietante",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 5,
+    "elemento_principal": "portada",
+    "accion_visual": "La imagen documental recupera el centro",
+    "movimiento_objetos": "misil sale; pulso se retrae",
+    "camara": "retroceso",
+    "transicion": "iris inverso",
+    "frase_sincronizada": "inquietante portada",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 6,
+    "elemento_principal": "portada",
+    "accion_visual": "Señal señala símbolos observables",
+    "movimiento_objetos": "anillo y líneas",
+    "camara": "deriva lateral",
+    "transicion": "máscara de detalle",
+    "frase_sincronizada": "portada de The Economist para",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 7,
+    "elemento_principal": "portada",
+    "accion_visual": "Anillo asciende hacia las figuras superiores",
+    "movimiento_objetos": "circuitos se repliegan",
+    "camara": "paneo superior",
+    "transicion": "encadenado de trazos",
+    "frase_sincronizada": "para 2027?",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 8,
+    "elemento_principal": "portada",
+    "accion_visual": "Anillo asciende hacia las figuras superiores",
+    "movimiento_objetos": "circuitos se repliegan",
+    "camara": "paneo superior",
+    "transicion": "encadenado de trazos",
+    "frase_sincronizada": "Arriba,",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 9,
+    "elemento_principal": "figuras",
+    "accion_visual": "Recorrido del grupo superior documental",
+    "movimiento_objetos": "onda en contorno",
+    "camara": "paneo corto",
+    "transicion": "recorte de encuadre",
+    "frase_sincronizada": "Arriba, los líderes",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 10,
+    "elemento_principal": "figuras",
+    "accion_visual": "Las figuras dan paso a representación propia",
+    "movimiento_objetos": "brazos y cabezas",
+    "camara": "descenso",
+    "transicion": "barrido",
+    "frase_sincronizada": "líderes parecen vigilar",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 11,
+    "elemento_principal": "líderes genéricos",
+    "accion_visual": "Gestos alternados sin identificar personas",
+    "movimiento_objetos": "codos y hombros",
+    "camara": "parallax",
+    "transicion": "máscara vertical",
+    "frase_sincronizada": "vigilar el mundo.",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 12,
+    "elemento_principal": "líderes genéricos",
+    "accion_visual": "Sombra de poder se proyecta",
+    "movimiento_objetos": "manos y sombra",
+    "camara": "desplazamiento lateral",
+    "transicion": "sombras",
+    "frase_sincronizada": "La revista",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 13,
+    "elemento_principal": "Capitolio",
+    "accion_visual": "Cúpula y columnas se construyen por capas",
+    "movimiento_objetos": "bandera y columnas",
+    "camara": "travelling hacia abajo",
+    "transicion": "máscara de arquitectura",
+    "frase_sincronizada": "revista analiza la sucesión",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 14,
+    "elemento_principal": "Capitolio",
+    "accion_visual": "Ondea la bandera y recorremos las columnas",
+    "movimiento_objetos": "Bandera y articulaciones de figuras genéricas ante el Capitolio",
+    "camara": "paneo",
+    "transicion": "línea arquitectónica",
+    "frase_sincronizada": "sucesión de Trump y",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 15,
+    "elemento_principal": "mapa mundial",
+    "accion_visual": "Mapa despliega regiones",
+    "movimiento_objetos": "países destacados",
+    "camara": "retroceso",
+    "transicion": "máscara cartográfica",
+    "frase_sincronizada": "y el avance del populismo.",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 16,
+    "elemento_principal": "mapa mundial",
+    "accion_visual": "Sombra política cruza territorios",
+    "movimiento_objetos": "figuras de sombra",
+    "camara": "parallax",
+    "transicion": "máscara",
+    "frase_sincronizada": "populismo.",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 17,
+    "elemento_principal": "detalle documental del cerebro",
+    "accion_visual": "El barrido de bandera revela un acercamiento del documento; se prepara la máscara del cerebro aprobado",
+    "movimiento_objetos": "Tela sale del encuadre y líneas recorren el documento",
+    "camara": "aproximación selectiva",
+    "transicion": "máscara de circuitos",
+    "frase_sincronizada": "Pero mira el centro:",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 18,
+    "elemento_principal": "cerebro",
+    "accion_visual": "El documento da paso al cerebro aprobado al comenzar la palabra cerebro, en el momento de la palabra correspondiente",
+    "movimiento_objetos": "impulsos en curvas",
+    "camara": "deriva lateral",
+    "transicion": "trazo",
+    "frase_sincronizada": "centro:",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 19,
+    "elemento_principal": "cerebro",
+    "accion_visual": "El documento da paso al cerebro aprobado al comenzar la palabra cerebro, en el momento de la palabra correspondiente",
+    "movimiento_objetos": "impulsos en curvas",
+    "camara": "deriva lateral",
+    "transicion": "trazo",
+    "frase_sincronizada": "un cerebro",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 20,
+    "elemento_principal": "neuronas",
+    "accion_visual": "Impulsos recorren conexiones",
+    "movimiento_objetos": "ramas e impulsos",
+    "camara": "seguimiento",
+    "transicion": "extensión de circuitos",
+    "frase_sincronizada": "cerebro rodeado de tecnología.",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 21,
+    "elemento_principal": "circuitos",
+    "accion_visual": "Ramificaciones conectan al entorno",
+    "movimiento_objetos": "nodos y terminales",
+    "camara": "retroceso",
+    "transicion": "trazo enlazado",
+    "frase_sincronizada": "tecnología.",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 22,
+    "elemento_principal": "robot",
+    "accion_visual": "Piezas del robot se ensamblan",
+    "movimiento_objetos": "cabeza; codos; pinza",
+    "camara": "descenso",
+    "transicion": "ensamblaje por máscara",
+    "frase_sincronizada": "Es una pista",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 23,
+    "elemento_principal": "robot",
+    "accion_visual": "Pinza se abre y brazo apunta",
+    "movimiento_objetos": "hombro y codo",
+    "camara": "seguimiento de mano",
+    "transicion": "encadenado",
+    "frase_sincronizada": "pista sobre la inteligencia",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 24,
+    "elemento_principal": "pantallas",
+    "accion_visual": "Paneles reciben información sin datos inventados",
+    "movimiento_objetos": "barras abstractas",
+    "camara": "paneo lateral",
+    "transicion": "revelado desde pinza",
+    "frase_sincronizada": "inteligencia artificial,",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 25,
+    "elemento_principal": "robot",
+    "accion_visual": "Cabeza sigue una señal de riesgo",
+    "movimiento_objetos": "cuello; pinza",
+    "camara": "parallax",
+    "transicion": "línea de señal",
+    "frase_sincronizada": "sus riesgos y",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 26,
+    "elemento_principal": "cámara",
+    "accion_visual": "Cámara de vigilancia gira en su soporte",
+    "movimiento_objetos": "eje y lente",
+    "camara": "seguimiento",
+    "transicion": "círculo de lente",
+    "frase_sincronizada": "y el rechazo que provoca.",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 27,
+    "elemento_principal": "lente",
+    "accion_visual": "Diafragma abre paso al terreno",
+    "movimiento_objetos": "hojas del diafragma",
+    "camara": "acercamiento selectivo",
+    "transicion": "iris",
+    "frase_sincronizada": "provoca.",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 28,
+    "elemento_principal": "tanque",
+    "accion_visual": "Tanque original entra sobre terreno por capas",
+    "movimiento_objetos": "orugas; ruedas; suspensión",
+    "camara": "seguimiento lateral",
+    "transicion": "iris mecánico",
+    "frase_sincronizada": "Más abajo aparecen",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 29,
+    "elemento_principal": "tanque",
+    "accion_visual": "Orugas avanzan y bobina la suspensión",
+    "movimiento_objetos": "eslabones y ruedas",
+    "camara": "seguimiento",
+    "transicion": "parallax de suelo",
+    "frase_sincronizada": "aparecen tanques y",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 30,
+    "elemento_principal": "tanque",
+    "accion_visual": "Torre cambia de orientación sin disparar",
+    "movimiento_objetos": "torreta; antena",
+    "camara": "travelling",
+    "transicion": "articulación",
+    "frase_sincronizada": "y armas.",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 31,
+    "elemento_principal": "tanque",
+    "accion_visual": "Torre cambia de orientación sin disparar",
+    "movimiento_objetos": "torreta; antena",
+    "camara": "travelling",
+    "transicion": "articulación",
+    "frase_sincronizada": "La publicación",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 32,
+    "elemento_principal": "terreno",
+    "accion_visual": "El fondo se desplaza a distinta velocidad",
+    "movimiento_objetos": "tanque y suelo",
+    "camara": "seguimiento",
+    "transicion": "capas",
+    "frase_sincronizada": "publicación teme repercusiones",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 33,
+    "elemento_principal": "misil",
+    "accion_visual": "Misil cruza el cielo sin impacto",
+    "movimiento_objetos": "estela; aletas",
+    "camara": "paneo ascendente",
+    "transicion": "barrido diagonal",
+    "frase_sincronizada": "repercusiones de la guerra con",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 34,
+    "elemento_principal": "Medio Oriente",
+    "accion_visual": "Cartografía revela Irán y vecinos",
+    "movimiento_objetos": "onda geográfica",
+    "camara": "paneo sobre mapa",
+    "transicion": "máscara de estela",
+    "frase_sincronizada": "con Irán y observa",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 35,
+    "elemento_principal": "Medio Oriente",
+    "accion_visual": "Foco en región sin afirmar guerra futura",
+    "movimiento_objetos": "anillos y contornos",
+    "camara": "retroceso",
+    "transicion": "onda",
+    "frase_sincronizada": "observa con inquietud la",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 36,
+    "elemento_principal": "Asia oriental",
+    "accion_visual": "Cartografía cambia de región",
+    "movimiento_objetos": "países y costa",
+    "camara": "desplazamiento",
+    "transicion": "onda cartográfica",
+    "frase_sincronizada": "la situación de Taiwán.",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 37,
+    "elemento_principal": "ondas",
+    "accion_visual": "Ondas se transforman en relieve vegetal",
+    "movimiento_objetos": "olas y árboles nacientes",
+    "camara": "descenso",
+    "transicion": "morph de curvas",
+    "frase_sincronizada": "Taiwán.",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 38,
+    "elemento_principal": "mapa/clima",
+    "accion_visual": "Pequeña llama nace en cartografía",
+    "movimiento_objetos": "lenguas de llama",
+    "camara": "descenso",
+    "transicion": "máscara orgánica",
+    "frase_sincronizada": "Y el fuego podemos",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 39,
+    "elemento_principal": "paisaje",
+    "accion_visual": "Terreno emerge de las curvas del mapa",
+    "movimiento_objetos": "capas del horizonte",
+    "camara": "travelling lateral",
+    "transicion": "transformación",
+    "frase_sincronizada": "podemos relacionarlo con",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 40,
+    "elemento_principal": "árboles",
+    "accion_visual": "Copas y ramas oscilan con viento",
+    "movimiento_objetos": "ramas; hojas",
+    "camara": "parallax",
+    "transicion": "revelado por nube",
+    "frase_sincronizada": "con otro tema de la revista:",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 41,
+    "elemento_principal": "vegetación",
+    "accion_visual": "Color de hojas cambia gradualmente",
+    "movimiento_objetos": "hojas desprendidas",
+    "camara": "seguimiento lateral",
+    "transicion": "interpolación de color",
+    "frase_sincronizada": "revista:",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 42,
+    "elemento_principal": "fuego",
+    "accion_visual": "Frentes ilustrados crecen sin violencia gráfica",
+    "movimiento_objetos": "llamas; hojas; humo",
+    "camara": "paneo motivado",
+    "transicion": "máscara de fuego",
+    "frase_sincronizada": "el riesgo de más",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 43,
+    "elemento_principal": "bosque",
+    "accion_visual": "Fuego avanza entre capas con profundidad",
+    "movimiento_objetos": "árboles; humo; ceniza",
+    "camara": "seguimiento",
+    "transicion": "parallax",
+    "frase_sincronizada": "más calor extremo,",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 44,
+    "elemento_principal": "termómetro",
+    "accion_visual": "Columna asciende sin escala numérica",
+    "movimiento_objetos": "mercurio; indicador",
+    "camara": "desplazamiento hacia medidor",
+    "transicion": "trazo",
+    "frase_sincronizada": "extremo, sequías e",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 45,
+    "elemento_principal": "calor",
+    "accion_visual": "Calor ondula el paisaje mediante geometría 2D",
+    "movimiento_objetos": "copas y humo",
+    "camara": "paneo",
+    "transicion": "curvas SVG",
+    "frase_sincronizada": "e incendios.",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 46,
+    "elemento_principal": "nube/gráfica",
+    "accion_visual": "Nube revela barras económicas",
+    "movimiento_objetos": "barras emergentes",
+    "camara": "descenso",
+    "transicion": "máscara suave",
+    "frase_sincronizada": "Entre tantas",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 47,
+    "elemento_principal": "gráficas",
+    "accion_visual": "Barras cambian de tamaño sin cifras",
+    "movimiento_objetos": "barras y curva",
+    "camara": "paneo corto",
+    "transicion": "trazo",
+    "frase_sincronizada": "tantas amenazas también",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 48,
+    "elemento_principal": "barras",
+    "accion_visual": "Barras responden al pulso financiero",
+    "movimiento_objetos": "barras y curva",
+    "camara": "desplazamiento lateral",
+    "transicion": "trazo enlazado",
+    "frase_sincronizada": "también hay señales sobre",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 49,
+    "elemento_principal": "gráficas",
+    "accion_visual": "Curva se redondea en monedas",
+    "movimiento_objetos": "barras y discos",
+    "camara": "seguimiento",
+    "transicion": "transformación",
+    "frase_sincronizada": "sobre deuda,",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 50,
+    "elemento_principal": "monedas",
+    "accion_visual": "Monedas ruedan hacia el centro",
+    "movimiento_objetos": "rotación; caída",
+    "camara": "seguimiento lateral",
+    "transicion": "círculos",
+    "frase_sincronizada": "medicamentos para adelgazar",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 51,
+    "elemento_principal": "medicamento",
+    "accion_visual": "Frasco ilustrado emerge del apilamiento",
+    "movimiento_objetos": "tapa; pastillas",
+    "camara": "desplazamiento corto",
+    "transicion": "máscara circular",
+    "frase_sincronizada": "adelgazar y viajes",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 52,
+    "elemento_principal": "medicamento",
+    "accion_visual": "Tapa gira y pastillas se separan",
+    "movimiento_objetos": "tapa; cápsulas",
+    "camara": "órbita 2D sutil",
+    "transicion": "articulación",
+    "frase_sincronizada": "viajes espaciales.",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 53,
+    "elemento_principal": "cohete",
+    "accion_visual": "Frasco cede su silueta al fuselaje",
+    "movimiento_objetos": "aletas; tapa/cúpula",
+    "camara": "paneo ascendente",
+    "transicion": "morph",
+    "frase_sincronizada": "espaciales. No todo",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 54,
+    "elemento_principal": "cohete",
+    "accion_visual": "Propulsión aumenta y cohete despega",
+    "movimiento_objetos": "llama; aletas; humo",
+    "camara": "seguimiento ascendente",
+    "transicion": "máscara de gases",
+    "frase_sincronizada": "todo es guerra:",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 55,
+    "elemento_principal": "nubes",
+    "accion_visual": "Cohete atraviesa capas atmosféricas",
+    "movimiento_objetos": "nubes; gases",
+    "camara": "ascenso",
+    "transicion": "parallax",
+    "frase_sincronizada": "el mundo también",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 56,
+    "elemento_principal": "Tierra",
+    "accion_visual": "Curvatura aparece bajo el cohete",
+    "movimiento_objetos": "continentes; nubes",
+    "camara": "retroceso",
+    "transicion": "iris planetario",
+    "frase_sincronizada": "también está cambiando.",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 57,
+    "elemento_principal": "Tierra",
+    "accion_visual": "Superficie gira dentro de su máscara",
+    "movimiento_objetos": "continentes y bandas",
+    "camara": "alejamiento",
+    "transicion": "máscara circular",
+    "frase_sincronizada": "cambiando.",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 58,
+    "elemento_principal": "Tierra",
+    "accion_visual": "Retorno desde el espacio",
+    "movimiento_objetos": "continentes; atmósfera",
+    "camara": "aproximación motivada",
+    "transicion": "iris",
+    "frase_sincronizada": "¿Entonces predice",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 59,
+    "elemento_principal": "portada",
+    "accion_visual": "Círculo terrestre da paso al documento",
+    "movimiento_objetos": "nubes se retiran",
+    "camara": "retroceso",
+    "transicion": "iris a portada original",
+    "frase_sincronizada": "predice el futuro?",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 60,
+    "elemento_principal": "símbolos",
+    "accion_visual": "Señales señalan preocupaciones editoriales",
+    "movimiento_objetos": "circuitos; punteros",
+    "camara": "desplazamiento corto",
+    "transicion": "revelaciones enlazadas",
+    "frase_sincronizada": "No.",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 61,
+    "elemento_principal": "símbolos",
+    "accion_visual": "Señales señalan preocupaciones editoriales",
+    "movimiento_objetos": "circuitos; punteros",
+    "camara": "desplazamiento corto",
+    "transicion": "revelaciones enlazadas",
+    "frase_sincronizada": "Son escenarios",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 62,
+    "elemento_principal": "circuitos",
+    "accion_visual": "Líneas vuelven hacia el cerebro documental",
+    "movimiento_objetos": "impulsos y nodos",
+    "camara": "deriva lateral",
+    "transicion": "trazo inverso",
+    "frase_sincronizada": "escenarios y preocupaciones,",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 63,
+    "elemento_principal": "tanque",
+    "accion_visual": "Tanque ilustrado atraviesa primer plano",
+    "movimiento_objetos": "ruedas; orugas; suspensión",
+    "camara": "seguimiento breve",
+    "transicion": "oclusión",
+    "frase_sincronizada": "preocupaciones,",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 64,
+    "elemento_principal": "llamas",
+    "accion_visual": "Llamas retroceden mostrando el documento",
+    "movimiento_objetos": "lenguas y humo",
+    "camara": "retroceso",
+    "transicion": "máscara de fuego inversa",
+    "frase_sincronizada": "no certezas.",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 65,
+    "elemento_principal": "portada",
+    "accion_visual": "Portada completa y pregunta se revelan",
+    "movimiento_objetos": "anillo; marcador",
+    "camara": "encuadre estable motivado",
+    "transicion": "máscara tipográfica",
+    "frase_sincronizada": "Pero vuelve",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 66,
+    "elemento_principal": "portada",
+    "accion_visual": "Portada completa y pregunta se revelan",
+    "movimiento_objetos": "anillo; marcador",
+    "camara": "encuadre estable motivado",
+    "transicion": "máscara tipográfica",
+    "frase_sincronizada": "vuelve a mirar la portada:",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 67,
+    "elemento_principal": "pregunta",
+    "accion_visual": "Pregunta final aparece por palabras",
+    "movimiento_objetos": "indicador y anillo",
+    "camara": "deriva mínima",
+    "transicion": "revelado de texto",
+    "frase_sincronizada": "portada:",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 68,
+    "elemento_principal": "portada/pregunta",
+    "accion_visual": "Pequeña pausa de lectura con actividad",
+    "movimiento_objetos": "anillo; impulso",
+    "camara": "deriva mínima",
+    "transicion": "sin corte",
+    "frase_sincronizada": "¿qué símbolo te inquieta",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  },
+  {
+    "segundo": 69,
+    "elemento_principal": "portada/pregunta",
+    "accion_visual": "Cierre sobre documento legible sin negro",
+    "movimiento_objetos": "órbita de marcador",
+    "camara": "deriva mínima",
+    "transicion": "continuidad",
+    "frase_sincronizada": "inquieta más?",
+    "validacion": "Revisión 2 exportada; sincronía revisada en muestras y movimiento comprobado cada 0,5 s."
+  }
+]

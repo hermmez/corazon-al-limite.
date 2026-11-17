@@ -1,0 +1,163 @@
+[
+  {
+    "text": " Entre",
+    "startMs": 171,
+    "endMs": 411,
+    "timestampMs": 291,
+    "confidence": 0.9897
+  },
+  {
+    "text": " tantas",
+    "startMs": 411,
+    "endMs": 771,
+    "timestampMs": 591,
+    "confidence": 0.9979
+  },
+  {
+    "text": " amenazas",
+    "startMs": 771,
+    "endMs": 1331,
+    "timestampMs": 1051,
+    "confidence": 0.9988
+  },
+  {
+    "text": " también",
+    "startMs": 1331,
+    "endMs": 1811,
+    "timestampMs": 1571,
+    "confidence": 0.7045
+  },
+  {
+    "text": " hay",
+    "startMs": 1811,
+    "endMs": 1971,
+    "timestampMs": 1891,
+    "confidence": 0.9985
+  },
+  {
+    "text": " señales",
+    "startMs": 1971,
+    "endMs": 2391,
+    "timestampMs": 2181,
+    "confidence": 0.9987
+  },
+  {
+    "text": " sobre",
+    "startMs": 2391,
+    "endMs": 2691,
+    "timestampMs": 2541,
+    "confidence": 0.9967
+  },
+  {
+    "text": " deuda,",
+    "startMs": 2691,
+    "endMs": 3151,
+    "timestampMs": 2921,
+    "confidence": 0.9883
+  },
+  {
+    "text": " medicamentos",
+    "startMs": 3471,
+    "endMs": 4031,
+    "timestampMs": 3751,
+    "confidence": 0.9915
+  },
+  {
+    "text": " para",
+    "startMs": 4031,
+    "endMs": 4311,
+    "timestampMs": 4171,
+    "confidence": 0.9974
+  },
+  {
+    "text": " adelgazar",
+    "startMs": 4311,
+    "endMs": 4831,
+    "timestampMs": 4571,
+    "confidence": 0.9987
+  },
+  {
+    "text": " y",
+    "startMs": 4831,
+    "endMs": 5291,
+    "timestampMs": 5061,
+    "confidence": 0.8892
+  },
+  {
+    "text": " viajes",
+    "startMs": 5291,
+    "endMs": 5651,
+    "timestampMs": 5471,
+    "confidence": 0.9954
+  },
+  {
+    "text": " espaciales.",
+    "startMs": 5651,
+    "endMs": 6471,
+    "timestampMs": 6061,
+    "confidence": 0.9962
+  },
+  {
+    "text": " No",
+    "startMs": 7259,
+    "endMs": 7459,
+    "timestampMs": 7359,
+    "confidence": 0.974
+  },
+  {
+    "text": " todo",
+    "startMs": 7459,
+    "endMs": 7679,
+    "timestampMs": 7569,
+    "confidence": 0.9961
+  },
+  {
+    "text": " es",
+    "startMs": 7679,
+    "endMs": 7859,
+    "timestampMs": 7769,
+    "confidence": 0.9993
+  },
+  {
+    "text": " guerra:",
+    "startMs": 7859,
+    "endMs": 8079,
+    "timestampMs": 7969,
+    "confidence": 0.9936
+  },
+  {
+    "text": " el",
+    "startMs": 8880,
+    "endMs": 9020,
+    "timestampMs": 8950,
+    "confidence": 0.9874
+  },
+  {
+    "text": " mundo",
+    "startMs": 9020,
+    "endMs": 9280,
+    "timestampMs": 9150,
+    "confidence": 0.9973
+  },
+  {
+    "text": " también",
+    "startMs": 9280,
+    "endMs": 9800,
+    "timestampMs": 9540,
+    "confidence": 0.9907
+  },
+  {
+    "text": " está",
+    "startMs": 9800,
+    "endMs": 10100,
+    "timestampMs": 9950,
+    "confidence": 0.9962
+  },
+  {
+    "text": " cambiando.",
+    "startMs": 10100,
+    "endMs": 10620,
+    "timestampMs": 10360,
+    "confidence": 0.9979
+  }
+]

@@ -1,0 +1,1280 @@
+import React from "react";
+import {
+  AbsoluteFill,
+  Audio,
+  Freeze,
+  Sequence,
+  staticFile,
+  useCurrentFrame,
+  useVideoConfig,
+  interpolate,
+} from "remotion";
+import { Captions } from "./Captions";
+import { C, ease } from "./Art";
+import { visualClocks, finalQuestionMs } from "./timing";
+import { Scene1 } from "./Scene1";
+import { Scene2 } from "./Scene2";
+import { Scene3 } from "./Scene3";
+import { Scene4 } from "./Scene4";
+import { Scene5 } from "./Scene5";
+import { Scene6 } from "./Scene6";
+import { Scene7 } from "./Scene7";
+
+const VisualClock = ({
+  scene,
+  children,
+}: {
+  scene: number;
+  children: React.ReactNode;
+}) => {
+  const f = useCurrentFrame(),
+    { fps } = useVideoConfig(),
+    c = visualClocks[scene];
+  return (
+    <Freeze
+      frame={
+        interpolate(f / fps, [...c.inputSeconds], [...c.animationSeconds], {
+          extrapolateLeft: "clamp",
+          extrapolateRight: "extend",
+        }) * fps
+      }
+    >
+      {children}
+    </Freeze>
+  );
+};
+const IncomingMask = ({
+  children,
+  kind,
+}: {
+  children: React.ReactNode;
+  kind: string;
+}) => {
+  const f = useCurrentFrame(),
+    { fps } = useVideoConfig(),
+    p = ease(f / fps, 0, 0.35);
+  return (
+    <AbsoluteFill
+      style={{
+        clipPath:
+          kind === "iris"
+            ? `circle(${p * 140}% at 68% 46%)`
+            : kind === "wave"
+              ? `inset(${(1 - p) * 100}% 0 0 0)`
+              : `inset(0 ${(1 - p) * 100}% 0 0)`,
+      }}
+    >
+      {children}
+    </AbsoluteFill>
+  );
+};
+export const Economist2027 = () => {
+  const { fps } = useVideoConfig();
+  return (
+    <AbsoluteFill style={{ background: C.navy, overflow: "hidden" }}>
+      <Audio
+        src={staticFile("episodios/economist-2027/narracion-ritmo-v2.wav")}
+      />
+      <Audio
+        src={staticFile("episodios/economist-2027/musica-ritmo-v2.wav")}
+        volume={0.65}
+      />
+      <Audio
+        src={staticFile("episodios/economist-2027/efectos-ritmo-v2.wav")}
+        volume={0.55}
+      />
+      <Sequence
+        name="01 — Escena sincronizada"
+        from={0}
+        durationInFrames={274}
+        premountFor={fps}
+      >
+        <VisualClock scene={0}>
+          <Scene1 />
+        </VisualClock>
+        <Captions
+          captions={[
+            {
+              text: " Misiles,",
+              startMs: 0,
+              endMs: 540,
+              timestampMs: 270,
+              confidence: 0.5856,
+            },
+            {
+              text: " incendios",
+              startMs: 1100,
+              endMs: 1740,
+              timestampMs: 1420,
+              confidence: 0.9958,
+            },
+            {
+              text: " y",
+              startMs: 1740,
+              endMs: 2320,
+              timestampMs: 2030,
+              confidence: 0.8439,
+            },
+            {
+              text: " un",
+              startMs: 2320,
+              endMs: 2480,
+              timestampMs: 2400,
+              confidence: 0.9827,
+            },
+            {
+              text: " cerebro.",
+              startMs: 2480,
+              endMs: 3080,
+              timestampMs: 2780,
+              confidence: 0.9947,
+            },
+            {
+              text: " ¿Qué",
+              startMs: 3859,
+              endMs: 4099,
+              timestampMs: 3979,
+              confidence: 0.9485,
+            },
+            {
+              text: " esconde",
+              startMs: 4099,
+              endMs: 4499,
+              timestampMs: 4299,
+              confidence: 0.7265,
+            },
+            {
+              text: " esta",
+              startMs: 4499,
+              endMs: 4779,
+              timestampMs: 4639,
+              confidence: 0.9401,
+            },
+            {
+              text: " inquietante",
+              startMs: 4779,
+              endMs: 5499,
+              timestampMs: 5139,
+              confidence: 0.9942,
+            },
+            {
+              text: " portada",
+              startMs: 5499,
+              endMs: 6019,
+              timestampMs: 5759,
+              confidence: 0.9984,
+            },
+            {
+              text: " de",
+              startMs: 6019,
+              endMs: 6199,
+              timestampMs: 6109,
+              confidence: 0.901,
+            },
+            {
+              text: " The",
+              startMs: 6199,
+              endMs: 6299,
+              timestampMs: 6249,
+              confidence: 0.5619,
+            },
+            {
+              text: " Economist",
+              startMs: 6299,
+              endMs: 6799,
+              timestampMs: 6549,
+              confidence: 0.99,
+            },
+            {
+              text: " para",
+              startMs: 6799,
+              endMs: 7019,
+              timestampMs: 6909,
+              confidence: 0.9813,
+            },
+            {
+              text: " 2027?",
+              startMs: 7019,
+              endMs: 7839,
+              timestampMs: 7429,
+              confidence: 0.9717,
+            },
+          ]}
+        />
+      </Sequence>
+      <Sequence
+        name="02 — Escena sincronizada"
+        from={263}
+        durationInFrames={262}
+        premountFor={fps}
+      >
+        <IncomingMask kind="iris">
+          <VisualClock scene={1}>
+            <Scene2 />
+          </VisualClock>
+        </IncomingMask>
+        <div
+          style={{
+            position: "absolute",
+            top: 1390,
+            left: 100,
+            color: "#b8cbc4",
+            fontFamily: "Arial",
+            fontSize: 20,
+            letterSpacing: 2,
+          }}
+        >
+          RECREACIÓN 2D · LECTURA VISUAL
+        </div>
+        <Captions
+          captions={[
+            {
+              text: " Arriba,",
+              startMs: 112,
+              endMs: 612,
+              timestampMs: 362,
+              confidence: 0.9572,
+            },
+            {
+              text: " los",
+              startMs: 952,
+              endMs: 1072,
+              timestampMs: 1012,
+              confidence: 0.9913,
+            },
+            {
+              text: " líderes",
+              startMs: 1072,
+              endMs: 1512,
+              timestampMs: 1292,
+              confidence: 0.9978,
+            },
+            {
+              text: " parecen",
+              startMs: 1512,
+              endMs: 1892,
+              timestampMs: 1702,
+              confidence: 0.993,
+            },
+            {
+              text: " vigilar",
+              startMs: 1892,
+              endMs: 2352,
+              timestampMs: 2122,
+              confidence: 0.9827,
+            },
+            {
+              text: " el",
+              startMs: 2352,
+              endMs: 2552,
+              timestampMs: 2452,
+              confidence: 0.998,
+            },
+            {
+              text: " mundo.",
+              startMs: 2552,
+              endMs: 2832,
+              timestampMs: 2692,
+              confidence: 0.9978,
+            },
+            {
+              text: " La",
+              startMs: 3751,
+              endMs: 3871,
+              timestampMs: 3811,
+              confidence: 0.9902,
+            },
+            {
+              text: " revista",
+              startMs: 3871,
+              endMs: 4311,
+              timestampMs: 4091,
+              confidence: 0.9976,
+            },
+            {
+              text: " analiza",
+              startMs: 4311,
+              endMs: 4851,
+              timestampMs: 4581,
+              confidence: 0.9838,
+            },
+            {
+              text: " la",
+              startMs: 4851,
+              endMs: 4991,
+              timestampMs: 4921,
+              confidence: 0.9882,
+            },
+            {
+              text: " sucesión",
+              startMs: 4991,
+              endMs: 5491,
+              timestampMs: 5241,
+              confidence: 0.997,
+            },
+            {
+              text: " de",
+              startMs: 5491,
+              endMs: 5611,
+              timestampMs: 5551,
+              confidence: 0.9941,
+            },
+            {
+              text: " Trump",
+              startMs: 5611,
+              endMs: 5991,
+              timestampMs: 5801,
+              confidence: 0.9967,
+            },
+            {
+              text: " y",
+              startMs: 5991,
+              endMs: 6311,
+              timestampMs: 6151,
+              confidence: 0.9927,
+            },
+            {
+              text: " el",
+              startMs: 6311,
+              endMs: 6431,
+              timestampMs: 6371,
+              confidence: 0.9995,
+            },
+            {
+              text: " avance",
+              startMs: 6431,
+              endMs: 6731,
+              timestampMs: 6581,
+              confidence: 0.9985,
+            },
+            {
+              text: " del",
+              startMs: 6731,
+              endMs: 6971,
+              timestampMs: 6851,
+              confidence: 0.9957,
+            },
+            {
+              text: " populismo.",
+              startMs: 6971,
+              endMs: 7571,
+              timestampMs: 7271,
+              confidence: 0.9984,
+            },
+          ]}
+        />
+      </Sequence>
+      <Sequence
+        name="03 — Escena sincronizada"
+        from={514}
+        durationInFrames={340}
+        premountFor={fps}
+      >
+        <IncomingMask kind="flag">
+          <VisualClock scene={2}>
+            <Scene3 />
+          </VisualClock>
+        </IncomingMask>
+        <div
+          style={{
+            position: "absolute",
+            top: 1390,
+            left: 100,
+            color: "#b8cbc4",
+            fontFamily: "Arial",
+            fontSize: 20,
+            letterSpacing: 2,
+          }}
+        >
+          RECREACIÓN 2D · LECTURA VISUAL
+        </div>
+        <Captions
+          captions={[
+            {
+              text: " Pero",
+              startMs: 42,
+              endMs: 282,
+              timestampMs: 162,
+              confidence: 0.9602,
+            },
+            {
+              text: " mira",
+              startMs: 282,
+              endMs: 662,
+              timestampMs: 472,
+              confidence: 0.781,
+            },
+            {
+              text: " el",
+              startMs: 662,
+              endMs: 862,
+              timestampMs: 762,
+              confidence: 0.9796,
+            },
+            {
+              text: " centro:",
+              startMs: 862,
+              endMs: 1162,
+              timestampMs: 1012,
+              confidence: 0.9864,
+            },
+            {
+              text: " un",
+              startMs: 2233,
+              endMs: 2373,
+              timestampMs: 2303,
+              confidence: 0.9821,
+            },
+            {
+              text: " cerebro",
+              startMs: 2373,
+              endMs: 2953,
+              timestampMs: 2663,
+              confidence: 0.9964,
+            },
+            {
+              text: " rodeado",
+              startMs: 2953,
+              endMs: 3613,
+              timestampMs: 3283,
+              confidence: 0.9834,
+            },
+            {
+              text: " de",
+              startMs: 3613,
+              endMs: 3793,
+              timestampMs: 3703,
+              confidence: 0.9975,
+            },
+            {
+              text: " tecnología.",
+              startMs: 3793,
+              endMs: 4313,
+              timestampMs: 4053,
+              confidence: 0.9936,
+            },
+            {
+              text: " Es",
+              startMs: 5238,
+              endMs: 5438,
+              timestampMs: 5338,
+              confidence: 0.987,
+            },
+            {
+              text: " una",
+              startMs: 5438,
+              endMs: 5598,
+              timestampMs: 5518,
+              confidence: 0.997,
+            },
+            {
+              text: " pista",
+              startMs: 5598,
+              endMs: 5878,
+              timestampMs: 5738,
+              confidence: 0.9978,
+            },
+            {
+              text: " sobre",
+              startMs: 5878,
+              endMs: 6218,
+              timestampMs: 6048,
+              confidence: 0.9976,
+            },
+            {
+              text: " la",
+              startMs: 6218,
+              endMs: 6358,
+              timestampMs: 6288,
+              confidence: 0.998,
+            },
+            {
+              text: " inteligencia",
+              startMs: 6358,
+              endMs: 6938,
+              timestampMs: 6648,
+              confidence: 0.9877,
+            },
+            {
+              text: " artificial,",
+              startMs: 6938,
+              endMs: 7478,
+              timestampMs: 7208,
+              confidence: 0.9978,
+            },
+            {
+              text: " sus",
+              startMs: 7898,
+              endMs: 8078,
+              timestampMs: 7988,
+              confidence: 0.9719,
+            },
+            {
+              text: " riesgos",
+              startMs: 8078,
+              endMs: 8558,
+              timestampMs: 8318,
+              confidence: 0.9955,
+            },
+            {
+              text: " y",
+              startMs: 8558,
+              endMs: 9018,
+              timestampMs: 8788,
+              confidence: 0.876,
+            },
+            {
+              text: " el",
+              startMs: 9018,
+              endMs: 9138,
+              timestampMs: 9078,
+              confidence: 0.9969,
+            },
+            {
+              text: " rechazo",
+              startMs: 9138,
+              endMs: 9598,
+              timestampMs: 9368,
+              confidence: 0.9971,
+            },
+            {
+              text: " que",
+              startMs: 9598,
+              endMs: 9798,
+              timestampMs: 9698,
+              confidence: 0.9962,
+            },
+            {
+              text: " provoca.",
+              startMs: 9798,
+              endMs: 10218,
+              timestampMs: 10008,
+              confidence: 0.993,
+            },
+          ]}
+        />
+      </Sequence>
+      <Sequence
+        name="04 — Escena sincronizada"
+        from={843}
+        durationInFrames={305}
+        premountFor={fps}
+      >
+        <IncomingMask kind="iris">
+          <VisualClock scene={3}>
+            <Scene4 />
+          </VisualClock>
+        </IncomingMask>
+        <div
+          style={{
+            position: "absolute",
+            top: 1390,
+            left: 100,
+            color: "#b8cbc4",
+            fontFamily: "Arial",
+            fontSize: 20,
+            letterSpacing: 2,
+          }}
+        >
+          RECREACIÓN 2D · LECTURA VISUAL
+        </div>
+        <Captions
+          captions={[
+            {
+              text: " Más",
+              startMs: 148,
+              endMs: 388,
+              timestampMs: 268,
+              confidence: 0.9949,
+            },
+            {
+              text: " abajo",
+              startMs: 388,
+              endMs: 688,
+              timestampMs: 538,
+              confidence: 0.9946,
+            },
+            {
+              text: " aparecen",
+              startMs: 688,
+              endMs: 1328,
+              timestampMs: 1008,
+              confidence: 0.9264,
+            },
+            {
+              text: " tanques",
+              startMs: 1328,
+              endMs: 1868,
+              timestampMs: 1598,
+              confidence: 0.9819,
+            },
+            {
+              text: " y",
+              startMs: 1868,
+              endMs: 2108,
+              timestampMs: 1988,
+              confidence: 0.9986,
+            },
+            {
+              text: " armas.",
+              startMs: 2108,
+              endMs: 2348,
+              timestampMs: 2228,
+              confidence: 0.9981,
+            },
+            {
+              text: " La",
+              startMs: 3465,
+              endMs: 3525,
+              timestampMs: 3495,
+              confidence: 0.6015,
+            },
+            {
+              text: " publicación",
+              startMs: 3525,
+              endMs: 4105,
+              timestampMs: 3815,
+              confidence: 0.9826,
+            },
+            {
+              text: " teme",
+              startMs: 4105,
+              endMs: 4505,
+              timestampMs: 4305,
+              confidence: 0.9816,
+            },
+            {
+              text: " repercusiones",
+              startMs: 4505,
+              endMs: 5165,
+              timestampMs: 4835,
+              confidence: 0.9952,
+            },
+            {
+              text: " de",
+              startMs: 5165,
+              endMs: 5385,
+              timestampMs: 5275,
+              confidence: 0.9977,
+            },
+            {
+              text: " la",
+              startMs: 5385,
+              endMs: 5485,
+              timestampMs: 5435,
+              confidence: 0.9948,
+            },
+            {
+              text: " guerra",
+              startMs: 5485,
+              endMs: 5705,
+              timestampMs: 5595,
+              confidence: 0.928,
+            },
+            {
+              text: " con",
+              startMs: 5705,
+              endMs: 5965,
+              timestampMs: 5835,
+              confidence: 0.9963,
+            },
+            {
+              text: " Irán",
+              startMs: 5965,
+              endMs: 6265,
+              timestampMs: 6115,
+              confidence: 0.9458,
+            },
+            {
+              text: " y",
+              startMs: 6265,
+              endMs: 6645,
+              timestampMs: 6455,
+              confidence: 0.8546,
+            },
+            {
+              text: " observa",
+              startMs: 6645,
+              endMs: 7065,
+              timestampMs: 6855,
+              confidence: 0.9941,
+            },
+            {
+              text: " con",
+              startMs: 7065,
+              endMs: 7225,
+              timestampMs: 7145,
+              confidence: 0.9949,
+            },
+            {
+              text: " inquietud",
+              startMs: 7225,
+              endMs: 7765,
+              timestampMs: 7495,
+              confidence: 0.9975,
+            },
+            {
+              text: " la",
+              startMs: 7765,
+              endMs: 8005,
+              timestampMs: 7885,
+              confidence: 0.9931,
+            },
+            {
+              text: " situación",
+              startMs: 8005,
+              endMs: 8465,
+              timestampMs: 8235,
+              confidence: 0.9996,
+            },
+            {
+              text: " de",
+              startMs: 8465,
+              endMs: 8665,
+              timestampMs: 8565,
+              confidence: 0.9941,
+            },
+            {
+              text: " Taiwán.",
+              startMs: 8665,
+              endMs: 9085,
+              timestampMs: 8875,
+              confidence: 0.8607,
+            },
+          ]}
+        />
+      </Sequence>
+      <Sequence
+        name="05 — Escena sincronizada"
+        from={1137}
+        durationInFrames={270}
+        premountFor={fps}
+      >
+        <IncomingMask kind="wave">
+          <VisualClock scene={4}>
+            <Scene5 />
+          </VisualClock>
+        </IncomingMask>
+        <div
+          style={{
+            position: "absolute",
+            top: 1390,
+            left: 100,
+            color: "#b8cbc4",
+            fontFamily: "Arial",
+            fontSize: 20,
+            letterSpacing: 2,
+          }}
+        >
+          RECREACIÓN 2D · LECTURA VISUAL
+        </div>
+        <Captions
+          captions={[
+            {
+              text: " Y",
+              startMs: 127,
+              endMs: 267,
+              timestampMs: 197,
+              confidence: 0.9725,
+            },
+            {
+              text: " el",
+              startMs: 267,
+              endMs: 387,
+              timestampMs: 327,
+              confidence: 0.9867,
+            },
+            {
+              text: " fuego",
+              startMs: 387,
+              endMs: 667,
+              timestampMs: 527,
+              confidence: 0.9789,
+            },
+            {
+              text: " podemos",
+              startMs: 667,
+              endMs: 1207,
+              timestampMs: 937,
+              confidence: 0.832,
+            },
+            {
+              text: " relacionarlo",
+              startMs: 1207,
+              endMs: 1927,
+              timestampMs: 1567,
+              confidence: 0.977,
+            },
+            {
+              text: " con",
+              startMs: 1927,
+              endMs: 2187,
+              timestampMs: 2057,
+              confidence: 0.9972,
+            },
+            {
+              text: " otro",
+              startMs: 2187,
+              endMs: 2387,
+              timestampMs: 2287,
+              confidence: 0.994,
+            },
+            {
+              text: " tema",
+              startMs: 2387,
+              endMs: 2667,
+              timestampMs: 2527,
+              confidence: 0.9995,
+            },
+            {
+              text: " de",
+              startMs: 2667,
+              endMs: 2807,
+              timestampMs: 2737,
+              confidence: 0.9955,
+            },
+            {
+              text: " la",
+              startMs: 2807,
+              endMs: 2907,
+              timestampMs: 2857,
+              confidence: 0.9966,
+            },
+            {
+              text: " revista:",
+              startMs: 2907,
+              endMs: 3327,
+              timestampMs: 3117,
+              confidence: 0.9962,
+            },
+            {
+              text: " el",
+              startMs: 4323,
+              endMs: 4403,
+              timestampMs: 4363,
+              confidence: 0.9751,
+            },
+            {
+              text: " riesgo",
+              startMs: 4403,
+              endMs: 4863,
+              timestampMs: 4633,
+              confidence: 0.9977,
+            },
+            {
+              text: " de",
+              startMs: 4863,
+              endMs: 4983,
+              timestampMs: 4923,
+              confidence: 0.9936,
+            },
+            {
+              text: " más",
+              startMs: 4983,
+              endMs: 5303,
+              timestampMs: 5143,
+              confidence: 0.9762,
+            },
+            {
+              text: " calor",
+              startMs: 5303,
+              endMs: 5543,
+              timestampMs: 5423,
+              confidence: 0.9903,
+            },
+            {
+              text: " extremo,",
+              startMs: 5543,
+              endMs: 6223,
+              timestampMs: 5883,
+              confidence: 0.9825,
+            },
+            {
+              text: " sequías",
+              startMs: 6503,
+              endMs: 6903,
+              timestampMs: 6703,
+              confidence: 0.9748,
+            },
+            {
+              text: " e",
+              startMs: 6903,
+              endMs: 7243,
+              timestampMs: 7073,
+              confidence: 0.9359,
+            },
+            {
+              text: " incendios.",
+              startMs: 7243,
+              endMs: 7843,
+              timestampMs: 7543,
+              confidence: 0.996,
+            },
+          ]}
+        />
+      </Sequence>
+      <Sequence
+        name="06 — Escena sincronizada"
+        from={1396}
+        durationInFrames={354}
+        premountFor={fps}
+      >
+        <IncomingMask kind="cloud">
+          <VisualClock scene={5}>
+            <Scene6 />
+          </VisualClock>
+        </IncomingMask>
+        <div
+          style={{
+            position: "absolute",
+            top: 1390,
+            left: 100,
+            color: "#b8cbc4",
+            fontFamily: "Arial",
+            fontSize: 20,
+            letterSpacing: 2,
+          }}
+        >
+          RECREACIÓN 2D · LECTURA VISUAL
+        </div>
+        <Captions
+          captions={[
+            {
+              text: " Entre",
+              startMs: 171,
+              endMs: 411,
+              timestampMs: 291,
+              confidence: 0.9897,
+            },
+            {
+              text: " tantas",
+              startMs: 411,
+              endMs: 771,
+              timestampMs: 591,
+              confidence: 0.9979,
+            },
+            {
+              text: " amenazas",
+              startMs: 771,
+              endMs: 1331,
+              timestampMs: 1051,
+              confidence: 0.9988,
+            },
+            {
+              text: " también",
+              startMs: 1331,
+              endMs: 1811,
+              timestampMs: 1571,
+              confidence: 0.7045,
+            },
+            {
+              text: " hay",
+              startMs: 1811,
+              endMs: 1971,
+              timestampMs: 1891,
+              confidence: 0.9985,
+            },
+            {
+              text: " señales",
+              startMs: 1971,
+              endMs: 2391,
+              timestampMs: 2181,
+              confidence: 0.9987,
+            },
+            {
+              text: " sobre",
+              startMs: 2391,
+              endMs: 2691,
+              timestampMs: 2541,
+              confidence: 0.9967,
+            },
+            {
+              text: " deuda,",
+              startMs: 2691,
+              endMs: 3151,
+              timestampMs: 2921,
+              confidence: 0.9883,
+            },
+            {
+              text: " medicamentos",
+              startMs: 3471,
+              endMs: 4031,
+              timestampMs: 3751,
+              confidence: 0.9915,
+            },
+            {
+              text: " para",
+              startMs: 4031,
+              endMs: 4311,
+              timestampMs: 4171,
+              confidence: 0.9974,
+            },
+            {
+              text: " adelgazar",
+              startMs: 4311,
+              endMs: 4831,
+              timestampMs: 4571,
+              confidence: 0.9987,
+            },
+            {
+              text: " y",
+              startMs: 4831,
+              endMs: 5291,
+              timestampMs: 5061,
+              confidence: 0.8892,
+            },
+            {
+              text: " viajes",
+              startMs: 5291,
+              endMs: 5651,
+              timestampMs: 5471,
+              confidence: 0.9954,
+            },
+            {
+              text: " espaciales.",
+              startMs: 5651,
+              endMs: 6471,
+              timestampMs: 6061,
+              confidence: 0.9962,
+            },
+            {
+              text: " No",
+              startMs: 7259,
+              endMs: 7459,
+              timestampMs: 7359,
+              confidence: 0.974,
+            },
+            {
+              text: " todo",
+              startMs: 7459,
+              endMs: 7679,
+              timestampMs: 7569,
+              confidence: 0.9961,
+            },
+            {
+              text: " es",
+              startMs: 7679,
+              endMs: 7859,
+              timestampMs: 7769,
+              confidence: 0.9993,
+            },
+            {
+              text: " guerra:",
+              startMs: 7859,
+              endMs: 8079,
+              timestampMs: 7969,
+              confidence: 0.9936,
+            },
+            {
+              text: " el",
+              startMs: 8880,
+              endMs: 9020,
+              timestampMs: 8950,
+              confidence: 0.9874,
+            },
+            {
+              text: " mundo",
+              startMs: 9020,
+              endMs: 9280,
+              timestampMs: 9150,
+              confidence: 0.9973,
+            },
+            {
+              text: " también",
+              startMs: 9280,
+              endMs: 9800,
+              timestampMs: 9540,
+              confidence: 0.9907,
+            },
+            {
+              text: " está",
+              startMs: 9800,
+              endMs: 10100,
+              timestampMs: 9950,
+              confidence: 0.9962,
+            },
+            {
+              text: " cambiando.",
+              startMs: 10100,
+              endMs: 10620,
+              timestampMs: 10360,
+              confidence: 0.9979,
+            },
+          ]}
+        />
+      </Sequence>
+      <Sequence
+        name="07 — Escena sincronizada"
+        from={1739}
+        durationInFrames={361}
+        premountFor={fps}
+      >
+        <IncomingMask kind="iris">
+          <VisualClock scene={6}>
+            <Scene7 />
+          </VisualClock>
+        </IncomingMask>
+        <Captions
+          final
+          hideAfterMs={finalQuestionMs}
+          captions={[
+            {
+              text: " ¿Entonces",
+              startMs: 89,
+              endMs: 409,
+              timestampMs: 249,
+              confidence: 0.4574,
+            },
+            {
+              text: " predice",
+              startMs: 829,
+              endMs: 1249,
+              timestampMs: 1039,
+              confidence: 0.6423,
+            },
+            {
+              text: " el",
+              startMs: 1249,
+              endMs: 1389,
+              timestampMs: 1319,
+              confidence: 0.9935,
+            },
+            {
+              text: " futuro?",
+              startMs: 1389,
+              endMs: 1629,
+              timestampMs: 1509,
+              confidence: 0.9988,
+            },
+            {
+              text: " No.",
+              startMs: 2754,
+              endMs: 2994,
+              timestampMs: 2874,
+              confidence: 0.9528,
+            },
+            {
+              text: " Son",
+              startMs: 3710,
+              endMs: 3910,
+              timestampMs: 3810,
+              confidence: 0.989,
+            },
+            {
+              text: " escenarios",
+              startMs: 3910,
+              endMs: 4510,
+              timestampMs: 4210,
+              confidence: 0.9957,
+            },
+            {
+              text: " y",
+              startMs: 4510,
+              endMs: 4790,
+              timestampMs: 4650,
+              confidence: 0.9945,
+            },
+            {
+              text: " preocupaciones,",
+              startMs: 4790,
+              endMs: 5650,
+              timestampMs: 5220,
+              confidence: 0.999,
+            },
+            {
+              text: " no",
+              startMs: 6090,
+              endMs: 6210,
+              timestampMs: 6150,
+              confidence: 0.9937,
+            },
+            {
+              text: " certezas.",
+              startMs: 6210,
+              endMs: 6890,
+              timestampMs: 6550,
+              confidence: 0.8183,
+            },
+            {
+              text: " Pero",
+              startMs: 7776,
+              endMs: 7996,
+              timestampMs: 7886,
+              confidence: 0.9695,
+            },
+            {
+              text: " vuelve",
+              startMs: 7996,
+              endMs: 8496,
+              timestampMs: 8246,
+              confidence: 0.6997,
+            },
+            {
+              text: " a",
+              startMs: 8496,
+              endMs: 8556,
+              timestampMs: 8526,
+              confidence: 0.9945,
+            },
+            {
+              text: " mirar",
+              startMs: 8556,
+              endMs: 8816,
+              timestampMs: 8686,
+              confidence: 0.9913,
+            },
+            {
+              text: " la",
+              startMs: 8816,
+              endMs: 8896,
+              timestampMs: 8856,
+              confidence: 0.9972,
+            },
+            {
+              text: " portada:",
+              startMs: 8896,
+              endMs: 9336,
+              timestampMs: 9116,
+              confidence: 0.9964,
+            },
+            {
+              text: " ¿qué",
+              startMs: 10277,
+              endMs: 10417,
+              timestampMs: 10347,
+              confidence: 0.9347,
+            },
+            {
+              text: " símbolo",
+              startMs: 10417,
+              endMs: 10937,
+              timestampMs: 10677,
+              confidence: 0.9975,
+            },
+            {
+              text: " te",
+              startMs: 10937,
+              endMs: 11017,
+              timestampMs: 10977,
+              confidence: 0.9981,
+            },
+            {
+              text: " inquieta",
+              startMs: 11017,
+              endMs: 11477,
+              timestampMs: 11247,
+              confidence: 0.9969,
+            },
+            {
+              text: " más?",
+              startMs: 11477,
+              endMs: 11637,
+              timestampMs: 11557,
+              confidence: 0.9961,
+            },
+          ]}
+        />
+      </Sequence>
+    </AbsoluteFill>
+  );
+};
