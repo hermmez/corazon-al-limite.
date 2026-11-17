@@ -1,0 +1,945 @@
+{
+  "language": "es",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.3,
+      "text": " 10.000 hienas marchaban hacia un pequeño castillo, y frente a ellas, solamente había",
+      "words": [
+        {
+          "text": " 10",
+          "start": 0.0,
+          "end": 0.36,
+          "probability": 0.4851267635822296
+        },
+        {
+          "text": ".000",
+          "start": 0.36,
+          "end": 0.76,
+          "probability": 0.8104086816310883
+        },
+        {
+          "text": " hienas",
+          "start": 0.76,
+          "end": 1.14,
+          "probability": 0.9460567037264506
+        },
+        {
+          "text": " marchaban",
+          "start": 1.14,
+          "end": 1.7,
+          "probability": 0.995666891336441
+        },
+        {
+          "text": " hacia",
+          "start": 1.7,
+          "end": 1.96,
+          "probability": 0.9907262325286865
+        },
+        {
+          "text": " un",
+          "start": 1.96,
+          "end": 2.18,
+          "probability": 0.9970031380653381
+        },
+        {
+          "text": " pequeño",
+          "start": 2.18,
+          "end": 2.6,
+          "probability": 0.9961265921592712
+        },
+        {
+          "text": " castillo,",
+          "start": 2.6,
+          "end": 3.28,
+          "probability": 0.9865995645523071
+        },
+        {
+          "text": " y",
+          "start": 4.0,
+          "end": 4.08,
+          "probability": 0.9943705201148987
+        },
+        {
+          "text": " frente",
+          "start": 4.08,
+          "end": 4.26,
+          "probability": 0.9882916808128357
+        },
+        {
+          "text": " a",
+          "start": 4.26,
+          "end": 4.52,
+          "probability": 0.9987592697143555
+        },
+        {
+          "text": " ellas,",
+          "start": 4.52,
+          "end": 4.84,
+          "probability": 0.9918786287307739
+        },
+        {
+          "text": " solamente",
+          "start": 5.3,
+          "end": 5.82,
+          "probability": 0.9536588191986084
+        },
+        {
+          "text": " había",
+          "start": 5.82,
+          "end": 6.3,
+          "probability": 0.9903624653816223
+        }
+      ]
+    },
+    {
+      "start": 6.3,
+      "end": 13.14,
+      "text": " un gatito. Su armadura era de cartón, su espada también, y aquel castillo que protegía",
+      "words": [
+        {
+          "text": " un",
+          "start": 6.3,
+          "end": 6.78,
+          "probability": 0.9941353797912598
+        },
+        {
+          "text": " gatito.",
+          "start": 6.78,
+          "end": 7.24,
+          "probability": 0.9929803311824799
+        },
+        {
+          "text": " Su",
+          "start": 7.92,
+          "end": 8.06,
+          "probability": 0.9917885661125183
+        },
+        {
+          "text": " armadura",
+          "start": 8.06,
+          "end": 8.44,
+          "probability": 0.9975602626800537
+        },
+        {
+          "text": " era",
+          "start": 8.44,
+          "end": 8.88,
+          "probability": 0.9962031245231628
+        },
+        {
+          "text": " de",
+          "start": 8.88,
+          "end": 9.04,
+          "probability": 0.9966269731521606
+        },
+        {
+          "text": " cartón,",
+          "start": 9.04,
+          "end": 9.46,
+          "probability": 0.9931579828262329
+        },
+        {
+          "text": " su",
+          "start": 9.96,
+          "end": 10.14,
+          "probability": 0.9674347043037415
+        },
+        {
+          "text": " espada",
+          "start": 10.14,
+          "end": 10.5,
+          "probability": 0.99897301197052
+        },
+        {
+          "text": " también,",
+          "start": 10.5,
+          "end": 10.88,
+          "probability": 0.8967235088348389
+        },
+        {
+          "text": " y",
+          "start": 11.58,
+          "end": 11.68,
+          "probability": 0.9972038269042969
+        },
+        {
+          "text": " aquel",
+          "start": 11.68,
+          "end": 11.92,
+          "probability": 0.9900407493114471
+        },
+        {
+          "text": " castillo",
+          "start": 11.92,
+          "end": 12.38,
+          "probability": 0.9975949823856354
+        },
+        {
+          "text": " que",
+          "start": 12.38,
+          "end": 12.54,
+          "probability": 0.9897907376289368
+        },
+        {
+          "text": " protegía",
+          "start": 12.54,
+          "end": 13.14,
+          "probability": 0.9911520481109619
+        }
+      ]
+    },
+    {
+      "start": 13.14,
+      "end": 18.94,
+      "text": " apenas estaba hecho de unas cuantas cajas. Pero detrás de aquellas murallas estaban",
+      "words": [
+        {
+          "text": " apenas",
+          "start": 13.14,
+          "end": 14.0,
+          "probability": 0.7985854744911194
+        },
+        {
+          "text": " estaba",
+          "start": 14.0,
+          "end": 14.5,
+          "probability": 0.9960998296737671
+        },
+        {
+          "text": " hecho",
+          "start": 14.5,
+          "end": 14.78,
+          "probability": 0.9944608211517334
+        },
+        {
+          "text": " de",
+          "start": 14.78,
+          "end": 14.96,
+          "probability": 0.9981324076652527
+        },
+        {
+          "text": " unas",
+          "start": 14.96,
+          "end": 15.14,
+          "probability": 0.9963815212249756
+        },
+        {
+          "text": " cuantas",
+          "start": 15.14,
+          "end": 15.52,
+          "probability": 0.9933572709560394
+        },
+        {
+          "text": " cajas.",
+          "start": 15.52,
+          "end": 16.0,
+          "probability": 0.9878548085689545
+        },
+        {
+          "text": " Pero",
+          "start": 16.66,
+          "end": 16.96,
+          "probability": 0.988416314125061
+        },
+        {
+          "text": " detrás",
+          "start": 16.96,
+          "end": 17.36,
+          "probability": 0.9766650795936584
+        },
+        {
+          "text": " de",
+          "start": 17.36,
+          "end": 17.5,
+          "probability": 0.9992398023605347
+        },
+        {
+          "text": " aquellas",
+          "start": 17.5,
+          "end": 17.84,
+          "probability": 0.9961815774440765
+        },
+        {
+          "text": " murallas",
+          "start": 17.84,
+          "end": 18.22,
+          "probability": 0.9817146360874176
+        },
+        {
+          "text": " estaban",
+          "start": 18.22,
+          "end": 18.94,
+          "probability": 0.7718659043312073
+        }
+      ]
+    },
+    {
+      "start": 18.94,
+      "end": 25.02,
+      "text": " su mamá y sus hermanitos, todo lo que amaba en el mundo. Sabía que no podía vencer",
+      "words": [
+        {
+          "text": " su",
+          "start": 18.94,
+          "end": 19.24,
+          "probability": 0.997701108455658
+        },
+        {
+          "text": " mamá",
+          "start": 19.24,
+          "end": 19.66,
+          "probability": 0.9938708543777466
+        },
+        {
+          "text": " y",
+          "start": 19.66,
+          "end": 19.88,
+          "probability": 0.9915081262588501
+        },
+        {
+          "text": " sus",
+          "start": 19.88,
+          "end": 20.02,
+          "probability": 0.9932839870452881
+        },
+        {
+          "text": " hermanitos,",
+          "start": 20.02,
+          "end": 20.6,
+          "probability": 0.9825024008750916
+        },
+        {
+          "text": " todo",
+          "start": 21.14,
+          "end": 21.38,
+          "probability": 0.9902856945991516
+        },
+        {
+          "text": " lo",
+          "start": 21.38,
+          "end": 21.64,
+          "probability": 0.9992697834968567
+        },
+        {
+          "text": " que",
+          "start": 21.64,
+          "end": 21.78,
+          "probability": 0.9990504384040833
+        },
+        {
+          "text": " amaba",
+          "start": 21.78,
+          "end": 22.08,
+          "probability": 0.9618276059627533
+        },
+        {
+          "text": " en",
+          "start": 22.08,
+          "end": 22.24,
+          "probability": 0.9968026876449585
+        },
+        {
+          "text": " el",
+          "start": 22.24,
+          "end": 22.36,
+          "probability": 0.998528003692627
+        },
+        {
+          "text": " mundo.",
+          "start": 22.36,
+          "end": 22.66,
+          "probability": 0.9959713816642761
+        },
+        {
+          "text": " Sabía",
+          "start": 23.26,
+          "end": 23.74,
+          "probability": 0.9758450388908386
+        },
+        {
+          "text": " que",
+          "start": 23.74,
+          "end": 23.94,
+          "probability": 0.9981693029403687
+        },
+        {
+          "text": " no",
+          "start": 23.94,
+          "end": 24.24,
+          "probability": 0.9965266585350037
+        },
+        {
+          "text": " podía",
+          "start": 24.24,
+          "end": 24.64,
+          "probability": 0.9854244589805603
+        },
+        {
+          "text": " vencer",
+          "start": 24.64,
+          "end": 25.02,
+          "probability": 0.9969801008701324
+        }
+      ]
+    },
+    {
+      "start": 25.02,
+      "end": 32.14,
+      "text": " a 10.000 enemigos. Tenía miedo, sus patitas temblaban, pero no pensaba abandonar a su familia.",
+      "words": [
+        {
+          "text": " a",
+          "start": 25.02,
+          "end": 25.14,
+          "probability": 0.23237170279026031
+        },
+        {
+          "text": " 10",
+          "start": 25.14,
+          "end": 25.36,
+          "probability": 0.4676953852176666
+        },
+        {
+          "text": ".000",
+          "start": 25.36,
+          "end": 25.68,
+          "probability": 0.7773979902267456
+        },
+        {
+          "text": " enemigos.",
+          "start": 25.68,
+          "end": 26.16,
+          "probability": 0.9962749183177948
+        },
+        {
+          "text": " Tenía",
+          "start": 26.7,
+          "end": 27.12,
+          "probability": 0.9485525190830231
+        },
+        {
+          "text": " miedo,",
+          "start": 27.12,
+          "end": 27.48,
+          "probability": 0.9976333379745483
+        },
+        {
+          "text": " sus",
+          "start": 28.04,
+          "end": 28.26,
+          "probability": 0.9890168905258179
+        },
+        {
+          "text": " patitas",
+          "start": 28.26,
+          "end": 28.72,
+          "probability": 0.9799891710281372
+        },
+        {
+          "text": " temblaban,",
+          "start": 28.72,
+          "end": 29.44,
+          "probability": 0.8832090695699056
+        },
+        {
+          "text": " pero",
+          "start": 29.96,
+          "end": 30.18,
+          "probability": 0.9827045798301697
+        },
+        {
+          "text": " no",
+          "start": 30.18,
+          "end": 30.48,
+          "probability": 0.99760901927948
+        },
+        {
+          "text": " pensaba",
+          "start": 30.48,
+          "end": 31.02,
+          "probability": 0.9946300089359283
+        },
+        {
+          "text": " abandonar",
+          "start": 31.02,
+          "end": 31.56,
+          "probability": 0.9960651397705078
+        },
+        {
+          "text": " a",
+          "start": 31.56,
+          "end": 31.64,
+          "probability": 0.9974516034126282
+        },
+        {
+          "text": " su",
+          "start": 31.64,
+          "end": 31.78,
+          "probability": 0.9977319240570068
+        },
+        {
+          "text": " familia.",
+          "start": 31.78,
+          "end": 32.14,
+          "probability": 0.9969131946563721
+        }
+      ]
+    },
+    {
+      "start": 32.8,
+      "end": 38.74,
+      "text": " Pero esta historia todavía puede cambiar, porque por cada like un ratoncito aún más",
+      "words": [
+        {
+          "text": " Pero",
+          "start": 32.8,
+          "end": 33.06,
+          "probability": 0.968539834022522
+        },
+        {
+          "text": " esta",
+          "start": 33.06,
+          "end": 33.32,
+          "probability": 0.9371106624603271
+        },
+        {
+          "text": " historia",
+          "start": 33.32,
+          "end": 33.78,
+          "probability": 0.9961106181144714
+        },
+        {
+          "text": " todavía",
+          "start": 33.78,
+          "end": 34.38,
+          "probability": 0.9709340333938599
+        },
+        {
+          "text": " puede",
+          "start": 34.38,
+          "end": 34.86,
+          "probability": 0.9962522387504578
+        },
+        {
+          "text": " cambiar,",
+          "start": 34.86,
+          "end": 35.34,
+          "probability": 0.9984160661697388
+        },
+        {
+          "text": " porque",
+          "start": 35.86,
+          "end": 36.18,
+          "probability": 0.9841146469116211
+        },
+        {
+          "text": " por",
+          "start": 36.18,
+          "end": 36.4,
+          "probability": 0.9693701863288879
+        },
+        {
+          "text": " cada",
+          "start": 36.4,
+          "end": 36.68,
+          "probability": 0.9988711476325989
+        },
+        {
+          "text": " like",
+          "start": 36.68,
+          "end": 37.06,
+          "probability": 0.771574854850769
+        },
+        {
+          "text": " un",
+          "start": 37.06,
+          "end": 37.58,
+          "probability": 0.5070663094520569
+        },
+        {
+          "text": " ratoncito",
+          "start": 37.58,
+          "end": 38.14,
+          "probability": 0.9732518593470255
+        },
+        {
+          "text": " aún",
+          "start": 38.14,
+          "end": 38.44,
+          "probability": 0.9670074582099915
+        },
+        {
+          "text": " más",
+          "start": 38.44,
+          "end": 38.74,
+          "probability": 0.9862555265426636
+        }
+      ]
+    },
+    {
+      "start": 38.74,
+      "end": 44.5,
+      "text": " pequeño se unirá a su ejército. Por cada comentario llegará otro gatito valiente,",
+      "words": [
+        {
+          "text": " pequeño",
+          "start": 38.74,
+          "end": 39.14,
+          "probability": 0.9958420395851135
+        },
+        {
+          "text": " se",
+          "start": 39.14,
+          "end": 39.5,
+          "probability": 0.9911563396453857
+        },
+        {
+          "text": " unirá",
+          "start": 39.5,
+          "end": 39.88,
+          "probability": 0.996753970781962
+        },
+        {
+          "text": " a",
+          "start": 39.88,
+          "end": 39.98,
+          "probability": 0.988108217716217
+        },
+        {
+          "text": " su",
+          "start": 39.98,
+          "end": 40.1,
+          "probability": 0.9985021352767944
+        },
+        {
+          "text": " ejército.",
+          "start": 40.1,
+          "end": 40.6,
+          "probability": 0.9763683080673218
+        },
+        {
+          "text": " Por",
+          "start": 41.16,
+          "end": 41.4,
+          "probability": 0.9882912039756775
+        },
+        {
+          "text": " cada",
+          "start": 41.4,
+          "end": 41.7,
+          "probability": 0.9985784292221069
+        },
+        {
+          "text": " comentario",
+          "start": 41.7,
+          "end": 42.44,
+          "probability": 0.9987113177776337
+        },
+        {
+          "text": " llegará",
+          "start": 42.44,
+          "end": 43.1,
+          "probability": 0.8202411830425262
+        },
+        {
+          "text": " otro",
+          "start": 43.1,
+          "end": 43.54,
+          "probability": 0.9961788654327393
+        },
+        {
+          "text": " gatito",
+          "start": 43.54,
+          "end": 43.94,
+          "probability": 0.9938067197799683
+        },
+        {
+          "text": " valiente,",
+          "start": 43.94,
+          "end": 44.5,
+          "probability": 0.9984729588031769
+        }
+      ]
+    },
+    {
+      "start": 44.82,
+      "end": 50.42,
+      "text": " con su armadura y un pequeño arco para defender el castillo. Y por cada vez que compartas",
+      "words": [
+        {
+          "text": " con",
+          "start": 44.82,
+          "end": 45.0,
+          "probability": 0.997188150882721
+        },
+        {
+          "text": " su",
+          "start": 45.0,
+          "end": 45.14,
+          "probability": 0.9956749081611633
+        },
+        {
+          "text": " armadura",
+          "start": 45.14,
+          "end": 45.5,
+          "probability": 0.9968218505382538
+        },
+        {
+          "text": " y",
+          "start": 45.5,
+          "end": 45.96,
+          "probability": 0.9702812433242798
+        },
+        {
+          "text": " un",
+          "start": 45.96,
+          "end": 46.12,
+          "probability": 0.9780095815658569
+        },
+        {
+          "text": " pequeño",
+          "start": 46.12,
+          "end": 46.44,
+          "probability": 0.922838032245636
+        },
+        {
+          "text": " arco",
+          "start": 46.44,
+          "end": 46.94,
+          "probability": 0.9830434322357178
+        },
+        {
+          "text": " para",
+          "start": 46.94,
+          "end": 47.18,
+          "probability": 0.9954183101654053
+        },
+        {
+          "text": " defender",
+          "start": 47.18,
+          "end": 47.58,
+          "probability": 0.9958125948905945
+        },
+        {
+          "text": " el",
+          "start": 47.58,
+          "end": 47.82,
+          "probability": 0.9955047965049744
+        },
+        {
+          "text": " castillo.",
+          "start": 47.82,
+          "end": 48.32,
+          "probability": 0.9802417457103729
+        },
+        {
+          "text": " Y",
+          "start": 48.82,
+          "end": 49.0,
+          "probability": 0.9711451530456543
+        },
+        {
+          "text": " por",
+          "start": 49.0,
+          "end": 49.18,
+          "probability": 0.991439700126648
+        },
+        {
+          "text": " cada",
+          "start": 49.18,
+          "end": 49.42,
+          "probability": 0.9993563294410706
+        },
+        {
+          "text": " vez",
+          "start": 49.42,
+          "end": 49.68,
+          "probability": 0.998773992061615
+        },
+        {
+          "text": " que",
+          "start": 49.68,
+          "end": 49.82,
+          "probability": 0.9969696402549744
+        },
+        {
+          "text": " compartas",
+          "start": 49.82,
+          "end": 50.42,
+          "probability": 0.9956622421741486
+        }
+      ]
+    },
+    {
+      "start": 50.42,
+      "end": 55.86,
+      "text": " esta historia, llegará un caballero montado sobre un puerquito, listo para luchar a su lado.",
+      "words": [
+        {
+          "text": " esta",
+          "start": 50.42,
+          "end": 50.62,
+          "probability": 0.6179617047309875
+        },
+        {
+          "text": " historia,",
+          "start": 50.62,
+          "end": 51.08,
+          "probability": 0.9936946034431458
+        },
+        {
+          "text": " llegará",
+          "start": 51.4,
+          "end": 51.86,
+          "probability": 0.9227205812931061
+        },
+        {
+          "text": " un",
+          "start": 51.86,
+          "end": 52.0,
+          "probability": 0.9862279295921326
+        },
+        {
+          "text": " caballero",
+          "start": 52.0,
+          "end": 52.46,
+          "probability": 0.9919566710789999
+        },
+        {
+          "text": " montado",
+          "start": 52.46,
+          "end": 53.04,
+          "probability": 0.9939102530479431
+        },
+        {
+          "text": " sobre",
+          "start": 53.04,
+          "end": 53.28,
+          "probability": 0.99566650390625
+        },
+        {
+          "text": " un",
+          "start": 53.28,
+          "end": 53.46,
+          "probability": 0.9981502294540405
+        },
+        {
+          "text": " puerquito,",
+          "start": 53.46,
+          "end": 53.9,
+          "probability": 0.8887686928113302
+        },
+        {
+          "text": " listo",
+          "start": 54.32,
+          "end": 54.84,
+          "probability": 0.9950920343399048
+        },
+        {
+          "text": " para",
+          "start": 54.84,
+          "end": 55.0,
+          "probability": 0.9980446100234985
+        },
+        {
+          "text": " luchar",
+          "start": 55.0,
+          "end": 55.38,
+          "probability": 0.993671327829361
+        },
+        {
+          "text": " a",
+          "start": 55.38,
+          "end": 55.52,
+          "probability": 0.9902132153511047
+        },
+        {
+          "text": " su",
+          "start": 55.52,
+          "end": 55.62,
+          "probability": 0.9990850687026978
+        },
+        {
+          "text": " lado.",
+          "start": 55.62,
+          "end": 55.86,
+          "probability": 0.993852972984314
+        }
+      ]
+    },
+    {
+      "start": 56.54,
+      "end": 60.86,
+      "text": " La batalla está por comenzar. ¿Cuántos pequeños héroes vendrán a ayudarlo?",
+      "words": [
+        {
+          "text": " La",
+          "start": 56.54,
+          "end": 56.66,
+          "probability": 0.8968183398246765
+        },
+        {
+          "text": " batalla",
+          "start": 56.66,
+          "end": 57.08,
+          "probability": 0.9914560616016388
+        },
+        {
+          "text": " está",
+          "start": 57.08,
+          "end": 57.4,
+          "probability": 0.9860460162162781
+        },
+        {
+          "text": " por",
+          "start": 57.4,
+          "end": 57.66,
+          "probability": 0.9970594048500061
+        },
+        {
+          "text": " comenzar.",
+          "start": 57.66,
+          "end": 58.24,
+          "probability": 0.9995453655719757
+        },
+        {
+          "text": " ¿Cuántos",
+          "start": 58.7,
+          "end": 59.1,
+          "probability": 0.8736715167760849
+        },
+        {
+          "text": " pequeños",
+          "start": 59.1,
+          "end": 59.56,
+          "probability": 0.9914961159229279
+        },
+        {
+          "text": " héroes",
+          "start": 59.56,
+          "end": 59.92,
+          "probability": 0.9931346376736959
+        },
+        {
+          "text": " vendrán",
+          "start": 59.92,
+          "end": 60.34,
+          "probability": 0.9939724802970886
+        },
+        {
+          "text": " a",
+          "start": 60.34,
+          "end": 60.42,
+          "probability": 0.943599283695221
+        },
+        {
+          "text": " ayudarlo?",
+          "start": 60.42,
+          "end": 60.86,
+          "probability": 0.9807927310466766
+        }
+      ]
+    }
+  ]
+}

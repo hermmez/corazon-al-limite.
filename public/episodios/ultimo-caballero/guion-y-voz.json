@@ -1,0 +1,48 @@
+{
+  "episode": "El último caballero — Un gatito contra 10,000 hienas",
+  "status": "completed",
+  "quotedAt": "2026-11-17",
+  "costCreditsExact": 4.14,
+  "approved": true,
+  "generated": true,
+  "narrator": "Grady",
+  "targetDurationSeconds": 70,
+  "wordCount": 145,
+  "script": [
+    "Diez mil hienas marchaban hacia un pequeño castillo. Y frente a ellas… solamente había un gatito.",
+    "Su armadura era de cartón. Su espada también. Y aquel castillo que protegía… apenas estaba hecho de unas cuantas cajas.",
+    "Pero detrás de aquellas murallas estaban su mamá y sus hermanitos. Todo lo que amaba en el mundo.",
+    "Sabía que no podía vencer a diez mil enemigos. Tenía miedo. Sus patitas temblaban… pero no pensaba abandonar a su familia.",
+    "Pero esta historia todavía puede cambiar. Porque por cada like… un ratoncito aún más pequeño se unirá a su ejército.",
+    "Por cada comentario… llegará otro gatito valiente, con su armadura y un pequeño arco para defender el castillo.",
+    "Y por cada vez que compartas esta historia… llegará un caballero montado sobre un puerquito, listo para luchar a su lado.",
+    "La batalla está por comenzar… ¿cuántos pequeños héroes vendrán a ayudarlo?"
+  ],
+  "params": {
+    "model": "elevenlabs_v4",
+    "prompt": "El último caballero — narración completa en español latino natural, cálida, emotiva y épica contenida. Ritmo conversacional, pausas naturales indicadas por puntuación; sin acelerar ni exagerar la dramatización.",
+    "dialogue": [
+      {
+        "text": "Diez mil hienas marchaban hacia un pequeño castillo. Y frente a ellas… solamente había un gatito.\n\nSu armadura era de cartón. Su espada también. Y aquel castillo que protegía… apenas estaba hecho de unas cuantas cajas.\n\nPero detrás de aquellas murallas estaban su mamá y sus hermanitos. Todo lo que amaba en el mundo.\n\nSabía que no podía vencer a diez mil enemigos. Tenía miedo. Sus patitas temblaban… pero no pensaba abandonar a su familia.\n\nPero esta historia todavía puede cambiar. Porque por cada like… un ratoncito aún más pequeño se unirá a su ejército.\n\nPor cada comentario… llegará otro gatito valiente, con su armadura y un pequeño arco para defender el castillo.\n\nY por cada vez que compartas esta historia… llegará un caballero montado sobre un puerquito, listo para luchar a su lado.\n\nLa batalla está por comenzar… ¿cuántos pequeños héroes vendrán a ayudarlo?",
+        "voice_type": "preset",
+        "voice_id": "e2a2d2e6-9ed2-59cd-82af-feaa27f8a678"
+      }
+    ],
+    "count": 1,
+    "batch_size": 1,
+    "get_cost": true
+  },
+  "quoteResponse": {
+    "cost": {
+      "credits": 4.14,
+      "credits_exact": 4.14
+    }
+  },
+  "timingNote": "El texto original cabe previsiblemente en 70 segundos con pausas naturales; no se requiere abreviarlo ni acelerarlo. La duración real solo se puede comprobar después de la generación autorizada. Los tiempos de escena son objetivos de montaje.",
+  "voiceDirection": "Español latino natural, cálido, emotivo, épica contenida; pausas breves con la puntuación y pausas reflexivas en los puntos suspensivos, sin estirar palabras.",
+  "storyContinuity": "Las equivalencias entre interacciones y refuerzos son una dinámica ficticia; no se inventarán cifras reales ni se resolverá la batalla en este capítulo.",
+  "authorization": "Usuario respondió Si a la cotización exacta de 4,14 créditos.",
+  "jobId": "eec2082e-f02a-4451-becf-b6cbe5868cba",
+  "sourceDurationSeconds": 61.152625,
+  "resultUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3LWCFBq7eIgrDcVAzFjRPaNtjHC/hf_20261117_021707_eec2082e-f02a-4451-becf-b6cbe5868cba.mp3"
+}

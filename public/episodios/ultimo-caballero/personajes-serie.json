@@ -1,0 +1,76 @@
+{
+  "episode": "El último caballero · capítulo 1",
+  "characters": {
+    "gatito-caballero": {
+      "path": "gatito-caballero.png",
+      "sha256": "01139b84d386dcb2d8cb9b94080b64e84fc6b1736ab6101aa4f9c7826cbd3862",
+      "styleReferences": [
+        "public/imagenes/personajes/01_neutral.png",
+        "public/imagenes/escenarios/03_sala.png"
+      ],
+      "review": "Contornos, paleta, ilustración 2D y consistencia con recursos aprobados revisados; controlar articulación por escena."
+    },
+    "hiena-hierro": {
+      "path": "hiena-hierro.png",
+      "sha256": "8b2085dcc316e1e409f8a25aa3ca6244460fd440165b71e4b586ed47989c168d",
+      "styleReferences": [
+        "public/imagenes/personajes/01_neutral.png",
+        "public/imagenes/escenarios/03_sala.png"
+      ],
+      "review": "Contornos, paleta, ilustración 2D y consistencia con recursos aprobados revisados; controlar articulación por escena."
+    },
+    "familia": {
+      "path": "familia.png",
+      "sha256": "dd998485164cbb76710a468f4ba1f7036f90f397ad7efdf4611bf490846f876c",
+      "styleReferences": [
+        "public/imagenes/personajes/01_neutral.png",
+        "public/imagenes/escenarios/03_sala.png"
+      ],
+      "review": "Contornos, paleta, ilustración 2D y consistencia con recursos aprobados revisados; controlar articulación por escena."
+    },
+    "raton-caballero": {
+      "path": "raton-caballero.png",
+      "sha256": "3bedb6f6ebc5ecad0b8148974abb622e35c44aaf43e45341162398e4457732d1",
+      "styleReferences": [
+        "public/imagenes/personajes/01_neutral.png",
+        "public/imagenes/escenarios/03_sala.png"
+      ],
+      "review": "Contornos, paleta, ilustración 2D y consistencia con recursos aprobados revisados; controlar articulación por escena."
+    },
+    "gatito-arquero": {
+      "path": "gatito-arquero.png",
+      "sha256": "27f9bb866d7cf14dccd819c8d0889eb3b40ce8921617d746e135c18dca1d6f3e",
+      "styleReferences": [
+        "public/imagenes/personajes/01_neutral.png",
+        "public/imagenes/escenarios/03_sala.png"
+      ],
+      "review": "Contornos, paleta, ilustración 2D y consistencia con recursos aprobados revisados; controlar articulación por escena."
+    },
+    "jinete-puerquito": {
+      "path": "jinete-puerquito.png",
+      "sha256": "80875a0c517f552df184660619d22e50e3e9cb20642e5c0c1f3e2fe714d3ccd2",
+      "styleReferences": [
+        "public/imagenes/personajes/01_neutral.png",
+        "public/imagenes/escenarios/03_sala.png"
+      ],
+      "review": "Contornos, paleta, ilustración 2D y consistencia con recursos aprobados revisados; controlar articulación por escena."
+    },
+    "castillo-carton": {
+      "path": "castillo-carton.png",
+      "sha256": "52a71f64736fe70fa9e8e32a762f8d21cc8f1cf17591ee23c0403dda467366fd",
+      "styleReferences": [
+        "public/imagenes/personajes/01_neutral.png",
+        "public/imagenes/escenarios/03_sala.png"
+      ],
+      "review": "Contornos, paleta, ilustración 2D y consistencia con recursos aprobados revisados; controlar articulación por escena."
+    }
+  },
+  "enemyCount": 10000,
+  "armyLayout": {
+    "rows": 100,
+    "columns": 100,
+    "offscreenCulling": true
+  },
+  "interactionCounts": null,
+  "continuation": "Aceptar cifras reales suministradas por el usuario; no inventar interacciones ni resolver la batalla en capítulo 1."
+}

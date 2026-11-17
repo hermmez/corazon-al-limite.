@@ -1,0 +1,42 @@
+{
+  "episode": "El último caballero — Un gatito contra 10,000 hienas",
+  "voiceCredits": 4.14,
+  "jobId": "eec2082e-f02a-4451-becf-b6cbe5868cba",
+  "originalVoiceSha256": "01b9f79bf8b0d95b2c9d7fd243ae2d7a4483b6fea7cc8f797f56aff1be74ed1c",
+  "sourceSeconds": 61.15265306122449,
+  "cuts": [
+    0,
+    7.58,
+    16.32,
+    23.02,
+    32.47,
+    40.88,
+    48.56,
+    56.2,
+    61.15265306122449
+  ],
+  "starts": [
+    0,
+    8,
+    18,
+    28,
+    38,
+    47,
+    56,
+    65
+  ],
+  "playbackRate": 1,
+  "frames": 2100,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "narrativeHyenas": 10000,
+  "realInteractions": null,
+  "interactionMechanism": "Dinámica narrativa ficticia",
+  "music": "Composición, síntesis y efectos locales originales, sin muestras de terceros",
+  "approvedReferenceSha256": {
+    "public/imagenes/personajes/01_neutral.png": "e9d71d28f4e6dd744f9e5985c1e9632052c0cf5d842c6230bd23fb22dc7a8410",
+    "public/imagenes/escenarios/03_sala.png": "d203b3f86034ab07a11248553e1e50531483991bb6aa15b6c6fcafa342682d9d"
+  },
+  "rigging": "Partes anatómicas con máscaras de la misma ilustración; transformaciones de cabeza, brazos, patas, cola; poses de marcha de 8 fases para multitudes lejanas."
+}
