@@ -1,8 +1,39 @@
 {
   "revision": 2,
-  "status": "full export in progress",
+  "status": "exported and verified; external delivery awaiting permission",
+  "export": {
+    "technical": "passed",
+    "voiceRhythm": {
+      "maximumPauseSeconds": 0.982542,
+      "pausesLongerThan1_15Seconds": 0,
+      "originalPcmPreserved": true,
+      "voicePlaybackRate": 1
+    },
+    "durationSeconds": 70.0,
+    "frames": 2100,
+    "video": {
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 1080,
+      "height": 1920,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "30/1",
+      "nb_frames": "2100"
+    },
+    "audio": {
+      "codec_name": "aac",
+      "codec_type": "audio",
+      "sample_rate": "48000",
+      "r_frame_rate": "0/0",
+      "nb_frames": "3283"
+    },
+    "storyboardRecords": 70,
+    "captionWords": 145,
+    "existingEpisodesAndIllustrations": "unchanged",
+    "sha256": "8d7b6cc46a2a96bd4545cffd715a30fa302c8e0247e973e4722933174e7f67af"
+  },
   "voiceRhythm": {
-    "maximumMeasuredPauseSeconds": 0.982896,
+    "maximumMeasuredPauseSeconds": 0.982542,
     "pausesLongerThan1_15Seconds": 0,
     "previousMaximumPauseSeconds": 2.858,
     "previousPausesLongerThan1_15Seconds": 4,
@@ -11,18 +42,711 @@
   },
   "checks": {
     "typescript": "passed",
+    "fullVideoDecode": "140 samples decoded from complete export",
     "preview15Seconds": "rendered and inspected",
     "captions": "145 words retimed",
-    "animation": "continuous visual clock anchored to actual speech"
+    "animation": "continuous visual clock anchored to actual speech",
+    "previousEpisodesAndIllustrations": "unchanged"
   },
-  "sceneBoundariesSeconds": [
-    0.0,
-    8.766666666666667,
-    17.133333333333333,
-    28.1,
-    37.9,
-    46.53333333333333,
-    57.96666666666667,
-    70.0
+  "motionMeasurements": [
+    {
+      "fromSeconds": 0.25,
+      "toSeconds": 0.75,
+      "meanAbsolutePixelDifference": 11.2031
+    },
+    {
+      "fromSeconds": 0.75,
+      "toSeconds": 1.25,
+      "meanAbsolutePixelDifference": 14.0608
+    },
+    {
+      "fromSeconds": 1.25,
+      "toSeconds": 1.75,
+      "meanAbsolutePixelDifference": 11.2009
+    },
+    {
+      "fromSeconds": 1.75,
+      "toSeconds": 2.25,
+      "meanAbsolutePixelDifference": 11.6618
+    },
+    {
+      "fromSeconds": 2.25,
+      "toSeconds": 2.75,
+      "meanAbsolutePixelDifference": 16.9752
+    },
+    {
+      "fromSeconds": 2.75,
+      "toSeconds": 3.25,
+      "meanAbsolutePixelDifference": 5.624
+    },
+    {
+      "fromSeconds": 3.25,
+      "toSeconds": 3.75,
+      "meanAbsolutePixelDifference": 6.0378
+    },
+    {
+      "fromSeconds": 3.75,
+      "toSeconds": 4.25,
+      "meanAbsolutePixelDifference": 7.1421
+    },
+    {
+      "fromSeconds": 4.25,
+      "toSeconds": 4.75,
+      "meanAbsolutePixelDifference": 14.7698
+    },
+    {
+      "fromSeconds": 4.75,
+      "toSeconds": 5.25,
+      "meanAbsolutePixelDifference": 13.9863
+    },
+    {
+      "fromSeconds": 5.25,
+      "toSeconds": 5.75,
+      "meanAbsolutePixelDifference": 9.5369
+    },
+    {
+      "fromSeconds": 5.75,
+      "toSeconds": 6.25,
+      "meanAbsolutePixelDifference": 10.6708
+    },
+    {
+      "fromSeconds": 6.25,
+      "toSeconds": 6.75,
+      "meanAbsolutePixelDifference": 10.0946
+    },
+    {
+      "fromSeconds": 6.75,
+      "toSeconds": 7.25,
+      "meanAbsolutePixelDifference": 9.0962
+    },
+    {
+      "fromSeconds": 7.25,
+      "toSeconds": 7.75,
+      "meanAbsolutePixelDifference": 7.9241
+    },
+    {
+      "fromSeconds": 7.75,
+      "toSeconds": 8.25,
+      "meanAbsolutePixelDifference": 7.5618
+    },
+    {
+      "fromSeconds": 8.25,
+      "toSeconds": 8.75,
+      "meanAbsolutePixelDifference": 7.2722
+    },
+    {
+      "fromSeconds": 8.75,
+      "toSeconds": 9.25,
+      "meanAbsolutePixelDifference": 117.1282
+    },
+    {
+      "fromSeconds": 9.25,
+      "toSeconds": 9.75,
+      "meanAbsolutePixelDifference": 13.7436
+    },
+    {
+      "fromSeconds": 9.75,
+      "toSeconds": 10.25,
+      "meanAbsolutePixelDifference": 21.4968
+    },
+    {
+      "fromSeconds": 10.25,
+      "toSeconds": 10.75,
+      "meanAbsolutePixelDifference": 83.9648
+    },
+    {
+      "fromSeconds": 10.75,
+      "toSeconds": 11.25,
+      "meanAbsolutePixelDifference": 26.061
+    },
+    {
+      "fromSeconds": 11.25,
+      "toSeconds": 11.75,
+      "meanAbsolutePixelDifference": 0.7038
+    },
+    {
+      "fromSeconds": 11.75,
+      "toSeconds": 12.25,
+      "meanAbsolutePixelDifference": 1.112
+    },
+    {
+      "fromSeconds": 12.25,
+      "toSeconds": 12.75,
+      "meanAbsolutePixelDifference": 21.3325
+    },
+    {
+      "fromSeconds": 12.75,
+      "toSeconds": 13.25,
+      "meanAbsolutePixelDifference": 22.1593
+    },
+    {
+      "fromSeconds": 13.25,
+      "toSeconds": 13.75,
+      "meanAbsolutePixelDifference": 12.1019
+    },
+    {
+      "fromSeconds": 13.75,
+      "toSeconds": 14.25,
+      "meanAbsolutePixelDifference": 0.2808
+    },
+    {
+      "fromSeconds": 14.25,
+      "toSeconds": 14.75,
+      "meanAbsolutePixelDifference": 0.4402
+    },
+    {
+      "fromSeconds": 14.75,
+      "toSeconds": 15.25,
+      "meanAbsolutePixelDifference": 9.222
+    },
+    {
+      "fromSeconds": 15.25,
+      "toSeconds": 15.75,
+      "meanAbsolutePixelDifference": 20.3952
+    },
+    {
+      "fromSeconds": 15.75,
+      "toSeconds": 16.25,
+      "meanAbsolutePixelDifference": 3.2618
+    },
+    {
+      "fromSeconds": 16.25,
+      "toSeconds": 16.75,
+      "meanAbsolutePixelDifference": 4.8118
+    },
+    {
+      "fromSeconds": 16.75,
+      "toSeconds": 17.25,
+      "meanAbsolutePixelDifference": 70.0402
+    },
+    {
+      "fromSeconds": 17.25,
+      "toSeconds": 17.75,
+      "meanAbsolutePixelDifference": 100.3457
+    },
+    {
+      "fromSeconds": 17.75,
+      "toSeconds": 18.25,
+      "meanAbsolutePixelDifference": 57.5875
+    },
+    {
+      "fromSeconds": 18.25,
+      "toSeconds": 18.75,
+      "meanAbsolutePixelDifference": 52.0562
+    },
+    {
+      "fromSeconds": 18.75,
+      "toSeconds": 19.25,
+      "meanAbsolutePixelDifference": 49.8034
+    },
+    {
+      "fromSeconds": 19.25,
+      "toSeconds": 19.75,
+      "meanAbsolutePixelDifference": 114.8245
+    },
+    {
+      "fromSeconds": 19.75,
+      "toSeconds": 20.25,
+      "meanAbsolutePixelDifference": 0.6095
+    },
+    {
+      "fromSeconds": 20.25,
+      "toSeconds": 20.75,
+      "meanAbsolutePixelDifference": 1.3089
+    },
+    {
+      "fromSeconds": 20.75,
+      "toSeconds": 21.25,
+      "meanAbsolutePixelDifference": 0.7613
+    },
+    {
+      "fromSeconds": 21.25,
+      "toSeconds": 21.75,
+      "meanAbsolutePixelDifference": 14.3632
+    },
+    {
+      "fromSeconds": 21.75,
+      "toSeconds": 22.25,
+      "meanAbsolutePixelDifference": 20.5893
+    },
+    {
+      "fromSeconds": 22.25,
+      "toSeconds": 22.75,
+      "meanAbsolutePixelDifference": 18.4868
+    },
+    {
+      "fromSeconds": 22.75,
+      "toSeconds": 23.25,
+      "meanAbsolutePixelDifference": 5.3631
+    },
+    {
+      "fromSeconds": 23.25,
+      "toSeconds": 23.75,
+      "meanAbsolutePixelDifference": 3.732
+    },
+    {
+      "fromSeconds": 23.75,
+      "toSeconds": 24.25,
+      "meanAbsolutePixelDifference": 6.1919
+    },
+    {
+      "fromSeconds": 24.25,
+      "toSeconds": 24.75,
+      "meanAbsolutePixelDifference": 7.2807
+    },
+    {
+      "fromSeconds": 24.75,
+      "toSeconds": 25.25,
+      "meanAbsolutePixelDifference": 9.4593
+    },
+    {
+      "fromSeconds": 25.25,
+      "toSeconds": 25.75,
+      "meanAbsolutePixelDifference": 9.317
+    },
+    {
+      "fromSeconds": 25.75,
+      "toSeconds": 26.25,
+      "meanAbsolutePixelDifference": 9.0803
+    },
+    {
+      "fromSeconds": 26.25,
+      "toSeconds": 26.75,
+      "meanAbsolutePixelDifference": 6.1141
+    },
+    {
+      "fromSeconds": 26.75,
+      "toSeconds": 27.25,
+      "meanAbsolutePixelDifference": 0.99
+    },
+    {
+      "fromSeconds": 27.25,
+      "toSeconds": 27.75,
+      "meanAbsolutePixelDifference": 21.2199
+    },
+    {
+      "fromSeconds": 27.75,
+      "toSeconds": 28.25,
+      "meanAbsolutePixelDifference": 28.0498
+    },
+    {
+      "fromSeconds": 28.25,
+      "toSeconds": 28.75,
+      "meanAbsolutePixelDifference": 8.7808
+    },
+    {
+      "fromSeconds": 28.75,
+      "toSeconds": 29.25,
+      "meanAbsolutePixelDifference": 5.9491
+    },
+    {
+      "fromSeconds": 29.25,
+      "toSeconds": 29.75,
+      "meanAbsolutePixelDifference": 5.4635
+    },
+    {
+      "fromSeconds": 29.75,
+      "toSeconds": 30.25,
+      "meanAbsolutePixelDifference": 6.8208
+    },
+    {
+      "fromSeconds": 30.25,
+      "toSeconds": 30.75,
+      "meanAbsolutePixelDifference": 6.7873
+    },
+    {
+      "fromSeconds": 30.75,
+      "toSeconds": 31.25,
+      "meanAbsolutePixelDifference": 5.9066
+    },
+    {
+      "fromSeconds": 31.25,
+      "toSeconds": 31.75,
+      "meanAbsolutePixelDifference": 7.4319
+    },
+    {
+      "fromSeconds": 31.75,
+      "toSeconds": 32.25,
+      "meanAbsolutePixelDifference": 8.8005
+    },
+    {
+      "fromSeconds": 32.25,
+      "toSeconds": 32.75,
+      "meanAbsolutePixelDifference": 15.8533
+    },
+    {
+      "fromSeconds": 32.75,
+      "toSeconds": 33.25,
+      "meanAbsolutePixelDifference": 31.1588
+    },
+    {
+      "fromSeconds": 33.25,
+      "toSeconds": 33.75,
+      "meanAbsolutePixelDifference": 1.6741
+    },
+    {
+      "fromSeconds": 33.75,
+      "toSeconds": 34.25,
+      "meanAbsolutePixelDifference": 4.7819
+    },
+    {
+      "fromSeconds": 34.25,
+      "toSeconds": 34.75,
+      "meanAbsolutePixelDifference": 1.8426
+    },
+    {
+      "fromSeconds": 34.75,
+      "toSeconds": 35.25,
+      "meanAbsolutePixelDifference": 1.6682
+    },
+    {
+      "fromSeconds": 35.25,
+      "toSeconds": 35.75,
+      "meanAbsolutePixelDifference": 1.6613
+    },
+    {
+      "fromSeconds": 35.75,
+      "toSeconds": 36.25,
+      "meanAbsolutePixelDifference": 21.5942
+    },
+    {
+      "fromSeconds": 36.25,
+      "toSeconds": 36.75,
+      "meanAbsolutePixelDifference": 15.7287
+    },
+    {
+      "fromSeconds": 36.75,
+      "toSeconds": 37.25,
+      "meanAbsolutePixelDifference": 2.3426
+    },
+    {
+      "fromSeconds": 37.25,
+      "toSeconds": 37.75,
+      "meanAbsolutePixelDifference": 1.0903
+    },
+    {
+      "fromSeconds": 37.75,
+      "toSeconds": 38.25,
+      "meanAbsolutePixelDifference": 33.9343
+    },
+    {
+      "fromSeconds": 38.25,
+      "toSeconds": 38.75,
+      "meanAbsolutePixelDifference": 2.2406
+    },
+    {
+      "fromSeconds": 38.75,
+      "toSeconds": 39.25,
+      "meanAbsolutePixelDifference": 27.8907
+    },
+    {
+      "fromSeconds": 39.25,
+      "toSeconds": 39.75,
+      "meanAbsolutePixelDifference": 8.9216
+    },
+    {
+      "fromSeconds": 39.75,
+      "toSeconds": 40.25,
+      "meanAbsolutePixelDifference": 8.6001
+    },
+    {
+      "fromSeconds": 40.25,
+      "toSeconds": 40.75,
+      "meanAbsolutePixelDifference": 8.6856
+    },
+    {
+      "fromSeconds": 40.75,
+      "toSeconds": 41.25,
+      "meanAbsolutePixelDifference": 6.9161
+    },
+    {
+      "fromSeconds": 41.25,
+      "toSeconds": 41.75,
+      "meanAbsolutePixelDifference": 7.4701
+    },
+    {
+      "fromSeconds": 41.75,
+      "toSeconds": 42.25,
+      "meanAbsolutePixelDifference": 9.1215
+    },
+    {
+      "fromSeconds": 42.25,
+      "toSeconds": 42.75,
+      "meanAbsolutePixelDifference": 12.9921
+    },
+    {
+      "fromSeconds": 42.75,
+      "toSeconds": 43.25,
+      "meanAbsolutePixelDifference": 12.1357
+    },
+    {
+      "fromSeconds": 43.25,
+      "toSeconds": 43.75,
+      "meanAbsolutePixelDifference": 15.5423
+    },
+    {
+      "fromSeconds": 43.75,
+      "toSeconds": 44.25,
+      "meanAbsolutePixelDifference": 11.6265
+    },
+    {
+      "fromSeconds": 44.25,
+      "toSeconds": 44.75,
+      "meanAbsolutePixelDifference": 12.14
+    },
+    {
+      "fromSeconds": 44.75,
+      "toSeconds": 45.25,
+      "meanAbsolutePixelDifference": 14.864
+    },
+    {
+      "fromSeconds": 45.25,
+      "toSeconds": 45.75,
+      "meanAbsolutePixelDifference": 18.8442
+    },
+    {
+      "fromSeconds": 45.75,
+      "toSeconds": 46.25,
+      "meanAbsolutePixelDifference": 60.2706
+    },
+    {
+      "fromSeconds": 46.25,
+      "toSeconds": 46.75,
+      "meanAbsolutePixelDifference": 101.7927
+    },
+    {
+      "fromSeconds": 46.75,
+      "toSeconds": 47.25,
+      "meanAbsolutePixelDifference": 49.48
+    },
+    {
+      "fromSeconds": 47.25,
+      "toSeconds": 47.75,
+      "meanAbsolutePixelDifference": 1.8963
+    },
+    {
+      "fromSeconds": 47.75,
+      "toSeconds": 48.25,
+      "meanAbsolutePixelDifference": 2.7253
+    },
+    {
+      "fromSeconds": 48.25,
+      "toSeconds": 48.75,
+      "meanAbsolutePixelDifference": 9.3179
+    },
+    {
+      "fromSeconds": 48.75,
+      "toSeconds": 49.25,
+      "meanAbsolutePixelDifference": 7.5869
+    },
+    {
+      "fromSeconds": 49.25,
+      "toSeconds": 49.75,
+      "meanAbsolutePixelDifference": 6.4139
+    },
+    {
+      "fromSeconds": 49.75,
+      "toSeconds": 50.25,
+      "meanAbsolutePixelDifference": 12.3106
+    },
+    {
+      "fromSeconds": 50.25,
+      "toSeconds": 50.75,
+      "meanAbsolutePixelDifference": 2.1852
+    },
+    {
+      "fromSeconds": 50.75,
+      "toSeconds": 51.25,
+      "meanAbsolutePixelDifference": 2.8479
+    },
+    {
+      "fromSeconds": 51.25,
+      "toSeconds": 51.75,
+      "meanAbsolutePixelDifference": 2.5962
+    },
+    {
+      "fromSeconds": 51.75,
+      "toSeconds": 52.25,
+      "meanAbsolutePixelDifference": 29.8565
+    },
+    {
+      "fromSeconds": 52.25,
+      "toSeconds": 52.75,
+      "meanAbsolutePixelDifference": 11.1508
+    },
+    {
+      "fromSeconds": 52.75,
+      "toSeconds": 53.25,
+      "meanAbsolutePixelDifference": 27.1452
+    },
+    {
+      "fromSeconds": 53.25,
+      "toSeconds": 53.75,
+      "meanAbsolutePixelDifference": 20.9163
+    },
+    {
+      "fromSeconds": 53.75,
+      "toSeconds": 54.25,
+      "meanAbsolutePixelDifference": 41.8116
+    },
+    {
+      "fromSeconds": 54.25,
+      "toSeconds": 54.75,
+      "meanAbsolutePixelDifference": 8.2408
+    },
+    {
+      "fromSeconds": 54.75,
+      "toSeconds": 55.25,
+      "meanAbsolutePixelDifference": 5.4788
+    },
+    {
+      "fromSeconds": 55.25,
+      "toSeconds": 55.75,
+      "meanAbsolutePixelDifference": 20.7164
+    },
+    {
+      "fromSeconds": 55.75,
+      "toSeconds": 56.25,
+      "meanAbsolutePixelDifference": 15.5092
+    },
+    {
+      "fromSeconds": 56.25,
+      "toSeconds": 56.75,
+      "meanAbsolutePixelDifference": 15.7125
+    },
+    {
+      "fromSeconds": 56.75,
+      "toSeconds": 57.25,
+      "meanAbsolutePixelDifference": 15.6804
+    },
+    {
+      "fromSeconds": 57.25,
+      "toSeconds": 57.75,
+      "meanAbsolutePixelDifference": 8.8719
+    },
+    {
+      "fromSeconds": 57.75,
+      "toSeconds": 58.25,
+      "meanAbsolutePixelDifference": 7.4997
+    },
+    {
+      "fromSeconds": 58.25,
+      "toSeconds": 58.75,
+      "meanAbsolutePixelDifference": 6.8932
+    },
+    {
+      "fromSeconds": 58.75,
+      "toSeconds": 59.25,
+      "meanAbsolutePixelDifference": 37.2597
+    },
+    {
+      "fromSeconds": 59.25,
+      "toSeconds": 59.75,
+      "meanAbsolutePixelDifference": 76.1954
+    },
+    {
+      "fromSeconds": 59.75,
+      "toSeconds": 60.25,
+      "meanAbsolutePixelDifference": 7.2865
+    },
+    {
+      "fromSeconds": 60.25,
+      "toSeconds": 60.75,
+      "meanAbsolutePixelDifference": 8.1039
+    },
+    {
+      "fromSeconds": 60.75,
+      "toSeconds": 61.25,
+      "meanAbsolutePixelDifference": 6.3529
+    },
+    {
+      "fromSeconds": 61.25,
+      "toSeconds": 61.75,
+      "meanAbsolutePixelDifference": 6.3341
+    },
+    {
+      "fromSeconds": 61.75,
+      "toSeconds": 62.25,
+      "meanAbsolutePixelDifference": 8.8068
+    },
+    {
+      "fromSeconds": 62.25,
+      "toSeconds": 62.75,
+      "meanAbsolutePixelDifference": 11.1841
+    },
+    {
+      "fromSeconds": 62.75,
+      "toSeconds": 63.25,
+      "meanAbsolutePixelDifference": 17.7513
+    },
+    {
+      "fromSeconds": 63.25,
+      "toSeconds": 63.75,
+      "meanAbsolutePixelDifference": 23.8156
+    },
+    {
+      "fromSeconds": 63.75,
+      "toSeconds": 64.25,
+      "meanAbsolutePixelDifference": 17.5026
+    },
+    {
+      "fromSeconds": 64.25,
+      "toSeconds": 64.75,
+      "meanAbsolutePixelDifference": 7.6729
+    },
+    {
+      "fromSeconds": 64.75,
+      "toSeconds": 65.25,
+      "meanAbsolutePixelDifference": 7.844
+    },
+    {
+      "fromSeconds": 65.25,
+      "toSeconds": 65.75,
+      "meanAbsolutePixelDifference": 6.0869
+    },
+    {
+      "fromSeconds": 65.75,
+      "toSeconds": 66.25,
+      "meanAbsolutePixelDifference": 9.1433
+    },
+    {
+      "fromSeconds": 66.25,
+      "toSeconds": 66.75,
+      "meanAbsolutePixelDifference": 9.7443
+    },
+    {
+      "fromSeconds": 66.75,
+      "toSeconds": 67.25,
+      "meanAbsolutePixelDifference": 7.0587
+    },
+    {
+      "fromSeconds": 67.25,
+      "toSeconds": 67.75,
+      "meanAbsolutePixelDifference": 6.1808
+    },
+    {
+      "fromSeconds": 67.75,
+      "toSeconds": 68.25,
+      "meanAbsolutePixelDifference": 5.9243
+    },
+    {
+      "fromSeconds": 68.25,
+      "toSeconds": 68.75,
+      "meanAbsolutePixelDifference": 9.3883
+    },
+    {
+      "fromSeconds": 68.75,
+      "toSeconds": 69.25,
+      "meanAbsolutePixelDifference": 9.4566
+    },
+    {
+      "fromSeconds": 69.25,
+      "toSeconds": 69.75,
+      "meanAbsolutePixelDifference": 10.926
+    }
+  ],
+  "limitations": [
+    "The measurement is based on the isolated narration; naturalness and artistic quality still require listening/viewing.",
+    "The revised file has not been uploaded to Higgsfield because automatic approval review requires explicit permission for this revised payload."
   ]
 }
